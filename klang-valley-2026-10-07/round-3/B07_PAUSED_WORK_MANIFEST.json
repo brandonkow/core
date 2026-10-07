@@ -1,0 +1,81 @@
+{
+  "status": "Paused; preservation of pre-pause Working 01 only",
+  "originalSource": "ca6f5581dfa5ad324b32972b449ff186ca6157d6",
+  "files": [
+    {
+      "path": "klang-valley-2026-10-07/round-3/B07_Working_Inputs.json",
+      "sha": "8280e1be6552b2725f317f4331720e72c12c207a",
+      "sha256": "a49c48155c00ecbe99595dcadba03fb68a8e176810c651420efeee5522c6de41",
+      "bytes": 29327
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B07_Working_Scenario_Builder.py",
+      "sha": "b7577ea13b7de352ee40a8bae23d45387c583887",
+      "sha256": "f8bd5f3c45f69cb8e21580d2bb919435c1eeafc2d391973b73239464fca43079",
+      "bytes": 5352
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B07_Working_Evidence.json",
+      "sha": "1b918545a1a586803a9277f2e805f8863391fde7",
+      "sha256": "a2d5aba0fe9499c278e2d6416fae48a0fbbd3cb4c9b31ab23f1f4818d7b640b4",
+      "bytes": 20619
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B07_Working_Search_Log.json",
+      "sha": "25433b86d6943bfb3a0078e0b049592f58768846",
+      "sha256": "5f0d3581eab52bbdbb1d4db09475718ee10f2ab36efdb44581a2e9e8cb032143",
+      "bytes": 87376
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B07_Working_01.md",
+      "sha": "fc8362770c1e0361db905e3006d07ecc9efa45d5",
+      "sha256": "5af4cae66d491758ebec4303fe85d2130e53d560ceb70bd279f491d762e27f79",
+      "bytes": 11577
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "sha": "8471c0dbc576154b2dc2714982e6ca522946df0f",
+      "sha256": "cf5a80b19be15aeb8f5cd2dd750244f7a8ef7a5e1166a10440991d5320007bc5",
+      "bytes": 46690
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B07_Working_Regional_Map.md",
+      "sha": "e500219f932614edac2e7c0bc1b84c432c001219",
+      "sha256": "aab31f09d256cb1b0eb8ad64541c4220b7c7b87ef0692124e662992a8ef7d4ac",
+      "bytes": 13415
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B07_Working_Divergence_and_Misses.md",
+      "sha": "b50e82326f6274eae029f063ce93bbce7d1a9379",
+      "sha256": "42bf001f9c054c88738d6d2326a3b420df50be8ec35c90831773c0ab7f0ed476",
+      "bytes": 12600
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B07_WORKING_RESUME_CHECKPOINT.md",
+      "sha": "91c240b6518c780fd4221181166e18cd68b2aef1",
+      "sha256": "5588a61c1fab481bb45578fc72a86e992f9737c9d8de6740dfaa9c9b77af7e06",
+      "bytes": 3255
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B07_Working_Financial_Results.json",
+      "sha": "f9a0aacfc9bc0f425baf00c7c7b789dcc972bec0",
+      "sha256": "d06febaaa8f18bf3f35b4bb2ab08c82c755e28832b93df357497671462f185b3",
+      "bytes": 5480517
+    }
+  ],
+  "prepublicationVerification": {
+    "checks": "PASS",
+    "parent": "ca6f5581dfa5ad324b32972b449ff186ca6157d6",
+    "covered_files": 10,
+    "inherited_cases_preserved": 9,
+    "cases": 19,
+    "evaluations": 275,
+    "pair_paths": 171,
+    "rank_cells": 63,
+    "threshold_controls": 2,
+    "master_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+    "preexisting_blobs": 567,
+    "financial_rebuild": "exact JSON equality",
+    "current_status": "B07 working; zero new catchment closeouts; zero Deploy"
+  }
+}

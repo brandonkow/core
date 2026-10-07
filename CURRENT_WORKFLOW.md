@@ -1,5 +1,7 @@
 # Current workflow and continuation
 
+> Current status — 7 October 2026: underwriting was paused by the user for neural-map verification. The [map](https://brandonkow.github.io/core/) is now verified and deployed; see the [live receipt](delivery/Neural_Map_Live_Verification_2026-10-07.md). Read [B07 pause and continuation record](klang-valley-2026-10-07/round-3/B07_PAUSE_FOR_MAP_2026-10-07.md) before the earlier working checkpoint. The pre-pause Working 01 packet is preserved without new research or catchment closeouts. This notice supersedes active-goal wording below; the earlier queue remains the continuation plan.
+
 Updated: 7 October 2026. Canonical project repository: https://github.com/brandonkow/core.
 
 ## Latest user instruction

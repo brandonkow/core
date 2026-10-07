@@ -1,0 +1,421 @@
+{
+  "version": "B07-WORKING-01",
+  "cutoff": "2026-10-07",
+  "boundary": "Original analytical summaries of public text/search snapshots. No property viewing, photo/video inspection, management authentication, paid records or achieved-lease verification.",
+  "claims": [
+    {
+      "id": "E01",
+      "scope": "R338",
+      "source_date": "2026 search snapshot; opened7Oct",
+      "retrieved": "2026-10-07",
+      "url": "https://www.mudah.my/100-loan-cash-back-free-mot-kinrara-mas-bukit-jalil-pavilion-2-bk-114233187.htm",
+      "observed": "Sale ad:328k,1091sf,3/2,one covered bay. Images expressly illustrative. Promotional finance not an approved offer.",
+      "boundary": "Direct ad; net consideration, exact parcel and condition unknown."
+    },
+    {
+      "id": "E02",
+      "scope": "R338",
+      "source_date": "Sep2 rental index; older1500 link redirected",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/condo-for-rent/at-kinrara-mas-165",
+      "observed": "1550/1091sf index has two bays. Older1500/1091sf Mudah115809649 link now redirects.1500 scenario retains that limitation.",
+      "boundary": "Index and stale ad; no achieved rent. Bay adjustment unbounded."
+    },
+    {
+      "id": "E03",
+      "scope": "R338",
+      "source_date": "Jul2025–May2026 reported window",
+      "retrieved": "2026-10-07",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/kinrara-mas/non-landed/condominium/",
+      "observed": "Search reports13 transfers,median385k; mixed sizes, masked particulars. Direct open403.",
+      "boundary": "Search snapshot only; no normalised clearing interval."
+    },
+    {
+      "id": "E04",
+      "scope": "R339",
+      "source_date": "3Sep2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.iproperty.com.my/bm/properti/puchong/the-wharf-residence/sale-501485595/",
+      "observed": "218k,560sf furnished,one bedroom plus store,one bay. Freehold header versus leasehold body.",
+      "boundary": "Direct ad identity/tenure conflict; no second-bedroom assumption."
+    },
+    {
+      "id": "E05",
+      "scope": "R339",
+      "source_date": "May–Jun2026 indexed asks",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/in-taman-tasik-prima-h374o/with-1-bedroom",
+      "observed": "560sf rental asks1000/1100/1200 observed on index; several individual links returned indexes.",
+      "boundary": "Older asking evidence; freshness, furnishings and availability unconfirmed."
+    },
+    {
+      "id": "E06",
+      "scope": "R340",
+      "source_date": "6Oct2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.iproperty.com.my/bm/properti/seri-kembangan/univ-360-place/sale-102359272/",
+      "observed": "459sf marketed studio:230k header,290k body,for-rent wording. FF advertised.",
+      "boundary": "Direct material contradiction; both price branches retained; quarantine."
+    },
+    {
+      "id": "E07",
+      "scope": "R340",
+      "source_date": "Broker updated1Mar2026; availabilityFeb2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.klcityproperties.com/property/fully-furnished-studio-condo-for-rent-at-univ360-place-upm-mrt-serdang/",
+      "observed": "487sf FF studio1350,one bay,12months,utilities excluded. Bus/noise statements are broker claims.",
+      "boundary": "Different area from459sf; no unit match, inspection or achieved lease."
+    },
+    {
+      "id": "E08",
+      "scope": "R341",
+      "source_date": "3Oct2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.iproperty.com.my/bm/properti/seri-kembangan/univ-360-place/sale-502194837/",
+      "observed": "320k,975sf,2+1,2bays; FF header/semi-furnished body.",
+      "boundary": "Direct ad; component, condition and bedroom approval unresolved."
+    },
+    {
+      "id": "E09",
+      "scope": "R341",
+      "source_date": "12Aug2026; available15Oct2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.iproperty.com.my/property/seri-kembangan/univ-360-place/rent-501896572/",
+      "observed": "1700,975sf,2+1/2BA,2bays,FF,one-year ask.",
+      "boundary": "Direct ad; future availability at cutoff; not immediate or achieved income."
+    },
+    {
+      "id": "E10",
+      "scope": "R342",
+      "source_date": "11Aug2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-avenue-untuk-dijual-oleh-sean-lo-501889164",
+      "observed": "450k,1021sf,3/2,one bay,original/unfurnished sale.",
+      "boundary": "Advertised purchase expression; no authenticated effective consideration."
+    },
+    {
+      "id": "E11",
+      "scope": "R342",
+      "source_date": "1Oct2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/property-listing/subang-avenue-for-rent-by-karen-ong-502007277",
+      "observed": "1021sf FF,3/2,one bay,one-year rent:2500 header versus2600 body.",
+      "boundary": "Two scenarios, neither achieved. Separate2400 ad502180783 also has furnishing conflict."
+    },
+    {
+      "id": "E12",
+      "scope": "R342",
+      "source_date": "Jul2026 listing",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-avenue-untuk-dijual-oleh-aqillah-razali-501642402",
+      "observed": "Different1021sf sale advertises323 maintenance and4BR/3BA.",
+      "boundary": "Fee proxy only; approved plan and charge allocation unknown."
+    },
+    {
+      "id": "E13",
+      "scope": "R342",
+      "source_date": "Jul2025–Jun2026 reported window",
+      "retrieved": "2026-10-07",
+      "url": "https://www.brickz.my/transactions/residential/selangor/subang-jaya/subang-avenue/non-landed/",
+      "observed": "Search reports12 transfers,median440k,IQR435–525k; direct open403.",
+      "boundary": "No dated condition/rights/size adjustment. Does not make450k fair value."
+    },
+    {
+      "id": "E14",
+      "scope": "R343",
+      "source_date": "2Oct2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/property-listing/suria-residence-for-sale-by-david-kok-502190237",
+      "observed": "476k,800sf,2/2,PF. Freehold and2018 completion are advertised.",
+      "boundary": "Direct ad; bay not confirmed, no exact charges or parcel."
+    },
+    {
+      "id": "E15",
+      "scope": "R343",
+      "source_date": "11Sep2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/suria-residence-untuk-disewa-oleh-farah-dina-501887044",
+      "observed": "1800,800sf,2/2,PF,one bay. Competing2000 ad42520580 has800sf header/1000sf body.",
+      "boundary": "1800 is matched-area asking control.2200 furnished index is an upside scenario, not achieved."
+    },
+    {
+      "id": "E16",
+      "scope": "R344",
+      "source_date": "25Sep2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.iproperty.com.my/bm/properti/setia-alam/seri-pinang/sale-501768201/",
+      "observed": "290k,850sf,3/2,fourth floor,lift,basic,2bays; freehold/non-Bumi/strata-ready claims.",
+      "boundary": "Direct ad. Eligibility, any scheme restrictions and true costs unverified."
+    },
+    {
+      "id": "E17",
+      "scope": "R344",
+      "source_date": "12Sep2026",
+      "retrieved": "2026-10-07",
+      "url": "https://houselist.net/property/80454",
+      "observed": "1200,850sf,3/2,2bays,PF,one air-conditioner. Earlier Mudah115578753 now redirects.",
+      "boundary": "Syndicated asking evidence; not independent lease. Upgrade difference priced only by allowance."
+    },
+    {
+      "id": "E18",
+      "scope": "R345",
+      "source_date": "21Sep2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-502121563/",
+      "observed": "600k,1066sf header/1065 body,3/2,FF,3bays. Advertiser claims3000 monthly rent.",
+      "boundary": "Direct ad; area, tenancy and bridge/walk claims unauthenticated."
+    },
+    {
+      "id": "E19",
+      "scope": "R345",
+      "source_date": "1Oct2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/property-listing/impiria-residensi-bukit-tinggi-klang-for-rent-by-pepsi-ang-501868171",
+      "observed": "1065sf,3/2,FF,3000 asking rent,one-year lease.",
+      "boundary": "Independent advertisement, not independent achieved tenancy or same unit."
+    },
+    {
+      "id": "E20",
+      "scope": "R345",
+      "source_date": "30Sep2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/property-listing/impiria-residensi-bukit-tinggi-klang-for-rent-by-lim-jeon-502178302",
+      "observed": "2100,1065sf,3/2,PF,2bays,multi-unit marketing.",
+      "boundary": "Lower replacement-income control; furnishing/bay differences not mechanically adjusted."
+    },
+    {
+      "id": "E21",
+      "scope": "R345",
+      "source_date": "May2026 cached ad;7Oct open redirected",
+      "retrieved": "2026-10-07",
+      "url": "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-501254363/",
+      "observed": "Older590k/1065sf ad claimed existing2500 tenancy; current open returned project index.",
+      "boundary": "Historical claim retained, not a live lease or current price. New600k expression stays separate."
+    },
+    {
+      "id": "E22",
+      "scope": "R346",
+      "source_date": "28Sep2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/property-listing/nadayu-801-for-sale-by-adam-lee-502158595",
+      "observed": "405k,1079sf,3/4,PF; generic multi-unit and auction wording.",
+      "boundary": "Sale basis, phase, restrictions and exact unit unresolved. Quarantine; no ordinary resale assumption."
+    },
+    {
+      "id": "E23",
+      "scope": "R346",
+      "source_date": "Search30Jun2026; open older2024/2025 snapshot",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/nadayu-801-untuk-disewa-oleh-ethan-chong-42448195",
+      "observed": "1079sf,3/4,2bays,1800 body/1900 search header; FF/PF contradiction.",
+      "boundary": "Version/freshness conflict.1800 is diagnostic scenario, not current achieved rent."
+    },
+    {
+      "id": "E24",
+      "scope": "R347",
+      "source_date": "30Sep2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/property-listing/bbk-condominium-for-sale-by-sky-lim-502178275",
+      "observed": "250k,1605sf,4/3,one bay,PF,leasehold advertised.",
+      "boundary": "Direct seller claim. Below-market label unsupported; photos not inspected."
+    },
+    {
+      "id": "E25",
+      "scope": "R347",
+      "source_date": "10Sep2026 individual;30Sep index repeat",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/property-listing/bbk-condominium-for-rent-by-sky-lim-502061079",
+      "observed": "1500,1605sf,4/3,one bay,PF,advertised by same agent as sale.",
+      "boundary": "Treat repeated index versions as one lineage; no achieved lease or absorption rate."
+    },
+    {
+      "id": "E26",
+      "scope": "A46",
+      "source_date": "Current developer offer;2024 release context",
+      "retrieved": "2026-10-07",
+      "url": "https://www.ioiproperties.com.my/bandar-puteri-puchong-puchong-jaya/2rio-residence",
+      "observed": "632 serviced apartments; advertised from605k. Separate Puteri new-stock choice.",
+      "boundary": "Primary marketing, not net SPA or verified completion/occupancy."
+    },
+    {
+      "id": "E27",
+      "scope": "A47/B07-T01",
+      "source_date": "Current APDL; expectedJun2028",
+      "retrieved": "2026-10-07",
+      "url": "https://shoreapark.com.my/nara-registration-1/",
+      "observed": "NARA709units; project price floor250k; marketed560sf1+1 type; expectedJun2028.",
+      "boundary": "Primary permit disclosure, not selected250k layout/availability or achieved rent."
+    },
+    {
+      "id": "E28",
+      "scope": "A47",
+      "source_date": "2Nov2024 announcement",
+      "retrieved": "2026-10-07",
+      "url": "https://www.oskgroup.com/osk-property-launches-nara-at-shorea-park-with-an-exciting-weekend-celebration/",
+      "observed": "MIRA completedJul2024; ANYA750 and NARA709 are separate phases. Historical take-up not occupancy.",
+      "boundary": "Dated primary lifecycle statement; no double counting later tower tranches."
+    },
+    {
+      "id": "E29",
+      "scope": "A48",
+      "source_date": "2018 guide; design profile undated",
+      "retrieved": "2026-10-07",
+      "url": "https://els.edu.my/sites/default/files/media/document/2023-10/ELS-UPM-Housing-2018-May.pdf",
+      "observed": "Old institutional guide names D-SOFO; extracted PDF text weak. Designer project list also labels Univ360 SOFO.",
+      "boundary": "Component identity warning, not a present legal-use ruling for every parcel."
+    },
+    {
+      "id": "E30",
+      "scope": "A49",
+      "source_date": "2025 rate guide only",
+      "retrieved": "2026-10-07",
+      "url": "https://residence.sunwayhouse.com.my/wp-content/uploads/2024/11/Residence-Pricing-Structure-Guide-2025.pdf",
+      "observed": "University-linked beds/rooms and studio accommodation are differentiated priced substitutes.",
+      "boundary": "Historical official rates; no2026 occupancy claim or room rents summed into whole-unit income."
+    },
+    {
+      "id": "E31",
+      "scope": "A50",
+      "source_date": "Official page retrieved7Oct2026",
+      "retrieved": "2026-10-07",
+      "url": "https://university.help.edu.my/campus-life/accommodation/",
+      "observed": "HELP lists nearby Ora Home and HostelPro housing, some with campus shuttle; includes Nadayu801.",
+      "boundary": "Primary accommodation menu, not private-unit take-up or renewed operator lease."
+    },
+    {
+      "id": "E32",
+      "scope": "A50",
+      "source_date": "Current sale; profiles historical",
+      "retrieved": "2026-10-07",
+      "url": "https://www.mudah.my/seri-galaksi-subang-bestari-tkt-1-115729314.htm",
+      "observed": "258k/850sf3BR ad,first floor,lift,one bay. Profile identifies seven-storey stock; Seri Bintang is five-storey walk-up.",
+      "boundary": "Neighbouring lower-rise substitute; not force-counted as high-rise candidate.350k transaction reference remains unverified."
+    },
+    {
+      "id": "E33",
+      "scope": "A50/A60",
+      "source_date": "5Oct2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-bestari-untuk-disewa-oleh-nazrin-affendy-502200644",
+      "observed": "Subang Bestari header1390; body Habitus Denai128,451sf,1400.",
+      "boundary": "Geographic/component contamination: crosslink A60, not independent A50 compact coverage."
+    },
+    {
+      "id": "E34",
+      "scope": "A51",
+      "source_date": "Guide retrieved7Oct2026; campus moved2015",
+      "retrieved": "2026-10-07",
+      "url": "https://www.uow.edu.my/pdf/Student-Life-Accommodation-Guide",
+      "observed": "Official accommodation guide establishes institutional competition at Glenmarie.",
+      "boundary": "No current realised lease/occupancy or transferred Penang rates; text extraction only."
+    },
+    {
+      "id": "E35",
+      "scope": "A51/B07-T02",
+      "source_date": "Current APDL; expectedJun2028",
+      "retrieved": "2026-10-07",
+      "url": "https://moripark.com.my/tamu/",
+      "observed": "TAMU812 serviced apartments,203compact/609family,from270k,leasehold; expectedJun2028.",
+      "boundary": "Primary phase disclosure; do not combine with separate BAYU841SA/187flexi as duplicate TAMU units."
+    },
+    {
+      "id": "E36",
+      "scope": "A51/A53",
+      "source_date": "2026 operator;June30 report",
+      "retrieved": "2026-10-07",
+      "url": "https://www.prasarana.com.my/rapid-rail/",
+      "observed": "Operator confirms Shah Alam Line operations began2026.",
+      "boundary": "Delivered network is not measured door-to-door usefulness or rent uplift."
+    },
+    {
+      "id": "E37",
+      "scope": "A52",
+      "source_date": "28Aug2025 release",
+      "retrieved": "2026-10-07",
+      "url": "https://cdn01.sunsuria.com/EN_Press_Release_Sunsuria_FY_2025_Q3_Announcement_8456840426.pdf",
+      "observed": "Forum SOHO/Residential Suites completedFY2024; Corporate Suites handed overJun2025.",
+      "boundary": "Primary component chronology; office handover not additional residential completion."
+    },
+    {
+      "id": "E38",
+      "scope": "A52",
+      "source_date": "Developer page retrieved7Oct2026",
+      "retrieved": "2026-10-07",
+      "url": "https://www.simedarbyproperty.com/bandar-bukit-raja/industrial-park/",
+      "observed": "Industrial/logistics investment and employers form a distinct Bukit Raja demand context.",
+      "boundary": "Capital investment and factory land sales are not resident headcount, household wages or condo absorption."
+    },
+    {
+      "id": "E39",
+      "scope": "R347",
+      "source_date": "26Mar2026 bank schedule",
+      "retrieved": "2026-10-07",
+      "url": "https://www.pbebank.com/media/p2slri1f/list-of-prop-26-mar-2026.pdf",
+      "observed": "Search lists another1605sf BBK unit2A-5-6,300k reserve,lease expiry9May2093; direct PDF open failed.",
+      "boundary": "Different parcel and reserve, not transacted value or R347 title. Legal/loan terms remain unverified."
+    },
+    {
+      "id": "E40",
+      "scope": "A53",
+      "source_date": "Current developer project page",
+      "retrieved": "2026-10-07",
+      "url": "https://www.gravit8.com.my/riva/",
+      "observed": "Riva comprises parkhomes, serviced apartments and retail within Gravit8.",
+      "boundary": "Primary phase/component existence; current CCC/delivery not verified. No automatic rent growth for Nordica."
+    },
+    {
+      "id": "E41",
+      "scope": "R347",
+      "source_date": "Search shows certificate29Sep2023–29Sep2026; current pagination changed",
+      "retrieved": "2026-10-07",
+      "url": "https://jtksm.gov.my/en/services/employees-housing-accommodations-and-amenities/list-worker-accommodation-centers?page=62",
+      "observed": "Official-domain search snapshot mentioned BBK accommodation; current page no longer reliably locates that record.",
+      "boundary": "Unresolved historical lead only; no current certificate, occupancy pattern, breach or building-wide quality inference."
+    },
+    {
+      "id": "E42",
+      "scope": "A49",
+      "source_date": "8May2026",
+      "retrieved": "2026-10-07",
+      "url": "https://hckgroup.my/hck-capital-group-wins-urban-renewal-award-at-starproperty-awards-2026-for-transforming-remix-2-into-edumetro/",
+      "observed": "Developer reports edumetro regeneration award.",
+      "boundary": "Award does not verify CCC, absorption, operating quality or rent uplift."
+    },
+    {
+      "id": "E43",
+      "scope": "A48",
+      "source_date": "Undated historical project list",
+      "retrieved": "2026-10-07",
+      "url": "https://engkydesign.com.my/download/ED%20company%20profile%20rev05.pdf",
+      "observed": "Design firm's list categorises Univ360 as SOFO.",
+      "boundary": "Independent component warning, no parcel-specific title/approved-use conclusion."
+    },
+    {
+      "id": "E44",
+      "scope": "A51",
+      "source_date": "31Mar2026 reporting date",
+      "retrieved": "2026-10-07",
+      "url": "https://ir2.chartnexus.com/osk/docs/qr/presentation/OSKH-Presentation-2026-Q1.pdf",
+      "observed": "BAYU reports841 serviced apartments and187 flexi suites,13% completion; different take-up rates.",
+      "boundary": "Dated issuer reporting; phase/component counts not current occupancy or TAMU duplicates."
+    },
+    {
+      "id": "E45",
+      "scope": "A51/A53",
+      "source_date": "30Jun2026 report about29Jun opening day",
+      "retrieved": "2026-10-07",
+      "url": "https://www.bernama.com/en/news.php?id=2575019",
+      "observed": "First-day travel report included train and feeder/on-demand trips during free-ride period.",
+      "boundary": "Promotional opening-day travel is not stable paid commuting demand."
+    },
+    {
+      "id": "E46",
+      "scope": "A50",
+      "source_date": "Profile updated2026, phase claim provisional",
+      "retrieved": "2026-10-07",
+      "url": "https://www.propertyguru.com.my/condo/mosaic-residence-nadayu-801-23204",
+      "observed": "Profile distinguishes MosaicBlockA,scheduledDec2026,from Nadayu801 old2022 profile.",
+      "boundary": "Secondary phase lead. Verify developer/CCC and affordable versus open-market components before ranking."
+    }
+  ]
+}
