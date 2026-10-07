@@ -10,8 +10,8 @@ Conversation remains Mandarin; project Markdown remains English. Use in-memory p
 
 ## Research continuation
 
-Resume B06: A41 Setapak-Wangsa Maju-Danau Kota; A42 Gombak; A43 Melawati-Ukay; A44 Batu Caves-Selayang; A45 Sungai Buloh-Kwasa. Read the [B05 checkpoint](klang-valley-2026-10-07/round-3/B05_RESUME_CHECKPOINT.md) for analytical state; its cleanup sequencing is superseded by this document.
+B06 has resumed and remains in progress. Read [working packet 01](klang-valley-2026-10-07/round-3/B06_Working_01.md) and [the B06 checkpoint](klang-valley-2026-10-07/round-3/B06_RESUME_CHECKPOINT.md). No new regional closeout or Deploy is claimed. Scope: A41 Setapak-Wangsa Maju-Danau Kota; A42 Gombak; A43 Melawati-Ukay; A44 Batu Caves-Selayang; A45 Sungai Buloh-Kwasa. Read the [B05 checkpoint](klang-valley-2026-10-07/round-3/B05_RESUME_CHECKPOINT.md) for analytical state; its cleanup sequencing is superseded by this document.
 
-B03-B05 cover 23 catchments with bounded desk-complete Defer releases. B01/B02 final substantive audits, B06-B08 deeper work and cross-region/final portfolio audit remain. Zero Deploy; programme incomplete. This workflow update itself adds no research completion.
+B03-B05 cover 23 catchments with bounded desk-complete Defer releases. B01/B02 final substantive audits, B06-B08 deeper work and cross-region/final portfolio audit remain. Zero Deploy; programme incomplete. Working packet 01 adds three conditional expressions; it does not close any B06 catchment.
 
 Frozen master SHA256: 1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b. Preserve Core, G0-G9 and all prior analytical releases. No new first-level module or G10. Use the existing 90%/4%/35-year standard, preferred 6% gross, separate full-cost/terminal stress, layout-neutral sampling and cross-gate Evidence-Judgment Divergence investigation.

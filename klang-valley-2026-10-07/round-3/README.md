@@ -1,6 +1,6 @@
 # Klang Valley underwriting - round 3 continuation
 
-Cutoff: 7 October 2026. Programme status: **incomplete; B03-B05 bounded regional desk passes completed**. Resume from B06 using [the current continuation record](B05_RESUME_CHECKPOINT.md). Earlier checkpoints remain historical release records. The user designated [brandonkow/core](https://github.com/brandonkow/core) as the repository for this project and future generated research/framework files.
+Cutoff: 7 October 2026. Programme status: **incomplete; B03-B05 bounded regional desk passes completed**. B06 research has resumed and remains in progress. Use [the B06 working checkpoint](B06_RESUME_CHECKPOINT.md); no B06 catchment is newly desk-complete. Earlier checkpoints remain historical release records. The user designated [brandonkow/core](https://github.com/brandonkow/core) as the repository for this project and future generated research/framework files.
 
 The 61-catchment map is complete as a scope register. Round 1's 14 cases and round 2's 50 cases provide conditional underwriting inputs, not 64 verified investment opportunities. The nine earlier Cheras expressions remain separate historical research. Having a disposition for each area did not complete the full regional research requirement. No Deploy is validated.
 
@@ -15,6 +15,9 @@ This continuation preserves the original programme scope, frozen consolidated Co
 5. [Case status overrides](Case_Status_Overrides.json) must accompany round 2 quantitative comparisons.
 
 ## Latest substantive work
+
+- [B06 working packet 01](B06_Working_01.md): three new conditional gate papers, six unchanged inherited financial inputs, a factual evidence ledger and120 verified financial evaluations. New auction, furnishing, room/studio and source-date distinctions; all cases Defer. This is a partial research checkpoint, not a regional closeout.
+
 
 - [B05 regional synthesis](B05_Regional_Synthesis.md): seven catchments A34-A40, sixteen conditional G0-G9 expressions, fifty saved source returns,212financial evaluations and120joint stress paths. [Evidence/supply](B05_Evidence_and_Supply.md), [gates](B05_Cases_G0_G9.md), [financials](B05_Financial_Underwriting.md), [divergence/misses](B05_Divergence_and_Misses.md) and [self-audit](B05_Completion_Audit.md). Parkview, Titiwangsa, lower-price Boulevard and Lucentia fee interpretation are evidence priorities, not cleared investments. No Deploy.
 - [B04 regional synthesis](B04_Regional_Synthesis.md): nine catchments A25-A33 and nineteen G0-G9 expressions; bounded desk-complete Defer. [Evidence/supply](B04_Evidence_and_Supply.md), [gate papers](B04_Cases_G0_G9.md), [financial underwriting](B04_Financial_Underwriting.md), [divergence/misses](B04_Divergence_and_Misses.md) and [substantive audit](B04_Completion_Audit.md). Pines and Windsor are mature-family verification leads; Cliveden/Neo remain held. No purchase is cleared.

@@ -70,6 +70,10 @@ B01/B02 have enhanced syntheses for 17 catchments with final substantive audit p
 | A60 / B08 | Elmina | R241 | 2BR worked; studio component excluded pending use;3BR and broader Elmina cohort incomplete |
 | A61 / B08 | Rawang–Gamuda Gardens–Kundang | R242 | 2BR worked;5501BR/7502+1 screened; matureRawang/Kundang and restrictions remain gaps |
 
+## B06 working update
+
+B06 has resumed. [Working packet 01](B06_Working_01.md) adds R330 Wangsa Metroview at A41, R331 The Ridge at A43 (cross-links to A41/A42) and R332 D'Sara two-bedroom at A45. It also deepens leads in A42/A44. All five catchments remain open; the completion counts above do not increase. Complete the catchment-specific gaps in the [B06 checkpoint](B06_RESUME_CHECKPOINT.md) before claiming a bounded regional closeout.
+
 ## Immediate sequence
 
 1. Retain the enhanced B01/B02 syntheses, supply register and four contrasting cases. Perform the final substantive coverage audit without equating document production with completion.
@@ -78,4 +82,4 @@ B01/B02 have enhanced syntheses for 17 catchments with final substantive audit p
 4. Complete B07/B08 household-form, institutional accommodation and new-delivery comparisons.
 5. Compare justified price conditions and rank reversals across regions; audit completion independently of case counts. No forced winner or Deploy.
 
-The user authorised continuing after PJ. The next bounded batch is B06, A41-A45; see B05_RESUME_CHECKPOINT.md. No background scheduler or active goal object is implied.
+The user authorised continuing after PJ. The next bounded batch is B06, A41-A45; see B06_RESUME_CHECKPOINT.md. No background scheduler or active goal object is implied.
