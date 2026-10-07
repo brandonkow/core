@@ -1364,7 +1364,7 @@ function drawRun(){
 
 /* drawer delegation */
 function focusIn(sel){
-  const t = sel ? drawerBody.querySelector(sel) : null, h = drawerBody.querySelector('h2');
+  const t = sel ? drawerBody.querySelector(sel) : null, h = drawerBody.querySelector('h2, .verdict');
   const target = t && !t.disabled ? t : h;
   if (!target) return;
   if (target === h) h.setAttribute('tabindex', '-1');
