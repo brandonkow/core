@@ -1,10 +1,10 @@
 # Residential Investment Decision Engine
 
-Project repository: [brandonkow/core](https://github.com/brandonkow/core), designated by the user on7October2026 for GitHub-only retention. Future framework and generated research files belong here. This directory structure is preserved at repository root. The user requested deletion of this project's local research directory and checkout only after complete remote verification. Original supplied attachments and unrelated projects are outside that deletion scope. See REPOSITORY_TRANSFER.md for provenance and verification.
+Project repository: [brandonkow/core](https://github.com/brandonkow/core), designated by the user on7October2026 for GitHub-only retention. Future framework and generated research files belong here. This directory structure is preserved at repository root. The user subsequently suspended local cleanup: existing local files are left alone, and all new project files and updates go to GitHub. Cleanup no longer blocks research. See [current workflow](CURRENT_WORKFLOW.md) for the latest instruction and REPOSITORY_TRANSFER.md for historical transfer verification.
 
 ## Authoritative framework entry point
 
-Use [Residential Investment Framework](Residential_Investment_Framework.md) as the single consolidated local master for future underwriting. It preserves the available Core and G0-G9 definitions and embeds the Evidence-Judgment Divergence control. Read its cross-module execution binding before applying the gates. All Markdown artifacts are English; conversation with the user is Mandarin.
+Use [Residential Investment Framework](Residential_Investment_Framework.md) as the single consolidated master for future underwriting. It preserves the available Core and G0-G9 definitions and embeds the Evidence-Judgment Divergence control. Read its cross-module execution binding before applying the gates. All Markdown artifacts are English; conversation with the user is Mandarin.
 
 The framework requires a materiality check across relevant stages, investigation of all four explanation families, falsifiable hypotheses, routing to existing mechanisms and explicit unresolved-risk treatment. Populated flags belong in case workpapers, never in the master. The four capital decisions and causal Core remain intact.
 

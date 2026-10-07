@@ -2,7 +2,7 @@
 
 The user designated https://github.com/brandonkow/core as the canonical repository for the Residential Investment Decision Engine. Keep project framework and generated research here. Conversation is Mandarin; Markdown and research artifacts remain English.
 
-The user wants GitHub-only retention. A temporary local checkout is permitted to do the work. Push completed work and verify the remote complete file set and content before deleting the temporary checkout or any superseded project-local copies. Never delete unrelated repositories or original user-supplied attachments. Never delete the only verified copy. Follow the transfer manifest and repository verification method.
+Current user instruction (7 October 2026, supersedes earlier cleanup sequencing): leave all existing local copies and Recycle Bin items alone. Local cleanup is suspended and is not a prerequisite for research. All new project files and updates must be delivered to this GitHub repository. Prefer in-memory processing and direct GitHub publication; do not write new outputs into the old local research directory or create a persistent local clone. Do not alter local permissions, delete old files or resume cleanup without a new user request. Preserve the historical migration manifest and verification receipts.
 
 Read README.md, klang-valley-2026-10-07/round-3/README.md and the latest continuation checkpoint before research. Current next batch is B06 A41-A45. B05 is a bounded desk-complete Defer, not a cleared investment or programme completion.
 
