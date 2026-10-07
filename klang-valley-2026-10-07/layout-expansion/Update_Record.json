@@ -1,0 +1,22 @@
+{
+  "version": "KV-REG-2026-10-07-LAYOUT-v1",
+  "date": "2026-10-07",
+  "scope": "Execution and coverage clarification only",
+  "core_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "first_round_manifest_entries_verified": 21,
+  "protected_baseline_files_verified": 57,
+  "catchments_indexed": 61,
+  "first_round_cases_indexed": 14,
+  "new_market_cases": 0,
+  "first_round_mismatches": [],
+  "protected_baseline_mismatches": [],
+  "broken_new_markdown_links": [],
+  "intentional_existing_file_change": "README.md navigation paragraph only",
+  "new_files": [
+    "sop/Layout_Neutral_Regional_Sampling.md",
+    "klang-valley-2026-10-07/layout-expansion/Scope_Clarification.md",
+    "klang-valley-2026-10-07/layout-expansion/Layout_Coverage_Register.md",
+    "klang-valley-2026-10-07/layout-expansion/Layout_Coverage_Register.json",
+    "klang-valley-2026-10-07/layout-expansion/Update_Record.json"
+  ]
+}

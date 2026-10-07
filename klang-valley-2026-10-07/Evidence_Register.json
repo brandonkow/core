@@ -1,0 +1,656 @@
+{
+  "cutoff": "2026-10-07",
+  "boundary": "Observation of web text only. No photos, video, physical inspections, title instruments, signed tenancies or MC accounts inspected. Search-indexed claims are labelled; repeated sources are not independent market outcomes.",
+  "sources": [
+    {
+      "id": "E01",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/maxim-residences-untuk-dijual-oleh-camie-hoo-502008418",
+      "event_date": "2026-09-01",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Camie Hoo sale",
+      "observed": "RM380k; 825 sqft; 2BR/2BA; one bay; partly furnished; leasehold claimed.",
+      "limits": "No parcel, signed price, plan or incentives verified; copy contains stale transport marketing."
+    },
+    {
+      "id": "E02",
+      "url": "https://www.iproperty.com.my/property/cheras/maxim-residences/rent-501912036/",
+      "event_date": "Index 2026-09-27",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Kah Hing rent",
+      "observed": "RM2000/month; 825 sqft; 2BR/2BA; one bay; fully furnished.",
+      "limits": "Ask only; repeat listings by same agent are not independent leases; furnishing differs from sale."
+    },
+    {
+      "id": "E03",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/cheras/maxim-residences/non-landed/",
+      "event_date": "Jun 2025–May 2026",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed transaction intermediary",
+      "lineage": "Brickz/NAPIC lineage",
+      "observed": "10 transactions; project median RM410k and RM425 psf.",
+      "limits": "Mixed layouts, masked prices, registration lag; no 825-sqft cleared interval or discount derived."
+    },
+    {
+      "id": "E04",
+      "url": "https://www.iproperty.com.my/property/cheras/lavile-kuala-lumpur/sale-502031924/",
+      "event_date": "Index 2026-09-05",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Wilson Ong sale",
+      "observed": "RM699k; 750 sqft; 2BR/2BA; one bay; furnished.",
+      "limits": "No inventory, stack, effective consideration or availability confirmed."
+    },
+    {
+      "id": "E05",
+      "url": "https://www.iproperty.com.my/property/cheras/lavile-kuala-lumpur/rent-501827333/",
+      "event_date": "2026-07-31 indexed",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Jovienne Chong rent",
+      "observed": "RM3200/month; 750 sqft; furnished two-bedroom marketing.",
+      "limits": "Reposts by this agent count once; not signed rent or proof of renewal depth."
+    },
+    {
+      "id": "E06",
+      "url": "https://www.iproperty.com.my/property/cheras/lavile-kuala-lumpur/rent-107733488/",
+      "event_date": "2026-08-21",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed advertisement",
+      "lineage": "Scarlet Lim rent",
+      "observed": "RM3300/month; 750 sqft; furnished two-bedroom.",
+      "limits": "Distinct advertiser, but underlying unit independence unproven. No achieved-rent corroboration."
+    },
+    {
+      "id": "E07",
+      "url": "https://www.iproperty.com.my/property/cheras/akasa/sale-501714152/",
+      "event_date": "Index 2026-10-03",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Miko Lew sale",
+      "observed": "RM410k; 850 sqft; 2+1/2BA; two bays; partly furnished.",
+      "limits": "Plus-one is not assumed to be an approved bedroom; parcel status unknown."
+    },
+    {
+      "id": "E08",
+      "url": "https://www.iproperty.com.my/bm/properti/cheras/akasa/rent-502082220/",
+      "event_date": "Index 2026-10-05",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "CM Chin rent",
+      "observed": "RM1800/month; 850 sqft; two bedrooms; furnished; two bays.",
+      "limits": "Other same-agent prices do not demonstrate absorption; FF rental versus partial sale."
+    },
+    {
+      "id": "E09",
+      "url": "https://akasa.com.my/floorplan.php",
+      "event_date": "Undated; retrieved 2026-10-07",
+      "retrieved": "2026-10-07",
+      "access": "Opened developer text",
+      "lineage": "Akasa developer",
+      "observed": "Type A is described as 850 sqft, two bedrooms, two bathrooms and a utility room.",
+      "limits": "Text inspected, not the plan image. Separate dual-key description is not proof Type A is dual-key."
+    },
+    {
+      "id": "E10",
+      "url": "https://www.iproperty.com.my/property/cheras/you-vista-you-city/sale-31214137/",
+      "event_date": "2026-09-26 opened; search earlier Sep8",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Chris Lee sale",
+      "observed": "RM450k starting price; 847 sqft; two bedrooms; two bays; partly furnished.",
+      "limits": "Multi-unit lead; no exact offered parcel established."
+    },
+    {
+      "id": "E11",
+      "url": "https://www.propertyguru.com.my/property-for-rent/at-you-vista-you-city-6359",
+      "event_date": "Row 2026-08-16; available Oct1",
+      "retrieved": "2026-10-07",
+      "access": "Opened listing index",
+      "lineage": "KC Khoo rent row",
+      "observed": "RM2000/month for 850 sqft, two bedrooms and two bays.",
+      "limits": "Near-size proxy; not confirmed as same original type/condition. Old exact 847-sqft RM1900 URL redirected."
+    },
+    {
+      "id": "E12",
+      "url": "https://www.propertyguru.com.my/property-listing/you-vista-you-city-for-rent-by-tommy-tan-41235187",
+      "event_date": "Search 2026-04-24",
+      "retrieved": "2026-10-07",
+      "access": "Indexed historical ad; open redirects",
+      "lineage": "Tommy Tan rent",
+      "observed": "RM1900/month; 847 sqft; furnished two-bedroom advertised.",
+      "limits": "Historical lead only, current availability unverified; no false current refresh."
+    },
+    {
+      "id": "E13",
+      "url": "https://www.propertyguru.com.my/property-listing/emerald-residence-for-sale-by-winson-tay-501391696",
+      "event_date": "Index 2026-10-01",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Winson Tay sale",
+      "observed": "Mahkota Cheras address; RM390k; 1161 sqft; three bedrooms; two bays.",
+      "limits": "No condition/arrears verification; repeated same-agent ads not separate transactions."
+    },
+    {
+      "id": "E14",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/emerald-residence-untuk-disewa-oleh-nicholas-yap-500494429",
+      "event_date": "2026-05-17 indexed",
+      "retrieved": "2026-10-07",
+      "access": "Historical indexed ad; open redirects",
+      "lineage": "Nicholas Yap rent",
+      "observed": "RM1500/month; 1161 sqft; three bedrooms; partly furnished.",
+      "limits": "Not a verified current offer. RM1500 is a scenario anchored to this older ask, not achieved rent."
+    },
+    {
+      "id": "E15",
+      "url": "https://www.brickz.my/transactions/residential/selangor/cheras/emerald-residence/non-landed/",
+      "event_date": "Oct 2021–Apr 2022",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed transaction intermediary",
+      "lineage": "Brickz/NAPIC lineage",
+      "observed": "Four transactions; median RM468k and RM370 psf.",
+      "limits": "Stale cohort; cannot infer current discount, decline or liquidity."
+    },
+    {
+      "id": "E16",
+      "url": "https://www.iproperty.com.my/property/cheras/windows-on-the-park/sale-200526876/",
+      "event_date": "2026-09-14",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Chloe sale",
+      "observed": "RM480k; 916 sqft; 3BR/2BA; one bay; partly furnished.",
+      "limits": "KLCC-facing claim not inspected; alternative two-bay advertisements are different expressions."
+    },
+    {
+      "id": "E17",
+      "url": "https://speedhome.com/details/windows-on-the-park-bandar-tun-hussein-onn-uzvhvdzk",
+      "event_date": "Move-in 2026-03-05",
+      "retrieved": "2026-10-07",
+      "access": "Opened rental advertisement",
+      "lineage": "Speedhome listing",
+      "observed": "RM1700/month; 916 sqft; partly furnished; two tandem bays.",
+      "limits": "Map address conflicts with expected project address; exact unit/location and currency unresolved. No achieved rent."
+    },
+    {
+      "id": "E18",
+      "url": "https://www.sdb.com.my/project/windows-on-the-park/",
+      "event_date": "Undated current page",
+      "retrieved": "2026-10-07",
+      "access": "Developer source inherited from project research",
+      "lineage": "SDB",
+      "observed": "Developer project identity and product concept support a separate living-quality investigation.",
+      "limits": "No inference of current management accounts, condition or willingness-to-pay from concept."
+    },
+    {
+      "id": "E19",
+      "url": "https://www.propertyguru.com.my/property-listing/citizen-2-for-sale-by-daphne-lim-501134306",
+      "event_date": "2026-10-02 opened",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Daphne Lim sale",
+      "observed": "RM430k; 725 sqft; 2BR/2BA; one bay; furnished.",
+      "limits": "No matched clearing price. Separate RM400k header/RM470k body ad excluded."
+    },
+    {
+      "id": "E20",
+      "url": "https://www.iproperty.com.my/property/jalan-klang-lama-old-klang-road/citizen-2/rent-502131527/",
+      "event_date": "2026-09-22",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed advertisement",
+      "lineage": "Cathy Chin rent",
+      "observed": "RM2000/month; 725 sqft; 2BR/2BA; partly furnished; October availability.",
+      "limits": "Scenario RM1900 is an analyst reduction, not a negotiated rent. Distinct Rex Tan RM2000 lead may be the same underlying unit."
+    },
+    {
+      "id": "E21",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/old-klang-road/citizen-2---old-klang-road/non-landed/",
+      "event_date": "Mar 2025–Feb 2026",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed transaction intermediary",
+      "lineage": "Brickz/NAPIC lineage",
+      "observed": "10 transactions; median RM500k and RM623 psf.",
+      "limits": "Project-level mix and lag; not a 725-sqft valuation."
+    },
+    {
+      "id": "E22",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/pacific-place-untuk-dijual-oleh-may-chen-500900513",
+      "event_date": "2026-09-18",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed advertisement",
+      "lineage": "May Chen sale",
+      "observed": "RM370k; 864 sqft; two bedrooms; furnished; leasehold claimed.",
+      "limits": "Bay, expiry and exact stack unresolved; advertiser ROI claim not accepted."
+    },
+    {
+      "id": "E23",
+      "url": "https://www.iproperty.com.my/property-for-rent/at-pacific-place-6209/above-750-sqft",
+      "event_date": "Rows 2026-08-17 to 19",
+      "retrieved": "2026-10-07",
+      "access": "Opened index",
+      "lineage": "Christine Tan/Jason Chooi/Shaun Hin rent rows",
+      "observed": "864-sqft furnished asks include RM1900 and RM2100; partial examples RM1500–1600.",
+      "limits": "RM1800 base is a conservative scenario, not a signed or quoted same-unit rent. Same-agent reposts deduplicated; index retrieval remains August evidence."
+    },
+    {
+      "id": "E24",
+      "url": "https://www.brickz.my/transactions/residential/selangor/ara-damansara/pacific-place-commercial-centre/non-landed/service-residence/",
+      "event_date": "Jul 2025–Apr 2026",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed transaction intermediary",
+      "lineage": "Brickz/NAPIC lineage",
+      "observed": "13 residential service-residence transactions; median RM370k and RM401 psf.",
+      "limits": "Despite project name, this filter is residential; mixed sizes remain. Commercial shop records are not residential comparables."
+    },
+    {
+      "id": "E25",
+      "url": "https://www.propertyguru.com.my/property-listing/first-residence-residensi-unggul-for-sale-by-eva-yap-502144021",
+      "event_date": "2026-10-05",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Eva Yap sale",
+      "observed": "RM389999; 1074 sqft; 3BR/2BA; one bay; partial fittings; leasehold.",
+      "limits": "Down-payment solution marketing and exact effective price need checking; condition described by advertiser only."
+    },
+    {
+      "id": "E26",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/first-residence-residensi-unggul-untuk-disewa-oleh-bryan-502177176",
+      "event_date": "2026-09-30",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Bryan rental",
+      "observed": "RM1950/month; 1074 sqft; 3BR/2BA; one bay; furnished.",
+      "limits": "Illustrative-photo disclaimer; no actual-photo/site inspection or signed tenancy."
+    },
+    {
+      "id": "E27",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/kepong/residensi-unggul--first-residence/non-landed/",
+      "event_date": "Jun 2025–May 2026",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed transaction intermediary",
+      "lineage": "Brickz/NAPIC lineage",
+      "observed": "Eight transactions; median RM420k and RM400 psf.",
+      "limits": "Thin mixed-size sample does not price selected parcel or prove owner occupancy."
+    },
+    {
+      "id": "E28",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/ooak-serviced-apartments-kiara-163-untuk-dijual-oleh-kenneth-huee-501963959",
+      "event_date": "Index 2026-09-27",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Kenneth Huee sale",
+      "observed": "RM850k; 696 sqft; one-bedroom serviced-apartment advertisement.",
+      "limits": "Older RM770k lead redirects and is not adopted as available. Hotel, SOHO and residential components must not be pooled."
+    },
+    {
+      "id": "E29",
+      "url": "https://www.propertyguru.com.my/property-listing/ooak-serviced-apartments-kiara-163-for-rent-by-alex-chong-502042683",
+      "event_date": "2026-09-08",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed advertisement",
+      "lineage": "Alex Chong rent",
+      "observed": "RM3650/month; 696 sqft; 1BR/1BA; furnished.",
+      "limits": "RM3500 base lies below this ask, supported by older RM3500 lead. Not evidence of family-owner exit depth."
+    },
+    {
+      "id": "E30",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/ooak-serviced-apartments-kiara-163-untuk-disewa-oleh-sherry-lee-42641869",
+      "event_date": "2026-05-22 indexed",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed advertisement",
+      "lineage": "Sherry Lee rent",
+      "observed": "RM3500/month, 696 sqft; portal displays Sri Hartamas MRT at 130m.",
+      "limits": "The widget is not accepted as proof of an operating station. MRT3 official scheme is a future/incomplete catalyst source, not existing rent uplift."
+    },
+    {
+      "id": "E31",
+      "url": "https://www.propertyguru.com.my/property-listing/angkasa-impian-2-for-sale-by-michelle-tan-502176312",
+      "event_date": "2026-09-30",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Michelle Tan sale",
+      "observed": "RM440k; 660 sqft; 1BR/1BA; one bay; furnished; leasehold in listing.",
+      "limits": "Cashback/full-loan promotion and contradictory generic freehold text prevent effective price/title validation."
+    },
+    {
+      "id": "E32",
+      "url": "https://www.iproperty.com.my/property-for-rent/at-angkasa-impian-2-146",
+      "event_date": "Rows 2026-09-06 to 25",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed listing index",
+      "lineage": "Multiple rental advertisers",
+      "observed": "650-sqft one-bedroom RM2000 ask; 707-sqft leads RM2200; larger family units separately priced.",
+      "limits": "Near-size rather than exact plan match. No short-stay/room revenue in base."
+    },
+    {
+      "id": "E33",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/kl-city-centre/angkasa-impian-2/non-landed/",
+      "event_date": "Dec 2024–Oct 2025",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed transaction intermediary",
+      "lineage": "Brickz/NAPIC lineage",
+      "observed": "Two transactions; median RM540k and RM422 psf.",
+      "limits": "Stale thin/mixed-size evidence; another category page has different period/median. Neither is a 660-sqft anchor."
+    },
+    {
+      "id": "E34",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/platinum-lake-pv-21-untuk-dijual-oleh-ling-zi-kang-500860990",
+      "event_date": "2026-09-14 opened",
+      "retrieved": "2026-10-07",
+      "access": "Opened contradictory advertisement",
+      "lineage": "Ling Zi Kang sale/rent lead",
+      "observed": "Sale header RM310k; 900 sqft; 2BR/2BA; two bays; partial; description says for rent.",
+      "limits": "Price basis conflict unresolved. All KV12 arithmetic is diagnostic, excluded from executable ranking."
+    },
+    {
+      "id": "E35",
+      "url": "https://www.propertyguru.com.my/property-listing/platinum-lake-pv-21-for-rent-by-diren-tee-502060447",
+      "event_date": "2026-09-09",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed advertisement",
+      "lineage": "Diren Tee rental",
+      "observed": "RM1600/month; 900 sqft; 2BR/2BA; partly furnished; available October.",
+      "limits": "Not signed rent; exact approved bedrooms/bay entitlement unknown."
+    },
+    {
+      "id": "E36",
+      "url": "https://www.mudah.my/platinum-lake-pv-21-residensi-off-jalan-genting-klang-setapak-kl-115848495.htm",
+      "event_date": "Relative post date only; available Nov 2026",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed advertisement",
+      "lineage": "Megat rental",
+      "observed": "RM1600/month; 900 sqft; two bedrooms; ordinary unit rent.",
+      "limits": "Independent advertiser/site, unit independence unproven. No current matched transaction set obtained."
+    },
+    {
+      "id": "E37",
+      "url": "https://www.propertyguru.com.my/property-listing/skypod-residence-for-sale-by-jeffrey-lau-501979485",
+      "event_date": "2026-09-27",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Jeffrey Lau sale",
+      "observed": "RM380k; 881 sqft; 2BR/2BA; two bays; partly furnished; freehold claimed.",
+      "limits": "No confirmed owner offer/rights, condition, encumbrances or effective consideration."
+    },
+    {
+      "id": "E38",
+      "url": "https://www.iproperty.com.my/service-residence-for-rent/at-skypod-residence-4568/fully-furnished",
+      "event_date": "Rows 2026-07-03",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed listing index",
+      "lineage": "Ben Lee rental",
+      "observed": "881-sqft two-bedroom furnished ask RM2000; 1033-sqft three-bedroom RM2300 separately.",
+      "limits": "Repeated Ben Lee listings one lineage. June Steve Wong body identifies 881-sqft RM2100 even though header describes larger RM2300 unit."
+    },
+    {
+      "id": "E39",
+      "url": "https://www.brickz.my/transactions/residential/selangor/puchong/skypod-residences/non-landed/service-residence/?orderby=lot_size&range=2023+May-",
+      "event_date": "Displayed rolling window Jul 2025–Jul 2026",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed transaction intermediary",
+      "lineage": "Brickz/NAPIC lineage",
+      "observed": "Six residential transactions; median RM445k and RM496 psf.",
+      "limits": "URL historical range differs from summary. Mixed sizes and masked prices; commercial RM835k cohort excluded."
+    },
+    {
+      "id": "E40",
+      "url": "https://www.propertyguru.com.my/property-listing/solstice-pan-gaea-for-sale-by-brian-tan-501500126",
+      "event_date": "2026-08-19",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Brian Tan sale",
+      "observed": "RM200k; 450 sqft; 1BR/1BA; furnished; freehold claimed.",
+      "limits": "No exact parcel plan, residential use/rights, bay or arrears established. Generic project metadata not parcel proof."
+    },
+    {
+      "id": "E41",
+      "url": "https://speedhome.com/my/iklan/solstice-cyberjaya-otuybtri",
+      "event_date": "Move-in 2026-01-26",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed rental advertisement",
+      "lineage": "Speedhome owner-platform listing",
+      "observed": "RM1200/month; 450 sqft; one bedroom; one bay; furnished; flexible tenure.",
+      "limits": "Older asking evidence, not achieved/renewed rent; no photography/video inspection."
+    },
+    {
+      "id": "E42",
+      "url": "https://www.hw.ac.uk/malaysia/campus/accommodation/the-solstice-residence",
+      "event_date": "Undated; retrieved 2026-10-07",
+      "retrieved": "2026-10-07",
+      "access": "University primary source",
+      "lineage": "Heriot-Watt accommodation",
+      "observed": "Names Solstice as third-party accommodation, with furnished one-room units.",
+      "limits": "Establishes an institutional rental channel only; no tenancy guarantee, occupancy ratio or owner demand. University packaged prices cannot be landlord net rent."
+    },
+    {
+      "id": "E43",
+      "url": "https://www.brickz.my/transactions/residential/selangor/kajang/akasa-cheras-south/non-landed/",
+      "event_date": "Jun 2025–Apr 2026",
+      "retrieved": "2026-10-07",
+      "access": "Indexed; direct open unsuccessful",
+      "lineage": "Brickz/NAPIC lineage",
+      "observed": "23 transactions; median RM654089 and RM607 psf; related filtered rows show 1152-sqft stock.",
+      "limits": "Do not compare project median directly with 850-sqft RM410k ask. Alias and period changes are not new independent samples."
+    },
+    {
+      "id": "E44",
+      "url": "https://www.propertyguru.com.my/property-listing/citizen-2-for-sale-by-cassie-lian-42972399",
+      "event_date": "2026-10-05",
+      "retrieved": "2026-10-07",
+      "access": "Opened contradictory advertisement",
+      "lineage": "Cassie Lian sale",
+      "observed": "Header RM400k and partial furnishing; body RM470k and full furnishing for 725 sqft.",
+      "limits": "Excluded as clean price input. It cannot improve Citizen's rank without resolution."
+    },
+    {
+      "id": "E45",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/pacific-place-untuk-dijual-oleh-shaun-hin-502070589",
+      "event_date": "2026-10-04 opened; Sep11 indexed",
+      "retrieved": "2026-10-07",
+      "access": "Opened contradictory advertisement",
+      "lineage": "Shaun Hin sale",
+      "observed": "Opened header RM330k, body RM338k, claimed bank value RM450k; illustration-only photos.",
+      "limits": "Both price and discount remain unresolved; clean RM370k furnished expression selected instead."
+    },
+    {
+      "id": "E46",
+      "url": "https://www.iproperty.com.my/property-for-sale/at-first-residence-residensi-unggul-1897",
+      "event_date": "Copy dated 2026-09-25",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed automated portal summary",
+      "lineage": "iProperty project prose",
+      "observed": "States 51.58% gross rental yield and infers decline using 1109-sqft versus 1184-sqft examples.",
+      "limits": "Automated yield/trend claims excluded. Do not interpret mismatched unit prices as repeat-sales evidence."
+    },
+    {
+      "id": "E47",
+      "url": "https://www.brickz.my/transactions/commercial/selangor/puchong/skypod-residences/non-landed/",
+      "event_date": "Jul 2025–May 2026",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed transaction intermediary",
+      "lineage": "Brickz/NAPIC commercial",
+      "observed": "Nine commercial records with median RM835k/RM482 psf.",
+      "limits": "Wrong asset cohort for 881-sqft residence; excluded from residential G0."
+    },
+    {
+      "id": "E48",
+      "url": "https://www.ioiproperties.com.my/bandar-puteri-puchong-puchong-jaya/skypod-square-retail-shop-office",
+      "event_date": "Undated; retrieved 2026-10-07",
+      "retrieved": "2026-10-07",
+      "access": "Developer primary source",
+      "lineage": "IOI Properties",
+      "observed": "Skypod Square retail/office offering from RM835k, with 1733-sqft offices and 1916-sqft retail.",
+      "limits": "Supports separation of commercial component; developer prices/incentives cannot price residential resale."
+    },
+    {
+      "id": "E49",
+      "url": "https://www.hw.ac.uk/malaysia/campus/accommodation",
+      "event_date": "Undated; retrieved 2026-10-07",
+      "retrieved": "2026-10-07",
+      "access": "University primary source",
+      "lineage": "Heriot-Watt accommodation",
+      "observed": "Lists Antara near campus and other Cyberjaya/Putrajaya accommodation channels.",
+      "limits": "Counterevidence to captive tenant-pool assumption; no net absorption figures."
+    },
+    {
+      "id": "E50",
+      "url": "https://nextsix.com/property-listing/solstice-pangaea-serviced-residence-rent-derick-wu-69f063924b912ee9c27ac654",
+      "event_date": "2026-07-07",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed rental advertisement",
+      "lineage": "Derick Wu rent",
+      "observed": "RM1300/month; 450 sqft; furnished; one bay in body, zero in header.",
+      "limits": "Independent asking channel, not independent achieved lease. Parking discrepancy unresolved."
+    },
+    {
+      "id": "E51",
+      "url": "https://www.mymrt.com.my/wp-content/uploads/2025/07/MRTC-MEDIA-RELEASE-MRT3-CIRCLE-LINE-RAILWAY-SCHEME-RECEIVES-FINAL-APPROVAL-Website.pdf",
+      "event_date": "2025-07-17",
+      "retrieved": "2026-10-07",
+      "access": "Official release text",
+      "lineage": "MRT Corp",
+      "observed": "Final MRT3 railway scheme approved; approval follows public inspection.",
+      "limits": "Approval is not operation. No station opening, exact pedestrian entrance, rent transmission or appreciation assumed."
+    },
+    {
+      "id": "E52",
+      "url": "https://binastra.com.my/collection/",
+      "event_date": "Undated current developer page",
+      "retrieved": "2026-10-07",
+      "access": "Developer primary source",
+      "lineage": "Binastra Land",
+      "observed": "Lists Citizen 2 as a completed Old Klang Road project.",
+      "limits": "Contradicts portal boilerplate attributing it to Hap Seng; does not verify unit condition or management."
+    },
+    {
+      "id": "E53",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/akasa-untuk-disewa-oleh-trevor-chai-501730456",
+      "event_date": "2026-07-16 indexed",
+      "retrieved": "2026-10-07",
+      "access": "Contradictory ad screened",
+      "lineage": "Trevor Chai",
+      "observed": "Rent header RM420k/month with sale-like body.",
+      "limits": "Excluded from rental calculations; not corrected by guessing."
+    },
+    {
+      "id": "E54",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/lavile-kuala-lumpur-untuk-disewa-oleh-wayne-yap-501888320",
+      "event_date": "2026-08-11 indexed",
+      "retrieved": "2026-10-07",
+      "access": "Contradictory ad screened",
+      "lineage": "Wayne Yap",
+      "observed": "Rent header RM650k/month; body describes sale RM650k/750 sqft.",
+      "limits": "Excluded as executable price. Mechanical RM640k 6%-yield threshold does not validate this offer."
+    },
+    {
+      "id": "E55",
+      "url": "https://www.brickz.my/transactions/residential/penang/teluk-kumbar/emerald-residence/non-landed/",
+      "event_date": "2025–2026 indexed cohort",
+      "retrieved": "2026-10-07",
+      "access": "Wrong-location source screened",
+      "lineage": "Brickz/NAPIC Penang",
+      "observed": "Same project name appears in Teluk Kumbar, Penang.",
+      "limits": "Excluded from Mahkota Cheras case; no cross-state pooling."
+    },
+    {
+      "id": "E56",
+      "url": "https://www.propertyguru.com.my/property-for-rent/at-the-netizen-9755/with-2-bedrooms",
+      "event_date": "May–Jun 2026 indexed rows",
+      "retrieved": "2026-10-07",
+      "access": "Listing-index screen",
+      "lineage": "Multiple advertisements",
+      "observed": "Two-bedroom filter includes about 547–550 sqft, while other project results call that area studio.",
+      "limits": "Original plan/component unresolved; no two-bedroom comparable admitted."
+    },
+    {
+      "id": "E57",
+      "url": "https://hims.kpkt.gov.my/files/30860/30860-1/IKLAN_BROSUR_01.pdf",
+      "event_date": "Brochure date not established; retrieved 2026-10-07",
+      "retrieved": "2026-10-07",
+      "access": "Official hosted brochure text",
+      "lineage": "KPKT HIMS / Desa Tiara brochure",
+      "observed": "350 advertised units: 212 Type A, 92 Type B, 46 Type C.",
+      "limits": "Potential Mahkota-area supply lead only; completion, location interface and delivered competing stock not established. No automatic supply-penalty rate."
+    },
+    {
+      "id": "E58",
+      "url": "https://www.propertyguru.com.my/condo/mahkota-garden-4808",
+      "event_date": "Undated metadata",
+      "retrieved": "2026-10-07",
+      "access": "Project scope screen",
+      "lineage": "PropertyGuru",
+      "observed": "Describes Mahkota Garden as eight-storey low-rise stock.",
+      "limits": "Excluded from selected high-rise investment cases; remains a possible buyer substitute."
+    },
+    {
+      "id": "E59",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/first-residence-residensi-unggul-untuk-disewa-oleh-jenson-toh-501566941",
+      "event_date": "2026-06-19",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed rental advertisement",
+      "lineage": "Jenson Toh rent",
+      "observed": "RM1700/month; 1074 sqft; partly furnished.",
+      "limits": "Lower furnishing tier helps falsify adoption of RM2300 furnished headline for a partial unit."
+    },
+    {
+      "id": "E60",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/first-residence-residensi-unggul-untuk-disewa-oleh-jeffrey-tham-501539168",
+      "event_date": "2026-06-15",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed rental advertisement",
+      "lineage": "Jeffrey Tham rent",
+      "observed": "RM2300/month; 1074 sqft; furnished; one bay.",
+      "limits": "Older upper ask, not achieved rent. Base uses more recent RM1950 lead."
+    },
+    {
+      "id": "E61",
+      "url": "https://www.propertyguru.com.my/property-listing/skypod-residence-for-sale-by-paul-lee-500826305",
+      "event_date": "2026-09-30",
+      "retrieved": "2026-10-07",
+      "access": "Opened advertisement",
+      "lineage": "Paul Lee sale",
+      "observed": "RM410k; 881 sqft; two bedrooms; two bays; partial; high floor and hill-facing claimed.",
+      "limits": "Different expression, not proof RM380k is a discount; same-price/condition comparisons still missing."
+    },
+    {
+      "id": "E62",
+      "url": "https://www.iproperty.com.my/property/cheras/maxim-residences/rent-105246043/",
+      "event_date": "2026-06-07 indexed",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed rental advertisement",
+      "lineage": "Alternative Maxim rent lead",
+      "observed": "RM1799/month; 825 sqft; furnished; one bay.",
+      "limits": "Older low ask challenges RM2000 base; claimed direct MRT bridge unverified."
+    },
+    {
+      "id": "E63",
+      "url": "https://www.propertyguru.com.my/property-listing/emerald-residence-for-rent-by-evelyn-khoo-502058938",
+      "event_date": "Sep 2026 indexed",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed rental advertisement",
+      "lineage": "Evelyn Khoo rent",
+      "observed": "RM1650/month; 1266 sqft; furnished three-bedroom.",
+      "limits": "Larger and furnished, not a direct 1161-sqft rent comp; weakens unconditional higher-rent story."
+    },
+    {
+      "id": "E64",
+      "url": "https://www.iproperty.com.my/property/puchong/skypod-residence/rent-501560683/",
+      "event_date": "2026-06-25",
+      "retrieved": "2026-10-07",
+      "access": "Search-indexed multi-unit advertisement",
+      "lineage": "Steve Wong rent",
+      "observed": "Header 1033 sqft/3BR/RM2300; body option 881 sqft/2BR/2bays/FF/RM2100.",
+      "limits": "Match by option, not page headline; no 881-sqft RM2300 adopted."
+    },
+    {
+      "id": "E65",
+      "url": "https://list.my/subsales/property/519463",
+      "event_date": "Page print 2026-09-30; rows Jul/Nov2025",
+      "retrieved": "2026-10-07",
+      "access": "Transaction intermediary diagnostic",
+      "lineage": "list.my/NAPIC lineage",
+      "observed": "Related table shows serviced-apartment rows 861 sqft at RM455k July2025 and RM425k November2025 alongside commercial stock.",
+      "limits": "Not independent of NAPIC/Brickz; 861 versus marketed 881 needs strata-area resolution; no stack/condition adjustment justified."
+    }
+  ]
+}

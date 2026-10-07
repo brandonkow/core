@@ -1,0 +1,17 @@
+{
+  "new_cases": 50,
+  "standard_nonshortfall": 17,
+  "annual_nonnegative": 2,
+  "gross_at_least6": 12,
+  "identity_freshness_holds": 7,
+  "new_catchments": 47,
+  "covered_dispositions": 61,
+  "case_sensitivities": 450,
+  "rank_grid_rows": 450,
+  "synthetic_pairs": 2016,
+  "pair_passes": 1665,
+  "r1_retained_cases": 14,
+  "cheras_inherited_cases": 9,
+  "r2_g9_defer": 50,
+  "verified_deploy": 0
+}

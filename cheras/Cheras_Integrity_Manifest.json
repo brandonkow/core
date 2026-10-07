@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-06",
+  "scope": "Regional desk underwriting; ten functional catchments, nine selected expressions; not exhaustive project coverage or an executable transaction",
+  "canonical_master_unchanged_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "phase7_manifest_unchanged_sha256": "cc0767e2e76e50c905363f28194ed8d5213380e9c685ac6c5af02f2e0d0c18b5",
+  "phase7_files_verified_unchanged": 17,
+  "original_handoff_unchanged": true,
+  "validation": {
+    "cases": 9,
+    "ordered_gate_rows": 90,
+    "material_flags": 4,
+    "all_four_explanation_families_per_flag": true,
+    "sensitivity_cases": 63,
+    "pair_stress_cases": 36,
+    "pair_reserve_passes": 0,
+    "all_base_single_property_reserves_pass": true,
+    "all_base_annual_cashflows_negative": true,
+    "amortisation_break_even_hurdle_reverse_caps": "passed",
+    "english_markdown": true,
+    "local_links_resolve": true,
+    "local_links_checked": 12
+  },
+  "decisions": {
+    "Deploy": 0,
+    "Defer": 8,
+    "Reject": 0,
+    "PreserveCapacity": 1
+  },
+  "evidence_boundary": "All G0 clearing estimates unresolved; asks, assumptions and interpretations distinguished; no new Core promotion or matured forward outcome",
+  "files": {
+    "calculate_cheras.py": "28751ef9f542b06b87736a69695d1d433d93515c23040fc437ddb5752ae44240",
+    "Cheras_Divergence_and_Misses.md": "ba6520de1c4cd1cc07abc3e2d35193ab5f98855c47e9ce8386c0fbf34bb1ba03",
+    "Cheras_Evidence_Register.md": "c8ced30a08652069fbf8bc7c6442ec60257f4ca250e1839340ded0d715daae83",
+    "Cheras_Financial_Results.json": "dc1d54bfcb54da4a519c2b322e68ba851708a214b8f123ff5fff3a39edee1165",
+    "Cheras_Financial_Underwriting.md": "b771d01d49541a0c28ce5d581f5fdaabd1bef48958d37dc9c9280c611b369f5d",
+    "Cheras_G0_G9_Cases.md": "77de758fad4d3df0aaa92700d4b5d7400dadf2748d1798cc357d3a3342586017",
+    "Cheras_PreResearch_Lock.md": "827afd2e38df76a6e40f48758c4088b456d9c961ab8c0be7f9fa611be15df8d4",
+    "Cheras_Regional_Underwriting.md": "358329bfc2fb6cb88dab2fbd76541909ee3507f96fb0cb3a47aa15f5b7759c36"
+  }
+}

@@ -1,0 +1,981 @@
+[
+  {
+    "id": "A01",
+    "index": 1,
+    "batch": "B01",
+    "catchment": "Maluri–Cochrane",
+    "demand_hypothesis": "Urban access for workers and small households; family demand must be product-specific",
+    "substitution_test": "Lavile versus M Vertica; Velocity remains a screening substitute, not an adjusted comp",
+    "counter_thesis": "High rents may already be capitalised; proximity does not settle exit ownership preference",
+    "material_segment_gaps": "2BR worked; inherited3BR; standalone studio/1BR and fresh new-delivery inventory remain gaps",
+    "inherited": "C01 M Vertica",
+    "r1_cases": [
+      "KV02"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A02",
+    "index": 2,
+    "batch": "B01",
+    "catchment": "Shamelin–Pandan fringe",
+    "demand_hypothesis": "Local established-family routines plus adjacent employment",
+    "substitution_test": "Compact Shamelin Star versus inherited larger Shamelin case and Pandan family stock",
+    "counter_thesis": "Shrinking the unit may improve entry but lose the family feature supporting the original thesis",
+    "material_segment_gaps": "2BR plus inherited family case; studio identity and distressed executed comparables missing",
+    "inherited": "C02 Shamelin Star",
+    "r1_cases": [],
+    "r2_cases": [
+      "R243"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A03",
+    "index": 3,
+    "batch": "B01",
+    "catchment": "Midah–Mutiara–Taynton",
+    "demand_hypothesis": "Mature Cheras routines and genuine rail-linked small-household usage",
+    "substitution_test": "EkoCheras duplex versus ordinary single-level units and local family/landed budgets",
+    "counter_thesis": "Double-volume design and mall access can cost more without equivalent usable-area willingness to pay",
+    "material_segment_gaps": "Inherited EkoCheras1BR diagnostic; new independent2/3BR and studio evidence missing",
+    "inherited": "C03 EkoCheras",
+    "r1_cases": [],
+    "r2_cases": [],
+    "depth": "Inherited Cheras expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A04",
+    "index": 4,
+    "batch": "B01",
+    "catchment": "Connaught–Len Seng",
+    "demand_hypothesis": "Differentiate commuter compact demand from resident family demand",
+    "substitution_test": "Maxim825 versus1050, Aster and Riana boundary; compare total budget, bays and useful rooms",
+    "counter_thesis": "Similar access can conceal different household fit and rental depth",
+    "material_segment_gaps": "2/3BR and inherited alternatives; legitimate standalone studio/1BR not established",
+    "inherited": "C04 Aster / C05 Maxim / adjoining C06 Riana",
+    "r1_cases": [
+      "KV01"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A05",
+    "index": 5,
+    "batch": "B01",
+    "catchment": "Alam Damai–Damai Perdana",
+    "demand_hypothesis": "Family liveability hypothesis separate from investment-heavy TOD positioning",
+    "substitution_test": "Emerald Hills840 versus Riana and local landed options",
+    "counter_thesis": "The product may suit families while price approaches landed alternatives; small listings may be split components",
+    "material_segment_gaps": "2BR and inherited Riana; studio whole-parcel verification is a material gap",
+    "inherited": "C06 Riana edge; Emerald Hills lifecycle lead",
+    "r1_cases": [],
+    "r2_cases": [
+      "R244"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A06",
+    "index": 6,
+    "batch": "B01",
+    "catchment": "Batu 9–Suntex–Cuepacs",
+    "demand_hypothesis": "Local family households using actual MRT access and road routines",
+    "substitution_test": "You Vista847 versus inherited Green and original-family units nearby",
+    "counter_thesis": "A station label does not establish usable last-mile access or ownership premium",
+    "material_segment_gaps": "2/3BR selective work; original studio/1BR and executed distressed stock unworked",
+    "inherited": "C07 Green",
+    "r1_cases": [
+      "KV04"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A07",
+    "index": 7,
+    "batch": "B01",
+    "catchment": "Bandar Tun Hussein Onn",
+    "demand_hypothesis": "Owner-occupier space and daily routines in BTHO",
+    "substitution_test": "Windows916 versus2497; direct same-weekend landed choice remains essential",
+    "counter_thesis": "Large condo total price competes with landed; small version cannot inherit large-unit exclusivity",
+    "material_segment_gaps": "3BR and very large inherited case; studio/1BR/2BR availability and normalised landed comparison missing",
+    "inherited": "C08 Windows large",
+    "r1_cases": [
+      "KV06"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A08",
+    "index": 8,
+    "batch": "B01",
+    "catchment": "Cheras Selatan–Balakong–C180",
+    "demand_hypothesis": "Local work and affordable household utility rather than generic Cheras spillover",
+    "substitution_test": "Akasa850 versus larger family supply around C180/Balakong",
+    "counter_thesis": "Investor-friendly asking rent may overstate collectible rent amid simultaneous stock",
+    "material_segment_gaps": "2BR/utility case; original compact and larger-family cohorts remain partial",
+    "inherited": "None",
+    "r1_cases": [
+      "KV03"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A09",
+    "index": 9,
+    "batch": "B01",
+    "catchment": "Bandar Mahkota Cheras",
+    "demand_hypothesis": "Affordable local family ownership and local routines",
+    "substitution_test": "Emerald1161 versus same-budget older landed/family alternatives",
+    "counter_thesis": "Cheap total price does not cure weak rent or create rapid exits",
+    "material_segment_gaps": "3BR worked; studio/1BR/2BR availability unproven; landed budget not appraised",
+    "inherited": "None",
+    "r1_cases": [
+      "KV05"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A10",
+    "index": 10,
+    "batch": "B01",
+    "catchment": "Sungai Long",
+    "demand_hypothesis": "Separate established Sungai Long family demand from boundary compact commuters",
+    "substitution_test": "Scot Pine inherited family case versus Landmark Residence2 compact boundary lead",
+    "counter_thesis": "Tenant appeal on a road/rail edge is not transferable to family ownership in core neighbourhoods",
+    "material_segment_gaps": "Large inherited and compact screen; approved plans and equal-area rent pairing missing",
+    "inherited": "C09 Scot Pine",
+    "r1_cases": [],
+    "r2_cases": [
+      "R245"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A11",
+    "index": 11,
+    "batch": "B02",
+    "catchment": "Old Klang Road",
+    "demand_hypothesis": "City access at attainable total acquisition budgets",
+    "substitution_test": "Citizen2 versus Residence8/Seringin/288 screening leads and Kuchai family unit",
+    "counter_thesis": "River/road/building externalities may dominate a low quantum or headline connectivity",
+    "material_segment_gaps": "2BR worked; family/compact/new-delivery and verified flood/unit exposure incomplete",
+    "inherited": "None",
+    "r1_cases": [
+      "KV07"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A12",
+    "index": 12,
+    "batch": "B02",
+    "catchment": "Kuchai",
+    "demand_hypothesis": "Local working households seeking practical space",
+    "substitution_test": "Kuchai Avenue935 versus OUG Parklane and Arte compact offers",
+    "counter_thesis": "Arte small ads may be a dual-key part; fake compact yield should not defeat a whole family unit",
+    "material_segment_gaps": "3BR worked; studio/1BR separate-parcel evidence is a gap",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R201"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A13",
+    "index": 13,
+    "batch": "B02",
+    "catchment": "Happy Garden–OUG",
+    "demand_hypothesis": "Mature local routines and family affordability",
+    "substitution_test": "OUG Parklane phase-specific versus Kuchai family and premium Legacy/Seringin leads",
+    "counter_thesis": "A cheaper outer phase is not an adjusted comparable for a better maintained local product",
+    "material_segment_gaps": "3BR worked; higher-quality family and genuine small units only screened",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R202"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A14",
+    "index": 14,
+    "batch": "B02",
+    "catchment": "Taman Desa",
+    "demand_hypothesis": "Local convenience for small households distinct from long-standing family location appeal",
+    "substitution_test": "Desa Green578 versus its715-sf2BR and larger family choices",
+    "counter_thesis": "Paying for location may be rational for use while furnishing/fees erase investor carry",
+    "material_segment_gaps": "1BR worked; 2BR diagnostic;3BR/new launch/auction segments not fully underwritten",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R203"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A15",
+    "index": 15,
+    "batch": "B02",
+    "catchment": "Sri Petaling",
+    "demand_hypothesis": "Small-household and family tenancy within established local services",
+    "substitution_test": "Endah Promenade739 studio versus980-sf3BR rentals",
+    "counter_thesis": "A large studio can be inferior in household utility to a similar-rent3BR; one extra bay matters",
+    "material_segment_gaps": "Studio/1BR worked and3BR rental contrast; fresh2BR sale and matched transactions missing",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R204"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A16",
+    "index": 16,
+    "batch": "B02",
+    "catchment": "Bukit Jalil",
+    "demand_hypothesis": "Employment/local routines plus retail convenience; retail is not automatically tenant demand",
+    "substitution_test": "Aurora384 versus family Bukit Jalil stock, not pooled by mall proximity",
+    "counter_thesis": "High small-unit PSF and future competing delivery can cap owner premium",
+    "material_segment_gaps": "Studio worked;2/3BR family price-quality contrast incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R205"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A17",
+    "index": 17,
+    "batch": "B02",
+    "catchment": "Sungai Besi–Chan Sow Lin",
+    "demand_hypothesis": "Long-term workers and small households in an evolving urban corridor",
+    "substitution_test": "Trion versus Trion2 and established Sungai Besi alternatives kept separate",
+    "counter_thesis": "Future contract dates and short-stay potential do not establish current rent or operating quality",
+    "material_segment_gaps": "2BR claim-based diagnostic; standalone compact/family and delivery cohort evidence incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R206"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A18",
+    "index": 18,
+    "batch": "B03",
+    "catchment": "PJ Old/New Town",
+    "demand_hypothesis": "Established PJ work/service routines and modest household quantum",
+    "substitution_test": "PJ8 one-bedroom versus newer suites and older local family stock",
+    "counter_thesis": "Older capital works or fees may explain the discount and absorb convenience value",
+    "material_segment_gaps": "1BR worked;2BR price lead only; larger and distressed units unworked",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R207"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A19",
+    "index": 19,
+    "batch": "B03",
+    "catchment": "Sections 13/14/17/19",
+    "demand_hypothesis": "Industrial-to-mixed urban routines with demand for smaller accommodation",
+    "substitution_test": "Centrestage component-specific versus PJ Midtown/Avenue D'vogue/Five Stones leads",
+    "counter_thesis": "Office and residential-like suites share branding; yield comparisons can be invalid before cashflow starts",
+    "material_segment_gaps": "Studio numerical diagnostic quarantined;2/3BR residential control remains a material coverage gap",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R208"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A20",
+    "index": 20,
+    "batch": "B03",
+    "catchment": "SS2–Sea Park–Paramount",
+    "demand_hypothesis": "Established family routines, schools/services as use hypotheses",
+    "substitution_test": "Ken Damansara versus local larger condos and landed budget alternatives",
+    "counter_thesis": "A study is not a bedroom; a family district premium does not guarantee adequate rental yield",
+    "material_segment_gaps": "2+1 worked; compact and higher-quality3BR not comprehensively priced",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R209"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A21",
+    "index": 21,
+    "batch": "B03",
+    "catchment": "Kelana Jaya",
+    "demand_hypothesis": "Family utility and access, independent of relative building age",
+    "substitution_test": "Sterling versus Kelana Mahkota; Bumi-lot price excluded as unrestricted comparator",
+    "counter_thesis": "Newer does not imply better management; cheap restricted transfer can narrow buyer depth",
+    "material_segment_gaps": "3+1/4BR marketed case; studio/1BR/2BR and matched management records missing",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R210"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A22",
+    "index": 22,
+    "batch": "B03",
+    "catchment": "Ara Damansara",
+    "demand_hypothesis": "Small working households and connectivity across Ara",
+    "substitution_test": "Pacific Place versus Eve Suite and other compact/mixed-use stock as unworked alternatives",
+    "counter_thesis": "Mixed-use costs, legal layout and actual walk route may matter more than broad location demand",
+    "material_segment_gaps": "R1 two-bedroom retained; studio/1BR and family comparative cases need exact rights/price evidence",
+    "inherited": "None",
+    "r1_cases": [
+      "KV08"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A23",
+    "index": 23,
+    "batch": "B03",
+    "catchment": "Tropicana",
+    "demand_hypothesis": "Local employment/services and small-household daily use",
+    "substitution_test": "Tropicana Avenue660 versus true2BR and family Tropicana choices",
+    "counter_thesis": "The study may be priced like a bedroom without resale functionality",
+    "material_segment_gaps": "1+study worked; original studio, true2BR and3BR controls incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R211"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A24",
+    "index": 24,
+    "batch": "B03",
+    "catchment": "Kota Damansara–Surian",
+    "demand_hypothesis": "Daily access and established Kota Damansara routines",
+    "substitution_test": "Encorp640 versus smaller Surian-access units and larger balcony-heavy Encorp layouts",
+    "counter_thesis": "Aggregate PSF hides balcony versus interior area and operations",
+    "material_segment_gaps": "Studio worked;2/3BR and title/tenure reconciliation missing",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R212"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A25",
+    "index": 25,
+    "batch": "B04",
+    "catchment": "Bangsar South–Pantai–Kerinchi",
+    "demand_hypothesis": "Employment-related renters plus local owner households, tested separately",
+    "substitution_test": "South View648 versus KL Gateway/other nearby expressions only as next comps",
+    "counter_thesis": "Employer demand does not ensure sufficient small-unit ownership buyers",
+    "material_segment_gaps": "1+1/2BR marketed; studio and family layouts incompletely matched",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R213"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A26",
+    "index": 26,
+    "batch": "B04",
+    "catchment": "TTDI",
+    "demand_hypothesis": "Mature family routines and preference for established amenities",
+    "substitution_test": "Sinaran1128 versus local larger condos and landed at relevant total budgets",
+    "counter_thesis": "Owner utility may explain a premium that a financed income investor cannot afford",
+    "material_segment_gaps": "2BR worked; standalone compact and3BR quality ladder remain gaps",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R214"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A27",
+    "index": 27,
+    "batch": "B04",
+    "catchment": "Damansara Heights",
+    "demand_hypothesis": "High-budget local downsizers/professionals, not all luxury households",
+    "substitution_test": "DC904 versus larger luxury units and other established prime districts",
+    "counter_thesis": "A costly1BR cannot borrow school-family demand; service costs raise the rent hurdle",
+    "material_segment_gaps": "1BR worked; family3BR, ordinary2BR and exit buyer equity unverified",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R215"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A28",
+    "index": 28,
+    "batch": "B04",
+    "catchment": "Mont Kiara",
+    "demand_hypothesis": "Separate premium singles/couples from international-school families",
+    "substitution_test": "OOAK696 versus Arcoris and genuine family Mont Kiara units as different buyer tasks",
+    "counter_thesis": "High marketed rents do not prove deep small-unit resale demand",
+    "material_segment_gaps": "R1 one-bedroom retained; family3BR and lower-quantum studios not fully compared",
+    "inherited": "None",
+    "r1_cases": [
+      "KV10"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A29",
+    "index": 29,
+    "batch": "B04",
+    "catchment": "Sri Hartamas",
+    "demand_hypothesis": "Ordinary local working-adult convenience at a smaller quantum",
+    "substitution_test": "Cliveden500 versus Chelsea/Carlton component-specific and premium compact options",
+    "counter_thesis": "Sparse apartment transfers and mixed office records can mimic a discount",
+    "material_segment_gaps": "Studio worked; real1/2/3BR and building operation evidence partial",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R216"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A30",
+    "index": 30,
+    "batch": "B04",
+    "catchment": "Dutamas–Segambut",
+    "demand_hypothesis": "Established large-household utility at mature-stock quantum",
+    "substitution_test": "Prima Duta1614 versus newer smaller Dutamas products",
+    "counter_thesis": "Cheap space may reflect maintenance or layout friction; future MRT3 is not current benefit",
+    "material_segment_gaps": "3BR worked; studio/1BR and Segambut low-budget controls unworked",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R217"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A31",
+    "index": 31,
+    "batch": "B04",
+    "catchment": "Desa ParkCity–Menjalara",
+    "demand_hypothesis": "Two distinct tasks: Menjalara local family affordability and ParkCity lifestyle ownership",
+    "substitution_test": "Menjalara18 versus Westside3 as opportunity alternatives, not valuation comps",
+    "counter_thesis": "Lifestyle demand may justify a quality premium without financing itself through rent",
+    "material_segment_gaps": "Two family-sized expressions and premium2BR; studios/1BR/new ParkPlace lifecycle comparisons incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R218",
+      "R246"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A32",
+    "index": 32,
+    "batch": "B04",
+    "catchment": "Kepong–Jinjang",
+    "demand_hypothesis": "Local family ownership and affordable daily routines",
+    "substitution_test": "First Residence1074 versus MetroPrima/Fortune Centra variants kept geographically separate",
+    "counter_thesis": "Listing count and low price do not establish buyer depth or management quality",
+    "material_segment_gaps": "R1 family3BR; compact search contaminated by room listings and remains unverified",
+    "inherited": "None",
+    "r1_cases": [
+      "KV09"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A33",
+    "index": 33,
+    "batch": "B04",
+    "catchment": "Damansara Perdana–Mutiara Damansara",
+    "demand_hypothesis": "Compact employment/local convenience versus higher-quality Mutiara family utility",
+    "substitution_test": "Neo421 versus other Neo layouts; Mutiara stock is a separate quality/budget ladder",
+    "counter_thesis": "Older index prices and mixed-use parking can manufacture a positive carry result",
+    "material_segment_gaps": "Studio conditional case; original1BR/2/3BR and Mutiara matched controls missing",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R219"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A34",
+    "index": 34,
+    "batch": "B05",
+    "catchment": "KLCC–Ampang Park",
+    "demand_hypothesis": "Ordinary city employment tenancy and ownership apart from visitor demand",
+    "substitution_test": "Vortex850 versus central small suites and established family alternatives",
+    "counter_thesis": "Tourism cashflows, short-term rules and long-term resale buyers must not be mixed",
+    "material_segment_gaps": "2BR worked; studio/1BR and luxury3BR not comprehensively matched",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R220"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A35",
+    "index": 35,
+    "batch": "B05",
+    "catchment": "Bukit Bintang–Imbi–Pudu",
+    "demand_hypothesis": "Established central convenience for ordinary households",
+    "substitution_test": "Angkasa Impian2 compact versus larger same-project and newer central stock",
+    "counter_thesis": "Incentives, old transfers and capital works can dominate a central address",
+    "material_segment_gaps": "R1 one-bedroom retained; new compact/3BR and actual management evidence gaps",
+    "inherited": "None",
+    "r1_cases": [
+      "KV11"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A36",
+    "index": 36,
+    "batch": "B05",
+    "catchment": "TRX",
+    "demand_hypothesis": "New central employment/convenience after delivery",
+    "substitution_test": "TRX474 versus established central compacts, without assuming same prestige premium",
+    "counter_thesis": "Access may already be fully priced; rent strength and ownership quantum can diverge",
+    "material_segment_gaps": "1BR worked;2/3BR and post-delivery seller-composition evidence missing",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R221"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A37",
+    "index": 37,
+    "batch": "B05",
+    "catchment": "Tun Razak–Titiwangsa–Sentul",
+    "demand_hypothesis": "Sentul affordability distinct from Titiwangsa and Tun Razak premium demand",
+    "substitution_test": "Sentul Point743 versus mature Sentul and separate Titiwangsa high-rises",
+    "counter_thesis": "One submarket cannot represent the entire corridor; shared access does not merge buyer pools",
+    "material_segment_gaps": "2BR Sentul worked; Tun Razak/Titiwangsa plus studio/3BR are explicit subcatchment gaps",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R222"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A38",
+    "index": 38,
+    "batch": "B05",
+    "catchment": "Jalan Ampang–Jelatek–Dato Keramat",
+    "demand_hypothesis": "Operational Jelatek access and local tenancy",
+    "substitution_test": "Datum557 versus larger Datum and ordinary Keramat stock",
+    "counter_thesis": "Retail/rail integration may not compensate for entry premium, tenure or investor resales",
+    "material_segment_gaps": "Studio worked; family and local lower-cost ownership controls incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R223"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A39",
+    "index": 39,
+    "batch": "B05",
+    "catchment": "Ampang Hilir",
+    "demand_hypothesis": "Embassy-enclave lifestyle and local Ampang accommodation are separate markets",
+    "substitution_test": "KatanaII premium and Desa Angkasa low-rise screens; GCB only boundary numerical comparator",
+    "counter_thesis": "Using a cheap road-edge block to rank core Hilir is a boundary error",
+    "material_segment_gaps": "Core Hilir remains screening-level; no matched core high-rise case; GCB does not close that gap",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R224"
+    ],
+    "depth": "Core catchment screen only; financial boundary comparator does not close core gap"
+  },
+  {
+    "id": "A40",
+    "index": 40,
+    "batch": "B05",
+    "catchment": "Ampang–Pandan Indah–Pandan Mewah",
+    "demand_hypothesis": "Local affordable households and eastern city access",
+    "substitution_test": "28Boulevard450 versus Pandan family stock and broader Ampang alternatives",
+    "counter_thesis": "Future rail labels and compact asking rent cannot establish present ownership desirability",
+    "material_segment_gaps": "Studio worked;2/3BR and Pandan Mewah/Indah submarket comparisons partial",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R225"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A41",
+    "index": 41,
+    "batch": "B06",
+    "catchment": "Setapak–Wangsa Maju–Danau Kota",
+    "demand_hypothesis": "Local employment/institutional use with distinct family and rental segments",
+    "substitution_test": "222Residency versus PV21 and Wangsa Metroview; no transfer from room rent to whole-unit yield",
+    "counter_thesis": "A strong rent-to-price ratio may begin with a mislabelled sale price",
+    "material_segment_gaps": "2+1 plus R1 two-bedroom diagnostic; studio/1BR and Wangsa family breadth incomplete",
+    "inherited": "None",
+    "r1_cases": [
+      "KV12"
+    ],
+    "r2_cases": [
+      "R250"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A42",
+    "index": 42,
+    "batch": "B06",
+    "catchment": "Gombak",
+    "demand_hypothesis": "Local Gombak worker/household demand at attainable quantum",
+    "substitution_test": "Urban360511 versus local family apartments; 222 is assigned to Setapak",
+    "counter_thesis": "Price-header conflict and title/financing uncertainty can defeat compact affordability",
+    "material_segment_gaps": "Studio diagnostic quarantined at consideration;2/3BR controls incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R226"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A43",
+    "index": 43,
+    "batch": "B06",
+    "catchment": "Melawati–Ukay",
+    "demand_hypothesis": "Melawati local family routines distinct from Ukay micro-location risk",
+    "substitution_test": "Saville1007 versus local lower-rise/landed diagnostic choices",
+    "counter_thesis": "Access, gradients/noise and real daily route can outweigh a newer product story",
+    "material_segment_gaps": "3BR worked; studio/1BR and Ukay-specific high-rise controls incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R227"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A44",
+    "index": 44,
+    "batch": "B06",
+    "catchment": "Batu Caves–Selayang",
+    "demand_hypothesis": "Selayang/Batu Caves local employment and family budgets",
+    "substitution_test": "Amara1051 versus older local apartments and landed where budget overlaps",
+    "counter_thesis": "Low PSF may reflect constrained rent, management and transport friction",
+    "material_segment_gaps": "3BR worked; compact products and separate Batu Caves cases remain gaps",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R228"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A45",
+    "index": 45,
+    "batch": "B06",
+    "catchment": "Sungai Buloh–Kwasa",
+    "demand_hypothesis": "Operational rail/local healthcare-employment use versus future Kwasa narrative",
+    "substitution_test": "D'Sara504 component versus residential family units and future stock",
+    "counter_thesis": "SOVO ambiguity prevents residential admission; township plans do not establish absorbed demand",
+    "material_segment_gaps": "Studio component quarantined;2/3BR and Kwasa residential cohort unworked",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R229"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A46",
+    "index": 46,
+    "batch": "B07",
+    "catchment": "Puchong Jaya–Kinrara–Bandar Puteri",
+    "demand_hypothesis": "Local employment, shopping and family routines with different layout needs",
+    "substitution_test": "Skypod881 versus1033/1248 and Kinrara/Puteri alternatives",
+    "counter_thesis": "Commercial project components and investor rent cannot establish residential fair value",
+    "material_segment_gaps": "R1 two-bedroom retained; compact/3BR and separate Kinrara family cases incomplete",
+    "inherited": "None",
+    "r1_cases": [
+      "KV13"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A47",
+    "index": 47,
+    "batch": "B07",
+    "catchment": "Puchong Prima–South",
+    "demand_hypothesis": "Affordable family use in southern Puchong",
+    "substitution_test": "KoiPrima1055 versus other blocks and more connected northern Puchong options",
+    "counter_thesis": "Cheapness can compensate for daily drive costs only if households choose it",
+    "material_segment_gaps": "3BR worked; studio/1BR/2BR and new-stock backlog unresolved",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R230"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A48",
+    "index": 48,
+    "batch": "B07",
+    "catchment": "Seri Kembangan–Serdang–Equine",
+    "demand_hypothesis": "Differentiate compact Taman Equine use from Serdang family/institutional demand",
+    "substitution_test": "Zeva450 versus881-1100 family apartments and3Elements/Univ360 leads",
+    "counter_thesis": "A350 monthly furnishing premium is not automatically durable; small unit higher yield can lose in total risk",
+    "material_segment_gaps": "Studio worked and family price/rent contrast; UPM/Serdang-specific independent cases incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R231"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A49",
+    "index": 49,
+    "batch": "B07",
+    "catchment": "Subang Jaya–USJ–Sunway",
+    "demand_hypothesis": "USJ local routines separate from Sunway institutional convenience",
+    "substitution_test": "DaMen723 versus GeoSense807 and larger Sunway family stock",
+    "counter_thesis": "Sunway rent premium may be real but entry absorbs it; tuition proximity does not prove ownership exit",
+    "material_segment_gaps": "Studio and2BR worked;3BR and room-rental models excluded pending operating proof",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R232",
+      "R249"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A50",
+    "index": 50,
+    "batch": "B07",
+    "catchment": "Subang Bestari",
+    "demand_hypothesis": "Established affordable Subang Bestari family routines",
+    "substitution_test": "SeriAtria838 versus local apartments; Olives SS16 and Persada low-rise excluded",
+    "counter_thesis": "Wrong locality or housing form would falsely complete regional coverage",
+    "material_segment_gaps": "3BR worked; original compact layouts, restrictions and matched transactions missing",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R233"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A51",
+    "index": 51,
+    "batch": "B07",
+    "catchment": "Shah Alam–Glenmarie",
+    "demand_hypothesis": "Glenmarie campus/work use distinct from core Shah Alam institutions",
+    "substitution_test": "Utropolis452 versus VistaAlam screening and purpose-built campus accommodation",
+    "counter_thesis": "Anchor presence does not guarantee rent/occupancy; room portions distort studio comparisons",
+    "material_segment_gaps": "Studio worked; core Shah Alam2/3BR and residential-only comparators incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R234"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A52",
+    "index": 52,
+    "batch": "B07",
+    "catchment": "Setia Alam–Bukit Raja",
+    "demand_hypothesis": "Local retail/employment and family township routines",
+    "substitution_test": "Trefoil485 versus family condos/landed in Setia/Bukit Raja",
+    "counter_thesis": "A low ticket beside a mall can still fail standard rent coverage",
+    "material_segment_gaps": "Studio worked; family3BR and Bukit Raja-specific price/buyer evidence incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R235"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A53",
+    "index": 53,
+    "batch": "B07",
+    "catchment": "Klang–Botanic–Bukit Tinggi",
+    "demand_hypothesis": "Local Klang employment and practical household ownership",
+    "substitution_test": "Gravit8Nordica637 versus larger Gravit and landed budget options",
+    "counter_thesis": "A1+1 layout may not serve family buyers even in a family township",
+    "material_segment_gaps": "1+1 worked; broader Klang/Botanic/BukitTinggi family and compact contrasts partial",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R236"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A54",
+    "index": 54,
+    "batch": "B08",
+    "catchment": "Kajang–Saujana Impian–Bangi",
+    "demand_hypothesis": "Separate Bangi local demand from Kajang transit and Saujana family tasks",
+    "substitution_test": "Evo454 versus MKH Boulevard/II screenings and larger family stock",
+    "counter_thesis": "SOHO and multiple phases cannot be merged; broad south-corridor demand is not one buyer pool",
+    "material_segment_gaps": "Studio/SOHO worked; Kajang/Saujana2/3BR remain explicit subcatchment gaps",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R237"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A55",
+    "index": 55,
+    "batch": "B08",
+    "catchment": "Semenyih",
+    "demand_hypothesis": "Local family affordability with strong housing-form substitution",
+    "substitution_test": "D'Cerrum949 versus other affordable apartments and Semenyih landed",
+    "counter_thesis": "Cashback can change effective price and buyer composition; future township growth cannot repair today's base",
+    "material_segment_gaps": "3BR diagnostic; compact supply, restrictions and new-launch net prices incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R238"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A56",
+    "index": 56,
+    "batch": "B08",
+    "catchment": "Cyberjaya",
+    "demand_hypothesis": "Local employment/education and small households with competing rental supply",
+    "substitution_test": "Solstice450 versus larger Cyberjaya and alternative compact stock",
+    "counter_thesis": "Low acquisition quantum may reflect lifecycle, management or surplus supply rather than mispricing",
+    "material_segment_gaps": "R1 one-bedroom retained; studio classification and family2/3BR comparisons partial",
+    "inherited": "None",
+    "r1_cases": [
+      "KV14"
+    ],
+    "r2_cases": [],
+    "depth": "R1 selected expression retained, no fresh unit verification"
+  },
+  {
+    "id": "A57",
+    "index": 57,
+    "batch": "B08",
+    "catchment": "Putrajaya",
+    "demand_hypothesis": "Public-sector/local family routines with real affordability constraints",
+    "substitution_test": "Dwiputra950 versus larger local apartments and nearby Cyberjaya alternatives",
+    "counter_thesis": "Government location is not an allocated tenant pool; lifestyle owners may resist high-rise substitutes",
+    "material_segment_gaps": "3BR worked; original small layouts and larger family ladder incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R239"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A58",
+    "index": 58,
+    "batch": "B08",
+    "catchment": "Dengkil–Kota Warisan–Salak Tinggi",
+    "demand_hypothesis": "Airport-related local work and ordinary households, not assumed tourist occupation",
+    "substitution_test": "Alanis550 versus Horizon478 dual-key and CoreSOHO441",
+    "counter_thesis": "Counting half-unit rents against a whole-unit price creates a fictitious thesis",
+    "material_segment_gaps": "Compact Alanis conditional; Horizon quarantined;2/3BR and whole-title proof missing",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R248"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A59",
+    "index": 59,
+    "batch": "B08",
+    "catchment": "Kota Kemuning–Rimbayu–Tropicana Aman–Eco Sanctuary",
+    "demand_hypothesis": "Different western township households with local routines and landed alternatives",
+    "substitution_test": "GeoBukitRimau875 versus Parque731; Rimbayu and Tropicana Aman remain distinct",
+    "counter_thesis": "Smaller units can fit poorly within a family ecosystem; adjacent township brands are not comparable guarantees",
+    "material_segment_gaps": "3BR plus1BR worked; Rimbayu/TropicanaAman exact products and new delivery incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R240",
+      "R247"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A60",
+    "index": 60,
+    "batch": "B08",
+    "catchment": "Elmina",
+    "demand_hypothesis": "Amenity maturation plus local households, tested against actual small-unit preference",
+    "substitution_test": "Habitus685 residential candidate versus451SOVO and landed/local substitutes",
+    "counter_thesis": "The2024 mall opening is historical; no fresh2026 uplift without transmission evidence",
+    "material_segment_gaps": "2BR worked; studio component excluded pending use;3BR and broader Elmina cohort incomplete",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R241"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  },
+  {
+    "id": "A61",
+    "index": 61,
+    "batch": "B08",
+    "catchment": "Rawang–Gamuda Gardens–Kundang",
+    "demand_hypothesis": "Compact affordable township ownership versus Rawang/Kundang family tasks",
+    "substitution_test": "GAIA660 versus local larger/landed and restricted affordable stock",
+    "counter_thesis": "Auction reserve, old launch floor and mixed transfer median are not interchangeable entry values",
+    "material_segment_gaps": "2BR worked;5501BR/7502+1 screened; matureRawang/Kundang and restrictions remain gaps",
+    "inherited": "None",
+    "r1_cases": [],
+    "r2_cases": [
+      "R242"
+    ],
+    "depth": "Selected R2 expression diagnostics; material product/subcatchment gaps remain"
+  }
+]

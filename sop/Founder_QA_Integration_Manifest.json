@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-06",
+  "authority": "Explicit user response approving items 1-3 and 6-12 and replacing 4-5; Core must not be touched",
+  "core_and_entire_master_unchanged": true,
+  "master_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "phase7_files_verified_unchanged": 17,
+  "cheras_original_files_verified_unchanged": 8,
+  "original_cheras_manifest_sha256": "df97d6848a3f0185f286b19d823cb522053dafca7d7f9920d3b27268e1168047",
+  "qa_source": "C:\\Users\\user\\OneDrive\\Documents\\New project\\.codex-remote-attachments\\01a11002-b718-7423-9c45-a23be70af436\\6d7cbde7-9e25-4f82-ab77-835c493f65e4\\1-FOUNDER_407_QA.md",
+  "qa_source_sha256": "116dbcd0e4bb652a48fe644a594e990a796c59e567605577ee7ac1171ed50d1b",
+  "qa_source_modified": false,
+  "resolutions": 12,
+  "approved_rate": 0.04,
+  "approved_years": 35,
+  "universal_ltv_approved": true,
+  "preferred_gross_yield": 0.06,
+  "gross_yield_is_hard_gate": false,
+  "checks": {
+    "mortgage_420_month_recurrence": "passed",
+    "cost_view_reconciliation": "passed",
+    "local_links_checked": 14,
+    "english_markdown": true,
+    "all_12_resolutions_mapped": true
+  },
+  "root_readme_prior_sha256": "fc1114ca9286cb41ea3e5ec8b8a6a7ca746151dcea8309073b5761e7c11a8bac",
+  "files": {
+    "sop\\Approved_Execution_Supplement.md": "2e62521e1b95eeaae3801020d762d9e76b4005ade30065b50a990ce1eb2f5b74",
+    "sop\\Founder_QA_Approval_Register.md": "d60b617cc6568670df93d7a9d8269d6b1ae8ebcf707e1880c6528367152cce81",
+    "cheras\\calculate_approved_baseline.py": "281b0b2a952c2055f082dcdd5e5bb9b485f56531416024b82c874d1690eeb090",
+    "cheras\\Cheras_Approved_Baseline_Results.json": "30b03a7376df5eca964b0f0df788af6d0de230a6e3c46758d2bac183b22b18cc",
+    "cheras\\Cheras_Approved_Baseline_Bridge.md": "88212d2a81230bbaddd35fdf0cf5c4ee245fc3c358281d7944e36a4d56b81af4",
+    "README.md": "14526249362cffa776c6269c49e7c13fa9e3c575a0d9b0dc8506a85aca5ad699",
+    "Framework_Integrity_Manifest.json": "9ee08226b9bf48d88b4db8a9b856ff64b9895c95945ab6495985718da8518505"
+  },
+  "limitations": [
+    "Prior rent and combined fee assumptions only",
+    "No achieved-rent, exact management-only fee or bank eligibility confirmation",
+    "No Core promotion, automatic Deploy or full 35-year exit/portfolio rerun",
+    "Original 30-year results preserved; do not relabel as 35-year outputs",
+    "No automatic monitoring or external contact"
+  ],
+  "approved_standard_ltv": 0.9,
+  "ltv_clarification": "Subsequent explicit user instruction on 2026-10-06: always use 90% loan margin for future baseline comparisons",
+  "prior_calibration_archive": "cheras/baseline-history/pre-90pct/",
+  "prior_calibration_files": {
+    "cheras\\baseline-history\\pre-90pct\\calculate_approved_baseline.py": "f7b9edf128502d89691429434fcc90226ebbe40db513d3d6a129a3272afe416a",
+    "cheras\\baseline-history\\pre-90pct\\Cheras_Approved_Baseline_Bridge.md": "3dd48431528e2ae577dc59115b1117e8a73b5dafd804369d73024f2ea9569764",
+    "cheras\\baseline-history\\pre-90pct\\Cheras_Approved_Baseline_Results.json": "81f7a2b8b6ffc801fb1d3e8a59f389ee2511897d0aeaf89c6b991b1b1b781199",
+    "cheras\\baseline-history\\pre-90pct\\Founder_QA_Integration_Manifest.json": "7eef60a92431b10deea5bc8fc7cee41e8196ed6d9c76a614e3b612c1621b7109"
+  },
+  "subsequent_execution_release": "../execution-release-2026-10-07/Release_Record.md",
+  "subsequent_user_clarification": "7 October: retain current shortfalls at lowest research priority; ordinary income coverage is default with evidence-supported, funded transition exceptions; notify before all-area work"
+}

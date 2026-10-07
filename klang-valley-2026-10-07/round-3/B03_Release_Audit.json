@@ -1,0 +1,808 @@
+{
+  "version": "KV-PJ-2026-10-07-R3",
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "output exists: B03_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "output exists: B03_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "output exists: B03_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "output exists: B03_Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "name": "output exists: B03_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "output exists: B03_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "output exists: B03_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "seven exact PJ catchments",
+      "pass_check": true
+    },
+    {
+      "name": "49 substantive assessments",
+      "pass_check": true
+    },
+    {
+      "name": "no decision readiness",
+      "pass_check": true
+    },
+    {
+      "name": "fourteen financial expressions",
+      "pass_check": true
+    },
+    {
+      "name": "unique case ids",
+      "pass_check": true
+    },
+    {
+      "name": "185 verified scenario evaluations",
+      "pass_check": true
+    },
+    {
+      "name": "91 pair paths",
+      "pass_check": true
+    },
+    {
+      "name": "rent grid reverses ranking",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 G0",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 G1",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 G2",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 G3",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 G4",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 G5",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 G6",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 G7",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 G8",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 G9",
+      "pass_check": true
+    },
+    {
+      "name": "KV08 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R207 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R207 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R207 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R207 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R207 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R207 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R207 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R207 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R207 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R207 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R207 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R208 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R208 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R208 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R208 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R208 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R208 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R208 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R208 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R208 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R208 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R208 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R209 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R209 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R209 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R209 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R209 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R209 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R209 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R209 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R209 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R209 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R209 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R210 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R210 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R210 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R210 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R210 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R210 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R210 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R210 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R210 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R210 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R210 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R211 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R211 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R211 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R211 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R211 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R211 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R211 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R211 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R211 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R211 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R211 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R212 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R212 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R212 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R212 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R212 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R212 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R212 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R212 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R212 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R212 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R212 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R305 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R305 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R305 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R305 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R305 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R305 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R305 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R305 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R305 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R305 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R305 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R306 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R306 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R306 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R306 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R306 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R306 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R306 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R306 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R306 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R306 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R306 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R307 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R307 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R307 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R307 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R307 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R307 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R307 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R307 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R307 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R307 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R307 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R308 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R308 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R308 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R308 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R308 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R308 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R308 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R308 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R308 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R308 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R308 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R309 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R309 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R309 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R309 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R309 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R309 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R309 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R309 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R309 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R309 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R309 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R310 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R310 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R310 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R310 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R310 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R310 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R310 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R310 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R310 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R310 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R310 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R311 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R311 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R311 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R311 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R311 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R311 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R311 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R311 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R311 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R311 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R311 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R305 source raw056",
+      "pass_check": true
+    },
+    {
+      "name": "R305 source raw057",
+      "pass_check": true
+    },
+    {
+      "name": "R305 source raw057b",
+      "pass_check": true
+    },
+    {
+      "name": "R306 source raw052",
+      "pass_check": true
+    },
+    {
+      "name": "R306 source raw053",
+      "pass_check": true
+    },
+    {
+      "name": "R306 source raw076",
+      "pass_check": true
+    },
+    {
+      "name": "R307 source raw052",
+      "pass_check": true
+    },
+    {
+      "name": "R307 source raw053",
+      "pass_check": true
+    },
+    {
+      "name": "R307 source raw076",
+      "pass_check": true
+    },
+    {
+      "name": "R308 source raw054",
+      "pass_check": true
+    },
+    {
+      "name": "R308 source raw055",
+      "pass_check": true
+    },
+    {
+      "name": "R308 source raw077",
+      "pass_check": true
+    },
+    {
+      "name": "R309 source raw060",
+      "pass_check": true
+    },
+    {
+      "name": "R309 source raw061",
+      "pass_check": true
+    },
+    {
+      "name": "R309 source raw064",
+      "pass_check": true
+    },
+    {
+      "name": "R309 source raw071",
+      "pass_check": true
+    },
+    {
+      "name": "R310 source raw063",
+      "pass_check": true
+    },
+    {
+      "name": "R310 source raw078",
+      "pass_check": true
+    },
+    {
+      "name": "R311 source raw059",
+      "pass_check": true
+    },
+    {
+      "name": "R311 source raw066",
+      "pass_check": true
+    },
+    {
+      "name": "R311 source raw073",
+      "pass_check": true
+    },
+    {
+      "name": "B03_Regional_Synthesis.md local link B03_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "B03_Regional_Synthesis.md local link B03_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "B03_Regional_Synthesis.md local link B03_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "B03_Regional_Synthesis.md local link B03_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "prior281checks preserved",
+      "pass_check": true
+    },
+    {
+      "name": "frozen master",
+      "pass_check": true
+    },
+    {
+      "name": "61scope unchanged",
+      "pass_check": true
+    },
+    {
+      "name": "only seven desk closures",
+      "pass_check": true
+    },
+    {
+      "name": "programme incomplete",
+      "pass_check": true
+    },
+    {
+      "name": "source files exist",
+      "pass_check": true
+    }
+  ],
+  "check_count": 200,
+  "boundary": "Structural integrity, arithmetic and authored coverage self-audit only; no input authenticity, legal clearance, investment approval or realised validation."
+}

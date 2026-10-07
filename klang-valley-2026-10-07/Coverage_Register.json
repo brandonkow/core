@@ -1,0 +1,457 @@
+[
+  {
+    "batch": "B01",
+    "catchment": "Maluri–Cochrane",
+    "new_cases": [
+      "KV02"
+    ],
+    "inherited": "C01 M Vertica",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B01",
+    "catchment": "Shamelin–Pandan fringe",
+    "new_cases": [],
+    "inherited": "C02 Shamelin Star",
+    "status": "Inherited selective work only"
+  },
+  {
+    "batch": "B01",
+    "catchment": "Midah–Mutiara–Taynton",
+    "new_cases": [],
+    "inherited": "C03 EkoCheras",
+    "status": "Inherited selective work only"
+  },
+  {
+    "batch": "B01",
+    "catchment": "Connaught–Len Seng",
+    "new_cases": [
+      "KV01"
+    ],
+    "inherited": "C04 Aster / C05 Maxim / adjoining C06 Riana",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B01",
+    "catchment": "Alam Damai–Damai Perdana",
+    "new_cases": [],
+    "inherited": "C06 Riana edge; Emerald Hills lifecycle lead",
+    "status": "Inherited selective work only"
+  },
+  {
+    "batch": "B01",
+    "catchment": "Batu 9–Suntex–Cuepacs",
+    "new_cases": [
+      "KV04"
+    ],
+    "inherited": "C07 Green",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B01",
+    "catchment": "Bandar Tun Hussein Onn",
+    "new_cases": [
+      "KV06"
+    ],
+    "inherited": "C08 Windows large",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B01",
+    "catchment": "Cheras Selatan–Balakong–C180",
+    "new_cases": [
+      "KV03"
+    ],
+    "inherited": "None",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B01",
+    "catchment": "Bandar Mahkota Cheras",
+    "new_cases": [
+      "KV05"
+    ],
+    "inherited": "None",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B01",
+    "catchment": "Sungai Long",
+    "new_cases": [],
+    "inherited": "C09 Scot Pine",
+    "status": "Inherited selective work only"
+  },
+  {
+    "batch": "B02",
+    "catchment": "Old Klang Road",
+    "new_cases": [
+      "KV07"
+    ],
+    "inherited": "None",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B02",
+    "catchment": "Kuchai",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B02",
+    "catchment": "Happy Garden–OUG",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B02",
+    "catchment": "Taman Desa",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B02",
+    "catchment": "Sri Petaling",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B02",
+    "catchment": "Bukit Jalil",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B02",
+    "catchment": "Sungai Besi–Chan Sow Lin",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B03",
+    "catchment": "PJ Old/New Town",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B03",
+    "catchment": "Sections 13/14/17/19",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B03",
+    "catchment": "SS2–Sea Park–Paramount",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B03",
+    "catchment": "Kelana Jaya",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B03",
+    "catchment": "Ara Damansara",
+    "new_cases": [
+      "KV08"
+    ],
+    "inherited": "None",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B03",
+    "catchment": "Tropicana",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B03",
+    "catchment": "Kota Damansara–Surian",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B04",
+    "catchment": "Bangsar South–Pantai–Kerinchi",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B04",
+    "catchment": "TTDI",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B04",
+    "catchment": "Damansara Heights",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B04",
+    "catchment": "Mont Kiara",
+    "new_cases": [
+      "KV10"
+    ],
+    "inherited": "None",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B04",
+    "catchment": "Sri Hartamas",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B04",
+    "catchment": "Dutamas–Segambut",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B04",
+    "catchment": "Desa ParkCity–Menjalara",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B04",
+    "catchment": "Kepong–Jinjang",
+    "new_cases": [
+      "KV09"
+    ],
+    "inherited": "None",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B04",
+    "catchment": "Damansara Perdana–Mutiara Damansara",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B05",
+    "catchment": "KLCC–Ampang Park",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B05",
+    "catchment": "Bukit Bintang–Imbi–Pudu",
+    "new_cases": [
+      "KV11"
+    ],
+    "inherited": "None",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B05",
+    "catchment": "TRX",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B05",
+    "catchment": "Tun Razak–Titiwangsa–Sentul",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B05",
+    "catchment": "Jalan Ampang–Jelatek–Dato Keramat",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B05",
+    "catchment": "Ampang Hilir",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B05",
+    "catchment": "Ampang–Pandan Indah–Pandan Mewah",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B06",
+    "catchment": "Setapak–Wangsa Maju–Danau Kota",
+    "new_cases": [
+      "KV12"
+    ],
+    "inherited": "None",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B06",
+    "catchment": "Gombak",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B06",
+    "catchment": "Melawati–Ukay",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B06",
+    "catchment": "Batu Caves–Selayang",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B06",
+    "catchment": "Sungai Buloh–Kwasa",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B07",
+    "catchment": "Puchong Jaya–Kinrara–Bandar Puteri",
+    "new_cases": [
+      "KV13"
+    ],
+    "inherited": "None",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B07",
+    "catchment": "Puchong Prima–South",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B07",
+    "catchment": "Seri Kembangan–Serdang–Equine",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B07",
+    "catchment": "Subang Jaya–USJ–Sunway",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B07",
+    "catchment": "Subang Bestari",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B07",
+    "catchment": "Shah Alam–Glenmarie",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B07",
+    "catchment": "Setia Alam–Bukit Raja",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B07",
+    "catchment": "Klang–Botanic–Bukit Tinggi",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B08",
+    "catchment": "Kajang–Saujana Impian–Bangi",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B08",
+    "catchment": "Semenyih",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B08",
+    "catchment": "Cyberjaya",
+    "new_cases": [
+      "KV14"
+    ],
+    "inherited": "None",
+    "status": "Selected expressions only"
+  },
+  {
+    "batch": "B08",
+    "catchment": "Putrajaya",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B08",
+    "catchment": "Dengkil–Kota Warisan–Salak Tinggi",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B08",
+    "catchment": "Kota Kemuning–Rimbayu–Tropicana Aman–Eco Sanctuary",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B08",
+    "catchment": "Elmina",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  },
+  {
+    "batch": "B08",
+    "catchment": "Rawang–Gamuda Gardens–Kundang",
+    "new_cases": [],
+    "inherited": "None",
+    "status": "Mapped only"
+  }
+]

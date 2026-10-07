@@ -1,0 +1,5415 @@
+{
+  "version": "KV-B04-2026-10-07-R3",
+  "status": "PASS",
+  "check_count": 941,
+  "checks": [
+    {
+      "name": "substantive output exists: B04_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "substantive output exists: B04_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "substantive output exists: B04_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "substantive output exists: B04_Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "name": "substantive output exists: B04_Inherited_Assessments.json",
+      "pass_check": true
+    },
+    {
+      "name": "substantive output exists: B04_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "substantive output exists: B04_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "substantive output exists: B04_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "exact nine B04 catchments",
+      "pass_check": true
+    },
+    {
+      "name": "63 authored substantive assessments",
+      "pass_check": true
+    },
+    {
+      "name": "no decision-ready area",
+      "pass_check": true
+    },
+    {
+      "name": "19 unique expressions",
+      "pass_check": true
+    },
+    {
+      "name": "nine new expressions",
+      "pass_check": true
+    },
+    {
+      "name": "ten retained expressions",
+      "pass_check": true
+    },
+    {
+      "name": "all active B04 areas represented",
+      "pass_check": true
+    },
+    {
+      "name": "frozen financial configuration",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R213 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R213 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R213 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R213 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R213 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R213 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R214 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R214 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R214 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R214 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R214 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R214 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R215 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R215 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R215 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R215 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R215 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R215 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R216 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R216 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R216 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R216 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R216 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R216 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R217 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R217 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R217 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R217 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R217 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R217 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R218 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R218 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R218 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R218 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R218 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R218 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R219 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R219 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R219 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R219 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R219 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R219 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R246 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R246 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R246 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R246 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R246 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R246 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R312 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R312 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R312 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R312 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R312 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R312 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R313 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R313 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R313 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R313 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R313 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R313 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R314 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R314 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R314 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R314 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R314 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R314 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R315 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R315 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R315 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R315 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R315 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R315 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R316 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R316 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R316 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R316 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R316 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R316 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R317 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R317 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R317 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R317 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R317 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R317 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R318 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R318 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R318 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R318 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R318 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R318 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R319 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R319 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R319 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R319 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R319 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R319 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "R320 standard90/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R320 gross yield",
+      "pass_check": true
+    },
+    {
+      "name": "R320 standard coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R320 annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R320 future buyer retains90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R320 boundary is mechanical",
+      "pass_check": true
+    },
+    {
+      "name": "251 independent identity rechecks",
+      "pass_check": true
+    },
+    {
+      "name": "171 unique pair paths",
+      "pass_check": true
+    },
+    {
+      "name": "all pairs represented",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,KV10",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R213",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R214",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R215",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R216",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R217",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R218",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R219",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R246",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R312",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV09,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R213",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R214",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R215",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R216",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R217",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R218",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R219",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R246",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R312",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV10,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R214",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R215",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R216",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R217",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R218",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R219",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R246",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R312",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R213,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R215",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R216",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R217",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R218",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R219",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R246",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R312",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R214,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R216",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R217",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R218",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R219",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R246",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R312",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R215,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R217",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R218",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R219",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R246",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R312",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R216,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R218",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R219",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R246",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R312",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R217,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R219",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R246",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R312",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R218,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R219,R246",
+      "pass_check": true
+    },
+    {
+      "name": "pair R219,R312",
+      "pass_check": true
+    },
+    {
+      "name": "pair R219,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair R219,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair R219,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R219,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R219,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R219,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R219,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R219,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R246,R312",
+      "pass_check": true
+    },
+    {
+      "name": "pair R246,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair R246,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair R246,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R246,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R246,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R246,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R246,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R246,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R312,R313",
+      "pass_check": true
+    },
+    {
+      "name": "pair R312,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair R312,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R312,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R312,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R312,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R312,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R312,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R313,R314",
+      "pass_check": true
+    },
+    {
+      "name": "pair R313,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R313,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R313,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R313,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R313,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R313,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R314,R315",
+      "pass_check": true
+    },
+    {
+      "name": "pair R314,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R314,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R314,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R314,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R314,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R315,R316",
+      "pass_check": true
+    },
+    {
+      "name": "pair R315,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R315,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R315,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R315,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R316,R317",
+      "pass_check": true
+    },
+    {
+      "name": "pair R316,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R316,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R316,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R317,R318",
+      "pass_check": true
+    },
+    {
+      "name": "pair R317,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R317,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R318,R319",
+      "pass_check": true
+    },
+    {
+      "name": "pair R318,R320",
+      "pass_check": true
+    },
+    {
+      "name": "pair R319,R320",
+      "pass_check": true
+    },
+    {
+      "name": "49 synthetic reserve passes",
+      "pass_check": true
+    },
+    {
+      "name": "nine rent combinations reverse the lead",
+      "pass_check": true
+    },
+    {
+      "name": "every flat-price full-hold profit negative",
+      "pass_check": true
+    },
+    {
+      "name": "only Neo has positive annual base carry",
+      "pass_check": true
+    },
+    {
+      "name": "United current tenancy uncertainty modelled",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 G0",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 G1",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 G2",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 G3",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 G4",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 G5",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 G6",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 G7",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 G8",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 G9",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "KV09 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 G0",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 G1",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 G2",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 G3",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 G4",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 G5",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 G6",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 G7",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 G8",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 G9",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "KV10 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R213 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R213 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R213 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R213 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R213 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R213 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R213 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R213 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R213 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R213 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R213 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R213 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R214 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R214 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R214 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R214 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R214 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R214 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R214 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R214 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R214 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R214 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R214 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R214 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R215 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R215 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R215 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R215 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R215 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R215 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R215 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R215 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R215 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R215 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R215 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R215 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R216 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R216 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R216 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R216 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R216 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R216 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R216 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R216 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R216 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R216 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R216 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R216 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R217 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R217 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R217 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R217 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R217 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R217 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R217 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R217 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R217 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R217 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R217 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R217 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R218 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R218 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R218 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R218 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R218 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R218 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R218 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R218 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R218 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R218 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R218 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R218 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R219 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R219 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R219 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R219 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R219 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R219 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R219 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R219 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R219 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R219 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R219 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R219 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R246 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R246 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R246 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R246 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R246 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R246 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R246 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R246 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R246 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R246 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R246 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R246 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R312 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R312 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R312 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R312 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R312 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R312 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R312 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R312 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R312 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R312 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R312 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R312 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R313 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R313 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R313 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R313 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R313 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R313 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R313 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R313 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R313 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R313 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R313 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R313 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R314 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R314 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R314 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R314 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R314 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R314 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R314 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R314 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R314 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R314 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R314 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R314 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R315 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R315 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R315 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R315 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R315 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R315 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R315 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R315 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R315 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R315 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R315 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R315 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R316 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R316 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R316 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R316 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R316 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R316 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R316 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R316 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R316 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R316 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R316 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R316 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R317 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R317 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R317 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R317 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R317 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R317 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R317 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R317 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R317 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R317 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R317 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R317 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R318 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R318 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R318 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R318 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R318 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R318 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R318 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R318 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R318 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R318 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R318 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R318 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R319 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R319 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R319 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R319 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R319 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R319 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R319 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R319 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R319 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R319 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R319 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R319 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "R320 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R320 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R320 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R320 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R320 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R320 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R320 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R320 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R320 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R320 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R320 stop/defer retained",
+      "pass_check": true
+    },
+    {
+      "name": "R320 explicit counter and reopening",
+      "pass_check": true
+    },
+    {
+      "name": "Cliveden false-surplus wording absent",
+      "pass_check": true
+    },
+    {
+      "name": "five material flags",
+      "pass_check": true
+    },
+    {
+      "name": "five investigation fields Data limitation",
+      "pass_check": true
+    },
+    {
+      "name": "five investigation fields Judgment bias",
+      "pass_check": true
+    },
+    {
+      "name": "five investigation fields Omitted variable",
+      "pass_check": true
+    },
+    {
+      "name": "five investigation fields Structural change",
+      "pass_check": true
+    },
+    {
+      "name": "five investigation fields Falsifiable Hypothesis",
+      "pass_check": true
+    },
+    {
+      "name": "five investigation fields Evidence Required",
+      "pass_check": true
+    },
+    {
+      "name": "five investigation fields Falsification Conditions",
+      "pass_check": true
+    },
+    {
+      "name": "five investigation fields Core Module Routing",
+      "pass_check": true
+    },
+    {
+      "name": "five investigation fields Current Status",
+      "pass_check": true
+    },
+    {
+      "name": "41 raw retrievals",
+      "pass_check": true
+    },
+    {
+      "name": "R312 raw001",
+      "pass_check": true
+    },
+    {
+      "name": "R313 raw002",
+      "pass_check": true
+    },
+    {
+      "name": "R313 raw014",
+      "pass_check": true
+    },
+    {
+      "name": "R313 raw039",
+      "pass_check": true
+    },
+    {
+      "name": "R314 raw003",
+      "pass_check": true
+    },
+    {
+      "name": "R314 raw016",
+      "pass_check": true
+    },
+    {
+      "name": "R314 raw026",
+      "pass_check": true
+    },
+    {
+      "name": "R315 raw004",
+      "pass_check": true
+    },
+    {
+      "name": "R315 raw015",
+      "pass_check": true
+    },
+    {
+      "name": "R315 raw023",
+      "pass_check": true
+    },
+    {
+      "name": "R316 raw005",
+      "pass_check": true
+    },
+    {
+      "name": "R316 raw017",
+      "pass_check": true
+    },
+    {
+      "name": "R316 raw030",
+      "pass_check": true
+    },
+    {
+      "name": "R316 raw035",
+      "pass_check": true
+    },
+    {
+      "name": "R316 raw039",
+      "pass_check": true
+    },
+    {
+      "name": "R317 raw006",
+      "pass_check": true
+    },
+    {
+      "name": "R317 raw027",
+      "pass_check": true
+    },
+    {
+      "name": "R317 raw030",
+      "pass_check": true
+    },
+    {
+      "name": "R317 raw039",
+      "pass_check": true
+    },
+    {
+      "name": "R318 raw007",
+      "pass_check": true
+    },
+    {
+      "name": "R318 raw021",
+      "pass_check": true
+    },
+    {
+      "name": "R318 raw022",
+      "pass_check": true
+    },
+    {
+      "name": "R318 raw030",
+      "pass_check": true
+    },
+    {
+      "name": "R319 raw008",
+      "pass_check": true
+    },
+    {
+      "name": "R319 raw018",
+      "pass_check": true
+    },
+    {
+      "name": "R319 raw036",
+      "pass_check": true
+    },
+    {
+      "name": "R320 raw009",
+      "pass_check": true
+    },
+    {
+      "name": "R320 raw019",
+      "pass_check": true
+    },
+    {
+      "name": "R320 raw028",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Completion_Audit.md local link B04_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Completion_Audit.md local link B04_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Completion_Audit.md local link B04_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Completion_Audit.md local link B04_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Completion_Audit.md local link B04_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Completion_Audit.md local link B04_RESUME_CHECKPOINT.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Divergence_and_Misses.md local link B04_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Divergence_and_Misses.md local link B04_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Regional_Synthesis.md local link B04_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Regional_Synthesis.md local link B04_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Regional_Synthesis.md local link B04_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Regional_Synthesis.md local link B04_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Regional_Synthesis.md local link B04_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_Regional_Synthesis.md local link B04_RESUME_CHECKPOINT.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link README.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link Coverage_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link B04_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link B04_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link B04_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link Continuation_and_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link Compact_Buyer_Hypothesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link Case_Status_Overrides.json",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link B04_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link B04_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "B04_RESUME_CHECKPOINT.md local link B04_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "prior preservation register281",
+      "pass_check": true
+    },
+    {
+      "name": "preserved Evidence_Judgment_Divergence_Integration_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved Framework_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved Residential_Investment_Framework.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\calculate_approved_baseline.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\calculate_cheras.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Approved_Baseline_Bridge.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Approved_Baseline_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Evidence_Register.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_G0_G9_Cases.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_PreResearch_Lock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Regional_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\baseline-history\\pre-90pct\\calculate_approved_baseline.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\baseline-history\\pre-90pct\\Cheras_Approved_Baseline_Bridge.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\baseline-history\\pre-90pct\\Cheras_Approved_Baseline_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\baseline-history\\pre-90pct\\Founder_QA_Integration_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\__pycache__\\calculate_cheras.cpython-312.pyc",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Case_Replay_and_Investigation_Plan.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Case_Workpaper_Template.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Decision_Execution_Standard.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\financial_config.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\financial_engine.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Financial_Replay.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\PreChange_Integrity.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Regional_Underwriting_Protocol.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Release_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Release_Record.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\validate_execution.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Validation_PreLock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Validation_Report.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Validation_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\__pycache__\\financial_engine.cpython-312.pyc",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\calculate_batch02.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\calculate_stress.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_Closeout.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_Evidence_Log.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_Financial_Tests.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_Integrated_Decision_Test.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_PreData_Lock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_Stress_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Evidence_Log.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Integrated_Decision_Test.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Misses_and_Red_Team.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Portfolio_Stress.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_PreData_Lock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_SOP_Addendum.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Stress_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\README.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Residential_Investment_Engine_Handoff_Context.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved sop\\Approved_Execution_Supplement.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved sop\\Founder_QA_Approval_Register.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved sop\\Founder_QA_Integration_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Baseline_Integrity.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\build_coverage.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\build_review.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\build_workpapers.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Case_Analysis.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Coverage_Register.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Evidence_Register.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Evidence_Register.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Programme_PreResearch_Lock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Programme_Review.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Regional_Analysis.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Regional_Coverage.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\run_programme_financials.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Selected_Case_Workpapers.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\validate_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Validation_Report.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Validation_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\All_Catchment_Coverage.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\All_Catchment_Review.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Area_Research_Inputs.txt",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\build_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Case_Research_Inputs.txt",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R201.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R202.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R203.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R204.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R205.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R206.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R207.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R208.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R209.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R210.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R211.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R212.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R213.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R214.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R215.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R216.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R217.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R218.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R219.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R220.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R221.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R222.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R223.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R224.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R225.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R226.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R227.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R228.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R229.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R230.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R231.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R232.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R233.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R234.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R235.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R236.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R237.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R238.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R239.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R240.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R241.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R242.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R243.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R244.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R245.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R246.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R247.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R248.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R249.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R250.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Claim_Ledger.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Claim_Ledger.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Coverage_Register.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\polish_documents.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\001_southwest_scan.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\002_southwest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\003_pj.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\004_pj_west.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\005_west.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\006_encorp.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\007_dutamas.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\008_menjalara.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\009_perdana.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\010_klcc.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\011_trx.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\012_sentul.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\013_jelatek.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\014_hilir.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\015_pandan.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\016_gombak.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\017_melawati.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\018_selayang.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\019_sgbuloh.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\020_puchongsouth.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\021_serdang.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\022_subang.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\023_bestari.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\024_shah.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\025_setia.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\026_klang.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\027_bangi.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\028_semenyih.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\029_putrajaya.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\030_warisan.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\031_rimayu.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\032_elmina.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\033_rawang.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\034_oug_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\035_desagreen_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\036_endah_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\037_aurora_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\038_trion_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\039_pj8_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\040_centrestage_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\041_ken_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\042_sterling_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\043_sterling_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\044_encorp_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\045_southview_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\046_sinaran_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\047_sinaran_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\048_damas_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\049_menjalara_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\050_neo_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\051_vortex_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\052_trx_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\053_sentul_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\054_datum_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\055_ampang_compact.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\056_saville_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\057_ken_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\058_dsara_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\059_koi_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\060_zeva_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\061_damen_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\062_bestari_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\063_utropolis_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\064_gravit_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\065_evo_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\066_gombak_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\067_bestari_highrise.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\068_semenyih_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\069_putrajaya_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\070_geo_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\071_habitus_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\072_rawang_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\073_horizon_single.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\074_rail.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\075_rail2.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\076_uow.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\077_elmina_primary.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\078_centrestage_tx.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\079_neo_tx.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\080_zeva_tx.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\081_napic.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\082_cheras_compact.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\083_kuchai_pair.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\084_desagreen_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\085_hilir_true.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\086_urban_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\087_rawang_alternative.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\088_bukitbestari_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\089_cliveden_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\090_shamelin.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\091_sglong.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\092_alamdamai.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\093_menjalara_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\094_kuchai_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\095_habitus_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\096_bestari_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\097_amp_hilir_highrise.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\098_gcb_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\099_horizon_rentfull.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\100_landmark_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\101_emerald_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\102_kuchai_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\103_neo_clean.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\104_zeva_brickz.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\105_neo_brickz.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\106_zeva_open.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\107_gaps_park_sunway.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\108_gaps_kajang_shah.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\109_gaps_outer.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\110_zeva_replacement.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\111_neo_validation.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\112_primary_components.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\113_datum_gaia.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\114_contrast_geo_park.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\115_zeva_detail.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\116_sunway_specific.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\117_parque_specific.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\118_horizon_alternative.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\119_habitus_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\120_ops_tx.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\121_alanis_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\122_neo_exact.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\123_sunway_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\124_frontier_recheck.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\125_endah_anchor.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B01.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B02.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B03.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B04.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B05.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B06.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B07.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B08.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Release_Statistics.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Research_Lock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Source_Index.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Source_Index.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\validate_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Validation_Report.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Validation_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "B03 manifest47",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Completion_Audit.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Release_Audit.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 build_pj_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 PJ_RESUME_CHECKPOINT.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/048_PJ_primary_products.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/049_PJ_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/050_PJ_developer_layouts.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/051_Midtown_Eve_offers.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/052_Eve_offers.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/053_Eve_sale_primary.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/054_Kelana_controls.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/055_Primary_project_records.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/056_PJ_primary_identity_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/057_Midtown_current_brochure.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/057b_Midtown_individual_offers.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/058_Ara_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/059_Encorp_large.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/060_PJ8_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/061_Amcorp_identity.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/062_SS2_substitutes.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/063_Tropicana_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/064_PJ_component_and_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/065_Ameera_control.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/066_Encorp_family_control.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/067_PJ_supply_corridors.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/068_Encorp_tenure.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/069_Atera_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/070_Tropicana_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/071_Amcorp_project_primary.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/072_PJ8_larger.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/073_Encorp_1166_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/074_SS2_primary_quality.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/075_PJ8_two_bed.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/076_Eve_transfers.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/077_Kelana_transfers.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/078_casa_rent_recheck.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 sources/PJ_Midtown_Archived_Flyer.pdf",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 sources/pjmidtown-plan.png",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 verify_pj_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "328 prior file comparisons",
+      "pass_check": true
+    },
+    {
+      "name": "single frozen master",
+      "pass_check": true
+    },
+    {
+      "name": "61 scope rows",
+      "pass_check": true
+    },
+    {
+      "name": "exact16 desk closures",
+      "pass_check": true
+    },
+    {
+      "name": "programme still incomplete",
+      "pass_check": true
+    },
+    {
+      "name": "R216 effective eligibility hold",
+      "pass_check": true
+    },
+    {
+      "name": "R219 effective eligibility hold",
+      "pass_check": true
+    },
+    {
+      "name": "false Westside pair excluded",
+      "pass_check": true
+    }
+  ],
+  "prior_file_comparisons": 328,
+  "preservation": [
+    {
+      "path": "Evidence_Judgment_Divergence_Integration_Audit.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "Framework_Integrity_Manifest.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "Residential_Investment_Framework.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\calculate_approved_baseline.py",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\calculate_cheras.py",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Approved_Baseline_Bridge.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Approved_Baseline_Results.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Divergence_and_Misses.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Evidence_Register.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Financial_Results.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Financial_Underwriting.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_G0_G9_Cases.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Integrity_Manifest.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_PreResearch_Lock.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Regional_Underwriting.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\baseline-history\\pre-90pct\\calculate_approved_baseline.py",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\baseline-history\\pre-90pct\\Cheras_Approved_Baseline_Bridge.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\baseline-history\\pre-90pct\\Cheras_Approved_Baseline_Results.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\baseline-history\\pre-90pct\\Founder_QA_Integration_Manifest.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\__pycache__\\calculate_cheras.cpython-312.pyc",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Case_Replay_and_Investigation_Plan.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Case_Workpaper_Template.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Decision_Execution_Standard.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\financial_config.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\financial_engine.py",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Financial_Replay.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Financial_Results.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\PreChange_Integrity.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Regional_Underwriting_Protocol.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Release_Integrity_Manifest.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Release_Record.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\validate_execution.py",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Validation_PreLock.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Validation_Report.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Validation_Results.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\__pycache__\\financial_engine.cpython-312.pyc",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\calculate_batch02.py",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\calculate_stress.py",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_Closeout.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_Evidence_Log.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_Financial_Tests.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_Integrated_Decision_Test.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_PreData_Lock.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_Stress_Results.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Evidence_Log.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Integrated_Decision_Test.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Integrity_Manifest.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Misses_and_Red_Team.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Portfolio_Stress.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_PreData_Lock.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_SOP_Addendum.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Stress_Results.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\README.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Residential_Investment_Engine_Handoff_Context.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "sop\\Approved_Execution_Supplement.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "sop\\Founder_QA_Approval_Register.md",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "sop\\Founder_QA_Integration_Manifest.json",
+      "group": "preserved-preprogramme",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Baseline_Integrity.json",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\build_coverage.py",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\build_review.py",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\build_workpapers.py",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Case_Analysis.json",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Case_Inputs.json",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Coverage_Register.json",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Divergence_and_Misses.md",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Evidence_Register.json",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Evidence_Register.md",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Financial_Results.json",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Financial_Underwriting.md",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Programme_PreResearch_Lock.md",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Programme_Review.md",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Regional_Analysis.json",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Regional_Coverage.md",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\run_programme_financials.py",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Selected_Case_Workpapers.md",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\validate_release.py",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Validation_Report.md",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Validation_Results.json",
+      "group": "KV-REG-2026-10-07-R1",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\All_Catchment_Coverage.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\All_Catchment_Review.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Area_Research_Inputs.txt",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\build_release.py",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Case_Inputs.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Case_Research_Inputs.txt",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R201.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R202.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R203.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R204.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R205.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R206.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R207.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R208.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R209.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R210.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R211.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R212.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R213.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R214.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R215.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R216.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R217.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R218.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R219.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R220.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R221.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R222.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R223.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R224.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R225.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R226.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R227.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R228.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R229.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R230.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R231.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R232.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R233.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R234.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R235.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R236.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R237.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R238.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R239.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R240.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R241.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R242.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R243.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R244.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R245.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R246.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R247.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R248.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R249.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R250.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Claim_Ledger.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Claim_Ledger.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Coverage_Register.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Divergence_and_Misses.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Financial_Results.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Financial_Underwriting.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\polish_documents.py",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\001_southwest_scan.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\002_southwest.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\003_pj.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\004_pj_west.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\005_west.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\006_encorp.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\007_dutamas.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\008_menjalara.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\009_perdana.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\010_klcc.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\011_trx.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\012_sentul.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\013_jelatek.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\014_hilir.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\015_pandan.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\016_gombak.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\017_melawati.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\018_selayang.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\019_sgbuloh.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\020_puchongsouth.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\021_serdang.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\022_subang.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\023_bestari.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\024_shah.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\025_setia.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\026_klang.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\027_bangi.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\028_semenyih.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\029_putrajaya.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\030_warisan.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\031_rimayu.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\032_elmina.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\033_rawang.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\034_oug_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\035_desagreen_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\036_endah_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\037_aurora_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\038_trion_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\039_pj8_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\040_centrestage_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\041_ken_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\042_sterling_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\043_sterling_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\044_encorp_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\045_southview_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\046_sinaran_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\047_sinaran_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\048_damas_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\049_menjalara_actual.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\050_neo_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\051_vortex_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\052_trx_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\053_sentul_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\054_datum_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\055_ampang_compact.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\056_saville_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\057_ken_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\058_dsara_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\059_koi_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\060_zeva_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\061_damen_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\062_bestari_actual.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\063_utropolis_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\064_gravit_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\065_evo_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\066_gombak_actual.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\067_bestari_highrise.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\068_semenyih_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\069_putrajaya_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\070_geo_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\071_habitus_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\072_rawang_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\073_horizon_single.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\074_rail.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\075_rail2.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\076_uow.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\077_elmina_primary.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\078_centrestage_tx.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\079_neo_tx.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\080_zeva_tx.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\081_napic.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\082_cheras_compact.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\083_kuchai_pair.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\084_desagreen_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\085_hilir_true.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\086_urban_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\087_rawang_alternative.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\088_bukitbestari_actual.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\089_cliveden_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\090_shamelin.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\091_sglong.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\092_alamdamai.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\093_menjalara_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\094_kuchai_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\095_habitus_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\096_bestari_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\097_amp_hilir_highrise.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\098_gcb_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\099_horizon_rentfull.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\100_landmark_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\101_emerald_sale.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\102_kuchai_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\103_neo_clean.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\104_zeva_brickz.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\105_neo_brickz.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\106_zeva_open.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\107_gaps_park_sunway.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\108_gaps_kajang_shah.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\109_gaps_outer.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\110_zeva_replacement.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\111_neo_validation.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\112_primary_components.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\113_datum_gaia.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\114_contrast_geo_park.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\115_zeva_detail.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\116_sunway_specific.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\117_parque_specific.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\118_horizon_alternative.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\119_habitus_family.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\120_ops_tx.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\121_alanis_rent.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\122_neo_exact.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\123_sunway_actual.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\124_frontier_recheck.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\125_endah_anchor.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B01.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B02.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B03.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B04.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B05.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B06.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B07.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B08.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Release_Statistics.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Research_Lock.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Source_Index.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Source_Index.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\validate_release.py",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Validation_Report.md",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Validation_Results.json",
+      "group": "KV-REG-2026-10-07-R2",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Case_Inputs.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Cases_G0_G9.md",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Completion_Audit.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Completion_Audit.md",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Divergence_and_Misses.md",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Evidence_and_Supply.md",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Financial_Results.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Financial_Underwriting.md",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Regional_Synthesis.md",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Release_Audit.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\build_pj_release.py",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\PJ_RESUME_CHECKPOINT.md",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\048_PJ_primary_products.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\049_PJ_supply.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\050_PJ_developer_layouts.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\051_Midtown_Eve_offers.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\052_Eve_offers.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\053_Eve_sale_primary.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\054_Kelana_controls.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\055_Primary_project_records.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\056_PJ_primary_identity_supply.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\057_Midtown_current_brochure.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\057b_Midtown_individual_offers.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\058_Ara_supply.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\059_Encorp_large.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\060_PJ8_family.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\061_Amcorp_identity.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\062_SS2_substitutes.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\063_Tropicana_family.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\064_PJ_component_and_family.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\065_Ameera_control.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\066_Encorp_family_control.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\067_PJ_supply_corridors.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\068_Encorp_tenure.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\069_Atera_supply.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\070_Tropicana_supply.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\071_Amcorp_project_primary.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\072_PJ8_larger.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\073_Encorp_1166_rent.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\074_SS2_primary_quality.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\075_PJ8_two_bed.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\076_Eve_transfers.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\077_Kelana_transfers.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\078_casa_rent_recheck.json",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\sources\\PJ_Midtown_Archived_Flyer.pdf",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\sources\\pjmidtown-plan.png",
+      "group": "B03 frozen release",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\verify_pj_release.py",
+      "group": "B03 frozen release",
+      "pass_check": true
+    }
+  ],
+  "boundary": "Arithmetical, structural and file-preservation verification; substantive coverage is an authored self-audit. No market-input authentication, investment approval or realised validation."
+}

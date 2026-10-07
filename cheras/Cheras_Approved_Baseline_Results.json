@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-06",
+  "standard_ltv": 0.9,
+  "rate": 0.04,
+  "years": 35,
+  "scope": "Scenario calibration only, not fresh market or loan evidence",
+  "fee_boundary": "Prior service/sinking allowance used as proxy; verified management-only charges unavailable",
+  "ltv_boundary": "90% user-mandated standard; 80% historical sensitivity only; no lender eligibility guarantee",
+  "cases": [
+    {
+      "id": "C01",
+      "name": "M Vertica",
+      "price_ask": 489000,
+      "rent_assumed": 2400,
+      "fee_proxy": 350,
+      "other_cost_assumed": 150,
+      "gross_yield": 0.05889570552147239,
+      "meets_preferred_6pct": false,
+      "at_80pct": {
+        "ltv": 0.8,
+        "loan": 391200.0,
+        "instalment": 1732.1347869223105,
+        "monthly_coverage_fee_proxy": 317.86521307768953,
+        "scenario_covers_fee_proxy": true,
+        "annual_cashflow_11_paid_months_other_costs": -385.61744306772744,
+        "cash_neutral_rent_11_months": 2435.056131187975
+      },
+      "at_90pct": {
+        "ltv": 0.9,
+        "loan": 440100.0,
+        "instalment": 1948.6516352875992,
+        "monthly_coverage_fee_proxy": 101.34836471240078,
+        "scenario_covers_fee_proxy": true,
+        "annual_cashflow_11_paid_months_other_costs": -2983.8196234511925,
+        "cash_neutral_rent_11_months": 2671.256329404654
+      }
+    },
+    {
+      "id": "C02",
+      "name": "Shamelin Star",
+      "price_ask": 700000,
+      "rent_assumed": 2600,
+      "fee_proxy": 400,
+      "other_cost_assumed": 150,
+      "gross_yield": 0.044571428571428574,
+      "meets_preferred_6pct": false,
+      "at_80pct": {
+        "ltv": 0.8,
+        "loan": 560000.0,
+        "instalment": 2479.5385497865386,
+        "monthly_coverage_fee_proxy": -279.5385497865386,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -7754.462597438462,
+        "cash_neutral_rent_11_months": 3304.9511452216784
+      },
+      "at_90pct": {
+        "ltv": 0.9,
+        "loan": 630000.0,
+        "instalment": 2789.4808685098556,
+        "monthly_coverage_fee_proxy": -589.4808685098556,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -11473.770422118265,
+        "cash_neutral_rent_11_months": 3643.070038374388
+      }
+    },
+    {
+      "id": "C03",
+      "name": "EkoCheras duplex",
+      "price_ask": 520000,
+      "rent_assumed": 2300,
+      "fee_proxy": 350,
+      "other_cost_assumed": 150,
+      "gross_yield": 0.05307692307692308,
+      "meets_preferred_6pct": false,
+      "at_80pct": {
+        "ltv": 0.8,
+        "loan": 416000.0,
+        "instalment": 1841.9429226985715,
+        "monthly_coverage_fee_proxy": 108.05707730142854,
+        "scenario_covers_fee_proxy": true,
+        "annual_cashflow_11_paid_months_other_costs": -2803.315072382855,
+        "cash_neutral_rent_11_months": 2554.8468247620776
+      },
+      "at_90pct": {
+        "ltv": 0.9,
+        "loan": 468000.0,
+        "instalment": 2072.185788035893,
+        "monthly_coverage_fee_proxy": -122.18578803589298,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -5566.229456430716,
+        "cash_neutral_rent_11_months": 2806.0208596755197
+      }
+    },
+    {
+      "id": "C04",
+      "name": "Aster Type B",
+      "price_ask": 540000,
+      "rent_assumed": 2400,
+      "fee_proxy": 350,
+      "other_cost_assumed": 150,
+      "gross_yield": 0.05333333333333334,
+      "meets_preferred_6pct": false,
+      "at_80pct": {
+        "ltv": 0.8,
+        "loan": 432000.0,
+        "instalment": 1912.786881263901,
+        "monthly_coverage_fee_proxy": 137.21311873609898,
+        "scenario_covers_fee_proxy": true,
+        "annual_cashflow_11_paid_months_other_costs": -2553.4425751668095,
+        "cash_neutral_rent_11_months": 2632.1311431969825
+      },
+      "at_90pct": {
+        "ltv": 0.9,
+        "loan": 486000.0,
+        "instalment": 2151.8852414218886,
+        "monthly_coverage_fee_proxy": -101.88524142188862,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -5422.622897062662,
+        "cash_neutral_rent_11_months": 2892.9657179147875
+      }
+    },
+    {
+      "id": "C05",
+      "name": "Maxim Residences",
+      "price_ask": 480000,
+      "rent_assumed": 2400,
+      "fee_proxy": 350,
+      "other_cost_assumed": 150,
+      "gross_yield": 0.06,
+      "meets_preferred_6pct": true,
+      "at_80pct": {
+        "ltv": 0.8,
+        "loan": 384000.0,
+        "instalment": 1700.2550055679121,
+        "monthly_coverage_fee_proxy": 349.7449944320879,
+        "scenario_covers_fee_proxy": true,
+        "annual_cashflow_11_paid_months_other_costs": -3.0600668149454577,
+        "cash_neutral_rent_11_months": 2400.278187892268
+      },
+      "at_90pct": {
+        "ltv": 0.9,
+        "loan": 432000.0,
+        "instalment": 1912.786881263901,
+        "monthly_coverage_fee_proxy": 137.21311873609898,
+        "scenario_covers_fee_proxy": true,
+        "annual_cashflow_11_paid_months_other_costs": -2553.4425751668095,
+        "cash_neutral_rent_11_months": 2632.1311431969825
+      }
+    },
+    {
+      "id": "C06",
+      "name": "Riana South",
+      "price_ask": 595000,
+      "rent_assumed": 2700,
+      "fee_proxy": 400,
+      "other_cost_assumed": 150,
+      "gross_yield": 0.05445378151260504,
+      "meets_preferred_6pct": false,
+      "at_80pct": {
+        "ltv": 0.8,
+        "loan": 476000.0,
+        "instalment": 2107.6077673185578,
+        "monthly_coverage_fee_proxy": 192.39223268144224,
+        "scenario_covers_fee_proxy": true,
+        "annual_cashflow_11_paid_months_other_costs": -2191.293207822695,
+        "cash_neutral_rent_11_months": 2899.2084734384266
+      },
+      "at_90pct": {
+        "ltv": 0.9,
+        "loan": 535500.0,
+        "instalment": 2371.058738233378,
+        "monthly_coverage_fee_proxy": -71.05873823337788,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -5352.704858800535,
+        "cash_neutral_rent_11_months": 3186.6095326182303
+      }
+    },
+    {
+      "id": "C07",
+      "name": "Green Residence",
+      "price_ask": 540000,
+      "rent_assumed": 2000,
+      "fee_proxy": 400,
+      "other_cost_assumed": 150,
+      "gross_yield": 0.044444444444444446,
+      "meets_preferred_6pct": false,
+      "at_80pct": {
+        "ltv": 0.8,
+        "loan": 432000.0,
+        "instalment": 1912.786881263901,
+        "monthly_coverage_fee_proxy": -312.786881263901,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -7553.44257516681,
+        "cash_neutral_rent_11_months": 2686.676597742437
+      },
+      "at_90pct": {
+        "ltv": 0.9,
+        "loan": 486000.0,
+        "instalment": 2151.8852414218886,
+        "monthly_coverage_fee_proxy": -551.8852414218886,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -10422.622897062662,
+        "cash_neutral_rent_11_months": 2947.511172460242
+      }
+    },
+    {
+      "id": "C08",
+      "name": "Windows on the Park large",
+      "price_ask": 900000,
+      "rent_assumed": 3500,
+      "fee_proxy": 850,
+      "other_cost_assumed": 200,
+      "gross_yield": 0.04666666666666667,
+      "meets_preferred_6pct": false,
+      "at_80pct": {
+        "ltv": 0.8,
+        "loan": 720000.0,
+        "instalment": 3187.978135439835,
+        "monthly_coverage_fee_proxy": -537.9781354398351,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -12355.737625278016,
+        "cash_neutral_rent_11_months": 4623.248875025274
+      },
+      "at_90pct": {
+        "ltv": 0.9,
+        "loan": 810000.0,
+        "instalment": 3586.4754023698147,
+        "monthly_coverage_fee_proxy": -936.4754023698147,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -17137.70482843778,
+        "cash_neutral_rent_11_months": 5057.973166221616
+      }
+    },
+    {
+      "id": "C09",
+      "name": "Scot Pine",
+      "price_ask": 498000,
+      "rent_assumed": 2200,
+      "fee_proxy": 450,
+      "other_cost_assumed": 200,
+      "gross_yield": 0.05301204819277108,
+      "meets_preferred_6pct": false,
+      "at_80pct": {
+        "ltv": 0.8,
+        "loan": 398400.0,
+        "instalment": 1764.0145682767088,
+        "monthly_coverage_fee_proxy": -14.014568276708815,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -4768.174819320506,
+        "cash_neutral_rent_11_months": 2633.470438120046
+      },
+      "at_90pct": {
+        "ltv": 0.9,
+        "loan": 448200.0,
+        "instalment": 1984.5163893112974,
+        "monthly_coverage_fee_proxy": -234.51638931129742,
+        "scenario_covers_fee_proxy": false,
+        "annual_cashflow_11_paid_months_other_costs": -7414.196671735572,
+        "cash_neutral_rent_11_months": 2874.017879248688
+      }
+    }
+  ]
+}

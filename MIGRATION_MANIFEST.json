@@ -1,0 +1,3214 @@
+{
+  "version": "CORE-REPOSITORY-TRANSFER-2026-10-07",
+  "repository": "https://github.com/brandonkow/core",
+  "cutoff": "2026-10-07",
+  "generated_source_files": 533,
+  "additional_user_source_files": 1,
+  "scope": "Entire Residential Investment Decision Engine directory including historical files, scripts, source captures and three generated Python cache files; original uploaded407QA included as provenance. No unrelated workspace repositories or user inputs deleted.",
+  "files": [
+    {
+      "path": "cheras/__pycache__/calculate_cheras.cpython-312.pyc",
+      "bytes": 16150,
+      "sha256": "81fa85d17f7d2a0e2ff56c99dab02687835d4c2f008c187d324448fcc3d0f3cc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/baseline-history/pre-90pct/calculate_approved_baseline.py",
+      "bytes": 7901,
+      "sha256": "f7b9edf128502d89691429434fcc90226ebbe40db513d3d6a129a3272afe416a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/baseline-history/pre-90pct/Cheras_Approved_Baseline_Bridge.md",
+      "bytes": 5039,
+      "sha256": "3dd48431528e2ae577dc59115b1117e8a73b5dafd804369d73024f2ea9569764",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/baseline-history/pre-90pct/Cheras_Approved_Baseline_Results.json",
+      "bytes": 9192,
+      "sha256": "81f7a2b8b6ffc801fb1d3e8a59f389ee2511897d0aeaf89c6b991b1b1b781199",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/baseline-history/pre-90pct/Founder_QA_Integration_Manifest.json",
+      "bytes": 2458,
+      "sha256": "7eef60a92431b10deea5bc8fc7cee41e8196ed6d9c76a614e3b612c1621b7109",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/calculate_approved_baseline.py",
+      "bytes": 8269,
+      "sha256": "281b0b2a952c2055f082dcdd5e5bb9b485f56531416024b82c874d1690eeb090",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/calculate_cheras.py",
+      "bytes": 11896,
+      "sha256": "28751ef9f542b06b87736a69695d1d433d93515c23040fc437ddb5752ae44240",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/Cheras_Approved_Baseline_Bridge.md",
+      "bytes": 5276,
+      "sha256": "88212d2a81230bbaddd35fdf0cf5c4ee245fc3c358281d7944e36a4d56b81af4",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/Cheras_Approved_Baseline_Results.json",
+      "bytes": 9239,
+      "sha256": "30b03a7376df5eca964b0f0df788af6d0de230a6e3c46758d2bac183b22b18cc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/Cheras_Divergence_and_Misses.md",
+      "bytes": 18223,
+      "sha256": "ba6520de1c4cd1cc07abc3e2d35193ab5f98855c47e9ce8386c0fbf34bb1ba03",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/Cheras_Evidence_Register.md",
+      "bytes": 20322,
+      "sha256": "c8ced30a08652069fbf8bc7c6442ec60257f4ca250e1839340ded0d715daae83",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/Cheras_Financial_Results.json",
+      "bytes": 96922,
+      "sha256": "dc1d54bfcb54da4a519c2b322e68ba851708a214b8f123ff5fff3a39edee1165",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/Cheras_Financial_Underwriting.md",
+      "bytes": 7870,
+      "sha256": "b771d01d49541a0c28ce5d581f5fdaabd1bef48958d37dc9c9280c611b369f5d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/Cheras_G0_G9_Cases.md",
+      "bytes": 25041,
+      "sha256": "77de758fad4d3df0aaa92700d4b5d7400dadf2748d1798cc357d3a3342586017",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/Cheras_Integrity_Manifest.json",
+      "bytes": 2108,
+      "sha256": "df97d6848a3f0185f286b19d823cb522053dafca7d7f9920d3b27268e1168047",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/Cheras_PreResearch_Lock.md",
+      "bytes": 5490,
+      "sha256": "827afd2e38df76a6e40f48758c4088b456d9c961ab8c0be7f9fa611be15df8d4",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "cheras/Cheras_Regional_Underwriting.md",
+      "bytes": 17900,
+      "sha256": "358329bfc2fb6cb88dab2fbd76541909ee3507f96fb0cb3a47aa15f5b7759c36",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "Evidence_Judgment_Divergence_Integration_Audit.md",
+      "bytes": 10995,
+      "sha256": "3c4928fcfff065f450c1200108bdad83d19c53b7f6dd25c19dfeaae500996096",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/__pycache__/financial_engine.cpython-311.pyc",
+      "bytes": 24359,
+      "sha256": "dfd57753ce7ecfa55e6214fff28234b8c5ec60facacf686d801fb929b152415f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/__pycache__/financial_engine.cpython-312.pyc",
+      "bytes": 20942,
+      "sha256": "dde3bf0ff33c2daaed2dd8a06a06a10a26a781ad92381e581e920aac21769bf4",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Case_Replay_and_Investigation_Plan.md",
+      "bytes": 9774,
+      "sha256": "3d1c1b01478f4d34ebfefaf16559ae4a80a7831bc4cd876b1a89f0c680b5b9a2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Case_Workpaper_Template.md",
+      "bytes": 4076,
+      "sha256": "8cc826e2ddfa4194a77543342277c59c0aea6ecb05e487255745f5b18f39abc7",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Decision_Execution_Standard.md",
+      "bytes": 13830,
+      "sha256": "ac13a9c14b7b30908e500ec75b0ad3edaf6f234730c40a3f3322312466c17327",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/financial_config.json",
+      "bytes": 1037,
+      "sha256": "ddcbfca298e1ee33a55544f8c25750b17c60a531eccddd62ad6ddc124a4a367c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/financial_engine.py",
+      "bytes": 16438,
+      "sha256": "3ab25fc9d9c100dde0eb7240cada5f53df2b6585be52af9165d8930cd8a64b5a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Financial_Replay.md",
+      "bytes": 12956,
+      "sha256": "1f6b536d8ff4a16a383d0123bcc512552b0e0c1d80a8eff5b8876499acd38fae",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Financial_Results.json",
+      "bytes": 1972016,
+      "sha256": "4a8d150f4cae5a2ab7817213d694e6272b63140efe7d30efc2cda4df9ed7fc50",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/PreChange_Integrity.json",
+      "bytes": 4858,
+      "sha256": "fd034c4c5ef0185a190e12358c96f8b1d366ed2ea20496d6cf2244cdb80569df",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Regional_Underwriting_Protocol.md",
+      "bytes": 5278,
+      "sha256": "028690ad772b33779d7a846f868a0cf7b23775725bcf9f2f5c5d450265cd34f2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Release_Integrity_Manifest.json",
+      "bytes": 3527,
+      "sha256": "94f33b839ffa70e8758226566d0b89864a91b2833984fcb7621afe5c1452ca9b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Release_Record.md",
+      "bytes": 5981,
+      "sha256": "7e8eb1e5e92e073e6f558d3a45842588b27918b515027f79059fced61e6bc5bf",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/validate_execution.py",
+      "bytes": 7163,
+      "sha256": "49ed49454e3a317386264b05c376cf54ec3fe959c91e67eebc1f9e8cffd53564",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Validation_PreLock.md",
+      "bytes": 4360,
+      "sha256": "7e882037b9aba201b0f1f801feaa202b9ef9bcf83ae74a8fea8561f0c20ae43e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Validation_Report.md",
+      "bytes": 3734,
+      "sha256": "e12ebba189578a1e9d41ea950e165664109aa1a851e6d6884564c8d2e3e8960d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "execution-release-2026-10-07/Validation_Results.json",
+      "bytes": 8475,
+      "sha256": "4e7561e86ae7ab60115d9fa5a389068123db4c71e90da748ddaece7be030dcf2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "Framework_Integrity_Manifest.json",
+      "bytes": 2323,
+      "sha256": "9ee08226b9bf48d88b4db8a9b856ff64b9895c95945ab6495985718da8518505",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Baseline_Integrity.json",
+      "bytes": 8979,
+      "sha256": "28f70cbf801447f1f0f65d2400fca618582fbf19d9849b13396e2f18a62215b9",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/build_coverage.py",
+      "bytes": 7501,
+      "sha256": "ab53d4665f67a7d60e1ceb0de76247959172246dbe489527603f135df6435734",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/build_review.py",
+      "bytes": 12085,
+      "sha256": "574d1f6d06785ee8fc15a5ddb58c6a87b946cad0ede256b5fb7a3c6cb2a32a03",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/build_workpapers.py",
+      "bytes": 12983,
+      "sha256": "21fe9d065ce45bbfe0a10d944a581a136102886f95b4bd53e4976e2e98add8f1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Case_Analysis.json",
+      "bytes": 27148,
+      "sha256": "3e92f92ff4ee3cd7b282c3f655ce7a49a94e5628bef89e863f75d75d914d1a0f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Case_Inputs.json",
+      "bytes": 15879,
+      "sha256": "695ba0aeebaa42f97d37c17002e6c8427b84c58211df4478456b2674eae46c91",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Coverage_Register.json",
+      "bytes": 9945,
+      "sha256": "6a5d48449a4da8e318dc4aac4f693e5da01171c3c3a6d7e9c4d3927a4c18dcf8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Divergence_and_Misses.md",
+      "bytes": 20252,
+      "sha256": "9cd57706ab499d225cdf6cf2f55a55035fcda1b6f1b3452812837e1bf02f9d50",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Evidence_Register.json",
+      "bytes": 33097,
+      "sha256": "684cf4e70a6a9fa2525cd55a13fce83cde7f4734204be3b00b6b7c6a55d983aa",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Evidence_Register.md",
+      "bytes": 37913,
+      "sha256": "91d7336f371052f4c7c2abbcc0ef021ae70daa64a75e5df47554a48e07d83b38",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Financial_Results.json",
+      "bytes": 627750,
+      "sha256": "bd4163373e29327b05aaf5b29953957c310de87268c1fa40ec8632b8aab1f2a1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Financial_Underwriting.md",
+      "bytes": 16227,
+      "sha256": "200722a73d7cfadcb69895921ac10f05c741d127a099d8038662b0b535231f03",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/layout-expansion/Layout_Coverage_Register.json",
+      "bytes": 55862,
+      "sha256": "96dadf307259cc01be20a089267c811351e7ca7a019cce60260307ae9602f9cf",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/layout-expansion/Layout_Coverage_Register.md",
+      "bytes": 5857,
+      "sha256": "feeda5b5dd5c3f70e7044ad884925a99d3a3b96ea7d91069f750d74695af1499",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/layout-expansion/Scope_Clarification.md",
+      "bytes": 3569,
+      "sha256": "2b1797986cc71a5850b2f2b5d823e754ac77ae7375f6c73f3463a63fe5aecdaa",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/layout-expansion/Update_Record.json",
+      "bytes": 955,
+      "sha256": "312c922ebe0ed87d4b3ceac29ddb28ef9f926fa55b551a8edf90ad76117a9854",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Programme_PreResearch_Lock.md",
+      "bytes": 6842,
+      "sha256": "987dbcfeecd9d133fe9a6ee12726412db317060d04d4ab88c622ee83528a0148",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Programme_Review.md",
+      "bytes": 12085,
+      "sha256": "6980c92f352f5f9f8328b0acd8724126d3192c0dfb59c5010f843f25833176e3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Regional_Analysis.json",
+      "bytes": 6567,
+      "sha256": "9459d4ad2bfd600c179033cb465452307fdb1227b226f94c9baa923c758a549a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Regional_Coverage.md",
+      "bytes": 20771,
+      "sha256": "675923f01cf3128f171a9b84bb0bc7543f7151b5bdb3dcc28017aa7e82cba227",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Release_Manifest.json",
+      "bytes": 2128,
+      "sha256": "2433ab856c2126138ad9bc61540e68762ea771ee9cb438994de9aaa5bd6d27d2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/All_Catchment_Coverage.md",
+      "bytes": 16491,
+      "sha256": "b906230ceea86b033a9c80c3d48f10c76ce9cc9104505aa3d13cca53c08ac7b5",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/All_Catchment_Review.md",
+      "bytes": 12262,
+      "sha256": "1b3b929c4f54b2ae070cab80e6672feeeb27802e4b5ee49b3e9125e3810cb30b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Area_Research_Inputs.txt",
+      "bytes": 18788,
+      "sha256": "a628922fc41635992def5f8b923e786b9751f774deab7dd61b0be8657e739bad",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/build_release.py",
+      "bytes": 41908,
+      "sha256": "504dd67d4efd55214e7fdd0784677eecd8892c3283b68b988bde1e994e7b51d8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Case_Inputs.json",
+      "bytes": 71074,
+      "sha256": "4820ae8bd5b36f8c2567f875520373434ff87858c7689c3ce8ca5fb587d5b048",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Case_Research_Inputs.txt",
+      "bytes": 16023,
+      "sha256": "c80e0a1e53de6fb23ee4215f080ad0364d43f8886dcdeb3cd445ace71f99ec72",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R201.md",
+      "bytes": 10098,
+      "sha256": "dd0ad1fa4f78a436533f8fa920bf2f8a03323344d9f4477ba9b4c71ecf09c65d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R202.md",
+      "bytes": 9751,
+      "sha256": "9658414e1623633c8f5319cb8f21fccb985598d251e2d576bf69d2ee7b0755af",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R203.md",
+      "bytes": 9748,
+      "sha256": "e7aa38ff883b2e86371e1083caea9bfff8d30b949ddda16e3409a8d8e37d3bb2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R204.md",
+      "bytes": 10303,
+      "sha256": "da15de31d1c35405fea4abfc04fd4bbc9d38412e76355a968d6aa912285bb237",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R205.md",
+      "bytes": 9761,
+      "sha256": "5f3cd4758491bf36ca07c5af3c5059f28ca225441aef8e731f52b35b9ef7a8b6",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R206.md",
+      "bytes": 9845,
+      "sha256": "dd6643db60a66396fcaad23067c5e5d231fc0f4951503a3a8a776880e8030186",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R207.md",
+      "bytes": 9716,
+      "sha256": "d8eea70a4df6977e1955871c6d58dea8566f63110dc458d0dba9cc81ef16d61e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R208.md",
+      "bytes": 10236,
+      "sha256": "a32ce86720b8ebdcb947b69d4e06c14e0650d899d4d78c50d7e1b46259a3df3d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R209.md",
+      "bytes": 9751,
+      "sha256": "cb23026f210373336b27da2b8eedaa80ec08dbfcfeedbea91ffc74cac5a6c4c2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R210.md",
+      "bytes": 9829,
+      "sha256": "330d6a0639d3625d8d784bcd6a8209081a96a3eb57e30d80f08c890f75862163",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R211.md",
+      "bytes": 9485,
+      "sha256": "d63ba7352c1c3a6f598da28095434a6acf8404ae3d045b70bb0aa28992224528",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R212.md",
+      "bytes": 9741,
+      "sha256": "305654b72341a0c7ea855efdb4aba4a4ed839712ac12eef6cf2ccc3f7a00cbd3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R213.md",
+      "bytes": 9762,
+      "sha256": "3c6a020278cd8eb745c255f0bfeea05df9d495728057744255f51131098b80a0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R214.md",
+      "bytes": 9700,
+      "sha256": "51cc2bb7360829e32c9df1111d9bbb41dd29d0b85609847eb8f8318ef27d0719",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R215.md",
+      "bytes": 9517,
+      "sha256": "30b7dfd7ba0f4ea95731560313b5e7b284d74cd8996ba9258cf66c9414eea23a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R216.md",
+      "bytes": 10323,
+      "sha256": "4dbc8873317416ccc00611cbd704e50ce87eb9868bfaedf0312dba444375615f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R217.md",
+      "bytes": 9465,
+      "sha256": "f4a71738a929f3fb14785156765fd2e9ea9f2f57e9934ccee4858b4705df22d9",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R218.md",
+      "bytes": 9828,
+      "sha256": "057f71d672d6dafe31fd10dc9d61a7115bd5b19d745dd71bed0ac04f0d47e547",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R219.md",
+      "bytes": 10492,
+      "sha256": "c27709f6b992f8fb15c1bdc3eae4e058282a89189c306facd131e9f5d1a9edf1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R220.md",
+      "bytes": 9770,
+      "sha256": "41a6ea9003f0fd25e34fecc2d540cd4758a573e9fcef106acc1f6c99404647f7",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R221.md",
+      "bytes": 9703,
+      "sha256": "783fce27fa00eb2624ae634e90c558948ff1eb1e5a92b296e94f412c68614050",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R222.md",
+      "bytes": 9825,
+      "sha256": "e4f5412579570378f63b1bde2bb7c5b9b0a545541eda3992a4f1cd35c9ccbc1c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R223.md",
+      "bytes": 9900,
+      "sha256": "5565aaace23dfee474940dbdb7a56c02d092d1fa84a58a0c8b02cc4b1e98efa0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R224.md",
+      "bytes": 9828,
+      "sha256": "2fc38b27a110ec1b56076cc7b340668eb54b8e858933374617fd8561be120978",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R225.md",
+      "bytes": 9590,
+      "sha256": "81b450347eafa0490c240458b1a1605639eed29f8c289d4e4737e16aaf0c04d4",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R226.md",
+      "bytes": 9721,
+      "sha256": "5610f3b854f435e8cc699f68b2b062635a1a4461cb5bd20dccd49c99508c44ac",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R227.md",
+      "bytes": 9745,
+      "sha256": "11134b4da6001bbf532a9fce7b9319e6cea7d1b7d90526f26ffa3f033924200c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R228.md",
+      "bytes": 9518,
+      "sha256": "3bd1c6c214992fd9dcc98ee3edbd114036ebbf7deb57ee8001e06a984fbd13e3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R229.md",
+      "bytes": 9725,
+      "sha256": "3165bcc31fab9026be8c4a0aee228e9f93eb68d7cd374f02f18f9630f2d64f6c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R230.md",
+      "bytes": 9662,
+      "sha256": "c8b8248c8a612062f4e643757b90295240dca3cc6f138586edacab6c5a023afd",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R231.md",
+      "bytes": 10966,
+      "sha256": "06ea6c3182d0ada7cd21dda50f35960f60ae73fc6e3b5bd679be480c2d896fc1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R232.md",
+      "bytes": 9728,
+      "sha256": "065d9db9463e14abfad771adf4d9f61c70530bece53935dbfe563b97403f5934",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R233.md",
+      "bytes": 10068,
+      "sha256": "3a7d24bcd62559988f1e7b69f03fc821869334bef09687867285d0d1b06ab14a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R234.md",
+      "bytes": 10384,
+      "sha256": "62645f630742b88dc97dd768b15dbf931d7a05637dbaf23685817dd7c74d849d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R235.md",
+      "bytes": 9541,
+      "sha256": "b6d4a814874c3f167c524bbf2f0cb2ff864f616e2af0c937f9a78bd1b9b22b2b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R236.md",
+      "bytes": 9704,
+      "sha256": "eeb3d5cb270443a214e766869e7d9106deb8e939c03674120814e871a554370c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R237.md",
+      "bytes": 9851,
+      "sha256": "43893616fd3dadc5c228b85c624dcaa36b1d59ccb8057eb1d830908675fda660",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R238.md",
+      "bytes": 9793,
+      "sha256": "3e040e04ce66beb8aad20aebc1385d0edf8b9eb19401846fb228079f53357a37",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R239.md",
+      "bytes": 9795,
+      "sha256": "95cc43c53c57649157b08a3be8099465b2381d5a1fb8a6baee6d6db8e1ead9b9",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R240.md",
+      "bytes": 9871,
+      "sha256": "8b092a79cc7190af7a3d41f96bac23172ae0bea08d3474c1ea230f3cf4d1d37d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R241.md",
+      "bytes": 10502,
+      "sha256": "28027ed6a450abb2706a067d9cd7736f6be6b5f1d29c19760d7e4cf33a5c548d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R242.md",
+      "bytes": 9972,
+      "sha256": "cc24b20dafa131385e6b78c495460fd351d85cd02f4baa57304ba151b23b44c9",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R243.md",
+      "bytes": 9674,
+      "sha256": "62cb138c8e19deba8a231fc90e0afff998c3a362f4191868f6fcaa1ecb1520c8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R244.md",
+      "bytes": 10046,
+      "sha256": "968acc0250f2f91f72210bc6e0659fb9bc8e0bde1902eaea94e928364284034d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R245.md",
+      "bytes": 9859,
+      "sha256": "08dc73d60deef3b20909efa60fd8a4bdf62735c26d8b2d16b04dde7008992e9c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R246.md",
+      "bytes": 9903,
+      "sha256": "b1b03fe0aaa7300787335341b8d9c15befc3b6792d4ed4e6d639ae08b2e7982c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R247.md",
+      "bytes": 10134,
+      "sha256": "68946651863c337e7878cf6d524ad3d87367ee35977334c2d1fcb095608a5f57",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R248.md",
+      "bytes": 10284,
+      "sha256": "74c440b69cd4b14429f167fd7e56f2524b6d6e0b1de2f4c1942559ff9c6620a2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R249.md",
+      "bytes": 9837,
+      "sha256": "078fc46d6c6effb0be0dd4575c6ed3d72c6342a4d430d629f3d08c0464fbcb24",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/cases/R250.md",
+      "bytes": 9700,
+      "sha256": "9ef55ee968d0d659ea7325b9c87d9348d78073bbe48d63e9b04ca30753f60c6f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Claim_Ledger.json",
+      "bytes": 80887,
+      "sha256": "59e7f6e86639dcba54687d24bc42046a030de6a49e10f99a516c464e01593cbc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Claim_Ledger.md",
+      "bytes": 83922,
+      "sha256": "1800e8571833528be79f1d3e23184511f99d2675189019843004dc26957fc7d3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Coverage_Register.json",
+      "bytes": 43542,
+      "sha256": "7bc0c01d20cdb02b40f0105587a177fc4b12e77a87443c8741f9a1261aa3ccbf",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Divergence_and_Misses.md",
+      "bytes": 18076,
+      "sha256": "2ead7cd62b3660439b6646d31d7b1b636d8045ffc332686659ae83c1eac48b75",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Financial_Results.json",
+      "bytes": 3128417,
+      "sha256": "72bc28657ad68bcf3cd5f20a34433caf8f3e20c9ac801ac22d7c6059c0d1cd11",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Financial_Underwriting.md",
+      "bytes": 45796,
+      "sha256": "5e59c98b645eeb6b7362957f3e5609ea8b22833777eff5715a58096c39ad4a9a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/polish_documents.py",
+      "bytes": 1457,
+      "sha256": "151a18438d161cf28e433488d3d342653bc4b928e6c9db53422a98187737062e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/001_southwest_scan.json",
+      "bytes": 30426,
+      "sha256": "629e7eababe42d6ff092cea5dab266a39b8084441a30089243e4ec6075fee059",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/002_southwest.json",
+      "bytes": 27859,
+      "sha256": "baba8e792175c01d0f95069c0dd875ab0a3ec00c84695e7e766cccecf1ec20f1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/003_pj.json",
+      "bytes": 28956,
+      "sha256": "4a99cc29af9873ba2287596fccb08c0ef14a2038b9deb35a96c94f7899c28251",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/004_pj_west.json",
+      "bytes": 33022,
+      "sha256": "6ee00550bb417c0fb18c735c2b36a3016c8e97d9b008e6bf66cb971026cde448",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/005_west.json",
+      "bytes": 30192,
+      "sha256": "fece72cdb5a765577358e516af3c27d0f58a98d0a7f75e5230f07d06b6af9600",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/006_encorp.json",
+      "bytes": 26896,
+      "sha256": "43583f63a81b655bb6fc593f7b00531368e74cbb0838e0a94b5257f4c4ec6053",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/007_dutamas.json",
+      "bytes": 29450,
+      "sha256": "daa499047391c16b0c3f7b3e783b0363690ea0cbb6054d24c70f444b09cebfd7",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/008_menjalara.json",
+      "bytes": 29536,
+      "sha256": "b2ac4c2475e93d2e754235bcbbe7f51e9d515e41571b22930774739974db044d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/009_perdana.json",
+      "bytes": 24992,
+      "sha256": "2f1aeee3393477285404730621a3ccba9af4ae135928cab49e5084dda2f4a866",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/010_klcc.json",
+      "bytes": 30517,
+      "sha256": "8eff1b11113281824871a5be88ece48e9c3d62bde555375c675b0cf0a3a12273",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/011_trx.json",
+      "bytes": 33927,
+      "sha256": "67ea98e4fec381e9d5e345f95e3315d30c5cd449e0c118553a9c50af0c694ae8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/012_sentul.json",
+      "bytes": 31508,
+      "sha256": "f70a1c48b063668dc612127c4ce4c6cf144697c4b542857f424d78567ee6ce5e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/013_jelatek.json",
+      "bytes": 27769,
+      "sha256": "26cb6323bc49480c4147cb6d350849c5c208fdf25160d14a11db4b0a7efd4ff2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/014_hilir.json",
+      "bytes": 24517,
+      "sha256": "f4fbf0eb77c5b70c3ca5d48f458c39149e7898288dbb4953cee8a3f944f44670",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/015_pandan.json",
+      "bytes": 27071,
+      "sha256": "ec5722e566fff9ff5296899d6a7ec2909e037137da3aaaf56f689d24832492b1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/016_gombak.json",
+      "bytes": 30538,
+      "sha256": "e32ca22abf7e70ec59568a71fa0fec5d0f02ff5426f99f8c3b74c9c99a5c731c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/017_melawati.json",
+      "bytes": 27684,
+      "sha256": "2442936374fbe5a4b545e6c53a4bab193bf3fb4fe436342d62039a7553f53dcc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/018_selayang.json",
+      "bytes": 28221,
+      "sha256": "796dc8e6c82f4f33a7309cfabd0275c633063da0e161dbd945a83e9adc9e295b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/019_sgbuloh.json",
+      "bytes": 27465,
+      "sha256": "c1423be6f27d083f934c5225af3e7f7d7fde11e019d6bd29083c26cad5aa7408",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/020_puchongsouth.json",
+      "bytes": 27744,
+      "sha256": "4402dbba45762eb4513a2297c01046fdb62e01c361725433fb792a3fa9b96a67",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/021_serdang.json",
+      "bytes": 28122,
+      "sha256": "b68fb8f13a29e50db5ad5b6de9abd408803c3fa532b91e349181f6d86a33808e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/022_subang.json",
+      "bytes": 25331,
+      "sha256": "39ac958c6a73f06e86bf33b148064ae2c6b99a8407c6d5ffa63e252be64ac1bf",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/023_bestari.json",
+      "bytes": 31696,
+      "sha256": "c24fccc9f3c00445d5bec4d3077dc7a7fc99dfd3004e1c753a3e7ae1233f3d1b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/024_shah.json",
+      "bytes": 27554,
+      "sha256": "e64ea152d55dc8fc171d0e46835d148466ec36a4272c2f659dc5a9fb0bec885a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/025_setia.json",
+      "bytes": 27944,
+      "sha256": "a75161cc4a21ba88937ba4a3a9d7d842137318b2e6f775d96f8f7cb7a35bc3d1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/026_klang.json",
+      "bytes": 26070,
+      "sha256": "05e9f614ad6717ba196c2457eb3f9eb69624fec188fbd80a33a1711b01a05d9a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/027_bangi.json",
+      "bytes": 30174,
+      "sha256": "c8821ed608c1992050138a3d58c59c8ac5709f9b92a283a0c541f1b8d3e5f90c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/028_semenyih.json",
+      "bytes": 23775,
+      "sha256": "5a8f3a2f576346901a1419ab53ec25c1109cce1b1e3da8ca9638d8d568566330",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/029_putrajaya.json",
+      "bytes": 27010,
+      "sha256": "848aafbef7d86c605a938e271f00445ecdfbcca72272256751df10d0248ef41a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/030_warisan.json",
+      "bytes": 30732,
+      "sha256": "fd9387720b17cd487a66936b7b8f8770d4cdeffd98f5b8a39e9f7d1789f6004b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/031_rimayu.json",
+      "bytes": 29224,
+      "sha256": "7ee5805b5074fcf68ebb4ced6e0575ef6af45c24dc82df43ea42c219f1b005d0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/032_elmina.json",
+      "bytes": 30269,
+      "sha256": "964ee1b776b24e52d80e6dd8046e5d35024ce0868eb91e37ac6217b481e74c7b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/033_rawang.json",
+      "bytes": 27316,
+      "sha256": "849932cd370d86764e1a8a98eb140d74141a3b52f55684562e2334cd5f28e795",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/034_oug_sale.json",
+      "bytes": 27532,
+      "sha256": "1da9648282f027aed62da4c9069255d8c77e8982ae14f66024cbf470a2bfc676",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/035_desagreen_sale.json",
+      "bytes": 27439,
+      "sha256": "5eb4caf5929e6d75a36251bc88179eb4731c7c7d926762372fc56e892396140c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/036_endah_rent.json",
+      "bytes": 29708,
+      "sha256": "9e0fa788a873bb972bf9f91ef36d0c62ee54bc83dcb2fd95253b057e898d376e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/037_aurora_rent.json",
+      "bytes": 25824,
+      "sha256": "b4e9a2792603d09195d9b859018d2feb012b52ca6e87c21925c1290723feb6a5",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/038_trion_sale.json",
+      "bytes": 30057,
+      "sha256": "f5ec296f053bf145c0b5a7d4fe6a576c5dd3e7b9cd85f72a3c3ed10b982aa352",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/039_pj8_rent.json",
+      "bytes": 24863,
+      "sha256": "58b4cf7a8bcb52f1e25dd8cfb7bbbbf08581843770f5d8b3c552c6514b255e60",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/040_centrestage_rent.json",
+      "bytes": 26023,
+      "sha256": "d29cd5e9bd396a6d778f094be443211f4faa16d3ef3e1c4a23819eff491cc2ec",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/041_ken_sale.json",
+      "bytes": 30294,
+      "sha256": "9cabfac00808b8e8743a5597a88c0bcf418da4ddf4e47017481b71d4e2c8dd54",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/042_sterling_sale.json",
+      "bytes": 31713,
+      "sha256": "7517719f896c5ac083040c0c3d54d14675b64b6e55d86c84437cb9a46918a02a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/043_sterling_rent.json",
+      "bytes": 28160,
+      "sha256": "8ac7a2fe2dc6c01e33455d6f9f5e823ecec1c0dc8d523fc4e46e2afaafcd4940",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/044_encorp_sale.json",
+      "bytes": 26165,
+      "sha256": "1436c8ce273ad070522e015e746c1d061160b1216f9ebadf56810e1389da5e13",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/045_southview_sale.json",
+      "bytes": 30021,
+      "sha256": "85bcedd0716774bdcce9874e829507b6f71afcc0a8fd4ccef16aa55d2646fa51",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/046_sinaran_sale.json",
+      "bytes": 30648,
+      "sha256": "816f27cd7926c49a916bf785cc0ef4c12aaa27055488cf52cb06c39621730a1c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/047_sinaran_rent.json",
+      "bytes": 28909,
+      "sha256": "a0aa9fa9446ffc95da1d414adee43a898551a7920de7f4a6c2ba3ded680a1956",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/048_damas_sale.json",
+      "bytes": 27477,
+      "sha256": "c63e52618b2f3dffc9c8f353c37740688a6acba04690f56336e97f910c9adc6c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/049_menjalara_actual.json",
+      "bytes": 26996,
+      "sha256": "e3b48060d20535e988224d35c1727886fa4aad71544201929fd5675e32f24eef",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/050_neo_sale.json",
+      "bytes": 25878,
+      "sha256": "2839d56db20b980e162a47f0573a6c173f756af218de4a2b3ab08fdf67d09a4f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/051_vortex_sale.json",
+      "bytes": 26893,
+      "sha256": "ebda68973bfcaeb0223567f2e87d909ca5d51846f061bdc3f8f97cd9de3b7b72",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/052_trx_sale.json",
+      "bytes": 27518,
+      "sha256": "c025c6d13d0a4f1e3832ee3afe2cd7687f20b41c6f042cb856badd94a7b0c86e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/053_sentul_sale.json",
+      "bytes": 30596,
+      "sha256": "b4e187735c8a3a060b514c9dfb12a5758c11cfa8c483b65149d6c9d1e72c71db",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/054_datum_sale.json",
+      "bytes": 33700,
+      "sha256": "d2516cb2232475d1ec5b9fe8473dfcdb2a6246dfeb89886602844abec6db0f84",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/055_ampang_compact.json",
+      "bytes": 29294,
+      "sha256": "b5cfe3ee51181c30cd6578cbaace7ebfd551d411d8122701192b2242ca6e2a0a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/056_saville_sale.json",
+      "bytes": 25805,
+      "sha256": "de97114e3242633f6aba3930df1e51dda86a9ced7105a536dff1e2d35366ea5f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/057_ken_rent.json",
+      "bytes": 31185,
+      "sha256": "bb0d4b1bcfaedfca4fd9c5eec7cf076f3efc04b5163c65d2a6db1b5f81f42968",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/058_dsara_sale.json",
+      "bytes": 30657,
+      "sha256": "0da3a20e4f0197b933577b2370f9b192f481378a2015e183443f6cd24fb68a2b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/059_koi_sale.json",
+      "bytes": 29500,
+      "sha256": "50ac35851f75b9a973bfefec15f04484ad3835092f877b710da303a9915118f2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/060_zeva_sale.json",
+      "bytes": 26026,
+      "sha256": "f9d71308f965043033bbf1c24a5426a129aaa591701b24843157aef3c871290d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/061_damen_sale.json",
+      "bytes": 27701,
+      "sha256": "1eaf67b6731504471a1e55375188e9028320907f2343772aae2bce4cedcee0ca",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/062_bestari_actual.json",
+      "bytes": 31143,
+      "sha256": "e7e6ac64330d7d27adbf4cb17618ffc43f2eb345fadfac5a192eb89fb67c89d3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/063_utropolis_sale.json",
+      "bytes": 25610,
+      "sha256": "482ca3025c14478c4eeae25f317703c1238efd308043431e6c99c304e3b7f2bb",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/064_gravit_sale.json",
+      "bytes": 26796,
+      "sha256": "0c947fce61c78a124a5fe96636639d997469cd5d5e514b774c0e8e6a38ba51fe",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/065_evo_sale.json",
+      "bytes": 30185,
+      "sha256": "7ddd043efa540f5e079d7ab15bfc20cf10da0dbea8292f00d7e0255e1b07ca5c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/066_gombak_actual.json",
+      "bytes": 29784,
+      "sha256": "10f1ced8ff04645ed6e75cf508bd3fd431ecf91ebdd8a14d8b2deb060a1a8608",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/067_bestari_highrise.json",
+      "bytes": 27277,
+      "sha256": "7ab3bb79cfd399489363a2bbb2c75e36a944f7f9df467a63e1f8843f329b9bfd",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/068_semenyih_sale.json",
+      "bytes": 27447,
+      "sha256": "e1031b6ae4d4860a9219f21dfcdccf406037871d8a3f5cbadf0b48cc3e6a94c4",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/069_putrajaya_sale.json",
+      "bytes": 30471,
+      "sha256": "29627ad881fd0ffd31f88222074ffb065a2f7ba766c9018833a7ccfa04ca1cd0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/070_geo_sale.json",
+      "bytes": 26367,
+      "sha256": "d4975d6cdbe32d8e1d1b70bbe7d197d662f0e9374ecda282f233901e663a0792",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/071_habitus_rent.json",
+      "bytes": 30437,
+      "sha256": "1615dd3b4ac0ab0396cbb59b22a6cb03ea3a2a9841df50a594bfde0be2d5d1a3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/072_rawang_sale.json",
+      "bytes": 29730,
+      "sha256": "609387585c4d3854720970324df430948f25c1ce781dd5c310e5b59d0095cd8c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/073_horizon_single.json",
+      "bytes": 29750,
+      "sha256": "5e749a18cfa8493a3f232fdea6df6ddae41457ed1898d0ef507c1b575eb460a8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/074_rail.json",
+      "bytes": 32025,
+      "sha256": "ce9f862047628d56d5d83a4ae5af9647a860978f78281272f54498233ded81c0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/075_rail2.json",
+      "bytes": 25933,
+      "sha256": "a20b3dcb42082dd967bd1cbf5227c5ced3d93958bec08c6b133b7ba7de5b1b0d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/076_uow.json",
+      "bytes": 33051,
+      "sha256": "ea2b7cc9274bfa5fabfd810b01ebbc57bf9a3e3d2a4e082252202a46e018ae10",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/077_elmina_primary.json",
+      "bytes": 32934,
+      "sha256": "e0a36cee9732df4f717b1a469c5276afef1bbd5520da4c85e450b836e637ec1e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/078_centrestage_tx.json",
+      "bytes": 25618,
+      "sha256": "d131b21734331ca497156831cebb1205784fae507317b410824f6c022a336ba2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/079_neo_tx.json",
+      "bytes": 25753,
+      "sha256": "790096474f4726ce7319027d27dd3dea9d6ad21d3f78e8f75f726848d7e53d16",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/080_zeva_tx.json",
+      "bytes": 29996,
+      "sha256": "1e17d798c8f64783d2a8fd5a6a6650960c1f320c4c1c7ead73876d3684ef60be",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/081_napic.json",
+      "bytes": 27277,
+      "sha256": "da9d780ef920ce5ea603412f8879d07407db1417e771f8966daa1b2c388cd7f1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/082_cheras_compact.json",
+      "bytes": 26860,
+      "sha256": "d261873db099a4a46afb1e89e3a339b38a5d62df770b181ca357c23310a89026",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/083_kuchai_pair.json",
+      "bytes": 26845,
+      "sha256": "9d368300c040905b104475759e4e42cafc37064a7342935d705e499faf09ee37",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/084_desagreen_rent.json",
+      "bytes": 31718,
+      "sha256": "0b1c25ef554a053994df28adefb1411e7dd82d6238b87c16e5f68b081533fea1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/085_hilir_true.json",
+      "bytes": 29692,
+      "sha256": "3478a1e6422685b4ee0062e281323e1ec43ac1245bae3ad6bfaa0652206c1f61",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/086_urban_sale.json",
+      "bytes": 27819,
+      "sha256": "6ce2072fec414d23eaa6f56cc27322261f0279ad98a058e0aaa8fcd34846774a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/087_rawang_alternative.json",
+      "bytes": 26216,
+      "sha256": "3874f613b1e3b3d04714c339217662d51652546ab2fc9e74c441f7e24fe51b82",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/088_bukitbestari_actual.json",
+      "bytes": 28788,
+      "sha256": "e21a4530b2cbf5293fc5b9afaab10abf4dfa01b12f52fd5e9e977062091c33c3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/089_cliveden_rent.json",
+      "bytes": 28558,
+      "sha256": "3e291daafe9515e1c2c4c892b217f2fc59f11852c6985fca3b2ea48cfd03ef59",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/090_shamelin.json",
+      "bytes": 27094,
+      "sha256": "32cd63ef6d365059e9edc9e053f1ffe9ee92e5231595cc2c3039495047f72a98",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/091_sglong.json",
+      "bytes": 29342,
+      "sha256": "166b313299512cb16ea42e2c7bf375cb15df6d07abffa96e025d2c8f181cd719",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/092_alamdamai.json",
+      "bytes": 31174,
+      "sha256": "0390c86b4c3911df7326cc107e6bd8292285f1f32d513c89d7fc7637172c2541",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/093_menjalara_sale.json",
+      "bytes": 29739,
+      "sha256": "241090acb28db3b6b05ab0cc5d578a17a4411842889acb2285c61374d9b450eb",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/094_kuchai_sale.json",
+      "bytes": 30045,
+      "sha256": "39734f2ec2186968b7a39e09b7991e1fc271097625f95449664e8915312356ca",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/095_habitus_sale.json",
+      "bytes": 26882,
+      "sha256": "761a81871cc5e0cb7786be94e6cb3125a4d8931e0abc6d0b103f15048cc74b9f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/096_bestari_rent.json",
+      "bytes": 28515,
+      "sha256": "9e553d807ad04a09640440fe669c45e3e114e30dc3c36949ae9e125fe8033243",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/097_amp_hilir_highrise.json",
+      "bytes": 29413,
+      "sha256": "a5a240808b3b982c7ee50f6bbaeb2f9b154aa3dae18139e8c5ec0d1846a2885b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/098_gcb_sale.json",
+      "bytes": 26726,
+      "sha256": "48c78b865ea702e2e97f948bdd7ce9fa8047ec23fbb46eaa561cee579db0b745",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/099_horizon_rentfull.json",
+      "bytes": 31320,
+      "sha256": "9c8c7d241d1e32b382ace7645c53c78e1c3277c4eb507984c69d0ff110faf512",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/100_landmark_sale.json",
+      "bytes": 30766,
+      "sha256": "667fef8691819fded72d74a9d35e5f233efdea6ab9cfd54595009a0951f2e107",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/101_emerald_sale.json",
+      "bytes": 27461,
+      "sha256": "b2cca27960ad57c5edf06f755575a4fe035a83bc49a2b0199803f38b0397b122",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/102_kuchai_rent.json",
+      "bytes": 29276,
+      "sha256": "6e07f5213f341d2c2560b767bda4011b953a503232634b597b0c551a25aaa751",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/103_neo_clean.json",
+      "bytes": 25537,
+      "sha256": "863464bbb3f341c0d2dfe570256c7e79fd05ce3b5712dab15863d5122789532c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/104_zeva_brickz.json",
+      "bytes": 24161,
+      "sha256": "ad31af7a7de07cf961dac3e5b25c8ab0869a4b46e52bc53bb8227cb0124c4725",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/105_neo_brickz.json",
+      "bytes": 23499,
+      "sha256": "03f5ca92a7b6307d1ba29a086abfe6922ca75bdaeff5ac682b382423e93e705b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/106_zeva_open.json",
+      "bytes": 27920,
+      "sha256": "15cbebf611ad5ca1f4272f6e687fc2f2a6986941d5d65ecc6ffd6e61e18d88ba",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/107_gaps_park_sunway.json",
+      "bytes": 28348,
+      "sha256": "f3835ba7832f5fde7956f902d3d9f20a218a80d7b7887ff5bf3e8518e5833d1b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/108_gaps_kajang_shah.json",
+      "bytes": 28362,
+      "sha256": "0f7177aea84f976f03dc68599c2596cfe5ce1710e109909d0a5e2df02018be57",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/109_gaps_outer.json",
+      "bytes": 30051,
+      "sha256": "5e81aa8798175b1fca59ae69a50aa7790b5d97a6b4f76ee6ecec2ac51b21b162",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/110_zeva_replacement.json",
+      "bytes": 29168,
+      "sha256": "58b3f21cefd29b4ff94fee941db0dbc4f5bc3246a799288336d43ea2c0c0b987",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/111_neo_validation.json",
+      "bytes": 32805,
+      "sha256": "5eb763e7479394b2794f1addc24657b399985ce7506bbb984a06f383ec89107b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/112_primary_components.json",
+      "bytes": 26851,
+      "sha256": "fd35b8bdbc469fbab468a2984e12eb627372014e7f4dc5e9ffcae5d3bedbac85",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/113_datum_gaia.json",
+      "bytes": 31618,
+      "sha256": "6fa13f398e2bee5531d31a1ab549b4ccb29cf425e491c9d0d89cd74954aead60",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/114_contrast_geo_park.json",
+      "bytes": 29558,
+      "sha256": "2b73a09587dc3d30c50245acf297d1d021f47e92313325c00624a69a1474adb3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/115_zeva_detail.json",
+      "bytes": 28890,
+      "sha256": "2f11818154193577ea83cf12fd8c21827ac202fbed8feddff718c466cb2bbe14",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/116_sunway_specific.json",
+      "bytes": 28442,
+      "sha256": "6e16c36fd08b51fa2a0162bd0381568637bba7e2573b35041f8baab2d0f7ea75",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/117_parque_specific.json",
+      "bytes": 31588,
+      "sha256": "aeac922eb3d3057e1f624f828f4b449fb8eef8ea863d2c403d544f61b417a91c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/118_horizon_alternative.json",
+      "bytes": 25861,
+      "sha256": "f92222d6eb06ff1c7cd0e8f5a587159bb95c45023a7423bb72a92be583781568",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/119_habitus_family.json",
+      "bytes": 28359,
+      "sha256": "5a0047238081870b82364153dd4857968fb17b4e6db7d9b8008275805e42a7ba",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/120_ops_tx.json",
+      "bytes": 25585,
+      "sha256": "04290ec23fe5852ef066467337812df2b42e979268978c34f0305f0a579f44e6",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/121_alanis_rent.json",
+      "bytes": 27655,
+      "sha256": "e04e3f375b16cf5e173d15a31ab37c6e35dfc47465b91338f221dafe2f126281",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/122_neo_exact.json",
+      "bytes": 24713,
+      "sha256": "973cd4e31fec064943122dba44ac56b368576520cf9f74b9aaf844d1145dd798",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/123_sunway_actual.json",
+      "bytes": 24423,
+      "sha256": "177ed6a214532477389658e7e6960fd5a648fba8c00253bb887067b8ba5bf646",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/124_frontier_recheck.json",
+      "bytes": 29965,
+      "sha256": "b28c435fc22db04381773f13f1739e0d279ef245c402421a3996235d92460ac3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/125_endah_anchor.json",
+      "bytes": 33068,
+      "sha256": "fa46cbf07a12e4da3c55e104324aa5229a4c44ebc62422ba650fae2d8e245149",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/regions/B01.md",
+      "bytes": 30111,
+      "sha256": "6abc8afabb1af5e4001881a3859424439ef48820273b75123b31e931499d8cbe",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/regions/B02.md",
+      "bytes": 22104,
+      "sha256": "8c012ff2c52303a5f31b014bd0549a9979d3d7275123357b9d135f0618a0050e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/regions/B03.md",
+      "bytes": 22129,
+      "sha256": "f6242cd6b8d439cace56677250836eaf912a275249390dd28727061df6fe114a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/regions/B04.md",
+      "bytes": 28220,
+      "sha256": "4d3fba37d9314de9f9ee1b4bb468b236588ef1a3961f58ab851ae7d21b4b7c1a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/regions/B05.md",
+      "bytes": 22174,
+      "sha256": "91eadaa4063bfefec02a21c0ec2ff0c8e569071b29e07b1f0c739262103fab9a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/regions/B06.md",
+      "bytes": 16361,
+      "sha256": "4a8be424bb34c33ced0707d04fcf5a4c9e20190bfc020af9af43340b5c4c609b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/regions/B07.md",
+      "bytes": 25421,
+      "sha256": "efa67b6a3c7018a6246f5322c40ad4c2d1e03252a837d2a8ee3d7ced72060023",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/regions/B08.md",
+      "bytes": 25668,
+      "sha256": "c69af0b3ffeb01b444c1c030d06cb6ba69f86dece16fa76b6488f702bad14f92",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Release_Manifest.json",
+      "bytes": 19770,
+      "sha256": "0f446df251a9b3c1dfc436f2ead89b5b165006cf30fa8390721b2848b8ac03f2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Release_Statistics.json",
+      "bytes": 416,
+      "sha256": "0145602a41ff3090393799161b230635ccb522c29d215b92069dd7ce08eefa1f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Research_Lock.md",
+      "bytes": 4126,
+      "sha256": "1baabab3cbf4c9bf49f01f734689cf80a83c3b4306d4cbc7d5eeba8a1b1c2994",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Source_Index.json",
+      "bytes": 1808877,
+      "sha256": "8a74946a944a8bb18ce12e2709ffa843c146b459c4314a8d011da318dc084a7d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Source_Index.md",
+      "bytes": 402165,
+      "sha256": "62995430fe442dd32c3aee666752c24cf9f5201f34ef429f02a7f9bf798ccbac",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/validate_release.py",
+      "bytes": 6429,
+      "sha256": "eb93f3da91c8bb4fe7e6c54d08bac97e6f005c52bdd9ad446be84d1cc99ef972",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Validation_Report.md",
+      "bytes": 6268,
+      "sha256": "ee09267537d4c10a9c5c743cc810203cb199dbfa0c4173c83dd0e1f3bf3da7b7",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-2/Validation_Results.json",
+      "bytes": 11226,
+      "sha256": "3757326238baea19e09a7b2e36d510ecfb49942d636bfdc34e6da78c71077c35",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B01_B02_Financial_Comparison.md",
+      "bytes": 3405,
+      "sha256": "0078b105d27ceb36522067ced64195ec6753d5e650414c009bec93879e49b97f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B01_B02_Supply_Register.md",
+      "bytes": 6619,
+      "sha256": "3faa64ebb7bbdc7bb901a4ce5ff2bcf9432d6aaa355bfeac27b07e728084ab21",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B01_Regional_Synthesis.md",
+      "bytes": 11323,
+      "sha256": "1b237690fae8a2e1a098c678ceef7b68ad818b379307e965c5d5ac0ee0816c18",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B02_Evidence_Deepening.md",
+      "bytes": 8863,
+      "sha256": "acc5735dd8e735a3cc2323a5aa5a811754920acdf022d16ab6c8ee0f402f8b9d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B02_Financial_Boundaries.md",
+      "bytes": 2042,
+      "sha256": "04ec31f0107fc719be61728e4829a78e62737a2e018a439de4f6cfdfdb0b27bd",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B02_Regional_Synthesis.md",
+      "bytes": 9716,
+      "sha256": "470994a7b40d6d3532a2ca7950e794c2f4ea51a0d537b22bad46d6e6b098182d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Case_Inputs.json",
+      "bytes": 18167,
+      "sha256": "5b0dca1e95fd39a96e51429fce56adda9ad8d895568255b8c35580abe6eb00f7",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "bytes": 60671,
+      "sha256": "626661e8f7d75e6a91442a9ed392d8f6267be45b12bcf83a735e7a5476edde75",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Completion_Audit.json",
+      "bytes": 15674,
+      "sha256": "e50d2a11cc54487eb4252fb1ded60a668a6d213b958018787b3826a78b167997",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Completion_Audit.md",
+      "bytes": 9592,
+      "sha256": "70f0f16d8c457b7efff1fbbe483de8c332bee55a709e24f4f7b9b5cae5974dc3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Divergence_and_Misses.md",
+      "bytes": 12622,
+      "sha256": "952d4ab79bf9c27f1ca750e7a7f3b6494681946212d42b3a6b7d1ab10c53de0e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Evidence_and_Supply.md",
+      "bytes": 15128,
+      "sha256": "8e2b314e8aa2c126d856fa67939c28bec9abec75adaba2a3891814be339f214d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "bytes": 4286207,
+      "sha256": "65f776174f9477926fb6d664a7e587fd100bfe924828956018e7e497ffb7235b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Financial_Underwriting.md",
+      "bytes": 23563,
+      "sha256": "aae696bd79251a99c07aedb47b7efa9a123e0b2bd6d191a07c526fbb3685dc46",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Regional_Synthesis.md",
+      "bytes": 18504,
+      "sha256": "c6cecd738c65d0fc19ab5660cb38cdc4fe5dfea57406050593615cded44d6ecb",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Release_Audit.json",
+      "bytes": 14811,
+      "sha256": "58ec9e0329605acc7c6d3de36cce0c3a3ecb5c382b2871e37d4b6fe1cd188fde",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B03_Release_Manifest.json",
+      "bytes": 5077,
+      "sha256": "baaf1db7b14c01f0e10e2fc8a7f4d5962dddd59d6b3ddbfa636b39f0bcc4b0cc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/001_south_family.json",
+      "bytes": 30863,
+      "sha256": "b2ca99a6025eed3b5310f0cee25224b3a00b79753228f788fbbad6e95aebe54e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/002_ttdi_compact.json",
+      "bytes": 26768,
+      "sha256": "583123772fcc1061403eb9ed66cc242ec73b8b1e96e7457e4bae97d0b8987c55",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/003_damansara_family.json",
+      "bytes": 27957,
+      "sha256": "cd76746e5c57210ce2951bcd94635049d083930f5bec779a2ce3d087bb9439eb",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/004_montkiara_family.json",
+      "bytes": 25713,
+      "sha256": "b775abb095f7f71928b4905a36e312f52fe1b8cbb54137f079b29d0c813a0471",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/005_hartamas_family.json",
+      "bytes": 27455,
+      "sha256": "b2ef81fd8924613257be6b9ddbe9bce53f5a11d3928fbd6fdd77ee2d1b9004b6",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/006_segambut_compact.json",
+      "bytes": 31113,
+      "sha256": "0bc6ce6414a37feae00775026cc6f3fdda51424a5f64f0946ca31c7ce2853268",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/007_parkcity_compact.json",
+      "bytes": 26747,
+      "sha256": "6c48731e82287b4dbe04895a0f8a57845ac2b9cc1bd2c08dcd15f3c6927e584a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/008_kepong_compact.json",
+      "bytes": 29541,
+      "sha256": "43bc34fd6cac5ef370ec8bf6cca5287fbf28a9b6323e2b882c3482ce0a81ed4f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/009_mutiara_family.json",
+      "bytes": 27475,
+      "sha256": "58faff6210bb8426a44ddc82806f791ad96f8630434c7b75561368f747578ab0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/010_primary_south.json",
+      "bytes": 33120,
+      "sha256": "ff030733cdec2b7bc3f3196d95a82a0cdf6ee40844487dfa8d28138fc0fc2549",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/011_primary_ttdi.json",
+      "bytes": 28868,
+      "sha256": "cf7a10477b33a80c4121f6bfae292678eb66a1c4dd313e505540ddb03979abf3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/012_primary_mont.json",
+      "bytes": 32863,
+      "sha256": "65890ce60514a20d7a7f71d5950b6970ce8c63f150b11bd7d85b264963ff40b7",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/013_primary_parkcity.json",
+      "bytes": 29963,
+      "sha256": "5598b4374b8fa68b0f0ff3d792a92510422830d14a213813c13254d73449fc3d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/014_ascencia_sale.json",
+      "bytes": 25284,
+      "sha256": "084712f71fd72d5c106ba2d8788f11dc9afc1f2d822b8256c9bd152b7ee472e5",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/015_pines_sale.json",
+      "bytes": 25016,
+      "sha256": "0af5ce4ea395ed97b6b9ab3ebded422abafa482b98bc3053cfa460829bb1fa07",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/016_dc_rent.json",
+      "bytes": 25781,
+      "sha256": "951d4ea448ceaea5c2e175c645e0e079889580cfbc7fa91b9b5f9073c5316fcb",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/017_windsor_family.json",
+      "bytes": 30272,
+      "sha256": "b3e8a9095f1675e911b40a1d22ff384ab8f1f3f598d7bcd631a7ba9e04995e0f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/018_fortune_pair.json",
+      "bytes": 30546,
+      "sha256": "1d18b2bd4c1b45431a84457836d47934abfead5f893a6eb9f5c60a127c498649",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/019_surian_pair.json",
+      "bytes": 23772,
+      "sha256": "6e6e46938124ce51d4dc9f93876434edcb0306dca784f50eee7f76acb69f3ce0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/020_neo_refresh.json",
+      "bytes": 27560,
+      "sha256": "c047dbb0f327bcf90e4c5c4a4e42bdb4e8093f6a27c21ad94529929f2d31b59e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/021_westside_sale.json",
+      "bytes": 24329,
+      "sha256": "ac5fd4d2c56823a51191ad085299c6cd01fd76cfbd136feeb7114ed94bd2f0b0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/022_parkcity_low_offer.json",
+      "bytes": 26261,
+      "sha256": "53a9a5e0bf36796b8be2a004936539c427738cb1fa78bf2f778548e2a0eb3a73",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/023_primary_rail.json",
+      "bytes": 29929,
+      "sha256": "bbb31a6de5b8594b16b04ae29ebedccf12d6c1d01123f89e3134c9d50f48ab70",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/024_primary_south_completion.json",
+      "bytes": 31709,
+      "sha256": "b439eab32191fe707976ad41e1d0a986a397c855c0f5fdf24251c84e07b680b2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/025_primary_north_supply.json",
+      "bytes": 34777,
+      "sha256": "61aabbe6406751e4d4f3a9f02d68ed13e746bbe30e50f3f6bdcf3653c7659882",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/026_primary_central.json",
+      "bytes": 33298,
+      "sha256": "d7739e3d3f96aef41332b42bddee8e1eed9bac4e62ccdaa1feb5cd15ee523ede",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/027_primary_dutamas.json",
+      "bytes": 31687,
+      "sha256": "d60403f346fbc6d7b5e14643887358d19db6f01e8b6c02fbdf260bf000c7f2a3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/028_primary_mutiara.json",
+      "bytes": 28982,
+      "sha256": "70180988e28d396e55c9a7b2d851b633fc5bf46830056e54f80bd67b91557875",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/029_primary_future.json",
+      "bytes": 28295,
+      "sha256": "e405d2723314b6dcb967e047ad4b374e0e4ff072c4c8769f2d85df962807928a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/030_exact_rechecks.json",
+      "bytes": 29057,
+      "sha256": "d456f51beb78b0457bb25ea89d63c426856f1fafae6c9a527bc0f420283cfdf8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/031_ttdi_supply.json",
+      "bytes": 34968,
+      "sha256": "e968776a7ad3fefa0f2549b183b4daadacbefb06991796e2cea6c41efa571622",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/032_hartamas_supply.json",
+      "bytes": 32338,
+      "sha256": "e8eb3d3b283a3834edb17b4691aed5295be861cc3a1763977dd73be922c4d141",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/033_mutiara_supply.json",
+      "bytes": 26718,
+      "sha256": "1778de0dacb09f8647b5055c64595bede2b2baac26362a77c9e0b0dc8bfed7a8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/034_parkcity_actual.json",
+      "bytes": 29501,
+      "sha256": "98cb25c27dc3dd22a9b751a70b67d71eb3c165dbcd91cf154ab1cbd20096d030",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/035_windsor_rent.json",
+      "bytes": 27994,
+      "sha256": "1e5da863bfb14029ac2b4683d8ee9f4849f185673797552d90791aa05c66ac8c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/036_kepong_rent.json",
+      "bytes": 27122,
+      "sha256": "673fd3142cd0474e065e5ad3e5ae0bb7a66c0e21b36be8ecc27a2ad5e211f579",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/037_south_family_large.json",
+      "bytes": 26387,
+      "sha256": "03cad962519d720a18aae0ccd09bab7a0441607365ec3bad3a7c33a8499abebd",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/038_cliveden_current.json",
+      "bytes": 26620,
+      "sha256": "933a8840869f7d3cd8fdc6932c232a05ccd266e8052a5a0a3ba80e31c08e5b77",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/039_identity_details.json",
+      "bytes": 26578,
+      "sha256": "5543f16b70036f463244f7b20439442e6cd6cd85fd08496d5a872e17df231dfd",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/040_primary_last_checks.json",
+      "bytes": 33237,
+      "sha256": "c35acaa462e3aab070e6b7d7f6c4467de7c9e31934439e0d22cc7dde5d147e7a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b04-raw/041_noora_current_apdl.json",
+      "bytes": 1922,
+      "sha256": "272d2f68e011651ef026a1be88624c546f24f4171c22b670666e6828e6cf0573",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Case_Inputs.json",
+      "bytes": 22391,
+      "sha256": "99bb967c4b79fd0dcb234eaa6ac4f92a7df2796d63d1ade4b14f5d93bae0d47f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "bytes": 78624,
+      "sha256": "f84e2151a98a3b08a66290c28fd37105ed91cb9a094931be9d3afbc40a871c63",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Completion_Audit.json",
+      "bytes": 29376,
+      "sha256": "6a54ff936468444fbd8195a5b305cf527252694aec9282f9799174ee369b2441",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Completion_Audit.md",
+      "bytes": 18702,
+      "sha256": "28cfabb220668eca64310a745124deeea47ac72924164313a0abb1a6f3f3d6ba",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Divergence_and_Misses.md",
+      "bytes": 15456,
+      "sha256": "f1d666596385478ac7dc7007513d15f61fbbe69d2ad67e8010479ea6b569ee4d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Evidence_and_Supply.md",
+      "bytes": 16565,
+      "sha256": "fed8358b54993d8974217b383fa5a4c365d3c89252e65cf654c9305435dfaef4",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "bytes": 5820197,
+      "sha256": "eb2302faf0a74adc536f9d86660f9788e65bc9020b1033fdec1164ccbc8b0685",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Financial_Underwriting.md",
+      "bytes": 29718,
+      "sha256": "0e40add078b13292c7eb299dc14f3772ea6d78bbc8a031c86e6331fc49f2dc59",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Inherited_Assessments.json",
+      "bytes": 8395,
+      "sha256": "60786eecb25e43b147f7e7abf46ac8f9b1938f7d3043f13d4635452ba885de33",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Regional_Synthesis.md",
+      "bytes": 23863,
+      "sha256": "0f8156a4ef5f23f686de364903bc511258810b4cdf2c3a534078817ed080632b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Release_Audit.json",
+      "bytes": 137611,
+      "sha256": "8bbb068fb47bcc3ddce09e04ceab8a744a3a7450db2515aaaefb98ee8f43f007",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_Release_Manifest.json",
+      "bytes": 6173,
+      "sha256": "274f9d344b15293e18de06ede9f4db15ee4fc51f6d569781a7752799d9e0bbe9",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B04_RESUME_CHECKPOINT.md",
+      "bytes": 8902,
+      "sha256": "0f6258d9d7439c8a68e4af98a0625670ab230360eb0831eeac7618d4180a5b24",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/001_initial_central_controls.json.gz",
+      "bytes": 7929,
+      "sha256": "303ca76015813a40f58e7f73b4111f39efac60ee57e9450ec77143903bd1447a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/002_family_controls.json.gz",
+      "bytes": 1856,
+      "sha256": "88dc9c6abafeafb1616e67fd1d8e00da8b4603dd7daec32c93c48bd0fb6a29cf",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/003_Parkview.json.gz",
+      "bytes": 6390,
+      "sha256": "b948d04d80b48a1499b77c5e096372b95b59bb040ccaa9b5cf24c1123418b244",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/004_Saffron.json.gz",
+      "bytes": 10036,
+      "sha256": "5669d60079f8c6c3da92b029a08f369172a1f2ac4c9228808416e9d44de4a1cb",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/005_SeriMaya.json.gz",
+      "bytes": 5862,
+      "sha256": "1312660295ac964b32818a1c7fc6e84ed0f8ebc374db3d076188f61ce556439b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/006_DesaPalma.json.gz",
+      "bytes": 6024,
+      "sha256": "67b7be4d50eb4a93da6065466cd04d55c3427e8b92617ac9ec07237c881c0ee0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/007_Sentul_family.json.gz",
+      "bytes": 6434,
+      "sha256": "61f44910b49ec9d3cf991d48089ede2b2863ccac7a306e150ef27e349e23b0da",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/008_Jelatek_family.json.gz",
+      "bytes": 7230,
+      "sha256": "e6699faf566be5c221cde476ab1761585ba52f63b4f4c68b0f8b3e9a28b4cbe0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/009_Hilir_core.json.gz",
+      "bytes": 6839,
+      "sha256": "99ee6288e7a2cac4237ec7e67826edf96f716b54f54eb4a178e1eca42e9c5e05",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/010_Lucentia.json.gz",
+      "bytes": 7532,
+      "sha256": "6c706bc3ee32a6b0f6b73a7da610a4368f1f97f0715a015e90496339a0d199f3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/011_Parkview_offers.json.gz",
+      "bytes": 7221,
+      "sha256": "316e3e88de3563b9872230fee9f6beb6c1f0e40d274ce9c947ba5849a82bba1f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/012_Saffron_offers.json.gz",
+      "bytes": 7888,
+      "sha256": "007b84ccdd02e83fea8ac1ab557042eb6d9a8d20277e4aee2b8c0b47a6f48f3f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/013_SeriMaya_offers.json.gz",
+      "bytes": 7687,
+      "sha256": "b5ccf2b5ee5a1acb309ae382afd7305b8fd061fa6c8f82317b9eb400a2e6d68c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/014_Lucentia_sale.json.gz",
+      "bytes": 3514,
+      "sha256": "25980b650bcaf4060d1e3ef315a004341e497f91a4ac7597786ee800c865222d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/015_Core_offer_pages.json.gz",
+      "bytes": 7549,
+      "sha256": "0a931740a883baacdef6eae2812bc56ea097e8cdd78d6b58b01ef0a82f2feb46",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/016_Maya_Pandan.json.gz",
+      "bytes": 4078,
+      "sha256": "855c0e4b53ab8e6930a468463ada128ad2e7a01568b93b918b47e7d14f8324a0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/017_primary_supply.json.gz",
+      "bytes": 10259,
+      "sha256": "989d6cbc8b26d7ae457df47251a7225989236189b53ae35fde82e292845f01a2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/018_Compact_current_indices.json.gz",
+      "bytes": 3447,
+      "sha256": "64aa31a92316ba0e4d286bca4daa77376efb449e6573bac12dc3855f23238bd1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/019_Two_family_sales.json.gz",
+      "bytes": 2349,
+      "sha256": "f4e8a0df07ed7bdc9190c041b71dee81e0bde007b35e9c57cfbab97096966c75",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/020_Primary_east.json.gz",
+      "bytes": 10553,
+      "sha256": "f6c1448ae5832cb154cf54e452b11f108b45c2718e225324c057ec41ab3240c3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/021_TRX_contrasts.json.gz",
+      "bytes": 4743,
+      "sha256": "dcbf12e1fc9f1d50a05f59eb2552cf760450b330b366ae2deb76580bed7e2c9b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/022_Exact_compact_sales.json.gz",
+      "bytes": 8564,
+      "sha256": "f52d7fba5f0b56a04104a882dfe662d65678cdef35b7dfed6231ddd1f4865787",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/023_Core_east_and_TRX.json.gz",
+      "bytes": 7433,
+      "sha256": "de9763628b66f860764e54791786f462380d072d2637963fa20234c54b981eed",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/024_Tara_Pandan_rent.json.gz",
+      "bytes": 9286,
+      "sha256": "7209046fc62bbc338c5421ff48d3c138246f3770b3f162d19fa94d7c288a1590",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/025_Parkview_sale.json.gz",
+      "bytes": 8555,
+      "sha256": "88e99b893c9cb84f50e50494428fd70e650c78321e4f3ec9242bffd963a75f12",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/026_Lucentia_sale.json.gz",
+      "bytes": 8855,
+      "sha256": "63f3797d16e2a83c8bac49a79078e167490480c86c25960100145bba15d9b752",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/027_TRX_rent.json.gz",
+      "bytes": 7388,
+      "sha256": "c7a1969adbaa5d7a1fbf60bc831a02380659e096da904a5b21355cf01eee39f6",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/028_Maya_current.json.gz",
+      "bytes": 233,
+      "sha256": "90261300b7b6f6fa747ad01d10679a8dd385f6e6b8d2f3bb51860a2884d91cc8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/029_Lucentia_fee_check.json.gz",
+      "bytes": 9788,
+      "sha256": "089ac27ead2385e5d4dc1cb91b38cdbdc97252a8692da1bbff38e3da02aa7578",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/030_Primary_transmission.json.gz",
+      "bytes": 12139,
+      "sha256": "4d0de312944b98f2953f4af429dbb68efa1d8a3db0df40a95754462501db87f4",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/031_Maya_Tara_exact.json.gz",
+      "bytes": 8926,
+      "sha256": "eb6e10709a85069a0d9d084313226f0cd58a5225dc7c4793c54c74d698e1704b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/032_Matched_leases_and_Maya.json.gz",
+      "bytes": 4968,
+      "sha256": "d0603164a80b26e3abe5d479cd1ef901f7b2e6aab34edba25f0f33985c98283c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/033_Primary_new_supply.json.gz",
+      "bytes": 8528,
+      "sha256": "1f690109b74409107996e66885ce8750793d29da1622f0ad21a712f2dd1f2827",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/034_Transfer_panels.json.gz",
+      "bytes": 3733,
+      "sha256": "813150f821d18d1bf4581c474cc0b452b5a1277331224af61a6375150f72855d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/035_Final_offer_controls.json.gz",
+      "bytes": 5293,
+      "sha256": "ada60dffe5178e1fb09e3d6b3836fc3f5d49103c91e2c846f6fffe92dbc21b1a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/036_Official_competition.json.gz",
+      "bytes": 11201,
+      "sha256": "99e9271d36143ed6e25d8be1292cf5c2cf12f5c0bd2de56a070b22a49ecdac34",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/037_Transfers_east.json.gz",
+      "bytes": 320,
+      "sha256": "99d996e01e5dd9679345c658355b34c19f324ba59961491dc77347d8bd44335e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/038_Focused.json.gz",
+      "bytes": 8962,
+      "sha256": "0f9c5eb1aa19e9a946aea5e196779553188389c9cbc27ca85c4f2f043357849b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/039_Focused.json.gz",
+      "bytes": 4209,
+      "sha256": "ec37ada8a5bc44f92faaf171c5c50b8ae31e14049c7f733882fcd5ddcc86598d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/040_Focused.json.gz",
+      "bytes": 7386,
+      "sha256": "a19d0e358c91afe158bd283e9523dc29e836d6424c282aef9a19609fe9181d01",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/041_Check.json.gz",
+      "bytes": 8874,
+      "sha256": "734b95a120d8aa0a8b64c86f6355f175bc280a702e70ab30c597fe892879989f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/042_Check.json.gz",
+      "bytes": 2216,
+      "sha256": "937f6e08a9f268f5be75ea8ded2e908380bec71eeab91e5357e624a1ac27ea23",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/043_Check.json.gz",
+      "bytes": 6580,
+      "sha256": "8938a9491e69ed75fdbe659419131ddd08176e8c6b3687bce9a66e0c38b681d8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/044_TRX_Final.json.gz",
+      "bytes": 7647,
+      "sha256": "6c9fa585828cf4b372e97ab4d3ac794579ed8303562d0440d7ba9978cd641673",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/045_Final.json.gz",
+      "bytes": 8705,
+      "sha256": "d92f774dcf53d52dfb2cda2dbdefb9c2d9fd538eb14b588fbf3e445e6dcd615d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/046_Final.json.gz",
+      "bytes": 5883,
+      "sha256": "b74b1a7f8a19dbd646419fc02fc9870acc956d6d388f8d84eb4e7c4665ba2333",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/047_Final.json.gz",
+      "bytes": 8912,
+      "sha256": "883a355fdb69b4628a472300c5d28e4d8d15bdb8abbf124f0ad35ec0917c1550",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/048_Final.json.gz",
+      "bytes": 10511,
+      "sha256": "cfaaa367e332f77f843589ac5cb45c6a7ada85050898bfef73f43b039bbd218d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/049_Identity.json.gz",
+      "bytes": 8462,
+      "sha256": "70b725854c856e79a60c3f6881732ef98c35f262205333aedf56a484f2a6e2ac",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b05-raw/050_Identity.json.gz",
+      "bytes": 8235,
+      "sha256": "7dbbb3bdd2372960359366635170e2485ef521ce430d293c5360c1c09f931c9c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Case_Inputs.json",
+      "bytes": 20571,
+      "sha256": "863e1595b123a18a3cb70d8e2bd5115aceba04d83df45206cb51b1be0f08a2b5",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "bytes": 60147,
+      "sha256": "93a025a84c4b8a2ab59e629a0405ee1234f77b9892d81daa2468b12a6d6635d8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Completion_Audit.json",
+      "bytes": 22382,
+      "sha256": "0dafe7078fd100d9d290edd37d5624318590ba7facc3d2726bd6f37bc38eeb75",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Completion_Audit.md",
+      "bytes": 14423,
+      "sha256": "85d631ff1c095f7c7d932e6137394b2541c51dd47ba4daea51f1b75640d6a6e1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Divergence_and_Misses.md",
+      "bytes": 16722,
+      "sha256": "ec3e89195d642c4e9fc48b5ed05a6cc9caf98b87ca534dc4006cb951c341b9c8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Evidence_and_Supply.md",
+      "bytes": 15525,
+      "sha256": "96270be51eb4a967c1be6f497efe19ee655456967b0a8b9e34d7edbcf4ac050d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "bytes": 326025,
+      "sha256": "62d2e2eae09df83ad092e55f490d04868cdbf5f10bed06a7ec324d2ded910fca",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Financial_Underwriting.md",
+      "bytes": 26869,
+      "sha256": "6364f7013aabb2a1cee527437cf6f973c76f7081cf155bd9c2fccb17858a6cef",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Inherited_Assessments.json",
+      "bytes": 5307,
+      "sha256": "f0d8c89c6a656d7814c439a7d76e6d97839777b8899b302d4ca3dc855da881af",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Regional_Synthesis.md",
+      "bytes": 19034,
+      "sha256": "3274dae267d74be03277d571e753e78be750bb7d6f6a1ba1e2c1293dc9475905",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Release_Audit.json",
+      "bytes": 146152,
+      "sha256": "8fd684f26d34dec327306610e2dd72704308fc9ca60f563322571dec3d9d3fe8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_Release_Manifest.json",
+      "bytes": 12755,
+      "sha256": "1e7a8a797fa07c101ce4a0b0eae57beb83827d234d00657ab5be7a33957d7dba",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/B05_RESUME_CHECKPOINT.md",
+      "bytes": 5572,
+      "sha256": "3ba6efedc7999f1b94f3ea0af42d80a9f29a911465b9496ca4f1a5f6985d87b0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/build_b04_completion.py",
+      "bytes": 15854,
+      "sha256": "77135bb760dcc0c3e03a3ee546f285069d98f9afbc4356be957f01859c55bb3c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/build_b04_release.py",
+      "bytes": 16702,
+      "sha256": "75577b14bae6a20ae9b6f8491fb352840f278261ef2bb5fe6f85fc03910d6b03",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/build_b05_completion.py",
+      "bytes": 12566,
+      "sha256": "c65e0c23ef489abfa37df5e62782cf232ed7d2201de4d4a82bdaee6d40dac7f6",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/build_b05_release.py",
+      "bytes": 17908,
+      "sha256": "cb2253e51a045890fd02d9c615a49fffa58f7b0fbeb9231304f8f64d80d60b19",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/build_contrasting_cases.py",
+      "bytes": 8008,
+      "sha256": "8fe53e8b87006756d18f8bdda8ac01132f78e6d9f28e5faa42802fab378c32d5",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/build_pj_release.py",
+      "bytes": 22863,
+      "sha256": "0a5a34d68ab6ba584bbde8f06f4966da603a8f602b4cc8021bdce5432ff64638",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/Case_Status_Overrides.json",
+      "bytes": 5453,
+      "sha256": "0209d298238688f3e142d52093c095d554586a4cc7e78d1ecf1d07cde002cd2e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/Compact_Buyer_Hypothesis.md",
+      "bytes": 5609,
+      "sha256": "8e4a7b6cbb21dccad00dea9fae69d86c81ea4f25ba891bdb36d0c34e553c6e8a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/Continuation_and_Completion_Audit.md",
+      "bytes": 5169,
+      "sha256": "5b9ba2414c0ac4c23e56e49c8c814684bcd38b7af899cebb0679a710070ed44e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/Contrasting_Case_Financials.json",
+      "bytes": 780851,
+      "sha256": "8c27ab378e408f3ce2b103a21a0e676e04f68e94a848a04714a56d7083f796d3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/Contrasting_Case_Inputs.json",
+      "bytes": 11931,
+      "sha256": "7e959c860cb5b05ccecef81f6b5cffb9faf4b8da2a03952a0d2f591b64cc50af",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/Contrasting_Cases_G0_G9.md",
+      "bytes": 24901,
+      "sha256": "5e82a83ec5eedc9fcb948d03b587f87a31ae5481cc296575fafe41ad78fc6939",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/Coverage_Audit.json",
+      "bytes": 65232,
+      "sha256": "03343173512d18892aa44bf8aca2f69f617e6744f0239adbe6fb2489014a8018",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/Coverage_Audit.md",
+      "bytes": 16823,
+      "sha256": "26f72a188979c4d61bd155d0f2a534429f2ef584d271f16e19675118daade03e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/Official_Market_Context.md",
+      "bytes": 2758,
+      "sha256": "bf2b8d4060cb43f1cf966c1ee5763656b3313ab49eff6ca5d76d3cc388247ab2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/PAUSE_AND_RESUME.md",
+      "bytes": 12375,
+      "sha256": "836738d30e123df25f049ebffb427b8a33a30862fd66aa26e930d79cc5eef0bc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/PJ_RESUME_CHECKPOINT.md",
+      "bytes": 4986,
+      "sha256": "4e5a35f9ea79b8c31910e3f5d1200f3e5d03cd605d876ad8eabb5a072d5e98b0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/Preservation_Audit.json",
+      "bytes": 89876,
+      "sha256": "dc58bc3c92947fbb6d80f855c8cb4689f3d2598622dc3ce6b5bfc5cbc5fa46f9",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/001_demand_official.json",
+      "bytes": 30629,
+      "sha256": "e24ec7cdf548c3492d7eb6d2a86a2ba7e7d922a64072d73777b19eaa6cf66e3e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/002_supply_official.json",
+      "bytes": 27035,
+      "sha256": "aa508cc8185d5dbda1fb24dbd06cc396462d7e71765e6e0489e4043874b0700f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/003_cheras_clearing.json",
+      "bytes": 26249,
+      "sha256": "2789e98f4a3c81f6f88a0a67887c27b326351e4901481dd343fd93ebcf9c98a4",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/004_cheras_outer.json",
+      "bytes": 24285,
+      "sha256": "5ccc4ac90eb8679c7d62bd3f6ee796e504762dc389381eed763c92b5164a72a8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/005_southwest_clearing.json",
+      "bytes": 25467,
+      "sha256": "a57e4591628ff5a47f737c251ee0c77a494d6ff3b8c5ca9fe879a4c83e023bca",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/006_southwest_compact.json",
+      "bytes": 23805,
+      "sha256": "a9137e39a9c54f0387d182e37bf881fbb33d089d06229726af86487a1869b742",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/007_aurora_identity.json",
+      "bytes": 27841,
+      "sha256": "12d7c41a2a84364a057c07e0dfffe78328a5100d8c0feb6e46758e2b6633bc63",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/008_kuchai_clearing.json",
+      "bytes": 24583,
+      "sha256": "3896fc9351615d35668dfa3f45ea1f617469f5dafd68579a1f108f99d8c0e317",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/009_desa_green_clearing.json",
+      "bytes": 26227,
+      "sha256": "457004c26a3755e5597d00ea3d69ba58f48d23cedd5751711fe44bed1fc93fdb",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/010_endah_clearing.json",
+      "bytes": 22279,
+      "sha256": "2f68240fb47642cf89404e7193143ba06100f850392b459d621d272999aefba0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/011_primary_identity_and_napic.json",
+      "bytes": 30602,
+      "sha256": "6c4c70c8d420a37ad6ad1002b5e41237377528414ce66c9c28913c0ed2390578",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/012_napic_report_links.json",
+      "bytes": 22114,
+      "sha256": "92830dc8342d59b2ed8d5121979a5d47b3acaf5d4018073118b305e52e332484",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/013_primary_b01_b02_supply.json",
+      "bytes": 32295,
+      "sha256": "570e302a7acc1913609f7ec1d5806dbd79d99946290c800660978f7f5d9443bc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/014_supply_delivery_followup.json",
+      "bytes": 29622,
+      "sha256": "8614d243b1975d598662b8df10add4827019818e688ae8bb902315fd7bed4614",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/015_maspira_primary.json",
+      "bytes": 29913,
+      "sha256": "3bfa272e66d6ce5e3f45adf8d4137530a2ea84fd941e1833f1bf314c0bc5f210",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/016_bukit_jalil_residential.json",
+      "bytes": 33747,
+      "sha256": "d0136f7706cb91a376324b1fcf35d538510ca07b4648b9d2458ca24d1446c54f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/017_okr_primary.json",
+      "bytes": 32692,
+      "sha256": "3074c3fb949bfe890f32da5cb4ccec71bcfc584da7e4239c2e8c8b0990c27e6a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/018_trion_supply.json",
+      "bytes": 23853,
+      "sha256": "a35226f062a0b9cbbba8c2d69664f58b26793c99ac6106c750fa101b2da3edba",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/019_cheras_outer_supply.json",
+      "bytes": 34432,
+      "sha256": "6f5ac0c5120af00072a81fba0498d7fe0f4b92b66a82002ed455f36aa2cf9df0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/020_maxim_clearing.json",
+      "bytes": 25888,
+      "sha256": "96f5956a76c6ff4e4e8077f0de664db2a91afbc2ac781962e244f50e11473237",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/021_desagreen_two_bed.json",
+      "bytes": 29794,
+      "sha256": "469ca14461c286f020e852062b19a428efca7c280548daa69b93b1a9151440ea",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/022_bukit_jalil_control.json",
+      "bytes": 26560,
+      "sha256": "4dd858c1e1f7ecabe06778ef5cfa5de9c3804ec2adab206b5db0db9222e75b18",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/023_controls_supply.json",
+      "bytes": 17008,
+      "sha256": "ff169ee8c1c4e3c673f3637c16ac172a806c3262f0157c762f4b8f85459431c8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/024_tropika_sale.json",
+      "bytes": 24838,
+      "sha256": "3fddaa68fa3bba6296728ae219a8cf5c815b683698fad92d5d63fdd0967ad47e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/025_moscar_sale_rent.json",
+      "bytes": 27890,
+      "sha256": "b7b7ac15add58cb108ecf66b6e50bb30d91830b69915c3f7db411f0b700ffc6b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/026_okr_family_control.json",
+      "bytes": 23683,
+      "sha256": "01dae38ccede557e29c97ca3ecbaf5b9c94d7987827a88a0c8a771421344518b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/027_primary_new_projects.json",
+      "bytes": 9736,
+      "sha256": "9bd4854437c4e6ad5e6056ff3036db206d5269565c49e30abe4550678deba87e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/028_residence8.json",
+      "bytes": 27491,
+      "sha256": "fecbd248ea75890fd687939e22cbaa0b443ff57c781eb3fc39e2396acad63861",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/029_moscar_sale.json",
+      "bytes": 26944,
+      "sha256": "e16e1144c12fc1f5bcd5e52c5b7a6bd4d9d12ef093beb5a0f76dc8c65757b433",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/030_bukitjalil_transfers.json",
+      "bytes": 28304,
+      "sha256": "cb300dae45cf4331ff23d9bfe1561a35f8f637b8a30d3e59c0ca1b7e20daa8c6",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/031_maspira_permit.json",
+      "bytes": 28194,
+      "sha256": "2f538549c697268e9b1ca562fd5247ee7ae14b65b6aecc3cc15d560982fd5edc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/032_b01_compact_identity.json",
+      "bytes": 31346,
+      "sha256": "106432f99210fc5900016fb83191d83fec46400b485647d66883bff4fb4c6871",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/033_velocity_towerc.json",
+      "bytes": 26283,
+      "sha256": "654cba88b43a306fb98bc30bdbccebf66d99d4f39ef00ee27910f033c7c73f55",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/034_residence8_corrected.json",
+      "bytes": 27030,
+      "sha256": "7ad92285a7ad42e843bb826dc456cd708efaa2f477371e932f19f1f1a81229b0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/035_cheras_outer_substitution.json",
+      "bytes": 26993,
+      "sha256": "79d797f4d5601d31d8430099c4d5f8bae154666714337ce495378349c2f87f28",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/036_bukitjalil_clearing_corrected.json",
+      "bytes": 26254,
+      "sha256": "0cab6f5a2e611918ca982282b5b85922cebcc05c2c9200cd5f18b4d395ac2902",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/037_moscar_recent_sale.json",
+      "bytes": 30169,
+      "sha256": "8bc684333f081dc12a94e5fc32e6bd177b1f63d577e1bb33813c8cbf233876bc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/038_moscar_clearing.json",
+      "bytes": 29212,
+      "sha256": "7a500fe3a3676eb00541cc7047c53a0909921b81d6c8b7d7665aba32e5c202c6",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/039_residence8_rent.json",
+      "bytes": 30815,
+      "sha256": "5b55bc6b660f573d56e79a72ffefa8a164322641d7eebabd9789943dd81b662b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/040_midah_family_control.json",
+      "bytes": 24208,
+      "sha256": "ffda329d7373a2a0cb4d00a72bbe3e2bffd4a017a9d40fed2293e8c5aa33fb9d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/041_balakong_compact_control.json",
+      "bytes": 25810,
+      "sha256": "3d6e4f941931a89420a525ac4d46278d0cac8512b363402e9e35ab3ef169cc53",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/042_sungailong_supply.json",
+      "bytes": 23992,
+      "sha256": "9e1c2e6d3b97c5d1a267f6a80137de35069fb518c8ebb593d5ac07531e122db1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/043_mahkota_family_control.json",
+      "bytes": 26965,
+      "sha256": "1fdb6c79221796b19ad63a4621830bcb29630f02fafe059b0d5c5190cb7beac8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/044_silksky_sale.json",
+      "bytes": 25482,
+      "sha256": "50a7cad9091ed1b619f17a50082f92d79c4be333d57bcca037a692dcde9197a3",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/045_primary_midah.json",
+      "bytes": 30159,
+      "sha256": "63f029032869e15be25c8305c9e1a596eac540c718473d66ec214f05ba75502f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/046_silksky_primary.json",
+      "bytes": 29608,
+      "sha256": "aeac1c8ceec6062cd910590dc270e21faa66eb255f177c2202402a510151c778",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/047_okr_primary_navigation.json",
+      "bytes": 12213,
+      "sha256": "309a1078fd931fef398f560f923d029c2a372f05cb817a8f10e7f7c0f46e389f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/048_PJ_primary_products.json",
+      "bytes": 29478,
+      "sha256": "f524d8e5eda6bba05bfa21a173f53ab9b0b267b0df5f59df82fc82dbb7c7da26",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/049_PJ_supply.json",
+      "bytes": 29649,
+      "sha256": "8136475bd9f451cf9c66f4828be32f7452dc9a7067bc7e637f48cb5a4ca120e7",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/050_PJ_developer_layouts.json",
+      "bytes": 33676,
+      "sha256": "2caee55938581e8becea1f166da7b5e38e9eafcac5ee7c8db31366ee383c63b0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/051_Midtown_Eve_offers.json",
+      "bytes": 23942,
+      "sha256": "83e7e4316565a671f4676b7465863ed12adead90be19086410197146f88d8fa1",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/052_Eve_offers.json",
+      "bytes": 26441,
+      "sha256": "631b54b738f01e66ede60ef9fc31b56b43cbfbc45a988e4ff3e6d9a0a77455d2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/053_Eve_sale_primary.json",
+      "bytes": 27301,
+      "sha256": "1482a91105e656a589a304c60d07839a59e5f9cd60d18cfac0e18991617a1eed",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/054_Kelana_controls.json",
+      "bytes": 26738,
+      "sha256": "5ac3d9cfb32a9977977728d28fa8e7dbb94f3684f15bdeb224a780e80a11fd01",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/055_Primary_project_records.json",
+      "bytes": 24233,
+      "sha256": "bce3a86ad6c1de987ef61b1c47033be932d2e01ec103ea7b56a0a1443a35c69a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/056_PJ_primary_identity_supply.json",
+      "bytes": 30109,
+      "sha256": "ac2c839f39425ae6fd3badfee510cc8abd39bed317d6ee31f58684188efc4941",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/057_Midtown_current_brochure.json",
+      "bytes": 28539,
+      "sha256": "9f3375e09c1b816b6ea482cfac83800788f9f9b1183162816a76fc72cb3bf708",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/057b_Midtown_individual_offers.json",
+      "bytes": 14325,
+      "sha256": "35c23bbc00746656d90c2d3f2dba20e73bc30e86203b57f1c4f962078e9ad68e",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/058_Ara_supply.json",
+      "bytes": 15686,
+      "sha256": "102f33a554c356bc7a0edf5c8baa9b312d5dff61ba2bdc865097240d12ecb777",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/059_Encorp_large.json",
+      "bytes": 27001,
+      "sha256": "838fe17ca7806a4440aefe25ab6cba2ad0a71004521a3e950ac879b054fbdf0d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/060_PJ8_family.json",
+      "bytes": 26210,
+      "sha256": "28f0234dbc9f08c85c323bf9b95e9c32f6ae8ad737c721f874dffd36a28aeede",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/061_Amcorp_identity.json",
+      "bytes": 11803,
+      "sha256": "38b785a9481a02a77ea0b50259f4b2ea73bdf2b268e873a8ee5d433a51ba21c9",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/062_SS2_substitutes.json",
+      "bytes": 13765,
+      "sha256": "c5624367caa19e9d9934a1e5697e8f102d0e467b10716124ccba831fef8ade0f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/063_Tropicana_family.json",
+      "bytes": 13600,
+      "sha256": "e938bb89d9c0a40b622b1f8fbbd13b5cad8f6342b92257693a15a8bc0a4d94ec",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/064_PJ_component_and_family.json",
+      "bytes": 25806,
+      "sha256": "16db4d6acf41a285c3e874a93e0028d530257f17c0179d6d2b610fb1afda1e66",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/065_Ameera_control.json",
+      "bytes": 13919,
+      "sha256": "9b22a6d0b734c1715af0a6c55f720a9f50bd5516ede5d9200693cb35969a4b10",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/066_Encorp_family_control.json",
+      "bytes": 13034,
+      "sha256": "4228d10fdd93614aa4083fe1d65d241abc5aa8f5318c08f4ca7ccba32a6adabc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/067_PJ_supply_corridors.json",
+      "bytes": 16190,
+      "sha256": "96dfacd400abe4a4b0bb14e7f7f46394ced212b5c8e5b9914e58c3f45a17a732",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/068_Encorp_tenure.json",
+      "bytes": 71,
+      "sha256": "1048ddaf93c0dfa7b1304db3ffef722f4a37db0018ad2c63d0062118c5d92b42",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/069_Atera_supply.json",
+      "bytes": 15332,
+      "sha256": "f5bb62fba1ba7a56e74c6e17cfe698cbe1677dd5f5b14be62131d6ce0689e072",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/070_Tropicana_supply.json",
+      "bytes": 13711,
+      "sha256": "7214ac4ba27f8fc71eddaa2290b64b5696e488940b67aaa4e37c06cc40c3a62b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/071_Amcorp_project_primary.json",
+      "bytes": 15226,
+      "sha256": "8f1075d3c096bab570990158760759b20c3cacc36d31e4ca208660277edbaf95",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/072_PJ8_larger.json",
+      "bytes": 9137,
+      "sha256": "633de152469dad9d84672c3be2094a8862d4bc1d35843ed5a0c13d9db22c2ee9",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/073_Encorp_1166_rent.json",
+      "bytes": 13454,
+      "sha256": "6ab1b5d94637c78992a8491aa88b127f2eb3f0e98e8aed2d738d9b50bdef2360",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/074_SS2_primary_quality.json",
+      "bytes": 14652,
+      "sha256": "a67a65884e653c2755b4dacaf963354b0e4ecd729cb59b64b291494455e58c9c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/075_PJ8_two_bed.json",
+      "bytes": 11924,
+      "sha256": "63596cca753972ccc32572aba5b800b951405647d8ee51513be67b3ffdc432ea",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/076_Eve_transfers.json",
+      "bytes": 12574,
+      "sha256": "d9c2b051e1d8432e4219c6f3c6efdf124214acf053962215087f99b26df2772f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/077_Kelana_transfers.json",
+      "bytes": 10309,
+      "sha256": "4848192e754b1cf3c1abbc2f501542080b40da83746ba4bbf139b1b71ffa83cd",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/raw/078_casa_rent_recheck.json",
+      "bytes": 19191,
+      "sha256": "400df4fc2e7af18ed876c5f75e9e4c351441e79dd3018e66bf309af5e2a074fa",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/README.md",
+      "bytes": 5677,
+      "sha256": "fa957a9d5b621785dec8e099b98161f888f9412be6b39017f3319e772b7fab0d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/sources/aspira-10.png",
+      "bytes": 1395521,
+      "sha256": "69d0b29be9c002d722d9156e94dcc83e3f6ebc6881d37a057f1183d93b0eeae9",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/sources/M_Aspira_Approved_Brochure.pdf",
+      "bytes": 2132198,
+      "sha256": "8884fc7309e6871eb5dd29a6fc445577e76ea96b0f434675e16676051e79849d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/sources/napic-status-07.png",
+      "bytes": 271026,
+      "sha256": "c0b121913d1bd9535a019eac9528c6d27cabdaa7529a5935d4d1c1633eea4e7f",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/sources/napic-status-08.png",
+      "bytes": 213174,
+      "sha256": "4c558c3479ebd7d652a91e47b9a95d5325f0201effa2ca05bc877246592abd57",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/sources/NAPIC_Status_H1_2026.pdf",
+      "bytes": 4302885,
+      "sha256": "cc0d6990138471c1acbe3abc802b2ad1dc4f69da6ec70e87629c0702d3bfa278",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/sources/PJ_Midtown_Archived_Flyer.pdf",
+      "bytes": 1814518,
+      "sha256": "dadf334b6d1e7288da2fa12e1f32fef6b8f4c5a47197151159b020e3db5ad740",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/sources/pjmidtown-plan.png",
+      "bytes": 1381774,
+      "sha256": "affc67e484e9eef9b6f9bd1e8768cb62eda97d7508cecb75e971c2272678b22d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/update_progress_audit.py",
+      "bytes": 12333,
+      "sha256": "a50486a6727d8e71cab1d340a47551b7ca6f034f17d836996ac0144b8c906a8a",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/verify_b04_release.py",
+      "bytes": 9157,
+      "sha256": "1d40c5d96fead8a274a395ec90ea718201dad4f29bda16807525e2f304ac85ab",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/verify_b05_release.py",
+      "bytes": 9484,
+      "sha256": "07f994c51f77ba54b34bdba4fefb4dc102136822a8913c49cbb2e43028c8b263",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/verify_pj_release.py",
+      "bytes": 3807,
+      "sha256": "2683cf0174d922df5d321ac44a36bac99047a57aa48d4339c32cbf0dc7ddc91c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/run_programme_financials.py",
+      "bytes": 10006,
+      "sha256": "3d863cce1baddb7fcea323a53f6f5482e44600eaeab965f610fd5db0b05dc0e0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Selected_Case_Workpapers.md",
+      "bytes": 103829,
+      "sha256": "47149815884af278e04f0acdb56975ef74b4c6854181a3de93a2ec31e67275fc",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/validate_release.py",
+      "bytes": 7028,
+      "sha256": "9ec9f64458dd41e22a02abc1ce5f55968f182a2b258a88db8cab5e55d010f1f7",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Validation_Report.md",
+      "bytes": 2709,
+      "sha256": "4f75d776c53ae4f078b70ef3f0a8df5080bb46a179027562b7f61e0bf3379de2",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "klang-valley-2026-10-07/Validation_Results.json",
+      "bytes": 893,
+      "sha256": "b8f844cf007edbecc924ba19d7e6cf87a3bd2a2cac602d8206856b09f0c42258",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/calculate_batch02.py",
+      "bytes": 11488,
+      "sha256": "08dc2630c7c21d541b03eaa0559de821a0a6eb11e867f7b01070dacc903e3972",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/calculate_stress.py",
+      "bytes": 11638,
+      "sha256": "e3cce0708887f524a32a9f234b8150db8e4d4d15cfeadf0d538723ba5812fa94",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Batch_02_Closeout.md",
+      "bytes": 9538,
+      "sha256": "7c585d2ae521fe7e5695fece5af48004405e1b68c42375e8db99dc63803747b4",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Batch_02_Evidence_Log.md",
+      "bytes": 15541,
+      "sha256": "4fdde961e4499ba365569e4f17746e9d5c4ebee0e5ae23e3f9449592f78861bd",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Batch_02_Financial_Tests.md",
+      "bytes": 9634,
+      "sha256": "f2e96541e625a6023dd3296002f7d24a6cbac4043aaf02c89cfe0e39e243cc19",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Batch_02_Integrated_Decision_Test.md",
+      "bytes": 33367,
+      "sha256": "724b52bffd9bf6c3894a8cd7d67d148a0ba13c4f5d179fbc9ef9adb148a90977",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Batch_02_PreData_Lock.md",
+      "bytes": 4979,
+      "sha256": "aefac1cc3b46cf1ebfbc9cdc37ae6f1233af00e3106afe4a83377e46332a0300",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Batch_02_Stress_Results.json",
+      "bytes": 56355,
+      "sha256": "71efb88a91a2918ac4ae7c39ecbea001174fd1c626ad9e9d46394c3255d02f4c",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Evidence_Log.md",
+      "bytes": 13105,
+      "sha256": "776714c5446e893ccf9ed032bb04e12068770efe3e046744dfaada3825e891a4",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Integrated_Decision_Test.md",
+      "bytes": 34179,
+      "sha256": "6e5ab2476eb0f577295829253f1d2c6f7ab67a94af3241fc395733fe7bbef207",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Integrity_Manifest.json",
+      "bytes": 7874,
+      "sha256": "cc0767e2e76e50c905363f28194ed8d5213380e9c685ac6c5af02f2e0d0c18b5",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Misses_and_Red_Team.md",
+      "bytes": 20566,
+      "sha256": "c9c05b72ab9fa13e3f62a42a07925b9cb44d4e77429cbd3eacb73b7e4b3a058d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Portfolio_Stress.md",
+      "bytes": 7989,
+      "sha256": "a575238c854fa12792d9d6e3270ba8d697938d426cdb62dfa22a5b017639a691",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_PreData_Lock.md",
+      "bytes": 3993,
+      "sha256": "61cee983f04ccf989e6d497f32eac93c01983d85ec1b0ed800837543e4b041bb",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_SOP_Addendum.md",
+      "bytes": 7674,
+      "sha256": "7c637ea580058d526f55acc5be57a847dd14d6e00e5ab507e0e6a48fb9203620",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Phase_7_Stress_Results.json",
+      "bytes": 25538,
+      "sha256": "508571182d1b240d2964b3f0e9fa88e9c72b07b58e973ce117cfa173b4bc8b69",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/README.md",
+      "bytes": 7785,
+      "sha256": "1612f7b2945a2887f4989e6b97d6df5a1c6c9a908b578d65d4ae2e67cbcf1ab8",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "phase-7/Residential_Investment_Engine_Handoff_Context.md",
+      "bytes": 44449,
+      "sha256": "0eb39998f3f9266e6add907647f8d7f3b0c48b5d73b19a3435493ee68733bd90",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8509,
+      "sha256": "40849436eb241e7212760ea8c24190205405197be128f94c78202741d41eb41d",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "Residential_Investment_Framework.md",
+      "bytes": 55579,
+      "sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "sop/Approved_Execution_Supplement.md",
+      "bytes": 14281,
+      "sha256": "2e62521e1b95eeaae3801020d762d9e76b4005ade30065b50a990ce1eb2f5b74",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "sop/Founder_QA_Approval_Register.md",
+      "bytes": 5672,
+      "sha256": "d60b617cc6568670df93d7a9d8269d6b1ae8ebcf707e1880c6528367152cce81",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "sop/Founder_QA_Integration_Manifest.json",
+      "bytes": 3640,
+      "sha256": "7824f4183326f5d4bd7ab95aa91f830f67b1158d61d55b5a41bcf15dc70b8539",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "sop/Layout_Neutral_Regional_Sampling.md",
+      "bytes": 5687,
+      "sha256": "40ccb80a47c211364ae4921fc995cf45b9adf24802317d4ed5df9768d89b9df0",
+      "provenance": "complete-generated-project-directory"
+    },
+    {
+      "path": "source-inputs/FOUNDER_407_QA.md",
+      "bytes": 69335,
+      "sha256": "116dbcd0e4bb652a48fe644a594e990a796c59e567605577ee7ac1171ed50d1b",
+      "provenance": "user-supplied407QAattachment-unmodified"
+    }
+  ]
+}

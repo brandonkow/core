@@ -1,0 +1,5912 @@
+{
+  "version": "KV-B05-2026-10-07-R3",
+  "status": "PASS",
+  "check_count": 1091,
+  "financial_identity_rechecks": 212,
+  "checks": [
+    {
+      "name": "16 unique expressions",
+      "pass_check": true
+    },
+    {
+      "name": "nine new and seven inherited",
+      "pass_check": true
+    },
+    {
+      "name": "seven catchments",
+      "pass_check": true
+    },
+    {
+      "name": "49 authored dimensions",
+      "pass_check": true
+    },
+    {
+      "name": "bounded Defer only",
+      "pass_check": true
+    },
+    {
+      "name": "output B05_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "output B05_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "output B05_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "output B05_Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "name": "output B05_Inherited_Assessments.json",
+      "pass_check": true
+    },
+    {
+      "name": "output B05_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "output B05_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "output B05_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "frozen configuration",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "KV1190/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R220 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R220 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R22090/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R220 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R220 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R220 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R221 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R221 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R22190/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R221 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R221 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R221 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R222 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R222 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R22290/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R222 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R222 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R222 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R223 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R223 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R22390/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R223 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R223 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R223 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R224 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R224 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R22490/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R224 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R224 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R224 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R225 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R225 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R22590/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R225 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R225 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R225 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R321 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R321 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R32190/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R321 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R321 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R321 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R322 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R322 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R32290/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R322 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R322 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R322 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R323 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R323 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R32390/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R323 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R323 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R323 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R324 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R324 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R32490/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R324 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R324 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R324 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R325 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R325 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R32590/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R325 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R325 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R325 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R326 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R326 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R32690/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R326 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R326 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R326 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R327 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R327 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R32790/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R327 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R327 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R327 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R328 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R328 saved metrics existing_lease_no_credit6",
+      "pass_check": true
+    },
+    {
+      "name": "R32890/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R328 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R328 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R328 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R329 parameter/scenario coverage",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics base",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics rent_low",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics rent_high",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics rate_5_5",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics rent_down20",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics fee_up20",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics vacancy12",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics works30k",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics valuation85pct",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics term25",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics exit_delay12",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics extra_cost_buffer",
+      "pass_check": true
+    },
+    {
+      "name": "R329 saved metrics combined12",
+      "pass_check": true
+    },
+    {
+      "name": "R32990/4/35",
+      "pass_check": true
+    },
+    {
+      "name": "R329 independent annual carry",
+      "pass_check": true
+    },
+    {
+      "name": "R329 standard and6%boundary",
+      "pass_check": true
+    },
+    {
+      "name": "R329 futurebuyer90LTV",
+      "pass_check": true
+    },
+    {
+      "name": "R322 alternative metrics",
+      "pass_check": true
+    },
+    {
+      "name": "R323 alternative metrics",
+      "pass_check": true
+    },
+    {
+      "name": "R325 alternative metrics",
+      "pass_check": true
+    },
+    {
+      "name": "212 financial identity replays",
+      "pass_check": true
+    },
+    {
+      "name": "120 unique pairs",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R220",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R221",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R222",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R223",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R224",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R225",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R321",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R322",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R323",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R324",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair KV11,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R221",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R222",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R223",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R224",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R225",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R321",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R322",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R323",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R324",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R220,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R222",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R223",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R224",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R225",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R321",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R322",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R323",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R324",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R221,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R223",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R224",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R225",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R321",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R322",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R323",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R324",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R222,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R224",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R225",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R321",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R322",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R323",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R324",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R223,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R224,R225",
+      "pass_check": true
+    },
+    {
+      "name": "pair R224,R321",
+      "pass_check": true
+    },
+    {
+      "name": "pair R224,R322",
+      "pass_check": true
+    },
+    {
+      "name": "pair R224,R323",
+      "pass_check": true
+    },
+    {
+      "name": "pair R224,R324",
+      "pass_check": true
+    },
+    {
+      "name": "pair R224,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair R224,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R224,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R224,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R224,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R225,R321",
+      "pass_check": true
+    },
+    {
+      "name": "pair R225,R322",
+      "pass_check": true
+    },
+    {
+      "name": "pair R225,R323",
+      "pass_check": true
+    },
+    {
+      "name": "pair R225,R324",
+      "pass_check": true
+    },
+    {
+      "name": "pair R225,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair R225,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R225,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R225,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R225,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R321,R322",
+      "pass_check": true
+    },
+    {
+      "name": "pair R321,R323",
+      "pass_check": true
+    },
+    {
+      "name": "pair R321,R324",
+      "pass_check": true
+    },
+    {
+      "name": "pair R321,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair R321,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R321,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R321,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R321,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R322,R323",
+      "pass_check": true
+    },
+    {
+      "name": "pair R322,R324",
+      "pass_check": true
+    },
+    {
+      "name": "pair R322,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair R322,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R322,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R322,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R322,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R323,R324",
+      "pass_check": true
+    },
+    {
+      "name": "pair R323,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair R323,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R323,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R323,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R323,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R324,R325",
+      "pass_check": true
+    },
+    {
+      "name": "pair R324,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R324,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R324,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R324,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R325,R326",
+      "pass_check": true
+    },
+    {
+      "name": "pair R325,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R325,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R325,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R326,R327",
+      "pass_check": true
+    },
+    {
+      "name": "pair R326,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R326,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R327,R328",
+      "pass_check": true
+    },
+    {
+      "name": "pair R327,R329",
+      "pass_check": true
+    },
+    {
+      "name": "pair R328,R329",
+      "pass_check": true
+    },
+    {
+      "name": "68 reserve diagnostics",
+      "pass_check": true
+    },
+    {
+      "name": "nine rentgrid reversals",
+      "pass_check": true
+    },
+    {
+      "name": "rank (1900, 2100)",
+      "pass_check": true
+    },
+    {
+      "name": "rank (1900, 2400)",
+      "pass_check": true
+    },
+    {
+      "name": "rank (1900, 2700)",
+      "pass_check": true
+    },
+    {
+      "name": "rank (2200, 2100)",
+      "pass_check": true
+    },
+    {
+      "name": "rank (2200, 2400)",
+      "pass_check": true
+    },
+    {
+      "name": "rank (2200, 2700)",
+      "pass_check": true
+    },
+    {
+      "name": "rank (2400, 2100)",
+      "pass_check": true
+    },
+    {
+      "name": "rank (2400, 2400)",
+      "pass_check": true
+    },
+    {
+      "name": "rank (2400, 2700)",
+      "pass_check": true
+    },
+    {
+      "name": "only Parkview positive annual base",
+      "pass_check": true
+    },
+    {
+      "name": "all base flat-exit total profits negative",
+      "pass_check": true
+    },
+    {
+      "name": "monthlyfee branch and quarterlyhypothesis",
+      "pass_check": true
+    },
+    {
+      "name": "tenancy uncertainty modelled",
+      "pass_check": true
+    },
+    {
+      "name": "separate lower offer",
+      "pass_check": true
+    },
+    {
+      "name": "SeriMaya fresh vs historical price separated",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 G0",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 G1",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 G2",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 G3",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 G4",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 G5",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 G6",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 G7",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 G8",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 G9",
+      "pass_check": true
+    },
+    {
+      "name": "KV11 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R220 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R220 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R220 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R220 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R220 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R220 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R220 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R220 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R220 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R220 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R220 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R221 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R221 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R221 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R221 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R221 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R221 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R221 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R221 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R221 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R221 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R221 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R222 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R222 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R222 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R222 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R222 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R222 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R222 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R222 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R222 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R222 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R222 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R223 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R223 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R223 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R223 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R223 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R223 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R223 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R223 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R223 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R223 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R223 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R224 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R224 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R224 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R224 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R224 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R224 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R224 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R224 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R224 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R224 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R224 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R225 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R225 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R225 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R225 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R225 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R225 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R225 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R225 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R225 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R225 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R225 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R321 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R321 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R321 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R321 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R321 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R321 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R321 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R321 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R321 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R321 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R321 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R322 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R322 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R322 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R322 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R322 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R322 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R322 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R322 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R322 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R322 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R322 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R323 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R323 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R323 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R323 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R323 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R323 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R323 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R323 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R323 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R323 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R323 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R324 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R324 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R324 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R324 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R324 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R324 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R324 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R324 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R324 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R324 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R324 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R325 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R325 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R325 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R325 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R325 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R325 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R325 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R325 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R325 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R325 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R325 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R326 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R326 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R326 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R326 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R326 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R326 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R326 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R326 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R326 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R326 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R326 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R327 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R327 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R327 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R327 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R327 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R327 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R327 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R327 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R327 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R327 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R327 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R328 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R328 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R328 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R328 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R328 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R328 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R328 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R328 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R328 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R328 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R328 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "R329 G0",
+      "pass_check": true
+    },
+    {
+      "name": "R329 G1",
+      "pass_check": true
+    },
+    {
+      "name": "R329 G2",
+      "pass_check": true
+    },
+    {
+      "name": "R329 G3",
+      "pass_check": true
+    },
+    {
+      "name": "R329 G4",
+      "pass_check": true
+    },
+    {
+      "name": "R329 G5",
+      "pass_check": true
+    },
+    {
+      "name": "R329 G6",
+      "pass_check": true
+    },
+    {
+      "name": "R329 G7",
+      "pass_check": true
+    },
+    {
+      "name": "R329 G8",
+      "pass_check": true
+    },
+    {
+      "name": "R329 G9",
+      "pass_check": true
+    },
+    {
+      "name": "R329 stop/defer/counter",
+      "pass_check": true
+    },
+    {
+      "name": "six material flags",
+      "pass_check": true
+    },
+    {
+      "name": "six fields Data limitation",
+      "pass_check": true
+    },
+    {
+      "name": "six fields Judgment bias",
+      "pass_check": true
+    },
+    {
+      "name": "six fields Omitted variable",
+      "pass_check": true
+    },
+    {
+      "name": "six fields Structural change",
+      "pass_check": true
+    },
+    {
+      "name": "six fields Falsifiable Hypothesis",
+      "pass_check": true
+    },
+    {
+      "name": "six fields Evidence Required",
+      "pass_check": true
+    },
+    {
+      "name": "six fields Falsification Conditions",
+      "pass_check": true
+    },
+    {
+      "name": "six fields Core Module Routing",
+      "pass_check": true
+    },
+    {
+      "name": "six fields Current Status",
+      "pass_check": true
+    },
+    {
+      "name": "50 consecutive retained retrievals",
+      "pass_check": true
+    },
+    {
+      "name": "R321 raw003",
+      "pass_check": true
+    },
+    {
+      "name": "R321 raw025",
+      "pass_check": true
+    },
+    {
+      "name": "R321 raw032",
+      "pass_check": true
+    },
+    {
+      "name": "R321 raw034",
+      "pass_check": true
+    },
+    {
+      "name": "R322 raw010",
+      "pass_check": true
+    },
+    {
+      "name": "R322 raw026",
+      "pass_check": true
+    },
+    {
+      "name": "R322 raw029",
+      "pass_check": true
+    },
+    {
+      "name": "R322 raw034",
+      "pass_check": true
+    },
+    {
+      "name": "R322 raw048",
+      "pass_check": true
+    },
+    {
+      "name": "R323 raw021",
+      "pass_check": true
+    },
+    {
+      "name": "R323 raw033",
+      "pass_check": true
+    },
+    {
+      "name": "R323 raw040",
+      "pass_check": true
+    },
+    {
+      "name": "R323 raw044",
+      "pass_check": true
+    },
+    {
+      "name": "R323 raw045",
+      "pass_check": true
+    },
+    {
+      "name": "R323 raw046",
+      "pass_check": true
+    },
+    {
+      "name": "R323 raw048",
+      "pass_check": true
+    },
+    {
+      "name": "R323 raw050",
+      "pass_check": true
+    },
+    {
+      "name": "R324 raw007",
+      "pass_check": true
+    },
+    {
+      "name": "R324 raw017",
+      "pass_check": true
+    },
+    {
+      "name": "R324 raw022",
+      "pass_check": true
+    },
+    {
+      "name": "R324 raw030",
+      "pass_check": true
+    },
+    {
+      "name": "R325 raw013",
+      "pass_check": true
+    },
+    {
+      "name": "R325 raw019",
+      "pass_check": true
+    },
+    {
+      "name": "R325 raw033",
+      "pass_check": true
+    },
+    {
+      "name": "R325 raw043",
+      "pass_check": true
+    },
+    {
+      "name": "R325 raw047",
+      "pass_check": true
+    },
+    {
+      "name": "R325 raw049",
+      "pass_check": true
+    },
+    {
+      "name": "R326 raw009",
+      "pass_check": true
+    },
+    {
+      "name": "R326 raw020",
+      "pass_check": true
+    },
+    {
+      "name": "R326 raw024",
+      "pass_check": true
+    },
+    {
+      "name": "R326 raw031",
+      "pass_check": true
+    },
+    {
+      "name": "R326 raw034",
+      "pass_check": true
+    },
+    {
+      "name": "R327 raw002",
+      "pass_check": true
+    },
+    {
+      "name": "R327 raw016",
+      "pass_check": true
+    },
+    {
+      "name": "R327 raw032",
+      "pass_check": true
+    },
+    {
+      "name": "R327 raw037",
+      "pass_check": true
+    },
+    {
+      "name": "R328 raw023",
+      "pass_check": true
+    },
+    {
+      "name": "R328 raw035",
+      "pass_check": true
+    },
+    {
+      "name": "R328 raw039",
+      "pass_check": true
+    },
+    {
+      "name": "R329 raw036",
+      "pass_check": true
+    },
+    {
+      "name": "R329 raw038",
+      "pass_check": true
+    },
+    {
+      "name": "R329 raw041",
+      "pass_check": true
+    },
+    {
+      "name": "R329 raw042",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Completion_Audit.md link B05_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Completion_Audit.md link B05_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Completion_Audit.md link B05_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Completion_Audit.md link B05_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Completion_Audit.md link B05_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Completion_Audit.md link B05_RESUME_CHECKPOINT.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Regional_Synthesis.md link B05_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Regional_Synthesis.md link B05_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Regional_Synthesis.md link B05_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Regional_Synthesis.md link B05_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Regional_Synthesis.md link B05_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Regional_Synthesis.md link B05_RESUME_CHECKPOINT.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_Regional_Synthesis.md link B05_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_RESUME_CHECKPOINT.md link B05_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_RESUME_CHECKPOINT.md link B05_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_RESUME_CHECKPOINT.md link B05_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_RESUME_CHECKPOINT.md link B05_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_RESUME_CHECKPOINT.md link B05_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "B05_RESUME_CHECKPOINT.md link B05_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "prior281register valid",
+      "pass_check": true
+    },
+    {
+      "name": "preserved Evidence_Judgment_Divergence_Integration_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved Framework_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved Residential_Investment_Framework.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\calculate_approved_baseline.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\calculate_cheras.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Approved_Baseline_Bridge.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Approved_Baseline_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Evidence_Register.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_G0_G9_Cases.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_PreResearch_Lock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\Cheras_Regional_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\baseline-history\\pre-90pct\\calculate_approved_baseline.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\baseline-history\\pre-90pct\\Cheras_Approved_Baseline_Bridge.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\baseline-history\\pre-90pct\\Cheras_Approved_Baseline_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\baseline-history\\pre-90pct\\Founder_QA_Integration_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved cheras\\__pycache__\\calculate_cheras.cpython-312.pyc",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Case_Replay_and_Investigation_Plan.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Case_Workpaper_Template.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Decision_Execution_Standard.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\financial_config.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\financial_engine.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Financial_Replay.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\PreChange_Integrity.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Regional_Underwriting_Protocol.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Release_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Release_Record.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\validate_execution.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Validation_PreLock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Validation_Report.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\Validation_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved execution-release-2026-10-07\\__pycache__\\financial_engine.cpython-312.pyc",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\calculate_batch02.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\calculate_stress.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_Closeout.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_Evidence_Log.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_Financial_Tests.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_Integrated_Decision_Test.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_PreData_Lock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Batch_02_Stress_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Evidence_Log.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Integrated_Decision_Test.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Misses_and_Red_Team.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Portfolio_Stress.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_PreData_Lock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_SOP_Addendum.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Phase_7_Stress_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\README.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved phase-7\\Residential_Investment_Engine_Handoff_Context.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved sop\\Approved_Execution_Supplement.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved sop\\Founder_QA_Approval_Register.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved sop\\Founder_QA_Integration_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Baseline_Integrity.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\build_coverage.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\build_review.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\build_workpapers.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Case_Analysis.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Coverage_Register.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Evidence_Register.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Evidence_Register.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Programme_PreResearch_Lock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Programme_Review.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Regional_Analysis.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Regional_Coverage.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\run_programme_financials.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Selected_Case_Workpapers.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\validate_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Validation_Report.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\Validation_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\All_Catchment_Coverage.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\All_Catchment_Review.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Area_Research_Inputs.txt",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\build_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Case_Research_Inputs.txt",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R201.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R202.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R203.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R204.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R205.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R206.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R207.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R208.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R209.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R210.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R211.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R212.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R213.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R214.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R215.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R216.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R217.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R218.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R219.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R220.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R221.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R222.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R223.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R224.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R225.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R226.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R227.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R228.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R229.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R230.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R231.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R232.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R233.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R234.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R235.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R236.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R237.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R238.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R239.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R240.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R241.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R242.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R243.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R244.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R245.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R246.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R247.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R248.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R249.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\cases\\R250.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Claim_Ledger.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Claim_Ledger.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Coverage_Register.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\polish_documents.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\001_southwest_scan.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\002_southwest.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\003_pj.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\004_pj_west.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\005_west.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\006_encorp.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\007_dutamas.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\008_menjalara.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\009_perdana.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\010_klcc.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\011_trx.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\012_sentul.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\013_jelatek.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\014_hilir.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\015_pandan.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\016_gombak.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\017_melawati.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\018_selayang.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\019_sgbuloh.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\020_puchongsouth.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\021_serdang.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\022_subang.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\023_bestari.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\024_shah.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\025_setia.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\026_klang.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\027_bangi.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\028_semenyih.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\029_putrajaya.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\030_warisan.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\031_rimayu.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\032_elmina.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\033_rawang.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\034_oug_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\035_desagreen_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\036_endah_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\037_aurora_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\038_trion_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\039_pj8_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\040_centrestage_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\041_ken_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\042_sterling_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\043_sterling_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\044_encorp_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\045_southview_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\046_sinaran_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\047_sinaran_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\048_damas_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\049_menjalara_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\050_neo_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\051_vortex_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\052_trx_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\053_sentul_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\054_datum_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\055_ampang_compact.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\056_saville_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\057_ken_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\058_dsara_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\059_koi_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\060_zeva_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\061_damen_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\062_bestari_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\063_utropolis_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\064_gravit_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\065_evo_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\066_gombak_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\067_bestari_highrise.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\068_semenyih_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\069_putrajaya_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\070_geo_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\071_habitus_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\072_rawang_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\073_horizon_single.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\074_rail.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\075_rail2.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\076_uow.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\077_elmina_primary.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\078_centrestage_tx.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\079_neo_tx.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\080_zeva_tx.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\081_napic.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\082_cheras_compact.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\083_kuchai_pair.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\084_desagreen_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\085_hilir_true.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\086_urban_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\087_rawang_alternative.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\088_bukitbestari_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\089_cliveden_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\090_shamelin.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\091_sglong.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\092_alamdamai.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\093_menjalara_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\094_kuchai_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\095_habitus_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\096_bestari_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\097_amp_hilir_highrise.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\098_gcb_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\099_horizon_rentfull.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\100_landmark_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\101_emerald_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\102_kuchai_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\103_neo_clean.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\104_zeva_brickz.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\105_neo_brickz.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\106_zeva_open.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\107_gaps_park_sunway.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\108_gaps_kajang_shah.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\109_gaps_outer.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\110_zeva_replacement.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\111_neo_validation.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\112_primary_components.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\113_datum_gaia.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\114_contrast_geo_park.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\115_zeva_detail.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\116_sunway_specific.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\117_parque_specific.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\118_horizon_alternative.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\119_habitus_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\120_ops_tx.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\121_alanis_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\122_neo_exact.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\123_sunway_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\124_frontier_recheck.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\raw\\125_endah_anchor.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B01.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B02.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B03.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B04.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B05.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B06.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B07.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\regions\\B08.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Release_Statistics.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Research_Lock.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Source_Index.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Source_Index.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\validate_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Validation_Report.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved klang-valley-2026-10-07\\round-2\\Validation_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "B03 expected manifest size",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Completion_Audit.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 B03_Release_Audit.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 build_pj_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 PJ_RESUME_CHECKPOINT.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/048_PJ_primary_products.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/049_PJ_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/050_PJ_developer_layouts.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/051_Midtown_Eve_offers.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/052_Eve_offers.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/053_Eve_sale_primary.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/054_Kelana_controls.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/055_Primary_project_records.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/056_PJ_primary_identity_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/057_Midtown_current_brochure.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/057b_Midtown_individual_offers.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/058_Ara_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/059_Encorp_large.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/060_PJ8_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/061_Amcorp_identity.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/062_SS2_substitutes.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/063_Tropicana_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/064_PJ_component_and_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/065_Ameera_control.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/066_Encorp_family_control.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/067_PJ_supply_corridors.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/068_Encorp_tenure.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/069_Atera_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/070_Tropicana_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/071_Amcorp_project_primary.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/072_PJ8_larger.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/073_Encorp_1166_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/074_SS2_primary_quality.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/075_PJ8_two_bed.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/076_Eve_transfers.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/077_Kelana_transfers.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 raw/078_casa_rent_recheck.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 sources/PJ_Midtown_Archived_Flyer.pdf",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 sources/pjmidtown-plan.png",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B03 verify_pj_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "B04 expected manifest size",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/001_south_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/002_ttdi_compact.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/003_damansara_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/004_montkiara_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/005_hartamas_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/006_segambut_compact.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/007_parkcity_compact.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/008_kepong_compact.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/009_mutiara_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/010_primary_south.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/011_primary_ttdi.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/012_primary_mont.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/013_primary_parkcity.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/014_ascencia_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/015_pines_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/016_dc_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/017_windsor_family.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/018_fortune_pair.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/019_surian_pair.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/020_neo_refresh.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/021_westside_sale.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/022_parkcity_low_offer.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/023_primary_rail.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/024_primary_south_completion.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/025_primary_north_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/026_primary_central.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/027_primary_dutamas.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/028_primary_mutiara.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/029_primary_future.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/030_exact_rechecks.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/031_ttdi_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/032_hartamas_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/033_mutiara_supply.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/034_parkcity_actual.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/035_windsor_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/036_kepong_rent.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/037_south_family_large.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/038_cliveden_current.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/039_identity_details.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/040_primary_last_checks.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 b04-raw/041_noora_current_apdl.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Completion_Audit.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Inherited_Assessments.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_Release_Audit.json",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 B04_RESUME_CHECKPOINT.md",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 build_b04_completion.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 build_b04_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "preserved B04 verify_b04_release.py",
+      "pass_check": true
+    },
+    {
+      "name": "384 prior comparisons",
+      "pass_check": true
+    },
+    {
+      "name": "master frozen",
+      "pass_check": true
+    },
+    {
+      "name": "61 scope rows,23 bounded closures",
+      "pass_check": true
+    },
+    {
+      "name": "programme incomplete/no deploy",
+      "pass_check": true
+    },
+    {
+      "name": "R225 current hold",
+      "pass_check": true
+    },
+    {
+      "name": "R329 current hold",
+      "pass_check": true
+    },
+    {
+      "name": "R322 current hold",
+      "pass_check": true
+    },
+    {
+      "name": "R321 current hold",
+      "pass_check": true
+    },
+    {
+      "name": "R328 current hold",
+      "pass_check": true
+    },
+    {
+      "name": "TRX falseidentity excluded",
+      "pass_check": true
+    }
+  ],
+  "prior_file_comparisons": 384,
+  "preservation": [
+    {
+      "path": "Evidence_Judgment_Divergence_Integration_Audit.md",
+      "pass_check": true
+    },
+    {
+      "path": "Framework_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "path": "Residential_Investment_Framework.md",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\calculate_approved_baseline.py",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\calculate_cheras.py",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Approved_Baseline_Bridge.md",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Approved_Baseline_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Evidence_Register.md",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_G0_G9_Cases.md",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_PreResearch_Lock.md",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\Cheras_Regional_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\baseline-history\\pre-90pct\\calculate_approved_baseline.py",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\baseline-history\\pre-90pct\\Cheras_Approved_Baseline_Bridge.md",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\baseline-history\\pre-90pct\\Cheras_Approved_Baseline_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\baseline-history\\pre-90pct\\Founder_QA_Integration_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "path": "cheras\\__pycache__\\calculate_cheras.cpython-312.pyc",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Case_Replay_and_Investigation_Plan.md",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Case_Workpaper_Template.md",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Decision_Execution_Standard.md",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\financial_config.json",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\financial_engine.py",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Financial_Replay.md",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\PreChange_Integrity.json",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Regional_Underwriting_Protocol.md",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Release_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Release_Record.md",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\validate_execution.py",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Validation_PreLock.md",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Validation_Report.md",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\Validation_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "execution-release-2026-10-07\\__pycache__\\financial_engine.cpython-312.pyc",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\calculate_batch02.py",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\calculate_stress.py",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_Closeout.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_Evidence_Log.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_Financial_Tests.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_Integrated_Decision_Test.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_PreData_Lock.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Batch_02_Stress_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Evidence_Log.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Integrated_Decision_Test.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Integrity_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Misses_and_Red_Team.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Portfolio_Stress.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_PreData_Lock.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_SOP_Addendum.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Phase_7_Stress_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\README.md",
+      "pass_check": true
+    },
+    {
+      "path": "phase-7\\Residential_Investment_Engine_Handoff_Context.md",
+      "pass_check": true
+    },
+    {
+      "path": "sop\\Approved_Execution_Supplement.md",
+      "pass_check": true
+    },
+    {
+      "path": "sop\\Founder_QA_Approval_Register.md",
+      "pass_check": true
+    },
+    {
+      "path": "sop\\Founder_QA_Integration_Manifest.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Baseline_Integrity.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\build_coverage.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\build_review.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\build_workpapers.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Case_Analysis.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Coverage_Register.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Evidence_Register.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Evidence_Register.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Programme_PreResearch_Lock.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Programme_Review.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Regional_Analysis.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Regional_Coverage.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\run_programme_financials.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Selected_Case_Workpapers.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\validate_release.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Validation_Report.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\Validation_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\All_Catchment_Coverage.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\All_Catchment_Review.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Area_Research_Inputs.txt",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\build_release.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Case_Research_Inputs.txt",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R201.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R202.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R203.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R204.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R205.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R206.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R207.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R208.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R209.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R210.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R211.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R212.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R213.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R214.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R215.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R216.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R217.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R218.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R219.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R220.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R221.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R222.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R223.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R224.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R225.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R226.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R227.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R228.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R229.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R230.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R231.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R232.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R233.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R234.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R235.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R236.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R237.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R238.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R239.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R240.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R241.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R242.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R243.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R244.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R245.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R246.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R247.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R248.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R249.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\cases\\R250.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Claim_Ledger.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Claim_Ledger.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Coverage_Register.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\polish_documents.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\001_southwest_scan.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\002_southwest.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\003_pj.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\004_pj_west.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\005_west.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\006_encorp.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\007_dutamas.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\008_menjalara.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\009_perdana.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\010_klcc.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\011_trx.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\012_sentul.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\013_jelatek.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\014_hilir.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\015_pandan.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\016_gombak.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\017_melawati.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\018_selayang.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\019_sgbuloh.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\020_puchongsouth.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\021_serdang.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\022_subang.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\023_bestari.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\024_shah.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\025_setia.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\026_klang.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\027_bangi.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\028_semenyih.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\029_putrajaya.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\030_warisan.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\031_rimayu.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\032_elmina.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\033_rawang.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\034_oug_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\035_desagreen_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\036_endah_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\037_aurora_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\038_trion_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\039_pj8_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\040_centrestage_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\041_ken_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\042_sterling_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\043_sterling_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\044_encorp_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\045_southview_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\046_sinaran_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\047_sinaran_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\048_damas_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\049_menjalara_actual.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\050_neo_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\051_vortex_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\052_trx_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\053_sentul_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\054_datum_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\055_ampang_compact.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\056_saville_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\057_ken_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\058_dsara_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\059_koi_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\060_zeva_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\061_damen_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\062_bestari_actual.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\063_utropolis_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\064_gravit_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\065_evo_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\066_gombak_actual.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\067_bestari_highrise.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\068_semenyih_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\069_putrajaya_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\070_geo_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\071_habitus_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\072_rawang_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\073_horizon_single.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\074_rail.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\075_rail2.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\076_uow.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\077_elmina_primary.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\078_centrestage_tx.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\079_neo_tx.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\080_zeva_tx.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\081_napic.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\082_cheras_compact.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\083_kuchai_pair.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\084_desagreen_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\085_hilir_true.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\086_urban_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\087_rawang_alternative.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\088_bukitbestari_actual.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\089_cliveden_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\090_shamelin.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\091_sglong.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\092_alamdamai.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\093_menjalara_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\094_kuchai_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\095_habitus_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\096_bestari_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\097_amp_hilir_highrise.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\098_gcb_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\099_horizon_rentfull.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\100_landmark_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\101_emerald_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\102_kuchai_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\103_neo_clean.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\104_zeva_brickz.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\105_neo_brickz.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\106_zeva_open.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\107_gaps_park_sunway.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\108_gaps_kajang_shah.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\109_gaps_outer.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\110_zeva_replacement.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\111_neo_validation.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\112_primary_components.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\113_datum_gaia.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\114_contrast_geo_park.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\115_zeva_detail.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\116_sunway_specific.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\117_parque_specific.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\118_horizon_alternative.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\119_habitus_family.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\120_ops_tx.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\121_alanis_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\122_neo_exact.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\123_sunway_actual.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\124_frontier_recheck.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\raw\\125_endah_anchor.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B01.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B02.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B03.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B04.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B05.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B06.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B07.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\regions\\B08.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Release_Statistics.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Research_Lock.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Source_Index.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Source_Index.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\validate_release.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Validation_Report.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-2\\Validation_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Completion_Audit.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B03_Release_Audit.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\build_pj_release.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\PJ_RESUME_CHECKPOINT.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\048_PJ_primary_products.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\049_PJ_supply.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\050_PJ_developer_layouts.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\051_Midtown_Eve_offers.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\052_Eve_offers.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\053_Eve_sale_primary.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\054_Kelana_controls.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\055_Primary_project_records.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\056_PJ_primary_identity_supply.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\057_Midtown_current_brochure.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\057b_Midtown_individual_offers.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\058_Ara_supply.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\059_Encorp_large.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\060_PJ8_family.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\061_Amcorp_identity.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\062_SS2_substitutes.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\063_Tropicana_family.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\064_PJ_component_and_family.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\065_Ameera_control.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\066_Encorp_family_control.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\067_PJ_supply_corridors.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\068_Encorp_tenure.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\069_Atera_supply.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\070_Tropicana_supply.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\071_Amcorp_project_primary.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\072_PJ8_larger.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\073_Encorp_1166_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\074_SS2_primary_quality.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\075_PJ8_two_bed.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\076_Eve_transfers.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\077_Kelana_transfers.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\raw\\078_casa_rent_recheck.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\sources\\PJ_Midtown_Archived_Flyer.pdf",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\sources\\pjmidtown-plan.png",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\verify_pj_release.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\001_south_family.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\002_ttdi_compact.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\003_damansara_family.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\004_montkiara_family.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\005_hartamas_family.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\006_segambut_compact.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\007_parkcity_compact.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\008_kepong_compact.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\009_mutiara_family.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\010_primary_south.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\011_primary_ttdi.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\012_primary_mont.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\013_primary_parkcity.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\014_ascencia_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\015_pines_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\016_dc_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\017_windsor_family.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\018_fortune_pair.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\019_surian_pair.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\020_neo_refresh.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\021_westside_sale.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\022_parkcity_low_offer.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\023_primary_rail.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\024_primary_south_completion.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\025_primary_north_supply.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\026_primary_central.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\027_primary_dutamas.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\028_primary_mutiara.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\029_primary_future.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\030_exact_rechecks.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\031_ttdi_supply.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\032_hartamas_supply.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\033_mutiara_supply.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\034_parkcity_actual.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\035_windsor_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\036_kepong_rent.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\037_south_family_large.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\038_cliveden_current.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\039_identity_details.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\040_primary_last_checks.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\b04-raw\\041_noora_current_apdl.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Case_Inputs.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Cases_G0_G9.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Completion_Audit.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Completion_Audit.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Divergence_and_Misses.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Evidence_and_Supply.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Financial_Results.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Financial_Underwriting.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Inherited_Assessments.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Regional_Synthesis.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_Release_Audit.json",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\B04_RESUME_CHECKPOINT.md",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\build_b04_completion.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\build_b04_release.py",
+      "pass_check": true
+    },
+    {
+      "path": "klang-valley-2026-10-07\\round-3\\verify_b04_release.py",
+      "pass_check": true
+    }
+  ],
+  "boundary": "Arithmetic, recorded structure and prior-content verification; substantive review is an authored self-audit, not authentication of market inputs or investment validation."
+}

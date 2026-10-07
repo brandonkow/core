@@ -1,0 +1,1746 @@
+{
+  "version": "KV-REG-2026-10-07-LAYOUT-v1",
+  "basis": "Re-index of existing records; no new market evidence or gate clearance",
+  "coverage_boundary": "Layout columns index the 14 first-round cases and separately flag inherited C03. Other inherited work is preserved as references, not exhaustively reclassified here. No original parcel plans verified.",
+  "catchments": [
+    {
+      "batch": "B01",
+      "catchment": "Maluri–Cochrane",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV02"
+          ],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "C01 M Vertica"
+    },
+    {
+      "batch": "B01",
+      "catchment": "Shamelin–Pandan fringe",
+      "first_round_status": "Inherited selective work only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "C02 Shamelin Star"
+    },
+    {
+      "batch": "B01",
+      "catchment": "Midah–Mutiara–Taynton",
+      "first_round_status": "Inherited selective work only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Inherited conditional case; marketed one-bedroom duplex; original plan pending",
+          "case_ids": [],
+          "original_plan_verified": false,
+          "inherited_case_ids": [
+            "C03"
+          ]
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "C03 EkoCheras"
+    },
+    {
+      "batch": "B01",
+      "catchment": "Connaught–Len Seng",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV01"
+          ],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "C04 Aster / C05 Maxim / adjoining C06 Riana"
+    },
+    {
+      "batch": "B01",
+      "catchment": "Alam Damai–Damai Perdana",
+      "first_round_status": "Inherited selective work only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "C06 Riana edge; Emerald Hills lifecycle lead"
+    },
+    {
+      "batch": "B01",
+      "catchment": "Batu 9–Suntex–Cuepacs",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV04"
+          ],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "C07 Green"
+    },
+    {
+      "batch": "B01",
+      "catchment": "Bandar Tun Hussein Onn",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV06"
+          ],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "C08 Windows large"
+    },
+    {
+      "batch": "B01",
+      "catchment": "Cheras Selatan–Balakong–C180",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV03"
+          ],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B01",
+      "catchment": "Bandar Mahkota Cheras",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV05"
+          ],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B01",
+      "catchment": "Sungai Long",
+      "first_round_status": "Inherited selective work only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "C09 Scot Pine"
+    },
+    {
+      "batch": "B02",
+      "catchment": "Old Klang Road",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV07"
+          ],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B02",
+      "catchment": "Kuchai",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B02",
+      "catchment": "Happy Garden–OUG",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B02",
+      "catchment": "Taman Desa",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B02",
+      "catchment": "Sri Petaling",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B02",
+      "catchment": "Bukit Jalil",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B02",
+      "catchment": "Sungai Besi–Chan Sow Lin",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B03",
+      "catchment": "PJ Old/New Town",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B03",
+      "catchment": "Sections 13/14/17/19",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B03",
+      "catchment": "SS2–Sea Park–Paramount",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B03",
+      "catchment": "Kelana Jaya",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B03",
+      "catchment": "Ara Damansara",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV08"
+          ],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B03",
+      "catchment": "Tropicana",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B03",
+      "catchment": "Kota Damansara–Surian",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B04",
+      "catchment": "Bangsar South–Pantai–Kerinchi",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B04",
+      "catchment": "TTDI",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B04",
+      "catchment": "Damansara Heights",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B04",
+      "catchment": "Mont Kiara",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV10"
+          ],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B04",
+      "catchment": "Sri Hartamas",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B04",
+      "catchment": "Dutamas–Segambut",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B04",
+      "catchment": "Desa ParkCity–Menjalara",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B04",
+      "catchment": "Kepong–Jinjang",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV09"
+          ],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B04",
+      "catchment": "Damansara Perdana–Mutiara Damansara",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B05",
+      "catchment": "KLCC–Ampang Park",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B05",
+      "catchment": "Bukit Bintang–Imbi–Pudu",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV11"
+          ],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B05",
+      "catchment": "TRX",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B05",
+      "catchment": "Tun Razak–Titiwangsa–Sentul",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B05",
+      "catchment": "Jalan Ampang–Jelatek–Dato Keramat",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B05",
+      "catchment": "Ampang Hilir",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B05",
+      "catchment": "Ampang–Pandan Indah–Pandan Mewah",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B06",
+      "catchment": "Setapak–Wangsa Maju–Danau Kota",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV12"
+          ],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B06",
+      "catchment": "Gombak",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B06",
+      "catchment": "Melawati–Ukay",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B06",
+      "catchment": "Batu Caves–Selayang",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B06",
+      "catchment": "Sungai Buloh–Kwasa",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B07",
+      "catchment": "Puchong Jaya–Kinrara–Bandar Puteri",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV13"
+          ],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B07",
+      "catchment": "Puchong Prima–South",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B07",
+      "catchment": "Seri Kembangan–Serdang–Equine",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B07",
+      "catchment": "Subang Jaya–USJ–Sunway",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B07",
+      "catchment": "Subang Bestari",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B07",
+      "catchment": "Shah Alam–Glenmarie",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B07",
+      "catchment": "Setia Alam–Bukit Raja",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B07",
+      "catchment": "Klang–Botanic–Bukit Tinggi",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B08",
+      "catchment": "Kajang–Saujana Impian–Bangi",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B08",
+      "catchment": "Semenyih",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B08",
+      "catchment": "Cyberjaya",
+      "first_round_status": "Selected expressions only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Conditional gate work; marketed layout; G0 stop; Defer",
+          "case_ids": [
+            "KV14"
+          ],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B08",
+      "catchment": "Putrajaya",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B08",
+      "catchment": "Dengkil–Kota Warisan–Salak Tinggi",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B08",
+      "catchment": "Kota Kemuning–Rimbayu–Tropicana Aman–Eco Sanctuary",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B08",
+      "catchment": "Elmina",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    },
+    {
+      "batch": "B08",
+      "catchment": "Rawang–Gamuda Gardens–Kundang",
+      "first_round_status": "Mapped only",
+      "layouts": {
+        "studio": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "one_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "two_bedroom": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        },
+        "three_bedroom_plus": {
+          "status": "Not covered in first-round selected cases",
+          "case_ids": [],
+          "original_plan_verified": false
+        }
+      },
+      "inherited_reference": "None"
+    }
+  ]
+}

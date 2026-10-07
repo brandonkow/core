@@ -1,0 +1,26 @@
+{
+  "release": "KV-REG-2026-10-07-R1",
+  "files": {
+    "Baseline_Integrity.json": "28f70cbf801447f1f0f65d2400fca618582fbf19d9849b13396e2f18a62215b9",
+    "build_coverage.py": "ab53d4665f67a7d60e1ceb0de76247959172246dbe489527603f135df6435734",
+    "build_review.py": "574d1f6d06785ee8fc15a5ddb58c6a87b946cad0ede256b5fb7a3c6cb2a32a03",
+    "build_workpapers.py": "21fe9d065ce45bbfe0a10d944a581a136102886f95b4bd53e4976e2e98add8f1",
+    "Case_Analysis.json": "3e92f92ff4ee3cd7b282c3f655ce7a49a94e5628bef89e863f75d75d914d1a0f",
+    "Case_Inputs.json": "695ba0aeebaa42f97d37c17002e6c8427b84c58211df4478456b2674eae46c91",
+    "Coverage_Register.json": "6a5d48449a4da8e318dc4aac4f693e5da01171c3c3a6d7e9c4d3927a4c18dcf8",
+    "Divergence_and_Misses.md": "9cd57706ab499d225cdf6cf2f55a55035fcda1b6f1b3452812837e1bf02f9d50",
+    "Evidence_Register.json": "684cf4e70a6a9fa2525cd55a13fce83cde7f4734204be3b00b6b7c6a55d983aa",
+    "Evidence_Register.md": "91d7336f371052f4c7c2abbcc0ef021ae70daa64a75e5df47554a48e07d83b38",
+    "Financial_Results.json": "bd4163373e29327b05aaf5b29953957c310de87268c1fa40ec8632b8aab1f2a1",
+    "Financial_Underwriting.md": "200722a73d7cfadcb69895921ac10f05c741d127a099d8038662b0b535231f03",
+    "Programme_PreResearch_Lock.md": "987dbcfeecd9d133fe9a6ee12726412db317060d04d4ab88c622ee83528a0148",
+    "Programme_Review.md": "6980c92f352f5f9f8328b0acd8724126d3192c0dfb59c5010f843f25833176e3",
+    "Regional_Analysis.json": "9459d4ad2bfd600c179033cb465452307fdb1227b226f94c9baa923c758a549a",
+    "Regional_Coverage.md": "675923f01cf3128f171a9b84bb0bc7543f7151b5bdb3dcc28017aa7e82cba227",
+    "run_programme_financials.py": "3d863cce1baddb7fcea323a53f6f5482e44600eaeab965f610fd5db0b05dc0e0",
+    "Selected_Case_Workpapers.md": "47149815884af278e04f0acdb56975ef74b4c6854181a3de93a2ec31e67275fc",
+    "validate_release.py": "9ec9f64458dd41e22a02abc1ce5f55968f182a2b258a88db8cab5e55d010f1f7",
+    "Validation_Report.md": "4f75d776c53ae4f078b70ef3f0a8df5080bb46a179027562b7f61e0bf3379de2",
+    "Validation_Results.json": "b8f844cf007edbecc924ba19d7e6cf87a3bd2a2cac602d8206856b09f0c42258"
+  }
+}

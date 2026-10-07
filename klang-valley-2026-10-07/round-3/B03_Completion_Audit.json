@@ -1,0 +1,339 @@
+{
+  "version": "KV-PJ-2026-10-07-R3",
+  "status": "Completed bounded desk pass; no Deploy",
+  "cutoff": "2026-10-07",
+  "programme_complete": false,
+  "review_method": "Author self-audit of substantive seven-dimensional requirements, not independent third-party validation or completion inferred from document count",
+  "rows": [
+    {
+      "area_id": "A18",
+      "catchment": "PJ Old/New Town",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "assessment": "Compact local routines versus larger PJ8; Old/New Town walking equivalence explicitly unproved.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 2,
+          "assessment": "PJ8/Amcorp mature compacts; genuine PJ8 two-bedroom lead; restricted flats/larger stock/auctions explicitly unworked.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 3,
+          "assessment": "Existing mixed-use and competing stock documented; no measured present vacancy or comprehensive upcoming total.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 4,
+          "assessment": "PJ8 area mismatch and Amcorp stale/component issue preserve specific G0 stops.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 5,
+          "assessment": "R207/R309 full cost, finance, debt, exit and stresses; component-held surplus excluded from ranking.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 6,
+          "assessment": "Investor-led exits tested; ageing works, lease and buyer finance risks retained.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 7,
+          "assessment": "PJ-D01; exact title/use then ordinary income/cost evidence; no further broad searches needed to retain Defer.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        }
+      ],
+      "desk_complete": true,
+      "decision_ready": false,
+      "g9": "Defer",
+      "scope_limit": "Bounded functional regional desk coverage; not every project/unit or realised validation"
+    },
+    {
+      "area_id": "A19",
+      "catchment": "Sections 13/14/17/19",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "assessment": "Section13 work/redevelopment hypothesis separated from14/17/19family routines.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 2,
+          "assessment": "Centrestage compact; Midtown true2BR plus1/3BRscreen; Atwater2BR; section-level pricing gaps restrict generalisation.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 3,
+          "assessment": "Atwater2022residential completion corrected; no false2026VP; Midtown historical count conflict recorded.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 4,
+          "assessment": "Room plan and current690/650offers checked; lower transfer retained; mixed values not normalised.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 5,
+          "assessment": "R208/R305 plus650sensitivity; full cost/stress; no6%or annual neutrality inferred from cheaper offer.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 6,
+          "assessment": "Equivalent-project and credit/yield alternatives tested; no owner depth inferred from listings.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 7,
+          "assessment": "PJ-D04 and D01; match transfers/package/ordinary lease before any upgrade; other sections have no project winner.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        }
+      ],
+      "desk_complete": true,
+      "decision_ready": false,
+      "g9": "Defer",
+      "scope_limit": "Bounded functional regional desk coverage; not every project/unit or realised validation"
+    },
+    {
+      "area_id": "A20",
+      "catchment": "SS2-Sea Park-Paramount",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "assessment": "Local family versus rail-compact tasks; actual access and buyer motive unmeasured.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 2,
+          "assessment": "Ken2+study; Ameera3BR; SeaParklanded; Hubuse exclusion; lower-budget/new package gaps explicit.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 3,
+          "assessment": "Atera phase and whole not double-counted; Rubystatus held; Ameera historical completion only.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 4,
+          "assessment": "Ken room mismatch and Ameera sale/rent size mismatch; landed is functional not direct PSF comp.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 5,
+          "assessment": "R209 full finance; standard/6%boundaries, carry, adverse exit and joint hold included.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 6,
+          "assessment": "All-in landed substitution and privacy/parking/usable-room tradeoffs; no universal price ceiling.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 7,
+          "assessment": "R209 rival and finite rent/plan/works route; no current transition catalyst substantiated.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        }
+      ],
+      "desk_complete": true,
+      "decision_ready": false,
+      "g9": "Defer",
+      "scope_limit": "Bounded functional regional desk coverage; not every project/unit or realised validation"
+    },
+    {
+      "area_id": "A21",
+      "catchment": "Kelana Jaya",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "assessment": "Family space versus compact delivered stock; SS7driving and rail walking not conflated.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 2,
+          "assessment": "Sterling/Mahkota family; Plaza compact screen; Pinnacle loft-office and restricted auctions separated.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 3,
+          "assessment": "Developer configurations and Apr2023Plaza handover; no sales-to-occupancy inference.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 4,
+          "assessment": "1260/1216area and price header/body conflict retained; lower-price scenario distinguished.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 5,
+          "assessment": "R210/R308 and489999sensitivity, complete costs, stresses and required exits.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 6,
+          "assessment": "Sterling age cannot prove quality; lower-price Mahkota advantage tested against rent/works and new stock.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 7,
+          "assessment": "PJ-D03; exact equal-condition costs/leases before owner-quality claims; current Sterling shortfall lowest priority.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        }
+      ],
+      "desk_complete": true,
+      "decision_ready": false,
+      "g9": "Defer",
+      "scope_limit": "Bounded functional regional desk coverage; not every project/unit or realised validation"
+    },
+    {
+      "area_id": "A22",
+      "catchment": "Ara Damansara",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "assessment": "Small household versus genuine2BR/family tasks; no blanket township station access.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 2,
+          "assessment": "Pacific Place2BR; Eve compact/2BR; Maya2/3BR andTriARA larger pipeline screen; other-stock gaps limit market-wide ranking.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 3,
+          "assessment": "Historic Eve product mix; Maya VPunknown; TriARA expected2028; no speculative rent booster.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 4,
+          "assessment": "Eve index-only larger offer;689/680room coding; mixed medians and duplicate listings not clearing proofs.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 5,
+          "assessment": "KV08/R306/R307; fullstress, alternate rents, rent rank reversal and same-building pair risk.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 6,
+          "assessment": "Investor exits admitted; owner redundancy unproved; extra-space tradeoff and adverse yields quantified.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 7,
+          "assessment": "Eve preferred explanation actively challenged by cheaper true2BR and costs; finite identity/rent/fee/clearing checks.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        }
+      ],
+      "desk_complete": true,
+      "decision_ready": false,
+      "g9": "Defer",
+      "scope_limit": "Bounded functional regional desk coverage; not every project/unit or realised validation"
+    },
+    {
+      "area_id": "A23",
+      "catchment": "Tropicana",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "assessment": "Local couple utility versus family space; no transferred resort/Surian premium.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 2,
+          "assessment": "Avenue1+study/Casa2+study+store; larger andlanded controls screened, no false4BR.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 3,
+          "assessment": "Gardens cross-link canonicalA24; no unnormalised sales financing package counted as price evidence.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 4,
+          "assessment": "Casa600/550price conflict and weak syndicated rent; Avenue study/bay mismatch; G0specific.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 5,
+          "assessment": "R211/R310 plus550sensitivity; annual deficit, terminal carry and stresses.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 6,
+          "assessment": "Larger product usefulness separated from investment merit; all-in parking/condition and yield-led exit.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 7,
+          "assessment": "PJ-M02 rental redirect; keep weak assumption and lowered priority; exact offer/rent matching needed.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        }
+      ],
+      "desk_complete": true,
+      "decision_ready": false,
+      "g9": "Defer",
+      "scope_limit": "Bounded functional regional desk coverage; not every project/unit or realised validation"
+    },
+    {
+      "area_id": "A24",
+      "catchment": "Kota Damansara-Surian",
+      "dimensions": [
+        {
+          "dimension": 1,
+          "assessment": "Strand versus station-integrated alternatives distinguished; institutional demand not automatic unit capture.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 2,
+          "assessment": "Encorpstudio/true2BRlead;990/1111rental controls;Gardens/SOFOsplit; other-family/room/distress gaps explicit.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 3,
+          "assessment": "Gardens/Edelweiss handover unresolved; announced versus operating stock not pooled; award not current management.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 4,
+          "assessment": "640studio-as2BR rejected;1166bath/tenure/rent conflict; adjusted reference still unavailable.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 5,
+          "assessment": "R212/R311 low/base/high, full costs/finance/yieldexit; high3500notbase.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 6,
+          "assessment": "Larger-unit reversal tested; usable interior, title, financing and tenant/owner willingness retained.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        },
+        {
+          "dimension": 7,
+          "assessment": "PJ-D02; title/plan/ordinary leases required; unresolved divergence raises proof burden.",
+          "status": "Assessed with explicit evidence boundary and decision consequence"
+        }
+      ],
+      "desk_complete": true,
+      "decision_ready": false,
+      "g9": "Defer",
+      "scope_limit": "Bounded functional regional desk coverage; not every project/unit or realised validation"
+    }
+  ],
+  "required_files": [
+    "B03_Regional_Synthesis.md",
+    "B03_Evidence_and_Supply.md",
+    "B03_Cases_G0_G9.md",
+    "B03_Case_Inputs.json",
+    "B03_Financial_Underwriting.md",
+    "B03_Financial_Results.json",
+    "B03_Divergence_and_Misses.md"
+  ],
+  "next_batch": "B04",
+  "limitations": [
+    "No private title, lender offer, achieved lease, unit inspection or governance clearance",
+    "Submarket/product gaps explicitly limit winners, premium, scarcity and liquidity claims",
+    "No predictive outcome validation; Core unchanged"
+  ]
+}

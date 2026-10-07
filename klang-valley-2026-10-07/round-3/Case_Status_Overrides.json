@@ -1,0 +1,126 @@
+{
+  "version": "KV-REG-2026-10-07-R3-open",
+  "cutoff": "2026-10-07",
+  "programme_status": "incomplete",
+  "core_change": false,
+  "overrides": [
+    {
+      "case_id": "R205",
+      "previous_name": "Aurora Suites Bukit Jalil",
+      "current_identity": "Unresolved Aurora 384-sf component; SOVO/Serviced Suites distinction material",
+      "hold": "Component, permitted-use and financing identity hold",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B02_Evidence_Deepening.md",
+      "old_financials": "Historical conditional scenario, not an eligible residential recommendation"
+    },
+    {
+      "case_id": "R208",
+      "current_identity": "Centrestage 301/306-sf component/area/furnishing unresolved",
+      "hold": "Retained component quarantine; headline 12% cannot enter eligible residential ranking",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B03_Cases_G0_G9.md"
+    },
+    {
+      "case_id": "R309",
+      "current_identity": "Amcorp 495-sf advertised compact; exact parcel/use/lease unverified",
+      "hold": "Component, freshness and financeability hold; corporate asset lease is not parcel title",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B03_Cases_G0_G9.md"
+    },
+    {
+      "case_id": "R311",
+      "current_identity": "Encorp 1166-sf two-bedroom lead; tenure, bath count and rent match unresolved",
+      "hold": "Identity/rental investigation required before an eligible shortlist; RM3500 asking rent is not base income",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B03_Cases_G0_G9.md"
+    },
+    {
+      "case_id": "R216",
+      "current_identity": "Cliveden 500-sf studio; exact original 250k offer unconfirmed",
+      "hold": "Original sale redirects/stale; newer 285888 offer is different; title/use, ordinary rent and charges remain unresolved",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B04_Cases_G0_G9.md"
+    },
+    {
+      "case_id": "R219",
+      "current_identity": "Neo Damansara 421-sf compact; exact parcel/use/price and bays unverified",
+      "hold": "Original 220k offer not authenticated; rental-category sale copy and 1800 two-bay rental cannot clear cheapest-sale income",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B04_Cases_G0_G9.md"
+    },
+    {
+      "case_id": "R225",
+      "current_identity": "28 Boulevard450-sf inherited380kscenario",
+      "hold": "Primary brochure separates SOHO/service apartments; exact parcel use/title/lender unresolved",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B05_Cases_G0_G9.md"
+    },
+    {
+      "case_id": "R329",
+      "current_identity": "28 Boulevard450-sf independent280kPFlead",
+      "hold": "Component/use/lending hold;1650rent is inherited scenario, not new achieved lease",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B05_Cases_G0_G9.md"
+    },
+    {
+      "case_id": "R322",
+      "current_identity": "Lucentia454-sf studio advertised1165maintenance",
+      "hold": "Charge period unresolved; monthly and quarterly hypotheses must remain separate",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B05_Cases_G0_G9.md"
+    },
+    {
+      "case_id": "R321",
+      "current_identity": "Parkview615-sf header/600-sf body studio/one-bedroom",
+      "hold": "Approved plan, ordinary lease and bay unresolved; thin positive carry not eligible recommendation",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B05_Cases_G0_G9.md"
+    },
+    {
+      "case_id": "R328",
+      "current_identity": "Titiwangsa1100-sf sale with undisclosed in-place tenancy",
+      "hold": "Live offer/current rent and expiry unresolved;2700is stabilised scenario only",
+      "eligible_for_residential_ranking": false,
+      "g0": "STOP",
+      "g9": "Defer",
+      "source_workpaper": "B05_Cases_G0_G9.md"
+    }
+  ],
+  "g2_g6_template_override": "Do not require a universally surviving non-investor exit. Assess an investor-led channel explicitly; young owner adoption remains unproven and receives no base-case premium.",
+  "excluded_advertisements": [
+    {
+      "advertisement_id": "501228691",
+      "label": "Westside Three 1076-sf 749k header",
+      "reason": "Body describes Bukit Jalil and a township inspired by Desa ParkCity; project-price pairing quarantined, actual identity unresolved",
+      "financial_case_created": false,
+      "source_workpaper": "B04_Divergence_and_Misses.md"
+    },
+    {
+      "advertisement_id": "501960003",
+      "label": "TRX550k1640-sf five-bedroom header",
+      "reason": "Body describes1420-sf three-bedroom duplex5kmfromcentre with shuttle; unresolved project-price identity",
+      "financial_case_created": false,
+      "source_workpaper": "B05_Divergence_and_Misses.md"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "release": "KV-EXEC-2026-10-07",
+  "date": "2026-10-07",
+  "timezone": "Asia/Kuala_Lumpur",
+  "core_master_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "core_unchanged": true,
+  "prior_files_snapshotted": 41,
+  "prior_files_changed_only_as_authorised": [
+    "Framework_Integrity_Manifest.json",
+    "README.md",
+    "sop\\Approved_Execution_Supplement.md",
+    "sop\\Founder_QA_Integration_Manifest.json"
+  ],
+  "original_phase7_cheras_and_qa_preserved": true,
+  "financial_config_sha256": "ddcbfca298e1ee33a55544f8c25750b17c60a531eccddd62ad6ddc124a4a367c",
+  "prelock_sha256": "7e882037b9aba201b0f1f801feaa202b9ef9bcf83ae74a8fea8561f0c20ae43e",
+  "counts": {
+    "base": 9,
+    "sensitivity": 81,
+    "combined_stress": 9,
+    "pairs": 36,
+    "pair_passes": 24,
+    "routing_fixtures": 14,
+    "rank_grid": 9
+  },
+  "checks": {
+    "financial_identities": "passed",
+    "prior_90pct_bridge_reconciliation": "passed",
+    "gate_fixtures": "passed",
+    "local_links": 30,
+    "english_markdown": true
+  },
+  "empirical_market_validation_added": false,
+  "all_area_underwriting_started": false,
+  "notify_before_all_area_start": true,
+  "files": {
+    "execution-release-2026-10-07\\Case_Replay_and_Investigation_Plan.md": "3d1c1b01478f4d34ebfefaf16559ae4a80a7831bc4cd876b1a89f0c680b5b9a2",
+    "execution-release-2026-10-07\\Case_Workpaper_Template.md": "8cc826e2ddfa4194a77543342277c59c0aea6ecb05e487255745f5b18f39abc7",
+    "execution-release-2026-10-07\\Decision_Execution_Standard.md": "ac13a9c14b7b30908e500ec75b0ad3edaf6f234730c40a3f3322312466c17327",
+    "execution-release-2026-10-07\\financial_config.json": "ddcbfca298e1ee33a55544f8c25750b17c60a531eccddd62ad6ddc124a4a367c",
+    "execution-release-2026-10-07\\financial_engine.py": "3ab25fc9d9c100dde0eb7240cada5f53df2b6585be52af9165d8930cd8a64b5a",
+    "execution-release-2026-10-07\\Financial_Replay.md": "1f6b536d8ff4a16a383d0123bcc512552b0e0c1d80a8eff5b8876499acd38fae",
+    "execution-release-2026-10-07\\Financial_Results.json": "4a8d150f4cae5a2ab7817213d694e6272b63140efe7d30efc2cda4df9ed7fc50",
+    "execution-release-2026-10-07\\PreChange_Integrity.json": "fd034c4c5ef0185a190e12358c96f8b1d366ed2ea20496d6cf2244cdb80569df",
+    "execution-release-2026-10-07\\Regional_Underwriting_Protocol.md": "028690ad772b33779d7a846f868a0cf7b23775725bcf9f2f5c5d450265cd34f2",
+    "execution-release-2026-10-07\\Release_Record.md": "7e8eb1e5e92e073e6f558d3a45842588b27918b515027f79059fced61e6bc5bf",
+    "execution-release-2026-10-07\\validate_execution.py": "49ed49454e3a317386264b05c376cf54ec3fe959c91e67eebc1f9e8cffd53564",
+    "execution-release-2026-10-07\\Validation_PreLock.md": "7e882037b9aba201b0f1f801feaa202b9ef9bcf83ae74a8fea8561f0c20ae43e",
+    "execution-release-2026-10-07\\Validation_Report.md": "e12ebba189578a1e9d41ea950e165664109aa1a851e6d6884564c8d2e3e8960d",
+    "execution-release-2026-10-07\\Validation_Results.json": "4e7561e86ae7ab60115d9fa5a389068123db4c71e90da748ddaece7be030dcf2"
+  },
+  "updated_entrypoint_files": {
+    "Framework_Integrity_Manifest.json": "9ee08226b9bf48d88b4db8a9b856ff64b9895c95945ab6495985718da8518505",
+    "README.md": "14526249362cffa776c6269c49e7c13fa9e3c575a0d9b0dc8506a85aca5ad699",
+    "sop\\Approved_Execution_Supplement.md": "2e62521e1b95eeaae3801020d762d9e76b4005ade30065b50a990ce1eb2f5b74",
+    "sop\\Founder_QA_Integration_Manifest.json": "7824f4183326f5d4bd7ab95aa91f830f67b1158d61d55b5a41bcf15dc70b8539"
+  }
+}

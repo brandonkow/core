@@ -1,0 +1,489 @@
+{
+  "version": "KV-REG-2026-10-07-R2",
+  "checks": [
+    {
+      "check": "57 protected pre-programme artifacts unchanged",
+      "passed": true
+    },
+    {
+      "check": "21 frozen R1 artifacts unchanged",
+      "passed": true
+    },
+    {
+      "check": "single master exact frozen hash",
+      "passed": true
+    },
+    {
+      "check": "original ten gate headings retained",
+      "passed": true
+    },
+    {
+      "check": "50 distinct new conditional cases and papers",
+      "passed": true
+    },
+    {
+      "check": "61 original catchments and eight batches unchanged",
+      "passed": true
+    },
+    {
+      "check": "47 catchments with new expression diagnostics",
+      "passed": true
+    },
+    {
+      "check": "no silent G0 bypass or Deploy",
+      "passed": true
+    },
+    {
+      "check": "all new papers retain G0 to G9",
+      "passed": true
+    },
+    {
+      "check": "approved financial baseline retained",
+      "passed": true
+    },
+    {
+      "check": "450 sensitivity and450 rent-fee grid records",
+      "passed": true
+    },
+    {
+      "check": "2016 independent two-expression combinations",
+      "passed": true
+    },
+    {
+      "check": "each synthetic pair min path and reserve flag internally consistent",
+      "passed": true
+    },
+    {
+      "check": "engine checksum agrees with release",
+      "passed": true
+    },
+    {
+      "check": "R201 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R201 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R202 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R202 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R203 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R203 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R204 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R204 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R205 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R205 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R206 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R206 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R207 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R207 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R208 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R208 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R209 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R209 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R210 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R210 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R211 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R211 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R212 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R212 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R213 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R213 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R214 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R214 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R215 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R215 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R216 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R216 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R217 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R217 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R218 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R218 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R219 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R219 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R220 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R220 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R221 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R221 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R222 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R222 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R223 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R223 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R224 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R224 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R225 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R225 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R226 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R226 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R227 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R227 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R228 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R228 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R229 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R229 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R230 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R230 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R231 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R231 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R232 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R232 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R233 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R233 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R234 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R234 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R235 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R235 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R236 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R236 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R237 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R237 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R238 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R238 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R239 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R239 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R240 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R240 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R241 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R241 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R242 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R242 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R243 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R243 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R244 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R244 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R245 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R245 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R246 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R246 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R247 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R247 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R248 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R248 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R249 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R249 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "R250 independent replay",
+      "passed": true
+    },
+    {
+      "check": "R250 current-shortfall priority respected",
+      "passed": true
+    },
+    {
+      "check": "both nonnegative annual scenarios held",
+      "passed": true
+    },
+    {
+      "check": "cashflow arithmetic not labelled verified income",
+      "passed": true
+    },
+    {
+      "check": "source lineage files exist",
+      "passed": true
+    },
+    {
+      "check": "scope gaps explicitly retained including core Hilir",
+      "passed": true
+    },
+    {
+      "check": "six material flags and18misses",
+      "passed": true
+    },
+    {
+      "check": "all artifact file links resolve",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "market_verification": "Not established: no authenticated exact-title, lease, MC/physical, lender or realised-outcome validation",
+  "core_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "engine_sha256": "3ab25fc9d9c100dde0eb7240cada5f53df2b6585be52af9165d8930cd8a64b5a"
+}

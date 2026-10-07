@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-06",
+  "authority": "Explicit user response approving items 1-3 and 6-12 and replacing 4-5; Core must not be touched",
+  "core_and_entire_master_unchanged": true,
+  "master_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "phase7_files_verified_unchanged": 17,
+  "cheras_original_files_verified_unchanged": 8,
+  "original_cheras_manifest_sha256": "df97d6848a3f0185f286b19d823cb522053dafca7d7f9920d3b27268e1168047",
+  "qa_source": "C:\\Users\\user\\OneDrive\\Documents\\New project\\.codex-remote-attachments\\01a11002-b718-7423-9c45-a23be70af436\\6d7cbde7-9e25-4f82-ab77-835c493f65e4\\1-FOUNDER_407_QA.md",
+  "qa_source_sha256": "116dbcd0e4bb652a48fe644a594e990a796c59e567605577ee7ac1171ed50d1b",
+  "qa_source_modified": false,
+  "resolutions": 12,
+  "approved_rate": 0.04,
+  "approved_years": 35,
+  "universal_ltv_approved": false,
+  "preferred_gross_yield": 0.06,
+  "gross_yield_is_hard_gate": false,
+  "checks": {
+    "mortgage_420_month_recurrence": "passed",
+    "cost_view_reconciliation": "passed",
+    "local_links_checked": 14,
+    "english_markdown": true,
+    "all_12_resolutions_mapped": true
+  },
+  "root_readme_prior_sha256": "fc1114ca9286cb41ea3e5ec8b8a6a7ca746151dcea8309073b5761e7c11a8bac",
+  "files": {
+    "sop\\Approved_Execution_Supplement.md": "5e0a2aaa13cff8bfa99dd2e4f5d6b7d46b4364ee7af323f4436d94465c65b694",
+    "sop\\Founder_QA_Approval_Register.md": "f27da167c3de16903005f30058065fff1506594f60b6712bfd902fbe4088d09f",
+    "cheras\\calculate_approved_baseline.py": "f7b9edf128502d89691429434fcc90226ebbe40db513d3d6a129a3272afe416a",
+    "cheras\\Cheras_Approved_Baseline_Results.json": "81f7a2b8b6ffc801fb1d3e8a59f389ee2511897d0aeaf89c6b991b1b1b781199",
+    "cheras\\Cheras_Approved_Baseline_Bridge.md": "3dd48431528e2ae577dc59115b1117e8a73b5dafd804369d73024f2ea9569764",
+    "README.md": "49dc3a0ac48bac07f3f202fd267f2e21a4d7ed0a67ea1475b5c318264d0ca005",
+    "Framework_Integrity_Manifest.json": "fcf70ed2a0dcdf429a83ffee05977c2ce885835ec6f49753b009d87fadf500c7"
+  },
+  "limitations": [
+    "Prior rent and combined fee assumptions only",
+    "No achieved-rent, exact management-only fee or bank eligibility confirmation",
+    "No Core promotion, automatic Deploy or full 35-year exit/portfolio rerun",
+    "Original 30-year results preserved; do not relabel as 35-year outputs",
+    "No automatic monitoring or external contact"
+  ]
+}

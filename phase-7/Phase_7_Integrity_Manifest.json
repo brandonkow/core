@@ -1,0 +1,167 @@
+{
+  "as_of": "2026-10-06",
+  "timezone": "Asia/Kuala_Lumpur",
+  "source": "C:\\Users\\user\\Downloads\\Residential_Investment_Engine_Handoff_Context.md",
+  "source_sha256": "0eb39998f3f9266e6add907647f8d7f3b0c48b5d73b19a3435493ee68733bd90",
+  "copy_matches": true,
+  "core_change": false,
+  "prior_master_artifacts_not_located_in_searched_directories": [
+    "Residential_Investment_Framework.md",
+    "Residential_Investment_SOP.md",
+    "Residential_Market_Dossier_Template.md",
+    "Framework_Validation_Protocol.md",
+    "Residential_Failure_Library.md",
+    "Blind_Test_Batch_01.md",
+    "Blind_Test_Batch_01_Evidence_Log.md",
+    "Blind_Test_Batch_01_Project_Lock.md",
+    "Blind_Test_Batch_01_Project_Evidence.md",
+    "Blind_Test_Batch_01_Behavioural_Underwriting.md",
+    "Blind_Test_Batch_02_True_Holdout_PreData_Lock.md",
+    "Blind_Test_Batch_02_PostData_Judgement.md",
+    "Blind_Test_Batch_02_RedTeam_Audit.md",
+    "Failure_011_Kota_Damansara_Palm_Spring.md",
+    "Phase_2_Counterexample_Stress_Test_PreData_Lock.md",
+    "Phase_2_Counterexample_Stress_Test_Evidence_Pass_01.md",
+    "Phase_2_Counterexample_Stress_Test_RedTeam_Audit.md",
+    "Phase_2_Targeted_Holdout_PreData_Lock.md",
+    "Phase_2_Targeted_Holdout_PostData_Judgement.md",
+    "Historical_Backtest_Batch_01_PreOutcome_Lock.md",
+    "Historical_Backtest_Batch_01_Outcome_Audit.md",
+    "Historical_Backtest_Batch_02_PreOutcome_Lock.md",
+    "Historical_Backtest_Batch_02_Outcome_Audit.md",
+    "Historical_Backtest_Batch_03_PreOutcome_Lock.md",
+    "Historical_Backtest_Batch_03_Outcome_Audit.md",
+    "Phase_4_Forward_Test_Register.md",
+    "Phase_5_Terminal_Risk_Stress_Test.md",
+    "Phase_6_Capital_Allocation_Replay.md",
+    "Phase_6_Portfolio_Stress_Test.md",
+    "Residential_Investment_Decision_Engine_Map.md",
+    "Framework_Validation_Synthesis.md"
+  ],
+  "validation": {
+    "gates_per_case": 10,
+    "cases": 4,
+    "sensitivity_runs": 16,
+    "pair_stress_runs": 6,
+    "local_links_resolve": true,
+    "amortisation_and_break_even_reconciled": true
+  },
+  "files": {
+    "calculate_batch02.py": "08dc2630c7c21d541b03eaa0559de821a0a6eb11e867f7b01070dacc903e3972",
+    "calculate_stress.py": "e3cce0708887f524a32a9f234b8150db8e4d4d15cfeadf0d538723ba5812fa94",
+    "Phase_7_Batch_02_Closeout.md": "7c585d2ae521fe7e5695fece5af48004405e1b68c42375e8db99dc63803747b4",
+    "Phase_7_Batch_02_Evidence_Log.md": "4fdde961e4499ba365569e4f17746e9d5c4ebee0e5ae23e3f9449592f78861bd",
+    "Phase_7_Batch_02_Financial_Tests.md": "f2e96541e625a6023dd3296002f7d24a6cbac4043aaf02c89cfe0e39e243cc19",
+    "Phase_7_Batch_02_Integrated_Decision_Test.md": "724b52bffd9bf6c3894a8cd7d67d148a0ba13c4f5d179fbc9ef9adb148a90977",
+    "Phase_7_Batch_02_PreData_Lock.md": "aefac1cc3b46cf1ebfbc9cdc37ae6f1233af00e3106afe4a83377e46332a0300",
+    "Phase_7_Batch_02_Stress_Results.json": "71efb88a91a2918ac4ae7c39ecbea001174fd1c626ad9e9d46394c3255d02f4c",
+    "Phase_7_Evidence_Log.md": "776714c5446e893ccf9ed032bb04e12068770efe3e046744dfaada3825e891a4",
+    "Phase_7_Integrated_Decision_Test.md": "6e5ab2476eb0f577295829253f1d2c6f7ab67a94af3241fc395733fe7bbef207",
+    "Phase_7_Misses_and_Red_Team.md": "c9c05b72ab9fa13e3f62a42a07925b9cb44d4e77429cbd3eacb73b7e4b3a058d",
+    "Phase_7_Portfolio_Stress.md": "a575238c854fa12792d9d6e3270ba8d697938d426cdb62dfa22a5b017639a691",
+    "Phase_7_PreData_Lock.md": "61cee983f04ccf989e6d497f32eac93c01983d85ec1b0ed800837543e4b041bb",
+    "Phase_7_SOP_Addendum.md": "7c637ea580058d526f55acc5be57a847dd14d6e00e5ab507e0e6a48fb9203620",
+    "Phase_7_Stress_Results.json": "508571182d1b240d2964b3f0e9fa88e9c72b07b58e973ce117cfa173b4bc8b69",
+    "README.md": "1612f7b2945a2887f4989e6b97d6df5a1c6c9a908b578d65d4ae2e67cbcf1ab8",
+    "Residential_Investment_Engine_Handoff_Context.md": "0eb39998f3f9266e6add907647f8d7f3b0c48b5d73b19a3435493ee68733bd90"
+  },
+  "append_audits": [
+    {
+      "id": "P7-RT01",
+      "date": "2026-10-06",
+      "source": "Direct user practitioner feedback in this conversation",
+      "changed_files": [
+        "Phase_7_Misses_and_Red_Team.md",
+        "README.md"
+      ],
+      "prior_hashes": {
+        "README.md": "b1b49698c1cb77b60e66776aa562647758e1d30a75e3000f35f36f22a3354e04",
+        "Phase_7_Misses_and_Red_Team.md": "ef2d7fd82bca86e82c1458ded025cc6e28e760a80271a5dd7e2dad202460fd56"
+      },
+      "independent_report_and_predata_unchanged": true,
+      "core_change": false
+    },
+    {
+      "id": "P7-B2",
+      "date": "2026-10-06",
+      "changed_files": [
+        "README.md",
+        "Phase_7_Misses_and_Red_Team.md",
+        "Phase_7_SOP_Addendum.md"
+      ],
+      "prior_hashes": {
+        "README.md": "73ff02bf32cffd54706c04077b28397c9c158210abd7341365a24149ec65cd36",
+        "Phase_7_Misses_and_Red_Team.md": "874ce66ab183b6795a53abf659e7df85c4e7a6854f49164f2d38765f3df3628d",
+        "Phase_7_SOP_Addendum.md": "13b566e17030e8627744c944319d59c041c482deed46174b54fa44eb5114e6ca"
+      },
+      "independent_report_and_predata_unchanged": true,
+      "core_change": false,
+      "added_files": [
+        "Phase_7_Batch_02_Closeout.md",
+        "Phase_7_Batch_02_Evidence_Log.md",
+        "Phase_7_Batch_02_Financial_Tests.md",
+        "Phase_7_Batch_02_Integrated_Decision_Test.md",
+        "Phase_7_Batch_02_PreData_Lock.md",
+        "Phase_7_Batch_02_Stress_Results.json",
+        "calculate_batch02.py"
+      ],
+      "research_complete": true,
+      "deploy_and_structural_reject_coverage_validated": false
+    },
+    {
+      "id": "P7-RT02",
+      "date": "2026-10-06",
+      "source": "Direct user practitioner feedback followed by targeted public-source checks",
+      "changed_files": [
+        "README.md",
+        "Phase_7_Misses_and_Red_Team.md",
+        "Phase_7_SOP_Addendum.md"
+      ],
+      "prior_hashes": {
+        "README.md": "924d08f640c9cc5bb3045ec4a0d1b6d42a916f0c18d232a2f01ccaffbca10334",
+        "Phase_7_Misses_and_Red_Team.md": "0d9ce7242ea2b9720784cb4eb5a26a228154937dfcd8949af0522c7fcab71690",
+        "Phase_7_SOP_Addendum.md": "b4dda8402f33707ef5ed0b79f60d0d0e90a1d2c240cbd95d0f3976d3922499e8"
+      },
+      "independent_reports_predata_and_financials_unchanged": true,
+      "core_change": false,
+      "capital_decisions_changed": false,
+      "priority_changes": [
+        "Aster C premium conviction reduced; landed substitutes required",
+        "Sterling-first replaced by joint Sterling-Mahkota comparison"
+      ],
+      "new_execution_miss": "P7-M08"
+    },
+    {
+      "id": "EJD-INTEGRATION",
+      "date": "2026-10-06",
+      "source": "Explicit user request for epistemic control integration",
+      "changed_files": [
+        "README.md",
+        "Phase_7_SOP_Addendum.md"
+      ],
+      "prior_hashes": {
+        "README.md": "c6410f6fb8f03e4ae0dcbead4e9bc36ff8c2a6b9a9c724ecceed53cd09cc9a80",
+        "Phase_7_SOP_Addendum.md": "e6489d45c6ab5e323fe2e5546be9fbf92a2700f46a79c42c661a6d765f7f71de"
+      },
+      "append_only": true,
+      "market_causal_core_change": false,
+      "decision_control_added": true,
+      "independent_reports_predata_financials_and_red_team_unchanged": true,
+      "canonical_framework": "../Residential_Investment_Framework.md"
+    }
+  ],
+  "batch_02_validation": {
+    "cases": 4,
+    "ordered_gate_sections": 40,
+    "financial_expressions": 9,
+    "sensitivity_runs": 36,
+    "pair_stress_runs": 6,
+    "amortisation_and_break_even_reconciled": true,
+    "cash_price_boundary_substitutions": 9,
+    "batch01_continuation_financial_results_reproduced": true,
+    "local_links_resolve": true,
+    "source_copy_matches": true,
+    "frozen_files_unchanged": true,
+    "scope": "Completed desk-research batch; no executable Deploy or current structural Reject demonstrated"
+  }
+}

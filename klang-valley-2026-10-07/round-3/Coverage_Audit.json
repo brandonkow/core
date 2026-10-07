@@ -1,0 +1,1101 @@
+{
+  "version": "KV-REG-2026-10-07-R3-open",
+  "programme_complete": false,
+  "rows": [
+    {
+      "area_id": "A01",
+      "batch": "B01",
+      "catchment": "Maluri–Cochrane",
+      "inherited_r1": [
+        "KV02"
+      ],
+      "inherited_cheras": "C01 M Vertica",
+      "r2_cases": [],
+      "r3_cases": [],
+      "prior_gap": "2BR worked; inherited3BR; standalone studio/1BR and fresh new-delivery inventory remain gaps",
+      "current_work": "Enhanced B01_Regional_Synthesis.md integrates household tasks, contrasting products, dated supply, exit risks and current financial comparison; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions; resolve only decision-changing remaining public gaps. Exact-unit private proof remains separate from regional desk completion.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A02",
+      "batch": "B01",
+      "catchment": "Shamelin–Pandan fringe",
+      "inherited_r1": [],
+      "inherited_cheras": "C02 Shamelin Star",
+      "r2_cases": [
+        "R243"
+      ],
+      "r3_cases": [],
+      "prior_gap": "2BR plus inherited family case; studio identity and distressed executed comparables missing",
+      "current_work": "Enhanced B01_Regional_Synthesis.md integrates household tasks, contrasting products, dated supply, exit risks and current financial comparison; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions; resolve only decision-changing remaining public gaps. Exact-unit private proof remains separate from regional desk completion.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A03",
+      "batch": "B01",
+      "catchment": "Midah–Mutiara–Taynton",
+      "inherited_r1": [],
+      "inherited_cheras": "C03 EkoCheras",
+      "r2_cases": [],
+      "r3_cases": [],
+      "prior_gap": "Inherited EkoCheras1BR diagnostic; new independent2/3BR and studio evidence missing",
+      "current_work": "Enhanced B01_Regional_Synthesis.md integrates household tasks, contrasting products, dated supply, exit risks and current financial comparison; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions; resolve only decision-changing remaining public gaps. Exact-unit private proof remains separate from regional desk completion.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A04",
+      "batch": "B01",
+      "catchment": "Connaught–Len Seng",
+      "inherited_r1": [
+        "KV01"
+      ],
+      "inherited_cheras": "C04 Aster / C05 Maxim / adjoining C06 Riana",
+      "r2_cases": [],
+      "r3_cases": [],
+      "prior_gap": "2/3BR and inherited alternatives; legitimate standalone studio/1BR not established",
+      "current_work": "Enhanced B01_Regional_Synthesis.md integrates household tasks, contrasting products, dated supply, exit risks and current financial comparison; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions; resolve only decision-changing remaining public gaps. Exact-unit private proof remains separate from regional desk completion.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A05",
+      "batch": "B01",
+      "catchment": "Alam Damai–Damai Perdana",
+      "inherited_r1": [],
+      "inherited_cheras": "C06 Riana edge; Emerald Hills lifecycle lead",
+      "r2_cases": [
+        "R244"
+      ],
+      "r3_cases": [],
+      "prior_gap": "2BR and inherited Riana; studio whole-parcel verification is a material gap",
+      "current_work": "Enhanced B01_Regional_Synthesis.md integrates household tasks, contrasting products, dated supply, exit risks and current financial comparison; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions; resolve only decision-changing remaining public gaps. Exact-unit private proof remains separate from regional desk completion.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A06",
+      "batch": "B01",
+      "catchment": "Batu 9–Suntex–Cuepacs",
+      "inherited_r1": [
+        "KV04"
+      ],
+      "inherited_cheras": "C07 Green",
+      "r2_cases": [],
+      "r3_cases": [],
+      "prior_gap": "2/3BR selective work; original studio/1BR and executed distressed stock unworked",
+      "current_work": "Enhanced B01_Regional_Synthesis.md integrates household tasks, contrasting products, dated supply, exit risks and current financial comparison; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions; resolve only decision-changing remaining public gaps. Exact-unit private proof remains separate from regional desk completion.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A07",
+      "batch": "B01",
+      "catchment": "Bandar Tun Hussein Onn",
+      "inherited_r1": [
+        "KV06"
+      ],
+      "inherited_cheras": "C08 Windows large",
+      "r2_cases": [],
+      "r3_cases": [],
+      "prior_gap": "3BR and very large inherited case; studio/1BR/2BR availability and normalised landed comparison missing",
+      "current_work": "Enhanced B01_Regional_Synthesis.md integrates household tasks, contrasting products, dated supply, exit risks and current financial comparison; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions; resolve only decision-changing remaining public gaps. Exact-unit private proof remains separate from regional desk completion.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A08",
+      "batch": "B01",
+      "catchment": "Cheras Selatan–Balakong–C180",
+      "inherited_r1": [
+        "KV03"
+      ],
+      "inherited_cheras": "None",
+      "r2_cases": [],
+      "r3_cases": [
+        "R304"
+      ],
+      "prior_gap": "2BR/utility case; original compact and larger-family cohorts remain partial",
+      "current_work": "Enhanced B01_Regional_Synthesis.md integrates household tasks, contrasting products, dated supply, exit risks and current financial comparison; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions; resolve only decision-changing remaining public gaps. Exact-unit private proof remains separate from regional desk completion.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A09",
+      "batch": "B01",
+      "catchment": "Bandar Mahkota Cheras",
+      "inherited_r1": [
+        "KV05"
+      ],
+      "inherited_cheras": "None",
+      "r2_cases": [],
+      "r3_cases": [],
+      "prior_gap": "3BR worked; studio/1BR/2BR availability unproven; landed budget not appraised",
+      "current_work": "Enhanced B01_Regional_Synthesis.md integrates household tasks, contrasting products, dated supply, exit risks and current financial comparison; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions; resolve only decision-changing remaining public gaps. Exact-unit private proof remains separate from regional desk completion.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A10",
+      "batch": "B01",
+      "catchment": "Sungai Long",
+      "inherited_r1": [],
+      "inherited_cheras": "C09 Scot Pine",
+      "r2_cases": [
+        "R245"
+      ],
+      "r3_cases": [],
+      "prior_gap": "Large inherited and compact screen; approved plans and equal-area rent pairing missing",
+      "current_work": "Enhanced B01_Regional_Synthesis.md integrates household tasks, contrasting products, dated supply, exit risks and current financial comparison; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions; resolve only decision-changing remaining public gaps. Exact-unit private proof remains separate from regional desk completion.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A11",
+      "batch": "B02",
+      "catchment": "Old Klang Road",
+      "inherited_r1": [
+        "KV07"
+      ],
+      "inherited_cheras": "None",
+      "r2_cases": [],
+      "r3_cases": [],
+      "prior_gap": "2BR worked; family/compact/new-delivery and verified flood/unit exposure incomplete",
+      "current_work": "Enhanced B02_Regional_Synthesis.md integrates transfer/identity work, three new residential product controls, dated supply and financial boundaries; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions, including screened family alternatives and standalone compact identity; include new controls in the final portfolio replay.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A12",
+      "batch": "B02",
+      "catchment": "Kuchai",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R201"
+      ],
+      "r3_cases": [],
+      "prior_gap": "3BR worked; studio/1BR separate-parcel evidence is a gap",
+      "current_work": "Enhanced B02_Regional_Synthesis.md integrates transfer/identity work, three new residential product controls, dated supply and financial boundaries; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions, including screened family alternatives and standalone compact identity; include new controls in the final portfolio replay.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A13",
+      "batch": "B02",
+      "catchment": "Happy Garden–OUG",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R202"
+      ],
+      "r3_cases": [],
+      "prior_gap": "3BR worked; higher-quality family and genuine small units only screened",
+      "current_work": "Enhanced B02_Regional_Synthesis.md integrates transfer/identity work, three new residential product controls, dated supply and financial boundaries; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions, including screened family alternatives and standalone compact identity; include new controls in the final portfolio replay.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A14",
+      "batch": "B02",
+      "catchment": "Taman Desa",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R203"
+      ],
+      "r3_cases": [
+        "R301"
+      ],
+      "prior_gap": "1BR worked; 2BR diagnostic;3BR/new launch/auction segments not fully underwritten",
+      "current_work": "Enhanced B02_Regional_Synthesis.md integrates transfer/identity work, three new residential product controls, dated supply and financial boundaries; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions, including screened family alternatives and standalone compact identity; include new controls in the final portfolio replay.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A15",
+      "batch": "B02",
+      "catchment": "Sri Petaling",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R204"
+      ],
+      "r3_cases": [
+        "R303"
+      ],
+      "prior_gap": "Studio/1BR worked and3BR rental contrast; fresh2BR sale and matched transactions missing",
+      "current_work": "Enhanced B02_Regional_Synthesis.md integrates transfer/identity work, three new residential product controls, dated supply and financial boundaries; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions, including screened family alternatives and standalone compact identity; include new controls in the final portfolio replay.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A16",
+      "batch": "B02",
+      "catchment": "Bukit Jalil",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R205"
+      ],
+      "r3_cases": [
+        "R302"
+      ],
+      "prior_gap": "Studio worked;2/3BR family price-quality contrast incomplete",
+      "current_work": "Enhanced B02_Regional_Synthesis.md integrates transfer/identity work, three new residential product controls, dated supply and financial boundaries; final coverage audit remains.",
+      "next_public_research": "Maintain Aurora identity quarantine. Tropika 732-sf two-bedroom control is now documented; reconcile 710-sf transfer coding before any clearing-value claim. Complete final coverage and portfolio audit.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A17",
+      "batch": "B02",
+      "catchment": "Sungai Besi–Chan Sow Lin",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R206"
+      ],
+      "r3_cases": [],
+      "prior_gap": "2BR claim-based diagnostic; standalone compact/family and delivery cohort evidence incomplete",
+      "current_work": "Enhanced B02_Regional_Synthesis.md integrates transfer/identity work, three new residential product controls, dated supply and financial boundaries; final coverage audit remains.",
+      "next_public_research": "Audit the bounded regional synthesis against all seven completion dimensions, including screened family alternatives and standalone compact identity; include new controls in the final portfolio replay.",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A18",
+      "batch": "B03",
+      "catchment": "PJ Old/New Town",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R207"
+      ],
+      "r3_cases": [
+        "R309"
+      ],
+      "prior_gap": "1BR worked;2BR price lead only; larger and distressed units unworked",
+      "current_work": "B03 bounded regional desk pass complete: functional map, product contrasts, dated supply/comparables, fourteen G0-G9 expressions, financial/portfolio stress and divergence investigations; see B03_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen only on the case-specific identity, effective offer, ordinary lease, fee/works, matched transfer or material supply/financing evidence in B03_Cases_G0_G9.md. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A19",
+      "batch": "B03",
+      "catchment": "Sections 13/14/17/19",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R208"
+      ],
+      "r3_cases": [
+        "R305"
+      ],
+      "prior_gap": "Studio numerical diagnostic quarantined;2/3BR residential control remains a material coverage gap",
+      "current_work": "B03 bounded regional desk pass complete: functional map, product contrasts, dated supply/comparables, fourteen G0-G9 expressions, financial/portfolio stress and divergence investigations; see B03_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen only on the case-specific identity, effective offer, ordinary lease, fee/works, matched transfer or material supply/financing evidence in B03_Cases_G0_G9.md. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A20",
+      "batch": "B03",
+      "catchment": "SS2–Sea Park–Paramount",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R209"
+      ],
+      "r3_cases": [],
+      "prior_gap": "2+1 worked; compact and higher-quality3BR not comprehensively priced",
+      "current_work": "B03 bounded regional desk pass complete: functional map, product contrasts, dated supply/comparables, fourteen G0-G9 expressions, financial/portfolio stress and divergence investigations; see B03_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen only on the case-specific identity, effective offer, ordinary lease, fee/works, matched transfer or material supply/financing evidence in B03_Cases_G0_G9.md. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A21",
+      "batch": "B03",
+      "catchment": "Kelana Jaya",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R210"
+      ],
+      "r3_cases": [
+        "R308"
+      ],
+      "prior_gap": "3+1/4BR marketed case; studio/1BR/2BR and matched management records missing",
+      "current_work": "B03 bounded regional desk pass complete: functional map, product contrasts, dated supply/comparables, fourteen G0-G9 expressions, financial/portfolio stress and divergence investigations; see B03_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen only on the case-specific identity, effective offer, ordinary lease, fee/works, matched transfer or material supply/financing evidence in B03_Cases_G0_G9.md. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A22",
+      "batch": "B03",
+      "catchment": "Ara Damansara",
+      "inherited_r1": [
+        "KV08"
+      ],
+      "inherited_cheras": "None",
+      "r2_cases": [],
+      "r3_cases": [
+        "R306",
+        "R307"
+      ],
+      "prior_gap": "R1 two-bedroom retained; studio/1BR and family comparative cases need exact rights/price evidence",
+      "current_work": "B03 bounded regional desk pass complete: functional map, product contrasts, dated supply/comparables, fourteen G0-G9 expressions, financial/portfolio stress and divergence investigations; see B03_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen only on the case-specific identity, effective offer, ordinary lease, fee/works, matched transfer or material supply/financing evidence in B03_Cases_G0_G9.md. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A23",
+      "batch": "B03",
+      "catchment": "Tropicana",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R211"
+      ],
+      "r3_cases": [
+        "R310"
+      ],
+      "prior_gap": "1+study worked; original studio, true2BR and3BR controls incomplete",
+      "current_work": "B03 bounded regional desk pass complete: functional map, product contrasts, dated supply/comparables, fourteen G0-G9 expressions, financial/portfolio stress and divergence investigations; see B03_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen only on the case-specific identity, effective offer, ordinary lease, fee/works, matched transfer or material supply/financing evidence in B03_Cases_G0_G9.md. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A24",
+      "batch": "B03",
+      "catchment": "Kota Damansara–Surian",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R212"
+      ],
+      "r3_cases": [
+        "R311"
+      ],
+      "prior_gap": "Studio worked;2/3BR and title/tenure reconciliation missing",
+      "current_work": "B03 bounded regional desk pass complete: functional map, product contrasts, dated supply/comparables, fourteen G0-G9 expressions, financial/portfolio stress and divergence investigations; see B03_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen only on the case-specific identity, effective offer, ordinary lease, fee/works, matched transfer or material supply/financing evidence in B03_Cases_G0_G9.md. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A25",
+      "batch": "B04",
+      "catchment": "Bangsar South–Pantai–Kerinchi",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R213"
+      ],
+      "r3_cases": [
+        "R312"
+      ],
+      "prior_gap": "1+1/2BR marketed; studio and family layouts incompletely matched",
+      "current_work": "B04 bounded regional desk pass complete: nine functional catchments, material product contrasts and explicit gaps, primary supply/access corrections, nineteen G0-G9 expressions, financial/portfolio diagnostics and five divergence investigations; see B04_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen on the area-specific exact identity/plan/offer, ordinary lease or current tenancy, fees/works, matched transfer or material supply evidence in B04_Cases_G0_G9.md. Pines/Windsor are verification leads only; Neo/Cliveden remain offer/component-held. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A26",
+      "batch": "B04",
+      "catchment": "TTDI",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R214"
+      ],
+      "r3_cases": [
+        "R313"
+      ],
+      "prior_gap": "2BR worked; standalone compact and3BR quality ladder remain gaps",
+      "current_work": "B04 bounded regional desk pass complete: nine functional catchments, material product contrasts and explicit gaps, primary supply/access corrections, nineteen G0-G9 expressions, financial/portfolio diagnostics and five divergence investigations; see B04_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen on the area-specific exact identity/plan/offer, ordinary lease or current tenancy, fees/works, matched transfer or material supply evidence in B04_Cases_G0_G9.md. Pines/Windsor are verification leads only; Neo/Cliveden remain offer/component-held. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A27",
+      "batch": "B04",
+      "catchment": "Damansara Heights",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R215"
+      ],
+      "r3_cases": [
+        "R314"
+      ],
+      "prior_gap": "1BR worked; family3BR, ordinary2BR and exit buyer equity unverified",
+      "current_work": "B04 bounded regional desk pass complete: nine functional catchments, material product contrasts and explicit gaps, primary supply/access corrections, nineteen G0-G9 expressions, financial/portfolio diagnostics and five divergence investigations; see B04_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen on the area-specific exact identity/plan/offer, ordinary lease or current tenancy, fees/works, matched transfer or material supply evidence in B04_Cases_G0_G9.md. Pines/Windsor are verification leads only; Neo/Cliveden remain offer/component-held. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A28",
+      "batch": "B04",
+      "catchment": "Mont Kiara",
+      "inherited_r1": [
+        "KV10"
+      ],
+      "inherited_cheras": "None",
+      "r2_cases": [],
+      "r3_cases": [
+        "R315"
+      ],
+      "prior_gap": "R1 one-bedroom retained; family3BR and lower-quantum studios not fully compared",
+      "current_work": "B04 bounded regional desk pass complete: nine functional catchments, material product contrasts and explicit gaps, primary supply/access corrections, nineteen G0-G9 expressions, financial/portfolio diagnostics and five divergence investigations; see B04_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen on the area-specific exact identity/plan/offer, ordinary lease or current tenancy, fees/works, matched transfer or material supply evidence in B04_Cases_G0_G9.md. Pines/Windsor are verification leads only; Neo/Cliveden remain offer/component-held. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A29",
+      "batch": "B04",
+      "catchment": "Sri Hartamas",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R216"
+      ],
+      "r3_cases": [
+        "R316"
+      ],
+      "prior_gap": "Studio worked; real1/2/3BR and building operation evidence partial",
+      "current_work": "B04 bounded regional desk pass complete: nine functional catchments, material product contrasts and explicit gaps, primary supply/access corrections, nineteen G0-G9 expressions, financial/portfolio diagnostics and five divergence investigations; see B04_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen on the area-specific exact identity/plan/offer, ordinary lease or current tenancy, fees/works, matched transfer or material supply evidence in B04_Cases_G0_G9.md. Pines/Windsor are verification leads only; Neo/Cliveden remain offer/component-held. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A30",
+      "batch": "B04",
+      "catchment": "Dutamas–Segambut",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R217"
+      ],
+      "r3_cases": [
+        "R317"
+      ],
+      "prior_gap": "3BR worked; studio/1BR and Segambut low-budget controls unworked",
+      "current_work": "B04 bounded regional desk pass complete: nine functional catchments, material product contrasts and explicit gaps, primary supply/access corrections, nineteen G0-G9 expressions, financial/portfolio diagnostics and five divergence investigations; see B04_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen on the area-specific exact identity/plan/offer, ordinary lease or current tenancy, fees/works, matched transfer or material supply evidence in B04_Cases_G0_G9.md. Pines/Windsor are verification leads only; Neo/Cliveden remain offer/component-held. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A31",
+      "batch": "B04",
+      "catchment": "Desa ParkCity–Menjalara",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R218",
+        "R246"
+      ],
+      "r3_cases": [
+        "R318"
+      ],
+      "prior_gap": "Two family-sized expressions and premium2BR; studios/1BR/new ParkPlace lifecycle comparisons incomplete",
+      "current_work": "B04 bounded regional desk pass complete: nine functional catchments, material product contrasts and explicit gaps, primary supply/access corrections, nineteen G0-G9 expressions, financial/portfolio diagnostics and five divergence investigations; see B04_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen on the area-specific exact identity/plan/offer, ordinary lease or current tenancy, fees/works, matched transfer or material supply evidence in B04_Cases_G0_G9.md. Pines/Windsor are verification leads only; Neo/Cliveden remain offer/component-held. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A32",
+      "batch": "B04",
+      "catchment": "Kepong–Jinjang",
+      "inherited_r1": [
+        "KV09"
+      ],
+      "inherited_cheras": "None",
+      "r2_cases": [],
+      "r3_cases": [
+        "R319"
+      ],
+      "prior_gap": "R1 family3BR; compact search contaminated by room listings and remains unverified",
+      "current_work": "B04 bounded regional desk pass complete: nine functional catchments, material product contrasts and explicit gaps, primary supply/access corrections, nineteen G0-G9 expressions, financial/portfolio diagnostics and five divergence investigations; see B04_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen on the area-specific exact identity/plan/offer, ordinary lease or current tenancy, fees/works, matched transfer or material supply evidence in B04_Cases_G0_G9.md. Pines/Windsor are verification leads only; Neo/Cliveden remain offer/component-held. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A33",
+      "batch": "B04",
+      "catchment": "Damansara Perdana–Mutiara Damansara",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R219"
+      ],
+      "r3_cases": [
+        "R320"
+      ],
+      "prior_gap": "Studio conditional case; original1BR/2/3BR and Mutiara matched controls missing",
+      "current_work": "B04 bounded regional desk pass complete: nine functional catchments, material product contrasts and explicit gaps, primary supply/access corrections, nineteen G0-G9 expressions, financial/portfolio diagnostics and five divergence investigations; see B04_Completion_Audit.md.",
+      "next_public_research": "No generic public rescan required. Reopen on the area-specific exact identity/plan/offer, ordinary lease or current tenancy, fees/works, matched transfer or material supply evidence in B04_Cases_G0_G9.md. Pines/Windsor are verification leads only; Neo/Cliveden remain offer/component-held. Continue programme at B06.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A34",
+      "batch": "B05",
+      "catchment": "KLCC–Ampang Park",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R220"
+      ],
+      "r3_cases": [
+        "R321"
+      ],
+      "prior_gap": "2BR worked; studio/1BR and luxury3BR not comprehensively matched",
+      "current_work": "B05 bounded regional desk pass complete: seven functional catchments, compact/family contrasts, fifty saved source retrievals, sixteen G0-G9 expressions, full financial/portfolio diagnostics and six material divergence investigations; see B05_Completion_Audit.md.",
+      "next_public_research": "Reopen on case-specific current offer/plan/use, ordinary or in-place lease, charge period, fees/works or adjusted transfers in B05_Cases_G0_G9.md. Parkview and Titiwangsa are evidence leads; Lucentia fee and Boulevard component remain held. Continue programme at B06; cross-reference Seri Maya once.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A35",
+      "batch": "B05",
+      "catchment": "Bukit Bintang–Imbi–Pudu",
+      "inherited_r1": [
+        "KV11"
+      ],
+      "inherited_cheras": "None",
+      "r2_cases": [],
+      "r3_cases": [
+        "R322"
+      ],
+      "prior_gap": "R1 one-bedroom retained; new compact/3BR and actual management evidence gaps",
+      "current_work": "B05 bounded regional desk pass complete: seven functional catchments, compact/family contrasts, fifty saved source retrievals, sixteen G0-G9 expressions, full financial/portfolio diagnostics and six material divergence investigations; see B05_Completion_Audit.md.",
+      "next_public_research": "Reopen on case-specific current offer/plan/use, ordinary or in-place lease, charge period, fees/works or adjusted transfers in B05_Cases_G0_G9.md. Parkview and Titiwangsa are evidence leads; Lucentia fee and Boulevard component remain held. Continue programme at B06; cross-reference Seri Maya once.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A36",
+      "batch": "B05",
+      "catchment": "TRX",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R221"
+      ],
+      "r3_cases": [
+        "R323"
+      ],
+      "prior_gap": "1BR worked;2/3BR and post-delivery seller-composition evidence missing",
+      "current_work": "B05 bounded regional desk pass complete: seven functional catchments, compact/family contrasts, fifty saved source retrievals, sixteen G0-G9 expressions, full financial/portfolio diagnostics and six material divergence investigations; see B05_Completion_Audit.md.",
+      "next_public_research": "Reopen on case-specific current offer/plan/use, ordinary or in-place lease, charge period, fees/works or adjusted transfers in B05_Cases_G0_G9.md. Parkview and Titiwangsa are evidence leads; Lucentia fee and Boulevard component remain held. Continue programme at B06; cross-reference Seri Maya once.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A37",
+      "batch": "B05",
+      "catchment": "Tun Razak–Titiwangsa–Sentul",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R222"
+      ],
+      "r3_cases": [
+        "R324",
+        "R328"
+      ],
+      "prior_gap": "2BR Sentul worked; Tun Razak/Titiwangsa plus studio/3BR are explicit subcatchment gaps",
+      "current_work": "B05 bounded regional desk pass complete: seven functional catchments, compact/family contrasts, fifty saved source retrievals, sixteen G0-G9 expressions, full financial/portfolio diagnostics and six material divergence investigations; see B05_Completion_Audit.md.",
+      "next_public_research": "Reopen on case-specific current offer/plan/use, ordinary or in-place lease, charge period, fees/works or adjusted transfers in B05_Cases_G0_G9.md. Parkview and Titiwangsa are evidence leads; Lucentia fee and Boulevard component remain held. Continue programme at B06; cross-reference Seri Maya once.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A38",
+      "batch": "B05",
+      "catchment": "Jalan Ampang–Jelatek–Dato Keramat",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R223"
+      ],
+      "r3_cases": [
+        "R325"
+      ],
+      "prior_gap": "Studio worked; family and local lower-cost ownership controls incomplete",
+      "current_work": "B05 bounded regional desk pass complete: seven functional catchments, compact/family contrasts, fifty saved source retrievals, sixteen G0-G9 expressions, full financial/portfolio diagnostics and six material divergence investigations; see B05_Completion_Audit.md.",
+      "next_public_research": "Reopen on case-specific current offer/plan/use, ordinary or in-place lease, charge period, fees/works or adjusted transfers in B05_Cases_G0_G9.md. Parkview and Titiwangsa are evidence leads; Lucentia fee and Boulevard component remain held. Continue programme at B06; cross-reference Seri Maya once.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A39",
+      "batch": "B05",
+      "catchment": "Ampang Hilir",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R224"
+      ],
+      "r3_cases": [
+        "R326"
+      ],
+      "prior_gap": "Core Hilir remains screening-level; no matched core high-rise case; GCB does not close that gap",
+      "current_work": "B05 bounded regional desk pass complete: seven functional catchments, compact/family contrasts, fifty saved source retrievals, sixteen G0-G9 expressions, full financial/portfolio diagnostics and six material divergence investigations; see B05_Completion_Audit.md.",
+      "next_public_research": "Reopen on case-specific current offer/plan/use, ordinary or in-place lease, charge period, fees/works or adjusted transfers in B05_Cases_G0_G9.md. Parkview and Titiwangsa are evidence leads; Lucentia fee and Boulevard component remain held. Continue programme at B06; cross-reference Seri Maya once.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A40",
+      "batch": "B05",
+      "catchment": "Ampang–Pandan Indah–Pandan Mewah",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R225"
+      ],
+      "r3_cases": [
+        "R327",
+        "R329"
+      ],
+      "prior_gap": "Studio worked;2/3BR and Pandan Mewah/Indah submarket comparisons partial",
+      "current_work": "B05 bounded regional desk pass complete: seven functional catchments, compact/family contrasts, fifty saved source retrievals, sixteen G0-G9 expressions, full financial/portfolio diagnostics and six material divergence investigations; see B05_Completion_Audit.md.",
+      "next_public_research": "Reopen on case-specific current offer/plan/use, ordinary or in-place lease, charge period, fees/works or adjusted transfers in B05_Cases_G0_G9.md. Parkview and Titiwangsa are evidence leads; Lucentia fee and Boulevard component remain held. Continue programme at B06; cross-reference Seri Maya once.",
+      "completion": "Bounded regional desk-complete Defer; exact-unit decision readiness and outcome validation unresolved",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A41",
+      "batch": "B06",
+      "catchment": "Setapak–Wangsa Maju–Danau Kota",
+      "inherited_r1": [
+        "KV12"
+      ],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R250"
+      ],
+      "r3_cases": [],
+      "prior_gap": "2+1 plus R1 two-bedroom diagnostic; studio/1BR and Wangsa family breadth incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "2+1 plus R1 two-bedroom diagnostic; studio/1BR and Wangsa family breadth incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A42",
+      "batch": "B06",
+      "catchment": "Gombak",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R226"
+      ],
+      "r3_cases": [],
+      "prior_gap": "Studio diagnostic quarantined at consideration;2/3BR controls incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "Studio diagnostic quarantined at consideration;2/3BR controls incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A43",
+      "batch": "B06",
+      "catchment": "Melawati–Ukay",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R227"
+      ],
+      "r3_cases": [],
+      "prior_gap": "3BR worked; studio/1BR and Ukay-specific high-rise controls incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "3BR worked; studio/1BR and Ukay-specific high-rise controls incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A44",
+      "batch": "B06",
+      "catchment": "Batu Caves–Selayang",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R228"
+      ],
+      "r3_cases": [],
+      "prior_gap": "3BR worked; compact products and separate Batu Caves cases remain gaps",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "3BR worked; compact products and separate Batu Caves cases remain gaps",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A45",
+      "batch": "B06",
+      "catchment": "Sungai Buloh–Kwasa",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R229"
+      ],
+      "r3_cases": [],
+      "prior_gap": "Studio component quarantined;2/3BR and Kwasa residential cohort unworked",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "Studio component quarantined;2/3BR and Kwasa residential cohort unworked",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A46",
+      "batch": "B07",
+      "catchment": "Puchong Jaya–Kinrara–Bandar Puteri",
+      "inherited_r1": [
+        "KV13"
+      ],
+      "inherited_cheras": "None",
+      "r2_cases": [],
+      "r3_cases": [],
+      "prior_gap": "R1 two-bedroom retained; compact/3BR and separate Kinrara family cases incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "R1 two-bedroom retained; compact/3BR and separate Kinrara family cases incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A47",
+      "batch": "B07",
+      "catchment": "Puchong Prima–South",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R230"
+      ],
+      "r3_cases": [],
+      "prior_gap": "3BR worked; studio/1BR/2BR and new-stock backlog unresolved",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "3BR worked; studio/1BR/2BR and new-stock backlog unresolved",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A48",
+      "batch": "B07",
+      "catchment": "Seri Kembangan–Serdang–Equine",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R231"
+      ],
+      "r3_cases": [],
+      "prior_gap": "Studio worked and family price/rent contrast; UPM/Serdang-specific independent cases incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "Studio worked and family price/rent contrast; UPM/Serdang-specific independent cases incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A49",
+      "batch": "B07",
+      "catchment": "Subang Jaya–USJ–Sunway",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R232",
+        "R249"
+      ],
+      "r3_cases": [],
+      "prior_gap": "Studio and2BR worked;3BR and room-rental models excluded pending operating proof",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "Studio and2BR worked;3BR and room-rental models excluded pending operating proof",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A50",
+      "batch": "B07",
+      "catchment": "Subang Bestari",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R233"
+      ],
+      "r3_cases": [],
+      "prior_gap": "3BR worked; original compact layouts, restrictions and matched transactions missing",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "3BR worked; original compact layouts, restrictions and matched transactions missing",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A51",
+      "batch": "B07",
+      "catchment": "Shah Alam–Glenmarie",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R234"
+      ],
+      "r3_cases": [],
+      "prior_gap": "Studio worked; core Shah Alam2/3BR and residential-only comparators incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "Studio worked; core Shah Alam2/3BR and residential-only comparators incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A52",
+      "batch": "B07",
+      "catchment": "Setia Alam–Bukit Raja",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R235"
+      ],
+      "r3_cases": [],
+      "prior_gap": "Studio worked; family3BR and Bukit Raja-specific price/buyer evidence incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "Studio worked; family3BR and Bukit Raja-specific price/buyer evidence incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A53",
+      "batch": "B07",
+      "catchment": "Klang–Botanic–Bukit Tinggi",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R236"
+      ],
+      "r3_cases": [],
+      "prior_gap": "1+1 worked; broader Klang/Botanic/BukitTinggi family and compact contrasts partial",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "1+1 worked; broader Klang/Botanic/BukitTinggi family and compact contrasts partial",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A54",
+      "batch": "B08",
+      "catchment": "Kajang–Saujana Impian–Bangi",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R237"
+      ],
+      "r3_cases": [],
+      "prior_gap": "Studio/SOHO worked; Kajang/Saujana2/3BR remain explicit subcatchment gaps",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "Studio/SOHO worked; Kajang/Saujana2/3BR remain explicit subcatchment gaps",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A55",
+      "batch": "B08",
+      "catchment": "Semenyih",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R238"
+      ],
+      "r3_cases": [],
+      "prior_gap": "3BR diagnostic; compact supply, restrictions and new-launch net prices incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "3BR diagnostic; compact supply, restrictions and new-launch net prices incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A56",
+      "batch": "B08",
+      "catchment": "Cyberjaya",
+      "inherited_r1": [
+        "KV14"
+      ],
+      "inherited_cheras": "None",
+      "r2_cases": [],
+      "r3_cases": [],
+      "prior_gap": "R1 one-bedroom retained; studio classification and family2/3BR comparisons partial",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "R1 one-bedroom retained; studio classification and family2/3BR comparisons partial",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A57",
+      "batch": "B08",
+      "catchment": "Putrajaya",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R239"
+      ],
+      "r3_cases": [],
+      "prior_gap": "3BR worked; original small layouts and larger family ladder incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "3BR worked; original small layouts and larger family ladder incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A58",
+      "batch": "B08",
+      "catchment": "Dengkil–Kota Warisan–Salak Tinggi",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R248"
+      ],
+      "r3_cases": [],
+      "prior_gap": "Compact Alanis conditional; Horizon quarantined;2/3BR and whole-title proof missing",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "Compact Alanis conditional; Horizon quarantined;2/3BR and whole-title proof missing",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A59",
+      "batch": "B08",
+      "catchment": "Kota Kemuning–Rimbayu–Tropicana Aman–Eco Sanctuary",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R240",
+        "R247"
+      ],
+      "r3_cases": [],
+      "prior_gap": "3BR plus1BR worked; Rimbayu/TropicanaAman exact products and new delivery incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "3BR plus1BR worked; Rimbayu/TropicanaAman exact products and new delivery incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A60",
+      "batch": "B08",
+      "catchment": "Elmina",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R241"
+      ],
+      "r3_cases": [],
+      "prior_gap": "2BR worked; studio component excluded pending use;3BR and broader Elmina cohort incomplete",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "2BR worked; studio component excluded pending use;3BR and broader Elmina cohort incomplete",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    },
+    {
+      "area_id": "A61",
+      "batch": "B08",
+      "catchment": "Rawang–Gamuda Gardens–Kundang",
+      "inherited_r1": [],
+      "inherited_cheras": "None",
+      "r2_cases": [
+        "R242"
+      ],
+      "r3_cases": [],
+      "prior_gap": "2BR worked;5501BR/7502+1 screened; matureRawang/Kundang and restrictions remain gaps",
+      "current_work": "No round 3 regional reassessment yet; inherited work retained.",
+      "next_public_research": "2BR worked;5501BR/7502+1 screened; matureRawang/Kundang and restrictions remain gaps",
+      "completion": "Not certified; material breadth/depth audit remains",
+      "decision_ready": false,
+      "source": "Original scope and inherited evidence; B01/B02 enhanced syntheses and B03/B04/B05 substantive self-audits. No completion inference from case count."
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-07",
+  "master_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "baseline_files": 58,
+  "unchanged_baseline_files": 57,
+  "intentional_changed_files": [
+    "README.md"
+  ],
+  "new_cases": 14,
+  "scope_catchments": 61,
+  "new_worked_catchments": 14,
+  "inherited_only_catchments": 4,
+  "mapped_only_catchments": 43,
+  "source_entries": 65,
+  "gates_per_case": 10,
+  "divergence_flags": 5,
+  "current_shortfall_transition_records": 7,
+  "sensitivities": 126,
+  "rank_grid_rows": 126,
+  "stress_pairs": 91,
+  "synthetic_pair_passes": 85,
+  "numerical_and_structural_checks": "passed",
+  "investment_evidence_validation": "not established",
+  "coverage_completion": "first comparative release only; full-area desk underwriting incomplete",
+  "external_actions": "none: no outreach, paid data, purchase or automation"
+}

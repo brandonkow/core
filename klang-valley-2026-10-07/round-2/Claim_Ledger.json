@@ -1,0 +1,2030 @@
+[
+  {
+    "id": "R201-P",
+    "case": "R201",
+    "claim": "Price scenarioRM359,999; Furnished sale and whole-unit rental asks; one sale bay, rental bay unconfirmed",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "094",
+      "102",
+      "083",
+      "124"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R201-R",
+    "case": "R201",
+    "claim": "Rent scenarioRM1,800; sensitivityRM1,600–1,900; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "094",
+      "102",
+      "083",
+      "124"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R201-M",
+    "case": "R201",
+    "claim": "Low acquisition quantum could serve local working households; Arte compact rents are not separate-title evidence; rival: Original family layout, parking and lift capacity must justify staying versus OUG/Old Klang Road",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "094",
+      "102",
+      "083",
+      "124"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R202-P",
+    "case": "R202",
+    "claim": "Price scenarioRM312,000; 950-sf partly furnished sale versus 900-sf fully furnished rent; no numerical size adjustment claimed",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "034",
+      "002"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R202-R",
+    "case": "R202",
+    "claim": "Rent scenarioRM1,500; sensitivityRM1,400–1,700; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "034",
+      "002"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R202-M",
+    "case": "R202",
+    "claim": "Entry affordability can coexist with dense competing family supply; rival: Phase, actual floorplate, circulation and like-phase resale discount",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "034",
+      "002"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R203-P",
+    "case": "R203",
+    "claim": "Price scenarioRM345,000; Same marketed area and furnished category; inventory and bays not matched",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "035",
+      "084"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R203-R",
+    "case": "R203",
+    "claim": "Rent scenarioRM1,600; sensitivityRM1,500–1,800; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "035",
+      "084"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R203-M",
+    "case": "R203",
+    "claim": "Taman Desa convenience may support compact workers without proving family exit demand; rival: Do not transfer family-location premium to a 578-sf layout",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "035",
+      "084"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R204-P",
+    "case": "R204",
+    "claim": "Price scenarioRM298,000; 739-sf sale partly furnished one bay; rent fully furnished one bay; higher rental has two bays",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "001",
+      "036",
+      "125"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R204-R",
+    "case": "R204",
+    "claim": "Rent scenarioRM1,600; sensitivityRM1,400–1,900; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "001",
+      "036",
+      "125"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R204-M",
+    "case": "R204",
+    "claim": "Lower total price may compete with larger Sri Petaling rentals; rival: 739-sf studio utility and older mixed-use operations versus 980-sf 3BR rental alternatives; a social-media retail-anchor closure lead was not established by the official-site search and remains unverified, so no assured anchor continuity or closure is assumed",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "001",
+      "036",
+      "125"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R205-P",
+    "case": "R205",
+    "claim": "Price scenarioRM350,000; Price is a studio search-index lead, not a confirmed live unit; 384-sf rent asks",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "002",
+      "037"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R205-R",
+    "case": "R205",
+    "claim": "Rent scenarioRM1,800; sensitivityRM1,600–2,100; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "002",
+      "037"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R205-M",
+    "case": "R205",
+    "claim": "Mall-related compact demand must cover high price per usable area; rival: Day-to-day privacy, tenant duration and competing newer suites",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "002",
+      "037"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R206-P",
+    "case": "R206",
+    "claim": "Price scenarioRM579,999; RM2700 is the sale advertiser's tenancy claim; independent achieved rent not obtained",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "038",
+      "002"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R206-R",
+    "case": "R206",
+    "claim": "Rent scenarioRM2,700; sensitivityRM2,300–2,900; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "038",
+      "002"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R206-M",
+    "case": "R206",
+    "claim": "Urban employment access could support long-term rent, but contract claim is unverified; rival: Do not capitalise a future tenancy date or short-stay income as current collections",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "038",
+      "002"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R207-P",
+    "case": "R207",
+    "claim": "Price scenarioRM390,000; 685-sf sale versus 625/667-sf rental leads; rent is a bounded working assumption",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "003",
+      "039"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R207-R",
+    "case": "R207",
+    "claim": "Rent scenarioRM2,000; sensitivityRM1,800–2,200; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "003",
+      "039"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R207-M",
+    "case": "R207",
+    "claim": "Established PJ routines may favour older compact space at a lower quantum; rival: Age-related capital works and true walk route may consume apparent location discount",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "003",
+      "039"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R208-P",
+    "case": "R208",
+    "claim": "Price scenarioRM150,000; Header 306 versus body 301 sf; furnishing conflict and office/residential component unresolved",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "003",
+      "040",
+      "078",
+      "112"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R208-R",
+    "case": "R208",
+    "claim": "Rent scenarioRM1,500; sensitivityRM1,100–1,600; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "003",
+      "040",
+      "078",
+      "112"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R208-M",
+    "case": "R208",
+    "claim": "A striking yield may be a component or data error instead of hidden mispricing; rival: Do not pair office transfers with serviced-suite rent; exact title and tower first",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "003",
+      "040",
+      "078",
+      "112"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R209-P",
+    "case": "R209",
+    "claim": "Price scenarioRM630,000; Sale calls 2+1 study; rentals call 3BR; enclosed-room equivalence unknown",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "041",
+      "057"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R209-R",
+    "case": "R209",
+    "claim": "Rent scenarioRM2,300; sensitivityRM2,100–2,400; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "041",
+      "057"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R209-M",
+    "case": "R209",
+    "claim": "Established local family routines can support use demand without 6% income economics; rival: Study legality, family utility and budget substitutes including landed",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "041",
+      "057"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R210-P",
+    "case": "R210",
+    "claim": "Price scenarioRM640,000; 1259-sf sale and rent; 3+1/4BR classification, condition and bays need matching",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "042",
+      "043"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R210-R",
+    "case": "R210",
+    "claim": "Rent scenarioRM2,000; sensitivityRM1,900–2,400; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "042",
+      "043"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R210-M",
+    "case": "R210",
+    "claim": "Family appeal is distinct from rent coverage at current price; rival: Newer relative age does not establish better management; discounted Bumi lot is not a free comparator",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "042",
+      "043"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R211-P",
+    "case": "R211",
+    "claim": "Price scenarioRM518,000; Same size sale/rent advertisements; parking and study usability differ",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "004"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R211-R",
+    "case": "R211",
+    "claim": "Rent scenarioRM2,300; sensitivityRM2,100–2,500; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "004"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R211-M",
+    "case": "R211",
+    "claim": "Local employment and amenities may support a small-household rent premium; rival: One plus study cannot automatically borrow true 2BR family exits",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "004"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R212-P",
+    "case": "R212",
+    "claim": "Price scenarioRM400,000; 640-sf partly furnished sale and studio rent asks; tenure boilerplate conflicts",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "006",
+      "044"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R212-R",
+    "case": "R212",
+    "claim": "Rent scenarioRM1,600; sensitivityRM1,500–1,800; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "006",
+      "044"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R212-M",
+    "case": "R212",
+    "claim": "Kota Damansara access alone may not support acquisition quantum; rival: Oversized balcony in other layouts and title inconsistency distort PSF comparisons",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "006",
+      "044"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R213-P",
+    "case": "R213",
+    "claim": "Price scenarioRM560,000; Same-size furnished ads; bedroom labels disagree",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "004",
+      "045"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R213-R",
+    "case": "R213",
+    "claim": "Rent scenarioRM2,600; sensitivityRM2,300–2,700; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "004",
+      "045"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R213-M",
+    "case": "R213",
+    "claim": "Employment-adjacent compact demand is plausible, but investor resale dependence remains unproven; rival: Study privacy and duplicated landlord supply versus genuinely independent end users",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "004",
+      "045"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R214-P",
+    "case": "R214",
+    "claim": "Price scenarioRM948,000; 1128-sf sale and rent leads; inventory/bays not reconciled",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "046",
+      "047"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R214-R",
+    "case": "R214",
+    "claim": "Rent scenarioRM3,500; sensitivityRM3,200–3,600; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "046",
+      "047"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R214-M",
+    "case": "R214",
+    "claim": "Mature daily routines may support ownership willingness to pay; rival: Premium entry versus larger family or landed substitutes at the future exit budget",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "046",
+      "047"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R215-P",
+    "case": "R215",
+    "claim": "Price scenarioRM1,135,000; Partly furnished sale versus fully furnished 904-sf rent",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "005"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R215-R",
+    "case": "R215",
+    "claim": "Rent scenarioRM4,000; sensitivityRM3,500–5,000; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "005"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R215-M",
+    "case": "R215",
+    "claim": "Prestige and access need a financeable compact-unit ownership pool; rival: Do not borrow luxury-family buyer depth or project-wide rents",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "005"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R216-P",
+    "case": "R216",
+    "claim": "Price scenarioRM250,000; 500-sf furnished sale/rent leads; 495-sf lower-rent contrasts; sparse separate residential transfers; direct recheck redirects to project search, so250k remains a historical/indexed lead",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "048",
+      "089",
+      "120",
+      "124"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R216-R",
+    "case": "R216",
+    "claim": "Rent scenarioRM1,500; sensitivityRM1,300–1,600; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "048",
+      "089",
+      "120",
+      "124"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R216-M",
+    "case": "R216",
+    "claim": "Low-quantum Hartamas utility could support ordinary rent if component and operations hold; rival: Two visible residential transfers do not prove liquid exit; office records excluded",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "048",
+      "089",
+      "120",
+      "124"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R217-P",
+    "case": "R217",
+    "claim": "Price scenarioRM600,000; 1614-sf partly furnished sale and rent; exact block/floor unknown",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "007"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R217-R",
+    "case": "R217",
+    "claim": "Rent scenarioRM2,500; sensitivityRM2,200–2,800; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "007"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R217-M",
+    "case": "R217",
+    "claim": "Large mature accommodation challenges new-small-unit selection bias; rival: Maintenance capital, parking and no present MRT3 walkability premium",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "007"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R218-P",
+    "case": "R218",
+    "claim": "Price scenarioRM700,000; Clean 700k index/advert chosen over contradictory 620k header/700k body; 1316-sf rents",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "049",
+      "093"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R218-R",
+    "case": "R218",
+    "claim": "Rent scenarioRM2,500; sensitivityRM2,300–2,700; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "049",
+      "093"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R218-M",
+    "case": "R218",
+    "claim": "Local family housing demand is separate from ParkCity lifestyle premium; rival: Menjalara and Desa ParkCity must remain distinct valuation sets",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "049",
+      "093"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R219-P",
+    "case": "R219",
+    "claim": "Price scenarioRM220,000; 220k is an indexed sale lead; direct index opens an older snapshot; live price unconfirmed",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "009",
+      "050",
+      "103",
+      "105",
+      "111",
+      "122"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R219-R",
+    "case": "R219",
+    "claim": "Rent scenarioRM1,399; sensitivityRM1,200–1,500; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "009",
+      "050",
+      "103",
+      "105",
+      "111",
+      "122"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R219-M",
+    "case": "R219",
+    "claim": "Small older units could earn more rent per entry ringgit; rival: Price freshness, unit use, parking entitlement and capex may reverse apparent carry advantage",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "009",
+      "050",
+      "103",
+      "105",
+      "111",
+      "122"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R220-P",
+    "case": "R220",
+    "claim": "Price scenarioRM770,000; Same-area long-term rent ask; extra study and furniture need matching",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "010",
+      "051"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R220-R",
+    "case": "R220",
+    "claim": "Rent scenarioRM3,300; sensitivityRM3,000–3,600; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "010",
+      "051"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R220-M",
+    "case": "R220",
+    "claim": "Ordinary employment tenancy must justify the price independently of tourism; rival: Short-stay operating expectations cannot replace legal long-term use and owner exit",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "010",
+      "051"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R221-P",
+    "case": "R221",
+    "claim": "Price scenarioRM1,150,000; 474-sf sale and one-year rental leads; reject the 4000/4100 conflicting ad",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "011",
+      "052"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R221-R",
+    "case": "R221",
+    "claim": "Rent scenarioRM4,300; sensitivityRM4,000–4,500; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "011",
+      "052"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R221-M",
+    "case": "R221",
+    "claim": "New central convenience can be real while already capitalised into entry; rival: Compact ownership depth, competing new delivery and premium decay",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "011",
+      "052"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R222-P",
+    "case": "R222",
+    "claim": "Price scenarioRM420,000; 743-sf furnished sale and rent leads; lower partly furnished ask retained",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "012",
+      "053"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R222-R",
+    "case": "R222",
+    "claim": "Rent scenarioRM1,800; sensitivityRM1,500–2,000; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "012",
+      "053"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R222-M",
+    "case": "R222",
+    "claim": "Local affordable access demand may be strong without current income coverage; rival: High substitute supply and parking/circulation; no automatic spillover from Titiwangsa premium",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "012",
+      "053"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R223-P",
+    "case": "R223",
+    "claim": "Price scenarioRM650,000; 557-sf clean sale index versus 550-sf furnished rental; original 700k per month ad excluded",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "013",
+      "054",
+      "113"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R223-R",
+    "case": "R223",
+    "claim": "Rent scenarioRM2,500; sensitivityRM2,200–2,800; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "013",
+      "054",
+      "113"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R223-M",
+    "case": "R223",
+    "claim": "Rail-linked everyday utility may support tenancy but not the required purchase premium; rival: Effective consideration, flexible versus annual lease terms, new-resale depth",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "013",
+      "054",
+      "113"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R224-P",
+    "case": "R224",
+    "claim": "Price scenarioRM455,000; 1100-sf furnished sale index versus rent with store; renovation not matched",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "097",
+      "098"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R224-R",
+    "case": "R224",
+    "claim": "Rent scenarioRM1,950; sensitivityRM1,700–2,200; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "097",
+      "098"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R224-M",
+    "case": "R224",
+    "claim": "Older Ampang accommodation tests lower-quantum utility at the edge of the Hilir market; rival: This Ulu/road-edge expression cannot represent embassy-enclave core quality",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "097",
+      "098"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R225-P",
+    "case": "R225",
+    "claim": "Price scenarioRM380,000; 380k sale and 1800 rent in one ad; independent lower asks; 1650 is analyst midpoint",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "015"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R225-R",
+    "case": "R225",
+    "claim": "Rent scenarioRM1,650; sensitivityRM1,500–1,800; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "015"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R225-M",
+    "case": "R225",
+    "claim": "Compact price accessibility may be offset by car dependence and abundant substitutes; rival: Planned Taman Kencana MRT3 is not current operational access",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "015"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R226-P",
+    "case": "R226",
+    "claim": "Price scenarioRM250,000; Sale header 240k/body 250k; use higher diagnostic value without resolving consideration",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "066",
+      "086"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R226-R",
+    "case": "R226",
+    "claim": "Rent scenarioRM1,450; sensitivityRM1,300–1,500; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "066",
+      "086"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R226-M",
+    "case": "R226",
+    "claim": "Local worker compact demand is plausible, independent of 222 Residency elsewhere; rival: Conflicting consideration and verified original parcel; no claimed discount",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "066",
+      "086"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R227-P",
+    "case": "R227",
+    "claim": "Price scenarioRM450,000; 1007-sf sale versus 980-sf 2200 furnished rent; 2100 analyst allowance, no measured adjustment",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "017",
+      "056"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R227-R",
+    "case": "R227",
+    "claim": "Rent scenarioRM2,100; sensitivityRM1,900–2,200; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "017",
+      "056"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R227-M",
+    "case": "R227",
+    "claim": "Family routines may support usage demand beyond central-city commuting; rival: Ukay/Melawati micro-access, hillside/road exposure and future-station mislabelling",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "017",
+      "056"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R228-P",
+    "case": "R228",
+    "claim": "Price scenarioRM390,000; 1051-sf furnished sale versus 1012-sf partly furnished rent; condition does not match",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "018"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R228-R",
+    "case": "R228",
+    "claim": "Rent scenarioRM1,500; sensitivityRM1,400–1,700; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "018"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R228-M",
+    "case": "R228",
+    "claim": "Local family affordability is a use thesis; low PSF alone is insufficient; rival: Management, exact access and low achievable rent versus acquisition",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "018"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R229-P",
+    "case": "R229",
+    "claim": "Price scenarioRM350,000; 504-sf price; rent scenario bounded by asks; SOVO component unresolved",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "019",
+      "058"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R229-R",
+    "case": "R229",
+    "claim": "Rent scenarioRM1,500; sensitivityRM1,200–1,700; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "019",
+      "058"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R229-M",
+    "case": "R229",
+    "claim": "Operational rail proximity may support use but cannot settle permitted residential use; rival: Title/component and lender eligibility before residential ranking",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "019",
+      "058"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R230-P",
+    "case": "R230",
+    "claim": "Price scenarioRM290,000; 1055-sf block C partly furnished sale and rent; two bays advertised",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "020",
+      "059"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R230-R",
+    "case": "R230",
+    "claim": "Rent scenarioRM1,300; sensitivityRM1,200–1,500; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "020",
+      "059"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R230-M",
+    "case": "R230",
+    "claim": "Budget family accommodation tests whether affordable entry offsets weaker rents; rival: Block-level maintenance, daily drive friction and parallel landlord supply",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "020",
+      "059"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R231-P",
+    "case": "R231",
+    "claim": "Price scenarioRM210,000; Live 210k partly furnished sale replaces redirected 200k lead; 1200 furnished and 850 partly furnished whole-unit rents",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "021",
+      "060",
+      "104",
+      "106",
+      "110",
+      "112",
+      "115",
+      "120"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R231-R",
+    "case": "R231",
+    "claim": "Rent scenarioRM1,200; sensitivityRM850–1,300; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "021",
+      "060",
+      "104",
+      "106",
+      "110",
+      "112",
+      "115",
+      "120"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R231-M",
+    "case": "R231",
+    "claim": "Compact operating rent can exceed family yield if furnishing premium is durable; rival: The 850 same-area counterexample can destroy coverage; stale transfers do not validate undervaluation",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "021",
+      "060",
+      "104",
+      "106",
+      "110",
+      "112",
+      "115",
+      "120"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R232-P",
+    "case": "R232",
+    "claim": "Price scenarioRM428,000; 723-sf furnished sale and one-year rent ask; not a partitioned 2BR",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "022",
+      "061"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R232-R",
+    "case": "R232",
+    "claim": "Rent scenarioRM2,100; sensitivityRM1,850–2,200; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "022",
+      "061"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R232-M",
+    "case": "R232",
+    "claim": "USJ convenience can support spacious compact demand but not all Sunway institutional rents; rival: Tenant source and bay/operations, especially competing larger units",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "022",
+      "061"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R233-P",
+    "case": "R233",
+    "claim": "Price scenarioRM295,000; 838-sf sale index versus 807-sf partly furnished rent; area adjustment unknown",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "062",
+      "067",
+      "088",
+      "096"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R233-R",
+    "case": "R233",
+    "claim": "Rent scenarioRM1,300; sensitivityRM1,200–1,500; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "062",
+      "067",
+      "088",
+      "096"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R233-M",
+    "case": "R233",
+    "claim": "Subang Bestari family budget case after excluding SS16 Olives and low-rise Persada; rival: Restriction status, older maintenance and access versus landed substitutes",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "062",
+      "067",
+      "088",
+      "096"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R234-P",
+    "case": "R234",
+    "claim": "Price scenarioRM280,000; 452-sf basic sale; 447/450-sf furnished rents near1600, partly furnished1200; 1500 is a furnished scenario",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "024",
+      "063",
+      "076",
+      "120",
+      "124"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R234-R",
+    "case": "R234",
+    "claim": "Rent scenarioRM1,500; sensitivityRM1,200–1,600; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "024",
+      "063",
+      "076",
+      "120",
+      "124"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R234-M",
+    "case": "R234",
+    "claim": "Campus/local employment can support compact use, subject to competing accommodation; rival: Furnishing cost, academic seasonality and anchor concentration; transfer median mixes unit sizes",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "024",
+      "063",
+      "076",
+      "120",
+      "124"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R235-P",
+    "case": "R235",
+    "claim": "Price scenarioRM260,000; Use same sale ad's 1000 rent alongside independent1100; do not select highest furnished rent",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "025"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R235-R",
+    "case": "R235",
+    "claim": "Rent scenarioRM1,000; sensitivityRM1,000–1,300; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "025"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R235-M",
+    "case": "R235",
+    "claim": "A mall address and low total price do not by themselves create enough cash rent; rival: Studio oversupply, commercial operating costs and owner-occupier resale willingness",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "025"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R236-P",
+    "case": "R236",
+    "claim": "Price scenarioRM328,000; 637-sf partly furnished sale and indexed same-size rents; 1+1 versus2BR label",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "026",
+      "064"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R236-R",
+    "case": "R236",
+    "claim": "Rent scenarioRM1,300; sensitivityRM1,200–1,500; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "026",
+      "064"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R236-M",
+    "case": "R236",
+    "claim": "Compact local employment housing needs a buyer distinct from landed-family households; rival: Study functionality, block/phasing and future owner-versus-investor exit",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "026",
+      "064"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R237-P",
+    "case": "R237",
+    "claim": "Price scenarioRM248,000; 454-sf furnished sale/rent; SOHO use and finance still unverified",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "027",
+      "065",
+      "108"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R237-R",
+    "case": "R237",
+    "claim": "Rent scenarioRM1,300; sensitivityRM1,200–1,400; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "027",
+      "065",
+      "108"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R237-M",
+    "case": "R237",
+    "claim": "Bangi local commercial/institutional routines may support tenancy; rival: Bangi is not a proxy for Kajang MRT or all university demand",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "027",
+      "065",
+      "108"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R238-P",
+    "case": "R238",
+    "claim": "Price scenarioRM250,000; 250k advertisement carries full-loan marketing; 949-sf rent1000; rebate-heavy210/220k ad excluded",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "028",
+      "068"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R238-R",
+    "case": "R238",
+    "claim": "Rent scenarioRM1,000; sensitivityRM900–1,200; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "028",
+      "068"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R238-M",
+    "case": "R238",
+    "claim": "Affordable family utility is plausible, but acquisition plus fees exceeds rent; rival: Effective price, buyer restrictions and competing affordable/landed products",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "028",
+      "068"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R239-P",
+    "case": "R239",
+    "claim": "Price scenarioRM520,000; 950-sf partly furnished sale versus furnished rental; two bays advertised",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "029",
+      "069"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R239-R",
+    "case": "R239",
+    "claim": "Rent scenarioRM2,300; sensitivityRM2,000–2,600; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "029",
+      "069"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R239-M",
+    "case": "R239",
+    "claim": "Public-sector/local family routines may be durable yet rent budget constrained; rival: Job proximity is not guaranteed tenant allocation or future ownership demand",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "029",
+      "069"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R240-P",
+    "case": "R240",
+    "claim": "Price scenarioRM500,000; Bare sale versus partly furnished rent; fit-out allowance required",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "031",
+      "070"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R240-R",
+    "case": "R240",
+    "claim": "Rent scenarioRM1,900; sensitivityRM1,700–2,100; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "031",
+      "070"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R240-M",
+    "case": "R240",
+    "claim": "Compact family alternative within western townships must compete with landed utility; rival: Bukit Rimau cannot stand in for Rimbayu/Tropicana Aman/Eco Sanctuary interchangeably",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "031",
+      "070"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R241-P",
+    "case": "R241",
+    "claim": "Price scenarioRM390,000; 685-sf furnished sale versus partly fitted rental; excludes451-sf SOVO from main case",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "032",
+      "071",
+      "095",
+      "112",
+      "119",
+      "077"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R241-R",
+    "case": "R241",
+    "claim": "Rent scenarioRM1,650; sensitivityRM1,500–1,800; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "032",
+      "071",
+      "095",
+      "112",
+      "119",
+      "077"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R241-M",
+    "case": "R241",
+    "claim": "Elmina amenity maturity may support use but opening of a mall is already historical; rival: Exact component and daily access; no unearned future mall-opening uplift",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "032",
+      "071",
+      "095",
+      "112",
+      "119",
+      "077"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R242-P",
+    "case": "R242",
+    "claim": "Price scenarioRM380,000; 660-sf ordinary ask separated from646-sf auction reserves; rent640-sf proxy",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "109",
+      "113",
+      "033"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R242-R",
+    "case": "R242",
+    "claim": "Rent scenarioRM1,500; sensitivityRM1,300–1,800; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "109",
+      "113",
+      "033"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R242-M",
+    "case": "R242",
+    "claim": "Township compact ownership must win against local landed and larger rental alternatives; rival: Advertised launch floor and mixed-size transfer median are not today's price floor",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "109",
+      "113",
+      "033"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R243-P",
+    "case": "R243",
+    "claim": "Price scenarioRM515,000; 720-sf furnished sale two bays versus774-sf2400 rental one bay;2200 analyst scenario",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "090"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R243-R",
+    "case": "R243",
+    "claim": "Rent scenarioRM2,200; sensitivityRM2,000–2,400; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "090"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R243-M",
+    "case": "R243",
+    "claim": "More compact entry tests whether the inherited family case borrowed too much buyer depth; rival: Area/bay/condition adjustments remain unmeasured; no automatic price concession",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "090"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R244-P",
+    "case": "R244",
+    "claim": "Price scenarioRM570,000; 840-sf partly furnished sale and rent; higher fully furnished rent has different bay count",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "082",
+      "092",
+      "101"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R244-R",
+    "case": "R244",
+    "claim": "Rent scenarioRM2,100; sensitivityRM1,900–2,600; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "082",
+      "092",
+      "101"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R244-M",
+    "case": "R244",
+    "claim": "Family-oriented product hypothesis must survive landed substitution and project-level price; rival: 300-400-sf studio listings may be only dual-key components; cannot count them as standalone stock",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "082",
+      "092",
+      "101"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R245-P",
+    "case": "R245",
+    "claim": "Price scenarioRM268,000; 498-sf sale-index lead versus450-sf furnished rent; boundary/size mismatch unresolved",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "091",
+      "100"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R245-R",
+    "case": "R245",
+    "claim": "Rent scenarioRM1,300; sensitivityRM1,100–1,400; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "091",
+      "100"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R245-M",
+    "case": "R245",
+    "claim": "Compact access demand tests an alternative to the inherited larger Sungai Long case; rival: Actual pedestrian route, separate parcel and room-versus-whole-unit evidence",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "091",
+      "100"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R246-P",
+    "case": "R246",
+    "claim": "Price scenarioRM1,250,000; 1099-sf sale index and same-size furnished rents; parking/fit-out not reconciled",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "107",
+      "114"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R246-R",
+    "case": "R246",
+    "claim": "Rent scenarioRM5,000; sensitivityRM4,500–5,500; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "107",
+      "114"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R246-M",
+    "case": "R246",
+    "claim": "ParkCity lifestyle willingness to pay may be real without current rent coverage; rival: Premium ownership universe cannot be transferred to Menjalara; quantified exit premium unproven",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "107",
+      "114"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R247-P",
+    "case": "R247",
+    "claim": "Price scenarioRM470,000; 731-sf470k sale index;1500 furnished rent counterexample selected over1900",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "109",
+      "114",
+      "117"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R247-R",
+    "case": "R247",
+    "claim": "Rent scenarioRM1,500; sensitivityRM1,500–1,900; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "109",
+      "114",
+      "117"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R247-M",
+    "case": "R247",
+    "claim": "Small household product tests a family-township narrative rather than inheriting it; rival: Lower380k sale lead and inconsistent tenure/phase require resolution, not a universal discount",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "109",
+      "114",
+      "117"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R248-P",
+    "case": "R248",
+    "claim": "Price scenarioRM210,000; 550-sf sale index;2026 one-bedroom1200 rent index;2025 two-bedroom ad excluded",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "030",
+      "073",
+      "099",
+      "118",
+      "121"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R248-R",
+    "case": "R248",
+    "claim": "Rent scenarioRM1,200; sensitivityRM1,000–1,300; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "030",
+      "073",
+      "099",
+      "118",
+      "121"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R248-M",
+    "case": "R248",
+    "claim": "Airport-linked local housing may support normal tenancy separately from short stays; rival: Original plan and whole-title identity must be reconciled before counting compact yield",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "030",
+      "073",
+      "099",
+      "118",
+      "121"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R249-P",
+    "case": "R249",
+    "claim": "Price scenarioRM1,198,000; 807-sf furnished sale;807-sf5300 rent and850-sf4800 contrast;5000 is analyst scenario",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "116",
+      "123"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R249-R",
+    "case": "R249",
+    "claim": "Rent scenarioRM5,000; sensitivityRM4,800–5,300; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "116",
+      "123"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R249-M",
+    "case": "R249",
+    "claim": "Institutional and employment convenience can command rent without attractive entry economics; rival: Do not infer achieved rents, student take-up or financing from advertised premium",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "116",
+      "123"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R250-P",
+    "case": "R250",
+    "claim": "Price scenarioRM430,000; 999-sf430k sale and1800 partly furnished rent;advertiser314.70 fee used only as rounded proxy",
+    "status": "Observed advertisement/index, not verified consideration",
+    "retrievals": [
+      "016"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R250-R",
+    "case": "R250",
+    "claim": "Rent scenarioRM1,800; sensitivityRM1,600–2,000; matching limits as inP",
+    "status": "Bounded estimate / asking evidence",
+    "retrievals": [
+      "016"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  },
+  {
+    "id": "R250-M",
+    "case": "R250",
+    "claim": "Mature Setapak household utility tests PV21's unresolved consideration; rival: Off Jalan Gombak does not make this a Sri Gombak case; verify governance and study layout",
+    "status": "Interpretation, not measured demand",
+    "retrievals": [
+      "016"
+    ],
+    "event_date": "Source-specific advertisement dates in linked raw; achieved event unknown",
+    "retrieved": "2026-10-07",
+    "expires_on": "New exact offer/lease/rights/operations evidence; no assumed live availability"
+  }
+]

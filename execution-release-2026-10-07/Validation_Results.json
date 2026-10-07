@@ -1,0 +1,276 @@
+{
+  "scope": "Synthetic logical consistency, not live or blind investment validation",
+  "fixtures": [
+    {
+      "id": "V01",
+      "packet": {
+        "gates_sufficient": true,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": 100,
+        "gross_yield": 0.06,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3
+      },
+      "expected": "Deploy",
+      "result": "Deploy",
+      "research_priority": "Evaluate evidence value",
+      "simple_screen": "Select",
+      "description": "Complete supported synthetic packet"
+    },
+    {
+      "id": "V02",
+      "packet": {
+        "gates_sufficient": false,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": 100,
+        "gross_yield": 0.06,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3
+      },
+      "expected": "Defer",
+      "result": "Defer",
+      "research_priority": "Evaluate evidence value",
+      "simple_screen": "Select",
+      "description": "G0 unknown"
+    },
+    {
+      "id": "V03",
+      "packet": {
+        "gates_sufficient": true,
+        "structural_failure": true,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": 100,
+        "gross_yield": 0.09,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3
+      },
+      "expected": "Reject",
+      "result": "Reject",
+      "research_priority": "Evaluate evidence value",
+      "simple_screen": "Select",
+      "description": "Critical structural failure despite high yield"
+    },
+    {
+      "id": "V04",
+      "packet": {
+        "gates_sufficient": true,
+        "structural_failure": false,
+        "allocation_veto": true,
+        "return_acceptable": true,
+        "monthly_balance": 100,
+        "gross_yield": 0.06,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3
+      },
+      "expected": "Preserve Capacity",
+      "result": "Preserve Capacity",
+      "research_priority": "Evaluate evidence value",
+      "simple_screen": "Select",
+      "description": "Independent allocation mismatch"
+    },
+    {
+      "id": "V05",
+      "packet": {
+        "gates_sufficient": true,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": -100,
+        "gross_yield": 0.06,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3
+      },
+      "expected": "Defer",
+      "result": "Defer",
+      "research_priority": "Lowest: retain/event-watch",
+      "simple_screen": "Exclude",
+      "description": "Announced catalyst only"
+    },
+    {
+      "id": "V06",
+      "packet": {
+        "gates_sufficient": true,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": -100,
+        "gross_yield": 0.06,
+        "transition_validated": true,
+        "transition_carry_funded": true,
+        "bedrooms": 3
+      },
+      "expected": "Deploy",
+      "result": "Deploy",
+      "research_priority": "Lowest: retain/event-watch",
+      "simple_screen": "Exclude",
+      "description": "All transition and other gate requirements stipulated satisfied"
+    },
+    {
+      "id": "V07",
+      "packet": {
+        "gates_sufficient": true,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": -100,
+        "gross_yield": 0.06,
+        "transition_validated": true,
+        "transition_carry_funded": false,
+        "bedrooms": 3
+      },
+      "expected": "Defer",
+      "result": "Defer",
+      "research_priority": "Lowest: retain/event-watch",
+      "simple_screen": "Exclude",
+      "description": "Transition carry not funded"
+    },
+    {
+      "id": "V08",
+      "packet": {
+        "gates_sufficient": true,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": -100,
+        "gross_yield": 0.06,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3,
+        "personal_wealth": 10000000
+      },
+      "expected": "Defer",
+      "result": "Defer",
+      "research_priority": "Lowest: retain/event-watch",
+      "simple_screen": "Exclude",
+      "description": "Wealth does not validate rent uplift"
+    },
+    {
+      "id": "V09",
+      "packet": {
+        "gates_sufficient": true,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": 0,
+        "gross_yield": 0.055,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3
+      },
+      "expected": "Deploy",
+      "result": "Deploy",
+      "research_priority": "Evaluate evidence value",
+      "simple_screen": "Exclude",
+      "description": "Zero coverage and below preferred gross target"
+    },
+    {
+      "id": "V10",
+      "packet": {
+        "gates_sufficient": false,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": 100,
+        "gross_yield": 0.07,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3
+      },
+      "expected": "Defer",
+      "result": "Defer",
+      "research_priority": "Evaluate evidence value",
+      "simple_screen": "Select",
+      "description": "Future buyer unsupported"
+    },
+    {
+      "id": "V11",
+      "packet": {
+        "gates_sufficient": false,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": 100,
+        "gross_yield": 0.06,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3,
+        "transfer_credit": 0,
+        "actual_transfer_demand": null
+      },
+      "expected": "Defer",
+      "result": "Defer",
+      "research_priority": "Evaluate evidence value",
+      "simple_screen": "Select",
+      "description": "No underwriting credit is not no actual demand"
+    },
+    {
+      "id": "V12",
+      "packet": {
+        "gates_sufficient": true,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": 100,
+        "gross_yield": 0.06,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 2
+      },
+      "expected": "Deploy",
+      "result": "Deploy",
+      "research_priority": "Evaluate evidence value",
+      "simple_screen": "Select",
+      "description": "Two-bedroom product on equal sufficient evidence"
+    },
+    {
+      "id": "V13",
+      "packet": {
+        "gates_sufficient": false,
+        "structural_failure": false,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": 100,
+        "gross_yield": 0.08,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3
+      },
+      "expected": "Defer",
+      "result": "Defer",
+      "research_priority": "Evaluate evidence value",
+      "simple_screen": "Select",
+      "description": "Inherited liabilities unknown"
+    },
+    {
+      "id": "V14",
+      "packet": {
+        "gates_sufficient": true,
+        "structural_failure": true,
+        "allocation_veto": false,
+        "return_acceptable": true,
+        "monthly_balance": 100,
+        "gross_yield": 0.08,
+        "transition_validated": false,
+        "transition_carry_funded": false,
+        "bedrooms": 3
+      },
+      "expected": "Reject",
+      "result": "Reject",
+      "research_priority": "Evaluate evidence value",
+      "simple_screen": "Select",
+      "description": "Established title/transfer failure"
+    }
+  ],
+  "checks": "passed",
+  "empirical_deploy_reject_validated": false
+}

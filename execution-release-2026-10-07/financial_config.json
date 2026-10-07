@@ -1,0 +1,23 @@
+{
+  "version": "KV-FIN-90-4-35-v1",
+  "as_of": "2026-10-07",
+  "standard_ltv": 0.9,
+  "standard_rate": 0.04,
+  "standard_term_years": 35,
+  "preferred_gross_yield": 0.06,
+  "illustrative_hold_years": 5,
+  "baseline_paid_months_per_year": 11,
+  "illustrative_equity_hurdle": 0.08,
+  "acquisition_cost_allowance": 0.05,
+  "disposal_cost_allowance": 0.03,
+  "synthetic_cash": 500000,
+  "synthetic_protected_reserve": 150000,
+  "stress_rate": 0.055,
+  "stress_rent_factor": 0.8,
+  "stress_works": 30000,
+  "stress_no_sale_months": 12,
+  "stress_paid_months_first_year": 6,
+  "baseline_authority": "User: 90% LTV, 4% interest, 35 years, management-fee coverage, preferred 6% gross yield",
+  "other_parameters_authority": "Inherited synthetic comparison assumptions; not user finances, legal cost quotations or approved return targets",
+  "cost_boundary": "Fee input is a combined service/sinking proxy; other cost is an allowance. Base figures are pre-tax and omit unquoted transaction-specific costs. Unknown costs are not verified zero."
+}
