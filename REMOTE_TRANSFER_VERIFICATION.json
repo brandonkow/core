@@ -27,6 +27,11 @@
     "permanent_deletion": "Automatic approval review blocked the permanent deletion command; returned only blocked by policy",
     "github_only_retention_achieved": false,
     "unrelated_projects_and_original_inputs": "Preserved",
-    "required_manual_cleanup": "Delete the remaining outputs/residential-investment-engine directory and empty Recycle Bin to retain only the GitHub copy."
+    "required_manual_cleanup": "Remove the protected outputs/residential-investment-engine directory in Windows, then permanently delete only the recycled core folder originally under New project and core-transfer-949c275f12dd.zip/core-transfer-65f060e0091e.zip originally under New project/tmp. Unrelated Recycle Bin contents need not be removed.",
+    "last_attempt_date": "2026-10-07",
+    "source_reverification": "533 remaining local source files rechecked against migration SHA256 and the current remote Git blob IDs; all match.",
+    "source_acl_observation": "Everyone explicitly denied DeleteSubdirectoriesAndFiles on the old generated directory. No permission rule was removed or bypassed.",
+    "recycle_cleanup": "Only the three exact migration items were identified. A native PowerShell command to remove those items was rejected by automatic approval review as blocked by policy. Items remain recoverable in Recycle Bin.",
+    "research_sequence": "User requested cleanup before continuing regional underwriting. B06 remains next; no B06 research completion is claimed."
   }
 }
