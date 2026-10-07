@@ -1,0 +1,737 @@
+{
+  "version": "B06-DESK-01",
+  "cutoff": "2026-10-07",
+  "boundary": "Request/source metadata and failure summaries, not full raw page archives. Full responses were inspected in conversation; no paid access, outreach or local output files.",
+  "calls": [
+    {
+      "id": "B06-F01",
+      "request": {
+        "search_query": [
+          {
+            "q": "Zetapark studio 448 sale rent 2026 title"
+          },
+          {
+            "q": "RES 280 studio 657 sale rent 2026"
+          },
+          {
+            "q": "Kwasa Damansara apartment condominium residential 2026 developer"
+          },
+          {
+            "q": "Urban 360 1001 350000 sale rent 1800"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F22",
+        "F23",
+        "F24"
+      ],
+      "returned_url_count": 37,
+      "limitation": []
+    },
+    {
+      "id": "B06-F02",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Zetapark\" \"448\" \"sale\" \"rent\""
+          },
+          {
+            "q": "\"RES 280\" \"studio\" \"sale\" \"rent\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F36"
+      ],
+      "returned_url_count": 12,
+      "limitation": []
+    },
+    {
+      "id": "B06-F03",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Urban 360\" \"1001\" \"350,000\""
+          },
+          {
+            "q": "\"Spring Ville\" \"728\" \"rent\" \"1,100\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F01"
+      ],
+      "returned_url_count": 12,
+      "limitation": []
+    },
+    {
+      "id": "B06-F04",
+      "request": {
+        "search_query": [
+          {
+            "q": "Zetapark studio 488 for sale rent 2026"
+          },
+          {
+            "q": "Urban 360 1001 for rent 1800 2026"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F02"
+      ],
+      "returned_url_count": 18,
+      "limitation": []
+    },
+    {
+      "id": "B06-F05",
+      "request": {
+        "search_query": [
+          {
+            "q": "Spring Ville Ukay Perdana 728 for rent 1100"
+          },
+          {
+            "q": "168 Park Selayang 624 for sale 260000"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F05",
+        "F06",
+        "F07",
+        "F17",
+        "F34",
+        "F35"
+      ],
+      "returned_url_count": 20,
+      "limitation": []
+    },
+    {
+      "id": "B06-F06",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.168parkselayang.com.my/"
+          },
+          {
+            "ref_id": "https://kwasacitycentre.com/"
+          },
+          {
+            "ref_id": "https://www.edgeprop.my/listing/sale/3532114/spring-ville-apartment-ukay-perdana-for-sale-by-jamil"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/property-for-rent/at-urban-360-5432"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F02"
+      ],
+      "returned_url_count": 7,
+      "limitation": [
+        "Failed to fetch https://www.168parkselayang.com.my/: (400) Timeout fetching",
+        "Failed to fetch https://www.edgeprop.my/listing/sale/3532114/spring-ville-apartment-ukay-perdana-for-sale-by-jamil: (400) Timeout fetching"
+      ]
+    },
+    {
+      "id": "B06-F07",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn454view1",
+            "id": 8
+          },
+          {
+            "ref_id": "turn454view3",
+            "id": 20
+          },
+          {
+            "ref_id": "turn454view3",
+            "id": 19
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.168parkselayang.com.my/wp-content/uploads/2023/09/168-Park-Selayang_Bole-Brochure.pdf"
+          },
+          {
+            "ref_id": "https://hims.kpkt.gov.my/files/30300/30300-1/IKLAN_BROSUR_01.pdf"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F02",
+        "F03",
+        "F17",
+        "F18"
+      ],
+      "returned_url_count": 7,
+      "limitation": [
+        "Failed to fetch https://www.168parkselayang.com.my/wp-content/uploads/2023/09/168-Park-Selayang_Bole-Brochure.pdf: (400) Content length is too large: 27304455"
+      ]
+    },
+    {
+      "id": "B06-F08",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn455view2",
+            "pattern": "573"
+          },
+          {
+            "ref_id": "turn455view2",
+            "pattern": "Permit"
+          },
+          {
+            "ref_id": "turn455view4",
+            "pattern": "About"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn455view2",
+            "lineno": 30
+          },
+          {
+            "ref_id": "turn455view4",
+            "lineno": 155
+          }
+        ],
+        "screenshot": [
+          {
+            "ref_id": "turn455view1",
+            "pageno": 10
+          },
+          {
+            "ref_id": "turn455view1",
+            "pageno": 8
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F03",
+        "F18"
+      ],
+      "returned_url_count": 2,
+      "limitation": []
+    },
+    {
+      "id": "B06-F09",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Zen Suites\" \"sale\" \"450\" \"2026\""
+          },
+          {
+            "q": "\"Selayang Point\" \"sale\" \"rent\" \"2026\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F31"
+      ],
+      "returned_url_count": 12,
+      "limitation": []
+    },
+    {
+      "id": "B06-F10",
+      "request": {
+        "search_query": [
+          {
+            "q": "site.ehsanauctioneers.com \"D'Sara\" \"2026\" \"861\""
+          },
+          {
+            "q": "site.exsim.com.my \"Evia\" \"Kwasa\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F19"
+      ],
+      "returned_url_count": 13,
+      "limitation": []
+    },
+    {
+      "id": "B06-F11",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Zen Suites\" \"450\" \"sale\" site:propertyguru.com.my"
+          },
+          {
+            "q": "\"Selayang Point\" \"1108\" \"350,000\" \"2026\""
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://devia.com.my/"
+          },
+          {
+            "ref_id": "https://teduh.kpkt.gov.my/semakan-status-kemajuan?kodProjek=31064-1"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F20",
+        "F21"
+      ],
+      "returned_url_count": 14,
+      "limitation": []
+    },
+    {
+      "id": "B06-F12",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Zen Suites\" \"677\" \"300000\" sale"
+          },
+          {
+            "q": "\"168 Park\" \"624\" \"1500\" rent"
+          },
+          {
+            "q": "site.mahsing.com.my \"M Astra\" \"M Azura\" completion"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F08",
+        "F27"
+      ],
+      "returned_url_count": 18,
+      "limitation": []
+    },
+    {
+      "id": "B06-F13",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Zen Suites\" \"677\" \"300,000\" \"Sky Say\""
+          }
+        ],
+        "response_length": "short"
+      },
+      "selected_evidence_ids": [
+        "F12"
+      ],
+      "returned_url_count": 8,
+      "limitation": []
+    },
+    {
+      "id": "B06-F14",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"168 Park\" \"624\" \"rent\" \"2026\" \"1500\""
+          }
+        ],
+        "response_length": "short"
+      },
+      "selected_evidence_ids": [
+        "F09"
+      ],
+      "returned_url_count": 6,
+      "limitation": []
+    },
+    {
+      "id": "B06-F15",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"D Sara\" \"SB2\" \"31\" \"245700\" auction"
+          }
+        ],
+        "response_length": "short"
+      },
+      "selected_evidence_ids": [],
+      "returned_url_count": 0,
+      "limitation": [
+        "No results were found for the provided queries"
+      ]
+    },
+    {
+      "id": "B06-F16",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-listing/zen-suites-zetapark-for-sale-by-sky-say-26787728"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/bm/hartanah-dijual/di-selayang-point-2735/diatas-750-kps"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-listing/spring-ville-for-sale-by-gudrotullah-ikhwan-502025397"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F04",
+        "F12"
+      ],
+      "returned_url_count": 3,
+      "limitation": []
+    },
+    {
+      "id": "B06-F17",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Zen Suites\" \"677\" \"rent\" \"Sky Say\""
+          },
+          {
+            "q": "\"Selayang Point\" \"1108\" \"1500\" rent"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F11",
+        "F13"
+      ],
+      "returned_url_count": 12,
+      "limitation": []
+    },
+    {
+      "id": "B06-F18",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn464view0",
+            "pattern": "About this property"
+          },
+          {
+            "ref_id": "turn464view2",
+            "pattern": "About this property"
+          },
+          {
+            "ref_id": "turn464view1",
+            "pattern": "335,000"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn459view0",
+            "lineno": 1
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F04",
+        "F12",
+        "F20"
+      ],
+      "returned_url_count": 4,
+      "limitation": []
+    },
+    {
+      "id": "B06-F19",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn464view1",
+            "id": 26
+          },
+          {
+            "ref_id": "turn466view0",
+            "id": 12
+          },
+          {
+            "ref_id": "turn466view0",
+            "id": 15
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"D Sara Sentral\" \"221,100\" auction proclamation"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F10",
+        "F20"
+      ],
+      "returned_url_count": 3,
+      "limitation": [
+        "No results were found for the provided queries--------------------------------------------------------------------------------",
+        "Failed to fetch https://devia.com.my/pdf/Devia_E-Brochure.pdf: (400) Content length is too large: 61311264"
+      ]
+    },
+    {
+      "id": "B06-F20",
+      "request": {
+        "search_query": [
+          {
+            "q": "site.brickz.my \"URBAN 360\" \"2026\""
+          },
+          {
+            "q": "site.brickz.my \"SPRING VILLE\" \"2026\""
+          },
+          {
+            "q": "site.brickz.my \"WANGSA METROVIEW\" \"2026\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F29",
+        "F30",
+        "F37",
+        "F38"
+      ],
+      "returned_url_count": 19,
+      "limitation": []
+    },
+    {
+      "id": "B06-F21",
+      "request": {
+        "search_query": [
+          {
+            "q": "URBAN 360 transactions",
+            "domains": [
+              "brickz.my"
+            ]
+          },
+          {
+            "q": "SPRING VILLE UKAY transactions",
+            "domains": [
+              "brickz.my"
+            ]
+          }
+        ],
+        "response_length": "short"
+      },
+      "selected_evidence_ids": [
+        "F28"
+      ],
+      "returned_url_count": 12,
+      "limitation": []
+    },
+    {
+      "id": "B06-F22",
+      "request": {
+        "search_query": [
+          {
+            "q": "D'SARA SENTRAL transactions",
+            "domains": [
+              "brickz.my"
+            ]
+          },
+          {
+            "q": "168 RESIDENSI SELAYANG transactions",
+            "domains": [
+              "brickz.my"
+            ]
+          }
+        ],
+        "response_length": "short"
+      },
+      "selected_evidence_ids": [
+        "F32",
+        "F33"
+      ],
+      "returned_url_count": 12,
+      "limitation": []
+    },
+    {
+      "id": "B06-F23",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn468view0",
+            "pattern": "Tentang"
+          },
+          {
+            "ref_id": "turn468view0",
+            "pattern": "Maintenance"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.mahsing.com.my/news/mah-sing-completes-m-astra-15-months-early-with-record-89-qlassic-rating/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F10",
+        "F26"
+      ],
+      "returned_url_count": 2,
+      "limitation": [
+        "No matching text found for \"Maintenance\""
+      ]
+    },
+    {
+      "id": "B06-F24",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn468view0",
+            "lineno": 85
+          },
+          {
+            "ref_id": "https://www.mudah.my/for-sale-urban-360-taman-sri-gombak-gombak-selangor-115844924.htm"
+          },
+          {
+            "ref_id": "https://cdn01.sunsuria.com/ENG_PRESS_RELEASE_Kwasa_Land_X_Sunsuria_851fe3d0ad.pdf"
+          },
+          {
+            "ref_id": "https://lbs.com.my/press-releases/lbs-bina-secures-development-rights-for-192-32-acres-in-kwasa-damansara/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F01",
+        "F10",
+        "F22",
+        "F23"
+      ],
+      "returned_url_count": 5,
+      "limitation": []
+    },
+    {
+      "id": "B06-F25",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"M Azura\" \"1140\" site:mahsing.com.my"
+          },
+          {
+            "q": "\"PV22\" \"2028\" site:platinumvictory.com"
+          },
+          {
+            "q": "\"D Sara Sentral\" \"7 Oct 2026\" \"SB2\""
+          }
+        ],
+        "response_length": "short"
+      },
+      "selected_evidence_ids": [],
+      "returned_url_count": 2,
+      "limitation": []
+    },
+    {
+      "id": "B06-F26",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-for-sale/at-spring-ville-215"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-for-sale/at-urban-360-5432"
+          },
+          {
+            "ref_id": "https://platinumvictory.com/development/pv22-residences/"
+          }
+        ],
+        "response_length": "short"
+      },
+      "selected_evidence_ids": [
+        "F25",
+        "F37"
+      ],
+      "returned_url_count": 4,
+      "limitation": []
+    },
+    {
+      "id": "B06-F27",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn474view0",
+            "id": 42
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn474view1",
+            "pattern": "220,000"
+          },
+          {
+            "ref_id": "turn474view2",
+            "pattern": "Total Unit"
+          },
+          {
+            "ref_id": "turn469view0",
+            "pattern": "15 months"
+          }
+        ],
+        "response_length": "short"
+      },
+      "selected_evidence_ids": [
+        "F15",
+        "F26"
+      ],
+      "returned_url_count": 3,
+      "limitation": [
+        "No matching text found for \"Total Unit\"--------------------------------------------------------------------------------",
+        "Failed to fetch https://www.mahsing.com.my/news/mah-sing-completes-m-astra-15-months-early-with-record-89-qlassic-rating/: (400) Timeout fetching"
+      ]
+    },
+    {
+      "id": "B06-F28",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn475view1",
+            "id": 68
+          },
+          {
+            "ref_id": "turn475view1",
+            "id": 42
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn475view0",
+            "pattern": "About this property"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F14",
+        "F15",
+        "F16"
+      ],
+      "returned_url_count": 3,
+      "limitation": []
+    },
+    {
+      "id": "B06-F29",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn476view0",
+            "pattern": "About this property"
+          },
+          {
+            "ref_id": "turn476view1",
+            "pattern": "About this property"
+          }
+        ],
+        "response_length": "long"
+      },
+      "selected_evidence_ids": [
+        "F14",
+        "F16"
+      ],
+      "returned_url_count": 2,
+      "limitation": []
+    }
+  ]
+}

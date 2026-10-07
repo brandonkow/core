@@ -1,0 +1,17 @@
+{
+  "release": "B06-DESK-01",
+  "status": "PRE_PUBLICATION_CHECKS_PASSED",
+  "source_commit": "dfa0109021892c7e01621e34454be3ebc0c6c157",
+  "checks": "amortisation, principal conservation, independent cost basis and discounted exit identities passed",
+  "financial_evaluations": 204,
+  "pair_paths": 91,
+  "rank_cells": 36,
+  "original_numeric_expressions_preserved": 9,
+  "new_operating_expressions": 5,
+  "threshold_only_controls": 2,
+  "new_evidence_records": 38,
+  "capital_decision": "Defer; zero Deploy",
+  "research_status": "B06 bounded desk-complete; programme incomplete",
+  "verification_boundary": "This receipt records preparation checks. Run verify_b06_desk_01.py against the published commit for remote hashes, prior-file preservation, master integrity and full deterministic financial replay. Mechanical checks do not validate market outcomes.",
+  "local_files": "Existing local files left untouched; no persistent local output/clone created."
+}
