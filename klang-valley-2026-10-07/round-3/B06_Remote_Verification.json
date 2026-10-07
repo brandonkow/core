@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "commit": "4a9eb9ccbac167412d47c7df8bfa90f922087418",
+  "manifest_files": 13,
+  "preserved_prior_files": 545,
+  "inherited_numeric_expressions": 9,
+  "financial_evaluations": 204,
+  "pairs": 91,
+  "pair_passes": 91,
+  "rank_cells": 36,
+  "master_unchanged": true,
+  "decision": "14 Defer plus2 threshold controls; no Deploy",
+  "research_boundary": "B06 bounded desk-complete; full programme incomplete",
+  "verified_against": "Published immutable B06 commit; authenticated remote byte/hash verification and deterministic replay",
+  "no_market_outcome_validation": true
+}
