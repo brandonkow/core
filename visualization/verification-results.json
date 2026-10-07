@@ -1,0 +1,86 @@
+{
+  "date": "2026-10-07",
+  "baseline_main": "ca6f5581dfa5ad324b32972b449ff186ca6157d6",
+  "claude_source": "e0ab750ad989f3da955d41790dc061b8aaf99e94",
+  "logic": {
+    "status": "PASS",
+    "htmlSha256": "923949805bd7136fac1c1ed44a462253615bb1e500c46a46a1d91da58ac12da5",
+    "sourceFiles": 8,
+    "quotations": 164,
+    "nodes": 112,
+    "edges": 299,
+    "core": 35,
+    "gates": 10,
+    "steps": 16,
+    "presets": 7,
+    "combinations": 1492992,
+    "decisions": {
+      "deploy": 105,
+      "defer": 221079,
+      "reject": 1161216,
+      "preserve": 110592
+    }
+  },
+  "browser": {
+    "status": "PASS",
+    "checks": [
+      "16 reasoning steps, panel text and node activation",
+      "7 presets; partial residual default, explicit pass and reset; independent Reject; G5 lock; shortfall transition",
+      "Long result no longer covers final form inputs",
+      "112 inspectors; calculator blank/negative/zero-price rejection; exact 6% boundary",
+      "Mouse mode controls, panel toggle, zoom controls and trusted Enter on SVG node",
+      "Six responsive/theme configurations without horizontal overflow; mobile sheet open/close"
+    ],
+    "layouts": [
+      [
+        1440,
+        900,
+        "light"
+      ],
+      [
+        1440,
+        900,
+        "dark"
+      ],
+      [
+        1024,
+        768,
+        "light"
+      ],
+      [
+        861,
+        600,
+        "light"
+      ],
+      [
+        390,
+        844,
+        "dark"
+      ],
+      [
+        320,
+        568,
+        "light"
+      ]
+    ],
+    "pageExceptions": 0,
+    "calculatorDefault": "Loan principal (90% of price)\nRM 450,000.00\nInstalment (4%, 420 months)\nRM 1,992.49\nStandard monthly coverage\n−RM 142.49\nResult\nNegative · shortfall → lowest research tier\nGross yield (truncated, not rounded)\n5.280000% · below the 6% preference\nRent for zero coverage (rounded up)\nRM 2,342.49\nRent for 6% gross (rounded up)\nRM 2,500.00",
+    "browser": "Edg/154.0.4258.62"
+  },
+  "extra_browser": {
+    "status": "PASS",
+    "checks": [
+      "zoom in/out restoration",
+      "trusted pointer drag",
+      "autoplay advance and pause",
+      "trusted ArrowRight",
+      "fonts blocked fallback"
+    ],
+    "pageExceptions": 0
+  },
+  "limits": [
+    "Original 41 individual findings and verifier transcripts were not committed; no claim of one-for-one closure.",
+    "Browser tests used headless Edge with emulated viewport sizes, not physical-device or assistive-technology certification.",
+    "Logical and UI verification is not empirical investment validation."
+  ]
+}
