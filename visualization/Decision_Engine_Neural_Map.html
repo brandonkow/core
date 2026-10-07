@@ -1,0 +1,1487 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<style>
+/* standalone reset (matches the artifact host skeleton) */
+:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+img{max-width:100%}
+[hidden]{display:none!important}
+</style>
+<title>Decision Engine Neural Map</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;1,8..60,400;1,8..60,500&display=swap">
+<style>
+:root{
+  /* Layout: one-screen app. Header / stage (pan-zoom SVG map + inspector) / step ribbon.
+     Layers run left to right like a feed-forward net; G0–G9 form the vertical spine. */
+  --bg:#E5EAEE;
+  --surface:#F8FAFB;
+  --surface-2:#EEF2F5;
+  --ink:#0F1820;
+  --ink-2:#425367;
+  --ink-3:#768596;
+  --line:#C7D0D9;
+  --wire:#3F5269;
+  --wire-o:.15;
+  --grid:#C9D2DA;
+  --signal:#2744CF;
+  --c-in:#08717D;
+  --c-div:#A85F00;
+  --c-core:#394A5E;
+  --c-sop:#76439A;
+  --go:#16704A;
+  --stop:#BA2D18;
+  --hold:#3B6183;
+  --glow:none;
+  --shadow:0 10px 30px rgba(20,34,52,.12);
+  --font-display:"Archivo","Helvetica Neue",Arial,sans-serif;
+  --font-body:"Archivo",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A0F15; --surface:#111921; --surface-2:#0D141B; --ink:#E2E8EE; --ink-2:#9DABBA; --ink-3:#64727F;
+    --line:#24303C; --wire:#93A6BC; --wire-o:.13; --grid:#1A242E;
+    --signal:#8297FF; --c-in:#3CBFC8; --c-div:#EFA03A; --c-core:#AFBCCB; --c-sop:#C79DE6;
+    --go:#45C88E; --stop:#FF6F58; --hold:#8FB4D7;
+    --glow:drop-shadow(0 0 3px rgba(130,151,255,.75));
+    --shadow:0 10px 30px rgba(0,0,0,.45);
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A0F15; --surface:#111921; --surface-2:#0D141B; --ink:#E2E8EE; --ink-2:#9DABBA; --ink-3:#64727F;
+  --line:#24303C; --wire:#93A6BC; --wire-o:.13; --grid:#1A242E;
+  --signal:#8297FF; --c-in:#3CBFC8; --c-div:#EFA03A; --c-core:#AFBCCB; --c-sop:#C79DE6;
+  --go:#45C88E; --stop:#FF6F58; --hold:#8FB4D7;
+  --glow:drop-shadow(0 0 3px rgba(130,151,255,.75));
+  --shadow:0 10px 30px rgba(0,0,0,.45);
+  color-scheme:dark;
+}
+html{height:100%;box-sizing:border-box}
+*,*::before,*::after{box-sizing:inherit}
+body{height:100%;margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:14px;line-height:1.5;overflow:hidden}
+button{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--signal);outline-offset:2px}
+
+.app{height:100%;display:grid;grid-template-rows:auto minmax(0,1fr) auto;gap:10px;padding-inline:16px;padding-block:10px}
+
+/* header */
+.top{display:flex;flex-wrap:wrap;align-items:center;gap:10px 22px;min-width:0}
+.brand{display:flex;flex-direction:column;min-width:0;margin-right:auto}
+.brand h1{margin:0;font-family:var(--font-display);font-stretch:118%;font-weight:780;font-size:21px;letter-spacing:-.01em;line-height:1.1;text-wrap:balance}
+.brand h1 span{font-weight:420;color:var(--ink-2)}
+.brand .meta{margin:3px 0 0;font-family:var(--font-mono);font-size:10.5px;color:var(--ink-3);letter-spacing:.02em;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.modes{display:flex;gap:2px;padding:3px;border:1px solid var(--line);border-radius:8px;background:var(--surface);overflow-x:auto;max-width:100%}
+.modes button{border:0;background:transparent;padding:6px 12px;border-radius:5px;font-weight:560;font-size:13px;cursor:pointer;white-space:nowrap;color:var(--ink-2)}
+.modes button[aria-selected="true"]{background:var(--ink);color:var(--bg)}
+.modes button:hover:not([aria-selected="true"]){background:var(--surface-2);color:var(--ink)}
+.tools{display:flex;gap:6px}
+.btn{border:1px solid var(--line);background:var(--surface);padding:6px 10px;border-radius:6px;cursor:pointer;font-size:12.5px;font-weight:560;white-space:nowrap}
+.btn:hover{border-color:var(--ink-3)}
+.btn:disabled{opacity:.4;cursor:default}
+
+/* stage */
+.stage{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 372px;gap:10px;min-height:0}
+.stage.collapsed{grid-template-columns:minmax(0,1fr)}
+.stage.collapsed .drawer{display:none}
+.mapwrap{position:relative;min-width:0;min-height:0;border:1px solid var(--line);border-radius:10px;background:var(--surface-2);overflow:hidden}
+#map{display:block;width:100%;height:100%;touch-action:none;cursor:grab;user-select:none;-webkit-user-select:none}
+#map.grabbing{cursor:grabbing}
+.mapctl{position:absolute;left:10px;bottom:10px;display:flex;align-items:center;gap:6px}
+.mapctl .btn{padding:4px 9px;font-family:var(--font-mono);font-size:12px}
+.hint{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-3);background:color-mix(in srgb,var(--surface-2) 85%,transparent);padding:2px 6px;border-radius:4px}
+.tip{position:absolute;pointer-events:none;max-width:260px;padding:7px 9px;border-radius:6px;background:var(--ink);color:var(--bg);font-size:12px;line-height:1.35;box-shadow:var(--shadow);z-index:3}
+.tip b{display:block;font-weight:650}
+.tip span{font-family:var(--font-mono);font-size:10px;opacity:.75}
+
+/* drawer */
+.drawer{min-height:0;overflow:auto;border:1px solid var(--line);border-radius:10px;background:var(--surface);overscroll-behavior:contain}
+.sheetbar{display:none}
+.dz{padding:18px 20px 26px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.dz h2{margin:0;font-family:var(--font-display);font-stretch:108%;font-size:20px;font-weight:720;line-height:1.2;letter-spacing:-.005em;text-wrap:balance}
+.dz h3{margin:8px 0 0;font-family:var(--font-mono);font-size:10.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3)}
+.dz p{margin:0;max-width:65ch;color:var(--ink-2)}
+.dz p strong{color:var(--ink)}
+.eyebrow{margin:0;font-family:var(--font-mono);font-size:10.5px;font-weight:600;letter-spacing:.09em;text-transform:uppercase;color:var(--ink-3)}
+.eyebrow b{color:var(--lc,var(--signal));font-weight:600}
+.quote{margin:0;padding:12px 14px;background:var(--surface-2);border-radius:6px}
+.quote figcaption{font-family:var(--font-mono);font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink-3);margin-bottom:5px}
+.quote blockquote{margin:0;font-family:var(--font-serif);font-style:italic;font-size:15.5px;line-height:1.45;color:var(--ink)}
+.formula{font-family:var(--font-mono);font-size:11.5px;line-height:1.7;color:var(--ink);padding:10px 12px;border:1px dashed var(--line);border-radius:6px}
+.stoprule{padding:9px 12px;border:1.5px solid var(--stop);border-radius:6px;font-weight:600;color:var(--ink)}
+.stoprule span{display:block;font-family:var(--font-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--stop);margin-bottom:2px}
+.stoprule.cond{border-color:var(--c-div)}
+.stoprule.cond span{color:var(--c-div)}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap}
+dl.facts{margin:0;display:grid;gap:9px}
+dl.facts div{display:grid;gap:2px}
+dl.facts dt{font-family:var(--font-mono);font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:var(--ink-3)}
+dl.facts dd{margin:0;color:var(--ink-2)}
+ul.plain{margin:0;padding-left:18px;color:var(--ink-2);display:grid;gap:3px}
+ul.plain li::marker{color:var(--ink-3)}
+.links{display:grid;gap:6px}
+.lrow{display:grid;grid-template-columns:auto 1fr;gap:3px 8px;align-items:start}
+.lrow .why{grid-column:1 / -1;font-size:12px;color:var(--ink-3);line-height:1.4}
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--surface);border-radius:5px;padding:3px 8px;font-size:12.5px;cursor:pointer;max-width:100%;text-align:left}
+.chip:hover{border-color:var(--ink-3)}
+.chip code{font-family:var(--font-mono);font-size:10.5px;color:var(--lc,var(--ink-3))}
+.chip i{width:8px;height:8px;border-radius:2px;background:var(--lc,var(--ink-3));flex:none}
+.tag{justify-self:start;font-family:var(--font-mono);font-size:9.5px;letter-spacing:.06em;text-transform:uppercase;padding:1px 5px;border-radius:3px;border:1px solid var(--line);color:var(--ink-3);align-self:center}
+.tag.s{color:var(--ink-2);border-color:var(--ink-3)}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.navrow{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}
+.navrow .btns{display:flex;gap:6px}
+.primary{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.primary:hover{opacity:.9}
+.fine{font-size:12px!important;color:var(--ink-3)!important;line-height:1.45}
+.key{list-style:none;margin:0;padding:0;display:grid;gap:7px}
+.key li{display:grid;grid-template-columns:44px 1fr;gap:10px;align-items:center;color:var(--ink-2);font-size:13px}
+.key svg{width:44px;height:16px;overflow:visible}
+.swatches{display:flex;flex-wrap:wrap;gap:6px 12px;font-size:12.5px;color:var(--ink-2)}
+.swatches span{display:inline-flex;align-items:center;gap:6px}
+.swatches i{width:10px;height:10px;border-radius:2px;border:1.5px solid var(--lc);background:color-mix(in srgb,var(--lc) 16%,var(--surface))}
+.srcs{list-style:none;margin:0;padding:0;display:grid;gap:3px;font-family:var(--font-mono);font-size:11px;color:var(--ink-2);word-break:break-word}
+
+/* calculator */
+.calc{display:grid;gap:10px;padding:12px;border:1px solid var(--line);border-radius:8px}
+.calc .inputs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.calc label{display:grid;gap:3px;font-size:11px;color:var(--ink-3);font-family:var(--font-mono);letter-spacing:.02em}
+.calc input{width:100%;min-width:0;padding:6px 7px;border:1px solid var(--line);border-radius:5px;background:var(--surface-2);color:var(--ink);font:500 13px var(--font-mono);font-variant-numeric:tabular-nums}
+.calc dl{margin:0;display:grid;gap:5px}
+.calc dl div{display:flex;justify-content:space-between;gap:10px;border-bottom:1px dotted var(--line);padding-bottom:4px}
+.calc dt{color:var(--ink-2);font-size:12.5px}
+.calc dd{margin:0;font-family:var(--font-mono);font-size:12.5px;font-variant-numeric:tabular-nums;text-align:right}
+.calc .neg{color:var(--stop)} .calc .pos{color:var(--go)}
+
+/* run console */
+.result{display:grid;gap:8px;padding:14px;border-radius:8px;border:1.5px solid var(--dc,var(--line));background:color-mix(in srgb,var(--dc,var(--ink-3)) 7%,var(--surface))}
+.verdict{font-family:var(--font-display);font-stretch:112%;font-weight:780;font-size:26px;line-height:1;color:var(--dc)}
+.d-deploy{--dc:var(--go)} .d-defer{--dc:var(--c-div)} .d-reject{--dc:var(--stop)} .d-preserve{--dc:var(--hold)}
+.reasons{margin:0;padding-left:18px;display:grid;gap:5px;font-size:13px;color:var(--ink)}
+.reasons small{display:block;font-family:var(--font-mono);font-size:10px;color:var(--ink-3);letter-spacing:.03em}
+.prio{font-size:12.5px;color:var(--ink-2)}
+.prio b{color:var(--ink)}
+.presets{display:flex;flex-wrap:wrap;gap:6px}
+.presets button{border:1px solid var(--line);background:var(--surface);border-radius:5px;padding:5px 8px;font-size:12px;cursor:pointer;text-align:left;line-height:1.3}
+.presets button:hover{border-color:var(--ink-3)}
+.presets button[aria-pressed="true"]{border-color:var(--signal);box-shadow:inset 0 0 0 1px var(--signal)}
+form.run{display:grid;gap:10px;margin:0}
+form.run fieldset{border:0;margin:0;padding:0;display:grid;gap:4px;min-width:0}
+form.run legend{padding:0;font-family:var(--font-mono);font-size:10.5px;font-weight:600;letter-spacing:.05em;color:var(--ink-2);margin-bottom:4px}
+.seg{position:relative;display:flex;flex-wrap:wrap;gap:4px}
+.seg input{position:absolute;opacity:0;pointer-events:none}
+.seg label{border:1px solid var(--line);border-radius:5px;padding:4px 8px;font-size:12px;cursor:pointer;background:var(--surface);color:var(--ink-2)}
+.seg input:checked + label{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.seg input:focus-visible + label{outline:2px solid var(--signal);outline-offset:2px}
+.seg input:disabled + label{opacity:.4;cursor:not-allowed}
+
+/* ribbon */
+.ribbon{display:flex;align-items:center;gap:10px;min-width:0}
+.ribbon .lab{font-family:var(--font-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);white-space:nowrap}
+.steps{display:flex;gap:4px;overflow-x:auto;min-width:0;flex:1;scrollbar-width:thin;padding-bottom:2px}
+.steps button{flex:none;display:flex;align-items:baseline;gap:5px;border:1px solid var(--line);background:var(--surface);border-radius:5px;padding:5px 9px;font-size:12px;cursor:pointer;color:var(--ink-2)}
+.steps button b{font-family:var(--font-mono);font-size:10.5px;color:var(--ink-3);font-weight:600}
+.steps button.g b{color:var(--signal)}
+.steps button[aria-current="step"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.steps button[aria-current="step"] b{color:var(--bg);opacity:.75}
+.play{min-width:64px}
+
+/* ---- SVG ---- */
+:where(#map) text{font-family:var(--font-body);fill:var(--ink)}
+.griddot{fill:var(--grid)}
+.layerhead .num{font-family:var(--font-mono);font-size:11px;font-weight:600;fill:var(--signal)}
+.layerhead .name{font-family:var(--font-display);font-stretch:112%;font-size:15px;font-weight:740;letter-spacing:.01em}
+.layerhead .what{font-family:var(--font-mono);font-size:9.5px;fill:var(--ink-3);letter-spacing:.03em}
+.grouphead{font-family:var(--font-mono)!important;font-size:8.8px;font-weight:600;letter-spacing:.09em;fill:var(--ink-3)!important;text-transform:uppercase}
+.edge{fill:none;stroke:var(--wire);stroke-opacity:var(--wire-o);stroke-linecap:round;transition:stroke-opacity .18s}
+.edge.interp{stroke-dasharray:3 3.5}
+.edge.spine{stroke:var(--ink);stroke-opacity:.55}
+.edge.lane{stroke:var(--ink-2);stroke-opacity:.5;stroke-dasharray:5 4}
+.edge.hot{stroke:var(--signal);filter:var(--glow)}
+.edge.r-pass{stroke:var(--go);stroke-opacity:.9}
+.edge.r-cond{stroke:var(--ink-3);stroke-opacity:.7;stroke-dasharray:2 4}
+.edge.r-out{stroke:var(--dc);stroke-opacity:.95;stroke-width:2.4px}
+.arrowhead{fill:var(--ink-2)}
+.tick{stroke:var(--c-core);stroke-opacity:.35;stroke-width:1}
+.node{cursor:pointer;transition:opacity .18s}
+.node.dim{opacity:.2}
+.node .body{fill:var(--surface);stroke:var(--lc);stroke-width:1;transition:fill .18s,stroke-width .18s}
+.node .code{font-family:var(--font-mono)!important;font-size:9.4px;font-weight:500;fill:var(--lc)!important}
+.node .lbl{font-size:11px;font-stretch:86%;font-weight:520}
+.node .sub{font-family:var(--font-mono)!important;font-size:8.4px;fill:var(--ink-3)!important}
+.node .port{fill:var(--lc)}
+.node.lit .body{fill:color-mix(in srgb,var(--lc) 14%,var(--surface));stroke-width:1.7}
+.node.half .body{fill:color-mix(in srgb,var(--lc) 6%,var(--surface))}
+.node.sel .body{stroke:var(--signal);stroke-width:2.2}
+.node:focus{outline:none}
+.node:focus-visible .body{stroke:var(--signal);stroke-width:2.4}
+.L-in{--lc:var(--c-in)} .L-det,.L-inv,.L-cell{--lc:var(--c-div)} .L-core{--lc:var(--c-core)} .L-sop{--lc:var(--c-sop)}
+.L-gate{--lc:var(--ink)} .L-role,.L-lane,.L-prio{--lc:var(--ink-2)} .L-bus{--lc:var(--c-core)}
+.L-dec.k-deploy{--lc:var(--go)} .L-dec.k-defer{--lc:var(--c-div)} .L-dec.k-reject{--lc:var(--stop)} .L-dec.k-preserve{--lc:var(--hold)}
+.boxhead{font-family:var(--font-display);font-stretch:104%;font-size:13px;font-weight:720}
+.axis{font-family:var(--font-mono)!important;font-size:8.4px;fill:var(--ink-3)!important;letter-spacing:.04em}
+.node.L-cell .lbl{font-size:10.4px}
+.gate .tab{fill:var(--ink)}
+.gate .gcode{font-family:var(--font-mono)!important;font-size:14px;font-weight:600;fill:var(--bg)!important}
+.gate .glbl{font-size:12px;font-stretch:90%;font-weight:640}
+.gate .gbadge{font-family:var(--font-mono)!important;font-size:8.4px;font-weight:600;letter-spacing:.06em;fill:var(--ink-3)!important}
+.gate .gbadge.stopb{fill:var(--stop)!important}
+.gate .watch{fill:var(--c-div)}
+.node.gate .body{stroke-width:1.4}
+.dec .neuron{fill:color-mix(in srgb,var(--lc) 18%,var(--surface));stroke:var(--lc);stroke-width:1.6}
+.dec .core{fill:var(--lc);opacity:.0;transition:opacity .2s}
+.dec .dlbl{font-family:var(--font-display);font-stretch:108%;font-size:13.5px;font-weight:720}
+.dec .body{fill:transparent;stroke:none}
+.node.dec.lit .core,.node.dec.on .core{opacity:1}
+.node.dec.lit .body{fill:transparent}
+.node.L-bus .body{fill:color-mix(in srgb,var(--c-core) 10%,var(--surface));stroke:var(--c-core);stroke-opacity:.55}
+.node.L-bus.lit .body{fill:color-mix(in srgb,var(--signal) 22%,var(--surface));stroke:var(--signal);stroke-opacity:1}
+.buslbl{font-family:var(--font-mono)!important;font-size:8.2px;letter-spacing:.14em;fill:var(--ink-3)!important}
+.pulse{fill:var(--signal);filter:var(--glow)}
+.cap-q{font-family:var(--font-serif)!important;font-style:italic;font-size:19px}
+.cap-k{font-family:var(--font-mono)!important;font-size:9.5px;font-weight:600;letter-spacing:.1em;fill:var(--ink-3)!important}
+.cap-l{font-family:var(--font-mono)!important;font-size:10px;fill:var(--ink-2)!important}
+.anno{font-size:10.5px;font-stretch:88%;fill:var(--ink-2)!important}
+.lock{font-family:var(--font-mono)!important;font-size:8.6px;letter-spacing:.06em;fill:var(--ink-3)!important}
+/* run-mode states */
+.node.st-pass .body{stroke:var(--go);stroke-width:2;fill:color-mix(in srgb,var(--go) 12%,var(--surface))}
+.node.st-unk .body{stroke:var(--c-div);stroke-width:2;fill:color-mix(in srgb,var(--c-div) 13%,var(--surface))}
+.node.st-stop .body,.node.st-fail .body{stroke:var(--stop);stroke-width:2.2;fill:color-mix(in srgb,var(--stop) 12%,var(--surface))}
+.node.st-blocked .body{stroke:var(--ink-3);stroke-dasharray:4 3;stroke-width:1.6;fill:var(--surface-2)}
+.node.st-cap .body{stroke:var(--hold);stroke-width:2.2;fill:color-mix(in srgb,var(--hold) 13%,var(--surface))}
+.node.st-pass .tab{fill:var(--go)} .node.st-unk .tab{fill:var(--c-div)} .node.st-stop .tab,.node.st-fail .tab{fill:var(--stop)} .node.st-blocked .tab{fill:var(--ink-3)} .node.st-cap .tab{fill:var(--hold)}
+.statebadge{font-family:var(--font-mono)!important;font-size:8.6px;font-weight:600;letter-spacing:.06em}
+
+@media (max-width: 860px){
+  .app{gap:8px;padding-block:8px}
+  .brand h1{font-size:18px}
+  .brand .meta{font-size:10px}
+  .mapctl{top:8px;bottom:auto;left:8px}
+  .tools .hidepanel{display:none}
+  .stage{grid-template-columns:minmax(0,1fr)!important}
+  .stage.collapsed .drawer{display:block}
+  .drawer{position:absolute;left:0;right:0;bottom:0;max-height:54%;border-radius:12px 12px 0 0;box-shadow:var(--shadow);z-index:4}
+  .drawer.min{max-height:46px;overflow:hidden}
+  .sheetbar{display:flex;position:sticky;top:0;z-index:2;justify-content:center;background:var(--surface);border-bottom:1px solid var(--line)}
+  .sheetbar button{border:0;background:transparent;padding:8px 14px;font-family:var(--font-mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);cursor:pointer;width:100%}
+  .dz{padding:14px 16px 22px}
+  .calc .inputs{grid-template-columns:1fr}
+  .hint{display:none}
+  .ribbon .lab{display:none}
+}
+@media (prefers-reduced-motion: reduce){
+  .edge,.node,.node .body,.dec .core{transition:none}
+}
+</style>
+</head>
+<body>
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <h1>Decision Engine <span>Neural Map</span></h1>
+      <p class="meta">Residential_Investment_Framework.md · sha256 1fbf607a… · Core 5.1–5.35 frozen · G0–G9 · KV-EXEC-2026-10-07 · KV-FIN-90-4-35-v1</p>
+    </div>
+    <div class="modes" role="tablist" aria-label="View mode">
+      <button role="tab" id="tab-explore" aria-selected="true" data-mode="explore">Explore</button>
+      <button role="tab" id="tab-walk" aria-selected="false" data-mode="walk">Walk the reasoning</button>
+      <button role="tab" id="tab-run" aria-selected="false" data-mode="run">Run a path</button>
+    </div>
+    <div class="tools">
+      <button class="btn hidepanel" id="togglePanel" type="button" aria-pressed="false">Hide panel</button>
+    </div>
+  </header>
+
+  <main class="stage" id="stage">
+    <div class="mapwrap" id="mapwrap">
+      <svg id="map" aria-label="Network map of the residential investment decision framework" role="application"></svg>
+      <div class="mapctl">
+        <button class="btn" id="zoomOut" type="button" aria-label="Zoom out">−</button>
+        <button class="btn" id="zoomFit" type="button" aria-label="Fit whole map">fit</button>
+        <button class="btn" id="zoomIn" type="button" aria-label="Zoom in">+</button>
+        <span class="hint">drag or scroll to pan · ctrl/⌘ + scroll or pinch to zoom</span>
+      </div>
+      <div class="tip" id="tip" hidden></div>
+    </div>
+    <aside class="drawer" id="drawer" aria-label="Details">
+      <div class="sheetbar"><button type="button" id="sheetToggle" aria-expanded="true">Hide details</button></div>
+      <div id="drawerBody"></div>
+    </aside>
+  </main>
+
+  <footer class="ribbon">
+    <span class="lab">Reasoning</span>
+    <button class="btn play" id="playBtn" type="button" aria-pressed="false">Play</button>
+    <nav class="steps" id="steps" aria-label="Reasoning steps"></nav>
+  </footer>
+  <div id="live" class="sr" aria-live="polite"></div>
+</div>
+
+<script>
+(() => {
+'use strict';
+const NS = 'http://www.w3.org/2000/svg';
+const W = 1650, H = 1012;
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+const F = {
+  M:'Residential_Investment_Framework.md',
+  SUP:'sop/Approved_Execution_Supplement.md',
+  REG:'sop/Founder_QA_Approval_Register.md',
+  STD:'execution-release-2026-10-07/Decision_Execution_Standard.md',
+  TPL:'execution-release-2026-10-07/Case_Workpaper_Template.md',
+  CFG:'execution-release-2026-10-07/financial_config.json',
+  P7:'phase-7/Phase_7_SOP_Addendum.md',
+  AUD:'Evidence_Judgment_Divergence_Integration_Audit.md'
+};
+const LAYER_NAME = {in:'01 Input', det:'02 Detect', cell:'02 Detect · polarity', inv:'03 Investigate', bus:'03 → 04 Interpretation', core:'04 Core', gate:'05 Gate', sop:'06 SOP', dec:'07 G9 output', prio:'07 Output', role:'07 Role', lane:'08 Learn'};
+
+/* ------------------------------------------------------------------ nodes */
+const N = {}; const ORDER = [];
+const COL = {in:{x:32,w:150}, det:{x:238,w:200}, inv:{x:494,w:166}, core:{x:742,w:196}, gate:{x:1018,w:168}, sop:{x:1262,w:182}, dec:{x:1262,w:160}, role:{x:1486,w:140}};
+function at(col, cy, h = 22, w, x){ const c = COL[col]; return {x: x ?? c.x, w: w || c.w, h, y: cy - h/2, cy}; }
+function add(id, L, o){ const n = Object.assign({id, L}, o); N[id] = n; ORDER.push(id); return n; }
+
+/* 01 Input */
+const EV = [
+  ['E1','Statutory / official','Statutory and official records',`Evidence order generally: 1. statutory / official; 2. registered transactions; 3. audited / developer documents; 4. JMB / MC evidence; 5. portals; 6. agents; 7. resident / forum / social evidence.`,'Master §23 Evidence Discipline',`Top of the general evidence order. Authority is claim-specific: an issuer report can establish declared completion while remaining insufficient to establish buyer preference (Execution standard §5).`],
+  ['E2','Registered transactions','Registered transactions',`Always separate: registered transaction; asking; effective developer price; auction reserve; auction sold; asking rent; achieved rent.`,'Master §23 Evidence Discipline',`The raw material for G0. Repeated rows from one registration feed count once, and aliases need parcel reconciliation (Phase 7 SOP addendum, control 3).`],
+  ['E3','Audited / developer docs','Audited and developer documents',`Never call: Developer Price - Acquisition Price a discount automatically.`,'Master §5.30',`Developer headline and the effective package (rebates, furnishing, incentives) are different prices. Headline versus effective consideration is the G0 divergence watchpoint.`],
+  ['E4','JMB / MC records','JMB / MC governance records',`Governance records: collection, arrears, audited reserves, committed capex, insurance, enforcement and service continuity.`,'Master · Evidence still required',`Match adverse and remedial evidence to the actual tower, MC, date and scope. Historic awards, old complaints and undated works do not establish current health or failure.`],
+  ['E5','Portals','Property portals',`Repeated portal copies do not create independent corroboration.`,'Master §5 Divergence · family A',`Asking prices and listing counts are signals, not clearing prices. A disappeared listing is neither an achieved sale nor a withdrawn thesis (Execution standard §5).`],
+  ['E6','Agents','Agents',`Agent contact frequency, public advertising and promotional excitement are weak signals with competing explanations.`,'Execution supplement §7',`Seller urgency can motivate an offer but does not prove undervaluation or a clean transaction.`],
+  ['E7','Resident / forum / social','Resident, forum and social evidence',`Mark UNKNOWN where evidence is weak.`,'Master §23 Evidence Discipline',`Last in the general order. Useful as leads on noise, lifts or governance that then need dated, attributable observation. Do not average incompatible evidence.`]
+];
+EV.forEach((e, i) => add(e[0], 'in', Object.assign(at('in', 112 + i*28), {code:String(i+1), label:e[1], title:e[2], q:e[3], src:e[4], note:e[5], rank:i+1})));
+add('F', 'in', Object.assign(at('in', 322), {code:'F', label:'Field & governance packet', title:'Field and governance evidence packet', q:`For each observation retain date, time, location/tower, observer/source, method, observed fact, interpretation, alternative explanation, affected buyer task and affected gate.`, src:'Execution supplement §4', note:`Covers arrival and security, lifts, parking, corridors and refuse, facilities, management response and governance funding. Do not claim a visit, engineering inspection or private-account review that did not occur. An unavailable field item stays unknown and can block a strong unit recommendation. Its stated gate routes are G3/G4 (supplement §4: execute existing G3/G4), G2–G4 and G6 (approval register items 2 and 12) and irreversible field conditions to G4 (supplement §8); the map draws them through the ledger instead of as long links.`}));
+add('J', 'in', Object.assign(at('in', 392), {code:'J', label:'Informed judgment', title:'Informed market judgment', q:`Informed Market Judgment = Pattern Recognition + Market Experience + Micro-Market Observation + Comparable Knowledge + Product Understanding + Buyer Behaviour Recognition`, src:'Master §5 Divergence · definition', note:`Intuition may prompt anomaly detection. Instinctive guessing, authority, confidence and personal taste are not substitutes for informed judgment or evidence. Record the experience behind the judgment, attribute practitioner input and separate direct observation from interpretation.`}));
+
+/* 02 Detect */
+add('L', 'det', Object.assign(at('det', 190, 40), {code:'L', label:'Claim & comparable ledger', sub:'4 evidence statuses', title:'Claim and comparable ledger', q:`Each material claim carries an ID, proposition, asset scope, buyer/horizon, source link, source origin/lineage, publication/event/retrieval dates, observed text/data, access method, interpretation, adjustment, uncertainty, gate and freshness trigger.`, src:'Execution standard §5', note:`Comparables keep identity, original and effective price, area basis, floor/stack, layout, parking, condition, tenure, motive, event date and inclusion role. Auction reserves, voluntary sales and developer packages are never averaged together; duplicated sources count once.`, list:['Supported','Bounded estimate','Unknown','Contrary evidence'], listTitle:'Evidence annotations (not investment outputs)'}));
+add('CHECK', 'det', Object.assign(at('det', 346, 168), {kind:'box', code:'◆', label:'Divergence check', title:'Evidence–Judgment Divergence check', q:`Divergence is a trigger for investigation, not permission to override evidence.`, src:'Master §5 · cross-module decision control', note:`Runs at evidence intake, at each relevant gate, on any material new observation and before G9. A flag is raised only when the gap could materially change valuation, entry decision, required margin of safety, asset ranking, exit liquidity, downside risk or conviction. Positive and negative describe support for one stated proposition, not an asset-wide score. It is an investigation control, not a gate, not a module and not G10.`, listTitle:'Eight automatic comparisons', list:['Quantitative evidence vs qualitative evidence','Historical evidence vs forward-looking market structure','Location strength vs project strength','Rental performance vs owner-occupier desirability','Headline PSF vs true comparable value','Reported liquidity vs real exit buyer depth','Current weakness vs temporary lifecycle distortion','Current strength vs potential structural deterioration']}));
+const CB = N.CHECK; // box geometry: x 238..438, y 262..430
+const cellW = 84, cellH = 44, cx0 = CB.x + 22, cx1 = cx0 + 88, ry0 = CB.y + 58, ry1 = ry0 + 50;
+const CELLS = [
+  ['Qpp', cx0, ry0, '+ / +', 'Aligned', 'Evidence aligned', `Continue normal underwriting; alignment does not pass an untested gate`, `Agreement can still reflect shared bias or a shared erroneous source.`, -7],
+  ['Qpn', cx1, ry0, '+ / −', 'Structural risk?', 'Possible hidden structural risk', `Trigger Divergence Investigation with at least equal attention; no presumption that the judgment is wrong`, `Positive data, negative judgment. Historical strength may coexist with a future exit-value ceiling, a narrowing buyer pool, resale weakness, owner-occupier resistance, a structural externality or lifecycle deterioration. Good headline metrics cannot average away a critical gate failure; negative judgment alone cannot establish one.`, 7],
+  ['Qnp', cx0, ry1, '− / +', 'Mispricing?', 'Possible hidden mispricing', `Trigger Divergence Investigation; no presumption that weak evidence is wrong`, `Weak data, positive judgment. It becomes an investable thesis only if evidence establishes the explanation, a valid clearing and entry basis, the recoverable share, acceptable asset and financing risks, a credible exit and suitable capital allocation. Weak data plus positive conviction is not an investment role.`, -7],
+  ['Qnn', cx1, ry1, '− / −', 'Neg. alignment', 'Negative alignment', `Usually reject / deprioritise; use G9 Reject only for an established structural Gate failure, otherwise retain the applicable existing decision`, `Negative alignment does not invent a structural failure.`, 7]
+];
+CELLS.forEach(c => add(c[0], 'cell', {kind:'cell', x:c[1], y:c[2], w:cellW, h:cellH, cy:c[2] + cellH/2, code:c[3], label:c[4], title:c[5], q:c[6], src:'Master §5 Divergence · four-state logic', note:c[7] + ` Rows read observed evidence; columns read informed judgment.`, portX:CB.x + CB.w, portY:c[2] + cellH/2 + c[8]}));
+add('UNK', 'det', Object.assign(at('det', 458), {code:'?', label:'Unclassified · UNKNOWN', title:'Unknown evidence stays unclassified', q:`Unknown evidence or unsupported judgment remains explicitly unclassified until interpretable; do not create a false positive/negative label to fill the table.`, src:'Master §5 Divergence · four-state logic', note:`Missing or weak evidence is UNKNOWN, not automatically Negative, and absence alone does not invent a conflict. The ordinary gate stop is kept and the case goes back to the ledger for the specified evidence. An independent material qualitative observation can still trigger investigation when the quantitative series is incomplete.`}));
+
+/* 03 Investigate */
+add('A', 'inv', Object.assign(at('inv', 262, 24), {code:'A', label:'Data limitation', title:'A — Data limitation', q:`Retain the original observations, record proposed exclusions/adjustments and trace source lineage.`, src:'Master §5 Divergence · family A', note:`Correct a measurement problem only with an evidenced reason, then rerun the affected gate. A corrected dataset is not automatically evidence of undervaluation.`, listTitle:'Test for', list:['transaction-data lag, low volume, small samples','poor or non-like-for-like comparables','lifecycle effects and VP-stage distortion','temporary supply release','unrecorded incentives, developer rebates, furnishing packages','aggregation error and stale asking prices','valuation lag and incomplete rental evidence','unusual seller composition']}));
+add('B', 'inv', Object.assign(at('inv', 294, 24), {code:'B', label:'Judgment bias', title:'B — Judgment bias', q:`State the strongest rival account and what would cause withdrawal of the preferred interpretation.`, src:'Master §5 Divergence · family B', note:`Actively try to falsify your own preferred explanation and apply the same burden to attractive and unattractive conclusions. Research effort, ownership, prior endorsement or practitioner seniority cannot lower it. Do not ask a practitioner for the desired conclusion before forming an independent view.`, listTitle:'Test for', list:['ownership bias and anchoring','confirmation, familiarity and recency bias','narrative attachment','personal lifestyle or aesthetic preference','sunk-cost thinking','the wish to justify a predetermined entry price']}));
+add('C', 'inv', Object.assign(at('inv', 326, 24), {code:'C', label:'Omitted variable', title:'C — Omitted variable', q:`Specify how the variable could change actual buyer behaviour, utility, financeability, clearing price or exit. Describing an attractive feature is insufficient.`, src:'Master §5 Divergence · family C', note:`Test the variable's incremental explanation against true substitutes and existing Core mechanisms. Do not invent a weight or a universal screening rule.`, listTitle:'Candidate variables', list:['owner-occupier desirability, buyer-pool depth, tenant profile','product positioning, layout efficiency, privacy','lift performance, circulation, drop-off, parking usability','management and maintenance quality','noise, view, pedestrian environment, retail interface','neighbourhood perception, external negative adjacency','financing constraints','supply composition and competing future supply','micro-location access, catalyst recognition','social / prestige signalling, functional substitution set']}));
+add('D', 'inv', Object.assign(at('inv', 358, 24), {code:'D', label:'Structural change', title:'D — Structural change not yet in the data', q:`Equally, announced change is not delivered utility or demonstrated buyer willingness-to-pay.`, src:'Master §5 Divergence · family D', note:`Historical data is not automatically forward-looking truth. Distinguish proposed, funded, under-construction, operating and adopted stages, verify transmission to the selected asset and future buyer, and test delay, non-delivery, competing supply and whether the change is already priced in.`, listTitle:'Test for', list:['new infrastructure or changed accessibility','emerging employment nodes, new commercial ecosystem','changing resident demographics, neighbourhood upgrading','supply exhaustion, regeneration, planning changes','new buyer pool, changed financing conditions','post-VP normalisation, stigma recovery','improved management, major amenity completion']}));
+add('H', 'inv', Object.assign(at('inv', 420, 30), {code:'H', label:'Falsifiable hypothesis', title:'Convert judgment into a falsifiable hypothesis', q:`Do not retain “I feel this project is undervalued” or “The project does not feel right” as the explanation.`, src:'Master §5 Divergence · hypothesis', note:`Evidence should discriminate between rival explanations, not repeat the original observation. Predeclare tests where feasible and record later amendments instead of moving the goalposts. Each active case carries at most three immediate decision-changing unknowns (Execution standard §6).`, listTitle:'Specify before interpreting', list:['the exact proposition and preferred explanation','the causal link to an existing mechanism, with scope and horizon','expected confirming observations against a baseline or substitutes','expected falsifying observations and the strongest rival','evidence to obtain, its source and independence','measurement period, event trigger or review deadline','decision consequence if confirmed, falsified or unresolved']}));
+add('S', 'inv', Object.assign(at('inv', 478, 34), {code:'S', label:'Flag status', sub:'resolved/partial/unresolved', title:'Flag status', q:`Resolution may establish a bad investment; it is not a synonym for Deploy.`, src:'Master §5 Divergence · decision precedence', note:`Review at G9 and on material new evidence, and reopen a resolved flag when its premise stops holding. Elapsed time, a favourable price move, user agreement or analyst confidence never closes a flag. Status is reviewed at G9; the map draws that link through the margin node.`, listTitle:'Three statuses', list:['Resolved: discriminating evidence validates or rejects the explanation; the finding is routed and decisions are re-evaluated','Partially resolved: unresolved components are listed and keep a higher proof and safety burden','Unresolved: lower conviction, seek the specified evidence, preserve the affected gate stop']}));
+add('R', 'inv', Object.assign(at('inv', 540, 30), {code:'→', label:'Route to existing Core', title:'Route the finding to an existing Core mechanism', q:`Intuition detects anomaly. Existing Core mechanisms explain anomaly. Evidence validates or rejects the explanation.`, src:'Master §5 Divergence · routing', note:`Never leave intuition as a standalone residual explanation. Multiple routes are allowed when evidence supports each causal link, without counting one benefit or risk twice. If no existing mechanism explains the claim, it stays outside Core as an unvalidated candidate under the unchanged promotion threshold.`}));
+add('M', 'inv', Object.assign(at('inv', 600, 30), {code:'M', label:'Margin of safety ↑', title:'Unresolved divergence raises the required margin', q:`Unresolved Divergence → Higher Uncertainty → Higher Required Margin of Safety → Lower Position Conviction → More Evidence Required`, src:'Master §5 Divergence · unresolved treatment', note:`Record the extra protection against the no-divergence case without a universal haircut or conviction score. If normalised clearing is unknown, say the margin cannot yet be quantified. A lower offered price, smaller position or larger reserve cannot cure an unpassed critical gate.`}));
+
+/* Bus */
+add('BUS', 'bus', {kind:'bus', x:712, w:12, y:96, h:810, cy:501, code:'', label:'Interpretation bus', title:'Interpretation through existing Core mechanisms', q:`Evidence → Divergence Check → Interpretation → Existing Core Mechanisms → Investment Decision`, src:'Master §5 · cross-module decision control', note:`Every aligned reading and every supported finding is interpreted through the 35 frozen principles. The bus is this map's drawing device for that step; it is not a module in the framework.`});
+
+/* 04 Core */
+const CORE = {
+  1:['Context-adaptive factors','Context-Adaptive Factor Importance',`Factor Importance = f(Context, Buyer, Product, Lifecycle)`,`No universal weights. A factor can act as a Driver, Gate, Floor, Ceiling or Modifier. A failed critical Gate cannot be averaged away by many positives.`],
+  2:['Value causal chain','Property Value Causal Chain',`Location + Product Positioning -> Resident Profile -> Governance / Management -> Lived Environment -> Resale Reputation -> Price Stability / Appreciation`,`Immutable design matters: lift ratio, circulation, parking, drop-off, refuse, loading, noise, layout, privacy. Management can preserve or destroy premium but cannot turn an ordinary area into a premium address by itself.`],
+  3:['Premium as revealed preference','Premium / Vibe as Revealed Preference',`"Vibe" can be economically real if it repeatedly changes willingness-to-pay.`,`Look for repeated higher benchmarks, take-up despite cheaper substitutes and post-completion persistence. Separate durable premium from launch hype. Buyer breadth and buyer depth are different.`],
+  4:['Identity → buyer depth','Demographic / Identity Orientation',`Do not treat ethnicity as intrinsic value.`,`Translate it into buyer-pool depth, purchasing power, community network, commercial and social ecosystem, location loyalty, intergenerational attachment and cross-segment acceptance.`],
+  5:['Location-first demand','Intergenerational / Location-First Demand',`Need real evidence of housing-form adoption.`,`Do not assume landed loyalty becomes strata loyalty, one generation becomes another, or local wealth becomes condo demand.`],
+  6:['Township maturity','Township Maturity',`First High-Rise = Market Experiment, not Township Maturity`,`Maturity needs multiple vertical generations, stable secondary demand, local household adoption and repeated resale acceptance. Launch acceptance alone is not structural maturity.`],
+  7:['Master developer ecosystem','Master Developer / Curated Ecosystem',`Premium Persistence != Premium Growth`,`Master developers shape launch timing, supply, tenant and commercial mix, placemaking and absorption. Once land and catalysts mature, premium may persist while appreciation slows.`],
+  8:['Effective competing supply','Supply',`Do not count all nearby units as equal competitors.`,`Use effective competing or core-substitutable supply. New phases can raise the benchmark, cannibalise old stock or segment buyer pools.`],
+  9:['Premium formation / overheat','Premium Formation / Overheat',`Warning sign: all catalyst-linked projects are chased indiscriminately.`,`Healthy premium markets still discriminate between good, average and bad. Catalysts create demand and also narratives.`],
+  10:['Dynamic price ceiling','Dynamic Price Ceiling',`Capital Appreciation Ceiling_t = Future Reference Set_t + Prime Scarcity Premium_t + Durable Consensus Premium_t - Structural Penalty_t`,`The current reference set is not the future one, and absolute quantum matters: what else can the buyer get for the same total budget? Core notation is explanatory unless a workpaper supplies measurable variables (Execution standard §8).`],
+  11:['PSF vs absolute quantum','PSF vs Absolute Quantum',`Price Ceiling = Next Best Use of Buyer's Budget`,`Small units can carry high PSF while staying under budget thresholds. Do not infer premium from PSF alone.`],
+  12:['Small-unit compression','Small-Unit / Affordable-Aspirational Compression',`But once copied, smallness is not alpha.`,`Young buyers may accept less space for location, design, convenience, furnishing or access. Compare one-, two- and three-bedroom products where buyer tasks overlap; family-sized stock is not the default definition of investable owner appeal (Execution supplement §3).`],
+  13:['TOD: friction vs penalty','TOD: Access Friction vs Residential Penalty',`A 300–500m low-friction / low-penalty product may beat a noisy 100m product.`,`Access friction (walking time, crossings, weather, vertical circulation, uncertainty) is separate from residential penalty (noise, vibration, crowding, traffic, privacy, blocked view).`],
+  14:['Permanent externalities','Permanent Externalities',`These can cap terminal value, especially in: owner-occupier dominant; higher price; prestige-sensitive markets.`,`Examples: petrol station, STP, high-voltage tower, substation, industrial or waste use, highway noise, cemetery.`],
+  15:['Operational livability','Operational Livability',`Separate: launch appeal; lived experience.`,`Evaluate lift congestion, parking circulation, drop-off, visitor parking, parcels and loading, refuse, security, facility crowding and delivery flow.`],
+  16:['Low density / tenure','Low Density / Tenure',`Low density is not automatically premium.`,`It can create privacy but also high service charges, facility inefficiency and weak activation. Freehold premium is contextual, not universal.`],
+  17:['Urban renewal','Urban Renewal',`Area Renewal != Automatic Old-Stock Rerating`,`Old stock benefits only through redevelopment or land optionality, exceptional survivability, measurable utility transmission or buyer-reference transmission.`],
+  18:['Destination vs daily anchor','Destination vs Daily-Living Anchor',`Destination anchors create buzz. Daily-life / economic anchors create repeated utility.`,`Residential premium depends more on resident utility frequency, recurring convenience and economic relevance.`],
+  19:['Project vs address premium','Project Premium vs Address Premium',`"I want this project here" != "I want this area"`,`A developer can create a premium enclave. A mature address lets several decent developers sell near a shared baseline.`],
+  20:['Newness premium decay','Newness Premium Decay / Convenience Reversion',`As newness fades, utility matters more.`,`Newness can temporarily hide inconvenience, weak access, a poor area or operating friction.`],
+  21:['Scarcity','Scarcity',`Demand Wants It + Supply Is Insufficient`,`Scarcity only matters when both hold. Distinguish desirable scarcity from buyer scarcity.`],
+  22:['Investor vs owner-occupier','Investor vs Owner-Occupier Positioning',`Airbnb ban alone does not prove owner occupation.`,`Positioning is shaped by layout, quantum, density, target buyer, rules and resident profile.`],
+  23:['Liquidity','Liquidity',`Liquidity is real investment value.`,`Do not reduce all investment quality to rerating. A mature high-liquidity asset can be a valid Preservation, Liquidity or Defensive Utility trade.`],
+  24:['Reference-set migration','Reference-Set Migration',`Future premium comps require a credible migration bridge.`,`Possible path: commercial repositioning → tenant profile shift → selected new-project repricing → partial old-stock spillover → district reclassification.`],
+  25:['Management / governance','Management / Governance',`Strong location cannot fully immunise poor governance.`,`Management preserves or destroys project premium. The SOP management stress test supplies the severity ladder.`],
+  26:['Dynamic comparable mapping','Dynamic Comparable Mapping',`Would the actual buyer realistically compare these two on the same weekend?`,`Comparable universe = substitution set + exit set, sorted into primary, secondary, diagnostic and rejected comps, with roles such as anchor, floor, ceiling, switch-price, landed substitute, migration bridge and future exit. Current comp set is not the future comp set.`],
+  27:['Buyer-pool transfer: not proven','Buyer Pool Transfer — Default NOT PROVEN',`Cross-housing-form transfer defaults to zero until proven.`,`No automatic transfer from landed to strata, project to project, developer to developer or enclave to enclave. "Not proven" means no underwriting credit yet, not proof that transfer is impossible (Execution standard §8).`],
+  28:['Lifecycle ≠ price recognition','Lifecycle Stage != Price Recognition Stage',`What part of the future am I already paying for today?`,`Price-recognition states: under-recognised, fairly recognised, future-priced, overextended.`],
+  29:['Thesis–expression / no trade','Thesis–Expression / No Trade',`Correct Market Thesis != Correct Investment Expression`,`Expressions: new launch, first resale, mature secondary, distressed or auction, bridge asset, a specific tower, layout or stack, or no trade. No Trade can be the best decision. Routing row 2 (mispricing and reversible discount) runs G0–G5 and then G6–G9; the map draws only that row's G0 and G5 links to keep the chain readable.`],
+  30:['Reference-price validity','Reference-Price Validity / Clearing Price',`Validated Discount = Normalised Clearing Price - Acquisition Price`,`Separate developer, effective developer, secondary clearing, auction reserve, auction sold and asking prices, and establish the normalised clearing price first. Then Recoverable Discount = Validated Discount × Reversible Share. "Price history doesn't create value. Buyer depth creates value." Routing row 2 runs G0–G5 and then G6–G9; the map draws only its G0 and G5 links.`],
+  31:['Own-stay vs multi-anchor','Pure Own-Stay vs Multi-Anchor Location Demand',`A wealthy landed area may be valuable because residents want landed housing, not because the location supports all housing forms.`,`Anchors may include employment, education, healthcare, commercial, transport, lifestyle, community and prestige.`],
+  32:['Transmission required','Second-Order Beneficiary Requires Transmission',`Proximity alone is not enough.`,`Nearby improvement re-rates old stock only through utility transmission or buyer-reference transmission.`],
+  33:['Aggregate ≠ unified pool','Aggregate Demand != Unified Buyer Pool',`Aggregate Area Demand = Σ Project-Specific Buyer Pools`,`Area liquidity is a demand reservoir. It does not prove project interchangeability. Overlapping pools are not summed as independent people (Execution standard §8).`],
+  34:['Usage ≠ ownership premium','Usage Demand != Ownership Premium',`High Utility + Strong Rent + Weak Ownership Aspiration`,`Strong occupancy, rent, commuting and tenant demand do not automatically create high capital pricing.`],
+  35:['Demand-source decomposition','Location-Demand Source Decomposition',`Then ask what each supports: usage; rent; ownership; liquidity; premium; rerating.`,`Sources include employment, schools, universities, healthcare, retail, transport, centrality, family and social networks, lifestyle, prestige, housing-form scarcity and intergenerational attachment.`]
+};
+const CLUSTERS = [
+  ['Price & reference',[30,11,10,12]],
+  ['Catalysts & change',[7,17,18,24,32]],
+  ['Lifecycle & recognition',[6,20,28]],
+  ['Supply & comparables',[8,21,26]],
+  ['Buyers & demand',[4,5,31,35,22,27,33,34]],
+  ['Value & premium',[1,2,3,9,19]],
+  ['Product · ops · externalities',[13,14,15,16,25]],
+  ['Liquidity & expression',[23,29]]
+];
+const GROUPHEADS = [];
+{
+  let y = 100;
+  CLUSTERS.forEach(([name, ids]) => {
+    GROUPHEADS.push({x: COL.core.x + 2, y: y + 9, t: name});
+    y += 14;
+    ids.forEach(k => {
+      const c = CORE[k];
+      add('c' + k, 'core', Object.assign(at('core', y + 9, 17), {code:'5.' + k, label:c[0], title:'5.' + k + ' ' + c[1], q:c[2], src:'Master §5.' + k, note:c[3], cluster:name}));
+      y += 19;
+    });
+    y += 3;
+  });
+}
+
+/* 05 Gates */
+const GATES = [
+  ['Reference price','Reference-Price Validity','STOP if unresolved',true,`What is the Normalised Clearing Price?`,`If unresolved: STOP. No discount claim allowed.`,`Separate developer headline, effective developer package, seller asking, voluntary secondary, auction reserve, auction sold and achieved rent. G0 may yield a justified interval instead of false precision; without evidence to bound material adjustments, report unbounded or unknown (Execution standard §4).`,`Reference-price validity, incentives, comparability, timing and headline versus effective consideration`,`Resolved project/unit identity, consideration type/date, comparable inclusion/exclusion ledger, material rights/size/condition differences, source independence and a supported normalised range`,`Investigate, identify a clearly unsupported ask, or conditional diagnostics; no validated discount if material normalisation remains unresolved`],
+  ['Market mechanism','Market Mechanism','MRT/mall alone = incomplete',false,`If explanation is only: MRT; mall; brand; prime location; launch take-up; the mechanism is incomplete.`,'',`Identify why people use the location, why they own there, the dominant demand source, the lifecycle and the price-recognition stage.`,`Historical strength/weakness versus present mechanism, lifecycle and forward change`,`Actual use/ownership mechanism, relevant demand sources, lifecycle and price recognition, strongest alternative explanation`,`A clearly labelled mechanism hypothesis`],
+  ['Buyer universe','Buyer Universe','STOP if buyer vague',true,`If future buyer is vague: STOP.`,`If future buyer is vague: STOP.`,`Define primary buyer, secondary buyer, false borrowed buyer, tenant source and transaction motive. Run the buyer-pool transfer test, the demand-authenticity audit and the same-weekend test. Compare one-, two- and three-bedroom products where buyer tasks overlap (Execution supplement §3).`,`Reported activity versus genuine buyer motive, financeable depth and housing-form adoption`,`Specific primary/secondary buyer tasks, false borrowed buyer, genuine motive and functional substitution evidence`,`Candidate buyer hypotheses, not measured depth or automatic transfer`],
+  ['Project quality','Project Quality','may be a hard gate',false,`Critical management failure may be a hard Gate.`,'',`Test product, density, resident selection, management, operational livability, competing supply, secondary conversion and project escape quality.`,`Location metrics versus product, resident selection, governance and effective supply`,`Relevant operating design, current governance/funding and competing supply evidence proportionate to the risk`,`Project research preference with unknowns; no assumed healthy management`],
+  ['Unit quality','Unit Quality','irreversible microstructure',false,`Is this specific unit easier or harder to sell than the project median?`,'',`Test irreversible microstructure. Step 6 lists what to test: tower, stack, orientation, floor, privacy, view, noise, rail, traffic, permanent externalities, lift, refuse, service access, parking and layout, prioritising irreversible factors (Master §7 Step 6).`,`Project averages versus irreversible unit configuration, daily use and externalities`,`Identifiable unit, plan/rights/bays, permanent exposures and authentic condition evidence`,`Marketed-expression analysis; no inspected-unit claim`],
+  ['Price / mispricing','Price / Mispricing','only after G0–G4',false,`Only after G0–G4 survive: Validated Discount = Normalised Clearing Price - Acquisition Price`,'',`Ask why the gap is there, whether it is reversible or structural, and how much is recoverable after the costs and time needed (Execution standard §4). Cheapness alone is not alpha (Master §2).`,`Apparent gap versus validated/recoverable mispricing; respect G0–G4 prerequisites`,`G0-G4 sufficiently resolved, evidenced gap, explanation and costs/time needed to recover it`,`No mispricing conclusion when prerequisites fail; fair-priced quality can still be analysed without manufacturing a discount`],
+  ['Exit architecture','Exit Architecture','single-point exit flag',false,`If exit depends on one catalyst / one buyer: flag Single-Point Exit Failure.`,'',`Define the future buyer, future comp set, quantum ladder, floor, ceiling, liquidity, secondary conversion and exit-path redundancy. Does the thesis survive if the strongest exit support disappears? (Master §8.8)`,`Rental/current pricing versus future ownership preference, budget substitutes and independent exits`,`Future buyer, realistic alternative budgets, exit timing/finance, return burden, weak-exit and no-uplift cases`,`Conditional exit scenarios; required price is not a forecast`],
+  ['Financing / terminal','Financing / Terminal Risk','credit · lease · forced hold',false,`Run: credit stress; leasehold test; management severity; forced-hold scenario.`,'',`Credit stress follows debt service → buyer affordability → financeable buyer pool → liquidity → marginal clearing price (Master §8.5). Standard coverage, cost-complete cashflow and actual/stress affordability stay three separate lines (Execution supplement §1).`,`Historical financeability versus lease, marginal-buyer credit, management and forced-hold risk`,`Actual finance/title restrictions when relevant, costs, works and forced-hold resources; standard plus actual finance views`,`Synthetic survival comparison, not bank approval or verified personal affordability`],
+  ['Portfolio & capital','Portfolio / Opportunity Cost','may preserve capacity',false,`is this best use of scarce capital?`,'',`Asset-Level Correctness != Capital-Allocation Correctness (Master §18). G8 asks what DSR or borrowing capacity is consumed, what future opportunity becomes unavailable and whether portfolio correlation increases; Step 9 adds equity and surviving 12 months without selling (Master §7 Step 9). Map correlation through future buyer, tenant source, financing regime and exit channel, not postcode (Master §19). Possible result: Preserve Capacity.`,`Asset appeal versus actual capital resilience, correlation and opportunity cost`,`Actual mandate/capital constraints for an executable decision, relevant opportunity cost and correlated stress`,`A labelled synthetic allocation experiment only`],
+  ['Capital decision','Capital Decision','four outputs · no G10',false,`Only four outputs`,'',`Insufficient evidence or an unresolved required gate ordinarily yields Defer. An independently established structural failure supports Reject. An independently established allocation constraint supports Preserve Capacity. Deploy needs sufficient evidence with asset and portfolio gates passing. Divergence resolution does not auto-deploy (Master §5 decision precedence).`,`Reconcile every material flag, residual uncertainty and affected gate; use only the four existing capital decisions`,`Reconciled evidence and critical unknowns, independent vetoes, role and prior gate status`,`Defer for decision-critical unknowns; Reject only for established structural failure; Preserve Capacity for a demonstrated allocation reason`]
+];
+GATES.forEach((g, i) => add('G' + i, 'gate', Object.assign(at('gate', 122 + i*80, 46), {kind:'gate', code:'G' + i, label:g[0], title:'G' + i + ' — ' + g[1], badge:g[2], stopBadge:g[3], q:g[4], stop:g[5], src:'Master §9 · G' + i, note:g[6], watch:g[7], packet:g[8], partial:g[9]})));
+N.G9.list = ['Product / living-quality preference','Investment attractiveness at the stated price','Research priority','G9 capital decision']; N.G9.listTitle = 'Four conclusions, always stated separately (Execution standard §3)';
+
+/* 06 SOP */
+const SOP_GROUPS = [
+  ['Master §7 · SOP steps', [
+    ['S1','S1','Framework stress test','Step 1 — Framework Stress Test',`Before checking outcome: state thesis; name relevant Core principles; seek falsification; distinguish exception vs boundary condition; record Pass / Partial / Fail.`,'Master §7 Step 1',`The SOP explains how to apply the Core consistently.`],
+    ['S2','S2','Context calibration','Step 2 — Context Calibration',`For each factor: Dominant / Secondary / Low / Unknown; Driver / Gate / Floor / Ceiling / Modifier. No universal weighting.`,'Master §7 Step 2',`Puts principle 5.1 to work on the case at hand.`],
+    ['S3','S3','Dynamic comparable engine','Step 3 — Dynamic Comparable Engine',`Start with: target buyer; absolute quantum; housing task; product; lifecycle.`,'Master §7 Step 3',`Build primary, secondary, diagnostic and rejected comps and apply the same-weekend test. A high-rise scope does not restrict the buyer's substitute universe to high-rise: test relevant landed alternatives as diagnostic competitors (reusable safeguard 12).`],
+    ['S4','S4','Lifecycle & recognition','Step 4 — Market Lifecycle & Price Recognition',`Pre-recognition; Early Evidence; Re-rating; Premium Compounding; Mature; Premium Preservation; Relative Decline; Renewal.`,'Master §7 Step 4',`Price recognition is read separately: under-recognised, fair, future-priced, overextended.`],
+    ['S5','S5','Opportunity expression','Step 5 — Opportunity Expression',`New launch; Near-completion / first resale; Mature secondary; Distressed / auction; Bridge asset; Specific tower/layout/orientation; No Trade.`,'Master §7 Step 5',`The expression is chosen separately from the market thesis (5.29).`],
+    ['S6','S6','Unit selection','Step 6 — Unit Selection',`Prioritise irreversible factors.`,'Master §7 Step 6',`Test tower, stack, orientation, floor, privacy, view, noise, rail, traffic, permanent externalities, lift, refuse, service access, parking, layout and the future buyer.`],
+    ['S7','S7','Entry / exit sentence','Step 7 — Entry / Exit',`I buy from ___ today at RM___ because ___, and I expect ___ buyer to pay RM___ because ___.`,'Master §7 Step 7',`State the entry thesis, mispricing source, acceptable band, future buyer, alternative assets, ceiling, liquidity, floor and kill conditions.`],
+    ['S8','S8','Opportunity radar','Step 8 — Opportunity Radar',`Signal -> Interpretation -> Re-underwrite`,'Master §7 Step 8',`Status: Ignore, Watch, Investigate, Underwrite, Buy Zone. Map reading: these radar statuses are not G9 decisions, and they differ from the work-queue states in Execution standard §6 (advance investigation, event-watch, stop active research, rerun affected gates).`],
+    ['S9','S9','Capital allocation gate','Step 9 — Capital Allocation & Portfolio Gate',`A good asset is not enough.`,'Master §7 Step 9',`Ask how much equity and DSR are consumed, what future opportunity is lost, whether correlation rises and whether the portfolio can survive 12 months without selling. Outputs: Deploy, Defer, Reject, Preserve Capacity.`]
+  ]],
+  ['Master §8 · diagnostics', [
+    ['D1','8.1','Transaction motive audit','8.1 Transaction Motive / Demand Authenticity Audit',`Transaction Count -> Transaction Motive -> Buyer-Depth Interpretation`,'Master §8.1',`Classify organic end-user, organic investment, financially induced and speculative or narrative demand before treating transaction count as buyer depth.`],
+    ['D2','8.2','Management stress test','8.2 Management Stress Test',`Management preserves or destroys project premium.`,'Master §5.25 (applied by §8.2)',`Required for short-stay exposure, transient residents, high density, large unit counts, lift pressure, mixed use and high rental turnover. The ladder's G0–G5 labels are governance severity levels, not the decision gates.`],
+    ['D3','8.3','Project escape quality','8.3 Project Escape Quality Test',`A true project escape requires more than higher PSF.`,'Master §8.3',`Needs stable premium, an independent buyer set, secondary depth, strong resident and management quality, age resilience, and a price not explained only by unit size or car parks.`],
+    ['D4','8.4','Secondary conversion','8.4 Secondary Demand Conversion Quality',`Test whether launch demand converts into durable resale demand after: completion; ageing; competing supply; incentives disappear; management becomes visible.`,'Master §8.4',`Metrics: annual secondary transactions over total units, secondary clearing versus effective launch basis, band stability, owner-buyer continuity, listing-to-transaction friction, competing-supply survival.`],
+    ['D5','8.5','Macro / credit stress','8.5 Macro / Credit Regime Stress Test',`Debt Service -> Buyer Affordability -> Financeable Buyer Pool -> Liquidity -> Marginal Clearing Price`,'Master §8.5',`Do not use "rate up, price down". Minimum stress: +1.5 percentage point mortgage rate, rent −20%, six months vacancy, twelve months unable to sell, one material repair or levy.`],
+    ['D6','8.6','Leasehold financing & exit','8.6 Leasehold Financing & Exit Test',`Remaining Lease at Exit = Verified Remaining Lease Today - Intended Holding Period`,'Master §8.6',`Never infer remaining lease from completion year; verify title. Then test loan tenure, LTV, bank valuation and the future buyer's cash requirement.`],
+    ['D7','8.7','Unit-level terminal value','8.7 Unit-Level Terminal Value',`Same project + same size is not enough.`,'Master §8.7 and §17',`Reversible: paint, flooring, cabinetry, furniture, normal wear. Irreversible: layout, privacy, car parks, lift and refuse, rail or highway noise, heat, permanent negative adjacency, obstruction risk.`],
+    ['D8','8.8','Exit-path redundancy','8.8 Exit-Path Redundancy',`Does the thesis survive if the strongest exit support disappears?`,'Master §8.8',`Count independent supports: owner-occupier demand, organic investor demand, rental floor, lender financeability, redevelopment optionality, scarce layout, low quantum, broad substitution demand.`]
+  ]],
+  ['Execution supplement & standard', [
+    ['X1','§1','Standard coverage 90·4·35','Standard monthly coverage — 90% LTV, 4%, 35 years',`Standard monthly coverage = monthly whole-unit rent - mortgage instalment on 90% of acquisition price at 4% annual interest over 35 years - monthly management fee`,'Execution supplement §1 · financial_config KV-FIN-90-4-35-v1',`Full principal and interest: Instalment = L·r / [1 − (1+r)^−420], r = 0.04/12. A current shortfall puts the case in the lowest research tier; it is not by itself a structural Reject. Never lower the comparison LTV or raise the assumed rent to rescue a case, and never call this line a net profit or a stress pass.`],
+    ['X2','§2','Gross yield vs 6%','Gross rental yield against the 6% preference',`Gross rental yield = 12 * monthly whole-unit rent / acquisition price`,'Execution supplement §2',`A preferred target, not a rejection threshold, a net yield or a forecast. Show the unrounded calculation: rounding 5.9% to 6% must not manufacture attainment. Never increase rent to make the target hold.`],
+    ['X3','L2','Cost-complete cashflow','Cost-complete operating and holding cashflow (line 2)',`A mandatory or financed cost is still a cost.`,'Execution supplement §1 and §5',`Vacancy, rent collection, management, sinking fund, maintenance, insurance, taxes, letting and turnover. Count loan principal once and separate economic return from cash movements and borrowing proceeds. Unknown costs are not verified zero.`],
+    ['X4','L3','Actual & stress affordability','Actual investor and stress affordability (line 3)',`Do not call line 1 a net profit or a stress pass.`,'Execution supplement §1',`Uses realistic finance terms, reserves, liabilities and the existing G7/G8 stress requirements. A lower bank valuation, lender margin or shorter eligible term needs its own cash requirement. Personal wealth cannot erase a shortfall.`],
+    ['X5','T','Shortfall transition record','Current-shortfall transition record',`Forecast rent does not replace the current negative number.`,'Execution standard §2 · Execution supplement §1',`Nine items: current shortfall and proxies; rent needed for the standard and for complete costs; causal transmission from a funded or operating change; discriminating evidence; earliest benefit date and delay case; cumulative carry and no-uplift stress; competing tenant alternatives; falsifiers and affected gates; an accurate role. Passing it is not a guaranteed Deploy.`],
+    ['X6','§5','Improvement budget','Cost and improvement budget',`Split proposed works into basic repair, rental configuration and resale improvement.`,'Execution supplement §5',`Name the target user, itemised scope, incremental cost, useful life and evidence for the rent, absorption or resale effect. Test a cheaper alternative and a no-premium outcome. RM20k and 5% of price are historical references, not ceilings.`],
+    ['X7','§6','Hold & review triggers','Holding and post-purchase review',`Declare planned hold, affordable forced-hold duration and thesis-review points separately.`,'Execution supplement §6',`No universal three-, five-, seven- or eight-year rule. Review triggers include arrears, enquiry or conversion change, governance deterioration, major works, competing supply delivery and changes in credit or the expected buyer pool.`],
+    ['X8','§7','Sourcing & supply controls','Sourcing, transaction and supply controls',`Seller urgency can motivate an offer but does not prove undervaluation or a clean transaction.`,'Execution supplement §7',`Track the demand funnel from attention to completed sale and cancellation; crowds indicate attention only. Track competing supply from announcement to effective competition. Density and new launches trigger investigation, not automatic Reject.`]
+  ]],
+  ['Controls', [
+    ['K1','SG','Reusable safeguards (13)','Reusable execution safeguards',`Preserve gate stops. Conditional downstream investigation may continue to understand the asset or identify an independent veto, but does not clear upstream unknowns. Unknown is not proof of structural failure.`,'Master · Reusable execution safeguards; Phase 7 SOP addendum',`Thirteen safeguards implement existing principles without adding modules or G9 outputs.`],
+    ['K2','RT','Red-team questions (13)','Red-team questions for every serious underwrite',`What observable evidence would prove me wrong?`,'Master §24',`Asked of every serious underwrite before the capital decision.`]
+  ]]
+];
+const SOP_LISTS = {
+  D2:{t:'Governance severity ladder (not the decision gates)', l:['G0 Healthy','G1 Operational friction','G2 Maintenance degradation','G3 Financial impairment','G4 Governance / legal failure','G5 Service continuity / safety failure']},
+  K1:{t:'Safeguards', l:['Resolve exact developer, location, lifecycle, tenure, building form and parcel before price comparison','Separate search-index access from full-source review; deduplicate source lineage','Normalise the housing task: area basis, bedroom vs study, legal parking, condition, incentives','Attribute operations to the correct MC/JMB, manager, operator, landlord or contractor','Verify a catalyst operates and its utility reaches the unit and buyer','Preserve gate stops; unknown is not proof of structural failure','Separate financial survival from adequate return; count principal once','Keep research completion separate from outcome coverage and accuracy','For auctions, separate reserve, sold price, availability and all-in basis','Separate positioning, layout capability, buyer adoption and willingness-to-pay','Show incremental cash and monthly cost against a realistic alternative','Test landed alternatives as diagnostic competitors without assuming buyer transfer','Separate completion age, condition, management finances and title term']},
+  K2:{t:'The thirteen questions', l:['Is the reference price false?','Did I assume buyer transfer?','Is this housing-form loyalty or location loyalty?','Is premium from area, project or product?','Is first high-rise only an experiment?','Is this developer strategy or actual demand?','Does second-order transmission really exist?','Does the asset work if catalyst is delayed?','Am I confusing liquidity with alpha?','Am I confusing quality with mispricing?','Is cheapness simply the clearing price?','Who is the marginal future buyer?','What observable evidence would prove me wrong?']},
+  X3:{t:'Three lines that are never merged', l:['1. Standard monthly coverage (approved definition)','2. Cost-complete operating / holding cashflow','3. Actual investor and stress affordability']}
+};
+{
+  let y = 100;
+  SOP_GROUPS.forEach(([name, items]) => {
+    GROUPHEADS.push({x: COL.sop.x + 2, y: y + 9, t: name});
+    y += 14;
+    items.forEach(it => {
+      const n = add(it[0], 'sop', Object.assign(at('sop', y + 9, 17), {code:it[1], label:it[2], title:it[3], q:it[4], src:it[5], note:it[6]}));
+      if (SOP_LISTS[it[0]]) { n.listTitle = SOP_LISTS[it[0]].t; n.list = SOP_LISTS[it[0]].l; }
+      y += 20;
+    });
+    y += 4;
+  });
+}
+
+/* 07 Output */
+const DECS = [
+  ['DEPLOY','deploy','Deploy',`Evidence sufficient; asset + portfolio gates pass.`,`Every Deploy must declare one investment role and must not disguise one role as another (Master §10). Purchase execution remains a separate authorised action (Execution standard §2).`],
+  ['DEFER','defer','Defer',`Thesis may work but timing / evidence / price is premature.`,`The ordinary result for decision-critical unknowns or an unresolved required gate (Master §5 decision precedence). Work continues as advance investigation, event-watch, stop active research or rerun affected gates; these are work-queue states, not new decisions (Execution standard §6).`],
+  ['REJECT','reject','Reject',`Structural Gate fails.`,`Needs positive failure evidence (Phase 7 SOP addendum, control 6). Unknown is not proof of structural failure (Master reusable safeguard 6), and a confirmed structural failure should not sit in endless Defer (Execution standard §6).`],
+  ['PRESERVE','preserve','Preserve Capacity',`Asset may be acceptable but not worth consuming scarce capital.`,`Unused borrowing capacity is treated as optionality (Master §18). An independently established allocation constraint can apply even while asset evidence is unresolved (Integration audit, boundary scenario 12).`]
+];
+GROUPHEADS.push({x: COL.dec.x + 2, y: 727, t: 'G9 · four outputs'});
+DECS.forEach((d, i) => add(d[0], 'dec', Object.assign(at('dec', 752 + i*40, 30), {kind:'dec', dk:d[1], label:d[2], title:'G9 — ' + d[2], q:d[3], src:'Master §9 · G9', note:d[4]})));
+add('PRIO', 'prio', Object.assign(at('role', 700, 34), {code:'Q', label:'Research priority', sub:'shortfall = lowest tier', title:'Research priority and work queue', q:`Retain the case in the lowest research-priority tier, with only bounded event-triggered investigation while the shortfall remains.`, src:'Execution standard §2 and §7', note:`Priority goes to evidence likely to change a capital or rank decision through a credible route at proportionate effort. A dramatic unverified catalyst story does not jump the queue. Work-queue states: advance investigation, event-watch, stop active research, rerun affected gates.`}));
+const ROLES = [
+  ['COMP','Compounder',`Durable future owner demand + strong secondary conversion.`,'Master §10',`Compounding requires repeated future buyer willingness to pay higher capital quantum (Master · Preservation versus compounding).`, 744],
+  ['DEFU','Defensive utility',`Strong floor / usability / liquidity, modest rerating.`,'Master §10',`A defensible low basis can support downside protection; it does not prove cost-inclusive capital preservation (Master · Preservation versus compounding).`, 770],
+  ['SPEC','Special situation',`Validated price dislocation with recoverable mechanism.`,'Master §10',`Requires a validated, recoverable discount at G5. Do not rename an unsupported income thesis a Special Situation to bypass the coverage condition (Execution standard §2).`, 796],
+  ['INC','Income engine',`Organic tenant demand is the primary return source.`,'Master §10',`Ordinary Income Engine entry defaults to non-negative standard coverage; a current-shortfall exception needs the evidenced transition record (Execution standard §2).`, 822],
+  ['FUT','Future option',`Interesting mechanism, evidence insufficient.`,'Master §18 · portfolio roles',`A portfolio role for a thesis that is not yet investable.`, 862],
+  ['NOT','No trade',`Do not deploy.`,'Master §18 · portfolio roles',`No Trade can be the best decision (5.29).`, 888]
+];
+ROLES.forEach(r => add(r[0], 'role', Object.assign(at('role', r[5], 20), {code:'', label:r[1], title:r[1], q:r[2], src:r[3], note:r[4]})));
+
+/* 08 Learn */
+add('LREC', 'lane', Object.assign(at('dec', 976, 28, 170), {code:'', label:'Call & miss record', title:'Call, revision and miss record', q:`Track false-positive purchases and false-negative exclusions as well as source errors.`, src:'Execution standard §9 · Execution supplement §3', note:`Record the original call, evidence cutoff, revisions and whether an outcome matured. A profitable outcome does not prove the process sound; an adverse outcome alone does not prove it unsound. Multiple Defer outputs are not automatically good performance.`}));
+add('LFAIL', 'lane', Object.assign(at('gate', 976, 28, 170, 1030), {code:'F', label:'Failure classes F1–F12', title:'Failure classes', q:`Add new failure class only if genuinely needed.`, src:'Master §25', note:`Misses are classified against the existing library before anything new is proposed.`, listTitle:'F1–F12', list:['F1 Reference Error','F2 Buyer-Pool Transfer Error','F3 Comparable Error','F4 Lifecycle Error','F5 Product / Resident-Selection Error','F6 Second-Order Transmission Error','F7 Township-Maturity Error','F8 Liquidity / Alpha Confusion','F9 Catalyst Dependence Error','F10 Structural Discount Misread','F11 Evidence Quality / Transaction-Motive Error','F12 Unknown-Variable Overreach']}));
+add('LCAND', 'lane', Object.assign(at('core', 976, 28, 168, 824), {code:'6.x', label:'Candidates 6.1 · 6.2', title:'Candidate mechanisms not yet Core', q:`These have been explored but should remain outside Core unless further validated.`, src:'Master §6', note:`6.1 Project escape from area baseline: "higher PSF than surroundings" is not enough. 6.2 Quantum demand elasticity: Price ↑ → Buyer Pool Narrows != Buyer Pool Disappears.`}));
+add('LPROMO', 'lane', Object.assign(at('core', 976, 28, 150, 643), {code:'6/6', label:'Promotion threshold', title:'Validation promotion threshold', q:`Repeated Mechanism + Cross-Market Evidence + Decision Relevance + Survived Counterexample`, src:'Master §22', note:`If a refinement only improves execution, it goes into SOP, not Core. A divergence flag does not accelerate promotion.`, listTitle:'All six required', list:['Existing Core cannot adequately explain the observation','The mechanism appears in more than one materially different market','It changes real investment decisions','It is a reusable causal rule','It survives an attempted counterexample','It does not duplicate an existing principle']}));
+
+ORDER.forEach(id => { const n = N[id]; n.cx = n.x + n.w/2; if (n.cy == null) n.cy = n.y + n.h/2; });
+
+/* ------------------------------------------------------------------ edges */
+const EDGES = []; const EK = new Map();
+function E(f, t, prov, why, o = {}){
+  const key = f + '>' + t;
+  if (EK.has(key)) { const e = EK.get(key); if (why && !e.whys.includes(why)) e.whys.push(why); if (prov === 's') e.prov = 's'; if (o.w) e.w = Math.max(e.w, o.w); return e; }
+  const e = Object.assign({i: EDGES.length, f, t, prov, whys: why ? [why] : [], w: 1}, o);
+  EDGES.push(e); EK.set(key, e); return e;
+}
+// input → ledger / check
+EV.forEach((e, i) => E(e[0], 'L', 's', `Evidence rank ${i+1} of 7 in the general evidence order (Master §23)`, {w: 4 - i*0.5}));
+E('F', 'L', 'i', 'Map reading: each field observation is a material claim, so it enters the ledger (Execution standard §5); the supplement routes the packet itself to gates, see the node note', {w: 1});
+E('L', 'CHECK', 's', 'At initial evidence intake, compare evidence against judgment (Master §5 automatic checks)', {fp:'b', tp:'t', w: 2.5});
+E('J', 'CHECK', 's', 'Informed judgment is compared with observed evidence (Master §5 definition)', {w: 2.5});
+E('CHECK', 'UNK', 's', 'Unknown evidence or unsupported judgment stays unclassified (Master §5 four-state logic)', {fp:'b', tp:'t'});
+['A','B','C','D'].forEach(f => { E('Qnp', f, 's', 'Possible hidden mispricing triggers investigation of all four families'); E('Qpn', f, 's', 'Possible hidden structural risk triggers investigation of all four families with at least equal attention'); });
+E('Qpp', 'R', 's', 'Evidence aligned: continue normal underwriting through existing mechanisms; alignment passes no untested gate');
+E('Qnn', 'R', 'i', 'Map reading: negative alignment usually means reject / deprioritise; G9 Reject only for an established structural gate failure, otherwise the applicable existing decision is retained through normal underwriting');
+['A','B','C','D'].forEach(f => E(f, 'H', 's', 'Each family records a hypothesis, best supporting and opposing evidence, unknowns and a conclusion', {fp:'r', tp:'r'}));
+E('H', 'S', 's', 'Discriminating evidence sets the flag status', {fp:'b', tp:'t'});
+E('S', 'R', 's', 'Once supported, route each finding to the existing mechanism and re-underwrite its consequences', {fp:'b', tp:'t'});
+E('S', 'M', 's', 'Unresolved divergence → higher uncertainty → higher required margin of safety', {fp:'r', tp:'r'});
+E('R', 'BUS', 's', 'Findings are interpreted only through existing Core mechanisms', {w: 2.5});
+E('M', 'G9', 's', 'An unresolved flag raises the protection carried into G9; a lower offered price, smaller position or larger reserve cannot cure an unpassed critical gate, and no gate is waived using a flag or safety margin (Master §5)', {fp:'b', tp:'b', fdx:0, tdx:-34, route:'under', via:934});
+ORDER.filter(id => N[id].L === 'core').forEach(id => E('BUS', id, 's', '', {hidden:true}));
+
+const FAM = {
+  A:[[30,26,28,20,6,8],'Family A items (reference error, incentives, aggregation, lifecycle and VP-stage distortion, temporary supply release) match the routing rows for reference price, lifecycle and supply'],
+  C:[[22,27,33,34,2,15,25,14,13,8,26,3],'Family C variables (buyer depth, product, operations, management, noise and adjacency, supply composition, substitution) match the routing rows for buyer universe, asset fit, externalities, governance and supply'],
+  D:[[7,17,18,24,32,28,20,21],'Family D changes (infrastructure, ecosystems, regeneration, post-VP normalisation, supply exhaustion) match the routing rows for catalyst / structural change, lifecycle and supply structure']
+};
+Object.entries(FAM).forEach(([f, [ids, why]]) => ids.forEach(k => E(f, 'c' + k, 'i', why)));
+EK.get('C>c3').whys = ['Map reading: social / prestige signalling relates to 5.3 (revealed-preference premium); the routing table does not route 5.3'];
+
+const ROUTES = [
+  ['Reference error, incentives, aggregation, price discovery',[30,26],[],[0,5],'G0, then G5 only after prerequisites survive'],
+  ['Mispricing and reversible discount',[30,29],[],[0,5],'G0–G5, followed by G6–G9 (map draws G0 and G5)'],
+  ['Lifecycle / price recognition / post-VP normalisation',[6,20,28],[],[1,3,5,6],'G1, G3, G5, G6'],
+  ['Buyer universe / owner-occupier desirability',[5,22,27,33,34,35],[],[2,3,6],'G2, G3, G6'],
+  ['Asset fit / product / operational quality',[1,2,15,29],[],[3,4,8],'G3, G4, G8'],
+  ['Externality ceiling / permanent unit penalty',[10,13,14],[],[4,6,7],'G4, G6, G7'],
+  ['Supply structure / substitution set',[8,21,26],[],[1,3,5,6],'G1, G3, G5, G6'],
+  ['Catalyst / structural change / transmission',[7,17,18,24,32],[],[1,3,6],'G1, G3, G6'],
+  ['Comparable set / total-budget competition',[10,11,26],[],[0,2,5,6],'G0, G2, G5, G6'],
+  ['Exit liquidity / exit buyer',[23,26,27,33,34],[],[2,6,7],'G2, G6, G7'],
+  ['Governance / maintenance / deterioration',[2,25],['D2'],[3,4,6,7],'G3, G4, G6, G7'],
+  ['Financing risk / lease / marginal buyer',[10,23],['D5','D6'],[6,7,8],'G6, G7, G8'],
+  ['Good asset but inappropriate capital use',[29],['S9'],[8,9],'G8, G9']
+];
+ROUTES.forEach(([finding, core, sop, gates]) => {
+  [...core.map(k => 'c' + k), ...sop].forEach(src => gates.forEach(g => {
+    const key = src + '>G' + g; const ex = EK.get(key);
+    const e = E(src, 'G' + g, 's', 'Routing table: ' + finding);
+    e.rows = (e.rows || 0) + 1; e.w = Math.max(e.w, e.rows);
+  }));
+});
+[30, 29].forEach(k => { for (let g = 1; g <= 9; g++) { if (g === 5) continue; const e = EK.get('c' + k + '>G' + g); if (e) { e.whys.push('Routing table: Mispricing and reversible discount (row 2 runs G0–G5, then G6–G9)'); e.rows = (e.rows || 0) + 1; e.w = Math.max(e.w, e.rows); } } });
+const CORE_INTERP = {3:[[1,'Revealed-preference premium is part of why people own there'],[6,'Durable versus launch premium shapes the exit ceiling']], 4:[[2,'Identity orientation is translated into buyer-pool depth']], 9:[[1,'Overheat is a price-recognition question'],[5,'Indiscriminate chasing bears on whether a price gap is real']], 12:[[2,'Small-unit buyers are a distinct buyer task'],[6,'Copied smallness limits exit premium']], 16:[[3,'G3 tests density'],[7,'Tenure feeds the leasehold financing test']], 19:[[3,'Project escape quality is tested at G3'],[6,'Project versus address premium sets the future comparable set']], 31:[[1,'G1 asks for the dominant demand source'],[2,'Housing-form loyalty limits buyer transfer']]};
+Object.entries(CORE_INTERP).forEach(([k, arr]) => arr.forEach(([g, why]) => E('c' + k, 'G' + g, 'i', 'Map reading (not in the routing table): ' + why)));
+// gate-definition text links
+E('c27', 'G2', 's', 'G2 text: run the Buyer-Pool Transfer Test');
+E('c26', 'G2', 's', 'G2 text: run the Same-Weekend Test');
+E('c25', 'G3', 's', 'G3 text: test management');
+E('c15', 'G3', 's', 'G3 text: test operational livability');
+E('c8', 'G3', 's', 'G3 text: test competing supply');
+E('c28', 'G1', 's', 'G1 text: identify lifecycle and price-recognition stage');
+// SOP → gates (enter gates from the right)
+const S = (f, t, prov, why) => E(f, t, prov, why);
+S('S1','G1','i','Step 1 states the thesis and names the Core principles, the work G1 asks for');
+S('S2','G1','i','Context calibration assigns factor roles before the mechanism is named (5.1)');
+S('S3','G0','i','The comparable engine supplies the reference set for clearing-price work');
+S('S3','G2','s','G2 text: run the Same-Weekend Test');
+S('S4','G1','s','G1 text: identify lifecycle and price-recognition stage');
+S('S5','G5','i','The chosen expression sets which price gap is being tested');
+S('S6','G4','i','Unit selection is the G4 test of irreversible microstructure');
+S('S7','G5','i','The entry sentence names the mispricing source and acceptable band');
+S('S7','G6','i','The exit half names the future buyer, ceiling, floor and liquidity');
+S('S9','G8','s','Step 9 is the capital allocation and portfolio gate');
+S('S9','G9','s','Step 9 lists the same four capital outputs');
+S('D1','G2','s','G2 text: run the Demand Authenticity Audit');
+S('D2','G3','s','G3: critical management failure may be a hard gate');
+S('D2','G7','s','G7 text: run management severity');
+S('D3','G3','s','G3 text: test project escape quality');
+S('D4','G3','s','G3 text: test secondary conversion');
+S('D4','G6','s','G6 text: define secondary conversion');
+S('D5','G7','s','G7 text: run credit stress');
+S('D6','G7','s','G7 text: run the leasehold test');
+S('D7','G7','i','Map reading: §17 lists unit-level terminal value among the Terminal Risk overlays and G7 is the terminal-risk gate, though the G7 run list does not name it');
+S('D7','G4','i','Map reading: the 8.7 irreversible factors are what the G4 irreversible-microstructure test examines; the supplement routes irreversible field conditions to G4 (§8)');
+S('D8','G6','s','G6 text: define exit-path redundancy');
+S('X1','G7','s','Approval register item 4: G7/G8 scenario reporting');
+S('X1','G8','s','Approval register item 4: G7/G8 scenario reporting');
+S('X2','G7','i','Map reading: the register gives the yield preference (item 5) no gate; it is reported beside the G7 financial lines and cannot override any gate (Execution supplement §8)');
+S('X3','G5','s','Approval register item 6: G5–G8');
+S('X3','G6','s','Approval register item 6: G5–G8');
+S('X3','G7','s','Approval register item 6: G5–G8');
+S('X3','G8','s','Approval register item 6: G5–G8');
+S('X4','G7','s','Line 3 applies the existing G7/G8 stress requirements');
+S('X4','G8','s','Line 3 applies the existing G7/G8 stress requirements');
+S('X5','G9','s','A fully evidenced exception can be presented as a reasoned G9 proposal (Execution standard §2)');
+S('X6','G4','s','Approval register item 7: G4/G6/G7');
+S('X6','G6','s','Approval register item 7: G4/G6/G7');
+S('X6','G7','s','Approval register item 7: G4/G6/G7');
+S('X7','G6','s','Approval register item 8: G6–G8');
+S('X7','G7','s','Approval register item 8: G6–G8');
+S('X7','G8','s','Approval register item 8: G6–G8');
+S('X8','G0','s','Approval register item 10: G0–G3');
+S('X8','G1','s','Approval register item 10: G0–G3');
+S('X8','G2','s','Approval register item 10: G0–G3');
+S('X8','G3','s','Approval register item 10: G0–G3');
+S('X8','G1','s','Approval register item 9: G1/G5/G6');
+S('X8','G5','s','Approval register item 9: G1/G5/G6');
+S('X8','G6','s','Approval register item 9: G1/G5/G6');
+S('X8','G2','s','Approval register item 12: G2–G4/G6');
+S('X8','G3','s','Approval register item 12: G2–G4/G6');
+S('X8','G4','s','Approval register item 12: G2–G4/G6');
+S('X8','G6','s','Approval register item 12: G2–G4/G6');
+S('X8','G7','s','Approval register item 11: G7/G8');
+S('X8','G8','s','Approval register item 11: G7/G8');
+S('K1','G0','i','Safeguards 1–3 resolve identity and normalise the housing task before price comparison');
+S('K1','G3','i','Safeguards 4 and 13 attribute operations and separate age, condition and finances');
+S('K1','G9','i','Safeguard 6 preserves gate stops into the decision');
+S('K2','G9','i','Red-team questions are required before the capital decision on every serious underwrite');
+E('S8', 'PRIO', 'i', 'Map reading: radar status informs research priority but is distinct from the Execution standard §6 work-queue states');
+E('X5', 'PRIO', 's', 'Current shortfall: lowest research-priority tier until material evidence changes it');
+// spine
+for (let i = 0; i < 9; i++) E('G' + i, 'G' + (i+1), 's', 'Gates run in order; an earlier stop remains a stop', {fp:'b', tp:'t', spine:true, fdx:-64, tdx:-64, w:2});
+// outputs
+DECS.forEach(d => E('G9', d[0], 's', 'G9 has only four outputs', {w: 2}));
+['COMP','DEFU','SPEC','INC'].forEach(r => E('DEPLOY', r, 's', 'Every Deploy must declare one role (Master §10)'));
+E('DEFER', 'FUT', 'i', 'A deferred thesis with an interesting mechanism sits as a Future Option (§18 portfolio role)');
+E('DEFER', 'PRIO', 's', 'Unresolved cases may remain Defer while research priority and the work queue are set (Execution standard §6–7)');
+E('REJECT', 'NOT', 'i', 'A structural failure means no trade in this asset');
+// learning lane
+E('G9', 'LREC', 's', 'Every call is recorded with cutoff and later revisions (Execution standard §9)', {fp:'b', tp:'t', fdx:40, lane:true});
+E('LREC', 'LFAIL', 's', 'Misses are classified against F1–F12 (Master §25)', {fp:'l', tp:'r', lane:true});
+E('LFAIL', 'LCAND', 'i', 'A recurring unexplained miss may suggest a candidate mechanism', {fp:'l', tp:'r', lane:true});
+E('LCAND', 'LPROMO', 's', 'Candidates stay outside Core unless further validated (Master §6, §22)', {fp:'l', tp:'r', lane:true});
+E('LPROMO', 'BUS', 's', 'Only a candidate meeting all six criteria may enter Core; Core is otherwise frozen', {fp:'t', tp:'b', lane:true, lock:true});
+
+['Qpp','Qpn','Qnp','Qnn'].forEach(c => E('CHECK', c, 's', 'A material divergence is classified into one of four states', {hidden:true}));
+EDGES.forEach(e => { if (N[e.f].L === 'sop' && N[e.t].L === 'gate') { e.fp = 'l'; e.tp = 'r'; } });
+const OUT = {}, IN = {};
+EDGES.forEach(e => { (OUT[e.f] = OUT[e.f] || []).push(e); (IN[e.t] = IN[e.t] || []).push(e); });
+
+/* ------------------------------------------------------------------ steps */
+function expand(gates){ const s = new Set(gates); gates.forEach(g => (IN[g] || []).forEach(e => { if (!e.spine && !e.hidden && N[e.f].L !== 'gate') s.add(e.f); })); return [...s]; }
+const STEPS = [
+  {s:'Intake', stage:'Observation → Evidence', title:'Separate the evidence before reading it', body:`Every claim enters a ledger with its source lineage, dates and an evidence status. Registered transactions, asking prices, developer packages, auction reserves and achieved rents stay separate and are never averaged together. Weak evidence is marked UNKNOWN, not negative.`, q:`Do not average incompatible evidence. Mark UNKNOWN where evidence is weak.`, src:'Master §23', nodes:['E1','E2','E3','E4','E5','E6','E7','F','L']},
+  {s:'Judgment', stage:'Evidence', title:'Put informed judgment on the record', body:`Practitioner judgment is an input, not a verdict. Record the experience, observations and comparable knowledge behind it, attribute it, and keep direct observation apart from interpretation.`, q:`Strong conviction without a falsifiable mechanism increases risk rather than analytical confidence.`, src:'Master §5 Divergence · safeguards', nodes:['J','L','CHECK']},
+  {s:'Check', stage:'Divergence detection', title:'Compare evidence with judgment at every stage', body:`Eight comparisons run at intake, at each relevant gate, on material new evidence and before G9. The amber diamond on every gate marks its watchpoint. A flag is raised only when the gap could change valuation, entry, margin of safety, ranking, exit liquidity, downside or conviction.`, q:`Divergence is a trigger for investigation, not permission to override evidence.`, src:'Master §5 · cross-module control', nodes:['CHECK','L','J','G0','G1','G2','G3','G4','G5','G6','G7','G8','G9'], focus:['CHECK','L','J','G0','G9']},
+  {s:'Polarity', stage:'Divergence detection', title:'Classify the conflict, not the asset', body:`Positive and negative describe support for one stated proposition. Aligned evidence continues normal underwriting and passes no untested gate. The two conflicting states trigger investigation, and hidden structural risk gets at least as much attention as hidden mispricing. Unknown stays unclassified.`, q:`Neither side wins by default. Agreement can still reflect shared bias or a shared erroneous source.`, src:'Master §5 · four-state logic', nodes:['CHECK','Qpp','Qpn','Qnp','Qnn','UNK']},
+  {s:'A–D', stage:'Hypothesis', title:'Test all four explanations, including your own error', body:`Data limitation, judgment bias, omitted variable and structural change can coexist; this is not a single-choice taxonomy. Each family records a hypothesis, the best supporting and opposing evidence, the remaining unknowns and a conclusion. Unsupported is not disproven.`, q:`Every material flag must test all four families A–D, including the analyst's own error.`, src:'Master §5 · investigation', nodes:['Qnp','Qpn','A','B','C','D']},
+  {s:'Hypothesis', stage:'Hypothesis → Falsification', title:'Turn the hunch into something that can fail', body:`State the proposition, the causal link to an existing mechanism, what should be seen if it is right, what would falsify it, where the evidence comes from and when it will be reviewed. Plan the test before seeing the outcome and record amendments instead of moving the goalposts.`, q:`Do not retain “I feel this project is undervalued” or “The project does not feel right” as the explanation.`, src:'Master §5 · falsifiable hypothesis', nodes:['A','B','C','D','H','S']},
+  {s:'Route', stage:'Mechanism identification', title:'Explain the finding with an existing Core mechanism', body:`A supported finding routes to one or more of the 35 frozen Core principles and is re-underwritten at the gates the routing table names for that finding. An unresolved flag raises the required margin of safety and lowers conviction; it never waives a gate.`, q:`Intuition detects anomaly. Existing Core mechanisms explain anomaly. Evidence validates or rejects the explanation.`, src:'Master §5 · routing', nodes:['S','R','M','Qpp','Qnn','BUS', ...ORDER.filter(id => N[id].L === 'core')], focus:['S','R','M','BUS','c30','c29']},
+  {s:'G0', gate:true, stage:'Valuation / underwriting', title:'G0 · Establish the normalised clearing price', body:`Developer headline, effective package, seller asking, voluntary secondary, auction reserve, auction sold and achieved rent are different prices. The gate may produce a justified interval instead of false precision. Until the clearing price is resolved, no discount may be claimed.`, q:`Price history doesn't create value. Buyer depth creates value.`, src:'Master §5.30', stop:`If unresolved: STOP. No discount claim allowed.`, nodes:expand(['G0'])},
+  {s:'G1–G2', gate:true, stage:'Valuation / underwriting', title:'G1–G2 · Name the mechanism and the future buyer', body:`Why do people use the location, and why do they own there? MRT, mall, brand, prime location or launch take-up alone is an incomplete mechanism. Then define primary, secondary and false borrowed buyers and run the buyer-pool transfer, demand-authenticity and same-weekend tests.`, q:`Cross-housing-form transfer defaults to zero until proven.`, src:'Master §5.27', stop:`If future buyer is vague: STOP.`, nodes:expand(['G1','G2'])},
+  {s:'G3–G4', gate:true, stage:'Valuation / underwriting', title:'G3–G4 · Judge the project, then the exact unit', body:`Test product, density, resident selection, management, operational livability, competing supply and secondary conversion. Then test the irreversible microstructure of the specific unit: stack, orientation, noise, parking, layout and permanent exposures.`, q:`Is this specific unit easier or harder to sell than the project median?`, src:'Master §9 · G4', cond:`Critical management failure may be a hard Gate.`, nodes:expand(['G3','G4'])},
+  {s:'G5', gate:true, stage:'Valuation / underwriting', title:'G5 · Price the gap only after G0–G4 survive', body:`A validated discount is the normalised clearing price minus the acquisition price. Ask why the gap exists, whether it is reversible or structural, and how much is recoverable after costs and time. Fair-priced quality can still be analysed without manufacturing a discount.`, q:`Cheapness alone is not alpha.`, src:'Master §2', nodes:expand(['G5'])},
+  {s:'G6', gate:true, stage:'Exit logic', title:'G6 · Design the exit before the entry', body:`Define the future buyer, future comparable set, quantum ladder, floor, ceiling, liquidity and the independent supports for an exit. The required exit price is a condition, not a forecast.`, q:`Does the thesis survive if the strongest exit support disappears?`, src:'Master §8.8', cond:`If exit depends on one catalyst / one buyer: flag Single-Point Exit Failure.`, nodes:expand(['G6'])},
+  {s:'G7', gate:true, stage:'Valuation / underwriting', title:'G7 · Survive the financing and a forced hold', body:`Three lines stay separate: standard monthly coverage at 90% LTV, 4% and 35 years plus management fee; a cost-complete cashflow; and actual plus stress affordability (+1.5 pp rate, rent −20%, six months vacancy, twelve months unable to sell, one material repair). A current shortfall drops the case to the lowest research tier but is not by itself a structural Reject.`, q:`Do not call line 1 a net profit or a stress pass.`, src:'Execution supplement §1', nodes:expand(['G7'])},
+  {s:'G8', gate:true, stage:'Valuation / underwriting', title:'G8 · Is this the best use of scarce capital?', body:`Equity, DSR, lender appetite, mortgage slots, management attention, reserves and the ability to act on future distress are all scarce. Correlation is mapped through future buyer, tenant source, financing regime and exit channel, not postcode.`, q:`A defensible asset can still be the wrong use of scarce capital.`, src:'Master §18', nodes:expand(['G8'])},
+  {s:'G9', gate:true, stage:'Decision', title:'G9 · One of four capital decisions', body:`Insufficient evidence or an unresolved required gate ordinarily yields Defer. An independently established structural failure supports Reject. An independently established allocation constraint supports Preserve Capacity. Deploy needs sufficient evidence, passing asset and portfolio gates and one declared role. Product preference, attractiveness at the price and research priority are reported separately.`, q:`Negative alignment does not invent a structural failure, and divergence resolution does not auto-deploy.`, src:'Master §5 · decision precedence', nodes:['G9','DEPLOY','DEFER','REJECT','PRESERVE','COMP','DEFU','SPEC','INC','FUT','NOT','PRIO','S9','X5','K1','K2','M']},
+  {s:'Learn', stage:'After the decision', title:'Record the call, then learn without moving Core', body:`Original calls, revisions, false positives and false negatives are recorded without retroactive rationalisation. Misses are classified F1–F12. A candidate mechanism enters Core only if all six promotion criteria hold; execution improvements go to SOP.`, q:`If it only improves execution: put it in SOP, not Core.`, src:'Master §22', nodes:['G9','LREC','LFAIL','LCAND','LPROMO','BUS']}
+];
+
+/* ------------------------------------------------------------------ run-a-path */
+const FORM = [
+  ['div','Divergence flag',[['none','None material'],['resolved','Resolved'],['partial','Partially resolved'],['unresolved','Unresolved']]],
+  ['residual','Residual divergence test',[['no','Not demonstrated'],['yes','Gate-compatible; adverse explanation survived']]],
+  ['G0','G0 · reference price',[['ok','Clearing price normalised'],['stop','Unresolved']]],
+  ['G1','G1 · market mechanism',[['ok','Identified'],['inc','Incomplete']]],
+  ['G2','G2 · future buyer',[['ok','Defined'],['stop','Vague']]],
+  ['G3','G3 · project quality',[['ok','Supported'],['unk','Unknown'],['fail','Established hard-gate failure']]],
+  ['G4','G4 · unit quality',[['ok','Supported'],['unk','Unknown'],['fail','Established structural failure']]],
+  ['G5','G5 · price gap',[['val','Validated, recoverable'],['fair','Fair price, no discount claimed'],['unk','Gap unexplained']]],
+  ['G6','G6 · exit',[['ok','Independent exits'],['single','Single-point exit'],['unk','Unknown'],['fail','Established exit failure']]],
+  ['G7','G7 · financing & forced hold',[['ok','Survives stress'],['unk','Unknown'],['fail','Established structural failure']]],
+  ['cov','Standard coverage 90·4·35',[['pos','Non-negative'],['neg','Shortfall'],['unv','Unverified']]],
+  ['tr','Shortfall transition record',[['no','Not evidenced'],['yes','Fully evidenced']]],
+  ['G8','G8 · portfolio',[['ok','Fits mandate'],['unk','Unknown'],['cap','Allocation constraint']]],
+  ['role','Declared role',[['comp','Compounder'],['defu','Defensive utility'],['spec','Special situation'],['inc','Income engine']]]
+];
+const BASE = {div:'none',residual:'no',G0:'ok',G1:'ok',G2:'ok',G3:'ok',G4:'ok',G5:'fair',G6:'ok',G7:'ok',cov:'pos',tr:'no',G8:'ok',role:'comp'};
+const PRESETS = [
+  ['Aligned, but governance and title evidence missing','Integration audit · boundary scenario 1',{G3:'unk',G7:'unk'}],
+  ['Unknown G0 with a deeper discount offered','Integration audit · boundary scenario 10',{div:'unresolved',G0:'stop',G5:'unk',role:'spec'}],
+  ['Proven structural failure, optimistic judgment','Integration audit · boundary scenario 11',{div:'unresolved',G4:'fail'}],
+  ['Asset unresolved, clear capital constraint','Integration audit · boundary scenario 12',{G3:'unk',G8:'cap'}],
+  ['Current shortfall, no transition record','Execution standard §2',{cov:'neg',tr:'no',role:'inc'}],
+  ['Special situation without a validated discount','Execution standard §2, item 9',{role:'spec',G5:'fair'}],
+  ['Every gate supported (hypothetical)','Master G9 · Deploy',{}]
+];
+const ROLE_NODE = {comp:'COMP', defu:'DEFU', spec:'SPEC', inc:'INC'};
+const ROLE_NAME = {comp:'Compounder', defu:'Defensive Utility Asset', spec:'Special Situation', inc:'Income Engine'};
+
+function evaluate(s){
+  const gs = {};
+  gs.G0 = s.G0 === 'ok' ? 'pass' : 'stop';
+  gs.G1 = s.G1 === 'ok' ? 'pass' : 'unk';
+  gs.G2 = s.G2 === 'ok' ? 'pass' : 'stop';
+  gs.G3 = {ok:'pass', unk:'unk', fail:'fail'}[s.G3];
+  gs.G4 = {ok:'pass', unk:'unk', fail:'fail'}[s.G4];
+  const pre = ['G0','G1','G2','G3','G4'].every(g => gs[g] === 'pass');
+  gs.G5 = !pre ? 'blocked' : (s.G5 === 'unk' ? 'unk' : 'pass');
+  gs.G6 = {ok:'pass', single:'unk', unk:'unk', fail:'fail'}[s.G6];
+  gs.G7 = {ok:'pass', unk:'unk', fail:'fail'}[s.G7];
+  gs.G8 = {ok:'pass', unk:'unk', cap:'cap'}[s.G8];
+  const shortfall = s.cov === 'neg', trOK = shortfall && s.tr === 'yes';
+  const fails = ['G3','G4','G6','G7'].filter(g => gs[g] === 'fail');
+  const reasons = [], notes = [];
+  let d;
+  if (fails.length) {
+    d = 'reject';
+    reasons.push([`Structural failure independently established at ${fails.join(', ')}. A confirmed structural failure can produce Reject independently of other unknowns.`, 'Execution standard §6 · Master G9']);
+    reasons.push(['A flag, a lower price or a smaller position cannot waive it.', 'Master §5 · decision precedence']);
+  } else if (gs.G8 === 'cap') {
+    d = 'preserve';
+    reasons.push(['An independently established allocation constraint supports Preserve Capacity.', 'Master §5 · decision precedence']);
+    if (['G0','G1','G2','G3','G4','G5','G6','G7'].some(g => gs[g] !== 'pass') || s.div === 'unresolved' || s.cov !== 'pos') reasons.push(['Other gates, flags or coverage are not all clear; Preserve Capacity makes no claim that they are.', 'Integration audit · scenario 12']);
+  } else {
+    if (gs.G0 === 'stop') reasons.push(['G0 clearing price unresolved: STOP. No discount claim allowed.', 'Master G0']);
+    if (gs.G1 === 'unk') reasons.push(['G1 mechanism incomplete: MRT, mall, brand, prime location or launch take-up alone does not explain ownership.', 'Master G1']);
+    if (gs.G2 === 'stop') reasons.push(['G2 future buyer vague: STOP.', 'Master G2']);
+    ['G3','G4','G7'].forEach(g => { if (gs[g] === 'unk') reasons.push([`${g} evidence unknown: insufficient evidence ordinarily yields Defer.`, 'Master §5 · decision precedence']); });
+    if (s.G6 === 'single') reasons.push(['G6 Single-Point Exit Failure flagged: the exit depends on one catalyst or one buyer.', 'Master G6']);
+    if (s.G6 === 'unk') reasons.push(['G6 exit unknown: future buyer, alternatives and weak-exit cases are not yet defined.', 'Execution standard §4']);
+    if (pre && s.G5 === 'unk') reasons.push(['G5 gap unexplained: why is it there, is it reversible, how much is recoverable?', 'Master G5']);
+    if (gs.G8 === 'unk') reasons.push(['G8 capital constraints unknown: only a labelled synthetic allocation experiment is possible.', 'Execution standard §4']);
+    if (s.div === 'unresolved') reasons.push(['Divergence flag unresolved: preserve the affected gate stop. Waiting or a favourable price move does not resolve it.', 'Master §5 · unresolved divergence']);
+    if (s.div === 'partial' && s.residual !== 'yes') reasons.push(['Residual divergence needs an explicit, evidenced gate-compatibility assessment and a thesis that survives the plausible adverse explanation.', 'Master §5 · decision precedence']);
+    if (s.cov === 'unv') reasons.push(['Standard coverage unverified: reliable rent, loan basis or fee is missing.', 'Execution supplement §1']);
+    if (shortfall && !trOK) reasons.push(['Current standard shortfall with no evidenced transition record: an unverified forecast remains Defer at lowest research priority.', 'Execution standard §2']);
+    if (s.role === 'spec' && !(pre && s.G5 === 'val')) reasons.push(['Special Situation needs a validated, recoverable discount at G5. Do not disguise one role as another.', 'Master §10 · Execution standard §2']);
+    if (reasons.length) d = 'defer';
+    else {
+      d = 'deploy';
+      reasons.push([`Evidence sufficient; asset and portfolio gates pass. Declared role: ${ROLE_NAME[s.role]}.`, 'Master G9 · §10']);
+      if (s.role === 'inc' && s.cov === 'pos') reasons.push(['Income Engine default met: non-negative standard coverage at entry.', 'Execution standard §2']);
+    }
+  }
+  if (d !== 'defer') {
+    if (shortfall) reasons.push([trOK && d === 'deploy' ? 'Current standard shortfall stays visible: Deploy rests on the evidenced transition record as a reasoned exception; forecast rent does not replace the negative number.' : 'Current standard shortfall stays visible in G7/G8 and in this rationale; by itself it is not a structural Reject.', 'Execution supplement §1 · Execution standard §2']);
+    if (s.cov === 'unv') reasons.push(['Standard coverage is still unverified.', 'Execution supplement §1']);
+    if (s.div === 'unresolved') reasons.push(['Divergence flag still unresolved; it is carried into G9 with its higher protection.', 'Master §9 · G9 watchpoint']);
+  }
+  if (!pre) notes.push('G5 not assessable: G0–G4 have not all survived. Downstream gates can run as conditional diagnostics but do not clear upstream unknowns.');
+  if (s.div === 'partial') notes.push('Partially resolved flag: the residual components keep a higher proof and safety burden. Deploy is possible only if that residual is compatible with the gate standards and the thesis survives its plausible adverse explanation.');
+  if (s.div === 'unresolved' || s.div === 'partial') notes.push(gs.G0 === 'stop' ? 'Required margin of safety rises, but with clearing price unknown it cannot be responsibly quantified.' : 'Required margin of safety rises and position conviction falls.');
+  if (trOK) notes.push('Shortfall exception: the evidenced transition record allows a reasoned G9 proposal. The current negative coverage stays visible and is not replaced by forecast rent.');
+  if (d === 'deploy') notes.push('This is the logical outcome of the inputs you set, not a purchase instruction. Purchase execution is a separate authorised action.');
+  let prio;
+  if (d === 'reject') prio = 'Stop active research; reopen only on identified evidence about the failure.' + (shortfall ? ' The shortfall also keeps it in the lowest research tier.' : '');
+  else if (shortfall) prio = 'Lowest research-priority tier while the shortfall remains.';
+  else if (d === 'defer') prio = 'Rank by the decision value of the next unknown; at most three immediate decision-changing unknowns.';
+  else if (d === 'preserve') prio = 'Event-watch; unused capacity is kept as optionality.';
+  else if (s.div === 'partial') prio = 'Residual flag components stay under review; reopen on the specified evidence or material new evidence.';
+  else prio = 'Not a research question at this point.';
+  return {d, gs, pre, reasons, notes, prio, shortfall, trOK};
+}
+
+/* ------------------------------------------------------------------ svg build */
+const $ = (s, r = document) => r.querySelector(s);
+const svg = $('#map');
+function el(tag, attrs, parent){ const e = document.createElementNS(NS, tag); if (attrs) for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+function txt(parent, x, y, cls, s, extra){ const t = el('text', Object.assign({x, y, class:cls}, extra || {}), parent); t.textContent = s; return t; }
+function esc(s){ return String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c])); }
+
+const defs = el('defs', null, svg);
+const pat = el('pattern', {id:'dots', width:24, height:24, patternUnits:'userSpaceOnUse'}, defs);
+el('circle', {cx:1, cy:1, r:1, class:'griddot'}, pat);
+const mk = el('marker', {id:'arw', viewBox:'0 0 8 8', refX:7, refY:4, markerWidth:6, markerHeight:6, orient:'auto-start-reverse'}, defs);
+el('path', {d:'M0,0 L8,4 L0,8 z', class:'arrowhead'}, mk);
+
+const vp = el('g', {id:'vp'}, svg);
+const bg = el('rect', {x:-3000, y:-3000, width:W + 6000, height:H + 6000, fill:'url(#dots)', class:'bgrect'}, vp);
+const gHead = el('g', null, vp), gEdges = el('g', null, vp), gTicks = el('g', null, vp), gNodes = el('g', null, vp), gPulse = el('g', null, vp);
+
+// layer headers
+[['01','Input','evidence & judgment',COL.in.x],['02','Detect','divergence check',COL.det.x],['03','Investigate','four explanation families',COL.inv.x],['04','Core · why','35 principles · frozen',COL.core.x],['05','Gates','G0 → G9 in order',COL.gate.x],['06','SOP · how','diagnostics & execution',COL.sop.x],['07','Output','capital decision & role',COL.role.x]].forEach(([n, name, what, x]) => {
+  const g = el('g', {class:'layerhead'}, gHead);
+  txt(g, x, 46, 'num', n); txt(g, x + 22, 47, 'name', name); txt(g, x, 64, 'what', what);
+});
+GROUPHEADS.forEach(h => txt(gHead, h.x, h.y, 'grouphead', h.t));
+// caption: the three questions
+{
+  const g = el('g', null, gHead); const x = COL.in.x;
+  txt(g, x, 560, 'cap-k', 'ASK TOGETHER');
+  txt(g, x, 590, 'cap-q', 'What does the market evidence say?');
+  txt(g, x, 618, 'cap-q', 'Why might that evidence be misleading?');
+  txt(g, x, 646, 'cap-q', 'Why might my own interpretation be wrong?');
+  txt(g, x, 690, 'cap-k', 'FINAL ANALYTICAL LOOP · MASTER §5');
+  ['Observation → Evidence → Divergence Detection','→ Hypothesis → Falsification','→ Mechanism Identification → Valuation / Underwriting','→ Decision → Exit Logic'].forEach((l, i) => txt(g, x, 710 + i*16, 'cap-l', l));
+  txt(g, x, 800, 'cap-k', 'PROHIBITED SHORTCUT');
+  txt(g, x, 820, 'cap-l', 'Divergence → Trust intuition → Invest');
+  el('line', {x1:x, x2:x + 236, y1:816.5, y2:816.5, style:'stroke:var(--stop);stroke-width:1.4'}, g);
+  txt(g, x, 976, 'cap-k', '08 LEARN · calls, misses and the promotion threshold run right to left →');
+}
+// output-column note
+{
+  const g = el('g', null, gHead); const x = COL.role.x;
+  txt(g, x, 104, 'grouphead', 'Four separate conclusions');
+  ['Product / living preference','Attractiveness at stated price','Research priority','G9 capital decision'].forEach((l, i) => txt(g, x, 124 + i*17, 'anno', (i + 1) + '  ' + l));
+  txt(g, x, 208, 'grouphead', 'Rules at G9');
+  ['Four outputs only. No G10.','Unknown ≠ structural failure.','Deploy declares one role.','No outreach or purchase is','authorised by this map.'].forEach((l, i) => txt(g, x, 228 + i*17, 'anno', l));
+  txt(g, x, 676, 'grouphead', 'Roles and work queue');
+}
+
+// geometry helpers
+function port(n, side, dx = 0){
+  if (side === 'r') return n.portX != null ? {x:n.portX, y:n.portY, nx:1, ny:0} : {x:n.x + n.w, y:n.cy, nx:1, ny:0};
+  if (side === 'l') return n.kind === 'dec' ? {x:n.x + 3, y:n.cy, nx:-1, ny:0} : {x:n.x, y:n.cy, nx:-1, ny:0};
+  if (side === 't') return {x:n.cx + dx, y:n.y, nx:0, ny:-1};
+  return {x:n.cx + dx, y:n.y + n.h, nx:0, ny:1};
+}
+function pathFor(e){
+  const a = N[e.f], b = N[e.t];
+  const p0 = port(a, e.fp || 'r', e.fdx || 0);
+  let p1;
+  if (b.kind === 'bus' && (e.tp || 'l') === 'l') p1 = {x:b.x, y:Math.max(b.y + 10, Math.min(b.y + b.h - 10, p0.y)), nx:-1, ny:0};
+  else p1 = port(b, e.tp || 'l', e.tdx || 0);
+  if (e.route === 'under') {
+    const v = e.via, r = 10;
+    return `M${p0.x},${p0.y} L${p0.x},${v - r} Q${p0.x},${v} ${p0.x + r},${v} L${p1.x - r},${v} Q${p1.x},${v} ${p1.x},${v - r} L${p1.x},${p1.y}`;
+  }
+  const dx = Math.abs(p1.x - p0.x), dy = Math.abs(p1.y - p0.y);
+  let k;
+  if (p0.nx && p1.nx && p0.nx === p1.nx) k = 18 + dy * 0.16;            // bracket on one side
+  else if (p0.nx) k = Math.max(18, dx * 0.5);                           // left ↔ right
+  else k = Math.max(14, dy * 0.42);                                     // vertical
+  return `M${p0.x.toFixed(1)},${p0.y.toFixed(1)} C${(p0.x + p0.nx*k).toFixed(1)},${(p0.y + p0.ny*k).toFixed(1)} ${(p1.x + p1.nx*k).toFixed(1)},${(p1.y + p1.ny*k).toFixed(1)} ${p1.x.toFixed(1)},${p1.y.toFixed(1)}`;
+}
+// edges
+EDGES.forEach(e => {
+  if (e.hidden) return;
+  const cls = ['edge'];
+  if (e.prov === 'i') cls.push('interp');
+  if (e.spine) cls.push('spine');
+  if (e.lane) cls.push('lane');
+  const p = el('path', {d:pathFor(e), class:cls.join(' ')}, gEdges);
+  p.style.strokeWidth = (e.spine ? 1.6 : 0.75 + 0.42 * (e.w - 1)).toFixed(2) + 'px';
+  if (e.spine || e.lane) p.setAttribute('marker-end', 'url(#arw)');
+  e.p = p;
+});
+// bus ticks
+ORDER.filter(id => N[id].L === 'core').forEach(id => el('line', {x1:N.BUS.x + N.BUS.w, x2:N[id].x, y1:N[id].cy, y2:N[id].cy, class:'tick'}, gTicks));
+// lock label on promotion edge
+txt(gHead, 727, 953, 'lock', 'CORE FROZEN · ALL 6 CRITERIA TO ENTER');
+
+// nodes
+const CODEW = {in:16, inv:17, core:30, sop:30, prio:16, lane:24, det:16};
+function renderNode(n){
+  const cls = ['node', 'L-' + n.L];
+  if (n.kind) cls.push(n.kind);
+  if (n.kind === 'dec') cls.push('k-' + n.dk);
+  const g = el('g', {class:cls.join(' '), 'data-id':n.id, tabindex:'0', role:'button', 'aria-label':(n.title || n.label)}, gNodes);
+  n.g = g;
+  if (n.kind === 'bus') {
+    el('rect', {class:'busrect body', x:n.x, y:n.y, width:n.w, height:n.h, rx:6}, g);
+    const t = txt(g, 0, 0, 'buslbl', 'INTERPRETATION · EXISTING CORE ONLY', {transform:`translate(${n.x + 8.6},${n.y + n.h/2}) rotate(-90)`, 'text-anchor':'middle'});
+    return;
+  }
+  if (n.kind === 'box') {
+    el('rect', {class:'body', x:n.x, y:n.y, width:n.w, height:n.h, rx:8}, g);
+    txt(g, n.x + 12, n.y + 20, 'boxhead', '◆ Divergence check');
+    txt(g, n.x + 12, n.y + 35, 'axis', '8 comparisons · materiality test');
+    txt(g, cx0 + cellW/2, n.y + 52, 'axis', 'judgment +', {'text-anchor':'middle'});
+    txt(g, cx1 + cellW/2, n.y + 52, 'axis', 'judgment −', {'text-anchor':'middle'});
+    txt(g, n.x + 11, ry0 + cellH/2 + 3, 'axis', 'E+', {'text-anchor':'middle'});
+    txt(g, n.x + 11, ry1 + cellH/2 + 3, 'axis', 'E−', {'text-anchor':'middle'});
+    el('circle', {class:'port', cx:n.x, cy:n.cy, r:2.4}, g);
+    return;
+  }
+  if (n.kind === 'cell') {
+    el('rect', {class:'body', x:n.x, y:n.y, width:n.w, height:n.h, rx:4}, g);
+    txt(g, n.x + 7, n.y + 15, 'code', n.code);
+    const l = txt(g, n.x + 7, n.y + 32, 'lbl', n.label); l.dataset.max = n.w - 12;
+    el('circle', {class:'port', cx:n.portX, cy:n.portY, r:2.2}, g);
+    return;
+  }
+  if (n.kind === 'gate') {
+    el('rect', {class:'body', x:n.x, y:n.y, width:n.w, height:n.h, rx:6}, g);
+    el('path', {class:'tab', d:`M${n.x + 6},${n.y} H${n.x + 40} V${n.y + n.h} H${n.x + 6} Q${n.x},${n.y + n.h} ${n.x},${n.y + n.h - 6} V${n.y + 6} Q${n.x},${n.y} ${n.x + 6},${n.y} Z`}, g);
+    txt(g, n.x + 20, n.cy + 5, 'gcode', n.code, {'text-anchor':'middle'});
+    const l = txt(g, n.x + 50, n.cy - 3, 'glbl', n.label); l.dataset.max = n.w - 70;
+    n.badgeEl = txt(g, n.x + 50, n.cy + 12, 'gbadge' + (n.stopBadge ? ' stopb' : ''), n.badge.toUpperCase()); n.badgeEl.dataset.max = n.w - 58;
+    el('path', {class:'watch', d:`M${n.x + n.w - 11},${n.y + 6} l4.5,4.5 l-4.5,4.5 l-4.5,-4.5 z`}, g);
+    el('circle', {class:'port', cx:n.x, cy:n.cy, r:2.4}, g);
+    el('circle', {class:'port', cx:n.x + n.w, cy:n.cy, r:2.4}, g);
+    return;
+  }
+  if (n.kind === 'dec') {
+    el('rect', {class:'body', x:n.x, y:n.y, width:n.w, height:n.h}, g);
+    el('circle', {class:'neuron', cx:n.x + 14, cy:n.cy, r:11}, g);
+    el('circle', {class:'core', cx:n.x + 14, cy:n.cy, r:5.5}, g);
+    txt(g, n.x + 33, n.cy + 4.6, 'dlbl', n.label);
+    return;
+  }
+  el('rect', {class:'body', x:n.x, y:n.y, width:n.w, height:n.h, rx:4}, g);
+  let tx = n.x + 8;
+  if (n.code) { txt(g, tx, n.cy + (n.sub ? -1.5 : 3.3), 'code', n.code); tx += CODEW[n.L] || 22; }
+  const l = txt(g, tx, n.sub ? n.cy - 1.5 : n.cy + 3.8, 'lbl', n.label); l.dataset.max = n.x + n.w - 7 - tx;
+  if (n.sub) { const s = txt(g, tx, n.cy + 10.5, 'sub', n.sub); s.dataset.max = n.x + n.w - 7 - tx; }
+  el('circle', {class:'port', cx:n.x, cy:n.cy, r:2.1}, g);
+  el('circle', {class:'port', cx:n.x + n.w, cy:n.cy, r:2.1}, g);
+}
+ORDER.forEach(id => renderNode(N[id]));
+// draw the four cells above the box (they were added after it in ORDER, so they already sit on top)
+
+function fitText(){
+  svg.querySelectorAll('text[data-max]').forEach(t => {
+    t.removeAttribute('textLength'); t.removeAttribute('lengthAdjust');
+    const max = +t.dataset.max; let len = 0;
+    try { len = t.getComputedTextLength(); } catch (err) { return; }
+    if (len > max && max > 10) { t.setAttribute('textLength', max); t.setAttribute('lengthAdjust', 'spacingAndGlyphs'); }
+  });
+}
+
+/* ------------------------------------------------------------------ camera */
+let cam = {x:0, y:0, k:1}, flyRaf = 0, intent = {type:'all'};
+const stageEl = $('#stage'), drawer = $('#drawer'), drawerBody = $('#drawerBody');
+const isSheet = () => window.matchMedia('(max-width: 860px)').matches;
+function setCam(c){ cam = c; vp.setAttribute('transform', `translate(${c.x.toFixed(2)} ${c.y.toFixed(2)}) scale(${c.k.toFixed(4)})`); }
+function viewRect(){
+  const r = svg.getBoundingClientRect(); let h = r.height;
+  if (isSheet() && !drawer.classList.contains('min')) h -= Math.min(drawer.getBoundingClientRect().height, r.height * 0.6);
+  return {w:Math.max(80, r.width), h:Math.max(120, h)};
+}
+function camFor(b, pad = 26, maxK = 1.6){
+  const v = viewRect();
+  const k = Math.max(0.18, Math.min(maxK, (v.w - 2*pad) / b.w, (v.h - 2*pad) / b.h));
+  return {k, x:(v.w - b.w*k)/2 - b.x*k, y:(v.h - b.h*k)/2 - b.y*k};
+}
+function fly(t, ms = 620){
+  cancelAnimationFrame(flyRaf);
+  if (reduceMotion || ms === 0) { setCam(t); return; }
+  const f = {...cam}, t0 = performance.now();
+  const step = now => {
+    const p = Math.min(1, (now - t0) / ms), e = p < .5 ? 4*p*p*p : 1 - Math.pow(-2*p + 2, 3) / 2;
+    setCam({x:f.x + (t.x - f.x)*e, y:f.y + (t.y - f.y)*e, k:f.k + (t.k - f.k)*e});
+    if (p < 1) flyRaf = requestAnimationFrame(step);
+  };
+  flyRaf = requestAnimationFrame(step);
+}
+function bboxOf(ids){
+  let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
+  ids.forEach(id => { const n = N[id]; if (!n) return; x0 = Math.min(x0, n.x); y0 = Math.min(y0, n.y); x1 = Math.max(x1, n.x + n.w); y1 = Math.max(y1, n.y + n.h); });
+  return {x:x0 - 20, y:y0 - 30, w:(x1 - x0) + 40, h:(y1 - y0) + 50};
+}
+function applyIntent(ms){
+  if (!intent) return;
+  if (intent.type === 'all') fly(camFor({x:16, y:28, w:W - 16, h:H - 20}, 14, 1.2), ms);
+  else fly(camFor(bboxOf(intent.ids), 30, intent.maxK || 1.25), ms);
+}
+function zoomAt(px, py, f){
+  cancelAnimationFrame(flyRaf);
+  const k2 = Math.max(0.18, Math.min(2.6, cam.k * f));
+  setCam({k:k2, x:px - (px - cam.x) * (k2 / cam.k), y:py - (py - cam.y) * (k2 / cam.k)});
+  intent = null;
+}
+new ResizeObserver(() => applyIntent(0)).observe(svg);
+
+/* pan / pinch / wheel */
+const ptrs = new Map(); let drag = null, pinch = null;
+svg.addEventListener('pointerdown', e => {
+  if (e.button !== 0 && e.pointerType === 'mouse') return;
+  cancelAnimationFrame(flyRaf);
+  ptrs.set(e.pointerId, {x:e.clientX, y:e.clientY});
+  if (ptrs.size === 1) drag = {x:e.clientX, y:e.clientY, cx:cam.x, cy:cam.y, moved:false, node:e.target.closest('.node')};
+  else if (ptrs.size === 2) {
+    const [a, b] = [...ptrs.values()];
+    pinch = {d:Math.hypot(a.x - b.x, a.y - b.y), k:cam.k, cam:{...cam}, mx:(a.x + b.x)/2, my:(a.y + b.y)/2};
+    if (drag) drag.moved = true;
+  }
+});
+svg.addEventListener('pointermove', e => {
+  if (ptrs.has(e.pointerId) && e.pointerType === 'mouse' && e.buttons === 0) endPtr({pointerId:e.pointerId, type:'pointercancel'});
+  if (!ptrs.has(e.pointerId)) { hoverTip(e); return; }
+  ptrs.set(e.pointerId, {x:e.clientX, y:e.clientY});
+  if (pinch && ptrs.size >= 2) {
+    const [a, b] = [...ptrs.values()]; const r = svg.getBoundingClientRect();
+    const d = Math.hypot(a.x - b.x, a.y - b.y); const k2 = Math.max(0.18, Math.min(2.6, pinch.k * d / pinch.d));
+    const mx = pinch.mx - r.left, my = pinch.my - r.top;
+    setCam({k:k2, x:mx - (mx - pinch.cam.x) * (k2 / pinch.k) + ((a.x + b.x)/2 - pinch.mx), y:my - (my - pinch.cam.y) * (k2 / pinch.k) + ((a.y + b.y)/2 - pinch.my)});
+    intent = null; return;
+  }
+  if (drag) {
+    const dx = e.clientX - drag.x, dy = e.clientY - drag.y;
+    if (!drag.moved && Math.hypot(dx, dy) > 4) { drag.moved = true; try { svg.setPointerCapture(e.pointerId); } catch (err) {} svg.classList.add('grabbing'); hideTip(); }
+    if (drag.moved) { setCam({k:cam.k, x:drag.cx + dx, y:drag.cy + dy}); intent = null; }
+  }
+});
+function endPtr(e){
+  if (!ptrs.has(e.pointerId)) return;
+  ptrs.delete(e.pointerId);
+  if (pinch && ptrs.size === 1) { const rem = [...ptrs.values()][0]; drag = {x:rem.x, y:rem.y, cx:cam.x, cy:cam.y, moved:true, node:null}; }
+  if (ptrs.size < 2) pinch = null;
+  if (ptrs.size === 0 && drag) {
+    const d = drag; drag = null; svg.classList.remove('grabbing');
+    if (!d.moved && e.type === 'pointerup') { if (d.node) selectNode(d.node.dataset.id, true); else clearSelection(); }
+  }
+}
+window.addEventListener('pointerup', endPtr);
+window.addEventListener('pointercancel', endPtr);
+svg.addEventListener('wheel', e => {
+  e.preventDefault();
+  const r = svg.getBoundingClientRect();
+  if (e.ctrlKey || e.metaKey) zoomAt(e.clientX - r.left, e.clientY - r.top, Math.exp(-e.deltaY * 0.0024));
+  else { cancelAnimationFrame(flyRaf); const m = e.deltaMode === 1 ? 16 : 1; setCam({k:cam.k, x:cam.x - e.deltaX*m, y:cam.y - e.deltaY*m}); intent = null; }
+}, {passive:false});
+$('#zoomIn').onclick = () => { const v = viewRect(); zoomAt(v.w/2, v.h/2, 1.3); };
+$('#zoomOut').onclick = () => { const v = viewRect(); zoomAt(v.w/2, v.h/2, 1/1.3); };
+$('#zoomFit').onclick = () => { intent = {type:'all'}; applyIntent(); };
+
+/* tooltip + hover activation */
+const tip = $('#tip'), wrap = $('#mapwrap');
+let hoverId = null;
+function hoverTip(e){
+  if (e.pointerType && e.pointerType !== 'mouse') return;
+  const g = e.target.closest && e.target.closest('.node');
+  const id = g ? g.dataset.id : null;
+  if (id !== hoverId) { hoverId = id; if (mode === 'explore') paint(); }
+  if (!id) { hideTip(); return; }
+  const n = N[id]; const r = wrap.getBoundingClientRect();
+  tip.innerHTML = `<span>${esc(LAYER_NAME[n.L] || '')}${n.code && n.L !== 'gate' ? ' · ' + esc(n.code) : ''}</span><b>${esc(n.title || n.label)}</b>`;
+  tip.hidden = false;
+  let x = e.clientX - r.left + 14, y = e.clientY - r.top + 14;
+  const tw = tip.offsetWidth, th = tip.offsetHeight;
+  if (x + tw > r.width - 8) x = e.clientX - r.left - tw - 12;
+  if (y + th > r.height - 8) y = e.clientY - r.top - th - 12;
+  tip.style.left = x + 'px'; tip.style.top = y + 'px';
+}
+function hideTip(){ tip.hidden = true; }
+svg.addEventListener('pointerleave', () => { hideTip(); if (hoverId) { hoverId = null; if (mode === 'explore') paint(); } });
+gNodes.addEventListener('keydown', e => { const g = e.target.closest('.node'); if (!g) return; if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); selectNode(g.dataset.id, true); } });
+gNodes.addEventListener('focusin', e => { const g = e.target.closest('.node'); if (g && mode === 'explore' && !selected) { hoverId = g.dataset.id; paint(); } });
+gNodes.addEventListener('focusout', () => { if (mode === 'explore' && !selected) { hoverId = null; paint(); } });
+
+/* ------------------------------------------------------------------ activation + painting */
+let mode = 'explore', selected = null, stepIdx = 0, presetIdx = 0, runS = Object.assign({...BASE}, PRESETS[0][2]);
+function activation(id){
+  const lv = new Map([[id, 1]]), elv = new Map();
+  const isGate = N[id].L === 'gate';
+  const walk = dir => {
+    let frontier = [id];
+    for (let d = 1; d <= 2; d++) {
+      const next = [], val = d === 1 ? 0.9 : 0.5;
+      frontier.forEach(u => ((dir === 'out' ? OUT[u] : IN[u]) || []).forEach(e => {
+        if (e.spine && !(isGate && d === 1)) return;
+        const v = dir === 'out' ? e.t : e.f;
+        if (!lv.has(v)) { lv.set(v, val); next.push(v); }
+        elv.set(e.i, Math.max(elv.get(e.i) || 0, val));
+      }));
+      frontier = next;
+    }
+  };
+  walk('out'); walk('in');
+  return {lv, elv};
+}
+function stepActivation(st){
+  const lv = new Map(), elv = new Map();
+  st.nodes.forEach(id => lv.set(id, 1));
+  EDGES.forEach(e => { if (lv.has(e.f) && lv.has(e.t)) elv.set(e.i, 1); });
+  return {lv, elv};
+}
+function clearClasses(){
+  ORDER.forEach(id => { const g = N[id].g; g.classList.remove('dim','lit','half','sel','on','st-pass','st-unk','st-stop','st-fail','st-blocked','st-cap'); });
+  ORDER.forEach(id => { const n = N[id]; if (n.stateEl) { n.stateEl.remove(); n.stateEl = null; } if (n.badgeEl) n.badgeEl.style.display = ''; });
+  EDGES.forEach(e => { if (!e.p) return; e.p.classList.remove('hot','r-pass','r-cond','r-out'); e.p.style.strokeOpacity = ''; e.p.style.removeProperty('--dc'); });
+  gTicks.style.opacity = '';
+}
+function paintLevels(lv, elv){
+  ORDER.forEach(id => {
+    const g = N[id].g, v = lv.get(id) || 0;
+    g.classList.toggle('dim', v === 0); g.classList.toggle('lit', v >= 0.85); g.classList.toggle('half', v > 0 && v < 0.85);
+  });
+  EDGES.forEach(e => { if (!e.p) return; const v = elv.get(e.i) || 0; e.p.style.strokeOpacity = v ? (0.3 + 0.65*v).toFixed(2) : '0.035'; e.p.classList.toggle('hot', v > 0); });
+  gTicks.style.opacity = lv.has('BUS') ? '1' : '0.25';
+  setPulses(EDGES.filter(e => e.p && (elv.get(e.i) || 0) >= 0.85).sort((a, b) => b.w - a.w).slice(0, 34));
+}
+function paint(){
+  clearClasses();
+  if (mode === 'explore') {
+    const id = selected || hoverId;
+    if (id) { const {lv, elv} = activation(id); paintLevels(lv, elv); }
+    else setPulses([]);
+    if (selected) N[selected].g.classList.add('sel');
+  } else if (mode === 'walk') {
+    const {lv, elv} = stepActivation(STEPS[stepIdx]); paintLevels(lv, elv);
+  } else if (mode === 'run') paintRun();
+}
+function paintRun(){
+  const r = evaluate(runS);
+  const stateOf = {};
+  Object.entries(r.gs).forEach(([g, s]) => stateOf[g] = s);
+  stateOf.G9 = {deploy:'pass', defer:'unk', reject:'fail', preserve:'cap'}[r.d];
+  const runNodes = new Set(['CHECK','S','M','X1','X5', ...Object.keys(stateOf), 'DEPLOY','DEFER','REJECT','PRESERVE','PRIO', ROLE_NODE[runS.role]]);
+  ORDER.forEach(id => N[id].g.classList.toggle('dim', !runNodes.has(id)));
+  const label = {pass:'PASS', unk:'UNKNOWN', stop:'STOP', fail:'FAIL', blocked:'NOT ASSESSABLE', cap:'CONSTRAINT'};
+  Object.entries(stateOf).forEach(([g, s]) => {
+    const n = N[g]; n.g.classList.add('st-' + s);
+    if (n.badgeEl) n.badgeEl.style.display = 'none';
+    const special = g === 'G6' && runS.G6 === 'single' ? 'SINGLE-POINT FLAG' : g === 'G1' && s === 'unk' ? 'INCOMPLETE' : g === 'G9' ? r.d.toUpperCase() : label[s];
+    const sf = r.shortfall && (g === 'G7' || g === 'G8');
+    n.stateEl = txt(n.g, n.x + 50, n.cy + 12, 'statebadge', special + (sf ? ' · SHORTFALL' : ''));
+    n.stateEl.style.fill = `var(${s === 'pass' ? '--go' : s === 'unk' ? '--c-div' : s === 'cap' ? '--hold' : s === 'blocked' ? '--ink-3' : '--stop'})`;
+    if (sf) n.stateEl.style.fill = 'var(--c-div)';
+  });
+  const divState = {none:'pass', resolved:'pass', partial:'unk', unresolved:'stop'}[runS.div];
+  ['CHECK','S'].forEach(id => N[id].g.classList.add('st-' + divState));
+  N.M.g.classList.add(runS.div === 'unresolved' || runS.div === 'partial' ? 'st-unk' : 'dim');
+  N.X1.g.classList.add('st-' + {pos:'pass', neg:'stop', unv:'unk'}[runS.cov]);
+  N.X5.g.classList.add(r.shortfall ? (r.trOK ? 'st-pass' : 'st-unk') : 'dim');
+  const decId = {deploy:'DEPLOY', defer:'DEFER', reject:'REJECT', preserve:'PRESERVE'}[r.d];
+  ['DEPLOY','DEFER','REJECT','PRESERVE'].forEach(id => { N[id].g.classList.toggle('dim', id !== decId); });
+  N[decId].g.classList.add('on','lit');
+  const roleId = ROLE_NODE[runS.role];
+  N[roleId].g.classList.toggle('dim', r.d !== 'deploy'); if (r.d === 'deploy') N[roleId].g.classList.add('lit');
+  N.PRIO.g.classList.toggle('dim', !(r.d === 'defer' || r.shortfall)); if (r.d === 'defer' || r.shortfall) N.PRIO.g.classList.add('lit');
+  // edges
+  let stopped = false; const pulsesOn = [];
+  EDGES.forEach(e => { if (e.p) e.p.style.strokeOpacity = '0.03'; });
+  for (let i = 0; i < 9; i++) {
+    const e = EK.get('G' + i + '>G' + (i + 1));
+    if (r.gs['G' + i] !== 'pass') stopped = true;
+    e.p.classList.add(stopped ? 'r-cond' : 'r-pass'); e.p.style.strokeOpacity = '';
+    if (!stopped) pulsesOn.push(e);
+  }
+  const out = EK.get('G9>' + decId);
+  out.p.classList.add('r-out'); out.p.style.setProperty('--dc', `var(${{deploy:'--go', defer:'--c-div', reject:'--stop', preserve:'--hold'}[r.d]})`); out.p.style.strokeOpacity = ''; pulsesOn.push(out);
+  if (r.d === 'deploy') { const re = EK.get('DEPLOY>' + roleId); re.p.classList.add('r-pass'); re.p.style.strokeOpacity = ''; pulsesOn.push(re); }
+  if (r.d === 'defer') { const pe = EK.get('DEFER>PRIO'); pe.p.classList.add('hot'); pe.p.style.strokeOpacity = '.9'; }
+  if (r.shortfall) { const pe = EK.get('X5>PRIO'); pe.p.classList.add('hot'); pe.p.style.strokeOpacity = '.9'; }
+  if (runS.div === 'unresolved' || runS.div === 'partial') { const me = EK.get('M>G9'); me.p.classList.add('hot'); me.p.style.strokeOpacity = '.9'; pulsesOn.push(me); }
+  if (runS.cov !== 'pos') ['X1>G7','X1>G8'].forEach(k => { const x = EK.get(k); x.p.classList.add('hot'); x.p.style.strokeOpacity = '.8'; });
+  gTicks.style.opacity = '0.15';
+  setPulses(pulsesOn);
+}
+
+/* pulses */
+let pulseEdges = [], pulses = [], praf = 0, lastSpawn = -1e9;
+function setPulses(list){
+  pulses.forEach(p => p.c.remove()); pulses = []; pulseEdges = [];
+  if (reduceMotion || !list.length) { cancelAnimationFrame(praf); praf = 0; return; }
+  pulseEdges = list; pulseEdges.forEach(e => { if (!e.len) e.len = e.p.getTotalLength(); });
+  lastSpawn = -1e9; if (!praf) praf = requestAnimationFrame(tickPulse);
+}
+function tickPulse(t){
+  if (t - lastSpawn > 1100) {
+    lastSpawn = t;
+    pulseEdges.forEach((e, i) => { if (pulses.length < 80) pulses.push({c:el('circle', {r:2.4, class:'pulse', cx:-99, cy:-99}, gPulse), e, t0:t + (i % 6) * 70, dur:700 + e.len * 2.4}); });
+  }
+  pulses = pulses.filter(p => {
+    const u = (t - p.t0) / p.dur;
+    if (u >= 1) { p.c.remove(); return false; }
+    if (u < 0) return true;
+    const pt = p.e.p.getPointAtLength(u * p.e.len);
+    p.c.setAttribute('cx', pt.x.toFixed(1)); p.c.setAttribute('cy', pt.y.toFixed(1)); p.c.setAttribute('opacity', Math.sin(Math.PI * u).toFixed(2));
+    return true;
+  });
+  praf = (pulseEdges.length || pulses.length) ? requestAnimationFrame(tickPulse) : 0;
+}
+
+/* ------------------------------------------------------------------ drawer */
+function chip(id){ const n = N[id]; const lcVar = {in:'--c-in', det:'--c-div', cell:'--c-div', inv:'--c-div', core:'--c-core', gate:'--ink', sop:'--c-sop', lane:'--ink-2', role:'--ink-2', prio:'--ink-2', bus:'--c-core', dec:({deploy:'--go', defer:'--c-div', reject:'--stop', preserve:'--hold'})[n.dk]}[n.L]; return `<button class="chip" type="button" data-go="${id}" style="--lc:var(${lcVar})"><i></i>${n.code && n.kind !== 'dec' ? `<code>${esc(n.code)}</code>` : ''}${esc(n.label)}</button>`; }
+function quote(q, src){ return `<figure class="quote"><figcaption>${esc(src)}</figcaption><blockquote>${esc(q)}</blockquote></figure>`; }
+function linkRows(list, dir){
+  if (!list.length) return '';
+  return `<div class="links">` + list.map(e => {
+    const other = dir === 'out' ? e.t : e.f;
+    const tag = e.prov === 's' ? '<span class="tag s">stated</span>' : '<span class="tag">map reading</span>';
+    const w = e.rows ? ` · ${e.rows} routing row${e.rows > 1 ? 's' : ''}` : '';
+    return `<div class="lrow">${chip(other)}${tag}<div class="why">${esc(e.whys.join(' · '))}${w}</div></div>`;
+  }).join('') + `</div>`;
+}
+function drawOverview(){
+  drawerBody.innerHTML = `<div class="dz">
+    <p class="eyebrow">How to read the map</p>
+    <h2>The framework, wired as one network</h2>
+    <p>Nodes are rules, analytical states or evidence types drawn from the master framework and its execution documents; the interpretation bus is a drawing device. Signals run left to right: evidence and judgment enter, the divergence check decides whether a conflict needs investigation, findings route into the 35 frozen Core mechanisms, those mechanisms feed the ten ordered gates, and G9 emits one of four capital decisions.</p>
+    <div class="formula">Evidence → Divergence Check → Interpretation → Existing Core Mechanisms → Investment Decision</div>
+    <div class="navrow"><div class="btns"><button class="btn primary" type="button" data-mode-go="walk">Walk the reasoning</button><button class="btn" type="button" data-mode-go="run">Run a path</button></div></div>
+    <h3>Key</h3>
+    <ul class="key">
+      <li><svg viewBox="0 0 44 16"><path d="M2 8 C14 8 30 8 42 8" style="stroke:var(--ink-2);stroke-width:1.4;fill:none"/></svg><span>Link stated in the master or SOP text</span></li>
+      <li><svg viewBox="0 0 44 16"><path d="M2 8 H42" style="stroke:var(--ink-2);stroke-width:1.4;fill:none;stroke-dasharray:3 3.5"/></svg><span>Map reading: a grouping or link this map infers</span></li>
+      <li><svg viewBox="0 0 44 16"><path d="M2 5 H42" style="stroke:var(--ink-2);stroke-width:.8;fill:none"/><path d="M2 12 H42" style="stroke:var(--ink-2);stroke-width:2.4;fill:none"/></svg><span>Weight: routing-table rows citing a Core → gate link, or evidence rank for inputs</span></li>
+      <li><svg viewBox="0 0 44 16"><path d="M22 3 l5 5 l-5 5 l-5 -5 z" style="fill:var(--c-div)"/></svg><span>Divergence watchpoint, checked at every gate</span></li>
+      <li><svg viewBox="0 0 44 16"><text x="4" y="12" style="font:600 9px var(--font-mono);fill:var(--stop)">STOP</text></svg><span>Explicit stop in the gate text</span></li>
+    </ul>
+    <div class="swatches">
+      <span style="--lc:var(--c-in)"><i></i>Input</span><span style="--lc:var(--c-div)"><i></i>Divergence control</span><span style="--lc:var(--c-core)"><i></i>Core</span><span style="--lc:var(--ink)"><i></i>Gates</span><span style="--lc:var(--c-sop)"><i></i>SOP</span><span style="--lc:var(--go)"><i></i>Outputs</span>
+    </div>
+    <h3>Three ways in</h3>
+    <ul class="plain">
+      <li><strong>Explore.</strong> Hover a node to light up what feeds it and what it feeds; click to read its source text and every link with its provenance.</li>
+      <li><strong>Walk the reasoning.</strong> Sixteen steps from evidence intake to G9 and the learning loop.</li>
+      <li><strong>Run a path.</strong> Set what the evidence supports at each gate and see which of the four decisions the precedence rules allow.</li>
+    </ul>
+    <h3>Sources read</h3>
+    <ul class="srcs">${[F.M, F.SUP, F.REG, F.STD, F.TPL, F.CFG, F.P7, F.AUD].map(f => `<li>${esc(f)}</li>`).join('')}</ul>
+    <p class="fine">Area-based underwriting (regional protocols, Cheras and Klang Valley case files) is left out on purpose. This map is a reading aid. It does not amend the master, add a gate, score assets or authorise outreach or purchase.</p>
+    <p class="fine">Visual references: layered neurons and weighted links after TensorFlow Playground; ports and wires after open-source node editors such as litegraph.js and Rete.js; hover activation after Obsidian-style graph views.</p>
+  </div>`;
+}
+function drawNode(id){
+  const n = N[id];
+  const outs = (OUT[id] || []).filter(e => !e.hidden), ins = (IN[id] || []).filter(e => !e.hidden);
+  let extra = '';
+  if (n.kind === 'gate') {
+    extra += n.stop ? `<div class="stoprule"><span>Stop rule</span>${esc(n.stop)}</div>` : '';
+    extra += `<dl class="facts"><div><dt>Divergence watchpoint</dt><dd>${esc(n.watch)}</dd></div><div><dt>Minimum evidence packet</dt><dd>${esc(n.packet)}</dd></div><div><dt>Permitted while incomplete</dt><dd>${esc(n.partial)}</dd></div></dl>`;
+  }
+  if (n.list) extra += `<h3>${esc(n.listTitle || 'Detail')}</h3><ul class="plain">${n.list.map(x => `<li>${esc(x)}</li>`).join('')}</ul>`;
+  if (id === 'BUS') extra += `<h3>Feeds</h3><p>All 35 Core principles. Hover the bus on the map to see them light.</p>`;
+  if (id === 'X1') extra += calcHTML();
+  const layer = LAYER_NAME[n.L] || '';
+  drawerBody.innerHTML = `<div class="dz">
+    <div class="navrow"><button class="btn" type="button" data-back>← Overview</button></div>
+    <p class="eyebrow">${esc(layer)}${n.code && n.kind !== 'gate' && n.kind !== 'box' ? ' · <b>' + esc(n.code) + '</b>' : ''}</p>
+    <h2>${esc(n.title || n.label)}</h2>
+    ${n.q ? quote(n.q, n.src) : ''}
+    ${n.note ? `<p>${esc(n.note)}</p>` : ''}
+    ${extra}
+    ${outs.length ? `<h3>Feeds (${outs.length})</h3>${linkRows(outs, 'out')}` : ''}
+    ${ins.length ? `<h3>Fed by (${ins.length})</h3>${linkRows(ins, 'in')}` : ''}
+  </div>`;
+  drawerBody.parentElement.scrollTop = 0;
+  if (id === 'X1') bindCalc();
+}
+function calcHTML(){
+  return `<h3>Try the standard</h3><div class="calc">
+    <div class="inputs">
+      <label for="calc-price">Price (RM)<input id="calc-price" type="number" inputmode="decimal" min="0.01" step="any" required value="500000"></label>
+      <label for="calc-rent">Rent / month<input id="calc-rent" type="number" inputmode="decimal" min="0" step="any" required value="2200"></label>
+      <label for="calc-fee">Mgmt fee / month<input id="calc-fee" type="number" inputmode="decimal" min="0" step="any" required value="350"></label>
+    </div>
+    <p id="calc-error" class="fine" role="status" hidden></p>
+    <dl id="calc-out" aria-live="polite"></dl>
+    <p class="fine">Example inputs, not a case. Scenario arithmetic on the approved convention only: not a net profit, a stress pass or a lender approval.</p>
+  </div>`;
+}
+function bindCalc(){
+  const run = () => {
+    const inputs = ['#calc-price','#calc-rent','#calc-fee'].map(s => $(s));
+    const [P,R,M] = inputs.map(e => e.valueAsNumber);
+    const invalid = inputs.map((e,i) => e.value.trim() === '' || !Number.isFinite(e.valueAsNumber) || (i === 0 ? e.valueAsNumber <= 0 : e.valueAsNumber < 0));
+    inputs.forEach((e,i) => e.setAttribute('aria-invalid', String(invalid[i])));
+    const error = $('#calc-error'), out = $('#calc-out');
+    error.hidden = !invalid.some(Boolean);
+    if (!error.hidden) {
+      error.textContent = 'Incomplete or invalid inputs. Enter a price above zero and non-negative monthly rent and management fee; enter 0 explicitly if applicable.';
+      out.innerHTML = '';
+      return;
+    }
+    const L = 0.9 * P, r = 0.04 / 12, inst = L > 0 ? L * r / (1 - Math.pow(1 + r, -420)) : 0;
+    const cov = R - inst - M, gy = P > 0 ? 1200 * R / P : 0, meets = P > 0 && 1200 * R >= 6 * P;
+    if (![L,inst,cov,gy,inst + M,P * 0.06 / 12].every(Number.isFinite)) {
+      error.hidden = false; error.textContent = 'Inputs exceed the supported numeric range.'; out.innerHTML = ''; return;
+    }
+    error.textContent = '';
+    const state = cov < 0 ? ['Negative · shortfall → lowest research tier', 'neg'] : cov > 0 ? ['Positive · surplus', 'pos'] : ['Zero · break-even', ''];
+    const f2 = v => 'RM ' + v.toLocaleString('en-MY', {minimumFractionDigits:2, maximumFractionDigits:2});
+    const up = v => Math.ceil(v * 100) / 100;
+    $('#calc-out').innerHTML = [
+      ['Loan principal (90% of price)', f2(L)],
+      ['Instalment (4%, 420 months)', f2(inst)],
+      ['Standard monthly coverage', `<span class="${state[1]}">${cov < 0 ? '−' : ''}${f2(Math.abs(cov))}</span>`],
+      ['Result', `<span class="${state[1]}">${state[0]}</span>`],
+      ['Gross yield (truncated, not rounded)', `<span class="${meets ? 'pos' : ''}">${(Math.floor(gy * 1e6) / 1e6).toFixed(6)}%</span> · ${meets ? 'meets' : 'below'} the 6% preference`],
+      ['Rent for zero coverage (rounded up)', f2(up(inst + M))],
+      ['Rent for 6% gross (rounded up)', f2(up(P * 0.06 / 12))]
+    ].map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('');
+  };
+  ['#calc-price','#calc-rent','#calc-fee'].forEach(s => $(s).addEventListener('input', run));
+  run();
+}
+function drawStep(){
+  const st = STEPS[stepIdx];
+  drawerBody.innerHTML = `<div class="dz">
+    <div class="navrow"><p class="eyebrow">Step ${stepIdx + 1} of ${STEPS.length} · <b>${esc(st.stage)}</b></p>
+      <div class="btns"><button class="btn" type="button" data-step="-1" ${stepIdx === 0 ? 'disabled' : ''} aria-label="Previous step">←</button><button class="btn primary" type="button" data-step="1" ${stepIdx === STEPS.length - 1 ? 'disabled' : ''}>Next →</button></div></div>
+    <h2>${esc(st.title)}</h2>
+    <p>${esc(st.body)}</p>
+    ${quote(st.q, st.src)}
+    ${st.stop ? `<div class="stoprule"><span>Stop rule</span>${esc(st.stop)}</div>` : ''}
+    ${st.cond ? `<div class="stoprule cond"><span>Gate condition</span>${esc(st.cond)}</div>` : ''}
+    <h3>Lit in this step</h3>
+    <div class="chips">${st.nodes.filter(id => N[id].L !== 'core' || st.nodes.length < 40).slice(0, 40).map(chip).join('')}${st.nodes.length >= 40 ? '<span class="fine">+ all 35 Core principles</span>' : ''}</div>
+  </div>`;
+  drawerBody.parentElement.scrollTop = 0;
+}
+function drawRun(){
+  const r = evaluate(runS);
+  const name = {deploy:'Deploy', defer:'Defer', reject:'Reject', preserve:'Preserve Capacity'}[r.d];
+  const fs = FORM.map(([id, label, opts]) => {
+    if (id === 'tr' && runS.cov !== 'neg') return '';
+    if (id === 'residual' && runS.div !== 'partial') return '';
+    const dis = id === 'G5' && !r.pre;
+    return `<fieldset><legend>${esc(label)}${dis ? ' · not assessable until G0–G4 pass' : ''}</legend><div class="seg">${opts.map(([v, t]) => `<input type="radio" id="r-${id}-${v}" name="${id}" value="${v}" ${runS[id] === v && !dis ? 'checked' : ''} ${dis ? 'disabled' : ''}><label for="r-${id}-${v}">${esc(t)}</label>`).join('')}</div></fieldset>`;
+  }).join('');
+  drawerBody.innerHTML = `<div class="dz">
+    <div class="result d-${r.d}">
+      <p class="eyebrow">G9 result under these inputs</p>
+      <div class="verdict">${name}</div>
+      <ul class="reasons">${r.reasons.map(([t, s]) => `<li>${esc(t)}<small>${esc(s)}</small></li>`).join('')}</ul>
+      <p class="prio"><b>Research priority.</b> ${esc(r.prio)}</p>
+    </div>
+    ${r.notes.length ? `<ul class="plain">${r.notes.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
+    <h3>Illustrative paths</h3>
+    <div class="presets">${PRESETS.map((p, i) => `<button type="button" data-preset="${i}" aria-pressed="${i === presetIdx}">${esc(p[0])}<br><span class="fine">${esc(p[1])}</span></button>`).join('')}</div>
+    <h3>Set the evidence at each gate</h3>
+    <form class="run" id="runform">${fs}</form>
+    <p class="fine">Logic only, using the master's decision precedence and the execution standard. Not a case, not a score and not a purchase signal. This tool records no decisions and implies no validated Deploy.</p>
+  </div>`;
+  const live = $('#live'); if (live) live.textContent = 'G9 result: ' + name;
+  $('#runform').addEventListener('change', e => {
+    if (!e.target.name) return;
+    if (e.target.name === 'div') runS.residual = 'no';
+    runS[e.target.name] = e.target.value; presetIdx = -1;
+    const keepScroll = drawer.scrollTop, fid = e.target.id; drawRun(); drawer.scrollTop = keepScroll;
+    const ni = document.getElementById(fid); if (ni) ni.focus({preventScroll:true});
+    paint();
+  });
+}
+
+/* drawer delegation */
+function focusIn(sel){
+  const t = sel ? drawerBody.querySelector(sel) : null, h = drawerBody.querySelector('h2');
+  const target = t && !t.disabled ? t : h;
+  if (!target) return;
+  if (target === h) h.setAttribute('tabindex', '-1');
+  target.focus({preventScroll:true});
+}
+drawer.addEventListener('click', e => {
+  const go = e.target.closest('[data-go]');
+  if (go) { selectNode(go.dataset.go, true, true); focusIn(null); return; }
+  if (e.target.closest('[data-back]')) { clearSelection(); focusIn(null); return; }
+  const mg = e.target.closest('[data-mode-go]'); if (mg) { setMode(mg.dataset.modeGo); focusIn(null); return; }
+  const sb = e.target.closest('[data-step]'); if (sb) { const dir = sb.dataset.step; goStep(stepIdx + (+dir)); focusIn(`[data-step="${dir}"]`); return; }
+  const pr = e.target.closest('[data-preset]');
+  if (pr) { presetIdx = +pr.dataset.preset; runS = Object.assign({...BASE}, PRESETS[presetIdx][2]); drawRun(); paint(); focusIn(`[data-preset="${presetIdx}"]`); }
+});
+
+/* ------------------------------------------------------------------ modes, steps */
+const tabs = [...document.querySelectorAll('.modes button')];
+const stepsNav = $('#steps');
+stepsNav.innerHTML = STEPS.map((s, i) => `<button type="button" data-i="${i}" class="${s.gate ? 'g' : ''}"><b>${i + 1}</b>${esc(s.s)}</button>`).join('');
+stepsNav.addEventListener('click', e => { const b = e.target.closest('button'); if (b) goStep(+b.dataset.i); });
+function setMode(m, opts = {}){
+  mode = m;
+  openSheet();
+  tabs.forEach(t => t.setAttribute('aria-selected', String(t.dataset.mode === m)));
+  if (m !== 'walk') stopPlay();
+  if (m === 'explore') { if (!opts.keepSel) selected = null; selected ? drawNode(selected) : drawOverview(); if (!opts.keepCam) { intent = {type:'all'}; applyIntent(); } }
+  if (m === 'walk') { selected = null; goStep(stepIdx); }
+  if (m === 'run') { selected = null; drawRun(); intent = {type:'nodes', ids:['G0','G9','X1','PRESERVE','CHECK','M'], maxK:1}; applyIntent(); }
+  updateRibbon(); openSheet(); paint();
+}
+tabs.forEach(t => t.addEventListener('click', () => setMode(t.dataset.mode)));
+function goStep(i){
+  stepIdx = Math.max(0, Math.min(STEPS.length - 1, i));
+  if (mode !== 'walk') { mode = 'walk'; tabs.forEach(t => t.setAttribute('aria-selected', String(t.dataset.mode === 'walk'))); selected = null; }
+  const st = STEPS[stepIdx];
+  drawStep(); updateRibbon(); paint(); openSheet();
+  intent = {type:'nodes', ids:st.focus || st.nodes, maxK:1.12}; applyIntent();
+}
+function updateRibbon(){
+  [...stepsNav.children].forEach((b, i) => {
+    if (mode === 'walk' && i === stepIdx) {
+      b.setAttribute('aria-current', 'step');
+      const br = b.getBoundingClientRect(), nr = stepsNav.getBoundingClientRect();
+      stepsNav.scrollBy({left:(br.left + br.width/2) - (nr.left + nr.width/2), behavior:reduceMotion ? 'auto' : 'smooth'});
+    } else b.removeAttribute('aria-current');
+  });
+}
+function selectNode(id, focus, fromDrawer){
+  if (!N[id]) return;
+  if (mode !== 'explore') { mode = 'explore'; tabs.forEach(t => t.setAttribute('aria-selected', String(t.dataset.mode === 'explore'))); stopPlay(); updateRibbon(); }
+  selected = id; hoverId = null; drawNode(id); paint(); openSheet();
+  if (focus) {
+    const {lv} = activation(id);
+    const ids = [...lv.entries()].filter(([, v]) => v >= 0.85).map(([k]) => k).filter(k => N[k].L !== 'bus');
+    intent = {type:'nodes', ids: ids.length > 1 ? ids : [id], maxK:1.15}; applyIntent();
+  }
+}
+function clearSelection(){ if (mode !== 'explore') return; selected = null; drawOverview(); paint(); }
+
+/* play */
+let playTimer = 0; const playBtn = $('#playBtn');
+function stopPlay(){ clearInterval(playTimer); playTimer = 0; playBtn.textContent = 'Play'; playBtn.setAttribute('aria-pressed', 'false'); }
+playBtn.addEventListener('click', () => {
+  if (playTimer) { stopPlay(); return; }
+  if (mode !== 'walk' || stepIdx === STEPS.length - 1) goStep(0); else goStep(stepIdx);
+  playBtn.textContent = 'Pause'; playBtn.setAttribute('aria-pressed', 'true');
+  playTimer = setInterval(() => { if (stepIdx >= STEPS.length - 1) { stopPlay(); return; } goStep(stepIdx + 1); }, 7000);
+});
+
+/* panel / sheet */
+const toggleBtn = $('#togglePanel');
+toggleBtn.addEventListener('click', () => {
+  const c = stageEl.classList.toggle('collapsed');
+  toggleBtn.textContent = c ? 'Show panel' : 'Hide panel'; toggleBtn.setAttribute('aria-pressed', String(c));
+});
+const sheetToggle = $('#sheetToggle');
+function openSheet(){ drawer.classList.remove('min'); sheetToggle.textContent = 'Hide details'; sheetToggle.setAttribute('aria-expanded', 'true'); }
+sheetToggle.addEventListener('click', () => {
+  const m = drawer.classList.toggle('min');
+  sheetToggle.textContent = m ? 'Show details' : 'Hide details'; sheetToggle.setAttribute('aria-expanded', String(!m));
+  applyIntent(250);
+});
+
+/* keyboard */
+document.addEventListener('keydown', e => {
+  if (e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented) return;
+  if (e.target.closest && e.target.closest('input, textarea, select')) return;
+  if (e.key === 'Escape') { if (mode === 'explore') clearSelection(); }
+  else if (mode === 'walk' && e.key === 'ArrowRight') goStep(stepIdx + 1);
+  else if (mode === 'walk' && e.key === 'ArrowLeft') goStep(stepIdx - 1);
+  else if (e.key === '+' || e.key === '=') $('#zoomIn').click();
+  else if (e.key === '-') $('#zoomOut').click();
+  else if (e.key === '0') $('#zoomFit').click();
+});
+
+/* boot */
+drawOverview();
+paint();
+requestAnimationFrame(() => applyIntent(0));
+fitText();
+if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => { fitText(); });
+})();
+</script>
+</body>
+</html>
