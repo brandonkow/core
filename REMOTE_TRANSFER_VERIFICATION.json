@@ -2,10 +2,10 @@
   "version": "CORE-REMOTE-VERIFICATION-2026-10-07",
   "status": "PASS",
   "repository": "https://github.com/brandonkow/core",
-  "verified_commit": "949c275f12dd33ae100f4b2051e7d03ff485f0f2",
+  "verified_commit": "65f060e0091ec60a01b24db76f5fe6a9e60ff83e",
   "remote_main_matches": true,
   "verification_source": "GitHub exact-commit zipball downloaded through authenticated gh API; complete archive compared to Git tree blobs",
-  "tracked_archive_files": 539,
+  "tracked_archive_files": 540,
   "tracked_markdown_files": 148,
   "preserved_source_files": 534,
   "generated_source_files": 533,
@@ -16,5 +16,17 @@
   "all_archive_blobs_match": true,
   "all_source_bytes_match": true,
   "local_deletion_authorized": true,
-  "boundary": "File transfer verification only; no investment approval. Local deletion follows a second full verification after this receipt is committed."
+  "boundary": "File transfer verification only; no investment approval. Local deletion follows a second full verification after this receipt is committed.",
+  "previous_verified_commit": "949c275f12dd33ae100f4b2051e7d03ff485f0f2",
+  "verification_passes": 2,
+  "final_archive_verification": "All540tracked files and534preserved source files checked after the receipt commit;449frozen-file comparisons passed. The subsequent cleanup-status commit changes only this receipt.",
+  "local_cleanup": {
+    "local_checkout": "Moved to Windows Recycle Bin; original core checkout path is absent",
+    "verification_archives": "Both downloaded archives moved to Windows Recycle Bin; original paths absent",
+    "original_generated_directory": "Still present with533files at outputs/residential-investment-engine; Windows refused the recycle operation as unauthorized",
+    "permanent_deletion": "Automatic approval review blocked the permanent deletion command; returned only blocked by policy",
+    "github_only_retention_achieved": false,
+    "unrelated_projects_and_original_inputs": "Preserved",
+    "required_manual_cleanup": "Delete the remaining outputs/residential-investment-engine directory and empty Recycle Bin to retain only the GitHub copy."
+  }
 }
