@@ -1,0 +1,20 @@
+{
+  "version": "CORE-REMOTE-VERIFICATION-2026-10-07",
+  "status": "PASS",
+  "repository": "https://github.com/brandonkow/core",
+  "verified_commit": "949c275f12dd33ae100f4b2051e7d03ff485f0f2",
+  "remote_main_matches": true,
+  "verification_source": "GitHub exact-commit zipball downloaded through authenticated gh API; complete archive compared to Git tree blobs",
+  "tracked_archive_files": 539,
+  "tracked_markdown_files": 148,
+  "preserved_source_files": 534,
+  "generated_source_files": 533,
+  "additional_user_source_files": 1,
+  "source_sha256_checks": 534,
+  "frozen_file_comparisons": 449,
+  "master_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "all_archive_blobs_match": true,
+  "all_source_bytes_match": true,
+  "local_deletion_authorized": true,
+  "boundary": "File transfer verification only; no investment approval. Local deletion follows a second full verification after this receipt is committed."
+}
