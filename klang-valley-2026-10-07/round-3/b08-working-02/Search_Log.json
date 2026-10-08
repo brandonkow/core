@@ -1,0 +1,920 @@
+{
+  "version": "B08-W02-2026-10-08",
+  "queries": [
+    {
+      "sequence": 1,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "site.sunsuria.com Alanis 550 layout 2026"
+          },
+          {
+            "q": "Kota Warisan Serenia Amani 850 rent sale 2026 apartment"
+          },
+          {
+            "q": "Eco Sanctuary Parque 731 \"380,000\" sale 2026"
+          },
+          {
+            "q": "site.tropicanacorp.com.my Aman Aman1 870 completed"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://tropicanacorp.com.my/public/news-details/422",
+        "https://www.edgeprop.sg/index.php?option=com_analytica&p=206-marsiling-drive-22673&page=hdb&task=pdf",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/serenia-amani-serenia-city-untuk-dijual-oleh-muhammad-ridhwan-mohd-huzairi-500283381",
+        "https://irumah.co/bm/tropicana-aman/aman-1",
+        "https://www.har.com/homedetail/731-hillcrest-st-denton-tx-76201/1841755",
+        "https://aaaprops.com/property/serenia/",
+        "https://www.propertyguru.com.my/property-for-sale/p/house-sale-kota-warisan/6",
+        "https://alpha.edgeprop.my/listing/sale/2595980/selangor/sepang/nonlanded/condominium-apartment-servicedresidence/-sale--apartment-alanis-residence-warisan-puteri-kota",
+        "https://vivahomes.sams.my/agency/project-view.aspx?recid=35565259",
+        "https://www.loopnet.ca/Listing/731-Rue-Jean-Paul-Deschaies-Becancour-QC/37428086/",
+        "https://www.realtytexas.com/hutchins/731-w-palestine-street-hutchins-75141-id-1081665397-mls-20707510.html/branded/virtual-tour",
+        "https://www.tlhsolution.com.my/2020-projects",
+        "https://list.my/subsales/selangor/sepang/dengkil/serenia-city",
+        "https://media.edgeprop.my/s3fs-public/pullout/20170804_ep_2465_locked.pdf",
+        "https://www.bsn.com.my/cms/upload/pdf/properties_auction/2025/260825_ehsan.pdf",
+        "https://kypublicnotice.com/KYLegals/2025/70235-2025-11-27_1004.pdf",
+        "https://www.sanctuary.co.uk/sites/default/files/2026-03/programme_admission_particulars_march_2026.pdf",
+        "https://www.mivivienda.com.pe/PortalCMS/archivos/documentos/Revista%20FMV%20186%20final-7101.PDF",
+        "https://en.wikipedia.org/wiki/Kota_Warisan",
+        "https://www.reddit.com/r/malaysians/comments/1szdnsc/kota_warisan_is_getting_super_dense/"
+      ],
+      "access_error_observed": false
+    },
+    {
+      "sequence": 2,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Alanis\" \"550\" \"IOI\""
+          },
+          {
+            "q": "\"The Parque\" \"731\" \"380\" sale"
+          },
+          {
+            "q": "\"Elmina\" \"apartment\" \"Ilham\" Sime Darby"
+          },
+          {
+            "q": "\"Gamuda Gardens\" \"GAIA\" \"646\" layout"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.verona.my/currentprojects",
+        "https://www.simedarbyproperty.com/home/properties/",
+        "https://www.brickz.my/transactions/residential/selangor/rawang/gaia-residences--gamuda-gardens/non-landed/",
+        "https://www.simedarbyproperty.com/who-we-are/awards-achievements",
+        "https://www.simedarbyproperty.com/sites/default/files/2021-12/241221%20-%20Securing_sustainable.pdf",
+        "https://stastudios.com/ilham-residences-3/",
+        "https://irumah.co/bm/gamuda-gardens/gaia-residences",
+        "https://list.my/subsales/selangor/gombak/rawang/gaia-residences-gamuda-gardens",
+        "https://www.scribd.com/document/512478103/SimeDarbyProperty-AR2020",
+        "https://www.scribd.com/document/802211674/1733665559405-SENARAI-PROJEK-SWASTA-NEGERI-SELANGOR",
+        "https://www.propertyguru.com.my/terrace-for-sale/at-city-of-elmina-ilham-residence-3-18118",
+        "https://www.bsn.com.my/cms/upload/pdf/properties_auction/2024/arena_251024.pdf",
+        "https://www.klsescreener.com/v2/news/view/744339/Property_developers_initiatives_to_help_seniors_age_in_place",
+        "https://www.edgeprop.my/listing/sale/4093389/gaia-residence-gamuda-gardens-for-sale-by-gary-chow",
+        "https://tepea.my/2021/v1/pdf/TEPEA2021_FULLREPORT.pdf",
+        "https://www.bankislam.com/wp-content/uploads/LIST-OF-CONSUMER-AUCTION-PROPERTIES-FOR-JANUARY-2025.pdf",
+        "https://www.pam.org.my/images/publications/am2024/36-2/AM36.2.pdf",
+        "https://www.bankislam.com/wp-content/uploads/LIST-OF-CONSUMER-AUCTION-PROPERTIES-FOR-SEPTEMBER-2025.pdf"
+      ],
+      "access_error_observed": false
+    },
+    {
+      "sequence": 3,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Alanis Residence\" developer 550 layout"
+          },
+          {
+            "q": "\"Parque\" \"731\" \"380000\""
+          },
+          {
+            "q": "\"Kanopi Residences\" site:simedarbyproperty.com"
+          },
+          {
+            "q": "\"Gaia Residences\" site:gamudaland.com.my"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.simedarbyproperty.com/city-of-elmina/elmina-city-centre/kanopi-residences/",
+        "https://alanisresidence.com/",
+        "https://www.gamudaland.com.my/developments/township/gaia-residences",
+        "https://www.simedarbyproperty.com/sites/default/files/2024-11/20241115-%20For%20Immediate%20Release%20-%20Sime%20Darby%20Property%20to%20Unveil%20Kanopi%20Residences%2C%20the%20First%20High-Rise%20Development%20in%20the%20City%20of%20Elmina%2C%20on%2023%20November%202024.pdf",
+        "https://www.ioiproperties.com.my/warisan-puteri-sepang/alanis-residences",
+        "https://development.gamudaland.com.my/gamudagardens/product/gaia-residences/",
+        "https://simedarbyproperty.com/annualreport2024/download/sdp-ir2024.pdf",
+        "https://www.simedarbyproperty.com/mediacentre",
+        "https://www.myrumahbaru.com/project/sepang/alanis-residence",
+        "https://www.simedarbyproperty.com/home/properties/",
+        "https://www.simedarbyproperty.com/annualreport2024/download/sdp-sr2024.pdf",
+        "https://www.simedarbyproperty.com/comparesearch",
+        "https://speedhome.com/blog/my/alanis-residence-warisan-puteri-panduan-pelaburan-sewa/",
+        "https://malaysiaprop.tech/project/selangor/sepang/alanis-residence-kota-warisan",
+        "https://www.simedarbyproperty.com/city-of-elmina/elmina-city-centre/kanopi-residences/brochure.pdf",
+        "https://www.propertyguru.com.my/property-for-sale/at-alanis-residence-14437",
+        "https://www.simedarbyproperty.com/sites/default/files/2025-11/%5BANALYST%5D%20Q2%20FY2025%20Financial%20Results%20Briefings.pdf",
+        "https://development.gamudaland.com.my/gamudagardens/ebrochure/GAIA_brochure_2019.pdf"
+      ],
+      "access_error_observed": false
+    },
+    {
+      "sequence": 4,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "Parque Residences 731 380000 sale Malaysia"
+          },
+          {
+            "q": "Aman 1 Tropicana 870 sale rent 2026"
+          },
+          {
+            "q": "Habitus Denai Alam 685 2 bedroom sale rent 2026"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.ioiproperties.com.my/warisan-puteri-sepang/alanis-residences"
+          },
+          {
+            "ref_id": "https://www.simedarbyproperty.com/mediacentre"
+          },
+          {
+            "ref_id": "https://development.gamudaland.com.my/gamudagardens/ebrochure/GAIA_brochure_2019.pdf"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.mudah.my/habitus-apt-denai-alam-114957159.htm",
+        "http://www.wasap.my/[Button:",
+        "https://www.propertyguru.com.my/condo/habitus-denai-alam-10957",
+        "https://www.propertyguru.com.my/condo-for-rent/at-habitus-denai-alam-10957",
+        "https://ads.theedgeproperty.com.my/Parque/download/EcoSanctuary_BookletLatest9pm_FINAL.pdf",
+        "https://alpha.edgeprop.my/listing/rental/2767355/selangor/denai_alam/nonlanded/condominium-apartment-servicedresidence/habitus",
+        "https://houselist.net/property/74253",
+        "https://www.iproperty.com.my/condo-for-sale/at-the-parque-residences-7898",
+        "https://tropicanacorp.com.my/cn/collection-detail-2/18/aman-1",
+        "https://www.tropicanaaman.com.my/LandingPageAman1/",
+        "https://list.my/subsales/selangor/kuala-langat/tanjung-12/the-parque-residences-eco-santuari?group_by_size=true",
+        "https://www.mudah.my/oct-aman-1-tropicana-urban-homes-telok-panglima-garang-fully-furnished-115954870.htm",
+        "https://www.myrumahbaru.com/project/eco-sanctuary/the-parque-residences",
+        "https://ziba-property.com/Malaysia/tropicana-aman-1-urban-home-jalan-aman-simfoni-1-bandar-tropicana-aman-telok-panglima-garang-selangor-malaysia-74073",
+        "https://t.me/propropertymalaysia/6836",
+        "https://www.pbebank.com/media/nlfd5f0n/list-of-prop-30042024.pdf",
+        "https://www.mahsing.com.my/liftoff/apdlfeb2022.pdf",
+        "https://www.ambank.com.my/docs/ambankretaillibraries/auction-doc/property/onlineauctionlisting.pdf?sfvrsn=7a8f5418_33",
+        "https://www.reddit.com/r/malaysia/comments/1ln4o9w",
+        "https://readnow.isentia.com/Temp/109234-1094565463/MY0059892217_20250727.pdf",
+        "https://b-i.info/wp-content/uploads/2022/05/November-December-2021.pdf",
+        "https://www.reddit.com/r/malaysia/comments/1ls53dy/wanna_know_the_last_transacted_price_of_your/",
+        "https://www.reddit.com/r/KualaLumpur/comments/1wb9gjr/residential_properties_for_sale_for_foreigners/",
+        "https://www.propertyguru.com.my/property-listing/kuala-lumpur-foreigner-allowed-to-buy-for-sale-by-yc-wong-37378603",
+        "https://www.reddit.com/r/CondoPH/comments/1hzeu0o",
+        "https://www.reddit.com/r/KualaLumpur/comments/1m1100z/condo_buying_in_kl/",
+        "https://www.reddit.com/r/malaysia/comments/17lusmi",
+        "https://www.reddit.com/r/singapore/comments/1hlqr5m",
+        "https://www.property2day.com/wp-content/uploads/2013/10/Iskandar-Residences-Medini-Brochure.pdf",
+        "https://www.reddit.com/r/MalaysianPF/comments/vb0g2b",
+        "https://www.ioiproperties.com.my/warisan-puteri-sepang/alanis-residences",
+        "https://www.simedarbyproperty.com/mediacentre",
+        "https://development.gamudaland.com.my/gamudagardens/ebrochure/GAIA_brochure_2019.pdf"
+      ],
+      "access_error_observed": false
+    },
+    {
+      "sequence": 5,
+      "date": "2026-10-08",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn641view0",
+            "pattern": "Download Brochure"
+          },
+          {
+            "ref_id": "turn641view0",
+            "pattern": "Type D"
+          },
+          {
+            "ref_id": "turn641view1",
+            "pattern": "Topping"
+          },
+          {
+            "ref_id": "turn641view2",
+            "pattern": "640"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.mudah.my/oct-aman-1-tropicana-urban-homes-telok-panglima-garang-fully-furnished-115954870.htm"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-for-sale/at-alanis-residence-14437"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/condo-for-sale/at-the-parque-residences-7898"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.mudah.my/oct-aman-1-tropicana-urban-homes-telok-panglima-garang-fully-furnished-115954870.htm",
+        "https://www.propertyguru.com.my/property-for-sale/at-alanis-residence-14437",
+        "https://www.iproperty.com.my/condo-for-sale/at-the-parque-residences-7898",
+        "https://www.ioiproperties.com.my/warisan-puteri-sepang/alanis-residences",
+        "https://www.simedarbyproperty.com/mediacentre",
+        "https://development.gamudaland.com.my/gamudagardens/ebrochure/GAIA_brochure_2019.pdf"
+      ],
+      "access_error_observed": true
+    },
+    {
+      "sequence": 6,
+      "date": "2026-10-08",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn641view0",
+            "id": 81
+          },
+          {
+            "ref_id": "turn641view1",
+            "id": 161
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn641view2",
+            "lineno": 75
+          },
+          {
+            "ref_id": "turn642view1",
+            "lineno": 110
+          },
+          {
+            "ref_id": "turn642view2",
+            "lineno": 120
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://development.gamudaland.com.my/gamudagardens/ebrochure/GAIA_brochure_2019.pdf",
+        "https://www.propertyguru.com.my/property-for-sale/at-alanis-residence-14437",
+        "https://www.iproperty.com.my/condo-for-sale/at-the-parque-residences-7898",
+        "https://files.ioiproperties.com.my/dsites/s3fs-public/2023-01/Alanis_Brochure_May22.pdf"
+      ],
+      "access_error_observed": true
+    },
+    {
+      "sequence": 7,
+      "date": "2026-10-08",
+      "request": {
+        "screenshot": [
+          {
+            "ref_id": "turn643view3",
+            "pageno": 4
+          },
+          {
+            "ref_id": "turn643view3",
+            "pageno": 5
+          }
+        ],
+        "search_query": [
+          {
+            "q": "site.simedarbyproperty.com \"Topping-Off\" \"Kanopi\" \"2026\""
+          },
+          {
+            "q": "site.newfields.com.my Habitus 565 685"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.simedarbyproperty.com/mediacentre",
+        "https://www.thestar.com.my/business/business-news/2026/08/16/sime-darby-property-tops-off-rm299mil-kanopi-residences-at-elmina-city-centre",
+        "https://www.jlwmalaysia.com/publications",
+        "https://www.jlwmalaysia.com/publication/week-35-2026",
+        "https://www.utusan.com.my/ekonomi/2026/08/kanopi-residences-capai-kadar-pengambilan-90-peratus/",
+        "https://thesun-ipaper.cld.bz/20260910/12/",
+        "https://www.edgeprop.my/news/author?name=Myia+S+Nair",
+        "https://www.newfields.com.my/land/",
+        "https://www.propertyguru.com.my/bm/kondo/habitus-denai-alam-10957",
+        "https://www.thestar.com.my/news/latest?pageh=24%2Flatest%3Ftag%3DAseanplus%2Flatest%3Ftag%3DBusiness%2Flatest%3Ftag%3DAseanplus%2Flatest%3Ftag%3DAseanplus%2Flatest%2Flatest%3Ftag%3DAseanplus%2Flatest%3Ftag%3DSport&pgno=20",
+        "https://my.headtopics.com/news/inbreeding-in-elephants-found-to-cause-health-issues-86671226",
+        "https://my.headtopics.com/news/robots-that-walk-and-talk-are-coming-to-car-factories-86671099",
+        "https://repository.essex.ac.uk/19366/1/ADURA%20AHMAD%20Final%20thesis%2022%20March%202017.pdf",
+        "https://mgmt.cmb.ac.lk/ircmf/2021/wp-content/uploads/sites/2/2021/12/IRCMF-Proceedings-2021_compressed.pdf",
+        "https://files.ioiproperties.com.my/dsites/s3fs-public/2023-01/Alanis_Brochure_May22.pdf"
+      ],
+      "access_error_observed": false
+    },
+    {
+      "sequence": 8,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Alanis\" \"452\" \"1200\" rent"
+          },
+          {
+            "q": "\"Alanis\" \"193,000\" \"450\""
+          },
+          {
+            "q": "\"Aman 1\" \"870\" \"320,000\""
+          },
+          {
+            "q": "\"Gaia\" \"550\" \"rent\" \"2026\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.propertyguru.com.my/property-listing/tropicana-aman-1-tropicana-urban-homes-for-sale-by-kuang-38113394",
+        "https://bidnest.my/en/auctions/pangsapuri-tropicana-aman-1-telok-panglima-garang-276574",
+        "https://apdis.com.ar/wp-content/uploads/2021/03/GALENO_AZUL_G.pdf",
+        "https://www.propertyguru.com.my/condo/gaia-residences-18071",
+        "https://boe.mendoza.gov.ar/default/public/publico/verpdf/31854",
+        "https://www.immobiliare.it/en/annunci/115974865/",
+        "https://revistas.upr.edu/index.php/jaupr/article/download/21236/18782/24110",
+        "https://www.longtermlettings.com/r/rent/sah_1013697/y/116293479/?ctype=EUR&date_from=&date_to=",
+        "https://utillaje.com/archivos/dirgeogra2026abril.pdf",
+        "https://www.olx.pt/imoveis/casas-moradias-para-arrendar-vender/q-t1-arrendar-gaia/",
+        "https://housing.com/international/pt/vila-nova-de-gaia-porto-310103535641/",
+        "https://www.robeuk.com/news/robe-at-wango-tango-2005",
+        "https://homes.cari.la/homes/apartment-for-rent-guarded-kota",
+        "https://www.wikicasa.it/en/rent-commercial-properties/roma/zona-borghesiana-finocchio-vermicino-casilina-torre-gaia/",
+        "https://www.idealista.pt/en/arrendar-casas/vila-nova-de-gaia/com-tamanho-max_450%2Capenas-apartamentos/?ordem=precos-asc",
+        "https://www.molinahealthcare.com/~/media/Molina/PublicWebsite/PDF/members/common/en-US/POD-Documents/Ohio_Marketplace_Directory_May_2017.pdf",
+        "https://www.spareroom.co.uk/flatshare/scotland/page97",
+        "https://turnverein-villmergen.ch/wp-content/uploads/2024/12/Mietrup-Cup-2.pdf"
+      ],
+      "access_error_observed": false
+    },
+    {
+      "sequence": 9,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-for-sale/at-alanis-residence-14437"
+          },
+          {
+            "ref_id": "https://www.simedarbyproperty.com/city-of-elmina/elmina-city-centre/kanopi-residences/brochure.pdf"
+          },
+          {
+            "ref_id": "https://www.mudah.my/oct-aman-1-tropicana-urban-homes-telok-panglima-garang-fully-furnished-115954870.htm"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"Alanis Residence\" \"450\" \"1,200\" rent 2026"
+          },
+          {
+            "q": "\"Habitus\" \"565\" \"sale\" 2026"
+          },
+          {
+            "q": "\"Gaia Residences\" \"550\" \"rent\" 2026 Rawang"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.mudah.my/fully-furnished-studio-unit-alanis-residence-kota-warisan-sepang-115411268.htm",
+        "https://cdn.rnudah.com/image_logo/plain/84e1f9dffc0ea1eaa3e391ef9406bef7-2984070050802080453.jpg",
+        "https://qhomeslistings.com/rent",
+        "https://alpha.edgeprop.my/listing/rental/2767355/selangor/denai_alam/nonlanded/condominium-apartment-servicedresidence/habitus",
+        "https://www.iproperty.com.my/condo/gaia-residences-18071",
+        "https://www.propertyguru.com.my/property-for-rent/p/gaia-residences-rawang",
+        "https://malaysiaproperty1.com/selangor-property/",
+        "https://list.my/subsales/selangor/gombak/rawang/gaia-residences-gamuda-gardens",
+        "https://homes.cari.la/homes/2-bedroom-cyberjaya-sepang",
+        "https://homes.cari.la/homes/7-plus",
+        "https://www.e-rara.ch/download/pdf/10715186.pdf",
+        "https://rentumo.my/sewaan/taman-murni-selangor",
+        "https://www.propertygenie.com.my/for-sale/double-storey-semi-d/property-gaia-residences-in-rawang",
+        "https://ehartanahmalaysia.com/browse?maxPrice=2000&minPrice=1000&page=3&sort=newest&type=rent",
+        "https://dspace.jcu.cz/bitstream/handle/20.500.14390/7549/Rimske_motivy_v_sebeprezentaci_renesancniho_velmoze._Symbolicka_vyzdoba_ve_Zlatem_sale_letohradku_Kratochvile.pdf?sequence=1",
+        "https://www.propertyguru.com.my/property-for-sale/at-alanis-residence-14437",
+        "https://www.simedarbyproperty.com/city-of-elmina/elmina-city-centre/kanopi-residences/brochure.pdf",
+        "https://www.mudah.my/oct-aman-1-tropicana-urban-homes-telok-panglima-garang-fully-furnished-115954870.htm"
+      ],
+      "access_error_observed": true
+    },
+    {
+      "sequence": 10,
+      "date": "2026-10-08",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn646view0",
+            "pattern": "450"
+          },
+          {
+            "ref_id": "turn646view0",
+            "pattern": "193,000"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"Alanis Residence\" \"193,000\""
+          },
+          {
+            "q": "\"Aman 1\" \"870\" \"1,500\" rent 2026"
+          },
+          {
+            "q": "\"Kanopi\" \"449\" \"50\" Sime Darby"
+          },
+          {
+            "q": "\"Habitus\" \"565\" \"RM\" sale",
+            "domains": [
+              "propertyguru.com.my",
+              "mudah.my",
+              "edgeprop.my",
+              "iproperty.com.my"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.simedarbyproperty.com/press-releases/sime-darby-property-unveil-kanopi-residences-first-high-rise-development-city-elmina",
+        "https://www.iproperty.com.my/bm/kondo/alanis-residence-14437",
+        "https://theedgemalaysia.com/node/734822",
+        "https://fullreport.theedgemalaysia.com/tepea/TEPEA-2024.pdf",
+        "https://alpha.edgeprop.my/listing/rental/3462549/tropicana-aman-1-for-rent-by-jeson-lim",
+        "https://www.myrumahbaru.com/rental/tropicana-aman-10",
+        "https://www.mudah.my/selangor-shah-alam/apartment-condominium-for-sale/habitus-city-of-elmina",
+        "https://jdih.patikab.go.id/asset/files/48__PERBUP_NO__48_TAHUN_2021_TTG_SSH_DAN_BIAYA_PEMKAB_PATI_TH_2022.pdf",
+        "https://publication.petra.ac.id/index.php/teknik-arsitektur/article/download/14399/12178/0",
+        "https://new.n1ex.com/rent?page=402",
+        "https://homes.mitula.my/homes/condominium-for-rent-kuala-langat-morib",
+        "https://www.kibrispdr.org/kanopi-rumah-klasik-modern.html",
+        "https://ejournal3.undip.ac.id/index.php/jmr/article/download/44604/34320",
+        "https://www.propertyguru.com.my/property-for-sale/at-alanis-residence-14437",
+        "https://www.yedek-parca.com/magaza/sise-sogutma-dolabi-kola-mesrubat-sogutma-buzdolabi-fiyatlari-bufe-market-bakkal-tipi-kola-ayran-sise-dolabi-modelleri-detail",
+        "https://shopee.co.id/armada_teknik",
+        "https://www.netetrade.com/media/nexco-freezer---nexco-day--tuk--mal--ve-sog-san--tic--ltd-sti/files/06d97632-bc38-42cb-a_YUVeb2G.pdf",
+        "https://peraturan.bpk.go.id/Download/184665/50__PERBUP_50_TH_2019_STANDAR_SATUAN_HARGA_DAN_BIAYA_TAHUN_20201.pdf"
+      ],
+      "access_error_observed": false
+    },
+    {
+      "sequence": 11,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.iproperty.com.my/bm/kondo/alanis-residence-14437"
+          },
+          {
+            "ref_id": "https://www.mudah.my/selangor-shah-alam/apartment-condominium-for-sale/habitus-city-of-elmina"
+          },
+          {
+            "ref_id": "https://qhomeslistings.com/rent"
+          },
+          {
+            "ref_id": "https://ziba-property.com/Malaysia/tropicana-aman-1-urban-home-jalan-aman-simfoni-1-bandar-tropicana-aman-telok-panglima-garang-selangor-malaysia-74073"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "site.kliaekspres.com Salak Tinggi KLIA transit first last train fare"
+          },
+          {
+            "q": "site.xmu.edu.my accommodation compulsory first year fee 2026"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.kliaekspres.com/products-fares/klia-transit/",
+        "https://www.kliaekspres.com/happenings/news-events/fare-adjustment/",
+        "https://www.kliaekspres.com/products-fares/klia-transit-season-pass/",
+        "https://www.kliaekspres.com/products-fares/",
+        "https://www.kliaekspres.com/media/dpva4eou/klia-transit-2025.pdf",
+        "https://www.kliaekspres.com/products-fares/concession-ticket/",
+        "https://xmu.edu.my/index.php/admissions/tuition-fees",
+        "https://kliaekspres.com/media/sjscs2n0/kt-schedule-combined-service-18-20-feb-25.pdf",
+        "https://www.kliaekspres.com/?trk=public_profile_project-title",
+        "https://www.kliaekspres.com/media/uhgf02vz/kt-schedule-combined-service-1-4-jul-24.pdf",
+        "https://www.xmu.edu.my/index.php/campus-life/accommodation-services/accommodation-faq",
+        "https://en.wikipedia.org/wiki/KLIA_Transit",
+        "https://web.archive.org/web/20091006005451/http://www.kliaekspres.com/erlsb/KLIATransit/tabid/96/Default.aspx",
+        "https://www.kliaekspres.com/schedule",
+        "https://www.klccconventioncentre.com/clients/asset_1D27A8C6-DE8C-4066-B3D8-0593D73C0267/contentms/img/Transportation-Guide.pdf",
+        "https://www.xmu.edu.my/sites/default/files/2025-07/XMUM-General-Booklet-2025.pdf",
+        "https://www.xmu.edu.my/convo/",
+        "https://www.xmu.edu.my/admissions/international-students-guidelines",
+        "https://epayment.xmu.edu.my/",
+        "https://www.reddit.com/r/KualaLumpur/comments/1g39v0c/removed/",
+        "https://www.reddit.com/r/malaysia/comments/xlrd5y",
+        "https://www.reddit.com/r/malaysia/comments/1pmhx9n/klia_transit_from_kl_sentral_to_klia2/",
+        "https://www.reddit.com/r/malaysia/comments/1jate31/cheapest_way_to_kl_sentral_from_klia_save_money/",
+        "https://www.reddit.com/r/malaysia/comments/135fd52",
+        "https://www.reddit.com/r/KualaLumpur/comments/1ciby9h",
+        "https://www.reddit.com/r/malaysia/comments/1eqy958",
+        "https://www.reddit.com/r/KualaLumpur/comments/1eju28h",
+        "https://en.wikipedia.org/wiki/KLIA_Ekspres",
+        "http://www.kliaekspres.com/",
+        "https://www.reddit.com/r/malaysia/comments/1wtwkw7/erl_klia_eksprestransit_fare_increase_starting_1/",
+        "https://en.wikipedia.org/wiki/List_of_rail_transit_stations_in_the_Klang_Valley_area",
+        "https://en.wikipedia.org/wiki/Salak_Tinggi_ERL_station",
+        "https://en.wikipedia.org/wiki/Salak_Tinggi",
+        "https://de.wikipedia.org/wiki/KLIA_Ekspres",
+        "https://www.kliaekspres.com/",
+        "https://www.reddit.com/r/GrandPrixTravel/comments/1wvjowd/late_change_klia_not_so_ekspres/",
+        "https://www.reddit.com/r/malaysia/comments/1jcenu3",
+        "https://www.kliaekspres.com/schedule/?",
+        "https://www.reddit.com/r/malaysia/comments/176xag4",
+        "https://www.iproperty.com.my/bm/kondo/alanis-residence-14437",
+        "https://www.mudah.my/selangor-shah-alam/apartment-condominium-for-sale/habitus-city-of-elmina",
+        "https://qhomeslistings.com/rent",
+        "https://ziba-property.com/Malaysia/tropicana-aman-1-urban-home-jalan-aman-simfoni-1-bandar-tropicana-aman-telok-panglima-garang-selangor-malaysia-74073"
+      ],
+      "access_error_observed": true
+    },
+    {
+      "sequence": 12,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn648view0",
+            "lineno": 115
+          },
+          {
+            "ref_id": "turn648view1",
+            "lineno": 45
+          },
+          {
+            "ref_id": "turn648view3",
+            "lineno": 100
+          },
+          {
+            "ref_id": "https://www.myrumahbaru.com/rental/tropicana-aman-10"
+          },
+          {
+            "ref_id": "https://www.xmu.edu.my/index.php/campus-life/accommodation-services/accommodation-faq"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.iproperty.com.my/bm/kondo/alanis-residence-14437",
+        "https://www.mudah.my/selangor-shah-alam/apartment-condominium-for-sale/habitus-city-of-elmina",
+        "https://ziba-property.com/Malaysia/tropicana-aman-1-urban-home-jalan-aman-simfoni-1-bandar-tropicana-aman-telok-panglima-garang-selangor-malaysia-74073",
+        "https://t.me/propropertymalaysia/6836",
+        "https://www.myrumahbaru.com/rental/tropicana-aman-10",
+        "https://www.myrumahbaru.com/rental/tropicana-aman-10:",
+        "https://www.xmu.edu.my/index.php/campus-life/accommodation-services/accommodation-faq"
+      ],
+      "access_error_observed": true
+    },
+    {
+      "sequence": 13,
+      "date": "2026-10-08",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn649view1",
+            "id": 63
+          },
+          {
+            "ref_id": "turn646view0",
+            "id": 42
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"Alanis\" \"193000\""
+          },
+          {
+            "q": "\"Alanis Residence\" \"807\" \"1600\" rent"
+          },
+          {
+            "q": "\"Tropicana Aman 1\" \"870\" \"1500\" mudah"
+          },
+          {
+            "q": "\"Gaia Residences\" \"750\" \"500,000\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.mudah.my/malaysia/all?q=aman+1%5C",
+        "https://homes.cari.la/homes/3-bedroom-apartment-tropicana-playground",
+        "https://www.mudah.my/selangor-kuala-langat/properties-for-sale?price=300000-500000",
+        "https://www.iproperty.com.my/property-for-sale/at-gaia-residences-18071",
+        "https://www.tropicanacorp.com.my/public/index.php/news-details/232",
+        "https://montevideo.gub.uy/sites/default/files/biblioteca/e69hpfuninvim.pdf",
+        "https://www.diariooficial.gvamundial.com.mx/historico/2012/Marzo/segob02_13.pdf",
+        "https://t.me/s/PropMallmy?q=%23freehold",
+        "https://montevideo.gub.uy/sites/default/files/biblioteca/5-residuospasivosextraptales_2.pdf",
+        "https://montevideo.gub.uy/sites/default/files/biblioteca/tomov_0.pdf",
+        "https://www.scribd.com/document/674545597/%D9%85%D8%B7%D8%A8%D9%88%D8%B9%D8%A9-%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B3%D8%A8%D8%A9-%D8%A7%D9%84%D8%AA%D8%AD%D9%84%D9%8A%D9%84%D9%8A%D8%A9",
+        "https://propertymasterlistingsupply.blogspot.com/2021/12/we-are-supplier-providing-property.html",
+        "https://homes.cari.la/homes/apartment-for-rent-guarded-kota",
+        "https://www.scribd.com/document/899366205/PMCare-Active-Panel-Providers-07112023-1",
+        "https://iqiglobal.com/ae/abu-dhabi/agent/zahier-firza-as-said-zaharul-lailiddin",
+        "https://aplicativos.sanpedro.gob.mx/transparencia/Nomina/2023/Nomina_202307.pdf",
+        "https://www.carousell.com.my/property/for-sale/landed-setingkat/q-636/",
+        "https://montevideo.gub.uy/sites/default/files/documentos/tomov-unificado.pdf"
+      ],
+      "access_error_observed": true
+    },
+    {
+      "sequence": 14,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "Murah Studio unit Type A1 Habitus Apartment Denai Alam 360000"
+          },
+          {
+            "q": "Alanis Residence sale 450 193000 Sepang",
+            "domains": [
+              "propertyguru.com.my",
+              "iproperty.com.my"
+            ]
+          },
+          {
+            "q": "Alanis Residence 807 rent",
+            "domains": [
+              "mudah.my"
+            ]
+          },
+          {
+            "q": "Tropicana Aman 1 pool view non bumi 338000 Michelle",
+            "domains": [
+              "mudah.my"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.mudah.my/murah-studio-unit-type-a1-habitus-apartment-denai-alam-115537302.htm",
+        "https://www.mudah.my/selangor-kuala-langat/properties-for-sale?price=300000-500000",
+        "https://www.mudah.my/alanis-residence-kota-warisan-sepang-klia-115058774.htm",
+        "https://www.mudah.my/selangor-sepang/apartment-condominium-for-rent/alanis-warisan-puteri",
+        "https://www.mudah.my/malaysia/apartment-condominium-for-rent?q=kota+warisan+sepang+sepang",
+        "https://www.mudah.my/u/seller-2076315",
+        "https://www.propertyguru.com.my/bm/hartanah-dijual/di-alanis-residence-14437/harga-dibawah-rm-400k",
+        "https://www.mudah.my/selangor-sepang/properties-for-rent",
+        "https://www.mudah.my/selangor-sepang/service-residence-for-rent",
+        "https://www.mudah.my/selangor-sepang/service-residence-for-rent/alanis-warisan-puteri",
+        "https://www.mudah.my/the-hamstead-desa-tun-razak-cheras-walking-distance-to-lrt-mrt-114401276.htm",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/alanis-residence-untuk-dijual-oleh-amzar-faiz-502133616",
+        "https://www.reddit.com/r/dubairealestate/comments/1uw61o6/studio_apartment_ameera_village_a1_ajman_aed/",
+        "https://www.reddit.com/r/MalaysianPF/comments/1nakj47",
+        "https://www.ehsanauctioneers.com/upload/adsFile/TfcyPNQdY2RO.pdf",
+        "https://www.reddit.com/r/jualbeliindonesia/comments/1w4xqko/wts_1_unit_apartemen_di_grand_kamala_lagoon_fully/",
+        "https://www.cimb.com.my/content/dam/cimb/personal/documents/more-services/property-auction/e-listing-central-a.pdf",
+        "https://media.edgeprop.my/s3fs-public/classified/20250117_spotlight%282%29.pdf",
+        "https://media.edgeprop.my/s3fs-public/classified/20240412_spotligh.pdf",
+        "https://www.reddit.com/r/malaysia/comments/1ls53dy/wanna_know_the_last_transacted_price_of_your/",
+        "https://www.bsn.com.my/cms/upload/pdf/properties_auction/2023/31012023.pdf",
+        "https://mkhberhad.com/wp-content/uploads/2015/09/MKH-Catalogue-2014-Final.pdf",
+        "https://en.wikipedia.org/wiki/Denai_Alam",
+        "https://www.reddit.com/r/dubairealestate/comments/1urqdcw/studio_apartment_studio_city_aed_691000/",
+        "https://www.reddit.com/r/AjmanClassifieds/comments/1sww8le/studio_rent_for_family_20k_al_rawdha_1/",
+        "https://www.reddit.com/r/dubairealestate/comments/1vchl7j/studio_apartment_dubai_budget_aed_600000_ready_to/",
+        "https://www.reddit.com/r/malaysia/comments/1vrem4w/why_arent_malaysians_buying_affordable/",
+        "https://www.reddit.com/r/malaysians/comments/1ss6h4w/denai_alam_thoughts/",
+        "https://www.reddit.com/r/dubairealestate/comments/1vlfea9/studio_apartment_jvt_aed_610000/",
+        "https://www.reddit.com/r/malaysians/comments/1ve4n0z/looking_for_studio_to_rent/",
+        "https://www.reddit.com/r/malaysia/comments/ckh01z"
+      ],
+      "access_error_observed": false
+    },
+    {
+      "sequence": 15,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.mudah.my/murah-studio-unit-type-a1-habitus-apartment-denai-alam-115537302.htm"
+          },
+          {
+            "ref_id": "https://www.mudah.my/alanis-residence-kota-warisan-sepang-klia-115058774.htm"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/condo-for-rent/at-gaia-residences-18071"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/property-for-sale/at-gaia-residences-18071"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "site.mudah.my \"Aman 1\" \"1,500\" \"870\""
+          },
+          {
+            "q": "site.mudah.my \"Kundang\" \"1,500\" \"terraced\""
+          },
+          {
+            "q": "site.simedarbyproperty.com \"Kanopi\" \"Topping\" \"499\""
+          },
+          {
+            "q": "site.mudah.my \"Alanis\" \"300,000\" \"807\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.mudah.my/bandar-baru-kundang-115270207.htm",
+        "https://img.rnudah.com/stores/logo_703255_xvc.jpg",
+        "https://www.mudah.my/selangor-sepang/apartment-condominium-for-sale/alanis-warisan-puteri",
+        "https://theedgemalaysia.com/node/814219",
+        "https://alpha.edgeprop.my/listing/rental/3711287/tropicana-aman-1-for-rent-by-sam-teh",
+        "https://www.jlwmalaysia.com/publication/week-35-2026",
+        "https://www.utusan.com.my/ekonomi/2026/08/kanopi-residences-capai-kadar-pengambilan-90-peratus/",
+        "https://www.edgeprop.my/listing/rental/2588944/selangor/telok_panglima_garang/nonlanded/condominium-apartment-servicedresidence/tropicana-aman-1--telok-panglima-garang--selangor",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/alanis-residence-untuk-dijual-oleh-jenice-l-500208857",
+        "https://www.myrumahbaru.com/rental/tropicana-aman-10",
+        "https://www.iproperty.com.my/2-terraced-house-for-sale/in-taman-kundang-jaya-k0hr0/above-1500-sqft",
+        "https://new.n1ex.com/rent?page=402",
+        "https://list.my/subsales/selangor/gombak/bandar-kundang/kundang-jaya",
+        "https://www.mudah.my/murah-studio-unit-type-a1-habitus-apartment-denai-alam-115537302.htm",
+        "https://www.mudah.my/alanis-residence-kota-warisan-sepang-klia-115058774.htm",
+        "https://www.propertyguru.com.my/condo-for-rent/at-gaia-residences-18071",
+        "https://www.iproperty.com.my/property-for-sale/at-gaia-residences-18071"
+      ],
+      "access_error_observed": true
+    },
+    {
+      "sequence": 16,
+      "date": "2026-10-08",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn652view1",
+            "pattern": "Description"
+          },
+          {
+            "ref_id": "turn652view3",
+            "pattern": "500,000"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"Alanis Residence\" \"James Chong\" \"300,000\""
+          },
+          {
+            "q": "\"Alanis Residence\" \"450\" \"260,000\""
+          },
+          {
+            "q": "\"GAIA\" \"750\" \"1,700\" \"2026\""
+          },
+          {
+            "q": "\"Tropicana Aman 1\" \"338,000\" \"non\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/alanis-residence-untuk-dijual-oleh-james-chong-502099454",
+        "https://www.mudah.my/selangor-kuala-langat/properties-for-sale?price=300000-500000",
+        "https://www.mudah.my/selangor-kuala-langat/apartment-condominium-for-sale/aman-1-tropicana-urban-homes",
+        "https://www.iproperty.com.my/property-for-sale/at-alanis-residence-14437",
+        "https://homes.cari.la/homes/condominium-nearby-university-cyberjaya",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/ol-alanis-residence-untuk-dijual-oleh-jeanne-chian-500270311",
+        "https://www.iproperty.com.my/bm/servis-apartment-dijual/sekitar-sepang-9vrnn/dengan-3-bilik-tidur",
+        "https://homes.cari.la/homes/apartment-cheap-cyberjaya-sepang",
+        "https://paypayfleamarket.yahoo.co.jp/search/gaia%20%E3%82%AC%E3%82%A4%E3%82%A2?page=7",
+        "https://www.mudah.my/malaysia/all?q=1+ft",
+        "https://expatsi.com/cities/portugal/vila-nova-de-gaia",
+        "https://www.idealista.pt/en/arrendar-casas/vila-nova-de-gaia/com-apenas-apartamentos/?ordem=precos-asc",
+        "https://www.rsic.sc.gov/_documents/annual-investment-reports/2021-annual-report.pdf",
+        "https://www.rsic.sc.gov/_documents/annual-investment-reports/2022-annual-report.pdf",
+        "https://rsic-web-dev.azurewebsites.net/_documents/annual-investment-reports/2021-annual-report.pdf",
+        "https://www.mudah.my/alanis-residence-kota-warisan-sepang-klia-115058774.htm",
+        "https://www.iproperty.com.my/property-for-sale/at-gaia-residences-18071"
+      ],
+      "access_error_observed": false
+    },
+    {
+      "sequence": 17,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Alanis Residence\" \"Isaac Sim\" \"249,000\""
+          },
+          {
+            "q": "\"Aman 1 @ Bandar Tropicana Aman - Pool View\" "
+          },
+          {
+            "q": "\"GAIA Residences\" \"Yean Ma\" \"1,700\""
+          },
+          {
+            "q": "\"Kanopi Residences\" \"permit\""
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://alpha.edgeprop.my/listing/sale/2595980/selangor/sepang/nonlanded/condominium-apartment-servicedresidence/-sale--apartment-alanis-residence-warisan-puteri-kota"
+          },
+          {
+            "ref_id": "https://www.mudah.my/selangor-sepang/apartment-condominium-for-rent/alanis-warisan-puteri"
+          },
+          {
+            "ref_id": "https://www.simedarbyproperty.com/city-of-elmina/elmina-city-centre/kanopi-residences/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.propertyguru.com.my/property-listing/gaia-residences-for-rent-by-yean-ma-502001360",
+        "https://www.mudah.my/selangor-kuala-langat/apartment-condominium-for-sale/aman-1-tropicana-urban-homes",
+        "https://www.mudah.my/selangor-kuala-langat/properties-for-sale?price=300000-500000",
+        "https://www.propertyguru.com.my/bm/hartanah-dijual/di-alanis-residence-14437/harga-dibawah-rm-400k",
+        "https://www.propertyguru.com.my/property-for-sale/at-alanis-residence-14437/priced-under-300k-rm",
+        "https://www.propertyguru.com.my/apartment-condo-service-residence-for-sale/in-kota-warisan-aas3e",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-alanis-residence-14437",
+        "https://www.iproperty.com.my/property-for-sale/at-alanis-residence-14437/freehold",
+        "https://www.mudah.my/full-loan-low-deposit-alanis-residence-studio-for-sale-115322122.htm",
+        "https://img.rnudah.com/stores/logo_864798_wxe.jpg",
+        "https://www.simedarbyproperty.com/city-of-elmina/elmina-city-centre/kanopi-residences/brochure.pdf",
+        "https://media.edgeprop.my/s3fs-public/050625_Healthy-township-2025v2.pdf",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-alanis-residence-14437/max-rm-800-per-kps",
+        "https://simedarbyproperty.com/city-of-elmina/elmina-city-centre/kanopi-residences/brochure.pdf",
+        "https://www.edgeprop.my/listing/rental/2831392/selangor/telok_panglima_garang/nonlanded/flat/tropicana-aman-1-near-tenby-international",
+        "https://www.edgeprop.my/new-launches/sale/3467159/selangor/shah_alam/nonlanded/condominium-apartment-servicedresidence/kanopi-residences",
+        "https://alpha.edgeprop.my/listing/sale/2595980/selangor/sepang/nonlanded/condominium-apartment-servicedresidence/-sale--apartment-alanis-residence-warisan-puteri-kota",
+        "https://www.mudah.my/selangor-sepang/apartment-condominium-for-rent/alanis-warisan-puteri",
+        "https://www.simedarbyproperty.com/city-of-elmina/elmina-city-centre/kanopi-residences/"
+      ],
+      "access_error_observed": true
+    },
+    {
+      "sequence": 18,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Alanis\" \"365,000\" \"2595980\""
+          },
+          {
+            "q": "\"Aman 1\" \"338,000\" \"Michelle\" \"Pool\""
+          },
+          {
+            "q": "\"Habitus\" \"565\" rent \"1,300\""
+          },
+          {
+            "q": "site.ijmland.com \"Rimbayu\" \"Amber\""
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://ads.theedgeproperty.com.my/Parque/download/EcoSanctuary_BookletLatest9pm_FINAL.pdf"
+          },
+          {
+            "ref_id": "https://simedarbyproperty.com/city-of-elmina/elmina-city-centre/kanopi-residences/brochure.pdf"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.mudah.my/selangor-kuala-langat/properties-for-sale?price=300000-500000",
+        "https://www.iproperty.com.my/property/shah-alam/aman-1/sale-501836624/",
+        "https://www.mudah.my/selangor-shah-alam/apartment-condominium-for-rent/habitus-city-of-elmina?monthly_rent=1000-1500&property_type_id=5",
+        "https://homes.cari.la/homes/studio-kitchen-jelutong",
+        "https://www.propertyguru.com.my/apartment-condo-service-residence-for-sale/in-kota-kemuning-8s5w7/priced-under-1m-rm",
+        "https://www.iproperty.com.my/property-for-rent/p/habitus-shah-alam",
+        "https://www.propertyguru.com.my/apartment-for-sale/at-aman-1-21036",
+        "https://www.mudah.my/selangor-kuala-langat/apartment-condominium-for-sale/aman-1-tropicana-urban-homes",
+        "https://speedhome.com/rent/tulip-residence-shah-alam",
+        "https://ehartanahmalaysia.com/browse?maxPrice=2000&minPrice=1000&page=3&sort=newest&type=rent",
+        "https://www.propertyguru.com.my/property-listing/habitus-denai-alam-for-rent-by-josephine-chou-502117576",
+        "https://rentberry.com/my/apartments/s/klang-selangor-malaysia?page=17",
+        "https://citeseerx.ist.psu.edu/document?doi=37601dd726515ebc533ea208bf9dad81afd3fd45&repid=rep1&type=pdf",
+        "https://www.ehsanauctioneers.com/upload/adsFile/2fqQR5mxhWMe.pdf",
+        "https://www.tintedwholesale.com/images/company_profile.pdf",
+        "https://ads.theedgeproperty.com.my/Parque/download/EcoSanctuary_BookletLatest9pm_FINAL.pdf",
+        "https://simedarbyproperty.com/city-of-elmina/elmina-city-centre/kanopi-residences/brochure.pdf"
+      ],
+      "access_error_observed": true
+    }
+  ],
+  "additional_access_checks": [
+    {
+      "url": "https://www.simedarbyproperty.com/mediacentre",
+      "method": "RAM HTTP read, no persistent file",
+      "result": "HTTP403; no primary topping-off article body recovered by this route."
+    }
+  ],
+  "boundary": "Search results are discovery/observation records, not independent confirmation. Irrelevant international/numeric matches are not evidence. Full scraped bodies, personal contacts and image payloads are not stored. Curated observations and evidence class are in Evidence.json; no visual inspection is claimed."
+}

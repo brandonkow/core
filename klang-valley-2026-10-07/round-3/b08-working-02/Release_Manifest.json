@@ -1,0 +1,162 @@
+{
+  "version": "B08-W02-2026-10-08",
+  "parent_commit": "468b0d31ce96bacc05916233582246386ef44b33",
+  "verified_research_tree": "893cfdf3226338066130a2b5ed95a85caefdd377",
+  "generated_on": "2026-10-08",
+  "scope": "Immutable partial A58-A61 research packet; no catchment closure, Deploy or outcome validation.",
+  "artifacts": {
+    "klang-valley-2026-10-07/round-3/b08-working-02/Cases_G0_G9.md": {
+      "blob_sha": "7bcc2a9948b95f78ee4b09d9104f8adc3e540831",
+      "sha256": "7a5f20f3cb1c1126f1369461f386bd54bb0896ed884d67a5898527ee6403c92c",
+      "bytes": 18424
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-02/Divergence_and_Misses.md": {
+      "blob_sha": "a31072d876e0e2ad42bd096eef647f7b8f7b2ff8",
+      "sha256": "0d38f5abd7fc74f093138d40fc8955b517bf231dee4f70794405bbc9037627fe",
+      "bytes": 14518
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-02/Evidence.json": {
+      "blob_sha": "1caf571be9557e9fc85dcf1a56685c3b6cfdc94d",
+      "sha256": "05fc4b4da2c227351b06d2e355164404a51dda1c9cff8d0680a465313746ccc2",
+      "bytes": 25826
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-02/Financial_Results.json": {
+      "blob_sha": "73d0320b3df97fa51d7cb882e62e61ed5d921402",
+      "sha256": "a9e649a5880a1b0501babe0ab7300bc166b45616d85a9ffc71a28ad26d425649",
+      "bytes": 1070499
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-02/Financial_Underwriting.md": {
+      "blob_sha": "167db46f9eae626053206f23da19df58d02dc9ae",
+      "sha256": "be43fa9ce94fa5e5ff54415b5f3b8f0ea6f8d076045fc93c3e9f5d0db85a6322",
+      "bytes": 9114
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-02/Inputs.json": {
+      "blob_sha": "6720fcc3d929dbd6d9610abef102e6717ddbae58",
+      "sha256": "869710d8f66903848f106ee00d97cf9e560d94dd7ef680823fda3d6249b51384",
+      "bytes": 35680
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-02/RESUME_AND_COMPLETION.md": {
+      "blob_sha": "437b476a65246363f8319c6d7f0924447d36a4fe",
+      "sha256": "551920aa377c2704d3fac115442d39c13ccd080dbc0eb40cc39aeae5498703a7",
+      "bytes": 5700
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-02/Regional_Working.md": {
+      "blob_sha": "56369afcb62f34e9d868ef7deddb16ca53f2c193",
+      "sha256": "ffe21f6fa01f6a97cb7d97eb736a148d6c0001b98241b7a97532f90ec87cc92b",
+      "bytes": 13151
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-02/Scenario_Builder.py": {
+      "blob_sha": "fbcca4009485356b02e3a05b0558706946082c6e",
+      "sha256": "5b48d473b9ed263f2209ea033b003c3c89c6b4e07b4a53ea77a6dac816cbd671",
+      "bytes": 8514
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-02/Search_Log.json": {
+      "blob_sha": "b3dcdce57909ff1667c067a0d84ff31dfd28203e",
+      "sha256": "6ca822fe8f3bf70e11df49f21134c8b3ceb737ca39eb71f3dfc0f4d23b1a0733",
+      "bytes": 45683
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-02/Verification_Report.md": {
+      "blob_sha": "cf70e3139ebecdce561ae6cdc8553cfa4d946c50",
+      "sha256": "75198715941e4e23472cf9af4f80240a95452aec7cddb9f21d65382a4a09e70a",
+      "bytes": 5971
+    }
+  },
+  "frozen_sources": {
+    "Residential_Investment_Framework.md": {
+      "blob_sha": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+      "sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+      "bytes": 55579
+    },
+    "execution-release-2026-10-07/financial_engine.py": {
+      "blob_sha": "2fa3554d4b1358795d658efefe270ac53f27bbda",
+      "sha256": "3ab25fc9d9c100dde0eb7240cada5f53df2b6585be52af9165d8930cd8a64b5a",
+      "bytes": 16438
+    },
+    "execution-release-2026-10-07/financial_config.json": {
+      "blob_sha": "3e17c91823b093aa66f0930b2c012510d3b4528f",
+      "sha256": "ddcbfca298e1ee33a55544f8c25750b17c60a531eccddd62ad6ddc124a4a367c",
+      "bytes": 1037
+    },
+    "klang-valley-2026-10-07/round-2/Case_Inputs.json": {
+      "blob_sha": "e73369d88823ce3e7888cd4de2783b80f941e076",
+      "sha256": "4820ae8bd5b36f8c2567f875520373434ff87858c7689c3ce8ca5fb587d5b048",
+      "bytes": 71074
+    },
+    "klang-valley-2026-10-07/Case_Inputs.json": {
+      "blob_sha": "a25167bf28cd0dcd34ae3b51bd21ea82cd85f3d8",
+      "sha256": "695ba0aeebaa42f97d37c17002e6c8427b84c58211df4478456b2674eae46c91",
+      "bytes": 15879
+    },
+    "klang-valley-2026-10-07/round-3/b08-working-01/Inputs.json": {
+      "blob_sha": "abbc5caab2d61eb48cfdf058512ef29025d13f9e",
+      "sha256": "9613fcbab50c1ba1f71876e709a34c2867782cb0b9625e07dd894ce318656691",
+      "bytes": 23326
+    }
+  },
+  "navigation_at_publication": {
+    "CURRENT_WORKFLOW.md": {
+      "blob_sha": "1bf57ee1a91da0be27f3e25d5147f2ee64b902fb",
+      "sha256": "c6e0e8cb7fe6982a9312a6ebefbddfb3aa01fb6dfd53331aee72f3c0f0d729a0",
+      "bytes": 3749
+    },
+    "README.md": {
+      "blob_sha": "35dba261faaee5427640294463e4adc74f89a11f",
+      "sha256": "4a9429e2472b438c1bc322eb9d20276e06ed079b13c179d6f5054dd94ef67c4d",
+      "bytes": 9628
+    },
+    "klang-valley-2026-10-07/round-3/README.md": {
+      "blob_sha": "5796ac74b1535b9818914258cbb0962c8e2fd123",
+      "sha256": "5939417e4845bbbac24cd3c2e4a680a8f8c21299cc27c27357445d35f07f8224",
+      "bytes": 8942
+    }
+  },
+  "preservation": {
+    "parent_file_count": 624,
+    "unchanged_prior_blobs": 621,
+    "changed_prior_paths": [
+      "CURRENT_WORKFLOW.md",
+      "README.md",
+      "klang-valley-2026-10-07/round-3/README.md"
+    ],
+    "new_packet_file_count": 12,
+    "expected_total_file_count": 636
+  },
+  "financial_summary": {
+    "operating_cases": 18,
+    "evaluations": 272,
+    "pair_paths": 153,
+    "pairs_preserving_synthetic_reserve": 153,
+    "rank_grid_cells": 99,
+    "standard_nonshortfall": [
+      "R237",
+      "R248",
+      "KV14",
+      "R351",
+      "R353",
+      "R354",
+      "R355"
+    ],
+    "annual_nonnegative": [
+      "R353"
+    ],
+    "gross_at_least6pct": [
+      "R237",
+      "R248",
+      "KV14",
+      "R351",
+      "R353"
+    ]
+  },
+  "verification_checks": "Exact replay; frozen pins; all prior non-navigation blobs and13caseobjects/10branches preserved; independent standard/annual/gross/entry/flat-exit identities;50ordered gates;45evidenceIDs;5four-familyflags;18searchcalls;relative links;forwardrentnull;materialbranchreversals",
+  "decision": "All18operatingexpressionsG0STOP/G9Defer. ForwardKanopihasnullrent. NoB08catchmentclosure.",
+  "programme": {
+    "total_catchments": 61,
+    "bounded_desk_complete": 36,
+    "enhanced_final_audit_pending": 17,
+    "B08_deepening_pending": 8,
+    "without_final_acceptance": 25,
+    "programme_complete": false
+  },
+  "latest_user_authority": "User: all files go directly to main; no other branches. Complete all-area underwriting first, including programme integration, then independently decide whether the existing decision map needs updating. Preserve map during current regional research.",
+  "exclusion": "Manifest does not hash itself; Git commit/tree anchors it. Navigation may advance in later releases; immutable artifacts and frozen sources remain preserved. Public research evidence is not authenticated unit readiness."
+}

@@ -4,6 +4,8 @@ Interactive framework: [Decision Engine Neural Map](https://brandonkow.github.io
 
 Project repository: [brandonkow/core](https://github.com/brandonkow/core), designated by the user on7October2026 for GitHub-only retention. Future framework and generated research files belong here. This directory structure is preserved at repository root. The user subsequently suspended local cleanup: existing local files are left alone, and all new project files and updates go to GitHub. Cleanup no longer blocks research. See [current workflow](CURRENT_WORKFLOW.md) for the latest instruction and REPOSITORY_TRANSFER.md for historical transfer verification.
 
+Latest sequencing instruction: all updates go directly to main, with no other branch. Complete all-area underwriting and programme integration before independently assessing whether the decision map needs updating. Current map files remain preserved.
+
 ## Authoritative framework entry point
 
 Use [Residential Investment Framework](Residential_Investment_Framework.md) as the single consolidated master for future underwriting. It preserves the available Core and G0-G9 definitions and embeds the Evidence-Judgment Divergence control. Read its cross-module execution binding before applying the gates. All Markdown artifacts are English; conversation with the user is Mandarin.
@@ -28,7 +30,7 @@ No automated market-data ingestion, alert scheduler, software decision engine or
 
 ## Regional underwriting
 
-Current programme status: **incomplete; B03–B07 bounded desk passes closed; B08 research in progress**. Latest: [B08 Working01](klang-valley-2026-10-07/round-3/b08-working-01/Regional_Working.md), [case gates](klang-valley-2026-10-07/round-3/b08-working-01/Cases_G0_G9.md), [verification](klang-valley-2026-10-07/round-3/b08-working-01/Verification_Report.md) and [continuation](klang-valley-2026-10-07/round-3/b08-working-01/RESUME_AND_COMPLETION.md), dated 8 October 2026. Four new expressions deepen selected A54–A57 questions; nine prior inputs remain unchanged. Thirteen cases produce 192 conditional evaluations, 78 pair paths and 54 rent-grid cells. All Defer; no B08 catchment closes in this partial packet.
+Current programme status: **incomplete; B03–B07 bounded desk passes closed; B08 research in progress**. Latest: [B08 Working02](klang-valley-2026-10-07/round-3/b08-working-02/Regional_Working.md), [case gates](klang-valley-2026-10-07/round-3/b08-working-02/Cases_G0_G9.md), [verification](klang-valley-2026-10-07/round-3/b08-working-02/Verification_Report.md) and [continuation](klang-valley-2026-10-07/round-3/b08-working-02/RESUME_AND_COMPLETION.md), dated8October2026. Five new expressions deepen A58–A61; thirteen prior case objects remain unchanged. Eighteen cases produce272 conditional evaluations,153 pair paths and99 rent-grid cells. All Defer; no B08 catchment closes. [Working01](klang-valley-2026-10-07/round-3/b08-working-01/Regional_Working.md) retains A54–A57 research.
 
 [B07 final synthesis](klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md) and its [substantive audit](klang-valley-2026-10-07/round-3/b07-final/Completion_Audit.md) remain the latest completed regional batch. All earlier working and final releases remain immutable.
 

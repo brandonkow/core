@@ -1,6 +1,6 @@
 # Klang Valley underwriting - round 3 continuation
 
-Current navigation updated: 8 October 2026. Programme status: **incomplete; B03–B07 bounded regional desk passes completed; B08 in progress**. Latest [B08 Working01 regional work](b08-working-01/Regional_Working.md), [verification](b08-working-01/Verification_Report.md) and [checkpoint](b08-working-01/RESUME_AND_COMPLETION.md) add four conditional expressions across selected A54–A57 questions. No B08 catchment closes. [B07 final synthesis](b07-final/Regional_Synthesis.md) and [audit](b07-final/Completion_Audit.md) remain the latest completed regional batch. Earlier packets retain their own evidence cutoffs. Canonical repository [brandonkow/core](https://github.com/brandonkow/core); new artifacts go to GitHub and existing local files remain untouched.
+Current navigation updated:8October2026. Programme status: **incomplete; B03–B07 bounded desk passes completed; B08 in progress**. Latest [B08 Working02](b08-working-02/Regional_Working.md), [verification](b08-working-02/Verification_Report.md) and [checkpoint](b08-working-02/RESUME_AND_COMPLETION.md) add five expressions across A58–A61 and preserve thirteen previous inputs. No B08 catchment closes. [B07 final synthesis](b07-final/Regional_Synthesis.md) and [audit](b07-final/Completion_Audit.md) remain the latest completed regional batch. All work goes directly to main; existing local files and current map remain untouched. After all-area underwriting and programme integration, independently assess whether the map needs updating.
 
 The 61-catchment map is complete as a scope register. Round 1's 14 cases and round 2's 50 cases provide conditional underwriting inputs, not 64 verified investment opportunities. The nine earlier Cheras expressions remain separate historical research. Having a disposition for each area did not complete the full regional research requirement. No Deploy is validated.
 
@@ -15,6 +15,8 @@ This continuation preserves the original programme scope, frozen consolidated Co
 5. [Case status overrides](Case_Status_Overrides.json) must accompany round 2 quantitative comparisons.
 
 ## Latest substantive work
+
+- [B08 Working02](b08-working-02/Regional_Working.md): five new [ordered gate papers](b08-working-02/Cases_G0_G9.md),45 source records,18 cumulative cases,272 [financial evaluations](b08-working-02/Financial_Underwriting.md),153 pair paths and99 rent-grid cells. Original compact versus family Alanis, Aman2+1, Habitus costs/use, GAIA cohort separation and forward Kanopi. [Divergence/misses](b08-working-02/Divergence_and_Misses.md) and [continuation](b08-working-02/RESUME_AND_COMPLETION.md) hold finite remaining public work. All Defer; no catchment closure.
 
 - [B08 Working01](b08-working-01/Regional_Working.md): four new [G0–G9 expressions](b08-working-01/Cases_G0_G9.md), nine preserved inputs, 35 curated sources, [192 financial evaluations](b08-working-01/Financial_Underwriting.md), 78 pair paths and 54 rent-grid cells. [Divergence and misses](b08-working-01/Divergence_and_Misses.md) distinguish conditional Arc income, MKH plan/record identity and Shaftsbury lower-price/access questions. All Defer; no regional closeout. Remaining work and next IDs are in the [checkpoint](b08-working-01/RESUME_AND_COMPLETION.md).
 
