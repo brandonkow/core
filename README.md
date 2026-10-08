@@ -1,6 +1,6 @@
 # Residential Investment Decision Engine
 
-Interactive framework: [Decision Engine Neural Map](https://brandonkow.github.io/core/) · [verification and limits](visualization/VERIFICATION_2026-10-07.md).
+Interactive framework: [Decision Engine Neural Map](https://brandonkow.github.io/core/) · [verification and limits](visualization/VERIFICATION_2026-10-08.md) (earlier [7 October report](visualization/VERIFICATION_2026-10-07.md)).
 
 Project repository: [brandonkow/core](https://github.com/brandonkow/core), designated by the user on7October2026 for GitHub-only retention. Future framework and generated research files belong here. This directory structure is preserved at repository root. The user subsequently suspended local cleanup: existing local files are left alone, and all new project files and updates go to GitHub. Cleanup no longer blocks research. See [current workflow](CURRENT_WORKFLOW.md) for the latest instruction and REPOSITORY_TRANSFER.md for historical transfer verification.
 

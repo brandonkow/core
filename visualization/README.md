@@ -66,4 +66,4 @@ The verification continuation on main started from commit `e0ab750` and did not 
 - run-state badges kept inside their gate box;
 - the pinch re-baselined when one finger of a three-finger touch lifts.
 
-The calculator arithmetic is now a pure function (`calcStandard`), so `verify.cjs` checks it outside the browser over 9,021 boundary cases. See the [reconciliation verification](VERIFICATION_2026-10-08.md). The 7 October report and receipt remain as historical records of the version they tested.
+The calculator arithmetic is now a pure function (`calcStandard`), so `verify.cjs` checks it outside the browser over 9,021 boundary cases. See the [reconciliation verification](VERIFICATION_2026-10-08.md). The fixes were merged into main on 8 October 2026 and the branch was deleted; main is now the only baseline. The 7 October report and receipt remain as historical records of the version they tested.

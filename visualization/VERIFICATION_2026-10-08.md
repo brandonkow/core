@@ -1,6 +1,6 @@
 # Neural map reconciliation verification - 2026-10-08
 
-Status: PASS for the reconciled map on `claude/modest-fermi-2wstbv`. This tests the file's fidelity and behaviour only; it is not market or investment validation.
+Status: PASS for the reconciled map, prepared on the former `claude/modest-fermi-2wstbv` branch and merged into main on 8 October 2026 (`9b46aa5`). The branch was then deleted at the user's request; its commits stay reachable from main through that merge. This tests the file's fidelity and behaviour only; it is not market or investment validation.
 
 ## What was found on main
 
@@ -28,4 +28,4 @@ Main at `77b8ecf` (served at the Pages URL with HTML SHA-256 `923949805bd7136fac
 
 ## Limits
 
-The public Pages site serves main and keeps showing the 7 October version until this branch is merged into main. `browser_smoke.py` itself was not run here. Emulated viewports are not physical-device, assistive-technology or cross-browser certification.
+The merge into main triggers the existing workflow, which runs `verify.cjs` before publishing the map to Pages; the live receipt is recorded separately after deployment. `browser_smoke.py` itself was not run here. Emulated viewports are not physical-device, assistive-technology or cross-browser certification.
