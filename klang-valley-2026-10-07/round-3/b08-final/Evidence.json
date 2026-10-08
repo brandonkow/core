@@ -1,0 +1,445 @@
+{
+  "version": "B08-FINAL-2026-10-08",
+  "retrieved": "2026-10-08",
+  "scope": "New regional integration evidence, supplements immutable W01 and W02 ledgers.",
+  "sources": [
+    {
+      "id": "F-E01",
+      "areas": "A54",
+      "origin": "Private seller",
+      "source_date": "2026-07-11",
+      "url": "https://www.mudah.my/direct-owner-savanna-executive-suites-southville-city-bangi-115198562.htm",
+      "observed": "Savanna350k956sf3BR2BA C2level20; two adjacent bays,non-Bumi,air-conditioners/water heaters claimed.",
+      "boundary": "Opened body; availability, rights and condition unverified. Student-ready is marketing."
+    },
+    {
+      "id": "F-E02",
+      "areas": "A54",
+      "origin": "Agent/portal",
+      "source_date": "May2026 index",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/savanna-executive-suite-southville-city-untuk-disewa-oleh-nurul-waheeda-500754623",
+      "observed": "Savanna1500 whole-unit rental index informs lower planning scenario; fit-out match unverified.",
+      "boundary": "Direct open failed. Exact parcel, signed rent and same-block match unavailable; base is conditional, not verified tenancy."
+    },
+    {
+      "id": "F-E03",
+      "areas": "A54",
+      "origin": "Agent",
+      "source_date": "2026-08-13 opened; Aug6 search",
+      "url": "https://www.iproperty.com.my/property/bangi/savanna-executive-suite-southville-city/rent-501860623/",
+      "observed": "Savanna2300FF956sf3BR2BA two bays.",
+      "boundary": "Same listing501860623 has differing indexed dates; one source, not repeated absorption."
+    },
+    {
+      "id": "F-E04",
+      "areas": "A54",
+      "origin": "Agent",
+      "source_date": "2026-07-23 index",
+      "url": "https://www.mudah.my/nice-unit-partial-furnished-savanna-executives-suites-southville-115335303.htm",
+      "observed": "Savanna330k956sf PF B1level25 two bays; Bumi-labelled.",
+      "boundary": "Separate restricted cohort, not unrestricted discount or selected C2 parcel."
+    },
+    {
+      "id": "F-E05",
+      "areas": "A54",
+      "origin": "Auctioneer advertisement",
+      "source_date": "2026-08-26 scheduled",
+      "url": "https://www2.durianproperty.com.my/classified/3310791/Savanna-Executive-Suite-Serviced-Residence-for-auction-by-Hester",
+      "observed": "Savanna310k956sf past auction reserve; illustrative photos.",
+      "boundary": "No result, possession, arrears or ordinary transaction established."
+    },
+    {
+      "id": "F-E06",
+      "areas": "A54",
+      "origin": "Developer annual report",
+      "source_date": "FY2018",
+      "url": "https://www.mahsing.com.my/web/storage/2022/08/2018_Annual_PDF.pdf",
+      "observed": "Southville interchange opened Q1 2018; Savanna A-C VP Q1 and D Q4 2018.",
+      "boundary": "Historical delivery; not a future catalyst or current occupancy measure."
+    },
+    {
+      "id": "F-E07",
+      "areas": "A54",
+      "origin": "Developer brochure",
+      "source_date": "Expected June2028",
+      "url": "https://www.mahsing.com.my/web/storage/2024/04/M-Sinar-E-Brochure-V2-1.pdf",
+      "observed": "M Sinar phase1:78 affordable270k and422 ordinary618k-643k; June2028 target.",
+      "boundary": "Indexed brochure text; cohort/price schedule, not net selected quote or completed stock."
+    },
+    {
+      "id": "F-E08",
+      "areas": "A54",
+      "origin": "PR1MA project owner",
+      "source_date": "Current page; March2024 handover",
+      "url": "https://www.pr1ma.my/properties/residensi-nexus-kajang",
+      "observed": "Nexus393 completed units;800sf2BR and950/1050sf3BR; fully sold; historical starting288k.",
+      "boundary": "Restricted programme context, not open investor inventory or rental permission."
+    },
+    {
+      "id": "F-E09",
+      "areas": "A54",
+      "origin": "PR1MA official announcement",
+      "source_date": "2024-09-15",
+      "url": "https://www.pr1ma.my/storage/files/shares/News_Highlights/_FINAL__PR1MA_Siaran_Media_KHO_Residensi_Nexus_Kajang.pdf",
+      "observed": "Nexus CCC February2024, over95% keys delivered by announcement.",
+      "boundary": "Primary delivery anchor supersedes inconsistent portal2020/2022 dates; not occupancy."
+    },
+    {
+      "id": "F-E10",
+      "areas": "A54",
+      "origin": "Agent index",
+      "source_date": "2026-08-20",
+      "url": "https://www.propertyguru.com.my/2-terraced-house-for-rent/in-kajang-crp6q/fully-furnished",
+      "observed": "Saujana Impian landed2000FF4+1BR3BA,1900sf and four bays advertised.",
+      "boundary": "Same-agent syndicated entry, asking and area-field limits; no direct price comp to central Kajang compact."
+    },
+    {
+      "id": "F-E11",
+      "areas": "A54",
+      "origin": "Rental advertiser",
+      "source_date": "2026 snapshot",
+      "url": "https://www.mudah.my/fully-furnished-rumah-sewa-teres-2-tingkat-saujana-impian-kajang-115729697.htm",
+      "observed": "1600FF5BR3BA1400sf landed ask carries advertiser family/ethnicity/religion conditions.",
+      "boundary": "Not universally available housing. Conditions recorded only as source limits, never adopted as screening criteria."
+    },
+    {
+      "id": "F-E12",
+      "areas": "A54",
+      "origin": "Developer press material via portal",
+      "source_date": "2025 publication",
+      "url": "https://www.iproperty.com.my/news/mah-sing-maintains-strong-growth-trajectory-in-2025-with-strategic-expansion-and-esg-leadership-98845",
+      "observed": "Sensory listed among completed projects receiving lighting upgrades.",
+      "boundary": "Developer-origin statement, not inspection or measured fee saving; exact phase VP still not authenticated."
+    },
+    {
+      "id": "F-E13",
+      "areas": "A55",
+      "origin": "Developer financial report",
+      "source_date": "Quarter ended2024-01-31",
+      "url": "https://ecoworld.my/wp-content/uploads/2024/03/Financial-Results-EWM-1Q-2024.pdf",
+      "observed": "Riang EcoMajestic and Se.Duduk Kajang identified as distinct future launches; Se.Ruang/Huni handed over.",
+      "boundary": "Combined nearly2700 figure spans two schemes; not Se.Ruang alone or vacant supply."
+    },
+    {
+      "id": "F-E14",
+      "areas": "A55",
+      "origin": "Developer brochure",
+      "source_date": "June2024 path",
+      "url": "https://ecoworld.my/ecomajestic/wp-content/uploads/2024/06/Riang-e-Brochure.pdf",
+      "observed": "Riang location/context indexed.",
+      "boundary": "Direct retrieval failed; no original plan/legal cohort or delivery date authenticated from it."
+    },
+    {
+      "id": "F-E15",
+      "areas": "A55",
+      "origin": "Contractor",
+      "source_date": "Current site",
+      "url": "https://athenspark.com.my/",
+      "observed": "999 serviced units Riang EcoMajestic shown as ongoing work.",
+      "boundary": "Not CCC/VP or complete rent-ready stock."
+    },
+    {
+      "id": "F-E16",
+      "areas": "A55",
+      "origin": "Market launch compilation",
+      "source_date": "2025-02-21",
+      "url": "https://media.edgeprop.my/s3fs-public/special_report_2025/feb/report/200225-New-launches-Bumper-issue-KL-Selangor.pdf",
+      "observed": "Riang999,550sf250k,2028 forecast in affordable-supply compilation.",
+      "boundary": "Compact/affordable cohort unresolved; other marketing says2027. No ordinary studio purchase case or future rent credited."
+    },
+    {
+      "id": "F-E17",
+      "areas": "A55",
+      "origin": "Rental advertiser via platform",
+      "source_date": "Move-in2026-03-02",
+      "url": "https://speedhome.com/details/bandar-rinching-seksyen-6-semenyih-dazykyha",
+      "observed": "Rinching1300unfurnished4BR4BA landed,1400sf land,three bays,12-month minimum.",
+      "boundary": "Stale availability; extensions/legal status not verified. Platform badge is not our verification."
+    },
+    {
+      "id": "F-E18",
+      "areas": "A55",
+      "origin": "Portal index",
+      "source_date": "2026 snapshot",
+      "url": "https://www.mudah.my/selangor-semenyih/1-storey-terraced-house-for-sale",
+      "observed": "TasikKesuma260k/310k and Rinching325k landed asks surfaced alongside varied conditions.",
+      "boundary": "Not cleared lower bound; land/floor, full-loan and rights differences preclude apartment PSF comparison."
+    },
+    {
+      "id": "F-E19",
+      "areas": "A56/A61",
+      "origin": "Developer collection",
+      "source_date": "Current/search snapshot",
+      "url": "https://oskproperty.com.my/collection/",
+      "observed": "Search archive lists Solstice946units2016,Paragon245units2015; opened current page markets OSKRawang as coming soon.",
+      "boundary": "946/245 are unit counts, not floor areas. No authenticated Solstice450 original plan; coming soon is not inventory."
+    },
+    {
+      "id": "F-E20",
+      "areas": "A56",
+      "origin": "Agent",
+      "source_date": "2026-08-28",
+      "url": "https://www.iproperty.com.my/property/cyberjaya/solstice-pan-gaea/sale-501432960/",
+      "observed": "Solstice4501BR200001header/200000body,FF one bay; portal layout TypeA450, B893threeBR, C980duplex.",
+      "boundary": "Narrows marketed identity; original title/plan and transaction cleared value held. No room-conversion thesis."
+    },
+    {
+      "id": "F-E21",
+      "areas": "A56",
+      "origin": "Issuer annual report",
+      "source_date": "FY2021",
+      "url": "https://www.insage.com.my/BursaNews/Attachment/202204/20220422/MCT-AN20220422A1-1.pdf",
+      "observed": "Lakefront distinguishes PR1MA completed July2020 from1311MarketHomes targeted2022; wider Residence/Villa separate.",
+      "boundary": "Historical unsold/development capacity not2026 available inventory."
+    },
+    {
+      "id": "F-E22",
+      "areas": "A56",
+      "origin": "Main contractor",
+      "source_date": "April2022 completion",
+      "url": "https://www.pesona.com.my/lakefront-residence-cyberjaya.php",
+      "observed": "LakefrontHomes project1311units completed April2022.",
+      "boundary": "Contractor completion, not each title's CCC/occupied lease or proof PR1MA resale eligibility."
+    },
+    {
+      "id": "F-E23",
+      "areas": "A56/A58",
+      "origin": "Developer live catalogue",
+      "source_date": "Retrieved2026-10-08",
+      "url": "https://www.avaland.com.my/all-projects",
+      "observed": "LakeFront Residence1/2,Homes,PR1MAHomes separate completed entries; Cybersouth CasaEmbun serviced apartments and CasaBayu apartments/townhouses separately completed.",
+      "boundary": "Live catalogue lifecycle evidence only; not actual take-up/lease or equivalence of Cyberjaya and Dengkil door-to-work."
+    },
+    {
+      "id": "F-E24",
+      "areas": "A57",
+      "origin": "Government housing administrator",
+      "source_date": "Current FAQ",
+      "url": "https://www.bph.gov.my/portal/soalan-lazim-kuarters-penawaran/",
+      "observed": "Quarter offers follow waiting-list/registration/update processes, with stated consideration categories.",
+      "boundary": "No automatic entitlement, vacancy allocation, guaranteed wait time or full civil-service capture inferred."
+    },
+    {
+      "id": "F-E25",
+      "areas": "A57",
+      "origin": "JKR",
+      "source_date": "Undated stock description",
+      "url": "https://www.jkrwpp.gov.my/penyelenggaraan-kuarters",
+      "observed": "22,133 government quarters described across three development phases.",
+      "boundary": "Historical stock, not currently vacant competing units."
+    },
+    {
+      "id": "F-E26",
+      "areas": "A57",
+      "origin": "Developer",
+      "source_date": "Current page",
+      "url": "https://www.ioiproperties.com.my/ioi-resort-city/clio-residences",
+      "observed": "Clio completed ready-to-move;8722BR sold out,10122+1,14103BR;from788800; fee.46psf stated.",
+      "boundary": "IOIResortCity fringe, distinct precinct task. Headline not selected872 quote; fee inclusion and bills held."
+    },
+    {
+      "id": "F-E27",
+      "areas": "A57",
+      "origin": "Contractor profile",
+      "source_date": "March2021 completion",
+      "url": "https://sribinaraya.com.my/wp-content/uploads/2022/04/Company-Profile-2022.pdf",
+      "observed": "Clio2 contractor records550units completed March2021.",
+      "boundary": "Construction completion not individual VP/CCC; separate from Clio1 and obsolete expected2020 marketing."
+    },
+    {
+      "id": "F-E28",
+      "areas": "A58",
+      "origin": "Developer annual report",
+      "source_date": "FY2020",
+      "url": "https://cdn01.sunsuria.com/Sunsuria_Annual_Report_2020_b9fe326549.pdf",
+      "observed": "Bell478SOHO VPFebruary2020; Olive663condos VPNovember2019; MonetLily211landed VPOctober2019.",
+      "boundary": "2019VP versus later2020assessment/completion labels differ. No present occupancy or landlord guarantees inferred."
+    },
+    {
+      "id": "F-E29",
+      "areas": "A58",
+      "origin": "Issuer annual report",
+      "source_date": "FY2023",
+      "url": "https://sunsuria.listedcompany.com/newsroom/Sunsuria_AR2023_-_Part_2_20240129.pdf",
+      "observed": "TangerineSuites listed completedFY2023.",
+      "boundary": "Not still future2022 delivery despite stale portal text; assessment not current quality audit."
+    },
+    {
+      "id": "F-E30",
+      "areas": "A58",
+      "origin": "Issuer results",
+      "source_date": "Quarter ended2023-12-31; published2024-02-26",
+      "url": "https://sunsuria.listedcompany.com/newsroom/Sunsuria_FY24_Q1_-_Press_Release_20240226.pdf",
+      "observed": "Tangerine sales recorded as completed inventories.",
+      "boundary": "Corroborates lifecycle; same issuer lineage as annual report, not independent tenancy data."
+    },
+    {
+      "id": "F-E31",
+      "areas": "A59",
+      "origin": "Agent",
+      "source_date": "2026-08-20",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/the-amber-residence-twentyfive-7-untuk-dijual-oleh-hor-yan-501673467",
+      "observed": "Amber430k657sf2BR1BA PF one bay,leasehold.",
+      "boundary": "Listing tags span several townships; selected Gamuda twentyfive.7 not IJM Rimbayu. No current net offer confirmed."
+    },
+    {
+      "id": "F-E32",
+      "areas": "A59",
+      "origin": "Agent",
+      "source_date": "Indexed aboutthree months before retrieval",
+      "url": "https://www.mudah.my/amber-residences-gamuda-25-7-bandar-rimbayu-fully-furnished-115192098.htm",
+      "observed": "Amber1700FF657sf2BR1BA two bays.",
+      "boundary": "Different bay/fit-out package from sale; stale availability and no achieved rent."
+    },
+    {
+      "id": "F-E33",
+      "areas": "A59",
+      "origin": "Developer marketing",
+      "source_date": "Current page",
+      "url": "https://development.gamudaland.com.my/twentyfive7/referral/",
+      "observed": "Amber657-1001sf serviced apartments separate from QuaysidePlazas840-2659sf and commercial.",
+      "boundary": "Project-format evidence, not exact selected plan or permission for short stays."
+    },
+    {
+      "id": "F-E34",
+      "areas": "A59/A61",
+      "origin": "Issuer sustainability report",
+      "source_date": "FY2022",
+      "url": "https://gamuda.listedcompany.com/misc/Sustainability_Report_2022.pdf",
+      "observed": "Amber described completed; GAIA expected2023; restricted LamanAdonisKundang and DanauRiaGardens identified separately.",
+      "boundary": "Historical IBS project status, not unit occupancy or ordinary pricing."
+    },
+    {
+      "id": "F-E35",
+      "areas": "A59",
+      "origin": "Issuer report mirrored externally",
+      "source_date": "Quarter ended2022-10-31",
+      "url": "https://cdn1.i3investor.com/my/files/st88k/5398_GAMUDA/qr/2022-10-31/5398_GAMUDA_QR_2022-10-31_GamudaFinancialResultsQ1FY23_816948923.pdf",
+      "observed": "Amber VP conducted during quarter.",
+      "boundary": "Issuer-authored mirror; not new independent source of demand or resale clearing."
+    },
+    {
+      "id": "F-E36",
+      "areas": "A59",
+      "origin": "Developer live marketing",
+      "source_date": "2026 campaign",
+      "url": "https://ijmland.com/xffortless/",
+      "observed": "Rimbayu Avela ready-to-move garden homes; Anthea semi-D/superlink;Roam strata retail/offices.",
+      "boundary": "Not condos because search pages mix formats. Programme incentives cannot all be assigned to one unit."
+    },
+    {
+      "id": "F-E37",
+      "areas": "A59",
+      "origin": "Developer archived campaign",
+      "source_date": "About2023",
+      "url": "https://ijmland.com/40th-anniversary/klangvalley.html",
+      "observed": "Avela2400/2745sf landed historically from990264.",
+      "boundary": "Historical package and larger task; notcurrentquote or universal affordable landed substitute."
+    },
+    {
+      "id": "F-E38",
+      "areas": "A60",
+      "origin": "Developer announcement",
+      "source_date": "2026-06-12; eventAugust2024",
+      "url": "https://www.simedarbyproperty.com/press-releases/sime-darby-propertys-elmina-lakeside-mall-wins-world-gold-award-fiabci-world-prix",
+      "observed": "Elmina mall soft-opened August2024; developer reports full occupancy eight months later.",
+      "boundary": "Retail occupancy/award not residential leased rent or new future mall catalyst."
+    },
+    {
+      "id": "F-E39",
+      "areas": "A60",
+      "origin": "Developer asset catalogue",
+      "source_date": "Current catalogue",
+      "url": "https://www.simedarbyproperty.com/capital/",
+      "observed": "Elmina data-centre1 target2026; centre2 separately listed.",
+      "boundary": "Target and capital investment not completed opening, headcount, household formation or rent uplift."
+    },
+    {
+      "id": "F-E40",
+      "areas": "A61",
+      "origin": "Developer brochure",
+      "source_date": "2023 issue; targetDecember2026",
+      "url": "https://www.perdanapark.com.my/wp-content/uploads/2023/07/PP3_Ebrochure_25July23.pdf",
+      "observed": "PerdanaParkphase3 Blocks5/6 each103 apartments850-950sf,346797-454910,lease expAugust2109.",
+      "boundary": "Future target not CCC; historical permit validity not current compliance verdict; not samephaseasexistingrent."
+    },
+    {
+      "id": "F-E41",
+      "areas": "A61",
+      "origin": "Developer current page",
+      "source_date": "Retrieved2026-10-08",
+      "url": "https://www.perdanapark.com.my/",
+      "observed": "BandarTasikPuteri family apartments, dedicatedLATARaccess and completed interchange claimed.",
+      "boundary": "Do not transfer access/time to GAIA or centralRawang; no peak-hour measurement."
+    },
+    {
+      "id": "F-E42",
+      "areas": "A61",
+      "origin": "Agent rental index",
+      "source_date": "2026-09-29",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/perdana-park-rawang-untuk-disewa-oleh-ahmad-sabri-502166968",
+      "observed": "PerdanaPark1200PF rental; project2021label.",
+      "boundary": "Directopenfailed; existingphase/parcel toauthenticate. Doesnotestablish2026phase3rent."
+    },
+    {
+      "id": "F-E43",
+      "areas": "A61",
+      "origin": "Rental portal index",
+      "source_date": "April2026 snapshot",
+      "url": "https://www.mudah.my/selangor-rawang/apartment-condominium-for-rent/perdana-park-rawang",
+      "observed": "Older850PF1100 and9501150/9801200-1300 asks.",
+      "boundary": "Stale/mixedsize; screeningtenant-substitute budgets, not pairedordinarypurchasecase."
+    },
+    {
+      "id": "F-E44",
+      "areas": "A54",
+      "origin": "Portal retrieval anomaly",
+      "source_date": "2026-10-08 retrieval",
+      "url": "https://www.propertyguru.com.my/apartment-condo-service-residence-for-sale/at-savanna-executive-suite-southville-city-5882",
+      "observed": "Search returnedSeptember2026 prices; openedpage displayedAugust2025 entries.",
+      "boundary": "No chronology, transaction velocity or unique inventory trend inferred."
+    },
+    {
+      "id": "F-E45",
+      "areas": "A55",
+      "origin": "Government/bank auction document",
+      "source_date": "2026-05-15",
+      "url": "https://www.hlb.com.my/content/dam/hlb/my/docs/pdf/Personal/Property-Auction/may-2026/hlb-ehsan-flyer-kl-15-may-2026.pdf",
+      "observed": "Begonia explicitly ResidensiSelangorku auction cohort appears inSemenyih.",
+      "boundary": "Low reserve is not ordinary unrestricted price or realised result."
+    },
+    {
+      "id": "F-E46",
+      "areas": "A56",
+      "origin": "Rental-platform commentary",
+      "source_date": "2026-09 publication",
+      "url": "https://speedhome.com/blog/solstice-room-rental-investment-guide/",
+      "observed": "Article alternates one-bedroom/studio and893duplex versus980layout claims.",
+      "boundary": "Conflicting generated-style narrative excluded as original-plan validation; no claimed supply scarcity accepted."
+    },
+    {
+      "id": "F-E47",
+      "areas": "A57",
+      "origin": "Architect project description",
+      "source_date": "2015 completion",
+      "url": "https://www.archify.com/my/project/dorsett-putrajaya",
+      "observed": "DorsettPutrajaya218hotelrooms.",
+      "boundary": "Hotel rooms are not independently investable residential compact titles; no operatingcasecreated."
+    },
+    {
+      "id": "F-E48",
+      "areas": "A54",
+      "origin": "Agent",
+      "source_date": "2026-06-22",
+      "url": "https://www.iproperty.com.my/property/kajang/rent-501155096/",
+      "observed": "Nexus-labelled1100sf4BR1900PF two bays.",
+      "boundary": "Doesnotmatchofficial800/950/1050 and2/3BRfamilies; component/partitionheld, notlegalconversionassumed."
+    }
+  ],
+  "controls": [
+    "Public page text and indexed excerpts only; no physical visit, current private documents, image-based quality inspection, outreach or paid data.",
+    "Repeated issuer/agent syndications are one lineage; counts of ads are not unique inventory or absorption.",
+    "Fact, source claim, analyst interpretation and conditional model remain separate.",
+    "No past/future portal label changes the frozen Core or substitutes for actual lease, title, bill or bank evidence."
+  ]
+}

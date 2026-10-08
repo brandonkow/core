@@ -4,9 +4,9 @@ Updated8October2026. Canonical repository: https://github.com/brandonkow/core.
 
 ## Current status
 
-[B08 Working02](klang-valley-2026-10-07/round-3/b08-working-02/Regional_Working.md) deepens A58–A61 with R355–R359 and a forward Kanopi control. Thirteen prior case objects and ten previous branches are unchanged. Eighteen conditional cases produce272 evaluations,153 pair paths and99 rent-grid cells. All G0 STOP / G9 Defer; no B08 catchment closes. Read [verification](klang-valley-2026-10-07/round-3/b08-working-02/Verification_Report.md) and [continuation](klang-valley-2026-10-07/round-3/b08-working-02/RESUME_AND_COMPLETION.md). [Working01](klang-valley-2026-10-07/round-3/b08-working-01/Regional_Working.md) retains A54–A57 research. [B07 final](klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md) is still the latest completed regional batch.
+[B08 final release](klang-valley-2026-10-07/round-3/b08-final/Regional_Synthesis.md) closes the bounded public desk pass for A54-A61. Read [completion audit](klang-valley-2026-10-07/round-3/b08-final/Completion_Audit.md), [case integration](klang-valley-2026-10-07/round-3/b08-final/Cases_G0_G9.md), [financials](klang-valley-2026-10-07/round-3/b08-final/Financial_Underwriting.md), [verification](klang-valley-2026-10-07/round-3/b08-final/Verification_Report.md) and [continuation](klang-valley-2026-10-07/round-3/b08-final/RESUME_AND_COMPLETION.md). Twenty operating expressions retain G0 STOP/G9 Defer; eighteen prior inputs and twenty prior branches are preserved.306conditional evaluations,190syntheticpairpaths and135rent-gridcells are diagnostics, not cleared opportunities.
 
-B03–B07:36 bounded desk-complete catchments. B01/B02:17 enhanced catchments awaiting final substantive audit. B08:8 requiring final regional deepening/integration.25 of61 remain without final acceptance. Cross-region comparison, whole-programme portfolio stress and final audit remain. Zero Deploy; programme incomplete.
+B03-B08:44bounded desk-complete catchments. B01/B02:17enhanced catchments awaiting substantive final audit.17of61remain without final acceptance. Cross-region comparison, whole-programme portfolio stress and final audit remain. ZeroDeploy; programme incomplete.
 
 ## Latest user authority
 
@@ -18,7 +18,7 @@ Conversation Mandarin; Markdown/artifacts English. Work independently; the user 
 
 ## Next research
 
-Finish the finite public regional gaps in the Working02 checkpoint and A54–A57 Working01 synthesis. Prioritise dated competing supply, actual household/landed alternatives and micro-node routes. Do not repeat completed selected-project investigations or multiply generic Defer papers. New operating IDs start R360. Then consolidate the eight-catchment B08 final audit, complete B01/B02's17 substantive final audits, cross-region comparison, programme portfolio stress and final audit. Assess the map only after those are complete.
+Audit the17B01/B02catchments against the seven-dimension completion authority, using their existing enhanced syntheses, supply register, financial comparison and status overrides. Finish material public gaps only; do not repeat completed B08 research or multiply generic Defer papers. New operating IDs startR362. Then complete cross-region comparison, whole-programme stress and final requirement audit. Assess the map only after those are complete.
 
 Private parcel documents may remain explicit decision holds after a meaningful desk pass; unfinished public work must not be relabelled as inaccessible private evidence. Preserve every current/historical packet and manifest; later evidence belongs in a new release. Only current navigation/status registers advance.
 

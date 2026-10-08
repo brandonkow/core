@@ -1,0 +1,250 @@
+{
+  "version": "B08-FINAL-2026-10-08",
+  "date": "2026-10-08",
+  "queries": [
+    {
+      "call": 1,
+      "queries": [
+        "site.mudah.my \"Saujana Impian\" \"rent\" \"2026\"",
+        "site.mahsing.com.my \"Savanna\" \"completed\"",
+        "site.mudah.my \"Semenyih\" \"terraced\" \"1,300\"",
+        "site.ecoworld.my \"Semenyih\" \"Dudok\" \"SeDuduk\""
+      ],
+      "direct_urls": [],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 2,
+      "queries": [
+        "Saujana Impian Kajang terraced house rent 2026",
+        "Bandar Rinching Semenyih house rent 1300",
+        "dudok Eco Majestic Semenyih completed SeDuduk Huni",
+        "Savanna Executive Suite 956 sale rent 2026"
+      ],
+      "direct_urls": [],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 3,
+      "queries": [
+        "site.ecoworld.my \"Eco Majestic\" \"Riang\" \"completed\"",
+        "site.mahsing.com.my Southville \"Sensory\" \"2025\"",
+        "site.oskproperty.com.my \"Mirage By The Lake\" \"completed\"",
+        "site.sdb.com.my \"Dorsett\" \"Putrajaya\" \"completed\""
+      ],
+      "direct_urls": [
+        "https://www.iproperty.com.my/property/bangi/savanna-executive-suite-southville-city/rent-501860623/"
+      ],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 4,
+      "queries": [
+        "site.bph.gov.my Putrajaya kuarters kelayakan kerajaan permohonan",
+        "site.ioiproperties.com.my Putrajaya \"Clio\" \"completed\"",
+        "site.pr1ma.my \"Lakefront\" \"Cyberjaya\"",
+        "site.lbs.com.my \"Melodi\" \"Perdana\" \"completed\""
+      ],
+      "direct_urls": [
+        "https://ecoworld.my/ecomajestic/wp-content/uploads/2024/06/Riang-e-Brochure.pdf"
+      ],
+      "find_patterns": [
+        "RM ",
+        "956"
+      ],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 5,
+      "queries": [
+        "\"Riang-e-Brochure.pdf\" \"Completion\"",
+        "\"Riang\" \"999\" \"550\" Eco Majestic",
+        "Savanna Executive Suites 956 1400 2026 rent",
+        "Savanna Executive Suites 956 300000 2026 sale"
+      ],
+      "direct_urls": [],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 6,
+      "queries": [
+        "site.mahsing.com.my \"Sensory\" \"2024\" \"completed\"",
+        "site.sunsuria.com \"Bell Suites\" \"2020\" completed Olive",
+        "site.simedarbyproperty.com \"Serenia\" \"apartments\" \"2026\"",
+        "site.gamudaland.com.my \"Rawang\" \"Kundang\" \"2026\" apartment"
+      ],
+      "direct_urls": [],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 7,
+      "queries": [
+        "\"Sensory\" \"2024\" \"vacant possession\" Mah Sing",
+        "site.simedarbyproperty.com \"Elmina\" \"2026\" \"Mall\"",
+        "site.perdanapark.com.my \"Perdana Park\" \"Phase 3\"",
+        "site.sunsuria.com \"Tangerine Suites\" completion 2024"
+      ],
+      "direct_urls": [],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 8,
+      "queries": [
+        "site.mahsing.com.my \"Sensory\" \"handed\" \"2024\"",
+        "site.ijmland.com \"Rimbayu\" \"Amber\" 2025 completed",
+        "site.oskproperty.com.my \"Solstice\" \"450\"",
+        "site.mudah.my \"Savanna\" \"310,000\" \"956\" \"2026\""
+      ],
+      "direct_urls": [],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 9,
+      "queries": [],
+      "direct_urls": [
+        "https://www.propertyguru.com.my/apartment-condo-service-residence-for-sale/at-savanna-executive-suite-southville-city-5882",
+        "https://www.mudah.my/selangor-bangi/apartment-condominium-for-rent/savanna-executive-suite-southville-city",
+        "https://ecoworld.my/wp-content/uploads/2024/03/Financial-Results-EWM-1Q-2024.pdf",
+        "https://www.sunsuria.com/property/residential/tangerine-suites",
+        "https://www.mahsing.com.my/web/storage/Integrated-Annual-Report-2024-1.pdf"
+      ],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 10,
+      "queries": [
+        "\"Savanna\" \"330,000\" \"Fairus\" \"956\"",
+        "\"Savanna\" \"1500\" \"partial\" \"956\" \"2026\"",
+        "\"Amber\" \"Rimbayu\" \"vacant possession\" IJM",
+        "\"Sensory\" \"handed over\" \"Mah Sing\""
+      ],
+      "direct_urls": [],
+      "find_patterns": [
+        "Se.Ruang",
+        "202",
+        "1500"
+      ],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 11,
+      "queries": [
+        "site.mahsing.com.my \"M Sinar\" \"2024\"  \"Sensory\"",
+        "site.ijmland.com \"Amber\" \"Rimbayu\"",
+        "site.sunsuria.com \"Tangerine\" \"2023\" \"completed\"",
+        "\"Rawang\" \"Perdana Park\" \"rent\" \"850\" 2026"
+      ],
+      "direct_urls": [],
+      "find_patterns": [],
+      "followup_page_operations": 3,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 12,
+      "queries": [
+        "site.mahsing.com.my \"Sensory Residence\" \"completed\" \"2025\"",
+        "site.ijm.com \"Amber\" \"Rimbayu\"",
+        "site.spsetia.com \"Semenyih\" \"2026\" apartment"
+      ],
+      "direct_urls": [],
+      "find_patterns": [],
+      "followup_page_operations": 4,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 13,
+      "queries": [
+        "\"Amber\" \"IJM\" \"2026\" \"Rimbayu\" apartment",
+        "site.ioiproperties.com.my \"Clio 2\" \"completion\"",
+        "site.mct.com.my \"Lakefront\" \"completed\" Cyberjaya"
+      ],
+      "direct_urls": [],
+      "find_patterns": [
+        "1,500",
+        "Title"
+      ],
+      "followup_page_operations": 2,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 14,
+      "queries": [],
+      "direct_urls": [
+        "https://www.iproperty.com.my/property/bangi/savanna-executive-suite-southville-city/rent-501860623/",
+        "https://oskproperty.com.my/collection/",
+        "https://www.ioiproperties.com.my/ioi-resort-city/clio-residences"
+      ],
+      "find_patterns": [],
+      "followup_page_operations": 1,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 15,
+      "queries": [
+        "site.pr1ma.my \"Kajang\" \"completed\" \"Residensi\"",
+        "site.nexus.com.my Kajang completion",
+        "site.mahsing.com.my \"M Sinar\" \"2028\"",
+        "site.ijmland.com \"Rimbayu\" \"condominium\""
+      ],
+      "direct_urls": [
+        "https://www.bph.gov.my/portal/soalan-lazim-kuarters-penawaran/",
+        "https://www.avaland.com.my/all-projects"
+      ],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 16,
+      "queries": [
+        "\"Amber Residences\" \"Rimbayu\"",
+        "\"Riang\" \"550\" \"Eco Majestic\" \"Rumah\"",
+        "\"Saujana Impian\" \"landed\" \"2000\" rent 2026",
+        "\"Bandar Rinching\" \"1300\" \"rent\" \"2026\""
+      ],
+      "direct_urls": [],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    },
+    {
+      "call": 17,
+      "queries": [
+        "site.gamuda.com.my \"Amber\" \"2022\" completed",
+        "site.gamudaland.com.my \"Amber\" \"657\"",
+        "site.ecoworld.my \"Riang\" \"550\"",
+        "site.pr1ma.my \"Nexus Kajang\""
+      ],
+      "direct_urls": [],
+      "find_patterns": [],
+      "followup_page_operations": 0,
+      "note": "Curated observations and source limits are in Evidence.json; no full copyrighted result text reproduced."
+    }
+  ],
+  "failures_and_exclusions": [
+    "Several direct PDF/listing opens failed or redirected; indexed evidence is labelled and not promoted to full-page inspection.",
+    "Savanna search versus opened index dates conflict; no inferred trend.",
+    "Nexus original plans conflict with some4BR/1100sf ads; component/partition unresolved.",
+    "Dorsett hotel, commercial shoplot rents, auction reserves, operator rooms, villas and unverified generated-style narratives excluded from ordinary high-rise comparison.",
+    "Amber location tags initially misdirected an IJM search; corrected to Gamuda twentyfive.7.",
+    "No imagery, site visit, private transaction terms or achieved rent was independently inspected."
+  ]
+}

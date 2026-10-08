@@ -1,0 +1,1012 @@
+{
+  "version": "B08-FINAL-2026-10-08",
+  "source_commit": "b28805b0a8daf18479a3057525abc84d6dbe425e",
+  "scope": "A54-A61 bounded regional desk synthesis;18 unchanged prior cases plus two conditional alternatives. Completion audit separate from investment readiness.",
+  "new_cases": [
+    {
+      "batch": "B08",
+      "price_status": "Dated advertised consideration; availability, incentives and net terms unverified.",
+      "rent_status": "Whole-unit asks inform scenarios, not authenticated achieved rent.",
+      "fee_status": "Planning combined management/sinking proxy; actual bill and standard management-only component unverified.",
+      "cost_status": "Pre-tax analyst allowances, not quotations or complete parcel cost inventory.",
+      "unit_identity": "Original selected plan/title, bays, condition and restrictions not authenticated.",
+      "g0": "STOP: no defensible unit-matched effective clearing interval.",
+      "g9": "Defer",
+      "id": "R360",
+      "area_id": "A54",
+      "catchment": "Kajang–Saujana Impian–Bangi",
+      "name": "Savanna Executive Suites family",
+      "sqft": 956,
+      "layout": "3BR2BA",
+      "price": 350000,
+      "rent_assumed": 1500,
+      "rent_low": 1200,
+      "rent_high": 2300,
+      "fee_assumed": 260,
+      "other_assumed": 180,
+      "refurb_assumed": 15000,
+      "bays": 2,
+      "evidence": [
+        "F-E01",
+        "F-E02",
+        "F-E03",
+        "F-E04",
+        "F-E05"
+      ],
+      "match": "11July2026 C2 level20 owner-advertised350k, non-Bumi and two adjacent bays; four air-conditioners/water heaters but no full furniture inventory.1500 is a dated whole-unit index planning rent; its furnishing and selected-parcel match remain unverified.2300FF upper ask is another unit requiring separate fit-out allowance.",
+      "quarantine": "Sale refreshed availability unconfirmed.330k is Bumi-cohort;310k auction reserve not ordinary clearing. Student-ready claim does not confer institutional lease or compliant room conversion."
+    },
+    {
+      "batch": "B08",
+      "price_status": "Dated advertised consideration; availability, incentives and net terms unverified.",
+      "rent_status": "Whole-unit asks inform scenarios, not authenticated achieved rent.",
+      "fee_status": "Planning combined management/sinking proxy; actual bill and standard management-only component unverified.",
+      "cost_status": "Pre-tax analyst allowances, not quotations or complete parcel cost inventory.",
+      "unit_identity": "Original selected plan/title, bays, condition and restrictions not authenticated.",
+      "g0": "STOP: no defensible unit-matched effective clearing interval.",
+      "g9": "Defer",
+      "id": "R361",
+      "area_id": "A59",
+      "catchment": "Kota Kemuning–Rimbayu–Tropicana Aman–Eco Sanctuary",
+      "name": "Amber Residences compact two-bedroom",
+      "sqft": 657,
+      "layout": "2BR1BA",
+      "price": 430000,
+      "rent_assumed": 1700,
+      "rent_low": 1500,
+      "rent_high": 1900,
+      "fee_assumed": 240,
+      "other_assumed": 180,
+      "refurb_assumed": 25000,
+      "bays": 1,
+      "evidence": [
+        "F-E31",
+        "F-E32",
+        "F-E33",
+        "F-E34"
+      ],
+      "match": "20August2026 sale657sf PF one bay versus older indexed657sf FF1700 two bays.1700 is a favourable mismatched planning scenario, not a like-for-like achieved lease; low/high1500/1900 are sensitivities.",
+      "quarantine": "Gamuda twentyfive.7 component distinct from IJM Rimbayu despite listing location tags. Bay rights/extra cost, net terms and ordinary clearing unverified."
+    }
+  ],
+  "branches": [
+    {
+      "parent": "R351",
+      "label": "FF_1750_with_extra_fitout",
+      "overrides": {
+        "rent_assumed": 1750,
+        "refurb_assumed": 45000
+      },
+      "parameters": {},
+      "boundary": "Higher furnished ask is older with two bays; extra20k analyst allowance, no proof selected sale has bay rights or achieves this rent."
+    },
+    {
+      "parent": "R351",
+      "label": "higher_FF_360k_1750",
+      "overrides": {
+        "price": 360000,
+        "rent_assumed": 1750,
+        "refurb_assumed": 15000
+      },
+      "parameters": {},
+      "boundary": "Separate550sf furnished two-bay higher ask, not identical parcel or valuation ceiling."
+    },
+    {
+      "parent": "R352",
+      "label": "FF_1300_larger_proxy",
+      "overrides": {
+        "rent_assumed": 1300,
+        "refurb_assumed": 35000
+      },
+      "parameters": {},
+      "boundary": "897sf furnished rent applied only as optimistic sensitivity to860sf; no approved layout or achieved-rent validation."
+    },
+    {
+      "parent": "R352",
+      "label": "higher_bare_290k",
+      "overrides": {
+        "price": 290000
+      },
+      "parameters": {},
+      "boundary": "Separate March860sf bare two-bay sale with100%loan marketing; not normalised value."
+    },
+    {
+      "parent": "R353",
+      "label": "higher_ask_285k",
+      "overrides": {
+        "price": 285000
+      },
+      "parameters": {},
+      "boundary": "September913sf one-bay sale index, condition not established. Price sensitivity only."
+    },
+    {
+      "parent": "R353",
+      "label": "initial_vacancy3",
+      "overrides": {},
+      "parameters": {
+        "initial_vacancy": 3
+      },
+      "boundary": "Illustrative fit-out/letting delay, not a claimed November unit's actual vacancy history."
+    },
+    {
+      "parent": "R353",
+      "label": "extra_recurring100",
+      "overrides": {},
+      "parameters": {
+        "annual_extra_cost": 1200
+      },
+      "boundary": "Unquoted maintenance/tax/turnover-cost buffer can erase thin surplus; not an actual bill."
+    },
+    {
+      "parent": "R354",
+      "label": "earlier_470k_PF_no_bay",
+      "overrides": {
+        "price": 470000,
+        "refurb_assumed": 25000
+      },
+      "parameters": {},
+      "boundary": "July686sf partly furnished offer explicitly states no attached parking;1800rent scenario remains held."
+    },
+    {
+      "parent": "R354",
+      "label": "parking150_monthly",
+      "overrides": {},
+      "parameters": {
+        "annual_extra_cost": 1800
+      },
+      "boundary": "Illustrative landlord-funded parking cost. Neither monthly price nor availability authenticated; tenants might pay directly instead."
+    },
+    {
+      "parent": "R354",
+      "label": "lower_fee200",
+      "overrides": {
+        "fee_assumed": 200
+      },
+      "parameters": {},
+      "boundary": "Favourable analyst fee sensitivity, not an actual management quote or permission to reduce reserve."
+    },
+    {
+      "parent": "R355",
+      "label": "lower_index228k",
+      "overrides": {
+        "price": 228000
+      },
+      "parameters": {},
+      "boundary": "August450sfone-bayindex only; effective consideration and condition not authenticated."
+    },
+    {
+      "parent": "R355",
+      "label": "unmatched_project_floor193k",
+      "overrides": {
+        "price": 193000
+      },
+      "parameters": {},
+      "boundary": "Deliberately quarantined floor sensitivity; not authenticated450sf ordinary offer. Cannot rank as actionable."
+    },
+    {
+      "parent": "R355",
+      "label": "extra_recurring100_compact",
+      "overrides": {},
+      "parameters": {
+        "annual_extra_cost": 1200
+      },
+      "boundary": "Unquoted recurring buffer, not actual fee."
+    },
+    {
+      "parent": "R356",
+      "label": "restricted_bumi330k",
+      "overrides": {
+        "price": 330000
+      },
+      "parameters": {},
+      "boundary": "Different restricted parcel, buyer/release eligibility unverified; not generic bid."
+    },
+    {
+      "parent": "R356",
+      "label": "rent1700_extra_fitout",
+      "overrides": {
+        "rent_assumed": 1700,
+        "refurb_assumed": 40000
+      },
+      "parameters": {},
+      "boundary": "Optimistic rent index and additional15kfitoutallowance, no achieved rent."
+    },
+    {
+      "parent": "R357",
+      "label": "optimistic_fee200",
+      "overrides": {
+        "fee_assumed": 200
+      },
+      "parameters": {},
+      "boundary": "Analyst favourable fee override versus350agentclaim; not a bill or permission to underreserve."
+    },
+    {
+      "parent": "R357",
+      "label": "rent1400_fee200",
+      "overrides": {
+        "rent_assumed": 1400,
+        "fee_assumed": 200
+      },
+      "parameters": {},
+      "boundary": "Joint favourable assumptions; component/legal-use and actual costs remain held."
+    },
+    {
+      "parent": "R358",
+      "label": "rent2400_extra_fitout",
+      "overrides": {
+        "rent_assumed": 2400,
+        "refurb_assumed": 35000
+      },
+      "parameters": {},
+      "boundary": "Higher two-bay asking branch plus20kfitout; selected sale bays unknown and no achieved rent."
+    },
+    {
+      "parent": "R359",
+      "label": "quarantined_lelong_worded300k",
+      "overrides": {
+        "price": 300000,
+        "refurb_assumed": 15000
+      },
+      "parameters": {},
+      "boundary": "FFad says lelongprice and illustrative photos; ordinary-versus-auction mechanism/net terms unresolved."
+    },
+    {
+      "parent": "R359",
+      "label": "initial_vacancy3_family",
+      "overrides": {},
+      "parameters": {
+        "initial_vacancy": 3
+      },
+      "boundary": "Planningdelay; no actual vacancy history."
+    },
+    {
+      "parent": "R360",
+      "label": "restricted_Bumi330k_control",
+      "overrides": {
+        "price": 330000
+      },
+      "parameters": {},
+      "boundary": "Different Bumi-labelled listing and block; not an unrestricted executable offer or like-for-like discount."
+    },
+    {
+      "parent": "R360",
+      "label": "FF2300_extra25k",
+      "overrides": {
+        "rent_assumed": 2300,
+        "refurb_assumed": 40000
+      },
+      "parameters": {},
+      "boundary": "Upper FF two-bay asking control and extra25k planning fit-out. No achieved rent or capex quote."
+    },
+    {
+      "parent": "R360",
+      "label": "quarantined_auction310k",
+      "overrides": {
+        "price": 310000
+      },
+      "parameters": {},
+      "boundary": "August2026 past auction reserve, not ordinary offer, cleared price or auction profitability."
+    },
+    {
+      "parent": "R360",
+      "label": "initial_vacancy3",
+      "overrides": {},
+      "parameters": {
+        "initial_vacancy": 3
+      },
+      "boundary": "Planning occupancy delay, not observed tenancy outcome."
+    },
+    {
+      "parent": "R361",
+      "label": "extra_bay100",
+      "overrides": {
+        "other_assumed": 280
+      },
+      "parameters": {},
+      "boundary": "Hypothetical landlord100/month second-bay cost; actual availability and price unknown."
+    },
+    {
+      "parent": "R361",
+      "label": "fee_up50",
+      "overrides": {
+        "fee_assumed": 290
+      },
+      "parameters": {},
+      "boundary": "Planning bill uncertainty sensitivity; not a management quote."
+    }
+  ],
+  "status_overlays": {
+    "R237": "SOHO identity/use and G0 holds persist; investor-led exit is eligible. No owner-only prerequisite.",
+    "R238": "Current shortfall is lowest research priority, not permanent Reject. Effective full-loan offer and ordinary comparables unresolved.",
+    "KV14": "Original 450sf whole parcel, title/use, parking and actual lease held; no university allocation or GRR assigned.",
+    "R239": "Public employment does not allocate tenants. The preserved base has standard shortfall and negative annual carry; no guaranteed public-sector rent.",
+    "R240": "Aman1lower-capital family control and Parque compact included; regional township substitution/supply still needs integration.",
+    "R241": "685advertised2BRrequires1+1planreconciliation.565originalcompactcontrol added; historic mall not future catalyst.",
+    "R242": "New ordinary640380kindex narrows former660rentproxy; historical R242 remains unchanged. Affordable250k and646auction prices are distinct cohorts.",
+    "R247": "380klowerlead located only as projectrange, not verified731sf ordinary offer. Prior470kbase unchanged; no isolated price-floor conclusion.",
+    "R248": "Official559sf1+1and452sf1BRfamilies improve identity lead; historical550210kcase not silently relabelled. R355is new450sfconditional expression.",
+    "R360": {
+      "g0": "STOP: no defensible unit-matched effective clearing interval.",
+      "g9": "Defer",
+      "quarantine": "Sale refreshed availability unconfirmed.330k is Bumi-cohort;310k auction reserve not ordinary clearing. Student-ready claim does not confer institutional lease or compliant room conversion."
+    },
+    "R361": {
+      "g0": "STOP: no defensible unit-matched effective clearing interval.",
+      "g9": "Defer",
+      "quarantine": "Gamuda twentyfive.7 component distinct from IJM Rimbayu despite listing location tags. Bay rights/extra cost, net terms and ordinary clearing unverified."
+    }
+  },
+  "selected_pairs": [
+    [
+      "R237",
+      "R351"
+    ],
+    [
+      "R238",
+      "R352"
+    ],
+    [
+      "KV14",
+      "R353"
+    ],
+    [
+      "R239",
+      "R354"
+    ],
+    [
+      "R351",
+      "R353"
+    ],
+    [
+      "R353",
+      "R354"
+    ],
+    [
+      "R248",
+      "R355"
+    ],
+    [
+      "R355",
+      "R359"
+    ],
+    [
+      "R240",
+      "R356"
+    ],
+    [
+      "R241",
+      "R357"
+    ],
+    [
+      "R242",
+      "R358"
+    ],
+    [
+      "R237",
+      "R360"
+    ],
+    [
+      "R351",
+      "R360"
+    ],
+    [
+      "R356",
+      "R361"
+    ],
+    [
+      "R247",
+      "R361"
+    ]
+  ],
+  "forward_controls": [
+    {
+      "id": "B08-T01",
+      "area_id": "A60",
+      "name": "Kanopi Residences",
+      "price": 590888,
+      "alternate_price": 675888,
+      "sqft": 1000,
+      "fee_assumed": 350,
+      "other_assumed": 220,
+      "refurb_assumed": 30000,
+      "evidence": [
+        "W02-E31",
+        "W02-E32",
+        "W02-E33",
+        "W02-E34"
+      ],
+      "rent_assumed": null,
+      "status": "Forward only; no operating rent/cashflow allocated",
+      "timing": "Q32027press target versusNovember2028brochure expectation; selected SPA/CCC not authenticated",
+      "boundary": "Headline versus legal advertising range and449/499cohorts unresolved; thresholds are future stabilised requirements, not forecast rent."
+    }
+  ],
+  "inherited_cases": [
+    {
+      "id": "R237",
+      "area_id": "A54",
+      "batch": "B08",
+      "catchment": "Kajang–Saujana Impian–Bangi",
+      "name": "Evo SOHO Suite",
+      "sqft": 454,
+      "layout": "studio/SOHO marketed",
+      "price": 248000,
+      "rent_assumed": 1300,
+      "rent_low": 1200,
+      "rent_high": 1400,
+      "fee_assumed": 230,
+      "other_assumed": 160,
+      "refurb_assumed": 15000,
+      "retrievals": [
+        "027",
+        "065",
+        "108"
+      ],
+      "match": "454-sf furnished sale/rent; SOHO use and finance still unverified",
+      "thesis": "Bangi local commercial/institutional routines may support tenancy",
+      "decisive_risk": "Bangi is not a proxy for Kajang MRT or all university demand",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": "SOHO permitted use/financeability not verified; conditional arithmetic only",
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "R238",
+      "area_id": "A55",
+      "batch": "B08",
+      "catchment": "Semenyih",
+      "name": "D'Cerrum",
+      "sqft": 949,
+      "layout": "3BR",
+      "price": 250000,
+      "rent_assumed": 1000,
+      "rent_low": 900,
+      "rent_high": 1200,
+      "fee_assumed": 220,
+      "other_assumed": 160,
+      "refurb_assumed": 15000,
+      "retrievals": [
+        "028",
+        "068"
+      ],
+      "match": "250k advertisement carries full-loan marketing; 949-sf rent1000; rebate-heavy210/220k ad excluded",
+      "thesis": "Affordable family utility is plausible, but acquisition plus fees exceeds rent",
+      "decisive_risk": "Effective price, buyer restrictions and competing affordable/landed products",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "R239",
+      "area_id": "A57",
+      "batch": "B08",
+      "catchment": "Putrajaya",
+      "name": "Dwiputra Residences",
+      "sqft": 950,
+      "layout": "3BR",
+      "price": 520000,
+      "rent_assumed": 2300,
+      "rent_low": 2000,
+      "rent_high": 2600,
+      "fee_assumed": 300,
+      "other_assumed": 220,
+      "refurb_assumed": 25000,
+      "retrievals": [
+        "029",
+        "069"
+      ],
+      "match": "950-sf partly furnished sale versus furnished rental; two bays advertised",
+      "thesis": "Public-sector/local family routines may be durable yet rent budget constrained",
+      "decisive_risk": "Job proximity is not guaranteed tenant allocation or future ownership demand",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "R240",
+      "area_id": "A59",
+      "batch": "B08",
+      "catchment": "Kota Kemuning–Rimbayu–Tropicana Aman–Eco Sanctuary",
+      "name": "Geo Bukit Rimau",
+      "sqft": 875,
+      "layout": "3BR",
+      "price": 500000,
+      "rent_assumed": 1900,
+      "rent_low": 1700,
+      "rent_high": 2100,
+      "fee_assumed": 280,
+      "other_assumed": 200,
+      "refurb_assumed": 25000,
+      "retrievals": [
+        "031",
+        "070"
+      ],
+      "match": "Bare sale versus partly furnished rent; fit-out allowance required",
+      "thesis": "Compact family alternative within western townships must compete with landed utility",
+      "decisive_risk": "Bukit Rimau cannot stand in for Rimbayu/Tropicana Aman/Eco Sanctuary interchangeably",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "R241",
+      "area_id": "A60",
+      "batch": "B08",
+      "catchment": "Elmina",
+      "name": "Habitus Denai Alam",
+      "sqft": 685,
+      "layout": "2BR",
+      "price": 390000,
+      "rent_assumed": 1650,
+      "rent_low": 1500,
+      "rent_high": 1800,
+      "fee_assumed": 260,
+      "other_assumed": 180,
+      "refurb_assumed": 15000,
+      "retrievals": [
+        "032",
+        "071",
+        "095",
+        "112",
+        "119",
+        "077"
+      ],
+      "match": "685-sf furnished sale versus partly fitted rental; excludes451-sf SOVO from main case",
+      "thesis": "Elmina amenity maturity may support use but opening of a mall is already historical",
+      "decisive_risk": "Exact component and daily access; no unearned future mall-opening uplift",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "R242",
+      "area_id": "A61",
+      "batch": "B08",
+      "catchment": "Rawang–Gamuda Gardens–Kundang",
+      "name": "GAIA Residences",
+      "sqft": 660,
+      "layout": "2BR",
+      "price": 380000,
+      "rent_assumed": 1500,
+      "rent_low": 1300,
+      "rent_high": 1800,
+      "fee_assumed": 230,
+      "other_assumed": 180,
+      "refurb_assumed": 20000,
+      "retrievals": [
+        "109",
+        "113",
+        "033"
+      ],
+      "match": "660-sf ordinary ask separated from646-sf auction reserves; rent640-sf proxy",
+      "thesis": "Township compact ownership must win against local landed and larger rental alternatives",
+      "decisive_risk": "Advertised launch floor and mixed-size transfer median are not today's price floor",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "R247",
+      "area_id": "A59",
+      "batch": "B08",
+      "catchment": "Kota Kemuning–Rimbayu–Tropicana Aman–Eco Sanctuary",
+      "name": "The Parque Residences",
+      "sqft": 731,
+      "layout": "1BR",
+      "price": 470000,
+      "rent_assumed": 1500,
+      "rent_low": 1500,
+      "rent_high": 1900,
+      "fee_assumed": 300,
+      "other_assumed": 180,
+      "refurb_assumed": 20000,
+      "retrievals": [
+        "109",
+        "114",
+        "117"
+      ],
+      "match": "731-sf470k sale index;1500 furnished rent counterexample selected over1900",
+      "thesis": "Small household product tests a family-township narrative rather than inheriting it",
+      "decisive_risk": "Lower380k sale lead and inconsistent tenure/phase require resolution, not a universal discount",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "R248",
+      "area_id": "A58",
+      "batch": "B08",
+      "catchment": "Dengkil–Kota Warisan–Salak Tinggi",
+      "name": "Alanis Residence",
+      "sqft": 550,
+      "layout": "studio/1BR marketed",
+      "price": 210000,
+      "rent_assumed": 1200,
+      "rent_low": 1000,
+      "rent_high": 1300,
+      "fee_assumed": 200,
+      "other_assumed": 160,
+      "refurb_assumed": 20000,
+      "retrievals": [
+        "030",
+        "073",
+        "099",
+        "118",
+        "121"
+      ],
+      "match": "550-sf sale index;2026 one-bedroom1200 rent index;2025 two-bedroom ad excluded",
+      "thesis": "Airport-linked local housing may support normal tenancy separately from short stays",
+      "decisive_risk": "Original plan and whole-title identity must be reconciled before counting compact yield",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": "Original studio/1BR parcel and indexed sale/rent identity still need reconciliation",
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "KV14",
+      "batch": "B08",
+      "catchment": "Cyberjaya",
+      "name": "Solstice @ Pan'gaea",
+      "sqft": 450,
+      "layout": "1BR/1BA marketed; plan pending",
+      "price": 200000,
+      "rent_assumed": 1200,
+      "fee_assumed": 180,
+      "other_assumed": 150,
+      "refurb_assumed": 15000,
+      "rent_low": 1000,
+      "rent_high": 1300,
+      "bays": null,
+      "match": "Furnished sale; whole-unit rent; parcel use and parking must be established",
+      "price_source": "E40",
+      "rent_source": "E41",
+      "diagnostic_source": "E42",
+      "selection_reason": "Low-capital ordinary-income counterexample; tenant depth versus narrower owner exit",
+      "price_status": "advertised consideration; not agreed or verified effective price",
+      "rent_status": "scenario informed by asking rents; not achieved rent",
+      "fee_status": "unverified combined management/sinking proxy; management-only standard unverified",
+      "cost_status": "illustrative allowance; actual quote and taxes pending",
+      "g0": "STOP: matched effective clearing interval unvalidated",
+      "g9": "Defer"
+    },
+    {
+      "id": "R351",
+      "area_id": "A54",
+      "batch": "B08",
+      "catchment": "Kajang–Saujana Impian–Bangi",
+      "name": "MKH Boulevard II",
+      "sqft": 550,
+      "layout": "1BR/2BA marketed",
+      "price": 270000,
+      "rent_assumed": 1500,
+      "rent_low": 1400,
+      "rent_high": 1750,
+      "fee_assumed": 200,
+      "other_assumed": 160,
+      "refurb_assumed": 25000,
+      "bays": null,
+      "evidence": [
+        "W01-E01",
+        "W01-E02",
+        "W01-E03",
+        "W01-E07"
+      ],
+      "match": "Bare 550sf sale versus separate 550sf PF rent; 1750 FF two-bay ask needs additional fit-out/rights. 549sf recorded transfer is contextual, not same parcel.",
+      "quarantine": "Original plan and bay rights held; 2017 brochure layouts conflict with current marketed cohort. Do not count 550sf student-style two-room listing as approved two-bedroom.",
+      "price_status": "Advertised amount, not authenticated net consideration or current executable offer.",
+      "rent_status": "Conditional ordinary whole-unit rent informed by asking evidence; not signed or collected income.",
+      "fee_status": "Unverified combined management/sinking allowance, not authenticated management-only standard charge.",
+      "cost_status": "Analyst planning allowances, pre-tax; actual cost inventory and quotes pending.",
+      "unit_identity": "Exact parcel, approved plan, title, usable bays, tenure restrictions and inventory not authenticated.",
+      "g0": "STOP: no unit-matched normalised clearing interval or authenticated net terms.",
+      "g9": "Defer"
+    },
+    {
+      "id": "R352",
+      "area_id": "A55",
+      "batch": "B08",
+      "catchment": "Semenyih",
+      "name": "Ascotte Boulevard",
+      "sqft": 860,
+      "layout": "3BR/2BA marketed",
+      "price": 218000,
+      "rent_assumed": 900,
+      "rent_low": 800,
+      "rent_high": 1000,
+      "fee_assumed": 220,
+      "other_assumed": 160,
+      "refurb_assumed": 15000,
+      "bays": 2,
+      "evidence": [
+        "W01-E09",
+        "W01-E10",
+        "W01-E11"
+      ],
+      "match": "April 860sf bare sale advertises two bays/full-loan; May 860sf PF rent index claims two bays. Same size does not establish same condition/parcel; fit-out allowance unquoted.",
+      "quarantine": "Old asks and full-loan marketing need effective-consideration/current-availability resolution; higher rent for 897sf FF is a separate proxy branch.",
+      "price_status": "Advertised amount, not authenticated net consideration or current executable offer.",
+      "rent_status": "Conditional ordinary whole-unit rent informed by asking evidence; not signed or collected income.",
+      "fee_status": "Unverified combined management/sinking allowance, not authenticated management-only standard charge.",
+      "cost_status": "Analyst planning allowances, pre-tax; actual cost inventory and quotes pending.",
+      "unit_identity": "Exact parcel, approved plan, title, usable bays, tenure restrictions and inventory not authenticated.",
+      "g0": "STOP: no unit-matched normalised clearing interval or authenticated net terms.",
+      "g9": "Defer"
+    },
+    {
+      "id": "R353",
+      "area_id": "A56",
+      "batch": "B08",
+      "catchment": "Cyberjaya",
+      "name": "The Arc",
+      "sqft": 913,
+      "layout": "3BR/2BA marketed",
+      "price": 220000,
+      "rent_assumed": 1500,
+      "rent_low": 1400,
+      "rent_high": 1700,
+      "fee_assumed": 250,
+      "other_assumed": 180,
+      "refurb_assumed": 25000,
+      "bays": 1,
+      "evidence": [
+        "W01-E16",
+        "W01-E17",
+        "W01-E18",
+        "W01-E22"
+      ],
+      "match": "913sf PF sale versus Block C 913sf FF rent offered for November 2026 intake and minimum one year. Price packages unverified; 950sf upper rent is not same-size corroboration.",
+      "quarantine": "Offer includes cash/loan/cashback conditions; title/assignment/GRR residue, inventory and selected-parcel ordinary leasing rights unresolved. No historic guaranteed yield used.",
+      "price_status": "Advertised amount, not authenticated net consideration or current executable offer.",
+      "rent_status": "Conditional ordinary whole-unit rent informed by asking evidence; not signed or collected income.",
+      "fee_status": "Unverified combined management/sinking allowance, not authenticated management-only standard charge.",
+      "cost_status": "Analyst planning allowances, pre-tax; actual cost inventory and quotes pending.",
+      "unit_identity": "Exact parcel, approved plan, title, usable bays, tenure restrictions and inventory not authenticated.",
+      "g0": "STOP: no unit-matched normalised clearing interval or authenticated net terms.",
+      "g9": "Defer"
+    },
+    {
+      "id": "R354",
+      "area_id": "A57",
+      "batch": "B08",
+      "catchment": "Putrajaya",
+      "name": "Shaftsbury Putrajaya",
+      "sqft": 686,
+      "layout": "2BR/1BA marketed; original plan held",
+      "price": 368000,
+      "rent_assumed": 1800,
+      "rent_low": 1600,
+      "rent_high": 2000,
+      "fee_assumed": 300,
+      "other_assumed": 180,
+      "refurb_assumed": 15000,
+      "bays": null,
+      "evidence": [
+        "W01-E24",
+        "W01-E25",
+        "W01-E26",
+        "W01-E27",
+        "W01-E30"
+      ],
+      "match": "Selected lower September 368k FF offer; separate March FF rent has 2000 header/1800 body, so 1800 used. Earlier 470k PF/no-bay offer retained as adverse price control.",
+      "quarantine": "Original plan, component, parking rights/cost and access eligibility held. Portal room labels differ; official university shuttle only provider-contracted Tower A HWUM floors, not all owners.",
+      "price_status": "Advertised amount, not authenticated net consideration or current executable offer.",
+      "rent_status": "Conditional ordinary whole-unit rent informed by asking evidence; not signed or collected income.",
+      "fee_status": "Unverified combined management/sinking allowance, not authenticated management-only standard charge.",
+      "cost_status": "Analyst planning allowances, pre-tax; actual cost inventory and quotes pending.",
+      "unit_identity": "Exact parcel, approved plan, title, usable bays, tenure restrictions and inventory not authenticated.",
+      "g0": "STOP: no unit-matched normalised clearing interval or authenticated net terms.",
+      "g9": "Defer"
+    },
+    {
+      "batch": "B08",
+      "price_status": "Conditional advertised consideration; current availability, net incentives and actual purchase terms unverified.",
+      "rent_status": "Ordinary whole-unit asking evidence informs scenarios; no signed lease or rent collection authenticated.",
+      "fee_status": "Unverified combined management/sinking planning proxy unless noted; management-only standard bill not authenticated.",
+      "cost_status": "Analyst pre-tax allowances, not quotes; complete selected-parcel cost inventory still required.",
+      "unit_identity": "Selected title, approved plan, bays, condition, restrictions and inventory not authenticated.",
+      "g0": "STOP: no defensible unit-matched effective clearing interval.",
+      "g9": "Defer",
+      "id": "R355",
+      "area_id": "A58",
+      "catchment": "Dengkil–Kota Warisan–Salak Tinggi",
+      "name": "Alanis Residence compact",
+      "sqft": 450,
+      "layout": "studio/1BR1BA marketed; official452sf family",
+      "price": 249000,
+      "rent_assumed": 1200,
+      "rent_low": 1000,
+      "rent_high": 1400,
+      "fee_assumed": 180,
+      "other_assumed": 150,
+      "refurb_assumed": 20000,
+      "bays": 1,
+      "evidence": [
+        "W02-E01",
+        "W02-E02",
+        "W02-E03",
+        "W02-E04",
+        "W02-E05",
+        "W02-E06",
+        "W02-E11"
+      ],
+      "match": "450sfpartly furnished sale versus450sffully furnished rent,onebayclaimedboth. Official452sf1BRfamily narrows but does not authenticate parcel; separate550sfR248 retained unchanged.",
+      "quarantine": "Full-loan/net-price and PF/FF inconsistency, original plan/whole-title and bay rights held;193kproject floor is not authenticated offer."
+    },
+    {
+      "batch": "B08",
+      "price_status": "Conditional advertised consideration; current availability, net incentives and actual purchase terms unverified.",
+      "rent_status": "Ordinary whole-unit asking evidence informs scenarios; no signed lease or rent collection authenticated.",
+      "fee_status": "Unverified combined management/sinking planning proxy unless noted; management-only standard bill not authenticated.",
+      "cost_status": "Analyst pre-tax allowances, not quotes; complete selected-parcel cost inventory still required.",
+      "unit_identity": "Selected title, approved plan, bays, condition, restrictions and inventory not authenticated.",
+      "g0": "STOP: no defensible unit-matched effective clearing interval.",
+      "g9": "Defer",
+      "id": "R356",
+      "area_id": "A59",
+      "catchment": "Kota Kemuning–Rimbayu–Tropicana Aman–Eco Sanctuary",
+      "name": "Aman 1 Tropicana Urban Homes",
+      "sqft": 870,
+      "layout": "2+1BR official family; marketed3BR2BA",
+      "price": 338000,
+      "rent_assumed": 1500,
+      "rent_low": 1300,
+      "rent_high": 1700,
+      "fee_assumed": 250,
+      "other_assumed": 180,
+      "refurb_assumed": 25000,
+      "bays": 2,
+      "evidence": [
+        "W02-E16",
+        "W02-E17",
+        "W02-E18",
+        "W02-E19",
+        "W02-E20",
+        "W02-E21"
+      ],
+      "match": "Selected338kleaseholdnon-BumiPFclaim versus separate1500FF870sftwobayask.330kBumicontrolexcludedfromgeneralbase.",
+      "quarantine": "870sfthirdroom usability/approved plan; non-Bumi claim, consent and remaining tenure; selected fee/inventory and current price held."
+    },
+    {
+      "batch": "B08",
+      "price_status": "Conditional advertised consideration; current availability, net incentives and actual purchase terms unverified.",
+      "rent_status": "Ordinary whole-unit asking evidence informs scenarios; no signed lease or rent collection authenticated.",
+      "fee_status": "350/monthsource-reported maintenance, unverified bill/inclusions; lower200proxy appears only as optimistic branch.",
+      "cost_status": "Analyst pre-tax allowances, not quotes; complete selected-parcel cost inventory still required.",
+      "unit_identity": "Selected title, approved plan, bays, condition, restrictions and inventory not authenticated.",
+      "g0": "STOP: no defensible unit-matched effective clearing interval.",
+      "g9": "Defer",
+      "id": "R357",
+      "area_id": "A60",
+      "catchment": "Elmina",
+      "name": "Habitus Denai Alam original compact control",
+      "sqft": 565,
+      "layout": "TypeA1studio/1BR1BA marketed; component held",
+      "price": 360000,
+      "rent_assumed": 1300,
+      "rent_low": 1200,
+      "rent_high": 1400,
+      "fee_assumed": 350,
+      "other_assumed": 170,
+      "refurb_assumed": 20000,
+      "bays": 2,
+      "evidence": [
+        "W02-E25",
+        "W02-E26",
+        "W02-E27",
+        "W02-E28",
+        "W02-E29",
+        "W02-E30",
+        "W02-E45"
+      ],
+      "match": "565sfstudio sale;1300older565sf1BRPFindex.1200two-roomad is a mismatched lower stress,1400one-bedroomtwo-bayindex upper control.",
+      "quarantine": "Serviced-residence versus SOVO component, original room configuration, fee inclusions, selected furnishing and legal use remain held."
+    },
+    {
+      "batch": "B08",
+      "price_status": "Conditional advertised consideration; current availability, net incentives and actual purchase terms unverified.",
+      "rent_status": "Ordinary whole-unit asking evidence informs scenarios; no signed lease or rent collection authenticated.",
+      "fee_status": "Unverified combined management/sinking planning proxy unless noted; management-only standard bill not authenticated.",
+      "cost_status": "Analyst pre-tax allowances, not quotes; complete selected-parcel cost inventory still required.",
+      "unit_identity": "Selected title, approved plan, bays, condition, restrictions and inventory not authenticated.",
+      "g0": "STOP: no defensible unit-matched effective clearing interval.",
+      "g9": "Defer",
+      "id": "R358",
+      "area_id": "A61",
+      "catchment": "Rawang–Gamuda Gardens–Kundang",
+      "name": "GAIA Residences larger family control",
+      "sqft": 750,
+      "layout": "2+1BR2BA official family; marketed3BR rent",
+      "price": 500000,
+      "rent_assumed": 1700,
+      "rent_low": 1500,
+      "rent_high": 2400,
+      "fee_assumed": 280,
+      "other_assumed": 180,
+      "refurb_assumed": 15000,
+      "bays": null,
+      "evidence": [
+        "W02-E36",
+        "W02-E37",
+        "W02-E38",
+        "W02-E39",
+        "W02-E40",
+        "W02-E41",
+        "W02-E42"
+      ],
+      "match": "750sfPF500ksale versus750sfPF1700rent.2400two-bayrenthascondition/rights differences;550/640/646records are different cohorts.",
+      "quarantine": "Approved2+1versus3BR, bay rights, title restrictions and effective ordinary sale unresolved; affordable250kandauction202knotnormalisedcomps."
+    },
+    {
+      "batch": "B08",
+      "price_status": "Conditional advertised consideration; current availability, net incentives and actual purchase terms unverified.",
+      "rent_status": "Ordinary whole-unit asking evidence informs scenarios; no signed lease or rent collection authenticated.",
+      "fee_status": "Unverified combined management/sinking planning proxy unless noted; management-only standard bill not authenticated.",
+      "cost_status": "Analyst pre-tax allowances, not quotes; complete selected-parcel cost inventory still required.",
+      "unit_identity": "Selected title, approved plan, bays, condition, restrictions and inventory not authenticated.",
+      "g0": "STOP: no defensible unit-matched effective clearing interval.",
+      "g9": "Defer",
+      "id": "R359",
+      "area_id": "A58",
+      "catchment": "Dengkil–Kota Warisan–Salak Tinggi",
+      "name": "Alanis Residence family control",
+      "sqft": 807,
+      "layout": "3BR2BA marketed and official family",
+      "price": 365000,
+      "rent_assumed": 1600,
+      "rent_low": 1400,
+      "rent_high": 1800,
+      "fee_assumed": 280,
+      "other_assumed": 180,
+      "refurb_assumed": 25000,
+      "bays": null,
+      "evidence": [
+        "W02-E01",
+        "W02-E07",
+        "W02-E08",
+        "W02-E09",
+        "W02-E10",
+        "W02-E11"
+      ],
+      "match": "Older365knet/PF807sf full-loan lead versus newer1600FF807sfindex.1800olderFFtwo-bayrenthas8107bodytypo. Selected sale bays unknown.",
+      "quarantine": "Net consideration/current offer, fit-out and bay rights held;300kFFlelong-worded offer is price-only quarantined control, not ordinary valuation anchor."
+    }
+  ]
+}
