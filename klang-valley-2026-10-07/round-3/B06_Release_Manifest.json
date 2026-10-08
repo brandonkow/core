@@ -1,0 +1,88 @@
+{
+  "release": "B06-DESK-01",
+  "cutoff": "2026-10-07",
+  "source_commit": "dfa0109021892c7e01621e34454be3ebc0c6c157",
+  "master_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "boundary": "A41-A45 bounded desk-complete Defer. Full programme incomplete; no Deploy. Public evidence and conditional financial calculations, not authenticated unit due diligence or market outcomes.",
+  "files": [
+    {
+      "path": "B06_Regional_Synthesis.md",
+      "sha": "b40b5b0b7feb66e69c4e9f80d8df84923d8806ae",
+      "sha256": "15f3503d21ff54c6518b1443c3f9e523fac7a485aefe9438611774979e836863",
+      "bytes": 16714
+    },
+    {
+      "path": "B06_Cases_G0_G9.md",
+      "sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "sha256": "558ed8f92214ed9d9bfaa676f1d8e2881a5f9a1ca1b4418a76698f6b09405b2f",
+      "bytes": 25980
+    },
+    {
+      "path": "B06_Financial_Underwriting.md",
+      "sha": "ee3dcb74381771d802cf793fad0e6d7a6c25df2e",
+      "sha256": "7255d8ead31da90541a86c889808fdd7074c5e3cfa57e02a2a280ccc492de739",
+      "bytes": 11240
+    },
+    {
+      "path": "B06_Evidence_and_Supply.md",
+      "sha": "ccf569785ed07efe7549ff19ab5fe1a75031e4ec",
+      "sha256": "e482d69fa09459f2fe433cf845ce4e8b47162536b62cf95153428ed0399b703b",
+      "bytes": 12348
+    },
+    {
+      "path": "B06_Divergence_and_Misses.md",
+      "sha": "072ea51531cec1d5b79fb092f3c7c5c48611f37f",
+      "sha256": "72f86acde0c8354ea6bbf6bea8e988ff143d9d922f16d815634e2fd3b6fbc2a1",
+      "bytes": 10285
+    },
+    {
+      "path": "B06_Completion_Audit.md",
+      "sha": "be965823a828a661d75347f35c38b4d58f6e7fd0",
+      "sha256": "95bfd2cbd060317eda6636a1398cbad2361997871da912787e26f6d6ab78d3e4",
+      "bytes": 6489
+    },
+    {
+      "path": "B06_FINAL_RESUME_CHECKPOINT.md",
+      "sha": "cd0dad55313ee8efcd1771bc5fd0f7fda73c9b3b",
+      "sha256": "034ddb18c38010e2f9f8295ee8ee2e261dc2a0100f6b2cce823d2a6739de098f",
+      "bytes": 4662
+    },
+    {
+      "path": "B06_Search_Log.json",
+      "sha": "57b21faeb64447514070bd5d76ac1ff13113df6b",
+      "sha256": "b93c44b0d23a6291723e692cf0c25d53a1d26febd8385f747a3b6f9ee587c6d9",
+      "bytes": 17414
+    },
+    {
+      "path": "B06_Case_Inputs.json",
+      "sha": "193e4851499f974e371fafc7224bf5cbc4a3a086",
+      "sha256": "6905d9c2ec17868080daf56986f24e890207e7beea5030b25e0e213d35fd60a6",
+      "bytes": 22535
+    },
+    {
+      "path": "B06_Evidence_Register.json",
+      "sha": "4e6d90fc8986f41f62cf13b6b95a2b159fde1034",
+      "sha256": "5def527f8d2999dc11fea6bef33905170ac80e44e11616ed3f261a150a903354",
+      "bytes": 20452
+    },
+    {
+      "path": "b06_financial_model.py",
+      "sha": "f3339b146ffadcd2c1e4faa14cc91e64ae521b49",
+      "sha256": "094e60009c9854b89e91ceeab769a482d273cd4d65874916b786ba51586b2d06",
+      "bytes": 5301
+    },
+    {
+      "path": "verify_b06_desk_01.py",
+      "sha": "71ae5b41c6b2c3d4694811cb77b80465c251c1b7",
+      "sha256": "a8990b75d479f53e992b450b7d6562bd6d23f03b05e67a39c34c6d48962575e2",
+      "bytes": 3446
+    },
+    {
+      "path": "B06_Financial_Results.json",
+      "sha": "56077b56233e9a0e1a0d104660f3cd6249dd66c6",
+      "sha256": "6628292776b38db78f7e0699ce9f881d3f92ecf9138a13e84d27048461f77f60",
+      "bytes": 4047675
+    }
+  ],
+  "exclusions": "This manifest and the release audit receipt do not self-hash. Current navigation registers may advance; research files remain immutable."
+}

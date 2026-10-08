@@ -1,0 +1,545 @@
+{
+  "version": "B06-DESK-01",
+  "cutoff": "2026-10-07",
+  "source_commit": "dfa0109021892c7e01621e34454be3ebc0c6c157",
+  "status": "Bounded desk-complete Defer; no decision-ready purchase",
+  "inherited_cases": [
+    {
+      "id": "KV12",
+      "batch": "B06",
+      "catchment": "Setapak–Wangsa Maju–Danau Kota",
+      "name": "Platinum Lake PV21",
+      "sqft": 900,
+      "layout": "2BR/2BA",
+      "price": 310000,
+      "rent_assumed": 1600,
+      "fee_assumed": 250,
+      "other_assumed": 180,
+      "refurb_assumed": 20000,
+      "rent_low": 1500,
+      "rent_high": 2000,
+      "bays": 2,
+      "match": "Sale header and RM310k body conflict with 'for rent' wording; numerical diagnostic only",
+      "price_source": "E34",
+      "rent_source": "E35",
+      "diagnostic_source": "E36",
+      "selection_reason": "Low entry-quantum hypothesis; original two bedrooms, no partition-income underwriting",
+      "price_status": "advertised consideration; not agreed or verified effective price",
+      "rent_status": "scenario informed by asking rents; not achieved rent",
+      "fee_status": "unverified combined management/sinking proxy; management-only standard unverified",
+      "cost_status": "illustrative allowance; actual quote and taxes pending",
+      "g0": "STOP: matched effective clearing interval unvalidated",
+      "g9": "Defer",
+      "origin": "klang-valley-2026-10-07/Case_Inputs.json",
+      "inputs_refreshed": false
+    },
+    {
+      "id": "R226",
+      "area_id": "A42",
+      "batch": "B06",
+      "catchment": "Gombak",
+      "name": "Urban 360",
+      "sqft": 511,
+      "layout": "studio",
+      "price": 250000,
+      "rent_assumed": 1450,
+      "rent_low": 1300,
+      "rent_high": 1500,
+      "fee_assumed": 220,
+      "other_assumed": 150,
+      "refurb_assumed": 15000,
+      "retrievals": [
+        "066",
+        "086"
+      ],
+      "match": "Sale header 240k/body 250k; use higher diagnostic value without resolving consideration",
+      "thesis": "Local worker compact demand is plausible, independent of 222 Residency elsewhere",
+      "decisive_risk": "Conflicting consideration and verified original parcel; no claimed discount",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": "Conflicting effective sale price; higher header/body scenario does not cure G0",
+      "unit_identity": "Tower/floor/unit/title/plan not obtained",
+      "origin": "klang-valley-2026-10-07/round-2/Case_Inputs.json",
+      "inputs_refreshed": false
+    },
+    {
+      "id": "R227",
+      "area_id": "A43",
+      "batch": "B06",
+      "catchment": "Melawati–Ukay",
+      "name": "Saville Melawati",
+      "sqft": 1007,
+      "layout": "3BR",
+      "price": 450000,
+      "rent_assumed": 2100,
+      "rent_low": 1900,
+      "rent_high": 2200,
+      "fee_assumed": 300,
+      "other_assumed": 200,
+      "refurb_assumed": 20000,
+      "retrievals": [
+        "017",
+        "056"
+      ],
+      "match": "1007-sf sale versus 980-sf 2200 furnished rent; 2100 analyst allowance, no measured adjustment",
+      "thesis": "Family routines may support usage demand beyond central-city commuting",
+      "decisive_risk": "Ukay/Melawati micro-access, hillside/road exposure and future-station mislabelling",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained",
+      "origin": "klang-valley-2026-10-07/round-2/Case_Inputs.json",
+      "inputs_refreshed": false
+    },
+    {
+      "id": "R228",
+      "area_id": "A44",
+      "batch": "B06",
+      "catchment": "Batu Caves–Selayang",
+      "name": "Amara",
+      "sqft": 1051,
+      "layout": "3BR",
+      "price": 390000,
+      "rent_assumed": 1500,
+      "rent_low": 1400,
+      "rent_high": 1700,
+      "fee_assumed": 300,
+      "other_assumed": 200,
+      "refurb_assumed": 15000,
+      "retrievals": [
+        "018"
+      ],
+      "match": "1051-sf furnished sale versus 1012-sf partly furnished rent; condition does not match",
+      "thesis": "Local family affordability is a use thesis; low PSF alone is insufficient",
+      "decisive_risk": "Management, exact access and low achievable rent versus acquisition",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained",
+      "origin": "klang-valley-2026-10-07/round-2/Case_Inputs.json",
+      "inputs_refreshed": false
+    },
+    {
+      "id": "R229",
+      "area_id": "A45",
+      "batch": "B06",
+      "catchment": "Sungai Buloh–Kwasa",
+      "name": "D'Sara Sentral",
+      "sqft": 504,
+      "layout": "studio/SOVO marketed",
+      "price": 350000,
+      "rent_assumed": 1500,
+      "rent_low": 1200,
+      "rent_high": 1700,
+      "fee_assumed": 250,
+      "other_assumed": 180,
+      "refurb_assumed": 15000,
+      "retrievals": [
+        "019",
+        "058"
+      ],
+      "match": "504-sf price; rent scenario bounded by asks; SOVO component unresolved",
+      "thesis": "Operational rail proximity may support use but cannot settle permitted residential use",
+      "decisive_risk": "Title/component and lender eligibility before residential ranking",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": "SOVO versus residential component unresolved",
+      "unit_identity": "Tower/floor/unit/title/plan not obtained",
+      "origin": "klang-valley-2026-10-07/round-2/Case_Inputs.json",
+      "inputs_refreshed": false
+    },
+    {
+      "id": "R250",
+      "area_id": "A41",
+      "batch": "B06",
+      "catchment": "Setapak–Wangsa Maju–Danau Kota",
+      "name": "222 Residency",
+      "sqft": 999,
+      "layout": "2+1 marketed",
+      "price": 430000,
+      "rent_assumed": 1800,
+      "rent_low": 1600,
+      "rent_high": 2000,
+      "fee_assumed": 315,
+      "other_assumed": 200,
+      "refurb_assumed": 20000,
+      "retrievals": [
+        "016"
+      ],
+      "match": "999-sf430k sale and1800 partly furnished rent;advertiser314.70 fee used only as rounded proxy",
+      "thesis": "Mature Setapak household utility tests PV21's unresolved consideration",
+      "decisive_risk": "Off Jalan Gombak does not make this a Sri Gombak case; verify governance and study layout",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained",
+      "origin": "klang-valley-2026-10-07/round-2/Case_Inputs.json",
+      "inputs_refreshed": false
+    }
+  ],
+  "working_01_cases": [
+    {
+      "id": "R330",
+      "area_id": "A41",
+      "batch": "B06",
+      "name": "Wangsa Metroview 1150-sf marketed three-bedroom",
+      "sqft": 1150,
+      "layout": "3BR/2BA; two bays claimed",
+      "price": 350000,
+      "rent_assumed": 1500,
+      "rent_low": 1450,
+      "rent_high": 1800,
+      "fee_assumed": 250,
+      "other_assumed": 200,
+      "refurb_assumed": 25000,
+      "sale_source": "B06-E01",
+      "rent_sources": [
+        "B06-E02"
+      ],
+      "match": "31 Aug 2026 partly furnished sale; rent index contains 1150/1155-sf and one-bay alternatives. No automatic two-bay premium. Search/open snapshots of the same rent URL differ in dates.",
+      "g0": "STOP",
+      "g9": "Defer",
+      "price_status": "Advertisement, not authenticated consideration or available offer",
+      "rent_status": "Conditional whole-unit hypothesis, not achieved rent",
+      "fee_status": "Analyst combined service/sinking proxy; no invoice obtained",
+      "cost_status": "Planning allowances; pre-tax, actual duties/credit costs/works unquoted",
+      "unit_status": "Text-only source review; no physical or image inspection",
+      "release_status": "B06 working packet 01; not regional desk completion"
+    },
+    {
+      "id": "R331",
+      "area_id": "A43",
+      "batch": "B06",
+      "name": "The Ridge KL East 651-sf partly furnished compact",
+      "sqft": 651,
+      "layout": "1+1 marketed; studio header; approved plan unknown",
+      "price": 450000,
+      "rent_assumed": 2100,
+      "rent_low": 2000,
+      "rent_high": 2400,
+      "fee_assumed": 300,
+      "other_assumed": 180,
+      "refurb_assumed": 15000,
+      "sale_source": "B06-E03",
+      "rent_sources": [
+        "B06-E04",
+        "B06-E05"
+      ],
+      "match": "11 Sep sale partly furnished, one bay. RM2100 partly furnished index is historical; RM2400 fully furnished ads are a different condition and one is available only in December. Upgrade branch carries additional works; no live matched lease.",
+      "g0": "STOP",
+      "g9": "Defer",
+      "price_status": "Advertisement, not authenticated consideration or available offer",
+      "rent_status": "Conditional whole-unit hypothesis, not achieved rent",
+      "fee_status": "Analyst combined service/sinking proxy; no invoice obtained",
+      "cost_status": "Planning allowances; pre-tax, actual duties/credit costs/works unquoted",
+      "unit_status": "Text-only source review; no physical or image inspection",
+      "release_status": "B06 working packet 01; not regional desk completion"
+    },
+    {
+      "id": "R332",
+      "area_id": "A45",
+      "batch": "B06",
+      "name": "D'Sara Sentral 805-sf marketed two-bedroom voluntary sale",
+      "sqft": 805,
+      "layout": "2BR/1BA; tower and approved parcel unknown",
+      "price": 410000,
+      "rent_assumed": 1700,
+      "rent_low": 1600,
+      "rent_high": 2000,
+      "fee_assumed": 310,
+      "other_assumed": 180,
+      "refurb_assumed": 15000,
+      "sale_source": "B06-E06",
+      "rent_sources": [
+        "B06-E07",
+        "B06-E08"
+      ],
+      "match": "2 Oct fully furnished sale. 4 Oct 809-sf partly furnished rent header1800/body1700; lower scenario is a stress convention, not resolution. Ordinary rent2000 index is unverified. No premium for advertised renovation.",
+      "g0": "STOP",
+      "g9": "Defer",
+      "price_status": "Advertisement, not authenticated consideration or available offer",
+      "rent_status": "Conditional whole-unit hypothesis, not achieved rent",
+      "fee_status": "Analyst combined service/sinking proxy; no invoice obtained",
+      "cost_status": "Planning allowances; pre-tax, actual duties/credit costs/works unquoted",
+      "unit_status": "Text-only source review; no physical or image inspection",
+      "release_status": "B06 working packet 01; not regional desk completion"
+    }
+  ],
+  "new_cases": [
+    {
+      "id": "R333",
+      "area_id": "A42",
+      "batch": "B06",
+      "name": "Urban 360 1001-sf family control",
+      "sqft": 1001,
+      "layout": "3BR/2BA advertised; two covered bays",
+      "price": 350000,
+      "rent_assumed": 1800,
+      "rent_low": 1700,
+      "rent_high": 1900,
+      "fee_assumed": 375.23,
+      "other_assumed": 200,
+      "refurb_assumed": 25000,
+      "sale_source": "F01",
+      "rent_sources": [
+        "F02",
+        "F03"
+      ],
+      "match": "Basic tenanted level7 sale; rent1800 is a stabilised scenario requiring works and tenancy expiry, not current lease income.1900 renovated level15 comparator is superior condition.",
+      "price_status": "Advertised, not authenticated effective consideration or availability",
+      "rent_status": "Conditional whole-unit scenario, not achieved lease",
+      "fee_status": "Advertiser claim or analyst proxy as noted; current service/sinking invoice absent",
+      "cost_status": "Planning allowances; pre-tax; unit-specific transaction and credit costs unquoted",
+      "g0": "STOP: unit-matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "unit_status": "Text-only research; no physical or listing-photo inspection"
+    },
+    {
+      "id": "R334",
+      "area_id": "A43",
+      "batch": "B06",
+      "name": "Spring Ville 728-sf restricted family control",
+      "sqft": 728,
+      "layout": "3BR/2BA; block A level4; advertised Bumi parcel",
+      "price": 250000,
+      "rent_assumed": 1200,
+      "rent_low": 1100,
+      "rent_high": 1500,
+      "fee_assumed": 160,
+      "other_assumed": 180,
+      "refurb_assumed": 15000,
+      "sale_source": "F04",
+      "rent_sources": [
+        "F05",
+        "F06"
+      ],
+      "match": "Unfurnished sale and unfurnished1200 rental ask; fee160 is advertiser claim, sinking inclusion unknown. Title/eligibility unresolved.1500 furnished outcome requires separate works branch.",
+      "price_status": "Advertised, not authenticated effective consideration or availability",
+      "rent_status": "Conditional whole-unit scenario, not achieved lease",
+      "fee_status": "Advertiser claim or analyst proxy as noted; current service/sinking invoice absent",
+      "cost_status": "Planning allowances; pre-tax; unit-specific transaction and credit costs unquoted",
+      "g0": "STOP: unit-matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "unit_status": "Text-only research; no physical or listing-photo inspection"
+    },
+    {
+      "id": "R335",
+      "area_id": "A44",
+      "batch": "B06",
+      "name": "168 Park Selayang 624-sf altered compact control",
+      "sqft": 624,
+      "layout": "Marketed2BR/2BA; owner-added partition disclosed; original plan unknown",
+      "price": 265000,
+      "rent_assumed": 1500,
+      "rent_low": 1250,
+      "rent_high": 1600,
+      "fee_assumed": 250,
+      "other_assumed": 180,
+      "refurb_assumed": 20000,
+      "sale_source": "F07",
+      "rent_sources": [
+        "F08",
+        "F09"
+      ],
+      "match": "Unfurnished sale with owner partition, two bays; rent1500 historical BlockC partial ask. Sale block unspecified. No automatic block, approved-bedroom or CCC equivalence.",
+      "price_status": "Advertised, not authenticated effective consideration or availability",
+      "rent_status": "Conditional whole-unit scenario, not achieved lease",
+      "fee_status": "Advertiser claim or analyst proxy as noted; current service/sinking invoice absent",
+      "cost_status": "Planning allowances; pre-tax; unit-specific transaction and credit costs unquoted",
+      "g0": "STOP: unit-matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "unit_status": "Text-only research; no physical or listing-photo inspection"
+    },
+    {
+      "id": "R336",
+      "area_id": "A44",
+      "batch": "B06",
+      "name": "Selayang Point 1108-sf family control",
+      "sqft": 1108,
+      "layout": "3BR/2BA; one bay advertised",
+      "price": 335000,
+      "rent_assumed": 1500,
+      "rent_low": 1400,
+      "rent_high": 1800,
+      "fee_assumed": 230,
+      "other_assumed": 200,
+      "refurb_assumed": 25000,
+      "sale_source": "F10",
+      "rent_sources": [
+        "F11",
+        "B06-E22"
+      ],
+      "match": "Partly furnished header versus fully furnished title; listed inclusions treated as partial.1105-sf1500 partial rent with one bay; unknown floor/exposure. Fee230 planning proxy, not old profile0.17psf as current bill.",
+      "price_status": "Advertised, not authenticated effective consideration or availability",
+      "rent_status": "Conditional whole-unit scenario, not achieved lease",
+      "fee_status": "Advertiser claim or analyst proxy as noted; current service/sinking invoice absent",
+      "cost_status": "Planning allowances; pre-tax; unit-specific transaction and credit costs unquoted",
+      "g0": "STOP: unit-matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "unit_status": "Text-only research; no physical or listing-photo inspection"
+    },
+    {
+      "id": "R337",
+      "area_id": "A41",
+      "batch": "B06",
+      "name": "Zen Suites Zetapark 677-sf studio/SOHO control",
+      "sqft": 677,
+      "layout": "Studio/1BA; SOHO described; sale bay count unknown",
+      "price": 300000,
+      "rent_assumed": 1500,
+      "rent_low": 1400,
+      "rent_high": 1800,
+      "fee_assumed": 250,
+      "other_assumed": 160,
+      "refurb_assumed": 15000,
+      "sale_source": "F12",
+      "rent_sources": [
+        "F13"
+      ],
+      "match": "Same-agent partial sale/rent lineage, not independent demand evidence. Rental one bay; sale rights/bay unresolved. No current MRT3 walkability benefit. Long-term whole-unit only.",
+      "price_status": "Advertised, not authenticated effective consideration or availability",
+      "rent_status": "Conditional whole-unit scenario, not achieved lease",
+      "fee_status": "Advertiser claim or analyst proxy as noted; current service/sinking invoice absent",
+      "cost_status": "Planning allowances; pre-tax; unit-specific transaction and credit costs unquoted",
+      "g0": "STOP: unit-matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "unit_status": "Text-only research; no physical or listing-photo inspection"
+    }
+  ],
+  "area_mapping": {
+    "KV12": "A41"
+  },
+  "threshold_controls": [
+    {
+      "id": "B06-T01",
+      "area_id": "A45",
+      "name": "Tujuh Residences 550-sf1BR price-floor control",
+      "price": 494000,
+      "fee_assumed": 250,
+      "other_assumed": 180,
+      "refurb_assumed": 20000,
+      "source": "F18",
+      "boundary": "Published minimum, not matched unit offer. No achieved rent or actual draw schedule. Only post-completion rent thresholds and fully drawn no-income funding illustration; no ordinary base yield or Deploy."
+    },
+    {
+      "id": "B06-T02",
+      "area_id": "A45",
+      "name": "D'Evia advertised657-sf2BR price-floor control",
+      "price": 498100,
+      "fee_assumed": 302.22,
+      "other_assumed": 180,
+      "refurb_assumed": 25000,
+      "source": "F19",
+      "boundary": "Agency indicative net floor and0.46psf; primary product site confirms development but not these numerical terms. No assumed operating rent. Draw, approval, incentives and delivery unresolved."
+    }
+  ],
+  "branches": [
+    {
+      "label": "Urban studio lower-rent counterexample",
+      "parent": "R226",
+      "overrides": {
+        "rent_assumed": 1200
+      },
+      "parameters": {},
+      "source": "B06-E15"
+    },
+    {
+      "label": "Urban studio220k header only",
+      "parent": "R226",
+      "overrides": {
+        "price": 220000
+      },
+      "parameters": {},
+      "source": "F14",
+      "boundary": "Header/body220k270k conflict, not resolved purchase price"
+    },
+    {
+      "label": "Urban studio270k body only",
+      "parent": "R226",
+      "overrides": {
+        "price": 270000
+      },
+      "parameters": {},
+      "source": "F14"
+    },
+    {
+      "label": "Spring Ville220k marketing-price control",
+      "parent": "R334",
+      "overrides": {
+        "price": 220000
+      },
+      "parameters": {},
+      "source": "F15",
+      "boundary": "Different advertised unit; full-loan/cashback promotion; identity, rights and effective price unverified"
+    },
+    {
+      "label": "Spring Ville furnished1500",
+      "parent": "R334",
+      "overrides": {
+        "rent_assumed": 1500,
+        "refurb_assumed": 35000
+      },
+      "parameters": {},
+      "source": "F06",
+      "boundary": "Higher older furnished ask; additional20000works allowance, no lease proof"
+    },
+    {
+      "label": "Urban family furnished1900",
+      "parent": "R333",
+      "overrides": {
+        "rent_assumed": 1900,
+        "refurb_assumed": 35000
+      },
+      "parameters": {},
+      "source": "F03",
+      "boundary": "Costed condition upgrade, not current tenancy"
+    },
+    {
+      "label": "The Ridge furnished2400",
+      "parent": "R331",
+      "overrides": {
+        "rent_assumed": 2400,
+        "refurb_assumed": 35000
+      },
+      "parameters": {
+        "initial_vacancy": 3
+      },
+      "source": "B06-E05",
+      "boundary": "December availability;3month initial vacancy illustrative, not acquisition or actual timing"
+    },
+    {
+      "label": "D'Sara auction reserve illustration",
+      "parent": "R332",
+      "overrides": {
+        "price": 221100,
+        "refurb_assumed": 40000
+      },
+      "parameters": {
+        "initial_vacancy": 12,
+        "exit_extra_cost": 10000
+      },
+      "source": "B06-E09",
+      "boundary": "861-sf advertised auction not805-sf voluntary unit; no exact POS/COS or actual sale. Illustrative only, debt and costs not verified; excluded from ranking and pair counts"
+    }
+  ]
+}

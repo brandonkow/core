@@ -1,0 +1,388 @@
+{
+  "version": "B06-DESK-01",
+  "retrieved": "2026-10-07",
+  "sources": [
+    {
+      "id": "F01",
+      "title": "Urban360 family sale",
+      "url": "https://www.mudah.my/for-sale-urban-360-taman-sri-gombak-gombak-selangor-115844924.htm",
+      "source_date": "Relative posting date only; read2026-10-07",
+      "access": "Opened advertisement",
+      "observation": "350k nett;1001sf;3BR2BA;2bays;level7;basic;tenanted;fee375.23;non-Bumi and strata-ready claims.",
+      "limitation": "No tenancy amount, invoice, title or available offer. Duplicate115813304 is not independent.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F02",
+      "title": "Urban360 rental index",
+      "url": "https://www.iproperty.com.my/property-for-rent/at-urban-360-5432",
+      "source_date": "July-September2026 snapshots",
+      "access": "Search and open differ",
+      "observation": "1000/1001-sf family asks1700-1900; partial1800 dated11Sep in search.511-sf studio asks1250-1600 with condition differences.",
+      "limitation": "Counts/snapshots differ; not vacancy trend or achieved rent. Direct1700 URL redirected.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F03",
+      "title": "Urban360 family rental501957317",
+      "url": "https://www.iproperty.com.my/property/gombak/urban-360/rent-501957317/",
+      "source_date": "2026-08-21",
+      "access": "Opened advertisement",
+      "observation": "1900;1001sf;3BR2BA;2bays;level15;renovated and substantial furniture claimed.",
+      "limitation": "Superior to basic sale;1900 requires a costed branch, not in-place income.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F04",
+      "title": "SpringVille sale502025397",
+      "url": "https://www.propertyguru.com.my/property-listing/spring-ville-for-sale-by-gudrotullah-ikhwan-502025397",
+      "source_date": "2026-09-03",
+      "access": "Opened advertisement",
+      "observation": "250k;728sf;3BR2BA;unfurnished;blockAlevel4;Bumi leasehold claim;fee160;one covered and one open parking claim.",
+      "limitation": "Profile says freehold while unit says leasehold. Eligibility, plan, title and parking rights unknown.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F05",
+      "title": "SpringVille rent502069308",
+      "url": "https://www.iproperty.com.my/property/ulu-kelang/spring-ville/rent-502069308/",
+      "source_date": "2026-09-17 in PG mirror",
+      "access": "Search and opened ad",
+      "observation": "1200;728sf;3BR2BA;unfurnished;ready claim.",
+      "limitation": "PG mirror sameID is same lineage. Asking only.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F06",
+      "title": "SpringVille furnished rental",
+      "url": "https://www.propertygenie.com.my/property/spring-ville-ampang-for-rent-for-rent-by-joanne-diong-jLx5VPoat7Z7otT8kdwvDE",
+      "source_date": "Exact date absent; crawler5months old",
+      "access": "Search-return ad text",
+      "observation": "1500;728sf;3BR2BA;onebay;fully furnished.",
+      "limitation": "Older different condition; high scenario requires extra furnishing allowance.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F07",
+      "title": "168Park altered compact sale501897919",
+      "url": "https://www.iproperty.com.my/property/batu-caves/168-park-residensi-selayang/sale-501897919/",
+      "source_date": "2026-08-12",
+      "access": "Search-return detailed ad",
+      "observation": "265k;624sf;unfurnished;2bays;2BR2BA marketed;owner added master-room partition costing7k claimed.",
+      "limitation": "Do not classify as approved original2BR. Block, CCC, lender acceptance unknown.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F08",
+      "title": "168Park historical rental60057735",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/168-park-residensi-selayang-untuk-disewa-oleh-kelvin-lu-60057735",
+      "source_date": "2025-06-16",
+      "access": "Search-return ad text",
+      "observation": "BlockC Spring;624sf;2rooms2baths;partial;1500.",
+      "limitation": "Historical unmatched block/condition; not contemporary matched lease.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F09",
+      "title": "168Park624 rental index",
+      "url": "https://www.propertyguru.com.my/property-for-rent/in-batu-caves-j16mu/below-1500-sqft/2",
+      "source_date": "2026-05-30",
+      "access": "Search extraction",
+      "observation": "624sf marketed2BR2BA2bays1499;nearby630/585/538-sf stock differs.",
+      "limitation": "Index evidence only; not same parcel.1250low and1600high remain scenarios, not measured interval.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F10",
+      "title": "SelayangPoint sale501311121",
+      "url": "https://www.iproperty.com.my/bm/properti/selayang/selayang-point/sale-501311121/",
+      "source_date": "2026-10-02",
+      "access": "Opened ad",
+      "observation": "335k;1108sf;3BR2BA;onebay;partial header, fully furnished title;listed cabinets/aircons/heaters.",
+      "limitation": "Use partial-condition interpretation; fee not supplied. No discount inferred from marketing.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F11",
+      "title": "SelayangPoint rent501678397",
+      "url": "https://www.propertyguru.com.my/property-listing/selayang-point-for-rent-by-sephine-kang-501678397",
+      "source_date": "2026-07-08",
+      "access": "Search-return ad text",
+      "observation": "1500;1105sf;3BR2BA;onebay;partial with cabinets/aircon/heater.",
+      "limitation": "Close size/bay match, not same floor, unit or achieved rent.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F12",
+      "title": "ZenSuites sale26787728",
+      "url": "https://www.propertyguru.com.my/property-listing/zen-suites-zetapark-for-sale-by-sky-say-26787728",
+      "source_date": "Search11Aug/open22Aug2026",
+      "access": "Opened ad",
+      "observation": "300k;677sf;studio;partial;SOHO described despite condominium header.",
+      "limitation": "Bay not established; commercial/residential permissions unverified. Planned JalanLangkawi widget not operating rail proof.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F13",
+      "title": "ZenSuites rent39706018",
+      "url": "https://www.propertyguru.com.my/property-listing/zen-suites-zetapark-for-rent-by-sky-say-39706018",
+      "source_date": "2026-07-13",
+      "access": "Search-return ad text",
+      "observation": "1500;677sf;studio;partial;onebay;middlefloor;SOHO description.",
+      "limitation": "Same advertiser as sale: common lineage, not two independent valuations.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F14",
+      "title": "Urban360 conflicting220k ad501743398",
+      "url": "https://www.propertyguru.com.my/property-listing/urban-360-for-sale-by-christine-tan-501743398",
+      "source_date": "2026-09-17",
+      "access": "Opened ad",
+      "observation": "Header220k;body270k;511sf;fully furnished;studio;onebay.",
+      "limitation": "Two price branches retained; no price selected as truth or authenticated discount.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F15",
+      "title": "SpringVille lower-price501869159",
+      "url": "https://www.propertyguru.com.my/property-listing/spring-ville-for-sale-by-jojo-ng-501869159",
+      "source_date": "Open24Sep2026;olderindex9Sep",
+      "access": "Opened ad",
+      "observation": "220k;728sf;partial;3BR2BA;full-loan/cashback/markup promotions.",
+      "limitation": "Effective consideration, rights and condition unresolved.90% baseline retained; no financing promotion accepted.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F16",
+      "title": "Urban360220k ad60082405",
+      "url": "https://www.propertyguru.com.my/property-listing/urban-360-for-sale-by-wl-wan-60082405",
+      "source_date": "2026-10-07",
+      "access": "Opened ad",
+      "observation": "511sf;partial;220kheader;generic loan/cashback terms.",
+      "limitation": "No exact effective-price reconciliation. Does not corroborate270k-body unit identity.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F17",
+      "title": "168Park government-hosted brochure",
+      "url": "https://hims.kpkt.gov.my/files/30300/30300-1/IKLAN_BROSUR_01.pdf",
+      "source_date": "Document license validity2022-2027; current document date unknown",
+      "access": "PDF text; attempted screenshots failed",
+      "observation": "Text contains2093units, blocks477/956/660, and inconsistent2026/2027completion/encumbrance footers.",
+      "limitation": "Document version and visible footer unresolved; no certified delivered count or approved624-sf plan inferred. Large developer PDF failed size limit.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F18",
+      "title": "Tujuh official project",
+      "url": "https://tujuhresidences.com/",
+      "source_date": "Undated current page; accessed2026-10-07",
+      "access": "Opened from KDCC developer link",
+      "observation": "573units;550sf1BR main text;footer494kminimum/Jan2027 versus older470k/582sf/Feb2026;displayed permit ends10Aug2026.",
+      "limitation": "No current permit renewal/CCC/stocklist obtained. Published floor is not exact550-sf effective offer; conflicting versions quarantined.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F19",
+      "title": "D'Evia numerical marketing control",
+      "url": "https://www.propertyportal.my/project/d-evia",
+      "source_date": "Undated; retrieved2026-10-07",
+      "access": "Search-return marketing page",
+      "observation": "498100floor;657-1109sf;440units;0.46psffee including sinking;2029completion claim.",
+      "limitation": "Agency/portal terms only; actual unit/package/APDL not verified. Fee302.22=657x0.46 is conditional.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F20",
+      "title": "D'Evia developer product",
+      "url": "https://devia.com.my/",
+      "source_date": "Undated; retrieved2026-10-07",
+      "access": "Opened official-linked page",
+      "observation": "Kwasa development described as one of five themed plots; product menus and ebrochure present.",
+      "limitation": "Large61311264-byte brochure fetch failed. Extracted page does not confirm marketed price/fees. Marketing domains do not become developer evidence.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F21",
+      "title": "D'Evia government-status retrieval",
+      "url": "https://teduh.kpkt.gov.my/semakan-status-kemajuan?kodProjek=31064-1",
+      "source_date": "2026-10-07",
+      "access": "Failed open",
+      "observation": "No government status content obtained.",
+      "limitation": "Third-party claims of440units/20%progress are not independently verified here; do not use as completion fact.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F22",
+      "title": "Kwasa Sunsuria partnership",
+      "url": "https://cdn01.sunsuria.com/ENG_PRESS_RELEASE_Kwasa_Land_X_Sunsuria_851fe3d0ad.pdf",
+      "source_date": "2025-04-17",
+      "access": "Opened primary PDF text",
+      "observation": "520mixed landed/condominium units;9.464acres;firstphase expected launchQ3 2026.",
+      "limitation": "Not520high-rise or delivered stock; actual launch not established. Nested masterplan totals not added again.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F23",
+      "title": "LBS Kwasa development rights",
+      "url": "https://lbs.com.my/press-releases/lbs-bina-secures-development-rights-for-192-32-acres-in-kwasa-damansara/",
+      "source_date": "2025-07-30",
+      "access": "Primary release search and open",
+      "observation": "192.32acres;2922mixed low-/mid-rise condominium and landed planned homes.",
+      "limitation": "Forward mixed-form programme; not high-rise delivery count or demonstrated tenant demand.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F24",
+      "title": "Nadi Kwasa affordable supply",
+      "url": "https://nadicergas.investor.net.my/wp-content/uploads/2024/12/Nadi_Kwasa-Damansara-DRA_Final_241209.pdf",
+      "source_date": "2024-12-09",
+      "access": "Primary release search extraction",
+      "observation": "4183affordablehomes on34.9acres announced.",
+      "limitation": "Restrictions and timing differ from open-market rental/resale competition; do not pool all as eligible investor supply.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F25",
+      "title": "PV22 primary project",
+      "url": "https://www.platinumvictory.com/pv22-residences/",
+      "source_date": "Undated; retrieved2026-10-07",
+      "access": "Developer search extraction and opened redirect",
+      "observation": "Search footerBlockA946units;700/800sf types;August2028expectedcompletion.",
+      "limitation": "Forward phase-specific supply; no confirmed absorption. Other marketing compact sizes not automatically samephase. Current open footer extraction incomplete.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F26",
+      "title": "M Astra completion",
+      "url": "https://www.mahsing.com.my/news/mah-sing-completes-m-astra-15-months-early-with-record-89-qlassic-rating/",
+      "source_date": "2026-01-26",
+      "access": "Developer search plus opened page; later find timed out",
+      "observation": "Early completion and89%QLASSIC reported.",
+      "limitation": "Delivery claim does not establish take-up into occupation, collection, rent or current management; same source asB06-E11.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F27",
+      "title": "M Azura delivery cohort",
+      "url": "https://www.mahsing.com.my/web/storage/Integrated-Annual-Report-2024-1.pdf",
+      "source_date": "Financial report2024",
+      "access": "Primary PDF search excerpt",
+      "observation": "M Azura launchQ3 2024 andtargetQ3 2028 stated;M Astra850-1044sf3/4BR familyproduct described.",
+      "limitation": "Dated targets, not current delivery. No underwriting of booked sales as occupants.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F28",
+      "title": "Urban360 registered evidence",
+      "url": "https://www.brickz.my/transactions/residential/selangor/batu-caves/urban-360/non-landed/",
+      "source_date": "Nov2024-Oct2025window",
+      "access": "Search excerpt",
+      "observation": "7reportedtransactions;median350k/RM454psf;506/947/980sf rows mixed.",
+      "limitation": "Small lagged mixed-size distribution; not511/1001sf matched clearing interval. Masked price rows not inferred.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F29",
+      "title": "WangsaMetroview transaction lead",
+      "url": "https://list.my/subsales/property/516641",
+      "source_date": "April2026 transaction;printedSeptember2026",
+      "access": "Search-return vendor record",
+      "observation": "1152sf condo level9 at500k;several499-500k prior rows.",
+      "limitation": "Vendor-derived record not authenticated SPA; geocoding/form/duplicate and unusual cluster require reconciliation. No30%discount conclusion.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F30",
+      "title": "Metroview landed-form trap",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/wangsa-maju/wangsa-metroview/landed/",
+      "source_date": "Apr2025-Feb2026window",
+      "access": "Search excerpt",
+      "observation": "2landed/townhouse transactions;median560k.",
+      "limitation": "Excluded from high-rise matched reference; sameprojectname insufficient.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F31",
+      "title": "SelayangPoint vendor transactions",
+      "url": "https://rummah.my/projects/selayang-point-bandar-selayang",
+      "source_date": "2015-May2026mixedwindow",
+      "access": "Search-return vendor data",
+      "observation": "1100-sfbin includes2026May400k andJan250k;older306/340/350/460k;98all-yearrecords.",
+      "limitation": "Missing lot, condition, restriction and sale mechanism; all-yearmedian notcurrentfairvalue. No claimed JPPH original authentication.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F32",
+      "title": "168Park transaction cohort",
+      "url": "https://www.brickz.my/transactions/residential/selangor/selayang/non-landed/service-residence/",
+      "source_date": "Jun2025-May2026window",
+      "access": "Search excerpt",
+      "observation": "168Park listed5transactions,median380k/RM458psf within mixedprojecttable.",
+      "limitation": "Cannot compare265k624sf offer against mixedsize median; phase/source selection unvalidated.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F33",
+      "title": "D'Sara transaction mislocation",
+      "url": "https://www.brickz.my/transactions/residential/selangor/mutiara-damansara/d-sara-sentral---sungai-buloh/non-landed/service-residence/view/charts/?orderby=amount_of_the_consideration&range=2025+May",
+      "source_date": "May2025-Feb2026window",
+      "access": "Search excerpt",
+      "observation": "D'Sara name underMutiaraDamansara with2transactions;SungaiBulohseries surfacedolder2023-24.",
+      "limitation": "Requires tower/parcel/geography reconciliation; no620kone-recordvaluation assigned to805sf.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F34",
+      "title": "168Park auction primary listing",
+      "url": "https://www.ehsanauctioneers.com/Page/projectDetails/MBI0529",
+      "source_date": "Scheduled2026-09-29",
+      "access": "Search-return auctioneer",
+      "observation": "BlockA Lush;560sf;260kreserve;10%deposit;LACA.",
+      "limitation": "Different unit/size/block from624sf sale. No auction outcome or fullPOS/COS; no successful-saleclaim.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F35",
+      "title": "168Park one-room countercontrol",
+      "url": "https://www.mudah.my/168-park-residensi-selayang-low-floor-unit-for-sell-114909404.htm",
+      "source_date": "Exactpostingdate absent",
+      "access": "Search-return ad",
+      "observation": "624sf;one room/two baths;288k;basic;2bays.",
+      "limitation": "Different unit, but contradicts universal624sf-original2BR classification; approvedplan stillrequired.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F36",
+      "title": "RES280 room exclusion",
+      "url": "https://www.carousell.com.my/property/rentals/selayang-hospital/q-635/",
+      "source_date": "Relative dates only",
+      "access": "Search extraction",
+      "observation": "Room offer includes600studio-room/no-window wording in renovatedfour-bedroom home.",
+      "limitation": "Room licensing/quality unverified. Excluded from independent studio-parcel and whole-unit yield sampling.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F37",
+      "title": "SpringVille price-range source",
+      "url": "https://www.propertyguru.com.my/property-for-sale/at-spring-ville-215",
+      "source_date": "SearchOctober/openSeptember2026",
+      "access": "Search and opened index",
+      "observation": "Differentdate snapshots;lowest offers include labelledauction146k andlower132kheadlineinnewersearch.",
+      "limitation": "No time-series inventory conclusion. Price-minima are not voluntary clearing floors.",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "F38",
+      "title": "Urban360 reported auction outcome",
+      "url": "https://www.auctionnetwork.com.my/index.php?property_id=372557&route=property%2Fproperty",
+      "source_date": "2026-08-26 row",
+      "access": "Search excerpt",
+      "observation": "Vendor marksSold;price behind premium access;priorExpiredrows.",
+      "limitation": "Not authenticated sale result or identified511-sf comp. No paid access or outreach.",
+      "authenticated_unit_evidence": false
+    }
+  ],
+  "inherited_evidence": "B06_Working_Evidence.json; preserved immutable25-source packet01",
+  "boundary": "Short factual research notes; not raw page archives. No physical visits, listing-photo/video viewing, current title/MC/lease/lender authentication, paid access or outreach."
+}

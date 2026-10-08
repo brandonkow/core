@@ -1,0 +1,21 @@
+{
+  "version": "B06-WORKING-01",
+  "stage": "pre-publication checks passed; verify remote commit using verify_b06_working_01.py",
+  "new_gate_papers": 3,
+  "inherited_numeric_rows_unchanged": 6,
+  "financial_evaluations_checked": 120,
+  "pair_paths": 36,
+  "new_regional_closeouts": 0,
+  "capital_deploys": 0,
+  "master_unchanged": true,
+  "prior_blob_comparisons": 536,
+  "permitted_navigation_changes": [
+    "README.md",
+    "klang-valley-2026-10-07/round-3/README.md",
+    "klang-valley-2026-10-07/round-3/Coverage_Audit.md",
+    "AGENTS.md",
+    "CURRENT_WORKFLOW.md"
+  ],
+  "local_file_writes_or_deletions": 0,
+  "evidence_boundary": "Text-only public-source review and scenario arithmetic; no title packet, field or achieved-lease authentication."
+}

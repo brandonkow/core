@@ -1,0 +1,1923 @@
+{
+  "date": "2026-10-07",
+  "boundary": "Requests and source discovery only. Counts are not independent evidence or exhaustiveness. Tool reference IDs are historical request diagnostics, not portable source citations; use Evidence.json URLs.",
+  "unlogged_call_note": "One additional four-query call after S26 was not retained verbatim in RAM; its Suria Residence, Seri Bintang and Seri Pinang findings are represented in the evidence and exclusion ledgers. Do not claim an exact total search census.",
+  "requests": [
+    {
+      "sequence": 1,
+      "id": "B07-S01",
+      "request": {
+        "search_query": [
+          {
+            "q": "Kinrara Mas condominium sale rent 2026 1098 3 bedroom"
+          },
+          {
+            "q": "Puchong Prima studio one bedroom The Wharf sale rent 2026"
+          },
+          {
+            "q": "Univ 360 Serdang studio sale rent 2026 487"
+          },
+          {
+            "q": "Subang Jaya Subang Avenue 3 bedroom sale rent 2026"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://nilamap.com/property/subang-avenue-subang-jaya/",
+        "https://www.iproperty.com.my/property-for-rent/at-subang-avenue-1548/with-3-bedrooms",
+        "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/in-taman-tasik-prima-h374o/with-1-bedroom",
+        "https://www.iproperty.com.my/condo/kinrara-mas-165",
+        "https://www.propertyguru.com.my/condo/subang-avenue-1548",
+        "https://shyanyee.com/blog/nara-shorea-park-puchong-review",
+        "https://www.propertyguru.com.my/condo-for-sale/at-kinrara-mas-165",
+        "https://www.klcityproperties.com/property/fully-furnished-studio-condo-for-rent-at-univ360-place-upm-mrt-serdang/",
+        "https://speedhome.com/blog/the-wharf/",
+        "https://www.edgeprop.my/listing/rental/3251268/subang-avenue-for-rent-by-muhammad-taufeeq-zulkifly",
+        "https://www.iproperty.com.my/property-for-rent/at-subang-avenue-1548",
+        "https://www.iproperty.com.my/bm/properti/puchong/rent-501162653/",
+        "https://els.edu.my/sites/default/files/media/document/2023-10/ELS-UPM-Housing-2018-May.pdf",
+        "https://akademik.upm.edu.my/dokumen/BGAKA1_OFF_CAMPUSS_ACCOMMODATION.pdf",
+        "https://www.cimb.com.my/content/dam/cimb/personal/documents/more-services/property-auction/printable-master-listing.pdf",
+        "https://www.ehsanauctioneers.com/upload/pos/o38I2cC0qETb.pdf",
+        "https://www.berjaya.com/pdf/bproperty/annual-reports/bjland11.pdf",
+        "https://www.leongauctioneer.com/property-for-auction/exportListPdf?aucDt=05%2F28%2F2026+00%3A00%3A00&auctionId=1557&header=Bank%3A+MALAYAN+BANKING+BERHAD%2C+Date%3A+28+May+2026+%28Thursday%29&sortOrder=latest",
+        "https://en.wikipedia.org/wiki/Bandar_Kinrara"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 2,
+      "id": "B07-S02",
+      "request": {
+        "search_query": [
+          {
+            "q": "Subang Bestari studio one bedroom high rise Subang 2 Suria Jelutong sale rent"
+          },
+          {
+            "q": "Shah Alam Pangsapuri Sri Acappella 3 bedroom sale rent 2026"
+          },
+          {
+            "q": "Bukit Raja condominium family 3 bedroom sale rent 2026 Klang"
+          },
+          {
+            "q": "Bandar Botanic Bukit Tinggi Ambang Botanic apartment condominium sale rent 2026"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/condo/ambang-botanic-1-10405",
+        "https://list.my/subsales/selangor/klang/kelang/ambang-botanic",
+        "https://www.edgeprop.my/project/ambang-botanic-8678",
+        "https://www.ambangresidensi.com.my/",
+        "https://www.ambangresidensi.com.my/the-space-tenure-and-location-trade-off-behind-a-freehold-condo-in-klang/",
+        "https://speedhome.com/my/iklan/acappella-serviced-aparment-section-13-shah-alam-ysflyumm",
+        "https://www.iproperty.com.my/condo/sri-acappella-1487",
+        "https://www.propertyguru.com.my/condo/nadira-3-bandar-bukit-raja-18045",
+        "https://rumahselangorku.org/selangorku/rumah-selangorku-bandar-bukit-raja-klang/",
+        "https://www.iproperty.com.my/bm/hartanah-disewa/di-sri-acappella-1487",
+        "https://irumah.co/klang/bandar-bukit-raja",
+        "https://www.ambangresidensi.com.my/the-2026-klang-location-question-convenience-space-or-long-term-fit/",
+        "https://media.edgeprop.my/newspaper/assets/2026/may/EP003-01-LR.pdf",
+        "https://ambangresidence.com.my/wp-content/uploads/2024/12/AR-Apartment-Brochure.pdf",
+        "https://arenaauctioneers.com/flyer/25687/BANKSIMPANANNASIONAL/2026-06-25",
+        "https://hims.kpkt.gov.my/files/30987/P45/P45-20251010-00017409/IKLAN_BROSUR_01.pdf",
+        "https://www.ehsanauctioneers.com/upload/adsFile/Q3UPEwKnm46t.pdf",
+        "https://ambangresidence.com.my/wp-content/uploads/2024/12/AR-Shops-Brochure.pdf",
+        "https://en.wikipedia.org/wiki/Bandar_Botanic",
+        "https://www.reddit.com/r/KualaLumpur/comments/1uhs9k7/moving_to_kl_for_work_in_bukit_jalillooking_for/",
+        "https://www.youtube.com/watch?v=3zNsnHchMng",
+        "https://en.wikipedia.org/wiki/Bukit_Raja",
+        "https://www.reddit.com/r/KualaLumpur/comments/1vlh8zi/would_you_personally_rent_in_these_kl_projects/",
+        "https://www.reddit.com/r/malaysians/comments/1wgyv6o/room_available_sri_petaling_condo_near_bukit_jalil/",
+        "https://en.wikipedia.org/wiki/Bandar_Botanik_LRT_station",
+        "https://www.reddit.com/r/MalaysianPF/comments/17dis3z",
+        "https://www.reddit.com/r/malaysiauni/comments/1slz4fu/what_i_noticed_about_renting_around_sunway/",
+        "https://en.wikipedia.org/wiki/Shah_Alam_line",
+        "https://www.reddit.com/r/malaysians/comments/1i6cyx3",
+        "https://www.reddit.com/r/Bolehland/comments/1weia3p/purchasing_first_house/",
+        "https://www.reddit.com/r/malaysia/comments/n2v6qn",
+        "https://www.reddit.com/r/malaysia/comments/1ln8yn8",
+        "https://www.reddit.com/r/MalaysianPF/comments/1uokou4/should_i_buy_this_rm365k_house_now_or_wait_for_an/",
+        "https://en.wikipedia.org/wiki/Klang_Royal_City_Council",
+        "https://www.reddit.com/r/malaysians/comments/1o3k4pd",
+        "https://en.wikipedia.org/wiki/Bukit_Raja_%28disambiguation%29",
+        "https://www.reddit.com/r/MalaysianPF/comments/1spi162/couples_with_a_combined_gross_annual_income_of/"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 3,
+      "id": "B07-S03",
+      "request": {
+        "search_query": [
+          {
+            "q": "site.myrapid.com.my \"Shah Alam Line\" \"2026\""
+          },
+          {
+            "q": "site.uow.edu.my accommodation utropolis rates 2026"
+          },
+          {
+            "q": "site.sunwayhouse.com.my residence rates 2026"
+          },
+          {
+            "q": "site.sdb.com.my Subang Bestari serviced apartment studio Sqwhere 2026"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://residence.sunwayhouse.com.my/wp-content/uploads/2024/11/Residence-Pricing-Structure-Guide-2025.pdf",
+        "https://www.sdb.com.my/property-development/sqwhere-serviced-apartment",
+        "https://www.sdb.com.my/project/sqwhere/",
+        "https://sunwayhouse.com.my/",
+        "https://residence.sunwayhouse.com.my/wp-content/uploads/2022/06/2022-SCHEMES-Revised-10.06.22.pdf",
+        "https://sunwayhouse.com.my/contact-us/",
+        "https://stories.sunway.com.my/rent-to-buy-co-living-sunway-house-waterfront-residence-offers-the-best-of-both-worlds/",
+        "https://www.sdb.com.my/clients/Selangor_Dredging_Berhad_C0203663-5E0C-4131-BF1F-F2264FAE544F/contentms/img/products/myra/MYRA_vision_book_FA_low-res_update.pdf",
+        "https://www.prasarana.com.my/rapid-rail/",
+        "https://sunwayhouse.com.my/community/",
+        "https://www.uow.edu.my/pdf/Student-Life-Accommodation-Guide",
+        "https://scholarship.sunway.edu.my/sites/default/files/brochure/scholarship/Sunway-CIS-brochure-2024.pdf",
+        "https://en.wikipedia.org/wiki/List_of_rail_transit_stations_in_the_Klang_Valley_area",
+        "https://www.uow.edu.my/pdf/IM-Tourism-Guide-Book.pdf",
+        "https://www.uow.edu.my/campuses/accommodation/uow-malaysia-penang-campus/",
+        "https://sunwayhouse.com.my/corporate/",
+        "https://en.wikipedia.org/wiki/Shah_Alam_line",
+        "https://www.propertyguru.com.my/bm/kondo-disewa/di-subang-bestari-15199/dengan-studio",
+        "https://www.bernama.com/en/news.php?id=2575019",
+        "https://thewalaoeh.com/lrt3-shah-alam-line-2026-lrt3-station-list-map/",
+        "https://www.reddit.com/r/malaysiauni/comments/1snu7oh/is_rm1200_enough_for_a_decent_room_in_sunway/",
+        "https://www.reddit.com/r/malaysia/comments/1u5bjl1/klang_valley_rail_transit_map_as_of_june_this_year/",
+        "https://www.reddit.com/r/malaysiauni/comments/1tcsc1s/avg_living_cost/",
+        "https://www.reddit.com/r/malaysia/comments/1ulghss/kenyataan_akhbar_bersama_oleh_lim_guan_eng_dan/",
+        "https://www.reddit.com/r/Bolehland/comments/1u9swm4/lrt3_should_be_renamed_to_ktm3/",
+        "https://en.wikipedia.org/wiki/Shah_Alam",
+        "https://www.reddit.com/r/malaysiauni/comments/1wfz919/apartment/",
+        "https://en.wikipedia.org/wiki/Taman_Sri_Andalas",
+        "https://www.thestar.com.my/news/nation/2026/02/05/lrt3-shah-alam-line-expected-to-begin-operations-by-june-says-loke",
+        "https://en.wikipedia.org/wiki/Subang_LRT_station",
+        "http://www.lrt3.com.my",
+        "https://en.wikipedia.org/wiki/Klang_Valley_Integrated_Transit_System",
+        "https://www.reddit.com/r/Bolehland/comments/1uifac1/since_shah_alam_line_lrt_3_is_open_i_really_hope/",
+        "https://www.reddit.com/r/malaysia/comments/1u9o93j/bandar_utama_to_johan_setia_a_guide_to_the_new/",
+        "https://www.reddit.com/r/malaysia/comments/1rdv0y4/removed/",
+        "https://www.reddit.com/r/malaysia/comments/1uzgy73/raised_pedestrian_crossing_project_at_lrt_taman/",
+        "https://www.reddit.com/r/malaysia/comments/1uio8uj/start_of_rush_hour_at_shah_alam_lrt_towards_klang/",
+        "https://www.reddit.com/r/Bolehland/comments/1uudvbr/my_first_time_riding_lrt_3_shah_alam_line_today/"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 4,
+      "id": "B07-S04",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"The Wharf Residence\" \"560\" \"Sale\" \"2026\""
+          },
+          {
+            "q": "\"Univ 360\" \"487\" \"Sale\" \"2026\""
+          },
+          {
+            "q": "\"Kinrara Mas\" \"1091\" \"1,500\" rent"
+          },
+          {
+            "q": "\"Subang Avenue\" \"1021\" \"450,000\" sale"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.mudah.my/kinrara-mas-condominium-in-bukit-jalil-115809649.htm",
+        "https://mcdn.mudah.my/static-assets/images/property/icons/profile/company-avatar-default.svg",
+        "https://www.iproperty.com.my/bm/properti/subang-jaya/subang-avenue/sale-501889164/",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-avenue-untuk-dijual-oleh-sean-lo-501889164",
+        "https://shyanyee.com/blog/nara-shorea-park-puchong-review",
+        "https://www.carousell.com.my/property/rentals/bandar-kinrara/q-635/",
+        "https://www.mudah.my/malaysia/for-sale?q=subang+avenue",
+        "https://homes.trovit.my/for-rent-bandar-kinrara-bukit-jalil",
+        "https://www.iproperty.com.my/property/puchong/the-wharf-residence/cl-sale-200198393/",
+        "https://www.klcityproperties.com/properties-grid-fullwidth/",
+        "https://howardfletcherjr.northroprealty.com/listing/dcdc2275022-560-n-st-sw-801-washington-dc-20024/",
+        "https://stackedhomes.com/singapores-most-famous-home-monument/",
+        "https://www.realtor.com/realestateandhomes-detail/7296-Chesapeake-Dr_Jamesville_VA_23398_M96577-69527"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 5,
+      "id": "B07-S05",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"The Wharf Residence\" \"560\" \"RM 200,000\""
+          },
+          {
+            "q": "\"Univ 360\" \"487\" \"RM\" \"sale\" site:iproperty.com.my"
+          },
+          {
+            "q": "\"Subang Avenue\" \"1021\" \"2,600\" \"2026\""
+          },
+          {
+            "q": "\"Kinrara Mas\" \"328,000\" \"1091\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.mudah.my/freehold-100-full-loan-kinrara-mas-condo-112242227.htm",
+        "https://www.mudah.my/100-loan-cash-back-free-mot-kinrara-mas-bukit-jalil-pavilion-2-bk-114233187.htm",
+        "https://www.iproperty.com.my/property/subang-jaya/subang-avenue/rent-501955624/",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-avenue-untuk-disewa-oleh-adelyn-lee-501955624",
+        "https://www.propertyguru.com.my/property-listing/subang-avenue-for-rent-by-adelyn-lee-501955624",
+        "https://www.mudah.my/kuala-lumpur-bukit-jalil/properties-for-sale/price-from-300000-below-400000",
+        "https://www.mudah.my/malaysia/apartment-condominium-for-sale?q=kinrara+mas",
+        "https://www.iproperty.com.my/bm/properti/subang-jaya/subang-avenue/rent-501955624/",
+        "https://www.iproperty.com.my/bm/kondo/kinrara-mas-165",
+        "https://www.iproperty.com.my/condo-for-rent/at-univ-360-place-7049/with-min-2-bathrooms",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-univ-360-place-7049",
+        "https://www.iproperty.com.my/condo-for-sale/in-selangor-45nk1/intermediate/with-1-bedroom"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 6,
+      "id": "B07-S06",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.prasarana.com.my/rapid-rail/"
+          },
+          {
+            "ref_id": "https://www.bernama.com/en/news.php?id=2575019"
+          },
+          {
+            "ref_id": "https://www.uow.edu.my/pdf/Student-Life-Accommodation-Guide"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/bm/kondo-disewa/di-subang-bestari-15199/dengan-studio"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.prasarana.com.my/rapid-rail/",
+        "https://www.prasarana.com.my/rapid-rail/\",\"lineno\":null}",
+        "https://www.bernama.com/en/news.php?id=2575019",
+        "https://www.bernama.com/en/news.php?id=2575019\",\"lineno\":null}",
+        "https://kerjaya.bernama.com†kerjaya.bernama.com",
+        "https://insan.jpa.gov.my/survey/agency/f90b1f53-f177-4760-82c7-f5f9d30200c6†insan.jpa.gov.my",
+        "https://www.uow.edu.my/pdf/Student-Life-Accommodation-Guide",
+        "https://www.uow.edu.my/pdf/Student-Life-Accommodation-Guide\",\"lineno\":null}",
+        "https://www.propertyguru.com.my/bm/kondo-disewa/di-subang-bestari-15199/dengan-studio",
+        "https://www.propertyguru.com.my/bm/kondo-disewa/di-subang-bestari-15199/dengan-studio\",\"lineno\":null}"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 7,
+      "id": "B07-S07",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-for-sale/at-the-wharf-residence-5464"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/bm/hartanah-dijual/di-univ-360-place-7049"
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn483view3",
+            "pattern": "RM 1,000"
+          },
+          {
+            "ref_id": "turn483view2",
+            "pattern": "650"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/property-for-sale/at-the-wharf-residence-5464\",\"lineno\":null}",
+        "https://www.propertyguru.com.my/property-for-sale/at-the-wharf-residence-5464",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-univ-360-place-7049",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-univ-360-place-7049\",\"lineno\":null}",
+        "https://www.propertyguru.com.my/bm/kondo-disewa/di-subang-bestari-15199/dengan-studio"
+      ],
+      "error_flags": [
+        "Internal Error",
+        "403",
+        "Internal Error"
+      ]
+    },
+    {
+      "sequence": 8,
+      "id": "B07-S08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Suria Jelutong\" \"850\" \"Sale\" \"2026\""
+          },
+          {
+            "q": "\"Seri Pinang\" \"Setia Alam\" \"sale\" \"rent\" 2026"
+          },
+          {
+            "q": "\"Bukit Raja\" \"Centro\" condominium sale rent 2026"
+          },
+          {
+            "q": "\"Impiria Residensi\" sale rent 2026 3 bedroom"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.iproperty.com.my/property/klang/rent-500325881/",
+        "https://www.propertyguru.com.my/condo/seri-pinang-8300",
+        "https://iqiglobal.com/my/rent/klang-selangor/92789-impiria-residensi-bandar-bukit-tinggi-2",
+        "https://www.booking.com/hotel/my/impiria-residensi-by-bedstay.html?came_from_hotel_review=1&keep_landing=1",
+        "https://findhouse.com.my/ms/property/for-rent/bandar-botanic-bandar-bukit-tinggi-klang",
+        "https://June28property.wasap.my",
+        "https://www.hlb.com.my/content/dam/hlb/my/docs/pdf/Personal/Property-Auction/april-2026/hlb-ehsan-flyer-kl-15-apr-2026.pdf",
+        "https://www.iproperty.com.my/building/seri-pinang-pty_60849/",
+        "https://www.edgeprop.my/condo/seri-pinang-14809",
+        "https://www.propertygenie.com.my/property/seri-pinang-apartment-at-setia-alam-shah-alam-for-rent-sale-for-rent-by-kelly-ng-WqHbEMRQak8KwzZJFzrWPS",
+        "https://wa.me/60149826875",
+        "https://www.propertygenie.com.my//agent-profile/kelly-ng-agent-VHCnpaxreTBPvXQbxmtTb8",
+        "https://www.facebook.com/kelly.niam",
+        "https://www.tiktok.com/@kellyng7795?--------------------------------------------------------------------------------",
+        "https://www.mudah.my/property/properties-in-seri-pinang-apartments-setia-alam-selangor",
+        "https://www.myrumahbaru.com/project/setia-alam/seri-pinang-apartment",
+        "https://www.iproperty.com.my/bm/properti/setia-alam/seri-pinang/sale-500345753/",
+        "https://www.propertyguru.com.my/bm/kondo-disewa/di-bbk-condominium-1762",
+        "https://napic2.jpph.gov.my/storage/app/media//3-penerbitan/pasaran-harta-tanah/separuh-wilayah/2023/Wilayah-Tengah/Central%20Region%20Report%20H1%202023.pdf",
+        "https://cdn1.i3investor.com/my/files/st88k/9679_WCT/annual/2017-12-31/9679_WCT_AnnualReport_2017-12-31_WCT%20AR2017%20%28Bursa%29_822826602.pdf",
+        "https://anns.sgp1.cdn.digitaloceanspaces.com/3553717.pdf",
+        "https://media.edgeprop.my/s3fs-public/pullout/20151113_EP_2045_lowres_locked.pdf",
+        "https://www.wct.com.my/pdf/newsletter/issue19.pdf"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 9,
+      "id": "B07-S09",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn484view2",
+            "id": 46
+          },
+          {
+            "ref_id": "turn484view2",
+            "id": 42
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn484view1",
+            "lineno": 75
+          },
+          {
+            "ref_id": "turn480search7"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-univ-360-place-7049",
+        "https://www.iproperty.com.my/property/puchong/the-wharf-residence/cl-sale-200198393/",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-bestari-untuk-disewa-oleh-stanley-sia-501900324",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-bestari-untuk-disewa-oleh-nazrin-affendy-502200644"
+      ],
+      "error_flags": [
+        "403"
+      ]
+    },
+    {
+      "sequence": 10,
+      "id": "B07-S10",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:iproperty.com.my \"The Wharf Residence\" \"560\" \"230,000\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.iproperty.com.my/bm/hartanah-dijual/dekat-smk-puchong-utama-1-14663/dengan-1-bilik-tidur",
+        "https://www.iproperty.com.my/bm/pangsapuri-kondo-servis-apartment-dijual/sekitar-taman-tasik-prima-h374o/dengan-1-bilik-tidur",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/dekat-sam-singapore-maths-meranti-jaya-30564/dengan-1-bilik-tidur",
+        "https://www.iproperty.com.my/property-for-sale/in-taman-tasik-prima-h374o/priced-under-300k-rm",
+        "https://www.iproperty.com.my/condo-for-sale/in-taman-tasik-prima-h374o/priced-under-600k-rm",
+        "https://www.iproperty.com.my/property/puchong/ol-sale-200238303/",
+        "https://www.iproperty.com.my/condo-for-sale/in-taman-tasik-prima-h374o/priced-under-700k-rm",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/dekat-smk-puchong-utama-1-14663/harga-dibawah-rm-300k",
+        "https://www.iproperty.com.my/apartment-condo-service-residence-for-sale/in-taman-tasik-prima-h374o/with-1-bedroom",
+        "https://www.iproperty.com.my/property-for-sale/near-sam-singapore-maths-meranti-jaya-30564/with-1-bedroom",
+        "https://www.iproperty.com.my/condo-for-sale/in-selangor-45nk1/intermediate/with-1-bedroom",
+        "https://www.iproperty.com.my/property/puchong/the-wharf-residence/sale-106721564/"
+      ],
+      "error_flags": [
+        "403"
+      ]
+    },
+    {
+      "sequence": 11,
+      "id": "B07-S11",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:iproperty.com.my \"Impiria Residensi\" \"1,065\" \"Sale\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.iproperty.com.my/bm/properti/klang/sale-501217345/",
+        "https://www.iproperty.com.my/bm/properti/klang/sale-105547999/",
+        "https://www.iproperty.com.my/property/klang/sale-105547999/",
+        "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-501243564/",
+        "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-501994474/",
+        "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-501254363/",
+        "https://www.iproperty.com.my/bm/properti/klang/sale-108433334/",
+        "https://www.iproperty.com.my/bm/properti/klang/sale-501200713/",
+        "https://www.iproperty.com.my/property/klang/impiria-residensi-bukit-tinggi-klang/sale-501884209/",
+        "https://www.iproperty.com.my/property/klang/the-lead-residences-impiria-residensi/sale-107709791/",
+        "https://www.iproperty.com.my/property/klang/impiria-residensi-bukit-tinggi-klang/sale-502169629/",
+        "https://www.iproperty.com.my/property/klang/the-lead-residences-impiria-residensi/sale-101786310/"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 12,
+      "id": "B07-S12",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Suria Jelutong\" \"850\" \"Sale\" \"Rent\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.mudah.my/suria-jelutong-bukit-jelutong-ground-floor-positive-roi-108520284.htm",
+        "https://img.rnudah.com/stores/logo_264577_ckl.jpg",
+        "https://forum.lowyat.net/topic/3230221/all",
+        "https://www.propertyguru.com.my/commercial-property-for-sale/near-smk-bukit-jelutong-14690/priced-under-1m-rm",
+        "https://homes.trovit.my/for-rent-suria-jelutong-shah-alam",
+        "https://homes.trovit.my/for-rent-room-bukit-jelutong",
+        "https://www.mudah.my/selangor-bukit-jelutong/apartment-condominium-for-rent/suria-residence",
+        "https://www.propertyguru.com.my/property-for-rent/near-guardian-75137/priced-between-1k-2k-rm",
+        "https://www.propertyguru.com.my/property-for-rent/in-bukit-jelutong-uwrad/below-850-sqft",
+        "https://www.freerentads.com/rentals-properties-for-rent-kuala-lumpur-wilayah-persekutuan-kuala-lumpur-malaysia-QQRZ2020666-ZRplJ3-13",
+        "https://www.facebook.com/LeongsProperty",
+        "https://homes.trovit.my/for-rent-suria-jelutong",
+        "https://list.my/subsales/selangor/petaling/damansara?type=CONDO",
+        "https://www.propertyguru.com.my/property-for-rent/near-guardian-75137/partially-furnished"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 13,
+      "id": "B07-S13",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn486view2",
+            "pattern": "Tentang hartanah"
+          },
+          {
+            "ref_id": "turn486view3",
+            "pattern": "Tentang hartanah"
+          },
+          {
+            "ref_id": "turn484view1",
+            "pattern": "487"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn488search1"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.iproperty.com.my/bm/pangsapuri-kondo-servis-apartment-dijual/sekitar-taman-tasik-prima-h374o/dengan-1-bilik-tidur",
+        "https://www.iproperty.com.my/guides/foreigners-buying-property-malaysia-complete-guide-12332",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-bestari-untuk-disewa-oleh-stanley-sia-501900324",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-bestari-untuk-disewa-oleh-nazrin-affendy-502200644",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-univ-360-place-7049"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 14,
+      "id": "B07-S14",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn486view0",
+            "id": 28
+          },
+          {
+            "ref_id": "turn486view0",
+            "id": 30
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn480search0"
+          },
+          {
+            "ref_id": "turn482search1"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.mudah.my/kinrara-mas-condominium-in-bukit-jalil-115809649.htm",
+        "https://www.mudah.my/malaysia/apartment-condominium-for-rent;",
+        "https://www.mudah.my/100-loan-cash-back-free-mot-kinrara-mas-bukit-jalil-pavilion-2-bk-114233187.htm",
+        "https://img.rnudah.com/stores/logo_592285_ijt.jpg†img.rnudah.com",
+        "https://www.iproperty.com.my/bm/properti/seri-kembangan/univ-360-place/sale-502194837/",
+        "https://www.iproperty.com.my/bm/properti/seri-kembangan/univ-360-place/sale-102359272/"
+      ],
+      "error_flags": [
+        "Redirected to URL:"
+      ]
+    },
+    {
+      "sequence": 15,
+      "id": "B07-S15",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn491view2",
+            "pattern": "Tentang"
+          },
+          {
+            "ref_id": "turn491view3",
+            "pattern": "Tentang"
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn490view0",
+            "id": 29
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn482search4"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/property-listing/subang-avenue-for-rent-by-adelyn-lee-501955624",
+        "https://www.propertyguru.com.my/property-for-rent/at-subang-avenue-1548;",
+        "https://www.iproperty.com.my/bm/properti/puchong/the-wharf-residence/sale-501485595/",
+        "https://www.iproperty.com.my/bm/properti/seri-kembangan/univ-360-place/sale-502194837/",
+        "https://www.iproperty.com.my/bm/properti/seri-kembangan/univ-360-place/sale-102359272/"
+      ],
+      "error_flags": [
+        "Redirected to URL:"
+      ]
+    },
+    {
+      "sequence": 16,
+      "id": "B07-S16",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Sri Acappella\" \"sale\" \"1,200\" 2026"
+          },
+          {
+            "q": "\"Seri Galaksi\" \"Sale\" \"2026\""
+          },
+          {
+            "q": "\"BBK Condominium\" \"sale\" \"rent\" \"2026\""
+          },
+          {
+            "q": "\"Seri Pinang\" \"850\" \"sale\" \"2026\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://pulsecities.com/property/3027391004",
+        "https://www.mudah.my/selangor-klang/apartment-condominium-for-sale/bbk-condominium",
+        "https://www.propertyguru.com.my/condo-for-sale/at-bbk-condominium-1762",
+        "https://list.my/subsales/selangor/klang/kapar/bbk-condominium",
+        "https://nextsix.com/property-listing/seri-pinang-apartments-setia-alam-apartment-sale-areen-tan-69eec9ffe3b7cd8f4d4f3dfd",
+        "https://irumah.co/bandar-baru-klang/bbk-condominium",
+        "https://www.iproperty.com.my/building/bbk-condominium-pty_65645/",
+        "https://alpha.edgeprop.my/listing/sale/2750022/selangor/setia_alam/alam_nusantara/nonlanded/condominium-apartment-servicedresidence/-renovated-non-bumi-lot--pangsapuri-seri-pinang-setia-alam",
+        "https://homes.cari.la/homes/2-bedroom-apartment-pinang-new",
+        "https://www.myrumahbaru.com/project/kapar/palm-garden-apartment",
+        "https://www.mudah.my/selangor-setia-alam/apartment-condominium-for-sale/seri-pinang-apartments-setia-alam?property_type_id=2",
+        "https://rummah.my/projects/pangsapuri-seri-pinang-bdr-setia-alam-bukit-raja"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 17,
+      "id": "B07-S17",
+      "request": {
+        "search_query": [
+          {
+            "q": "site.mkhberhad.com Shorea NARA 2026 units completion"
+          },
+          {
+            "q": "site.ioiproperties.com.my Puchong pavilion skypod residence 2026"
+          },
+          {
+            "q": "site.spsetia.com \"Setia Alam\" \"2026\" \"apartment\""
+          },
+          {
+            "q": "site.hock-seng-lee.com.my \"Subang Bestari\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.ioiproperties.com.my/bandar-puteri-puchong-puchong-jaya/pavilion-serviced-apartment",
+        "https://www.ioiproperties.com.my/ioiexpo2026",
+        "https://www.ioiproperties.com.my/projects?field_price_range_for_searching_target_id=All&field_property_type_target_id=All&field_township_target_id=All&page=10",
+        "https://www.iproperty.com.my/property-for-sale/at-skypod-residence-4568",
+        "https://files.ioiproperties.com.my/dsites/s3fs-public/annual-report/file/%5BWEBSITE%5D%20IOIPG%20IAR2025_01102025_updated%20on%2005052026_spread.pdf",
+        "https://www.ioiproperties.com.my/",
+        "https://www.iproperty.com.my/condo/skypod-residence-4568",
+        "https://files.ioiproperties.com.my/dsites/s3fs-public/news-coverage-external/pdf/Pullout-MDA-2023-.pdf",
+        "https://www.propertyguru.com.my/property-listing/skypod-residence-for-sale-by-yoke-leng-sew-501118928",
+        "https://shyanyee.com/blog/nara-shorea-park-puchong-review",
+        "https://alpha.edgeprop.my/listing/sale/2387795/selangor/puchong/nonlanded/condominium-apartment-servicedresidence/freehold-mid-level-fully-furnished-skypod-residences-puchong-in-front-ioi-mall-for-sale",
+        "https://www.propertyguru.com.my/bm/hartanah-dijual/di-skypod-residence-4568",
+        "https://checksekolah.my/school/selangor/sekolah-menengah-kebangsaan-subang-bestari/",
+        "https://www.midf.com.my/sites/corporate/files/2026-04/ioi_properties-cu-listing_of_ioipg_reit_by_2026-mbsbr-130426.pdf",
+        "https://shyanyee.com/zh-hant/blog/the-wyn-residences-puchong-review",
+        "https://cdn1.i3investor.com/my/files/st88k/5249_IOIPG/ipo/2013/5249_IOIPG_IPO_IPOA_IOIPG-Cover%20to%20Page%20100_-1845735382.pdf",
+        "https://brokerscall.shareinvestor.com/brokers_call/www/assets/files/541776739960-ioi_properties_group_20260421_hlib.pdf",
+        "https://en.wikipedia.org/wiki/List_of_schools_in_Selangor",
+        "https://en.wikipedia.org/wiki/Subang%2C_Selangor",
+        "https://www.reddit.com/r/malaysians/comments/1v1s2eh/looking_to_buy_a_home_need_advice/",
+        "https://www.reddit.com/r/MalaysianPF/comments/1sdqdx6/am_i_fomoing/",
+        "https://www.reddit.com/r/malaysia/comments/1jzlv29/anybody_here_visited_ioi_mall_puchong_back_when/"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 18,
+      "id": "B07-S18",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn494view1",
+            "pattern": "Tentang"
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn494view0",
+            "id": 43
+          },
+          {
+            "ref_id": "turn494view0",
+            "id": 49
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"Kinrara Mas\" rent 1091 2026 1500 1600"
+          },
+          {
+            "q": "\"Subang Avenue\" \"maintenance fee\" 1021"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.iproperty.com.my/property/bukit-jalil/kinrara-mas/rent-200201268/",
+        "https://www.iproperty.com.my/guides/foreigners-guide-renting-property-malaysia-50646--------------------------------------------------------------------------------",
+        "https://www.propertyguru.com.my/condo-for-rent/at-kinrara-mas-165",
+        "https://www.myrumahbaru.com/project/bukit-jalil/kinrara-mas",
+        "https://www.mudah.my/kuala-lumpur-bukit-jalil/condominium-for-rent/kinrara-mas-condominium?monthly_rent=1000-1500",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-avenue-untuk-dijual-oleh-aqillah-razali-501642402",
+        "https://speedhome.com/rent/desa-cindaimas-old-klang-road",
+        "https://irumah.co/bandar-kinrara/kinrara-mas",
+        "https://www.iproperty.com.my/condo/kinrara-mas-165",
+        "https://homes.trovit.my/for-rent-house-kinrara-kuala-lumpur",
+        "https://www.dotproperty.com.my/3-bedroom-house-for-rent-in-jalan-puchong-hingga-km-12-kuala-lumpur_4358180",
+        "https://forum.lowyat.net/topic/3923848/all",
+        "https://homes.trovit.my/for-rent-bandar-kinrara-bukit-jalil",
+        "https://media.edgeprop.my/newspaper/assets/2026/may/EP003-01-LR.pdf",
+        "https://www.kurnia.com/panel-clinic-list",
+        "https://www.berjaya.com/pdf/bproperty/annual-reports/bjland11.pdf",
+        "https://media.edgeprop.my/s3fs-public/classified/20240628_spotlight.pdf",
+        "https://visa.educationmalaysia.gov.my/media/cms_upload/5.List_of_Panel_Clinics_for_Outpatient_GP_Visits_25.pdf",
+        "https://chess-results.com",
+        "https://s3.chess-results.com/tnr1162542.aspx?SNode=S0&lan=10&prt=5&zeilen=0",
+        "https://www.propertyguru.com.my/property-listing/subang-avenue-for-rent-by-karen-ong-502007277",
+        "https://www.propertyguru.com.my/property-listing/subang-avenue-for-rent-by-ker-kk-502180783",
+        "https://www.iproperty.com.my/bm/properti/puchong/the-wharf-residence/sale-501485595/"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 19,
+      "id": "B07-S19",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"The Wharf Residence\" \"560\" \"1,100\" 2026"
+          },
+          {
+            "q": "\"Univ 360\" \"975\" \"1,700\" 2026"
+          },
+          {
+            "q": "site.f3capital.com.my \"univ\" \"SOFO\""
+          },
+          {
+            "q": "site.oskproperty.com.my \"Shorea\" \"NARA\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://oskproperty.com.my/collection/",
+        "https://hub.oskproperty.com.my/articles-category/property-and-focus",
+        "https://www.oskgroup.com/osk-property-launches-nara-at-shorea-park-with-an-exciting-weekend-celebration/",
+        "https://shoreapark.com.my/nara-registration-1/",
+        "https://www.oskgroup.com/ar2024/documents/OSK%20HOLDINGS%20BERHAD%20IAR2024.pdf",
+        "https://propertynoob.com/condo/the-wharf-residence/rentals",
+        "https://cdn1.i3investor.com/my/files/st88k/5053_OSK/annual/2024-12-31/5053_OSK_AnnualReport_2024-12-31_OSKHIAR2024_Part2_-258298621.pdf",
+        "https://teddyteh.propviss.com.my/project/nara-at-shorea-park-1407/nara-at-shorea-park-1807",
+        "https://joeyngproperty.com/",
+        "https://ir2.chartnexus.com/osk/docs/qr/presentation/OSKH-Presentation-2025-Q1.pdf",
+        "https://wikiproperty.my/selangor/puchong/nara-at-shorea-park/",
+        "https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20260325/MYX/MYX_3648261_249751.pdf",
+        "https://oskconstruction.com/accolades/",
+        "https://www.sinarharian.com.my/article/694540/bisnes/osk-property-lancar-perumahan-fasa-baharu-nara-di-shorea-park",
+        "https://www.oskgroup.com/ar2023/download/oskh-sr-2023.pdf",
+        "https://www.oskgroup.com/wp-content/uploads/2024/08/34th-AGM-Presentation-Slides.pdf",
+        "https://www.starproperty.my/developer/19/osk-property-sdn-bhd",
+        "https://www.lemon8-app.com/%40emmahzam/7525453741173096961?region=my"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 20,
+      "id": "B07-S20",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn496view2",
+            "lineno": 100
+          },
+          {
+            "ref_id": "turn496view0",
+            "lineno": 135
+          },
+          {
+            "ref_id": "turn496view1",
+            "lineno": 130
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.iproperty.com.my/bm/properti/puchong/the-wharf-residence/sale-501485595/",
+        "https://www.propertyguru.com.my/property-listing/subang-avenue-for-rent-by-karen-ong-502007277",
+        "https://www.propertyguru.com.my/property-listing/subang-avenue-for-rent-by-ker-kk-502180783"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 21,
+      "id": "B07-S21",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"The Wharf Residence\" \"560\" \"1,100\" site:propertyguru.com.my/property-listing"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/property-listing/cl-puchong-tasik-prima-ground-floor-shop-for-rent-puchong-utama-putra-prima-for-rent-by-oscar-lee-60446364",
+        "https://www.propertyguru.com.my/property-listing/the-wharf-residence-for-rent-by-shirlee-toh-43459675",
+        "https://www.propertyguru.com.my/property-listing/the-wharf-residence-for-rent-by-ray-lee-43302039",
+        "https://www.propertyguru.com.my/property-listing/the-wharf-residence-for-rent-by-wai-keen-yan-40922388",
+        "https://www.propertyguru.com.my/condo-for-rent/in-taman-tasik-prima-h374o/with-1-bedroom",
+        "https://www.propertyguru.com.my/property-listing/cl-the-wharf-residence-for-rent-by-cannon-koh-43184907",
+        "https://www.propertyguru.com.my/property-listing/ol-ground-floor-shoplot-prima-biz-hub-taman-tasik-prima-puchong-putra-prima-for-rent-by-jacky-wong-500274842",
+        "https://www.propertyguru.com.my/property-listing/the-wharf-residence-for-rent-by-ivy-chong-60151599",
+        "https://www.propertyguru.com.my/property-listing/prima-bizwalk-business-park-taman-tasik-prima-puchong-for-rent-by-ivy-chong-42752602",
+        "https://www.propertyguru.com.my/property-listing/ol-the-wharf-residence-for-rent-by-ivy-chong-500095770",
+        "https://www.propertyguru.com.my/property-listing/ol-tasik-prima-puchong-for-rent-by-key-ling-500240164",
+        "https://www.propertyguru.com.my/property-listing/the-wharf-residence-for-rent-by-adam-lim-43250223"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 22,
+      "id": "B07-S22",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Univ 360\" \"975\" \"1,700\" site:iproperty.com.my/property"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.iproperty.com.my/property/seri-kembangan/univ-360-place/ol-rent-200231435/",
+        "https://www.iproperty.com.my/property/seri-kembangan/univ-360-place/ol-rent-200082542/",
+        "https://www.iproperty.com.my/property/seri-kembangan/univ-360-place/rent-501896572/",
+        "https://www.iproperty.com.my/property/seri-kembangan/univ-360-place/rent-500183487/",
+        "https://www.iproperty.com.my/property/seri-kembangan/univ-360-place/rent-200285203/",
+        "https://www.iproperty.com.my/property/seri-kembangan/univ-360-place/ol-rent-200290026/",
+        "https://www.iproperty.com.my/guides/foreigners-guide-renting-property-malaysia-50646.",
+        "https://www.iproperty.com.my/property-for-rent/near-sekolah-jenis-kebangsaan-cina-serdang-baru-2-34515/above-500-sqft",
+        "https://www.iproperty.com.my/property/seri-kembangan/univ-360-place/ol-rent-200369731/",
+        "https://www.iproperty.com.my/property/seri-kembangan/rent-500352764/",
+        "https://www.iproperty.com.my/property/seri-kembangan/univ-360-place/rent-106675187/",
+        "https://www.iproperty.com.my/property/seri-kembangan/univ-360-place/ol-rent-107425392/",
+        "https://www.iproperty.com.my/property-for-rent/at-univ-360-place-7049/with-3-bedrooms"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 23,
+      "id": "B07-S23",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://els.edu.my/sites/default/files/media/document/2023-10/ELS-UPM-Housing-2018-May.pdf"
+          },
+          {
+            "ref_id": "https://www.klcityproperties.com/property/fully-furnished-studio-condo-for-rent-at-univ360-place-upm-mrt-serdang/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://els.edu.my/sites/default/files/media/document/2023-10/ELS-UPM-Housing-2018-May.pdf",
+        "https://els.edu.my/sites/default/files/media/document/2023-10/ELS-UPM-Housing-2018-May.pdf\",\"lineno\":null}",
+        "https://www.klcityproperties.com/property/fully-furnished-studio-condo-for-rent-at-univ360-place-upm-mrt-serdang/",
+        "https://www.klcityproperties.com/property/fully-furnished-studio-condo-for-rent-at-univ360-place-upm-mrt-serdang/\",\"lineno\":null}"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 24,
+      "id": "B07-S24",
+      "request": {
+        "search_query": [
+          {
+            "q": "F3 Capital Univ 360 place designer SOFO suites official"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.f3capital.com.br/contato",
+        "https://www.f3capital.com.br/",
+        "https://engkydesign.com.my/download/ED%20company%20profile%20rev05.pdf",
+        "https://f-3capital.com/disclosure/",
+        "https://f3student.com/our-process/",
+        "https://www.f-3capital.com/",
+        "https://f-3capital.com/request-an-appointment/",
+        "https://f-3capital.com/contact/",
+        "https://f3student.com/collections/",
+        "https://f3student.com/",
+        "https://www.f-3capital.com/our-services",
+        "https://fthree.com/student-housing-furniture-collection/",
+        "https://f3architects.com/about-us/",
+        "https://investor.frasersproperty.com/misc/ar2016.pdf",
+        "https://f3design.qa/wp-content/uploads/2025/03/F3-Design-Profile-2025-2026.pdf"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 25,
+      "id": "B07-S25",
+      "request": {
+        "search_query": [
+          {
+            "q": "site:brickz.my \"UNIV 360\" \"2026\""
+          },
+          {
+            "q": "site:brickz.my \"THE WHARF\" \"2026\""
+          },
+          {
+            "q": "site:brickz.my \"SUBANG AVENUE\" \"2026\""
+          },
+          {
+            "q": "site:brickz.my \"KINRARA MAS\" \"2026\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/kinrara-mas/non-landed/condominium/",
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/kinrara-mas/non-landed/condominium/view/map/",
+        "https://www.brickz.my/transactions/residential/selangor/subang-jaya/subang-avenue/non-landed/",
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/kinrara-mas/non-landed/view/map/?orderby=amount_of_the_consideration&range=2025+Oct-",
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/non-landed/condominium/?order=ASC&orderby=med_psf",
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/kinrara-mas/non-landed/condominium/page/5/?orderby=tenure&range=2016+Dec-",
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/kinrara-mas/non-landed/condominium/page/11/?orderby=bedroom&range=2018+Jul-",
+        "https://www.brickz.my/transactions/residential/selangor/subang-jaya/subang-avenue/non-landed/?orderby=bedroom&range=2010+Dec-",
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/non-landed/condominium/?order=ASC&orderby=med_amount",
+        "https://www.brickz.my/transactions/residential/selangor/subang-jaya/subang-avenue/non-landed/view/charts/",
+        "https://www.brickz.my/transactions/residential/selangor/subang-jaya/subang-avenue/non-landed/service-residence/?orderby=tenure",
+        "https://www.brickz.my/transactions/residential/selangor/subang-jaya/subang-avenue/non-landed/service-residence/?orderby=lot_size&range=2024+May-"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 26,
+      "id": "B07-S26",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://shoreapark.com.my/nara-registration-1/"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "site.ioiproperties.com.my \"2Rio Residence\" \"632\""
+          },
+          {
+            "q": "site.sunwayproperty.com \"Sunway Serene\" \"2026\" units"
+          },
+          {
+            "q": "site.hckgroup.my \"Edumetro\" \"2026\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.ioiproperties.com.my/bandar-puteri-puchong-puchong-jaya/2rio-residence",
+        "https://www.ioiproperties.com.my/news/2rio-residence-ultimate-urban-oasis-bandar-puteri-puchong",
+        "https://files.ioiproperties.com.my/dsites/s3fs-public/annual-report/file/IOIPG%20IAR2024_Annual%20Report_Low_Res.pdf",
+        "https://www.ioiproperties.com.my/news/ready-next-leap-ioipg",
+        "https://files.ioiproperties.com.my/dsites/s3fs-public/financial-results/files/Q2%20FY2024%20Group%20Update.pdf",
+        "https://hckgroup.my/hck-capital-group-wins-urban-renewal-award-at-starproperty-awards-2026-for-transforming-remix-2-into-edumetro/",
+        "https://www.ioiproperties.com.my/news/pembeli-rumah-2rio-residence-ioipg-bawa-pulang-hadiah-keseluruhan-rm260000",
+        "https://hckgroup.my/wp-content/uploads/hck-ar-2025-c.pdf",
+        "https://sunwayproperty.com/news-events/after-record-sales-in-2025-sunway-property-sets-stage-for-further-growth-in-2026/",
+        "https://hckgroup.my/hck-steps-forward-to-revive-subang-sentral-offering-hope-to-buyers-and-community/",
+        "https://lifehere.sunwayproperty.com/",
+        "https://hckgroup.my/video-gallery/",
+        "https://hckgroup.my/building-homes-with-your-children-in-mind/",
+        "https://www.scribd.com/document/983297106/IOIPG-IAR2024-Annual-Report-Low-Res",
+        "https://hckgroup.my/hck-steps-forward-to-revive-subang-sentral-offering-hope-to-buyers-and-community/?lang=zh-hans",
+        "https://cdn1.i3investor.com/my/files/st88k/5020_GLOMAC/pt/AMINVEST/5020_GLOMAC_AMINVEST_2024-07-09_HOLD_0.40_GLOMACTepidPaceforLoopCitySales_-442460994.pdf",
+        "https://shoreapark.com.my/nara-registration-1/",
+        "https://shoreapark.com.my/nara-registration-1/\",\"lineno\":null}"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 27,
+      "id": "B07-S28",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Subang Suria\" condominium \"storey\" \"sale\" \"rent\""
+          },
+          {
+            "q": "\"Seri Galaksi\" \"Subang Bestari\" apartment floors rent sale"
+          },
+          {
+            "q": "site.helpu.edu.my Subang Bestari campus accommodation"
+          },
+          {
+            "q": "site.sunsuria.com \"Suria Residence\" completed"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://cdn01.sunsuria.com/Sunsuria_Annual_Report_2021_a94f9e83be.pdf",
+        "https://www.propertyguru.com.my/condo/pangsapuri-seri-galaksi-1485",
+        "https://www.edgeprop.my/listing/sale/3161831/pangsapuri-seri-galaksi-for-sale-by-ibrahim-bin-iderus",
+        "https://www.edgeprop.my/condo/pangsapuri-seri-galaksi-14700",
+        "https://www.mudah.my/property/properties-in-pangsapuri-seri-galaksi-selangor/",
+        "https://www.mudah.my/seri-galaksi-subang-bestari-tkt-1-115729314.htm",
+        "https://www.ejenhartanah.com.my/index.php?action=listingview&listingID=2515&printer_friendly=yes",
+        "https://www.propertyguru.com.my/property-for-sale/at-pangsapuri-seri-galaksi-1485",
+        "https://www.myrumahbaru.com/project/subang-bestari/subang-bestari-township",
+        "https://www.fazwaz.my/property-sales/3-bedroom-condo-for-sale-in-damansara-selangor-u2037552",
+        "https://university.help.edu.my/campus-life/accommodation/",
+        "https://www.iproperty.com.my/property/sungai-buloh/pangsapuri-seri-galaksi/sale-200230831//",
+        "https://dewan.selangor.gov.my/assets/pdf/sessions/2015/Sesi1/PERTANYAAN%20BERTULIS%20BESERTA%20JAWAPAN-1501.pdf",
+        "https://www.brickz.my/transactions/residential/page/2050/?range=2025+Mar-",
+        "https://university.help.edu.my/wp-content/uploads/2024/07/HELP_Accommodation_Brochure_2024.pdf",
+        "https://media.edgeprop.my/s3fs-public/pullout/20150724_EP_2009_lowres_locked.compressed.pdf",
+        "https://cdn01.sunsuria.com/Sunsuria_Annual_Report_2022_dae91bc2ef.pdf",
+        "https://www.reddit.com/r/malaysiauni/comments/1lstk2y",
+        "https://www.reddit.com/r/malaysiauni/comments/1wjidsa/help_uni/",
+        "https://en.wikipedia.org/wiki/HELP_University",
+        "https://www.reddit.com/r/malaysiauni/comments/1wbkghm/help_unifoundations_having_second_thoughts_on/",
+        "https://www.reddit.com/r/malaysiauni/comments/1ttl7tp/for_new_students_around_sunway_monash_subang/",
+        "https://www.reddit.com/r/malaysians/comments/1tr5d6p/helppp/",
+        "https://www.reddit.com/r/malaysiauni/comments/1w0k3hc/help_university_subang_campus_vs_damansara_campus/",
+        "https://www.reddit.com/r/malaysiauni/comments/1tqubvb/helping_students_find_rooms_around_sunway_taylors/",
+        "https://www.reddit.com/r/malaysiauni/comments/1u3o1v8/for_sunway_taylors_monash_students_is_it_better/",
+        "https://www.reddit.com/r/malaysiauni/comments/1tviflf/is_rm1500month_realistic_for_accommodation_around/",
+        "https://www.reddit.com/r/malaysiauni/comments/1uhpy2u/sunwaysubang_student_housing_quick_room_type/",
+        "https://www.reddit.com/r/malaysiauni/comments/1tmy6fk/sunwaytaylors_students_which_accommodation_areas/",
+        "https://www.reddit.com/r/malaysiauni/comments/1t545zm/small_guide_for_anyone_looking_for_a_room_around/",
+        "https://zh.wikipedia.org/wiki/%E7%B2%BE%E8%8B%B1%E5%A4%A7%E5%AD%A6_%28%E9%A9%AC%E6%9D%A5%E8%A5%BF%E4%BA%9A%29",
+        "https://www.help.edu.my",
+        "https://en.wikipedia.org/wiki/HELP_International_School"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 28,
+      "id": "B07-S29",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-501254363/"
+          },
+          {
+            "ref_id": "https://www.mudah.my/pangsapuri-seri-pinang-setia-alam-untuk-disewa-115578753.htm"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/bm/properti/setia-alam/seri-pinang/sale-500345753/"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-for-sale/at-suria-residence-6713"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-501254363/",
+        "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-501254363/\",\"lineno\":null}",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-impiria-residensi-bukit-tinggi-klang-9641;",
+        "https://www.mudah.my/pangsapuri-seri-pinang-setia-alam-untuk-disewa-115578753.htm",
+        "https://www.mudah.my/pangsapuri-seri-pinang-setia-alam-untuk-disewa-115578753.htm\",\"lineno\":null}",
+        "https://www.mudah.my/malaysia/apartment-condominium-for-rent;",
+        "https://www.iproperty.com.my/bm/properti/setia-alam/seri-pinang/sale-500345753/",
+        "https://www.iproperty.com.my/bm/properti/setia-alam/seri-pinang/sale-500345753/\",\"lineno\":null}",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-seri-pinang-8300;",
+        "https://www.propertyguru.com.my/property-for-sale/at-suria-residence-6713",
+        "https://www.propertyguru.com.my/property-for-sale/at-suria-residence-6713\",\"lineno\":null}"
+      ],
+      "error_flags": [
+        "Redirected to URL:",
+        "403",
+        "403",
+        "403",
+        "403",
+        "Redirected to URL:",
+        "Redirected to URL:"
+      ]
+    },
+    {
+      "sequence": 29,
+      "id": "B07-S30",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn505view3",
+            "pattern": "RM 476,000"
+          },
+          {
+            "ref_id": "turn505view2",
+            "pattern": "RM 295"
+          },
+          {
+            "ref_id": "turn505view0",
+            "pattern": "RM 590"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/property-for-sale/at-suria-residence-6713",
+        "https://www.iproperty.com.my/bm/properti/setia-alam/seri-pinang/sale-500345753/",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-seri-pinang-8300;",
+        "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-501254363/",
+        "https://www.iproperty.com.my/bm/hartanah-dijual/di-impiria-residensi-bukit-tinggi-klang-9641;"
+      ],
+      "error_flags": [
+        "Redirected to URL:",
+        "Redirected to URL:"
+      ]
+    },
+    {
+      "sequence": 30,
+      "id": "B07-S31",
+      "request": {
+        "search_query": [
+          {
+            "q": "site.propertyguru.com.my \"Suria Residence\" \"800\" \"2,000\" \"2026\""
+          },
+          {
+            "q": "\"Seri Pinang\" \"850\" \"1,200\" \"2026\""
+          },
+          {
+            "q": "\"Subang Suria\" \"floors\""
+          },
+          {
+            "q": "\"Impiria\" \"590,000\" \"2500\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.mudah.my/pangsapuri-seri-pinang-setia-alam-untuk-disewa-115578753.htm",
+        "https://cdn.rnudah.com/image_logo/plain/efa4560b6b4fe56a57960c00be8ef36c-2996452646040940510.jpg",
+        "https://www.mudah.my/property/properties-in-subang-suria-selangor",
+        "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/in-bukit-jelutong-uwrad/with-2-bedrooms",
+        "https://houselist.net/property/80454",
+        "https://www.propertyguru.com.my/bm/hartanah-disewa/di-suria-residence-6713",
+        "https://www.propertyguru.com.my/condo/pangsapuri-suria-subang-13656",
+        "https://irumah.co/penang-island/tanjung-bungah",
+        "https://myharta.mohdanuar.co/listingdetail.php?listing_id=723",
+        "https://penangproperty.com.my/new-launches/below-1-million/",
+        "https://homes.cari.la/homes/for-rent-furnished-shah-alam-bukit-jelutong-u8",
+        "https://www.wct.com.my/annual/WCT%20Annual%20Report%202022.pdf",
+        "https://www.ejenhartanah.com.my/index.php?Status%5B%5D=Sold&action=searchresults&cur_page=21&sortby=listingsdb_id&sorttype=DESC",
+        "https://speedhome.com/rent/putra-suria-residence-kuala-lumpur",
+        "https://www.7eleven.com.my/wp-content/uploads/2024/08/ar-2020.pdf",
+        "https://www.7eleven.com.my/wp-content/uploads/2024/08/ar-2018.pdf",
+        "https://en.wikipedia.org/wiki/Abdullah_Hukum_station",
+        "https://www.7eleven.com.my/wp-content/uploads/2024/08/ar-2023-1.pdf",
+        "https://www.malaysiastock.biz/Handler/GetReport.ashx?file=AR%2F2015%2F5%2F29%2F5250+-+1146198484670.pdf&name=7eleven_AR2014.pdf",
+        "https://media.edgeprop.my/s3fs-public/pullout/20171208_ep_2549_locked.pdf"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 31,
+      "id": "B07-S32",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn507view0",
+            "id": 51
+          },
+          {
+            "ref_id": "turn507view1",
+            "id": 30
+          },
+          {
+            "ref_id": "turn505view0",
+            "id": 32
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.propertyguru.com.my/bm/hartanah-disewa/di-suria-residence-6713"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-for-rent/at-impiria-residensi-bukit-tinggi-klang-9641"
+          },
+          {
+            "ref_id": "https://www.mudah.my/seri-galaksi-subang-bestari-tkt-1-115729314.htm"
+          },
+          {
+            "ref_id": "https://university.help.edu.my/campus-life/accommodation/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/bm/hartanah-disewa/di-suria-residence-6713",
+        "https://www.propertyguru.com.my/bm/hartanah-disewa/di-suria-residence-6713\",\"lineno\":null}",
+        "https://www.propertyguru.com.my/property-for-rent/at-impiria-residensi-bukit-tinggi-klang-9641",
+        "https://www.propertyguru.com.my/property-for-rent/at-impiria-residensi-bukit-tinggi-klang-9641\",\"lineno\":null}",
+        "https://www.mudah.my/seri-galaksi-subang-bestari-tkt-1-115729314.htm",
+        "https://www.mudah.my/seri-galaksi-subang-bestari-tkt-1-115729314.htm\",\"lineno\":null}",
+        "https://university.help.edu.my/campus-life/accommodation/",
+        "https://university.help.edu.my/campus-life/accommodation/\",\"lineno\":null}",
+        "https://www.propertyguru.com.my/property-listing/suria-residence-for-sale-by-david-kok-502190237",
+        "https://www.iproperty.com.my/bm/properti/setia-alam/seri-pinang/sale-501768201/",
+        "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-502121563/"
+      ],
+      "error_flags": [
+        "403"
+      ]
+    },
+    {
+      "sequence": 32,
+      "id": "B07-S33",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn509view4",
+            "pattern": "About this property"
+          },
+          {
+            "ref_id": "turn509view5",
+            "pattern": "Butiran"
+          },
+          {
+            "ref_id": "turn509view6",
+            "pattern": "600,000"
+          },
+          {
+            "ref_id": "turn509view1",
+            "pattern": "2,500"
+          },
+          {
+            "ref_id": "turn509view2",
+            "pattern": "Butiran"
+          },
+          {
+            "ref_id": "turn509view3",
+            "pattern": "HostelPro"
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn509view0",
+            "id": 48
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/suria-residence-untuk-disewa-oleh-sam-kiat-42520580",
+        "https://www.propertyguru.com.my/property-listing/suria-residence-for-sale-by-david-kok-502190237",
+        "https://www.iproperty.com.my/bm/properti/setia-alam/seri-pinang/sale-501768201/",
+        "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-502121563/",
+        "https://www.propertyguru.com.my/property-for-rent/at-impiria-residensi-bukit-tinggi-klang-9641",
+        "https://www.mudah.my/seri-galaksi-subang-bestari-tkt-1-115729314.htm",
+        "https://university.help.edu.my/campus-life/accommodation/",
+        "https://hostelpro.com.my/†hostelpro.com.my"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 33,
+      "id": "B07-S34",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn510view1",
+            "lineno": 162
+          },
+          {
+            "ref_id": "turn510view2",
+            "lineno": 141
+          },
+          {
+            "ref_id": "turn510view3",
+            "lineno": 146
+          },
+          {
+            "ref_id": "turn510view0",
+            "lineno": 150
+          },
+          {
+            "ref_id": "turn509view1",
+            "lineno": 120
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/property-listing/suria-residence-for-sale-by-david-kok-502190237",
+        "https://www.iproperty.com.my/bm/properti/setia-alam/seri-pinang/sale-501768201/",
+        "https://www.iproperty.com.my/bm/properti/klang/impiria-residensi-bukit-tinggi-klang/sale-502121563/",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/suria-residence-untuk-disewa-oleh-sam-kiat-42520580",
+        "https://www.propertyguru.com.my/property-for-rent/at-impiria-residensi-bukit-tinggi-klang-9641"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 34,
+      "id": "B07-S35",
+      "request": {
+        "search_query": [
+          {
+            "q": "site.nadayu.com.my \"801\" \"units\""
+          },
+          {
+            "q": "site.spsetia.com \"Setia Alaman\" \"2026\""
+          },
+          {
+            "q": "site.simeproperty.com \"Bandar Bukit Raja\" 2026 industrial residential"
+          },
+          {
+            "q": "site.oskproperty.com.my \"Mori Park\" \"units\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://spsetia.com/wp-content/uploads/2026/03/S_P_Setia_Berhad_IR2025.pdf",
+        "https://oskproperty.com.my/collection/",
+        "https://moripark.com.my/tamu/",
+        "https://sg1-cdn.pgimgs.com/projectnet-project/249930/ZPBRO.158212148.pdf",
+        "https://www.oskgroup.com/osk-property-unveils-bayu-mori-park-a-transit-oriented-lifestyles-hub-in-shah-alam/",
+        "https://oskproperty.com.my/setting-the-stage-for-future-expansion/",
+        "https://spsetia-cdn-f9hffqarazcwc5fj.a03.azurefd.net/wp-content/uploads/2026/05/Setia-Minutes-51st-AGM-23042026-FULL.pdf",
+        "https://spsetia.com/wp-content/uploads/2026/04/S_P_Setia_Berhad_IR2025.pdf",
+        "https://cmsstaging.spsetia.com/wp-content/uploads/2025/04/Corporate-Presentation-For-the-Year-Ended-31-December-2023.pdf",
+        "https://ir2.chartnexus.com/osk/docs/qr/presentation/OSKH-Presentation-2026-Q1.pdf",
+        "https://www.propertyguru.com.my/industrial-properties-for-sale/in-bandar-bukit-raja-vwfp0",
+        "https://financialfilings.com/filings/sime-darby-property-berhad/annual-report/2026/49095334/",
+        "https://www.simedarbyproperty.com/bandar-bukit-raja/industrial-park/",
+        "https://irumah.co/bandar-pinggiran-subang/nadayu-801",
+        "https://www.myrumahbaru.com/project/shah-alam/nadayu-801",
+        "https://propertysifu.my/newprojects/shah-alam/condo/alia-mori-park",
+        "https://www.edgeprop.my/condo/nadayu-801-28786",
+        "https://oskconstruction.com/portfolio/",
+        "https://en.wikipedia.org/wiki/Bukit_Raja",
+        "https://en.wikipedia.org/wiki/Sime_Darby_Property",
+        "https://www.reddit.com/r/u_Sime_Darby_Property/comments/iduxnc"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 35,
+      "id": "B07-S36",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn509view0",
+            "id": 43
+          },
+          {
+            "ref_id": "turn511view4",
+            "id": 48
+          },
+          {
+            "ref_id": "turn511view4",
+            "id": 50
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"Nadayu 801\" \"sale\" \"2026\" \"1000\""
+          },
+          {
+            "q": "\"BBK Condominium\" \"sale\" \"1000\" \"2026\""
+          },
+          {
+            "q": "\"BBK Condominium\" \"rent\" \"1000\""
+          },
+          {
+            "q": "site.nadayu.com \"801\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://speedhome.com/rent/bbk-condominium",
+        "https://www.propertygenie.com.my/for-rent/condominium/at-kampung-paya-jaras-hulu-in-sungai-buloh/price-below-1000",
+        "https://www.propertyguru.com.my/condo-for-sale/at-bbk-condominium-1762/above-1000-sqft",
+        "https://www.mudah.my/malaysia/all?q=bandar+baru+klang+condominium+klang",
+        "https://forum.lowyat.net/topic/4668244/all",
+        "https://www.edgeprop.my/listing/sale/2679756/johor/johor_bahru/industrial/factory-warehouse/kempas-business-park-3-storey-semi-detached-factory-2-adjoining-unit",
+        "https://www.new.miamiresidence.com/edgewater/blue-on-the-bay/condo-803-a12041985.htm",
+        "https://www.mudah.my/malaysia/all?q=perempuan",
+        "https://office-de-coffee.net/19903/",
+        "https://forum.lowyat.net/topic/4362294?author=awesomeheyo",
+        "https://sur.ly/i/nadayu.com.my/",
+        "https://propwalker.blogspot.com/2013/09/",
+        "https://www.nileslibrary.org/research/Newspapers/NilesHerald-Spectator/2012/11_01_2012.pdf",
+        "https://archive.cantonpl.org/observer/1989/07_Jul%201989/07-27-1989.pdf",
+        "https://www.vill.nakagusuku.okinawa.jp/UserFiles/File/R2tousyoyosan.pdf",
+        "https://oddownload.nuduseng.com/11%E8%80%81%E5%85%89%E7%9B%98%E7%BE%A4%28%E7%BE%A4%E5%8F%B7854318908%29%E7%BE%A4%E5%8F%8B%E5%88%86%E4%BA%AB%E6%B1%87%E6%80%BB%202019%E5%B9%B410%E6%9C%88/2019-10-05/%E5%A4%A7%E5%94%90%E6%89%8D%E5%AD%90/%E5%9B%BE%E4%B9%A6%E8%B5%84%E6%96%99%E5%AD%A6%E4%B9%A0/%E5%BE%AE%E5%9E%8B%E8%AE%A1%E7%AE%97%E6%9C%BA/%E5%BE%AE%E5%9E%8B%E8%AE%A1%E7%AE%97%E6%9C%BA2007/%E5%BE%AE%E5%9E%8B%E8%AE%A1%E7%AE%97%E6%9C%BA2007%E5%B9%B421%E6%9C%9F.pdf",
+        "https://patentimages.storage.googleapis.com/c1/bf/cf/7daf59140325f7/US10263254.pdf",
+        "https://www.propertyguru.com.my/property-listing/impiria-residensi-bukit-tinggi-klang-for-rent-by-pepsi-ang-501868171",
+        "https://www.propertyguru.com.my/property-listing/impiria-residensi-bukit-tinggi-klang-for-rent-by-lim-jeon-502178302"
+      ],
+      "error_flags": [
+        "403",
+        "Internal Error"
+      ]
+    },
+    {
+      "sequence": 36,
+      "id": "B07-S37",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Nadayu 801\" condominium sale rent",
+            "domains": [
+              "propertyguru.com.my",
+              "iproperty.com.my",
+              "nadayu.com.my"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/condo/nadayu-801-9806",
+        "https://www.propertyguru.com.my/condo/mosaic-residence-nadayu-801-23204",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/nadayu-801-untuk-disewa-oleh-ethan-chong-42448195",
+        "https://www.propertyguru.com.my/condo-for-rent/at-nadayu-801-9806",
+        "https://www.propertyguru.com.my/property-listing/nadayu-801-for-rent-by-alvin-chong-60098334",
+        "https://www.propertyguru.com.my/property-listing/nadayu-801-for-rent-by-william-teo-500778020",
+        "https://www.iproperty.com.my/condo/nadayu-801-9806",
+        "https://www.propertyguru.com.my/property-listing/nadayu-801-for-rent-by-alvin-chong-500886944",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/cl-nadayu-801-untuk-dijual-oleh-willy-kung-43290302",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/nadayu-801-untuk-disewa-oleh-owen-lim-501274683",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/nadayu-801-untuk-dijual-oleh-catherine-lum-60560964",
+        "https://www.propertyguru.com.my/property-for-rent/at-nadayu-801-9806/fully-furnished/5"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 37,
+      "id": "B07-S38",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"BBK Condominium\" \"910\" \"rent\"",
+            "domains": [
+              "propertyguru.com.my",
+              "iproperty.com.my",
+              "mudah.my"
+            ]
+          },
+          {
+            "q": "\"BBK Condominium\" \"sale\" \"255,000\"",
+            "domains": [
+              "propertyguru.com.my",
+              "iproperty.com.my"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/property-listing/bbk-condominium-for-rent-by-zac-wong-501883172",
+        "https://www.propertyguru.com.my/condo-for-sale/at-bbk-condominium-1762",
+        "https://www.propertyguru.com.my/condo-for-rent/at-bbk-condominium-1762",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/bbk-condominium-untuk-disewa-oleh-zac-wong-501883172",
+        "https://www.propertyguru.com.my/property-for-rent/at-bbk-condominium-1762",
+        "https://www.propertyguru.com.my/property-listing/bbk-condominium-for-rent-by-eddy-cheah-42344254",
+        "https://www.propertyguru.com.my/condo-for-sale/in-bandar-baru-klang-4xfqb/priced-under-400k-rm",
+        "https://www.propertyguru.com.my/condo-for-sale/near-sjk-c-taman-rashna-31008/priced-under-300k-rm",
+        "https://www.propertyguru.com.my/property-for-rent/at-bbk-condominium-1762/priced-under-2k-rm",
+        "https://www.propertyguru.com.my/condo-for-sale/near-sjk-c-taman-rashna-31008",
+        "https://www.propertyguru.com.my/condo-for-sale/in-klang-nzanj/priced-under-500k-rm/3",
+        "https://www.propertyguru.com.my/condo-for-rent/near-sjk-c-taman-rashna-31008"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 38,
+      "id": "B07-S39",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn513view1",
+            "pattern": "About this property"
+          },
+          {
+            "ref_id": "turn513view2",
+            "pattern": "About this property"
+          },
+          {
+            "ref_id": "turn511view3",
+            "pattern": "800"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/property-listing/impiria-residensi-bukit-tinggi-klang-for-rent-by-pepsi-ang-501868171",
+        "https://www.propertyguru.com.my/property-listing/impiria-residensi-bukit-tinggi-klang-for-rent-by-lim-jeon-502178302",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/suria-residence-untuk-disewa-oleh-sam-kiat-42520580"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 39,
+      "id": "B07-S40",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.propertyguru.com.my/condo-for-sale/at-bbk-condominium-1762"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-for-sale/at-nadayu-801-9806"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-for-rent/at-bbk-condominium-1762"
+          },
+          {
+            "ref_id": "https://moripark.com.my/tamu/"
+          },
+          {
+            "ref_id": "https://www.simedarbyproperty.com/bandar-bukit-raja/industrial-park/"
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn509view0",
+            "id": 56
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/condo-for-sale/at-bbk-condominium-1762",
+        "https://www.propertyguru.com.my/condo-for-sale/at-bbk-condominium-1762\",\"lineno\":null}",
+        "https://www.propertyguru.com.my/property-for-sale/at-nadayu-801-9806",
+        "https://www.propertyguru.com.my/property-for-sale/at-nadayu-801-9806\",\"lineno\":null}",
+        "https://www.propertyguru.com.my/property-for-rent/at-bbk-condominium-1762",
+        "https://www.propertyguru.com.my/property-for-rent/at-bbk-condominium-1762\",\"lineno\":null}",
+        "https://moripark.com.my/tamu/",
+        "https://moripark.com.my/tamu/\",\"lineno\":null}",
+        "https://www.simedarbyproperty.com/bandar-bukit-raja/industrial-park/",
+        "https://www.simedarbyproperty.com/bandar-bukit-raja/industrial-park/\",\"lineno\":null}",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/suria-residence-untuk-disewa-oleh-farah-dina-501887044"
+      ],
+      "error_flags": [
+        "403"
+      ]
+    },
+    {
+      "sequence": 40,
+      "id": "B07-S41",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn517view1",
+            "pattern": "RM 360,000"
+          },
+          {
+            "ref_id": "turn517view2",
+            "pattern": "1,605"
+          },
+          {
+            "ref_id": "turn517view5",
+            "pattern": "Tentang hartanah"
+          },
+          {
+            "ref_id": "turn517view3",
+            "pattern": "Expected Date"
+          },
+          {
+            "ref_id": "turn517view4",
+            "pattern": "Vinda"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.propertyguru.com.my/condo-for-sale/in-bandar-baru-klang-4xfqb/priced-under-400k-rm"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/condo-for-sale/in-bandar-baru-klang-4xfqb/priced-under-400k-rm",
+        "https://www.propertyguru.com.my/condo-for-sale/in-bandar-baru-klang-4xfqb/priced-under-400k-rm\",\"lineno\":null}",
+        "https://www.propertyguru.com.my/property-for-sale/at-nadayu-801-9806",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/suria-residence-untuk-disewa-oleh-farah-dina-501887044",
+        "https://moripark.com.my/tamu/",
+        "https://www.simedarbyproperty.com/bandar-bukit-raja/industrial-park/"
+      ],
+      "error_flags": [
+        "Internal Error"
+      ]
+    },
+    {
+      "sequence": 41,
+      "id": "B07-S42",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn518view1",
+            "id": 48
+          },
+          {
+            "ref_id": "turn518view1",
+            "id": 66
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn518view0",
+            "pattern": "250,000"
+          },
+          {
+            "ref_id": "turn517view2",
+            "pattern": "Sky Lim"
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn518view3",
+            "lineno": 161
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/suria-residence-untuk-disewa-oleh-farah-dina-501887044",
+        "https://www.propertyguru.com.my/property-listing/nadayu-801-for-sale-by-adam-lee-502158595",
+        "https://www.propertyguru.com.my/property-listing/nadayu-801-for-sale-by-ying-lee-60133947",
+        "https://www.propertyguru.com.my/property-for-sale/at-nadayu-801-9806;",
+        "https://www.propertyguru.com.my/condo-for-sale/in-bandar-baru-klang-4xfqb/priced-under-400k-rm"
+      ],
+      "error_flags": [
+        "Redirected to URL:",
+        "Internal Error"
+      ]
+    },
+    {
+      "sequence": 42,
+      "id": "B07-S43",
+      "request": {
+        "click": [
+          {
+            "ref_id": "turn519view3",
+            "id": 43
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn519view1",
+            "pattern": "About this property"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"BBK Condominium\" \"Sky Lim\" \"rent\" \"1,500\"",
+            "domains": [
+              "propertyguru.com.my",
+              "iproperty.com.my"
+            ]
+          },
+          {
+            "q": "\"Nadayu 801\" \"1079\" \"1800\" \"September\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/property-listing/bbk-condominium-for-rent-by-sky-lim-502061079",
+        "https://www.propertyguru.com.my/condo-for-rent/at-bbk-condominium-1762/above-1500-sqft",
+        "https://www.propertyguru.com.my/bm/kondo-disewa/di-bbk-condominium-1762/diatas-1500-kps",
+        "https://www.propertyguru.com.my/property-for-rent/at-bbk-condominium-1762",
+        "https://www.propertyguru.com.my/bm/hartanah-disewa/di-bbk-condominium-1762",
+        "https://www.propertyguru.com.my/bm/pangsapuri-kondo-servis-apartment-disewa/sekitar-bandar-baru-klang-4xfqb/diatas-1000-kps",
+        "https://www.propertyguru.com.my/bm/pangsapuri-kondo-servis-apartment-disewa/sekitar-bandar-baru-klang-4xfqb/harga-dibawah-rm-2k",
+        "https://www.propertyguru.com.my/bm/pangsapuri-kondo-servis-apartment-disewa/sekitar-bandar-baru-klang-4xfqb/diatas-750-kps",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/bbk-condominium-untuk-disewa-oleh-sky-lim-502061079",
+        "https://www.propertyguru.com.my/condo-for-rent/near-sjk-c-taman-rashna-31008",
+        "https://www.propertyguru.com.my/property-for-rent/in-bandar-baru-klang-4xfqb/above-1500-sqft",
+        "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/in-taman-klang-indah-zwu3t/above-1500-sqft",
+        "https://www.propertyguru.com.my/property-listing/bbk-condominium-for-sale-by-sky-lim-502178275",
+        "https://www.propertyguru.com.my/property-listing/nadayu-801-for-sale-by-adam-lee-502158595"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 43,
+      "id": "B07-S44",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn520view1",
+            "lineno": 159
+          },
+          {
+            "ref_id": "turn520view0",
+            "lineno": 170
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/bm/senarai-hartanah/nadayu-801-untuk-disewa-oleh-ethan-chong-42448195"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-listing/bbk-condominium-for-rent-by-sky-lim-502061079"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.propertyguru.com.my/property-listing/nadayu-801-for-sale-by-adam-lee-502158595",
+        "https://www.propertyguru.com.my/property-listing/bbk-condominium-for-sale-by-sky-lim-502178275",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/nadayu-801-untuk-disewa-oleh-ethan-chong-42448195",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/nadayu-801-untuk-disewa-oleh-ethan-chong-42448195\",\"lineno\":null}",
+        "https://www.propertyguru.com.my/property-listing/bbk-condominium-for-rent-by-sky-lim-502061079",
+        "https://www.propertyguru.com.my/property-listing/bbk-condominium-for-rent-by-sky-lim-502061079\",\"lineno\":null}"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 44,
+      "id": "B07-S45",
+      "request": {
+        "search_query": [
+          {
+            "q": "site.sunsuria.com \"Forum 2\" \"2026\" \"completion\""
+          },
+          {
+            "q": "site.mitraland.com.my \"Gravit8\" \"Riva\" \"2026\""
+          },
+          {
+            "q": "site.brickz.my \"BBK CONDOMINIUM\" \"2026\""
+          },
+          {
+            "q": "site.brickz.my \"IMPIRIA\" \"2026\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.gravit8.com.my/riva/",
+        "https://www.brickz.my/transactions/residential/selangor/page/335/?range=2008+Aug-",
+        "https://medfordhsproject.com/wp-content/uploads/2026/04/2026.03.31-Medford-HS-OPM-Monthly-Report.pdf",
+        "https://list.my/subsales/selangor/klang/kapar/bbk-condominium",
+        "https://www.propertyguru.com.my/condo/bbk-condominium-1762",
+        "https://my.linkedin.com/in/gabriel-ngim-a17480135",
+        "https://pre-www.bharian.com.my/ringkasanberita/1516737?d=1772597188&ringkasan=1516737",
+        "https://www.pbebank.com/media/p2slri1f/list-of-prop-26-mar-2026.pdf",
+        "https://linktr.ee/impiriainterior",
+        "https://skyrisecities.com/forum/threads/toronto-6344-ninth-line-19-72m-6s-mattamy-homes-lemay.43437/",
+        "https://jtksm.gov.my/en/services/employees-housing-accommodations-and-amenities/list-worker-accommodation-centers?page=62",
+        "https://cpteaching.com/product/assisting-hand-assessment-online-usa-canada-june-2026-october-2027-english/?v=b870c45f9584",
+        "https://www.ufficiocamerale.it/1189/impiria-srl",
+        "https://www.propertyguru.com.my/bm/hartanah-dijual/di-bbk-condominium-1762",
+        "https://www.queensu.ca/academia/drrgmay/sites/acadmaywww/files/uploaded_files/engl200-700fw/syllabus.pdf",
+        "https://www.conf-icnc.org/2026/2026-ICNC-Brief.pdf",
+        "https://static-www.comune.jesolo.ve.it/wp-content/uploads/2025/11/Locandina-Incontriamoci-a-teatro-2025-26.pdf",
+        "https://electiondata.mcgm.gov.in/A4%20Booth%20wise%20Voter%20List%202026/BoothVoterList_A4_Ward_68_Booth_10.pdf"
+      ],
+      "error_flags": []
+    },
+    {
+      "sequence": 45,
+      "id": "B07-S46",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/kinrara-mas/non-landed/condominium/"
+          },
+          {
+            "ref_id": "https://www.brickz.my/transactions/residential/selangor/subang-jaya/subang-avenue/non-landed/"
+          },
+          {
+            "ref_id": "https://shoreapark.com.my/nara-registration-1/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/kinrara-mas/non-landed/condominium/\",\"lineno\":null}",
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/bukit-jalil/kinrara-mas/non-landed/condominium/:",
+        "https://www.brickz.my/transactions/residential/selangor/subang-jaya/subang-avenue/non-landed/\",\"lineno\":null}",
+        "https://www.brickz.my/transactions/residential/selangor/subang-jaya/subang-avenue/non-landed/:",
+        "https://shoreapark.com.my/nara-registration-1/",
+        "https://shoreapark.com.my/nara-registration-1/\",\"lineno\":null}"
+      ],
+      "error_flags": [
+        "Internal Error",
+        "Failed to fetch",
+        "403",
+        "Internal Error",
+        "Failed to fetch",
+        "403"
+      ]
+    },
+    {
+      "sequence": 46,
+      "id": "B07-S47",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://jtksm.gov.my/en/services/employees-housing-accommodations-and-amenities/list-worker-accommodation-centers?page=62"
+          },
+          {
+            "ref_id": "https://www.pbebank.com/media/p2slri1f/list-of-prop-26-mar-2026.pdf"
+          },
+          {
+            "ref_id": "https://www.gravit8.com.my/riva/"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"Sunsuria\" \"Forum\" \"completed\" \"2025\"",
+            "domains": [
+              "sunsuria.com"
+            ]
+          },
+          {
+            "q": "\"Sunsuria Forum\" \"2026\" completion",
+            "domains": [
+              "sunsuria.com"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://cdn01.sunsuria.com/57th_AGM_Minutes_31_3_2026_For_website_1c1f6b8e79.pdf",
+        "https://www.sunsuria.com/about-us/investor-relations",
+        "https://www.sunsuria.com/",
+        "https://cdn01.sunsuria.com/3_NOTICE_OF_57_TH_ANNUAL_GENERAL_MEETING_6a82df3a69.pdf",
+        "https://cdn01.sunsuria.com/EN_Press_Release_Sunsuria_FY_2025_Q3_Announcement_8456840426.pdf",
+        "https://www.sunsuria.com/?mid=recruitment",
+        "https://www.sunsuria.com/?post_type=sc_information",
+        "https://cdn01.sunsuria.com/5_PROXY_FORM_8e3f87c169.pdf",
+        "https://www.sunsuria.com/?lang=th_TH",
+        "https://jtksm.gov.my/en/services/employees-housing-accommodations-and-amenities/list-worker-accommodation-centers?page=62",
+        "https://jtksm.gov.my/en/services/employees-housing-accommodations-and-amenities/list-worker-accommodation-centers?page=62\",\"lineno\":null}",
+        "https://www.pbebank.com/media/p2slri1f/list-of-prop-26-mar-2026.pdf\",\"lineno\":null}",
+        "https://www.gravit8.com.my/riva/",
+        "https://www.gravit8.com.my/riva/\",\"lineno\":null}"
+      ],
+      "error_flags": [
+        "Internal Error"
+      ]
+    },
+    {
+      "sequence": 47,
+      "id": "B07-S48",
+      "request": {
+        "find": [
+          {
+            "ref_id": "turn524view0",
+            "pattern": "BBK"
+          },
+          {
+            "ref_id": "turn524view2",
+            "pattern": "Completion"
+          },
+          {
+            "ref_id": "turn523view2",
+            "pattern": "Expected"
+          }
+        ],
+        "response_length": "long"
+      },
+      "status": "fulfilled",
+      "urls": [
+        "https://jtksm.gov.my/en/services/employees-housing-accommodations-and-amenities/list-worker-accommodation-centers?page=62",
+        "https://www.gravit8.com.my/riva/",
+        "https://shoreapark.com.my/nara-registration-1/"
+      ],
+      "error_flags": [
+        "403",
+        "403"
+      ]
+    }
+  ]
+}

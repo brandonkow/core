@@ -1,0 +1,51 @@
+{
+  "version": "B06-WORKING-01",
+  "research_status": "PARTIAL; B06 catchments remain open",
+  "source_commit": "050101be35ea3ef3434292eee547af3749734674",
+  "master_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "files": [
+    {
+      "path": "B06_Working_Inputs.json",
+      "sha": "5147ddf6a6a552fef14b483e1dc39de75c9361c0",
+      "sha256": "81ec174503d0d3498c9e9ecd2584afb903c8bfd4bcec505552615e7a6deb1b39",
+      "bytes": 12575
+    },
+    {
+      "path": "B06_Working_Evidence.json",
+      "sha": "16a0456f7477c4e452a85fc15939b5fb70a7e9da",
+      "sha256": "6121f86804ca1a36485e289915ba7ad0ef7058669750382b9f0fe03dc4651994",
+      "bytes": 16020
+    },
+    {
+      "path": "B06_Working_Financials.json",
+      "sha": "f04dc2eace2e7c5716233795bead4bfbd65b76be",
+      "sha256": "c8a524272b0208695ce0e7284cb4e4c1188dc43e951a95a5ac8fd212c43b42f8",
+      "bytes": 2675774
+    },
+    {
+      "path": "B06_Working_01.md",
+      "sha": "e98f8269376db9b981e5c628db2b2d84df4446ee",
+      "sha256": "eefd25fbf75ce115d49c87e9175cbfd452cf1be5af049875b140b20175ff2050",
+      "bytes": 22016
+    },
+    {
+      "path": "B06_RESUME_CHECKPOINT.md",
+      "sha": "bdc52f454689ef431838d2ed9909767d03627014",
+      "sha256": "deccc1655f9de22952b9f5aee81176c4907f404979d3e5c79208893971ed100a",
+      "bytes": 3845
+    },
+    {
+      "path": "B06_Working_Search_Log.json",
+      "sha": "a85d729cdbf1909fd877db9491d21f8fde3ba2c6",
+      "sha256": "1b15325cca5d17ae4957c87001bd24191506fc05fe954dbd617dbdca25834d80",
+      "bytes": 17073
+    },
+    {
+      "path": "verify_b06_working_01.py",
+      "sha": "b538c3ac6bac5d28905bad88984c8fdc7b65f732",
+      "sha256": "f071962f82bc411130ea1d2c733d0cf5ac952ea2f821fda1ce7980796c5dc278",
+      "bytes": 3795
+    }
+  ],
+  "boundary": "Files listed here are immutable working snapshot01. Future packets must use different names. Navigation may advance. File and arithmetic verification are not market validation."
+}

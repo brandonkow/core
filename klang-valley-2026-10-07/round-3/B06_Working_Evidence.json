@@ -1,0 +1,282 @@
+{
+  "version": "B06-WORKING-01",
+  "cutoff": "2026-10-07",
+  "sources": [
+    {
+      "id": "B06-E01",
+      "title": "Wangsa Metroview sale 502004978",
+      "url": "https://www.iproperty.com.my/bm/properti/wangsa-maju/wangsa-metroview/sale-502004978/",
+      "event_or_listing_date": "2026-08-31",
+      "access": "Opened advertisement text",
+      "observed_facts": "RM350000;1150sf;3BR2BA;partly furnished;body claims2bays and freehold.",
+      "interpretation_and_limit": "Ad claims are not title/condition/availability proof. Marketing claim of below-market excluded.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E02",
+      "title": "Wangsa Metroview rental index",
+      "url": "https://www.propertyguru.com.my/condo-for-rent/at-wangsa-metroview-635",
+      "event_or_listing_date": "Mixed June/September2026",
+      "access": "Search extraction and opened page disagreed in snapshot dates",
+      "observed_facts": "Search returned September1150sf asks1500/1700/1800. Open returned June1150sf1450 and1155sf1500; room rents and sale-price-as-monthly row also appear.",
+      "interpretation_and_limit": "Retain both snapshots; no falling inventory or achieved-rent inference.1500base/1450low/1800high are scenario anchors with unmatched bays.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E03",
+      "title": "The Ridge sale 501399097",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/the-ridge-untuk-dijual-oleh-peigee-501399097",
+      "event_or_listing_date": "2026-09-11",
+      "access": "Search-return detailed advertisement text",
+      "observed_facts": "RM450000;651sf;studio header versus1+1body;partly furnished;one covered bay.",
+      "interpretation_and_limit": "Same-agent iProperty500638560 dated9April is duplicate lineage, not second independent sale. Plan and studio/bedroom designation unresolved.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E04",
+      "title": "The Ridge partly furnished rental index",
+      "url": "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/at-the-ridge-9667/partially-furnished",
+      "event_or_listing_date": "May-June2026 search;August-September2026 opened snapshot",
+      "access": "Search extraction and open",
+      "observed_facts": "Earlier search651sf2100partly furnished; opened page largely865sf and a651sf2700two-bedroom label.",
+      "interpretation_and_limit": "No same-condition achieved series. The newer label does not verify an original second bedroom or rent premium.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E05",
+      "title": "The Ridge rent 502205784",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/the-ridge-untuk-disewa-oleh-yanny-siow-502205784",
+      "event_or_listing_date": "2026-10-05;available2026-12-01",
+      "access": "Search-return detailed advertisement text",
+      "observed_facts": "651sf;1+1;fully furnished;one bay;TowerB;ask2400-2500;December availability.",
+      "interpretation_and_limit": "Not immediate possession or in-place income for the sale unit. June19ad501563857 separately asks2400 furnished, not an achieved lease.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E06",
+      "title": "D'Sara voluntary sale 501980193",
+      "url": "https://www.propertyguru.com.my/property-listing/d-sara-sentral-for-sale-by-mr-jeff-low-501980193",
+      "event_or_listing_date": "2026-10-02",
+      "access": "Opened advertisement text",
+      "observed_facts": "RM410000;805sf;2BR1BA;fully furnished;renovation claimed.",
+      "interpretation_and_limit": "Title/tower and approved area unconfirmed; cannot transfer SOVO status either positively or negatively from another tower.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E07",
+      "title": "D'Sara rent 501876744",
+      "url": "https://www.propertyguru.com.my/property-listing/d-sara-sentral-for-rent-by-david-lai-501876744",
+      "event_or_listing_date": "2026-10-04",
+      "access": "Opened advertisement text",
+      "observed_facts": "809sf;2BR1BA;partly furnished. HeaderRM1800;bodyRM1700.",
+      "interpretation_and_limit": "Explicit rent conflict;1700diagnostic does not authenticate either figure. Condition/bays differ from sale.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E08",
+      "title": "D'Sara ordinary rent index",
+      "url": "https://www.propertyguru.com.my/property-for-rent/at-d-sara-sentral-5885",
+      "event_or_listing_date": "2026-10-02 to2026-10-07",
+      "access": "Opened index",
+      "observed_facts": "809sf two-bedroom asks1800-2000, some higher;504sf asks1650-1800;rooms separately listed.",
+      "interpretation_and_limit": "Source-level requests are not matched leases, occupancy or absorption. No room-income aggregation.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E09",
+      "title": "D'Sara advertised auction 502124786",
+      "url": "https://www.propertyguru.com.my/property-listing/d-sara-sentral-for-sale-by-ang-eng-guan-502124786",
+      "event_or_listing_date": "2026-10-02",
+      "access": "Opened advertisement text",
+      "observed_facts": "HeaderRM221100;861sf;2BR2BA. Body identifies auction and says photographs are not the actual unit.",
+      "interpretation_and_limit": "Exclude from ordinary voluntary-price comparison. Exact lot/date/POS/COS/eligibility/possession unconfirmed; reserve is not a sale.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E10",
+      "title": "D'Sara separate auction listing LIDM1007481",
+      "url": "https://www.edgeprop.my/listing/sale/1007481/selangor/sungai_buloh/nonlanded/condominium-apartment-servicedresidence/d-sara-sentral-residence-date-21-08-26",
+      "event_or_listing_date": "Listed2026-10-05;scheduled2026-10-07",
+      "access": "Search-return detailed advertisement text",
+      "observed_facts": "RM245700;861sf;BlockSB2;31stfloor;advertised Bumi lot.",
+      "interpretation_and_limit": "Do not merge with221100ad without exact lot matching. No result of today's auction established; eligibility is not inferred from the user's identity.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E11",
+      "title": "M Astra completion announcement",
+      "url": "https://www.mahsing.com.my/news/mah-sing-completes-m-astra-15-months-early-with-record-89-qlassic-rating/",
+      "event_or_listing_date": "2026-01-26",
+      "access": "Developer news search extraction",
+      "observed_facts": "Developer reports early completion and89%QLASSIC.",
+      "interpretation_and_limit": "Delivery claim adds competing-stock research; not occupancy, resale depth, governance or rental evidence.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E12",
+      "title": "MRT3 final scheme approval",
+      "url": "https://www.mymrt.com.my/wp-content/uploads/2025/07/MRTC-MEDIA-RELEASE-MRT3-CIRCLE-LINE-RAILWAY-SCHEME-RECEIVES-FINAL-APPROVAL-Website.pdf",
+      "event_or_listing_date": "2025-07-17",
+      "access": "Official PDF search text",
+      "observed_facts": "Final scheme approved;land acquisition targeted for end2026.",
+      "interpretation_and_limit": "End2026 refers to land acquisition, not service commencement. No operating DanauKota/Setapak station credit.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E13",
+      "title": "Saville rental aggregation",
+      "url": "https://www.propertyguru.com.my/property-listing/saville-melawati-for-rent-by-desmond-low-43459396",
+      "event_or_listing_date": "May2026 snapshot",
+      "access": "Search-return redirected/index content",
+      "observed_facts": "980-1007sf three-bedroom asks around1800-2300;room700/750also appears;insights call some inventory studio and list planned rail convenience.",
+      "interpretation_and_limit": "Room is not independent studio evidence; search interest is not buyer adoption. No new compact parcel admitted.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E14",
+      "title": "Urban360 rent501659158",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/urban-360-untuk-disewa-oleh-edwin-wong-501659158",
+      "event_or_listing_date": "2026-07-05",
+      "access": "Search-return advertisement text",
+      "observed_facts": "511sf furnished studio1450;one bay. Description includes unrelated clubhouse wording.",
+      "interpretation_and_limit": "Supports advertised scenario only; does not fix prior sale240k/250kconflict.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E15",
+      "title": "Urban360 rental counterexample",
+      "url": "https://www.carousell.com.my/p/studio-unit-for-rent-urban-360-residence-batu-caves-gombak-1462868294/",
+      "event_or_listing_date": "Posting date not supplied;retrieved2026-10-07",
+      "access": "Search extraction",
+      "observed_facts": "511sf partly furnished studio1200;one bay;October readiness claimed.",
+      "interpretation_and_limit": "Different condition and source;keep downside branch rather than assume1450sustainable.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E16",
+      "title": "Urban360 sale sample",
+      "url": "https://www.mudah.my/selangor-gombak/apartment-condominium-for-sale/urban-360",
+      "event_or_listing_date": "August-October2026mixedindex",
+      "access": "Search extraction",
+      "observed_facts": "1001sf family asksaround350000;511sf prices include financing promotions;506sf126000markedSOFO.",
+      "interpretation_and_limit": "Screening lead only. Cheap506sf cannot replace511sfscenario; rights and mechanism differ. Marketing finance terms do not change90%standard.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E17",
+      "title": "KL East developer masterplan",
+      "url": "https://www.simedarbyproperty.com/kl-east/",
+      "event_or_listing_date": "Current undatedpage,retrieved2026-10-07",
+      "access": "Developer search extraction",
+      "observed_facts": "The Ridge listed completed/soldout;The Reya larger1350-2210sfproduct;East61landed;ECRL is upcoming.",
+      "interpretation_and_limit": "Developer soldout is primary-sales status, not resale supply exhaustion. Canonical TheRidge assignment A43 with A41/A42demand links.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E18",
+      "title": "The Reya preview",
+      "url": "https://www.simedarbyproperty.com/sites/default/files/2025-08/20250814-%20For%20Immediate%20Release-%20Sime%20Darby%20Property%E2%80%99s%20%E2%80%98The%20Reya%E2%80%99%20in%20KL%20East%20Hits%20the%20Mark%20with%2080%25%20Take-Up%20at%20Preview.pdf",
+      "event_or_listing_date": "2025-08-14",
+      "access": "Developer PDF search text",
+      "observed_facts": "480units;1350-2210sf;from899000;phase1preview80%takeupclaim.",
+      "interpretation_and_limit": "Forward larger-family competition;not480occupiedunits or an equal compact substitute.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E19",
+      "title": "D'Sara2017annualreport",
+      "url": "https://www.mahsing.com.my/web/storage/2022/08/2017_Annual_PDF.pdf",
+      "event_or_listing_date": "Report2017",
+      "access": "Developer report search text",
+      "observed_facts": "Separate residential/SOVO/retail components and bridge construction reported;then-targeted2018opening.",
+      "interpretation_and_limit": "Historical component map, not current parcel legal clearance or present bridge condition.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E20",
+      "title": "SpringVille Ukay lead",
+      "url": "https://www.edgeprop.my/listing/sale/3532114/spring-ville-apartment-ukay-perdana-for-sale-by-jamil",
+      "event_or_listing_date": "EarlyOctober2026searchmetadata;exactlistdateunread",
+      "access": "Search extraction",
+      "observed_facts": "728sf3BR2BA;250000ask;160monthlyfeeclaim;tenanted;5.28%ROIclaim.",
+      "interpretation_and_limit": "ROI implies1100monthly if gross, but no rent stated or lease obtained;do not model as achieved. Gate paper not yet completed.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E21",
+      "title": "Selayang Point sale index",
+      "url": "https://www.propertyguru.com.my/property-for-sale/at-selayang-point-2735",
+      "event_or_listing_date": "2026-09-14 to2026-10-07",
+      "access": "Opened index",
+      "observed_facts": "1010sf325000;1089sf330000;1118sf330000two-bayclaim;variedunits.",
+      "interpretation_and_limit": "New family leads, not independent clearing records;need exact ads and rent match before case.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E22",
+      "title": "Selayang Point rent index",
+      "url": "https://www.iproperty.com.my/rent/taman-pinggiran/selayang-point-98rv06/condominium/",
+      "event_or_listing_date": "April-May2026",
+      "access": "Search-return index",
+      "observed_facts": "1010sfpartlyfurnished1300-1450;1089sf1500;1100sffurnished1800.",
+      "interpretation_and_limit": "Older asks and size/condition mismatch;hospital proximity does not establish income or buyer premium.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E23",
+      "title": "Kwasa Damansara City Centre",
+      "url": "https://kwasacitycentre.com/",
+      "event_or_listing_date": "Undatedcurrentpage,retrieved2026-10-07",
+      "access": "Developer project search extraction",
+      "observed_facts": "Plannedintegrateddevelopment;residentialbuildingmethodandtwoMRTstationaccesspromoted.",
+      "interpretation_and_limit": "Masterplan not a current residential sale/rent or provenemployment-to-renttransmission. Kwasa standalonecohort stillunworked.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E24",
+      "title": "Casa Mila sampling exclusion",
+      "url": "https://www.propertyguru.com.my/property-for-sale/at-casa-mila-1091",
+      "event_or_listing_date": "2026-10-01 to2026-10-02",
+      "access": "Search-return index",
+      "observed_facts": "1181sfcondo280000listedalongside1800-2000sfterracedhousesunderprojectpage.",
+      "interpretation_and_limit": "Do not pool building forms or infer localfloor from portalminima. Remain diagnostic leads.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    },
+    {
+      "id": "B06-E25",
+      "title": "Dahlia B form exclusion",
+      "url": "https://www.propertyguru.com.my/condo/apartment-dahlia-b-1085",
+      "event_or_listing_date": "Undatedprofile",
+      "access": "Search-return profiletext",
+      "observed_facts": "Profiledescribesfour-storey465sftwo-bedroomapartment.",
+      "interpretation_and_limit": "Low-rise/formuncertainty;not admitted as an eligible high-rise solelytofillcompactcell.",
+      "retrieved": "2026-10-07",
+      "authenticated_unit_evidence": false
+    }
+  ],
+  "boundary": "Summarised factual source observations, not raw page archives; searches and opened-page snapshots may differ. Sources remain unverified at exact-unit level."
+}

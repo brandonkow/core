@@ -1,0 +1,453 @@
+{
+  "version": "B06-WORKING-01",
+  "boundary": "Search activity log and returned URLs only; not a raw webpage archive. Irrelevant returns are not research evidence. Source facts used are in B06_Working_Evidence.json. Returned-source lists below retain only selected ledger URLs; counts include all returned sources. This is not a lossless archive.",
+  "calls": [
+    {
+      "id": "B06-S01",
+      "retrieved": "2026-10-07",
+      "search_queries": [
+        "site.propertyguru.com.my \"Urban 360\" \"511\" sale rent",
+        "site.propertyguru.com.my \"Wangsa Metroview\" sale rent 1150",
+        "site.mah-sing.com.my \"M Astra\" completed 2026",
+        "site.propertyguru.com.my \"Saville Melawati\" \"studio\" sale rent"
+      ],
+      "operations": [],
+      "returned_sources": [
+        {
+          "title": "Wangsa Metroview Condos for Rent, Sep 2026 | PropertyGuru Malaysia",
+          "url": "https://www.propertyguru.com.my/condo-for-rent/at-wangsa-metroview-635"
+        },
+        {
+          "title": "Houses for Rent at Saville @ Melawati, May 2026",
+          "url": "https://www.propertyguru.com.my/property-listing/saville-melawati-for-rent-by-desmond-low-43459396"
+        }
+      ],
+      "total_returned_source_addresses": 22
+    },
+    {
+      "id": "B06-S02",
+      "retrieved": "2026-10-07",
+      "search_queries": [
+        "site.propertyguru.com.my/property-listing \"Urban 360\" \"511\" \"sale\"",
+        "site.propertyguru.com.my/property-listing \"Urban 360\" \"511\" \"rent\"",
+        "site.propertyguru.com.my/property-listing \"Wangsa Metroview\" \"sale\" \"350,000\"",
+        "site.propertyguru.com.my/property-listing \"The Ridge\" \"Taman Melawati\" sale rent"
+      ],
+      "operations": [],
+      "returned_sources": [
+        {
+          "title": "Kondominium untuk Dijual di Wangsa Metroview oleh Lucas Sit",
+          "url": "https://www.iproperty.com.my/bm/properti/wangsa-maju/wangsa-metroview/sale-502004978/"
+        },
+        {
+          "title": "Studio Unit For Rent. Urban 360 Residence Batu Caves Gombak, Property, Rentals on Carousell",
+          "url": "https://www.carousell.com.my/p/studio-unit-for-rent-urban-360-residence-batu-caves-gombak-1462868294/"
+        }
+      ],
+      "total_returned_source_addresses": 17
+    },
+    {
+      "id": "B06-S03",
+      "retrieved": "2026-10-07",
+      "search_queries": [
+        "site.propertyguru.com.my/property-listing \"Selayang 18\" \"550\" \"sale\"",
+        "site.propertyguru.com.my \"Selayang 18\" \"550\" \"rent\"",
+        "site.propertyguru.com.my \"Dahlia Apartment\" \"Batu Caves\" sale rent",
+        "site.propertyguru.com.my \"D’Sara Sentral\" \"785\" sale rent"
+      ],
+      "operations": [],
+      "returned_sources": [
+        {
+          "title": "Apartment Dahlia B - Apartment for Sale or Rent | PropertyGuru Malaysia",
+          "url": "https://www.propertyguru.com.my/condo/apartment-dahlia-b-1085"
+        }
+      ],
+      "total_returned_source_addresses": 18
+    },
+    {
+      "id": "B06-S04",
+      "retrieved": "2026-10-07",
+      "search_queries": [
+        "D Sara Sentral 783 785 sale rent 2026",
+        "Selayang Point studio 560 sale rent 2026",
+        "Batu Caves Casa Mila condo sale rent 1000 2026",
+        "Ukay Perdana Sri Hijauan condo sale rent 2026"
+      ],
+      "operations": [],
+      "returned_sources": [
+        {
+          "title": "Casa Mila Condos for Sale, Oct 2026 | PropertyGuru Malaysia",
+          "url": "https://www.propertyguru.com.my/property-for-sale/at-casa-mila-1091"
+        }
+      ],
+      "total_returned_source_addresses": 21
+    },
+    {
+      "id": "B06-S05",
+      "retrieved": "2026-10-07",
+      "search_queries": [],
+      "operations": [
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/condo/d-sara-sentral-5885"
+        },
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/condo/selayang-point-2735"
+        },
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/condo/the-ridge-9667"
+        },
+        {
+          "type": "open",
+          "url": "https://www.mahsing.com.my/making-headlines/"
+        }
+      ],
+      "returned_sources": [],
+      "total_returned_source_addresses": 4
+    },
+    {
+      "id": "B06-S06",
+      "retrieved": "2026-10-07",
+      "search_queries": [],
+      "operations": [
+        {
+          "type": "find",
+          "url": "https://www.propertyguru.com.my/condo/selayang-point-2735",
+          "pattern": "For Sale"
+        },
+        {
+          "type": "find",
+          "url": "https://www.propertyguru.com.my/condo/the-ridge-9667",
+          "pattern": "450,000"
+        },
+        {
+          "type": "find",
+          "url": "https://www.mahsing.com.my/making-headlines/",
+          "pattern": "15 months"
+        },
+        {
+          "type": "click",
+          "from_url": "https://www.propertyguru.com.my/condo/d-sara-sentral-5885",
+          "link_id": 52
+        },
+        {
+          "type": "click",
+          "from_url": "https://www.propertyguru.com.my/condo/d-sara-sentral-5885",
+          "link_id": 53
+        }
+      ],
+      "returned_sources": [
+        {
+          "title": "Houses for Rent at D'sara Sentral, Sept 2026",
+          "url": "https://www.propertyguru.com.my/property-for-rent/at-d-sara-sentral-5885"
+        }
+      ],
+      "total_returned_source_addresses": 4
+    },
+    {
+      "id": "B06-S07",
+      "retrieved": "2026-10-07",
+      "search_queries": [
+        "\"D sara Sentral\" \"783\" \"RM\"",
+        "\"D’sara Sentral\" \"783\" \"rent\"",
+        "\"Urban 360\" \"511\" \"RM 1,450\"",
+        "\"The Ridge\" \"651\" \"450,000\""
+      ],
+      "operations": [],
+      "returned_sources": [
+        {
+          "title": "Urban 360 untuk Untuk Disewa - RM 1,450 /bulan, Jul 2026",
+          "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/urban-360-untuk-disewa-oleh-edwin-wong-501659158"
+        },
+        {
+          "title": "The Ridge untuk Untuk Dijual - RM 450,000, Sep 2026",
+          "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/the-ridge-untuk-dijual-oleh-peigee-501399097"
+        }
+      ],
+      "total_returned_source_addresses": 14
+    },
+    {
+      "id": "B06-S08",
+      "retrieved": "2026-10-07",
+      "search_queries": [
+        "\"The Ridge\" \"651\" \"2,400\" rent",
+        "\"M Astra\" \"15 months\" site:mahsing.com.my",
+        "\"MRT3\" \"2032\" site:mymrt.com.my"
+      ],
+      "operations": [
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/property-for-sale/at-d-sara-sentral-5885",
+          "line": 90
+        },
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/property-for-rent/at-d-sara-sentral-5885",
+          "line": 90
+        }
+      ],
+      "returned_sources": [
+        {
+          "title": "The Ridge untuk Untuk Disewa - RM 2,400 /bulan, Okt 2026",
+          "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/the-ridge-untuk-disewa-oleh-yanny-siow-502205784"
+        },
+        {
+          "title": "Mah Sing completes M Astra 15 months early with record 89% QLASSIC rating - Mah Sing",
+          "url": "https://www.mahsing.com.my/news/mah-sing-completes-m-astra-15-months-early-with-record-89-qlassic-rating/"
+        },
+        {
+          "title": "The Ridge Apartment Condo Service Residence for Rent, Jul 2026 | PropertyGuru Malaysia",
+          "url": "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/at-the-ridge-9667/partially-furnished"
+        },
+        {
+          "title": "Houses for Rent at D'sara Sentral, Oct 2026",
+          "url": "https://www.propertyguru.com.my/property-for-rent/at-d-sara-sentral-5885"
+        }
+      ],
+      "total_returned_source_addresses": 16
+    },
+    {
+      "id": "B06-S09",
+      "retrieved": "2026-10-07",
+      "search_queries": [],
+      "operations": [
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/property-for-sale/at-d-sara-sentral-5885",
+          "line": 140
+        },
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/property-for-rent/at-d-sara-sentral-5885",
+          "line": 140
+        }
+      ],
+      "returned_sources": [
+        {
+          "title": "Houses for Rent at D'sara Sentral, Oct 2026",
+          "url": "https://www.propertyguru.com.my/property-for-rent/at-d-sara-sentral-5885"
+        }
+      ],
+      "total_returned_source_addresses": 2
+    },
+    {
+      "id": "B06-S10",
+      "retrieved": "2026-10-07",
+      "search_queries": [],
+      "operations": [
+        {
+          "type": "click",
+          "from_url": "https://www.propertyguru.com.my/property-for-sale/at-d-sara-sentral-5885",
+          "link_id": 56
+        },
+        {
+          "type": "click",
+          "from_url": "https://www.propertyguru.com.my/property-for-sale/at-d-sara-sentral-5885",
+          "link_id": 60
+        },
+        {
+          "type": "click",
+          "from_url": "https://www.propertyguru.com.my/property-for-rent/at-d-sara-sentral-5885",
+          "link_id": 70
+        },
+        {
+          "type": "click",
+          "from_url": "https://www.propertyguru.com.my/condo/selayang-point-2735",
+          "link_id": 54
+        },
+        {
+          "type": "click",
+          "from_url": "https://www.propertyguru.com.my/condo/selayang-point-2735",
+          "link_id": 55
+        }
+      ],
+      "returned_sources": [
+        {
+          "title": "Service Residence for Sale at D'sara Sentral - Ang Eng Guan",
+          "url": "https://www.propertyguru.com.my/property-listing/d-sara-sentral-for-sale-by-ang-eng-guan-502124786"
+        },
+        {
+          "title": "Service Residence for Sale at D'sara Sentral - Mr Jeff Low",
+          "url": "https://www.propertyguru.com.my/property-listing/d-sara-sentral-for-sale-by-mr-jeff-low-501980193"
+        },
+        {
+          "title": "Service Residence for Rent at D'sara Sentral - David Lai",
+          "url": "https://www.propertyguru.com.my/property-listing/d-sara-sentral-for-rent-by-david-lai-501876744"
+        },
+        {
+          "title": "Selayang Point Condos for Sale, Sep 2026 | PropertyGuru Malaysia",
+          "url": "https://www.propertyguru.com.my/property-for-sale/at-selayang-point-2735"
+        }
+      ],
+      "total_returned_source_addresses": 5
+    },
+    {
+      "id": "B06-S11",
+      "retrieved": "2026-10-07",
+      "search_queries": [
+        "site.mymrt.com.my MRT3 final railway scheme 2025 2026",
+        "site.mudah.my \"Urban 360\" \"250 000\" \"511\"",
+        "site.propertyguru.com.my \"Serini\" \"633\" \"sale\"",
+        "site.propertyguru.com.my \"Spring Ville\" \"Ukay\" \"sale\""
+      ],
+      "operations": [],
+      "returned_sources": [
+        {
+          "title": "Malaysia Rapid Transit Corporation Sdn B",
+          "url": "https://www.mymrt.com.my/wp-content/uploads/2025/07/MRTC-MEDIA-RELEASE-MRT3-CIRCLE-LINE-RAILWAY-SCHEME-RECEIVES-FINAL-APPROVAL-Website.pdf"
+        },
+        {
+          "title": "Spring Ville Apartment, Ukay Perdana Condo for Sale in Ampang, Selangor by JAMIL | EdgeProp.my",
+          "url": "https://www.edgeprop.my/listing/sale/3532114/spring-ville-apartment-ukay-perdana-for-sale-by-jamil"
+        }
+      ],
+      "total_returned_source_addresses": 36
+    },
+    {
+      "id": "B06-S12",
+      "retrieved": "2026-10-07",
+      "search_queries": [
+        "site.kwasaland.com.my residential 2026 apartment high rise",
+        "site.simedarbyproperty.com KL East The Ridge Mellowood The Reya 2026",
+        "site.mahsing.com.my D sara Sentral serviced residences SOVO 2018",
+        "site.propertyguru.com.my \"Urban 360\" \"350,000\" \"1,001\""
+      ],
+      "operations": [],
+      "returned_sources": [
+        {
+          "title": "KL East | Sime Darby Property",
+          "url": "https://www.simedarbyproperty.com/kl-east/"
+        },
+        {
+          "title": "Review of Operations",
+          "url": "https://www.mahsing.com.my/web/storage/2022/08/2017_Annual_PDF.pdf"
+        },
+        {
+          "title": "FOR IMMEDIATE RELEASE",
+          "url": "https://www.simedarbyproperty.com/sites/default/files/2025-08/20250814-%20For%20Immediate%20Release-%20Sime%20Darby%20Property%E2%80%99s%20%E2%80%98The%20Reya%E2%80%99%20in%20KL%20East%20Hits%20the%20Mark%20with%2080%25%20Take-Up%20at%20Preview.pdf"
+        }
+      ],
+      "total_returned_source_addresses": 28
+    },
+    {
+      "id": "B06-S13",
+      "retrieved": "2026-10-07",
+      "search_queries": [
+        "Kwasa Damansara 2026 high rise residential developer official",
+        "\"Urban 360\" \"350,000\" sale 1001",
+        "\"Selayang Point\" \"350,000\" \"1,000\"",
+        "\"Selayang Point\" \"1,500\" rent 1000"
+      ],
+      "operations": [],
+      "returned_sources": [
+        {
+          "title": "24 Apartment / Condominium For Sale Urban 360 in Gombak, Selangor, Oct 2026",
+          "url": "https://www.mudah.my/selangor-gombak/apartment-condominium-for-sale/urban-360"
+        },
+        {
+          "title": "37 Condominiums for Rent at Selayang Point, Selayang | May 2026",
+          "url": "https://www.iproperty.com.my/rent/taman-pinggiran/selayang-point-98rv06/condominium/"
+        },
+        {
+          "title": "KWASA DAMANSARA CITY CENTRE – KDCC",
+          "url": "https://kwasacitycentre.com/"
+        }
+      ],
+      "total_returned_source_addresses": 22
+    },
+    {
+      "id": "B06-S14",
+      "retrieved": "2026-10-07",
+      "search_queries": [],
+      "operations": [
+        {
+          "type": "open",
+          "url": "https://www.iproperty.com.my/bm/properti/wangsa-maju/wangsa-metroview/sale-502004978/",
+          "line": 90
+        },
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/property-listing/d-sara-sentral-for-sale-by-mr-jeff-low-501980193",
+          "line": 140
+        },
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/property-listing/d-sara-sentral-for-rent-by-david-lai-501876744",
+          "line": 140
+        },
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/property-for-sale/at-selayang-point-2735",
+          "line": 100
+        }
+      ],
+      "returned_sources": [
+        {
+          "title": "Kondominium untuk Dijual di Wangsa Metroview oleh Lucas Sit",
+          "url": "https://www.iproperty.com.my/bm/properti/wangsa-maju/wangsa-metroview/sale-502004978/"
+        },
+        {
+          "title": "Service Residence for Sale at D'sara Sentral - Mr Jeff Low",
+          "url": "https://www.propertyguru.com.my/property-listing/d-sara-sentral-for-sale-by-mr-jeff-low-501980193"
+        },
+        {
+          "title": "Service Residence for Rent at D'sara Sentral - David Lai",
+          "url": "https://www.propertyguru.com.my/property-listing/d-sara-sentral-for-rent-by-david-lai-501876744"
+        },
+        {
+          "title": "Selayang Point Condos for Sale, Oct 2026 | PropertyGuru Malaysia",
+          "url": "https://www.propertyguru.com.my/property-for-sale/at-selayang-point-2735"
+        }
+      ],
+      "total_returned_source_addresses": 4
+    },
+    {
+      "id": "B06-S15",
+      "retrieved": "2026-10-07",
+      "search_queries": [
+        "\"D sara Sentral\" \"221,100\" auction",
+        "\"Dsara Sentral\" \"221100\"",
+        "\"D'sara Sentral\" \"861\" auction October 2026",
+        "site.myrapid.com.my \"Wangsa Maju\" \"Gombak\" \"Kampung Selamat\""
+      ],
+      "operations": [],
+      "returned_sources": [
+        {
+          "title": "D'Sara Sentral Condominium Condo for Sale in Sungai Buloh, Selangor by ADRIAN OON | EdgeProp.my",
+          "url": "https://www.edgeprop.my/listing/sale/1007481/selangor/sungai_buloh/nonlanded/condominium-apartment-servicedresidence/d-sara-sentral-residence-date-21-08-26"
+        }
+      ],
+      "total_returned_source_addresses": 21
+    },
+    {
+      "id": "B06-S16",
+      "retrieved": "2026-10-07",
+      "search_queries": [],
+      "operations": [
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/condo-for-rent/at-wangsa-metroview-635",
+          "line": 105
+        },
+        {
+          "type": "open",
+          "url": "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/at-the-ridge-9667/partially-furnished",
+          "line": 115
+        }
+      ],
+      "returned_sources": [
+        {
+          "title": "Wangsa Metroview Condos for Rent, Jun 2026 | PropertyGuru Malaysia",
+          "url": "https://www.propertyguru.com.my/condo-for-rent/at-wangsa-metroview-635"
+        },
+        {
+          "title": "Apartments / Condos / Service Residences for Rent - Partially Furnished at The Ridge, Oct 2026",
+          "url": "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/at-the-ridge-9667/partially-furnished"
+        }
+      ],
+      "total_returned_source_addresses": 2
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+name: Verify and publish decision map
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'visualization/**'
+      - 'Residential_Investment_Framework.md'
+      - 'sop/**'
+      - 'execution-release-2026-10-07/**'
+      - 'phase-7/Phase_7_SOP_Addendum.md'
+      - 'Evidence_Judgment_Divergence_Integration_Audit.md'
+      - '.github/workflows/decision-map.yml'
+  pull_request:
+    paths:
+      - 'visualization/**'
+      - 'Residential_Investment_Framework.md'
+      - 'sop/**'
+      - 'execution-release-2026-10-07/**'
+      - 'phase-7/Phase_7_SOP_Addendum.md'
+      - 'Evidence_Judgment_Divergence_Integration_Audit.md'
+      - '.github/workflows/decision-map.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: decision-map-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: '24'
+      - name: Verify sources, routing and decision precedence
+        run: node visualization/verify.cjs
+      - name: Stage only the map for publication
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        run: |
+          mkdir -p _site
+          cp visualization/Decision_Engine_Neural_Map.html _site/index.html
+          cp visualization/Decision_Engine_Neural_Map.html _site/Decision_Engine_Neural_Map.html
+          touch _site/.nojekyll
+      - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+        with:
+          path: _site
+
+  deploy:
+    if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
+    needs: verify
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+        id: deployment

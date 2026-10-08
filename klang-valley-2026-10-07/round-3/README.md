@@ -1,6 +1,6 @@
 # Klang Valley underwriting - round 3 continuation
 
-Cutoff: 7 October 2026. Programme status: **incomplete; B03-B05 bounded regional desk passes completed**. Resume from B06 using [the current continuation record](B05_RESUME_CHECKPOINT.md). Earlier checkpoints remain historical release records. The user designated [brandonkow/core](https://github.com/brandonkow/core) as the repository for this project and future generated research/framework files.
+Cutoff: 7 October 2026. Programme status: **incomplete; B03-B06 bounded regional desk passes completed**. Next is B07 A46-A53. Use [the final B06 checkpoint](B06_FINAL_RESUME_CHECKPOINT.md). Earlier checkpoints and working packets remain historical release records. The user designated [brandonkow/core](https://github.com/brandonkow/core) as the canonical repository; all new artifacts go to GitHub and existing local files remain untouched.
 
 The 61-catchment map is complete as a scope register. Round 1's 14 cases and round 2's 50 cases provide conditional underwriting inputs, not 64 verified investment opportunities. The nine earlier Cheras expressions remain separate historical research. Having a disposition for each area did not complete the full regional research requirement. No Deploy is validated.
 
@@ -16,6 +16,11 @@ This continuation preserves the original programme scope, frozen consolidated Co
 
 ## Latest substantive work
 
+- [B06 regional synthesis](B06_Regional_Synthesis.md): five catchments A41-A45, fourteen operating G0-G9 expressions and two threshold-only Kwasa controls. [Evidence/supply](B06_Evidence_and_Supply.md), [case gates](B06_Cases_G0_G9.md), [financials](B06_Financial_Underwriting.md), [divergences/misses](B06_Divergence_and_Misses.md) and [substantive audit](B06_Completion_Audit.md). Conflicting prices, owner-added partitions and forward supply remain material holds. All cases Defer; 204 financial evaluations, 91 synthetic pair paths and 36 rent-grid cells are reproducible. No Deploy.
+
+- [B06 working packet 01](B06_Working_01.md): three new conditional gate papers, six unchanged inherited financial inputs, a factual evidence ledger and120 verified financial evaluations. New auction, furnishing, room/studio and source-date distinctions; all cases Defer. This is a partial research checkpoint, not a regional closeout.
+
+
 - [B05 regional synthesis](B05_Regional_Synthesis.md): seven catchments A34-A40, sixteen conditional G0-G9 expressions, fifty saved source returns,212financial evaluations and120joint stress paths. [Evidence/supply](B05_Evidence_and_Supply.md), [gates](B05_Cases_G0_G9.md), [financials](B05_Financial_Underwriting.md), [divergence/misses](B05_Divergence_and_Misses.md) and [self-audit](B05_Completion_Audit.md). Parkview, Titiwangsa, lower-price Boulevard and Lucentia fee interpretation are evidence priorities, not cleared investments. No Deploy.
 - [B04 regional synthesis](B04_Regional_Synthesis.md): nine catchments A25-A33 and nineteen G0-G9 expressions; bounded desk-complete Defer. [Evidence/supply](B04_Evidence_and_Supply.md), [gate papers](B04_Cases_G0_G9.md), [financial underwriting](B04_Financial_Underwriting.md), [divergence/misses](B04_Divergence_and_Misses.md) and [substantive audit](B04_Completion_Audit.md). Pines and Windsor are mature-family verification leads; Cliveden/Neo remain held. No purchase is cleared.
 - [PJ integrated regional synthesis](B03_Regional_Synthesis.md): seven catchments and fourteen G0-G9 expressions; bounded desk-complete Defer, no decision-ready unit. [Evidence and supply](B03_Evidence_and_Supply.md), [case workpapers](B03_Cases_G0_G9.md), [financial underwriting](B03_Financial_Underwriting.md), [divergence/misses](B03_Divergence_and_Misses.md) and [substantive completion audit](B03_Completion_Audit.md) form the release. Eve compact is the first ordinary-income verification lead; Mahkota is a family control. Amcorp/Centrestage remain component-held.
@@ -25,7 +30,7 @@ This continuation preserves the original programme scope, frozen consolidated Co
 - [Four additional G0-G9 controls](Contrasting_Cases_G0_G9.md): Desa Green two-bedroom, The Tropika two-bedroom, M Oscar two-bedroom and Silk Sky studio. Identity and offer limitations remain explicit.
 - [Current financial comparison](B01_B02_Financial_Comparison.md): 29 expressions at 90% LTV, 4% and 35 years. No positive cost-complete annual base-case carry and no validated Deploy within this comparison.
 
-B01/B02 have enhanced syntheses for17catchments with final substantive audit pending. B03-B05 have23bounded desk-complete catchments. The other21retain earlier screening/case work and await comparable B06-B08deepening. Next is B06A41-A45, then remaining batches, cross-region comparison, programme portfolio stress and final substantive audit. These are workflow counts, not a completion percentage.
+B01/B02 have enhanced syntheses for 17 catchments with final substantive audit pending. B03-B06 have 28 bounded desk-complete catchments. The other 16 retain earlier screening/case work and await comparable B07/B08 deepening. Next is B07 A46-A53, then B08, the B01/B02 audits, cross-region comparison, programme portfolio stress and final substantive audit. These are workflow counts, not a completion percentage.
 
 Earlier documents are retained as dated records. Their arithmetic remains conditional on their original inputs. The round 2 'public desk pass is closed' wording does not close outstanding material regional work. Root navigation points here without rewriting history.
 

@@ -1,6 +1,6 @@
 # Decision Engine Neural Map
 
-Interactive single-file visualisation of the [master framework](../Residential_Investment_Framework.md) and its SOP layer, built on 7 October 2026 at the user's request. Open [Decision_Engine_Neural_Map.html](Decision_Engine_Neural_Map.html) in a browser. Fonts load from Google Fonts; without a network connection the page falls back to system fonts and still works.
+Interactive single-file visualisation of the [master framework](../Residential_Investment_Framework.md) and its SOP layer, built on 7 October 2026 at the user's request. Use the [interactive map](https://brandonkow.github.io/core/) after the Pages deployment passes, or download [Decision_Engine_Neural_Map.html](Decision_Engine_Neural_Map.html) and open it in a browser. Fonts load from Google Fonts; without a network connection the page falls back to system fonts and still works.
 
 The map lays the framework out as a left-to-right network: evidence and informed judgment, the Evidence–Judgment Divergence check (four-state logic, families A–D, falsifiable hypothesis, flag status, margin of safety), the 35 frozen Core principles, the ordered G0–G9 gates with their divergence watchpoints and stop rules, the SOP steps and diagnostics, the execution supplement's financial tests, the four G9 decisions and investment roles, and the learning loop (miss record, F1–F12, candidates, promotion threshold). It has three modes:
 
@@ -10,7 +10,7 @@ The map lays the framework out as a left-to-right network: evidence and informed
 
 ## Status and boundary
 
-This is a reading aid, not a framework document. It does not amend the master, the Core, G0–G9, the SOP or any release; it adds no gate, G10, causal principle, score or investment validation; and it authorises no outreach or purchase. "Run a path" shows decision logic only, not a case or a signal. Area-based underwriting (regional protocols, Cheras and Klang Valley case files) is excluded on purpose. No existing repository file was changed to add this folder, and the root README navigation was not updated.
+This is a reading aid, not a framework document. It does not amend the master, the Core, G0–G9, the SOP or any release; it adds no gate, G10, causal principle, score or investment validation; and it authorises no outreach or purchase. "Run a path" shows decision logic only, not a case or a signal. Area-based underwriting (regional protocols, Cheras and Klang Valley case files) is excluded on purpose. The initial Claude commit only added this folder. The verification continuation adds root navigation, reproducible checks and a map-only Pages deployment.
 
 ## Sources and versions
 
@@ -37,7 +37,7 @@ If any of these files changes, the map may be out of date; rebuild it rather tha
 - Line weight on a Core → gate link is the number of routing-table rows citing it. Routing row 2 ("G0–G5, followed by G6–G9") is drawn only as its G0 and G5 links, but it is counted on every existing 5.29/5.30 link it covers.
 - The Core cluster headings are a reading aid; the master lists 5.1–5.35 without groups.
 
-## Checks performed before commit
+## Original Claude checks before its commit
 
 These checks cover the file's fidelity and behaviour only. They are not market or investment validation.
 
@@ -46,4 +46,13 @@ These checks cover the file's fidelity and behaviour only. They are not market o
 - The "Run a path" logic was evaluated over all 746,496 input combinations with no violation of the precedence invariants: Reject only for an established structural failure; Preserve Capacity only for an allocation constraint; Deploy only when every gate passes, no flag is unresolved, coverage is verified, any shortfall has an evidenced transition record, and a Special Situation has a validated discount; a current shortfall always sits in the lowest research tier. The seven illustrative paths return the outcomes their cited audit scenarios or standard sections require.
 - The coverage calculator uses the same instalment formula as `execution-release-2026-10-07/financial_engine.py` (90% of price, 4%, 420 months).
 - Interaction smoke test in desktop light, desktop dark and phone widths: no script errors, no horizontal overflow, all modes and controls exercised.
-- A four-lens review (link provenance, decision logic, attribution and scope, code behaviour) raised 41 findings. The review was stopped before its own adversarial verifiers finished, to conserve usage, so each finding was checked against the sources by hand. All were addressed: corrected links, provenance labels, row counts and citations; source wording restored where a step had firmed up "ordinarily yields" or "may be a hard Gate"; Run-a-path inputs relabelled so only an established failure can produce Reject; the shortfall, unresolved flags and unverified coverage carried into every decision's rationale; and fixes for keyboard focus, pointer handling, calculator rounding, and a page-scroll defect in the Run-a-path form. A follow-up adversarial recheck against the committed version confirmed 40 of the 41 as fixed; the remaining keyboard-focus case (entering Run a path from the overview) was then fixed and verified. A regression review of those fixes, with its own adversarial verifier, confirmed five further defects and refuted two claims. The five were fixed: the calculator now works in integer sen, so its exact 6% test and rounded-up rents hold at the boundary, and a blank price, rent or fee shows an unverified result instead of a zero-cost verdict; keyboard focus is kept after arrow keys, Escape and Play; a run-state badge stays inside its gate box; and a three-finger touch no longer makes the zoom jump. The calculator fixes were brute-force tested over 3,007 prices.
+- A four-lens review (link provenance, decision logic, attribution and scope, code behaviour) raised 41 findings. The review was stopped before its own adversarial verifiers finished, to conserve usage, so each finding was checked against the sources by hand. All were addressed: corrected links, provenance labels, row counts and citations; source wording restored where a step had firmed up "ordinarily yields" or "may be a hard Gate"; Run-a-path inputs relabelled so only an established failure can produce Reject; the shortfall, unresolved flags and unverified coverage carried into every decision's rationale; and fixes for keyboard focus, pointer handling, calculator rounding, and a page-scroll defect in the Run-a-path form.
+
+
+## Independent verification continuation
+
+See [verification report](VERIFICATION_2026-10-07.md) and [machine-readable receipt](verification-results.json). Four reproduced issues were fixed in the visualisation: invalid calculator inputs, the partial-divergence residual assessment, an overlapping result panel, and green traces through unknown gates. Core and SOP documents are unchanged.
+
+The current source/routing/decision suite covers 1,492,992 raw input combinations and 164 passages. Run `node visualization/verify.cjs`. Browser checks cover six viewport/theme configurations; see the report for exact evidence and limits. The original 41-item review transcript was unavailable, so this continuation does not claim to have closed that unpublished checklist.
+
+The residual assessment in Run a path is an explicit hypothetical evidence input, like the other gate inputs. Selecting it does not authenticate evidence or validate an investment. The calculator remains independent of the path simulator and does not silently set a gate result.

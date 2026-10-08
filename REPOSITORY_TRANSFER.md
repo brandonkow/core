@@ -4,6 +4,10 @@ Date: 7 October 2026. Repository: [brandonkow/core](https://github.com/brandonko
 
 The user requested transfer of every project-generated file and all framework Markdown to this repository, followed by deletion of this project's local research directory and local checkout only after safe remote verification. Future project outputs belong here; temporary workspaces should be removed after their completed work has been pushed and verified.
 
+## Superseding retention instruction
+
+On 7 October 2026, after the verified transfer and blocked cleanup attempts, the user instructed: leave the old local files alone and send all future project files to GitHub. This suspends the earlier deletion requirement and removes cleanup as a research prerequisite. Historical transfer and cleanup observations below remain historical evidence. No further local deletion or permission changes are authorised by the current workflow. See [CURRENT_WORKFLOW.md](CURRENT_WORKFLOW.md).
+
 ## Included
 
 The complete former Residential Investment Decision Engine directory contributes533files, including145Markdown documents, Core, SOP, handoff, validation and failures, historical/forward registers, Cheras, all Klang Valley rounds, raw sources, PDFs/images, inputs, calculations, scripts and three existing generated Python cache files. Nothing from that project directory was omitted. The original407Q&A attachment adds one unmodified source file under source-inputs, giving534preserved source files and146source Markdown files. Administrative repository files and this report are additional.

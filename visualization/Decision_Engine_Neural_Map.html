@@ -274,9 +274,6 @@ form.run legend{padding:0;font-family:var(--font-mono);font-size:10.5px;font-wei
   .hint{display:none}
   .ribbon .lab{display:none}
 }
-@media (min-width: 861px){
-  .result.sticky{position:sticky;top:0;z-index:1;box-shadow:0 6px 14px -10px rgba(0,0,0,.35)}
-}
 @media (prefers-reduced-motion: reduce){
   .edge,.node,.node .body,.dec .core{transition:none}
 }
@@ -723,6 +720,7 @@ const STEPS = [
 /* ------------------------------------------------------------------ run-a-path */
 const FORM = [
   ['div','Divergence flag',[['none','None material'],['resolved','Resolved'],['partial','Partially resolved'],['unresolved','Unresolved']]],
+  ['residual','Residual divergence test',[['no','Not demonstrated'],['yes','Gate-compatible; adverse explanation survived']]],
   ['G0','G0 · reference price',[['ok','Clearing price normalised'],['stop','Unresolved']]],
   ['G1','G1 · market mechanism',[['ok','Identified'],['inc','Incomplete']]],
   ['G2','G2 · future buyer',[['ok','Defined'],['stop','Vague']]],
@@ -736,7 +734,7 @@ const FORM = [
   ['G8','G8 · portfolio',[['ok','Fits mandate'],['unk','Unknown'],['cap','Allocation constraint']]],
   ['role','Declared role',[['comp','Compounder'],['defu','Defensive utility'],['spec','Special situation'],['inc','Income engine']]]
 ];
-const BASE = {div:'none',G0:'ok',G1:'ok',G2:'ok',G3:'ok',G4:'ok',G5:'fair',G6:'ok',G7:'ok',cov:'pos',tr:'no',G8:'ok',role:'comp'};
+const BASE = {div:'none',residual:'no',G0:'ok',G1:'ok',G2:'ok',G3:'ok',G4:'ok',G5:'fair',G6:'ok',G7:'ok',cov:'pos',tr:'no',G8:'ok',role:'comp'};
 const PRESETS = [
   ['Aligned, but governance and title evidence missing','Integration audit · boundary scenario 1',{G3:'unk',G7:'unk'}],
   ['Unknown G0 with a deeper discount offered','Integration audit · boundary scenario 10',{div:'unresolved',G0:'stop',G5:'unk',role:'spec'}],
@@ -783,6 +781,7 @@ function evaluate(s){
     if (pre && s.G5 === 'unk') reasons.push(['G5 gap unexplained: why is it there, is it reversible, how much is recoverable?', 'Master G5']);
     if (gs.G8 === 'unk') reasons.push(['G8 capital constraints unknown: only a labelled synthetic allocation experiment is possible.', 'Execution standard §4']);
     if (s.div === 'unresolved') reasons.push(['Divergence flag unresolved: preserve the affected gate stop. Waiting or a favourable price move does not resolve it.', 'Master §5 · unresolved divergence']);
+    if (s.div === 'partial' && s.residual !== 'yes') reasons.push(['Residual divergence needs an explicit, evidenced gate-compatibility assessment and a thesis that survives the plausible adverse explanation.', 'Master §5 · decision precedence']);
     if (s.cov === 'unv') reasons.push(['Standard coverage unverified: reliable rent, loan basis or fee is missing.', 'Execution supplement §1']);
     if (shortfall && !trOK) reasons.push(['Current standard shortfall with no evidenced transition record: an unverified forecast remains Defer at lowest research priority.', 'Execution standard §2']);
     if (s.role === 'spec' && !(pre && s.G5 === 'val')) reasons.push(['Special Situation needs a validated, recoverable discount at G5. Do not disguise one role as another.', 'Master §10 · Execution standard §2']);
@@ -1047,7 +1046,6 @@ svg.addEventListener('pointermove', e => {
 function endPtr(e){
   if (!ptrs.has(e.pointerId)) return;
   ptrs.delete(e.pointerId);
-  if (pinch && ptrs.size >= 2) { const [a, b] = [...ptrs.values()]; pinch = {d:Math.hypot(a.x - b.x, a.y - b.y) || 1, k:cam.k, cam:{...cam}, mx:(a.x + b.x)/2, my:(a.y + b.y)/2}; }
   if (pinch && ptrs.size === 1) { const rem = [...ptrs.values()][0]; drag = {x:rem.x, y:rem.y, cx:cam.x, cy:cam.y, moved:true, node:null}; }
   if (ptrs.size < 2) pinch = null;
   if (ptrs.size === 0 && drag) {
@@ -1160,7 +1158,6 @@ function paintRun(){
     n.stateEl = txt(n.g, n.x + 50, n.cy + 12, 'statebadge', special + (sf ? ' · SHORTFALL' : ''));
     n.stateEl.style.fill = `var(${s === 'pass' ? '--go' : s === 'unk' ? '--c-div' : s === 'cap' ? '--hold' : s === 'blocked' ? '--ink-3' : '--stop'})`;
     if (sf) n.stateEl.style.fill = 'var(--c-div)';
-    try { const max = n.w - 58; if (n.stateEl.getComputedTextLength() > max) { n.stateEl.setAttribute('textLength', max); n.stateEl.setAttribute('lengthAdjust', 'spacingAndGlyphs'); } } catch (err) {}
   });
   const divState = {none:'pass', resolved:'pass', partial:'unk', unresolved:'stop'}[runS.div];
   ['CHECK','S'].forEach(id => N[id].g.classList.add('st-' + divState));
@@ -1178,7 +1175,7 @@ function paintRun(){
   EDGES.forEach(e => { if (e.p) e.p.style.strokeOpacity = '0.03'; });
   for (let i = 0; i < 9; i++) {
     const e = EK.get('G' + i + '>G' + (i + 1));
-    if (r.gs['G' + i] === 'stop' || r.gs['G' + i] === 'fail') stopped = true;
+    if (r.gs['G' + i] !== 'pass') stopped = true;
     e.p.classList.add(stopped ? 'r-cond' : 'r-pass'); e.p.style.strokeOpacity = '';
     if (!stopped) pulsesOn.push(e);
   }
@@ -1287,43 +1284,46 @@ function drawNode(id){
 function calcHTML(){
   return `<h3>Try the standard</h3><div class="calc">
     <div class="inputs">
-      <label for="calc-price">Price (RM)<input id="calc-price" type="number" inputmode="decimal" min="0" step="1000" value="500000"></label>
-      <label for="calc-rent">Rent / month<input id="calc-rent" type="number" inputmode="decimal" min="0" step="50" value="2200"></label>
-      <label for="calc-fee">Mgmt fee / month<input id="calc-fee" type="number" inputmode="decimal" min="0" step="10" value="350"></label>
+      <label for="calc-price">Price (RM)<input id="calc-price" type="number" inputmode="decimal" min="0.01" step="any" required value="500000"></label>
+      <label for="calc-rent">Rent / month<input id="calc-rent" type="number" inputmode="decimal" min="0" step="any" required value="2200"></label>
+      <label for="calc-fee">Mgmt fee / month<input id="calc-fee" type="number" inputmode="decimal" min="0" step="any" required value="350"></label>
     </div>
-    <dl id="calc-out"></dl>
+    <p id="calc-error" class="fine" role="status" hidden></p>
+    <dl id="calc-out" aria-live="polite"></dl>
     <p class="fine">Example inputs, not a case. Scenario arithmetic on the approved convention only: not a net profit, a stress pass or a lender approval.</p>
   </div>`;
 }
 function bindCalc(){
-  const f = v => 'RM ' + Math.round(v).toLocaleString('en-MY');
   const run = () => {
-    const row = (k, v) => `<div><dt>${k}</dt><dd>${v}</dd></div>`;
-    const nums = ['#calc-price','#calc-rent','#calc-fee'].map(id => { const v = $(id).value.trim(); return v === '' ? NaN : Number(v); });
-    if (nums.some(v => !Number.isFinite(v) || v < 0) || nums[0] <= 0) {
-      $('#calc-out').innerHTML = [['Loan principal (90% of price)','—'],['Instalment (4%, 420 months)','—'],['Standard monthly coverage','—'],['Result','Unverified · missing or invalid rent, loan basis or fee'],['Gross yield','—']].map(([k, v]) => row(k, v)).join('');
+    const inputs = ['#calc-price','#calc-rent','#calc-fee'].map(s => $(s));
+    const [P,R,M] = inputs.map(e => e.valueAsNumber);
+    const invalid = inputs.map((e,i) => e.value.trim() === '' || !Number.isFinite(e.valueAsNumber) || (i === 0 ? e.valueAsNumber <= 0 : e.valueAsNumber < 0));
+    inputs.forEach((e,i) => e.setAttribute('aria-invalid', String(invalid[i])));
+    const error = $('#calc-error'), out = $('#calc-out');
+    error.hidden = !invalid.some(Boolean);
+    if (!error.hidden) {
+      error.textContent = 'Incomplete or invalid inputs. Enter a price above zero and non-negative monthly rent and management fee; enter 0 explicitly if applicable.';
+      out.innerHTML = '';
       return;
     }
-    const Ps = Math.round(nums[0] * 100), Rs = Math.round(nums[1] * 100), Ms = Math.round(nums[2] * 100);   // integer sen
-    const L = 0.9 * Ps / 100, r = 0.04 / 12, inst = L * r / (1 - Math.pow(1 + r, -420));
-    const cov = Rs / 100 - inst - Ms / 100;
+    const L = 0.9 * P, r = 0.04 / 12, inst = L > 0 ? L * r / (1 - Math.pow(1 + r, -420)) : 0;
+    const cov = R - inst - M, gy = P > 0 ? 1200 * R / P : 0, meets = P > 0 && 1200 * R >= 6 * P;
+    if (![L,inst,cov,gy,inst + M,P * 0.06 / 12].every(Number.isFinite)) {
+      error.hidden = false; error.textContent = 'Inputs exceed the supported numeric range.'; out.innerHTML = ''; return;
+    }
+    error.textContent = '';
     const state = cov < 0 ? ['Negative · shortfall → lowest research tier', 'neg'] : cov > 0 ? ['Positive · surplus', 'pos'] : ['Zero · break-even', ''];
-    const money = (v, dp = 2) => 'RM ' + v.toLocaleString('en-MY', {minimumFractionDigits:dp, maximumFractionDigits:dp});
-    const covTxt = (cov < 0 ? '−' : '') + money(Math.abs(cov), cov !== 0 && Math.abs(cov) < 0.005 ? 4 : 2);
-    const q = 1200n * BigInt(Rs) * 1000000n / BigInt(Ps);             // gross yield % × 10^6, truncated (exact)
-    const yTxt = `${q / 1000000n}.${String(q % 1000000n).padStart(6, '0')}%`;
-    const meets = 200 * Rs >= Ps;                                       // 12·R / P ≥ 6%  ⇔  200·R ≥ P, exact in sen
-    let zeroSen = Math.ceil(inst * 100 + Ms); while (zeroSen / 100 - inst - Ms / 100 < 0) zeroSen++;
-    const sixSen = Math.ceil(Ps / 200);
+    const f2 = v => 'RM ' + v.toLocaleString('en-MY', {minimumFractionDigits:2, maximumFractionDigits:2});
+    const up = v => Math.ceil(v * 100) / 100;
     $('#calc-out').innerHTML = [
-      ['Loan principal (90% of price)', money(L)],
-      ['Instalment (4%, 420 months)', money(inst)],
-      ['Standard monthly coverage', `<span class="${state[1]}">${covTxt}</span>`],
+      ['Loan principal (90% of price)', f2(L)],
+      ['Instalment (4%, 420 months)', f2(inst)],
+      ['Standard monthly coverage', `<span class="${state[1]}">${cov < 0 ? '−' : ''}${f2(Math.abs(cov))}</span>`],
       ['Result', `<span class="${state[1]}">${state[0]}</span>`],
-      ['Gross yield (truncated, not rounded)', `<span class="${meets ? 'pos' : ''}">${yTxt}</span> · ${meets ? 'meets' : 'below'} the 6% preference`],
-      ['Rent for zero coverage (rounded up)', money(zeroSen / 100)],
-      ['Rent for 6% gross (rounded up)', money(sixSen / 100)]
-    ].map(([k, v]) => row(k, v)).join('');
+      ['Gross yield (truncated, not rounded)', `<span class="${meets ? 'pos' : ''}">${(Math.floor(gy * 1e6) / 1e6).toFixed(6)}%</span> · ${meets ? 'meets' : 'below'} the 6% preference`],
+      ['Rent for zero coverage (rounded up)', f2(up(inst + M))],
+      ['Rent for 6% gross (rounded up)', f2(up(P * 0.06 / 12))]
+    ].map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('');
   };
   ['#calc-price','#calc-rent','#calc-fee'].forEach(s => $(s).addEventListener('input', run));
   run();
@@ -1348,11 +1348,12 @@ function drawRun(){
   const name = {deploy:'Deploy', defer:'Defer', reject:'Reject', preserve:'Preserve Capacity'}[r.d];
   const fs = FORM.map(([id, label, opts]) => {
     if (id === 'tr' && runS.cov !== 'neg') return '';
+    if (id === 'residual' && runS.div !== 'partial') return '';
     const dis = id === 'G5' && !r.pre;
     return `<fieldset><legend>${esc(label)}${dis ? ' · not assessable until G0–G4 pass' : ''}</legend><div class="seg">${opts.map(([v, t]) => `<input type="radio" id="r-${id}-${v}" name="${id}" value="${v}" ${runS[id] === v && !dis ? 'checked' : ''} ${dis ? 'disabled' : ''}><label for="r-${id}-${v}">${esc(t)}</label>`).join('')}</div></fieldset>`;
   }).join('');
   drawerBody.innerHTML = `<div class="dz">
-    <div class="result sticky d-${r.d}">
+    <div class="result d-${r.d}">
       <p class="eyebrow">G9 result under these inputs</p>
       <div class="verdict">${name}</div>
       <ul class="reasons">${r.reasons.map(([t, s]) => `<li>${esc(t)}<small>${esc(s)}</small></li>`).join('')}</ul>
@@ -1368,6 +1369,7 @@ function drawRun(){
   const live = $('#live'); if (live) live.textContent = 'G9 result: ' + name;
   $('#runform').addEventListener('change', e => {
     if (!e.target.name) return;
+    if (e.target.name === 'div') runS.residual = 'no';
     runS[e.target.name] = e.target.value; presetIdx = -1;
     const keepScroll = drawer.scrollTop, fid = e.target.id; drawRun(); drawer.scrollTop = keepScroll;
     const ni = document.getElementById(fid); if (ni) ni.focus({preventScroll:true});
@@ -1377,7 +1379,7 @@ function drawRun(){
 
 /* drawer delegation */
 function focusIn(sel){
-  const t = sel ? drawerBody.querySelector(sel) : null, h = drawerBody.querySelector('h2, .verdict');
+  const t = sel ? drawerBody.querySelector(sel) : null, h = drawerBody.querySelector('h2');
   const target = t && !t.disabled ? t : h;
   if (!target) return;
   if (target === h) h.setAttribute('tabindex', '-1');
@@ -1444,7 +1446,7 @@ playBtn.addEventListener('click', () => {
   if (playTimer) { stopPlay(); return; }
   if (mode !== 'walk' || stepIdx === STEPS.length - 1) goStep(0); else goStep(stepIdx);
   playBtn.textContent = 'Pause'; playBtn.setAttribute('aria-pressed', 'true');
-  playTimer = setInterval(() => { if (stepIdx >= STEPS.length - 1) { stopPlay(); return; } const inDrawer = drawer.contains(document.activeElement); goStep(stepIdx + 1); if (inDrawer) focusIn('[data-step="1"]'); }, 7000);
+  playTimer = setInterval(() => { if (stepIdx >= STEPS.length - 1) { stopPlay(); return; } goStep(stepIdx + 1); }, 7000);
 });
 
 /* panel / sheet */
@@ -1465,10 +1467,9 @@ sheetToggle.addEventListener('click', () => {
 document.addEventListener('keydown', e => {
   if (e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented) return;
   if (e.target.closest && e.target.closest('input, textarea, select')) return;
-  const inDrawer = drawer.contains(document.activeElement);
-  if (e.key === 'Escape') { if (mode === 'explore') { clearSelection(); if (inDrawer) focusIn(null); } }
-  else if (mode === 'walk' && e.key === 'ArrowRight') { goStep(stepIdx + 1); if (inDrawer) focusIn('[data-step="1"]'); }
-  else if (mode === 'walk' && e.key === 'ArrowLeft') { goStep(stepIdx - 1); if (inDrawer) focusIn('[data-step="-1"]'); }
+  if (e.key === 'Escape') { if (mode === 'explore') clearSelection(); }
+  else if (mode === 'walk' && e.key === 'ArrowRight') goStep(stepIdx + 1);
+  else if (mode === 'walk' && e.key === 'ArrowLeft') goStep(stepIdx - 1);
   else if (e.key === '+' || e.key === '=') $('#zoomIn').click();
   else if (e.key === '-') $('#zoomOut').click();
   else if (e.key === '0') $('#zoomFit').click();
