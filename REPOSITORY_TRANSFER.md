@@ -32,3 +32,9 @@ MIGRATION_MANIFEST.json records each preserved source path, byte length and SHA2
 verify_repository_transfer.py performs the archive checks. The receipt identifies the earlier full verified snapshot; the final post-receipt verification is performed before local deletion and reported to the user. The receipt is not a market or investment validation.
 
 Deletion scope is only the former outputs/residential-investment-engine directory and the temporary core checkout under the shared workspace, plus the temporary downloaded verification archive created for this transfer. Original user-supplied attachments/downloads and unrelated repositories remain outside scope. No GitHub repository deletion is authorised.
+
+## Verification method update - 8 October 2026
+
+At the user's request, `verify_repository_transfer.py` lets the three current navigation and status registers advance, as AGENTS.md permits: `README.md`, `klang-valley-2026-10-07/round-3/README.md` and `klang-valley-2026-10-07/round-3/Coverage_Audit.md`. They must still exist, and the result lists which of them now differ from the manifest. Every other manifest file stays byte-checked (531 today), together with the archive blobs, the frozen master, the round-3 preservation audit and the B03-B05 release manifests. Adding a file to the exemption list is a deliberate code change, not an automatic rule.
+
+`MIGRATION_MANIFEST.json` and `REMOTE_TRANSFER_VERIFICATION.json` are unchanged historical records. The method version is now `CORE-REMOTE-VERIFICATION-2026-10-08`. It no longer reports local deletion as authorised, because local cleanup is suspended. Write any new receipt to a new file rather than overwriting the 7 October receipt.
