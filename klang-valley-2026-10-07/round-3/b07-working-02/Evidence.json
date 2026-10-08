@@ -1,0 +1,296 @@
+{
+  "version": "B07-WORKING-02-2026-10-08",
+  "boundary": "Selected public-source observations, not a transcript, title certification, actual lease, direct viewing or outcomes. Sources from one syndicated listing share lineage.",
+  "sources": [
+    {
+      "id": "W02-E01",
+      "area": "A49/A52",
+      "url": "https://hckgroup.my/wp-content/uploads/hck-ar-2025-c.pdf",
+      "source_date": "Annual report for FY2025; pages 4–5 (PDF index 4–5)",
+      "retrieved": "2026-10-08",
+      "access": "Issuer disclosure, PDF text",
+      "observation": "Earlier deliveries and ongoing final phases coexist; Subang Sentral is the renamed Remix1 revival. Group sales above90% cannot be allocated to one tower or read as occupancy.",
+      "decision_use": "Phase identity, no unit rent uplift."
+    },
+    {
+      "id": "W02-E02",
+      "area": "A49",
+      "url": "https://hckgroup.my/hck-capital-group-wins-urban-renewal-award-at-starproperty-awards-2026-for-transforming-remix-2-into-edumetro/",
+      "source_date": "2026 award report; says completion2023",
+      "retrieved": "2026-10-08",
+      "access": "Developer news, opened",
+      "observation": "Edumetro/Remix2 reported completed in2023, with SEGi as anchor; neighbouring Remix1/Subang Sentral is another revival.",
+      "decision_use": "Reported delivery supports operating competition, not achieved occupancy/lease evidence."
+    },
+    {
+      "id": "W02-E03",
+      "area": "A49",
+      "url": "https://www.edumetro.com.my/colonial-infinite/",
+      "source_date": "Undated page retrieved2026-10-08",
+      "retrieved": "2026-10-08",
+      "access": "Developer project page",
+      "observation": "Current phase is advertised as simplex and duplex office suites.",
+      "decision_use": "Exclude from ordinary residential investment sampling until use/rights/lending are authenticated; do not add as interchangeable residential supply."
+    },
+    {
+      "id": "W02-E04",
+      "area": "A49",
+      "url": "https://sunway.starrezhousing.com/StarRezPortalX/E857057F/35/335/Room_Rates-Room_Rates?UrlToken=4D9FB258",
+      "source_date": "2026 rate card; linked image filename29072026",
+      "retrieved": "2026-10-08",
+      "access": "Official operator portal; browser screenshot visually read",
+      "observation": "Twelve-month column includes Sun-U Apartment four-sharing near-door440, Sun-U Residence twin-sharing small810, and WaterfrontD studio3100. Chart states300 nonrefundable booking fee; shorter tenancies have separate rates.",
+      "decision_use": "Selected visual transcription only, not full rate census or availability. Beds and whole-unit tenancies are not equivalent."
+    },
+    {
+      "id": "W02-E05",
+      "area": "A49",
+      "url": "https://sunwayhouse.com.my/wp-content/uploads/2026/01/SUNWAY-HOUSE-STUDENT-RESIDENCES_Tenancy-Terms-Community-Living-Standards-12.01.2026.pdf",
+      "source_date": "2026-01-12 filename; printed4–6, PDF7–9",
+      "retrieved": "2026-10-08",
+      "access": "Official operator terms; in-memory PDF text after web timeout",
+      "observation": "Application fee300; university offer/enrolment context; allocation is discretionary and availability-based. Rent paid quarterly in advance. Utilities have residence-specific caps.",
+      "decision_use": "Price is a bundled contract with access conditions; it does not authenticate any private apartment's rent."
+    },
+    {
+      "id": "W02-E06",
+      "area": "A52",
+      "url": "https://hckgroup.my/harvard-suites-topping-out-ceremony-marks-a-significant-milestone-for-edusentral/",
+      "source_date": "Published2026-09-25; event2026-09-19",
+      "retrieved": "2026-10-08",
+      "access": "Developer dated news, opened",
+      "observation": "Harvard is described as sixth/final residential tower, topped out19September; scheduled VP July2027. Edura Sentral is a neighbouring future development.",
+      "decision_use": "Structural milestone is not completed supply, no current rent."
+    },
+    {
+      "id": "W02-E07",
+      "area": "A52",
+      "url": "https://edusentral.net/harvard-suites/",
+      "source_date": "Undated current page, old copyright2021",
+      "retrieved": "2026-10-08",
+      "access": "Developer product page",
+      "observation": "Harvard Phase4 offers660sf2BR and804sf3BR. TypeB interior-image caption also mentions study.",
+      "decision_use": "Two-bedroom/family pipeline is relevant; approved plan and actual configuration remain necessary. No current price/lease inferred."
+    },
+    {
+      "id": "W02-E08",
+      "area": "A52",
+      "url": "https://www.simedarbyproperty.com/sites/default/files/2025-01/20250110%20-For%20Immediate%20Release%20-%20Sime%20Darby%20Property%20Acquires%20Full%20Ownership%20of%20Modern%20Logistics%20Warehouses%20in%20Bandar%20Bukit%20Raja.pdf",
+      "source_date": "2025-01-10",
+      "retrieved": "2026-10-08",
+      "access": "Issuer primary press release",
+      "observation": "232m acquisition consolidates ownership of two existing logistics warehouses, about700000sf combined NLA.",
+      "decision_use": "An ownership transaction is not a count of newly created jobs or incremental households."
+    },
+    {
+      "id": "W02-E09",
+      "area": "A52",
+      "url": "https://www.mudah.my/2-storey-terrace-casira-1-bandar-bukit-raja-klang-115661926.htm",
+      "source_date": "Index retrieved2026-10-08; dynamic posting age, crawl last month",
+      "retrieved": "2026-10-08",
+      "access": "Individual advertiser indexed text; detail open cache miss",
+      "observation": "Casira1 terrace1700,2038sf,4BR4BA,20x75land; basic lamps/fans, furnishings negotiable; advertised as direct owner.",
+      "decision_use": "Functional alternative only. Not a lease, current availability, verified condition, transport match or condo PSF comparable."
+    },
+    {
+      "id": "W02-E10",
+      "area": "A53",
+      "url": "https://www.propertyguru.com.my/property-listing/bandar-botanic-for-rent-by-jack-boo-502082719",
+      "source_date": "Listed2026-09-14",
+      "retrieved": "2026-10-08",
+      "access": "Same-ID syndicated advertiser record",
+      "observation": "Header3000rent,4BR3BA,1400sf,FF; body says sale. iProperty ID502082719 body says rent.",
+      "decision_use": "One lineage, internal conflict. Exclude from clean rental support; use only a question for substitution investigation."
+    },
+    {
+      "id": "W02-E11",
+      "area": "A53",
+      "url": "https://hims.kpkt.gov.my/files/19484/P45/P45-20260306-00018658/IKLAN_BROSUR_01.pdf",
+      "source_date": "HIMS path2026-03-06; expectedAugust2028",
+      "retrieved": "2026-10-08",
+      "access": "Government-hosted developer brochure, text",
+      "observation": "Gamuda GM Klang, Klang authority, freehold.342+183 serviced plus93affordable=618. Affordable270k; duplicatedTypeA377k label. Permit number placeholder. Remaining534 is a brochure snapshot.",
+      "decision_use": "Correct Klang project identity; no selected-unit offer/APDL/title clearance or current inventory count."
+    },
+    {
+      "id": "W02-E12",
+      "area": "A53",
+      "url": "https://ehartanah.lphs.gov.my/projects/znvgM52q",
+      "source_date": "Retrieved2026-10-08; no snapshot date supplied",
+      "retrieved": "2026-10-08",
+      "access": "Official LPHS project listing",
+      "observation": "Ambang commercial-affordable cohort93units, from270k; page shows27available and66unavailable.",
+      "decision_use": "Administrative portal state, not achieved sales. Do not pool with ordinary resale investor universe."
+    },
+    {
+      "id": "W02-E13",
+      "area": "A53",
+      "url": "https://hims.kpkt.gov.my/files/14308/14308-4/IKLAN_BROSUR_01.pdf",
+      "source_date": "2023 licence/approval information; expectedAugust2026",
+      "retrieved": "2026-10-08",
+      "access": "Government-hosted Riva brochure; in-memory PDF text",
+      "observation": "TowerA351serviced+63affordable; TowerB169+33. Total616 includes96affordable.270k–1023100 project range. Permit fields placeholders.",
+      "decision_use": "Dated plan stock, no CCC/VP proof or selected ordinary-market270k offer."
+    },
+    {
+      "id": "W02-E14",
+      "area": "A53",
+      "url": "https://www.gravit8.com.my/riva/",
+      "source_date": "July2026 progress captions retrieved2026-10-08",
+      "retrieved": "2026-10-08",
+      "access": "Developer page text; images not inspected",
+      "observation": "Separate GardenHomes/Parkhomes/serviced forms; July painting and D1/D2 finishes in progress. Generic953sf3BR2BA2bay label.",
+      "decision_use": "Page captions do not resolve exact-tower CCC/current deliveries; no future-income base."
+    },
+    {
+      "id": "W02-E15",
+      "area": "A50",
+      "url": "https://mosaicresidence.com/",
+      "source_date": "Retrieved2026-10-08; expectedDecember2026",
+      "retrieved": "2026-10-08",
+      "access": "Developer primary page",
+      "observation": "Taipanika identified separately; collaboration with Nadayu801. Licence30790, expiry2109, state-consent restriction; listed layouts omit1079sf.",
+      "decision_use": "Not interchangeable with R3461079sf or an older phase; approval/CCC not certified."
+    },
+    {
+      "id": "W02-E16",
+      "area": "A50",
+      "url": "https://hims.kpkt.gov.my/files/30790/P45/P45-20240925-00013246/IKLAN_BROSUR_01.pdf",
+      "source_date": "HIMS path2024-09-25",
+      "retrieved": "2026-10-08",
+      "access": "Government-hosted developer brochure",
+      "observation": "Mosaic sizes1033/1151/1230/1334sf; listed counts sum288. December2026 expected, permits blank, developerTaipanika.",
+      "decision_use": "Phase/component control, not evidence R346 belongs to Mosaic."
+    },
+    {
+      "id": "W02-E17",
+      "area": "A50",
+      "url": "https://photos.dotproperty.com.my/MY/1830251/properties/6045639/plans/1841199943601a3aafb230a.pdf",
+      "source_date": "Licence2020–2021; expectedApril2022",
+      "retrieved": "2026-10-08",
+      "access": "Historical developer brochure on third-party host; indexed",
+      "observation": "Teguh Majuria Nadayu801 Phase1/3, licences19406-1/-2; TypeB1079sf. Leaseexpiry2109; state-consent condition.",
+      "decision_use": "Historical typology match only, not R346 parcel identity, current title or market price."
+    },
+    {
+      "id": "W02-E18",
+      "area": "A50",
+      "url": "https://www.ehsanauctioneers.com/upload/pos/rt9NZcVi1nXu.pdf",
+      "source_date": "Auction scheduled2025-01-15",
+      "retrieved": "2026-10-08",
+      "access": "Auctioneer-hosted POS, opened",
+      "observation": "Different BlockE Phase3 parcel,1079sf, residential express condition; strata not issued as stated then; leaseexpiry2109, state consent.",
+      "decision_use": "Not R346, not auction outcome, not current title. Private borrower identifiers excluded from research artifact."
+    },
+    {
+      "id": "W02-E19",
+      "area": "A50",
+      "url": "https://dewan.selangor.gov.my/assets/pdf/sessions/2015/Sesi1/PERTANYAAN%20BERTULIS%20BESERTA%20JAWAPAN-1501.pdf",
+      "source_date": "2015 assembly answer, AppendixC",
+      "retrieved": "2026-10-08",
+      "access": "Official indexed PDF text; open failed",
+      "observation": "WHB Subang Bestari SeriAtria listed178 medium-cost units handed over2015, historical170k.",
+      "decision_use": "Project history, not current price, individual restriction or eligibility."
+    },
+    {
+      "id": "W02-E20",
+      "area": "A51",
+      "url": "https://www.propertyguru.com.my/property-listing/suri-puteri-for-sale-by-tony-lau-501640332",
+      "source_date": "Listed2026-07-02",
+      "retrieved": "2026-10-08",
+      "access": "Individual sale advertisement, opened",
+      "observation": "370k,1130sf,3BR2BA, two basement bays; headerPF/bodybasic; seller claims Bumi lot and perfected strata.",
+      "decision_use": "R348 base price claim; exact title, eligibility, furnishings and availability held."
+    },
+    {
+      "id": "W02-E21",
+      "area": "A51",
+      "url": "https://www.propertyguru.com.my/property-listing/suri-puteri-for-sale-by-nick-law-501190549",
+      "source_date": "Listed2026-07-06",
+      "retrieved": "2026-10-08",
+      "access": "Individual sale advertisement, opened",
+      "observation": "355k,1130sf,3BR2BA,PF; images expressly not actual unit. Downpayment/legal-fee promotions.",
+      "decision_use": "Separate diagnostic branch; no net consideration or exact-unit condition established."
+    },
+    {
+      "id": "W02-E22",
+      "area": "A51",
+      "url": "https://www.mudah.my/shah-alam-seksyen-20-suri-puteri-condo-full-furniture-115866856.htm",
+      "source_date": "24September index timestamp; individual indexed page relative age",
+      "retrieved": "2026-10-08",
+      "access": "Individual advertiser indexed detail, open failed",
+      "observation": "1650whole-unit ask,1130sf,3BR2BA,FF,two parking bays.",
+      "decision_use": "R348 rental scenario with condition/freshness gap; not collected rent. Index timing is not lease commencement."
+    },
+    {
+      "id": "W02-E23",
+      "area": "A51",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/suri-puteri-untuk-disewa-oleh-aishah-salleh-43299082",
+      "source_date": "Listed2025-04-29",
+      "retrieved": "2026-10-08",
+      "access": "Individual historical rental advertisement",
+      "observation": "1800,1130sf,end/middlefloor,3rooms plusstore, kitchen/AC/heaters; minimumoneyear.",
+      "decision_use": "Older high-rent branch only. Do not call current clearing rent."
+    },
+    {
+      "id": "W02-E24",
+      "area": "A51",
+      "url": "https://www.brickz.my/transactions/residential/selangor/shah-alam/suri-puteri/non-landed/",
+      "source_date": "SPA records2024-12-23 and2025-04-09; windowSep2024–Aug2025",
+      "retrieved": "2026-10-08",
+      "access": "Public transaction-vendor table",
+      "observation": "1130sf records385k and373k. Eleven mixed-size records; aggregate median395k. Other1130records mask prices.",
+      "decision_use": "Dated reference points; restrictions, condition, bays, consideration and 2026 timing unnormalised. No paid details accessed."
+    },
+    {
+      "id": "W02-E25",
+      "area": "A50",
+      "url": "https://www.propertyguru.com.my/condo/seri-atria-apartment-6845",
+      "source_date": "Retrieved2026-10-08",
+      "retrieved": "2026-10-08",
+      "access": "Portal project profile",
+      "observation": "15floors,2015,leasehold; street-number/address fields conflictU5/17A versusU5/71A.",
+      "decision_use": "High-rise inclusion provisionally supported; address discrepancy remains exact-parcel verification."
+    },
+    {
+      "id": "W02-E26",
+      "area": "A50",
+      "url": "https://dewan.selangor.gov.my/assets/pdf/sessions/2018/Sesi%202/bermulut/21-40.pdf",
+      "source_date": "2018 assembly schedule",
+      "retrieved": "2026-10-08",
+      "access": "Official indexed PDF text; open failed",
+      "observation": "Nadayu801 RSKU C1/C2/D cohorts53/79/131 at170k/200k/250k historically.",
+      "decision_use": "Some affordable components existed; cannot label all Nadayu units or R346 restricted by this table alone."
+    },
+    {
+      "id": "W02-E27",
+      "area": "A50",
+      "url": "https://dewan.selangor.gov.my/wp-content/uploads/2020/04/Laporan-Tahunan-PKNS-2018.pdf",
+      "source_date": "PKNS annual report2018, printed40",
+      "retrieved": "2026-10-08",
+      "access": "Official indexed issuer report",
+      "observation": "Lists178SeriAtria units among PKNS/group RSKU projects throughDecember2018.",
+      "decision_use": "Category cue reinforces parcel-restriction enquiry; does not establish current transfer conditions."
+    },
+    {
+      "id": "W02-E28",
+      "area": "A51",
+      "url": "https://suriputerishahalam.blogspot.com/2012/01/cf-suri-puteri.html",
+      "source_date": "2012-01-06",
+      "retrieved": "2026-10-08",
+      "access": "Historical resident blog, unverified document claim",
+      "observation": "Claims early CF receipt and differences between original buyers' uncovered parking and newer buyers' basement bays.",
+      "decision_use": "Unverified historical contrary lead, not current defect fact; no universal two-covered-bays assumption."
+    },
+    {
+      "id": "W02-E29",
+      "area": "A51",
+      "url": "https://www.iproperty.com.my/condo/suri-puteri-2186",
+      "source_date": "September2026 page; historical project metadata",
+      "retrieved": "2026-10-08",
+      "access": "Portal project profile",
+      "observation": "Two15storey towers352units; marketed four3BR layouts1012–1345sf, reportedcompletion2012.",
+      "decision_use": "Mature family scope; profile/layout does not authenticate R348 configuration or current management."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "version": "B07-WORKING-02-2026-10-08",
+  "source_commit": "77b8ecffde3cec4253be3d6fa1a977944cdd94cd",
+  "files": [
+    {
+      "path": "klang-valley-2026-10-07/round-3/b07-working-02/Evidence.json",
+      "git_blob": "26c33007fc37be6822765c0d4df998a86e1e55b6",
+      "sha256": "ddd5b6da0965a0c54653fcb5f3e8023fcc80f5922e1e0045c52964768207bf9d",
+      "bytes": 16703
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b07-working-02/Financial_Results.json",
+      "git_blob": "a2f7990d8de1021c0b4b58976de02fd0389c9f1a",
+      "sha256": "87cd3b38bb7d9f6551902f5e9f5934120a7a8ea60a5f53811081ea696caf2fc4",
+      "bytes": 143096
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b07-working-02/Inputs.json",
+      "git_blob": "09a2864b683d97f05a729d1c37f7feffa5aab8b0",
+      "sha256": "f836c08e7330c1843517c3263b3477025d0bcb75ec85b2e9fa993b801b14a05f",
+      "bytes": 2503
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b07-working-02/R348_Suri_Puteri_G0_G9.md",
+      "git_blob": "ed1a7f44761a4a21fd2854723381482cd8e37669",
+      "sha256": "1907cf28122145d2ce5214aeca29756e0d0a3438cbf7b4871f3e28b7d3c183ba",
+      "bytes": 7812
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b07-working-02/RESUME_AND_COMPLETION.md",
+      "git_blob": "807d2953f88205d41ac9f3f5048a9686e6fdebe2",
+      "sha256": "f9cfd1e891845b85e25936699da760a11da21968d51e1eacd2cf7ab2ad4c120e",
+      "bytes": 6671
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b07-working-02/Scenario_Builder.py",
+      "git_blob": "d5a1636931b6ffe4f3f87b618e7431a5e618de8e",
+      "sha256": "a64aed22eb566bd11d1f6e8e3a80201b6e2f02815e2ab454d5f86ad77ef11860",
+      "bytes": 7423
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b07-working-02/Search_Log.json",
+      "git_blob": "38c5f95b17659bfe93385aab229760fdbc2df054",
+      "sha256": "fe2886dc6d2bc222d7349900899c1debf6286641da95b380da04079d9283cfba",
+      "bytes": 8717
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/b07-working-02/Working_02.md",
+      "git_blob": "d88afe662c26e4832271739b4e84ac8fd88ffbd2",
+      "sha256": "570d705ea620bf8e8b4d6b9f5aa3a2154afe757b02d12b1f32e79daa8ab3872f",
+      "bytes": 15131
+    }
+  ],
+  "preserved_master_sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+  "historical_reference_blobs": {
+    "klang-valley-2026-10-07/round-3/B07_Working_Inputs.json": "8280e1be6552b2725f317f4331720e72c12c207a",
+    "execution-release-2026-10-07/financial_engine.py": "2fa3554d4b1358795d658efefe270ac53f27bbda",
+    "execution-release-2026-10-07/financial_config.json": "3e17c91823b093aa66f0930b2c012510d3b4528f"
+  },
+  "checks": {
+    "previous_paths_unchanged_except_navigation": true,
+    "working01_cases_preserved": 19,
+    "new_cases": 1,
+    "exact_financial_rebuild": true,
+    "evaluations": 47,
+    "rank_grid_cells": 18,
+    "threshold_rows": 6,
+    "new_regional_closeouts": 0,
+    "deploy": 0
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "version": "B07-WORKING-02",
+  "retrieved": "2026-10-08",
+  "boundary": "Queries and access outcomes only; raw copyrighted pages and personal borrower identifiers are not republished. Search snippets are not viewed units or independent leases.",
+  "calls": [
+    {
+      "sequence": 1,
+      "queries": [],
+      "direct_urls": [
+        "https://hims.kpkt.gov.my/files/19484/P45/P45-20260306-00018658/IKLAN_BROSUR_01.pdf",
+        "https://www.gravit8.com.my/riva/",
+        "https://hckgroup.my/wp-content/uploads/hck-ar-2025-c.pdf",
+        "https://ehartanah.lphs.gov.my/projects/znvgM52q"
+      ],
+      "purpose": "A49/A52/A53 supply, institutional and functional substitutes",
+      "access_notes": "Use per-source access boundary in Evidence.json."
+    },
+    {
+      "sequence": 2,
+      "queries": [
+        "\"Bandar Bukit Raja\" \"for rent\" \"2026\" \"2,000\" terrace",
+        "\"Bandar Botanic\" \"for rent\" \"2026\" \"2,000\" terrace",
+        "site.hckgroup.my edumetro \"CCC\"",
+        "site.hckgroup.my edusentral \"completed\" 2026"
+      ],
+      "direct_urls": [
+        "https://sunway.starrezhousing.com/StarRezPortalX/E857057F/35/335/Room_Rates-Room_Rates?UrlToken=4D9FB258",
+        "https://ehartanah.lphs.gov.my/projects/znvgM52q"
+      ],
+      "purpose": "A49/A52/A53 supply, institutional and functional substitutes",
+      "access_notes": "Use per-source access boundary in Evidence.json."
+    },
+    {
+      "sequence": 3,
+      "queries": [
+        "site.simeproperty.com Bandar Bukit Raja logistics 2026 completion DICR",
+        "\"Bandar Botanic\" \"for rent\" terrace \"Sep\" \"2026\"",
+        "\"The Riva\" \"CCC\" 2026 Gravit8",
+        "\"Colonial Infinite\" edumetro units completion"
+      ],
+      "direct_urls": [
+        "https://hckgroup.my/harvard-suites-topping-out-ceremony-marks-a-significant-milestone-for-edusentral/",
+        "https://hckgroup.my/hck-capital-group-wins-urban-renewal-award-at-starproperty-awards-2026-for-transforming-remix-2-into-edumetro/",
+        "https://www.mudah.my/selangor-bandar-bukit-raja/terraced-house-for-rent"
+      ],
+      "purpose": "A49/A52/A53 supply, institutional and functional substitutes",
+      "access_notes": "Use per-source access boundary in Evidence.json."
+    },
+    {
+      "sequence": 4,
+      "queries": [],
+      "direct_urls": [
+        "https://www.simedarbyproperty.com/sites/default/files/2025-01/20250110%20-For%20Immediate%20Release%20-%20Sime%20Darby%20Property%20Acquires%20Full%20Ownership%20of%20Modern%20Logistics%20Warehouses%20in%20Bandar%20Bukit%20Raja.pdf"
+      ],
+      "purpose": "A49/A52/A53 supply, institutional and functional substitutes",
+      "access_notes": "Use per-source access boundary in Evidence.json."
+    },
+    {
+      "sequence": 5,
+      "queries": [],
+      "direct_urls": [
+        "https://www.iproperty.com.my/property/klang/bandar-botanic/rent-502082719/",
+        "https://sunwayhouse.com.my/wp-content/uploads/2026/01/SUNWAY-HOUSE-STUDENT-RESIDENCES_Tenancy-Terms-Community-Living-Standards-12.01.2026.pdf",
+        "https://hims.kpkt.gov.my/files/14308/14308-4/IKLAN_BROSUR_01.pdf"
+      ],
+      "purpose": "A49/A52/A53 supply, institutional and functional substitutes",
+      "access_notes": "Several detail/PDF opens timed out; no inference of property defect. Sunway image link found."
+    },
+    {
+      "sequence": 6,
+      "queries": [
+        "\"2 Storey Terrace, Casira 1\" \"115661926\"",
+        "\"Bandar Botanic\" \"502082719\"",
+        "\"Sunway House\" \"2026\" \"RM\" \"950\""
+      ],
+      "direct_urls": [
+        "https://sunwayhouse.com.my/wp-content/uploads/2026/01/SUNWAY-HOUSE-STUDENT-RESIDENCES_Tenancy-Terms-Community-Living-Standards-12.01.2026.pdf",
+        "https://hims.kpkt.gov.my/files/14308/14308-4/IKLAN_BROSUR_01.pdf"
+      ],
+      "purpose": "A49/A52/A53 supply, institutional and functional substitutes",
+      "access_notes": "Individual Casira and syndicated Botanic indexed records returned; conflict retained."
+    },
+    {
+      "sequence": 7,
+      "queries": [
+        "\"Suri Puteri\" \"for sale\" \"2026\" \"1,130\"",
+        "\"Suri Puteri\" \"for rent\" \"2026\"",
+        "site.dewan.selangor.gov.my \"Seri Atria\" 178",
+        "site.nadayu.com.my \"801\" \"Mosaic\""
+      ],
+      "direct_urls": [],
+      "purpose": "A50 phase/restrictions and A51 family counterexample",
+      "access_notes": "Use per-source access boundary in Evidence.json."
+    },
+    {
+      "sequence": 8,
+      "queries": [
+        "\"Suri Puteri\" \"1130\" \"370000\"",
+        "\"Suri Puteri\" \"1130\" \"1800\" rent",
+        "\"Suri Puteri\" \"maintenance\" \"250\"",
+        "\"Nadayu 801\" official developer Mosaic"
+      ],
+      "direct_urls": [
+        "https://www.propertyguru.com.my/property-for-sale/at-suri-puteri-2186"
+      ],
+      "purpose": "A50 phase/restrictions and A51 family counterexample",
+      "access_notes": "Use per-source access boundary in Evidence.json."
+    },
+    {
+      "sequence": 9,
+      "queries": [],
+      "direct_urls": [
+        "https://mosaicresidence.com/",
+        "https://www.ehsanauctioneers.com/upload/pos/rt9NZcVi1nXu.pdf",
+        "https://www.ehsanauctioneers.com/upload/pos/Q0u2b59JrnzS.pdf",
+        "https://hims.kpkt.gov.my/files/30790/P45/P45-20240925-00013246/IKLAN_BROSUR_01.pdf"
+      ],
+      "purpose": "A50 phase/restrictions and A51 family counterexample",
+      "access_notes": "Use per-source access boundary in Evidence.json."
+    },
+    {
+      "sequence": 10,
+      "queries": [
+        "\"Suri Puteri\" \"for rent\" \"September 2026\"",
+        "\"Suri Puteri\" \"rent\" \"1130\" \"2026\" \"1600\""
+      ],
+      "direct_urls": [],
+      "purpose": "A50 phase/restrictions and A51 family counterexample",
+      "access_notes": "Use per-source access boundary in Evidence.json."
+    },
+    {
+      "sequence": 11,
+      "queries": [],
+      "direct_urls": [
+        "https://www.mudah.my/malaysia/all?q=seksyen+20"
+      ],
+      "purpose": "A50 phase/restrictions and A51 family counterexample",
+      "access_notes": "Use per-source access boundary in Evidence.json."
+    },
+    {
+      "sequence": 12,
+      "queries": [
+        "\"Shah Alam Seksyen 20\" \"Suri Puteri condo\" \"Full Furniture\"",
+        "\"Suri Puteri Service Apartment, section 20, Shah Alam\" \"1750\"",
+        "site.dewan.selangor.gov.my \"Seri Atria\" \"2015\""
+      ],
+      "direct_urls": [
+        "https://dewan.selangor.gov.my/assets/pdf/sessions/2018/Sesi%202/bermulut/21-40.pdf"
+      ],
+      "purpose": "A50 phase/restrictions and A51 family counterexample",
+      "access_notes": "Use per-source access boundary in Evidence.json."
+    },
+    {
+      "sequence": 13,
+      "queries": [
+        "site.scland.com.my \"Suri Puteri\"",
+        "site.brickz.my \"SURI PUTERI\" 2026"
+      ],
+      "direct_urls": [
+        "https://www.mudah.my/shah-alam-seksyen-20-suri-puteri-condo-full-furniture-115866856.htm",
+        "https://dewan.selangor.gov.my/assets/pdf/sessions/2015/Sesi1/PERTANYAAN%20BERTULIS%20BESERTA%20JAWAPAN-1501.pdf",
+        "https://www.propertyguru.com.my/condo/seri-atria-apartment-6845"
+      ],
+      "purpose": "A50 phase/restrictions and A51 family counterexample",
+      "access_notes": "Brickz public records returned; no paid details accessed; selected Mudah/assembly direct opens failed."
+    }
+  ],
+  "other_access": [
+    {
+      "method": "In-memory official PDF extraction",
+      "urls": [
+        "https://sunwayhouse.com.my/wp-content/uploads/2026/01/SUNWAY-HOUSE-STUDENT-RESIDENCES_Tenancy-Terms-Community-Living-Standards-12.01.2026.pdf",
+        "https://hims.kpkt.gov.my/files/14308/14308-4/IKLAN_BROSUR_01.pdf"
+      ],
+      "outcome": "Succeeded with bundled PDF reader after web timeout. No persistent files."
+    },
+    {
+      "method": "Browser visual reading",
+      "url": "https://sunway.starrezhousing.com/StarRezPortalX/File/GetImage?dateCreatedTicks=639209189535423408&hash=EAABF383&imageName=Sunway+House+Rental+Rate+29072026.jpg&tableID=584&tableName=PortalPageWidget",
+      "outcome": "Rate card visibly read in browser, with numeric zoom confirmation; selected rates only, no availability."
+    }
+  ],
+  "excluded_leads": [
+    "Unrelated geographic/property results and room advertisements are not whole-unit comparables.",
+    "Suri Puteri historical CF/parking blog is a dated unverified contrary lead only.",
+    "A third-party old sick-project list does not establish current status of R346 or Mosaic.",
+    "Colonial Infinite agency counts/dates/labels conflict; official office-suite classification controls current exclusion.",
+    "Botanic same-ID sale/rent conflict not clean rental evidence."
+  ]
+}

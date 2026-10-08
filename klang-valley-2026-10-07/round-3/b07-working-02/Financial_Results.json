@@ -1,0 +1,4545 @@
+{
+  "version": "B07-WORKING-02-2026-10-08",
+  "source_commit": "77b8ecffde3cec4253be3d6fa1a977944cdd94cd",
+  "historical_inputs_unchanged": [
+    {
+      "id": "R235",
+      "area_id": "A52",
+      "batch": "B07",
+      "catchment": "Setia Alam–Bukit Raja",
+      "name": "Trefoil Setia City",
+      "sqft": 485,
+      "layout": "studio",
+      "price": 260000,
+      "rent_assumed": 1000,
+      "rent_low": 1000,
+      "rent_high": 1300,
+      "fee_assumed": 230,
+      "other_assumed": 160,
+      "refurb_assumed": 15000,
+      "retrievals": [
+        "025"
+      ],
+      "match": "Use same sale ad's 1000 rent alongside independent1100; do not select highest furnished rent",
+      "thesis": "A mall address and low total price do not by themselves create enough cash rent",
+      "decisive_risk": "Studio oversupply, commercial operating costs and owner-occupier resale willingness",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "R236",
+      "area_id": "A53",
+      "batch": "B07",
+      "catchment": "Klang–Botanic–Bukit Tinggi",
+      "name": "Gravit8 Nordica",
+      "sqft": 637,
+      "layout": "1+1 marketed",
+      "price": 328000,
+      "rent_assumed": 1300,
+      "rent_low": 1200,
+      "rent_high": 1500,
+      "fee_assumed": 230,
+      "other_assumed": 180,
+      "refurb_assumed": 20000,
+      "retrievals": [
+        "026",
+        "064"
+      ],
+      "match": "637-sf partly furnished sale and indexed same-size rents; 1+1 versus2BR label",
+      "thesis": "Compact local employment housing needs a buyer distinct from landed-family households",
+      "decisive_risk": "Study functionality, block/phasing and future owner-versus-investor exit",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "R342",
+      "area_id": "A49",
+      "batch": "B07",
+      "catchment": "Subang Jaya–USJ–Sunway",
+      "name": "Subang Avenue",
+      "sqft": 1021,
+      "layout": "3BR/2BA",
+      "price": 450000,
+      "rent_assumed": 2500,
+      "fee_assumed": 323,
+      "other_assumed": 200,
+      "refurb_assumed": 35000,
+      "rent_low": 2300,
+      "rent_high": 2800,
+      "bays": 1,
+      "match": "Original/unfurnished sale versus furnished rent; 2500 rental header versus2600 body. Fee323 from different1021sf sale with inconsistent4BR/3BA label; proxy only.",
+      "price_source": "E10",
+      "rent_source": "E11",
+      "price_status": "Advertised figure for conditional analysis, not agreed net consideration or verified clearing price",
+      "rent_status": "Conditional long-term whole-unit scenario informed by asking evidence; not an achieved lease",
+      "fee_status": "Unverified combined management/sinking proxy; standard management-only test remains unverified",
+      "cost_status": "Illustrative allowances, pre-tax; property-specific costs and works not quoted",
+      "unit_identity": "No exact inspected parcel/title/approved plan; any advertised identity remains unauthenticated",
+      "g0": "STOP: unit-matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "quarantine": null
+    },
+    {
+      "id": "R345",
+      "area_id": "A53",
+      "batch": "B07",
+      "catchment": "Klang–Botanic–Bukit Tinggi",
+      "name": "Impiria Residensi",
+      "sqft": 1065,
+      "layout": "3BR/2BA",
+      "price": 600000,
+      "rent_assumed": 3000,
+      "fee_assumed": 330,
+      "other_assumed": 250,
+      "refurb_assumed": 15000,
+      "rent_low": 2100,
+      "rent_high": 3000,
+      "bays": 3,
+      "match": "Sale header1066/body1065,FF3bays,claims3000 rent; independent1065FF3000ask.2100 PF2bay counterexample retained. No authenticated tenancy.",
+      "price_source": "E18",
+      "rent_source": "E19",
+      "price_status": "Advertised figure for conditional analysis, not agreed net consideration or verified clearing price",
+      "rent_status": "Conditional long-term whole-unit scenario informed by asking evidence; not an achieved lease",
+      "fee_status": "Unverified combined management/sinking proxy; standard management-only test remains unverified",
+      "cost_status": "Illustrative allowances, pre-tax; property-specific costs and works not quoted",
+      "unit_identity": "No exact inspected parcel/title/approved plan; any advertised identity remains unauthenticated",
+      "g0": "STOP: unit-matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "quarantine": null
+    },
+    {
+      "id": "R347",
+      "area_id": "A52",
+      "batch": "B07",
+      "catchment": "Setia Alam–Bukit Raja",
+      "name": "BBK Condominium",
+      "sqft": 1605,
+      "layout": "4BR/3BA",
+      "price": 250000,
+      "rent_assumed": 1500,
+      "fee_assumed": 350,
+      "other_assumed": 200,
+      "refurb_assumed": 35000,
+      "rent_low": 1300,
+      "rent_high": 1600,
+      "bays": 1,
+      "match": "Partly furnished sale and same-agent1605sf rent, one bay; not independent achieved lease. Block-specific lease/freehold descriptions conflict in project profile. Old-building liabilities unknown.",
+      "price_source": "E24",
+      "rent_source": "E25",
+      "price_status": "Advertised figure for conditional analysis, not agreed net consideration or verified clearing price",
+      "rent_status": "Conditional long-term whole-unit scenario informed by asking evidence; not an achieved lease",
+      "fee_status": "Unverified combined management/sinking proxy; standard management-only test remains unverified",
+      "cost_status": "Illustrative allowances, pre-tax; property-specific costs and works not quoted",
+      "unit_identity": "No exact inspected parcel/title/approved plan; any advertised identity remains unauthenticated",
+      "g0": "STOP: unit-matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "quarantine": null
+    }
+  ],
+  "new_inputs": [
+    {
+      "id": "R348",
+      "area_id": "A51",
+      "batch": "B07",
+      "catchment": "Central Shah Alam / Section 20",
+      "name": "Suri Puteri family",
+      "sqft": 1130,
+      "layout": "3BR/2BA marketed; original Type B profile",
+      "price": 370000,
+      "rent_assumed": 1650,
+      "rent_low": 1500,
+      "rent_high": 1800,
+      "fee_assumed": 250,
+      "other_assumed": 200,
+      "refurb_assumed": 25000,
+      "bays": 2,
+      "price_source": "W02-E20",
+      "rent_source": "W02-E22",
+      "price_status": "2 July 2026 asking claim, Bumi lot / strata perfected and basic-condition claims unverified; no offer or cleared value",
+      "rent_status": "Indexed 1130sf FF/2-bay whole-unit ask1650, page-open failed; September24 index timestamp, not authenticated current availability or achieved rent",
+      "fee_status": "250 combined service/sinking proxy near profile0.20psf plus unverified10% sensitivity; actual bill missing",
+      "cost_status": "25k fit-out and200/month other allowance, pre-tax; no quote, tax, levy, insurance or condition certification",
+      "unit_identity": "Exact parcel/title/plan not obtained; seller claims two basement bays and Bumi restriction. Header PF/body basic.",
+      "match": "Basic/PF purchase requires funded transition to FF rental. Separate355k ad uses non-unit photographs and cannot authenticate same parcel.",
+      "g0": "STOP: old mixed transfers and restricted parcel not normalised",
+      "g9": "Defer",
+      "quarantine": "Exact restriction/eligible transfer route and selected parcel unresolved; no assumption about user's eligibility."
+    }
+  ],
+  "config": {
+    "version": "KV-FIN-90-4-35-v1",
+    "as_of": "2026-10-07",
+    "standard_ltv": 0.9,
+    "standard_rate": 0.04,
+    "standard_term_years": 35,
+    "preferred_gross_yield": 0.06,
+    "illustrative_hold_years": 5,
+    "baseline_paid_months_per_year": 11,
+    "illustrative_equity_hurdle": 0.08,
+    "acquisition_cost_allowance": 0.05,
+    "disposal_cost_allowance": 0.03,
+    "synthetic_cash": 500000,
+    "synthetic_protected_reserve": 150000,
+    "stress_rate": 0.055,
+    "stress_rent_factor": 0.8,
+    "stress_works": 30000,
+    "stress_no_sale_months": 12,
+    "stress_paid_months_first_year": 6,
+    "baseline_authority": "User: 90% LTV, 4% interest, 35 years, management-fee coverage, preferred 6% gross yield",
+    "other_parameters_authority": "Inherited synthetic comparison assumptions; not user finances, legal cost quotations or approved return targets",
+    "cost_boundary": "Fee input is a combined service/sinking proxy; other cost is an allowance. Base figures are pre-tax and omit unquoted transaction-specific costs. Unknown costs are not verified zero."
+  },
+  "evaluations": [
+    {
+      "id": "R235",
+      "name": "Trefoil Setia City",
+      "price": 260000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1000,
+      "fee_proxy": 230,
+      "other_cost_allowance": 160,
+      "gross_yield": 0.046153846153846156,
+      "standard_loan": 234000,
+      "standard_instalment": 1036.0928940179465,
+      "standard_monthly_balance": -266.0928940179465,
+      "current_shortfall": true,
+      "actual_loan": 234000,
+      "actual_instalment": 1036.0928940179465,
+      "entry_cash": 54000,
+      "cashflow_by_year": [
+        -6113.114728215358,
+        -6113.114728215358,
+        -6113.114728215358,
+        -6113.114728215358,
+        -6113.114728215358
+      ],
+      "cashflow_total": -30565.57364107683,
+      "terminal_debt": 217021.3028067765,
+      "terminal_nominal_breakeven": 310914.3056163437,
+      "terminal_8pct_required": 344063.54661751,
+      "profit_by_exit_multiple": {
+        "1": -49386.87644785334,
+        "0.8": -99826.87644785334,
+        "1.15": -11556.876447853341
+      },
+      "minimum_cash": 415434.42635892425,
+      "remaining_cash": 415434.42635892425,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1238.9850103754532,
+      "future_buyer_stress_payment_at_breakeven": 1527.4286900029933,
+      "scenario": "base",
+      "parameters": {}
+    },
+    {
+      "id": "R235",
+      "name": "Trefoil Setia City",
+      "price": 260000,
+      "months": 12,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1000,
+      "fee_proxy": 230,
+      "other_cost_allowance": 160,
+      "gross_yield": 0.046153846153846156,
+      "standard_loan": 234000,
+      "standard_instalment": 1036.0928940179465,
+      "standard_monthly_balance": -266.0928940179465,
+      "current_shortfall": true,
+      "actual_loan": 234000,
+      "actual_instalment": 1036.0928940179465,
+      "entry_cash": 54000,
+      "cashflow_by_year": [
+        -17113.11472821536
+      ],
+      "cashflow_total": -17113.11472821536,
+      "terminal_debt": 230869.91411007443,
+      "terminal_nominal_breakeven": 311322.7101425668,
+      "terminal_8pct_required": 316414.217798931,
+      "profit_by_exit_multiple": {
+        "1": -49783.02883828979,
+        "0.8": -100223.02883828979,
+        "1.15": -11953.028838289792
+      },
+      "cash_path": [
+        446000,
+        444573.90710598207,
+        443147.81421196414,
+        441721.7213179462,
+        440295.6284239283,
+        438869.53552991035,
+        437443.4426358924,
+        436017.3497418745,
+        434591.25684785657,
+        433165.16395383864,
+        431739.0710598207,
+        430312.9781658028,
+        428886.88527178485
+      ],
+      "minimum_cash": 428886.88527178485,
+      "remaining_cash": 428886.88527178485,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1240.6124912504706,
+      "future_buyer_stress_payment_at_breakeven": 1529.4350588937514,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 780,
+          "principal": 256.0928940179465,
+          "debt": 233743.90710598204,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 779.1463570199402,
+          "principal": 256.9465369980063,
+          "debt": 233486.96056898404,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 778.28986856328,
+          "principal": 257.80302545466645,
+          "debt": 233229.15754352938,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 777.4305251450979,
+          "principal": 258.66236887284856,
+          "debt": 232970.49517465653,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 776.5683172488551,
+          "principal": 259.52457676909137,
+          "debt": 232710.97059788744,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 775.7032353262915,
+          "principal": 260.389658691655,
+          "debt": 232450.5809391958,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 7,
+          "rent": 0,
+          "interest": 774.8352697973193,
+          "principal": 261.25762422062724,
+          "debt": 232189.32331497516,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 8,
+          "rent": 0,
+          "interest": 773.9644110499172,
+          "principal": 262.1284829680293,
+          "debt": 231927.19483200714,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 9,
+          "rent": 0,
+          "interest": 773.0906494400238,
+          "principal": 263.00224457792274,
+          "debt": 231664.19258742922,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 10,
+          "rent": 0,
+          "interest": 772.2139752914308,
+          "principal": 263.87891872651574,
+          "debt": 231400.3136687027,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 11,
+          "rent": 0,
+          "interest": 771.3343788956757,
+          "principal": 264.75851512227075,
+          "debt": 231135.55515358044,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        },
+        {
+          "month": 12,
+          "rent": 0,
+          "interest": 770.4518505119348,
+          "principal": 265.64104350601167,
+          "debt": 230869.91411007443,
+          "operating": 390,
+          "works": 0,
+          "cashflow": -1426.0928940179465
+        }
+      ],
+      "scenario": "zero_rent_first12",
+      "parameters": {
+        "months": 12,
+        "initial_vacancy": 12
+      }
+    },
+    {
+      "id": "R235",
+      "name": "Trefoil Setia City",
+      "price": 260000,
+      "months": 12,
+      "actual_rate": 0.055,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1000,
+      "fee_proxy": 230,
+      "other_cost_allowance": 160,
+      "gross_yield": 0.046153846153846156,
+      "standard_loan": 234000,
+      "standard_instalment": 1036.0928940179465,
+      "standard_monthly_balance": -266.0928940179465,
+      "current_shortfall": true,
+      "actual_loan": 234000,
+      "actual_instalment": 1256.6180933808982,
+      "entry_cash": 54000,
+      "cashflow_by_year": [
+        -45511.417120570804
+      ],
+      "cashflow_total": -45511.417120570804,
+      "terminal_debt": 231734.02740962597,
+      "terminal_nominal_breakeven": 341490.1490002029,
+      "terminal_8pct_required": 348881.28332823334,
+      "profit_by_exit_multiple": {
+        "1": -79045.44453019678,
+        "0.8": -129485.44453019678,
+        "1.15": -41215.44453019677
+      },
+      "cash_path": [
+        446000,
+        414307.3819066191,
+        412614.76381323824,
+        410922.14571985736,
+        409229.5276264765,
+        407536.9095330956,
+        405844.2914397147,
+        404951.67334633385,
+        404059.05525295297,
+        403166.4371595721,
+        402273.8190661912,
+        401381.20097281033,
+        400488.58287942945
+      ],
+      "minimum_cash": 400488.58287942945,
+      "remaining_cash": 400488.58287942945,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1360.828910600923,
+      "future_buyer_stress_payment_at_breakeven": 1677.6386339068733,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 1072.5,
+          "principal": 184.11809338089824,
+          "debt": 233815.8819066191,
+          "operating": 436,
+          "works": 30000,
+          "cashflow": -31692.618093380897
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 1071.6561254053374,
+          "principal": 184.9619679755608,
+          "debt": 233630.91993864352,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -1692.6180933808982
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 1070.8083830521161,
+          "principal": 185.8097103287821,
+          "debt": 233445.11022831473,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -1692.6180933808982
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 1069.956755213109,
+          "principal": 186.66133816778915,
+          "debt": 233258.44889014694,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -1692.6180933808982
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 1069.1012240798402,
+          "principal": 187.51686930105802,
+          "debt": 233070.93202084588,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -1692.6180933808982
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 1068.2417717622104,
+          "principal": 188.37632161868783,
+          "debt": 232882.5556992272,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -1692.6180933808982
+        },
+        {
+          "month": 7,
+          "rent": 800,
+          "interest": 1067.3783802881246,
+          "principal": 189.23971309277363,
+          "debt": 232693.31598613443,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -892.6180933808982
+        },
+        {
+          "month": 8,
+          "rent": 800,
+          "interest": 1066.5110316031162,
+          "principal": 190.10706177778206,
+          "debt": 232503.20892435664,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -892.6180933808982
+        },
+        {
+          "month": 9,
+          "rent": 800,
+          "interest": 1065.639707569968,
+          "principal": 190.97838581093015,
+          "debt": 232312.2305385457,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -892.6180933808982
+        },
+        {
+          "month": 10,
+          "rent": 800,
+          "interest": 1064.7643899683344,
+          "principal": 191.85370341256385,
+          "debt": 232120.37683513312,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -892.6180933808982
+        },
+        {
+          "month": 11,
+          "rent": 800,
+          "interest": 1063.8850604943602,
+          "principal": 192.733032886538,
+          "debt": 231927.64380224657,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -892.6180933808982
+        },
+        {
+          "month": 12,
+          "rent": 800,
+          "interest": 1063.0017007602967,
+          "principal": 193.61639262060157,
+          "debt": 231734.02740962597,
+          "operating": 436,
+          "works": 0,
+          "cashflow": -892.6180933808982
+        }
+      ],
+      "scenario": "combined12mo",
+      "parameters": {
+        "months": 12,
+        "rate": 0.055,
+        "rent_factor": 0.8,
+        "fee_factor": 1.2,
+        "first_year_paid": 6,
+        "levy_month": 1,
+        "levy": 30000
+      }
+    },
+    {
+      "id": "R235",
+      "name": "Trefoil Setia City",
+      "price": 260000,
+      "months": 72,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1000,
+      "fee_proxy": 230,
+      "other_cost_allowance": 160,
+      "gross_yield": 0.046153846153846156,
+      "standard_loan": 234000,
+      "standard_instalment": 1036.0928940179465,
+      "standard_monthly_balance": -266.0928940179465,
+      "current_shortfall": true,
+      "actual_loan": 234000,
+      "actual_instalment": 1036.0928940179465,
+      "entry_cash": 54000,
+      "cashflow_by_year": [
+        -6113.114728215358,
+        -6113.114728215358,
+        -6113.114728215358,
+        -6113.114728215358,
+        -6113.114728215358,
+        -6113.114728215358
+      ],
+      "cashflow_total": -36678.68836929216,
+      "terminal_debt": 213199.4785964311,
+      "terminal_nominal_breakeven": 313276.46078940545,
+      "terminal_8pct_required": 356318.07149086246,
+      "profit_by_exit_multiple": {
+        "1": -51678.16696572325,
+        "0.8": -102118.16696572324,
+        "1.15": -13848.166965723249
+      },
+      "minimum_cash": 409321.3116307091,
+      "remaining_cash": 409321.3116307091,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1248.3981341807494,
+      "future_buyer_stress_payment_at_breakeven": 1539.033249575835,
+      "scenario": "exit_delay12",
+      "parameters": {
+        "months": 72
+      }
+    },
+    {
+      "id": "R235",
+      "name": "Trefoil Setia City",
+      "price": 260000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 0.85,
+      "rent_assumed": 1000,
+      "fee_proxy": 230,
+      "other_cost_allowance": 160,
+      "gross_yield": 0.046153846153846156,
+      "standard_loan": 234000,
+      "standard_instalment": 1036.0928940179465,
+      "standard_monthly_balance": -266.0928940179465,
+      "current_shortfall": true,
+      "actual_loan": 198900,
+      "actual_instalment": 880.6789599152545,
+      "entry_cash": 89100,
+      "cashflow_by_year": [
+        -4248.147518983053,
+        -4248.147518983053,
+        -4248.147518983053,
+        -4248.147518983053,
+        -4248.147518983053
+      ],
+      "cashflow_total": -21240.737594915263,
+      "terminal_debt": 184468.10738576003,
+      "terminal_nominal_breakeven": 303926.6443099745,
+      "terminal_8pct_required": 351984.788875227,
+      "profit_by_exit_multiple": {
+        "1": -42608.84498067529,
+        "0.8": -93048.84498067529,
+        "1.15": -4778.844980675291
+      },
+      "minimum_cash": 389659.2624050856,
+      "remaining_cash": 389659.2624050856,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1211.1393710472482,
+      "future_buyer_stress_payment_at_breakeven": 1493.1004067346696,
+      "scenario": "bank_value_down15",
+      "parameters": {
+        "valuation_ratio": 0.85
+      }
+    },
+    {
+      "id": "R235",
+      "name": "Trefoil Setia City",
+      "price": 260000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 25,
+      "valuation_ratio": 1,
+      "rent_assumed": 1000,
+      "fee_proxy": 230,
+      "other_cost_allowance": 160,
+      "gross_yield": 0.046153846153846156,
+      "standard_loan": 234000,
+      "standard_instalment": 1036.0928940179465,
+      "standard_monthly_balance": -266.0928940179465,
+      "current_shortfall": true,
+      "actual_loan": 234000,
+      "actual_instalment": 1235.138206296782,
+      "entry_cash": 54000,
+      "cashflow_by_year": [
+        -8501.658475561386,
+        -8501.658475561386,
+        -8501.658475561386,
+        -8501.658475561386,
+        -8501.658475561386
+      ],
+      "cashflow_total": -42508.29237780693,
+      "terminal_debt": 203824.80199064617,
+      "terminal_nominal_breakeven": 309621.7467716012,
+      "terminal_8pct_required": 345427.2475396417,
+      "profit_by_exit_multiple": {
+        "1": -48133.0943684531,
+        "0.8": -98573.09436845311,
+        "1.15": -10303.094368453101
+      },
+      "minimum_cash": 403491.7076221935,
+      "remaining_cash": 403491.7076221935,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1233.8341987056926,
+      "future_buyer_stress_payment_at_breakeven": 1521.0787362462404,
+      "scenario": "term25",
+      "parameters": {
+        "term": 25
+      }
+    },
+    {
+      "id": "R236",
+      "name": "Gravit8 Nordica",
+      "price": 328000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1300,
+      "fee_proxy": 230,
+      "other_cost_allowance": 180,
+      "gross_yield": 0.0475609756097561,
+      "standard_loan": 295200,
+      "standard_instalment": 1307.0710355303324,
+      "standard_monthly_balance": -237.07103553033244,
+      "current_shortfall": true,
+      "actual_loan": 295200,
+      "actual_instalment": 1307.0710355303324,
+      "entry_cash": 69200,
+      "cashflow_by_year": [
+        -6304.852426363991,
+        -6304.852426363991,
+        -6304.852426363991,
+        -6304.852426363991,
+        -6304.852426363991
+      ],
+      "cashflow_total": -31524.2621318199,
+      "terminal_debt": 273780.72046393313,
+      "terminal_nominal_breakeven": 386087.6109234567,
+      "terminal_8pct_required": 426871.52119288064,
+      "profit_by_exit_multiple": {
+        "1": -56344.982595753034,
+        "0.8": -119976.98259575304,
+        "1.15": -8620.982595753034
+      },
+      "minimum_cash": 399275.7378681784,
+      "remaining_cash": 399275.7378681784,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1538.5485774852277,
+      "future_buyer_stress_payment_at_breakeven": 1896.7325823434267,
+      "scenario": "base",
+      "parameters": {}
+    },
+    {
+      "id": "R236",
+      "name": "Gravit8 Nordica",
+      "price": 328000,
+      "months": 12,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1300,
+      "fee_proxy": 230,
+      "other_cost_allowance": 180,
+      "gross_yield": 0.0475609756097561,
+      "standard_loan": 295200,
+      "standard_instalment": 1307.0710355303324,
+      "standard_monthly_balance": -237.07103553033244,
+      "current_shortfall": true,
+      "actual_loan": 295200,
+      "actual_instalment": 1307.0710355303324,
+      "entry_cash": 69200,
+      "cashflow_by_year": [
+        -20604.852426363985
+      ],
+      "cashflow_total": -20604.852426363985,
+      "terminal_debt": 291251.27626194,
+      "terminal_nominal_breakeven": 392841.3697817567,
+      "terminal_8pct_required": 399316.64185227314,
+      "profit_by_exit_multiple": {
+        "1": -62896.128688304,
+        "0.8": -126528.128688304,
+        "1.15": -15172.128688304001
+      },
+      "cash_path": [
+        430800,
+        429082.92896446964,
+        427365.8579289393,
+        425648.7868934089,
+        423931.71585787856,
+        422214.6448223482,
+        420497.57378681784,
+        418780.5027512875,
+        417063.4317157571,
+        415346.36068022676,
+        413629.2896446964,
+        411912.21860916604,
+        410195.1475736357
+      ],
+      "minimum_cash": 410195.1475736357,
+      "remaining_cash": 410195.1475736357,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1565.4621219505946,
+      "future_buyer_stress_payment_at_breakeven": 1929.911773069564,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 984,
+          "principal": 323.07103553033244,
+          "debt": 294876.92896446964,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 982.9230965482321,
+          "principal": 324.1479389821003,
+          "debt": 294552.7810254875,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 981.8426034182918,
+          "principal": 325.22843211204065,
+          "debt": 294227.5525933755,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 980.758508644585,
+          "principal": 326.3125268857474,
+          "debt": 293901.2400664897,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 979.6708002216325,
+          "principal": 327.40023530869996,
+          "debt": 293573.83983118105,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 978.5794661039369,
+          "principal": 328.4915694263956,
+          "debt": 293245.34826175467,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 7,
+          "rent": 0,
+          "interest": 977.4844942058489,
+          "principal": 329.5865413244835,
+          "debt": 292915.76172043016,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 8,
+          "rent": 0,
+          "interest": 976.385872401434,
+          "principal": 330.68516312889847,
+          "debt": 292585.0765573013,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 9,
+          "rent": 0,
+          "interest": 975.2835885243376,
+          "principal": 331.78744700599486,
+          "debt": 292253.2891102953,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 10,
+          "rent": 0,
+          "interest": 974.1776303676511,
+          "principal": 332.89340516268135,
+          "debt": 291920.3957051326,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 11,
+          "rent": 0,
+          "interest": 973.0679856837754,
+          "principal": 334.003049846557,
+          "debt": 291586.39265528606,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        },
+        {
+          "month": 12,
+          "rent": 0,
+          "interest": 971.954642184287,
+          "principal": 335.11639334604547,
+          "debt": 291251.27626194,
+          "operating": 410,
+          "works": 0,
+          "cashflow": -1717.0710355303324
+        }
+      ],
+      "scenario": "zero_rent_first12",
+      "parameters": {
+        "months": 12,
+        "initial_vacancy": 12
+      }
+    },
+    {
+      "id": "R236",
+      "name": "Gravit8 Nordica",
+      "price": 328000,
+      "months": 12,
+      "actual_rate": 0.055,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1300,
+      "fee_proxy": 230,
+      "other_cost_allowance": 180,
+      "gross_yield": 0.0475609756097561,
+      "standard_loan": 295200,
+      "standard_instalment": 1307.0710355303324,
+      "standard_monthly_balance": -237.07103553033244,
+      "current_shortfall": true,
+      "actual_loan": 295200,
+      "actual_instalment": 1585.2720562651332,
+      "entry_cash": 69200,
+      "cashflow_by_year": [
+        -48255.26467518157
+      ],
+      "cashflow_total": -48255.26467518157,
+      "terminal_debt": 292341.38842445135,
+      "terminal_nominal_breakeven": 422470.7763913742,
+      "terminal_8pct_required": 431247.3891387719,
+      "profit_by_exit_multiple": {
+        "1": -91636.65309963291,
+        "0.8": -155268.6530996329,
+        "1.15": -43912.65309963292
+      },
+      "cash_path": [
+        430800,
+        398758.72794373485,
+        396717.4558874697,
+        394676.18383120454,
+        392634.9117749394,
+        390593.63971867424,
+        388552.3676624091,
+        387551.09560614394,
+        386549.8235498788,
+        385548.55149361363,
+        384547.2794373485,
+        383546.0073810833,
+        382544.7353248182
+      ],
+      "minimum_cash": 382544.7353248182,
+      "remaining_cash": 382544.7353248182,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1683.534497497491,
+      "future_buyer_stress_payment_at_breakeven": 2075.472157091068,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 1353,
+          "principal": 232.2720562651332,
+          "debt": 294967.72794373485,
+          "operating": 456,
+          "works": 30000,
+          "cashflow": -32041.272056265134
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 1351.935419742118,
+          "principal": 233.33663652301516,
+          "debt": 294734.39130721183,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -2041.2720562651332
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 1350.8659601580541,
+          "principal": 234.40609610707907,
+          "debt": 294499.98521110474,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -2041.2720562651332
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 1349.79159888423,
+          "principal": 235.4804573809031,
+          "debt": 294264.50475372386,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -2041.2720562651332
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 1348.7123134545677,
+          "principal": 236.55974281056547,
+          "debt": 294027.9450109133,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -2041.2720562651332
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 1347.6280813000192,
+          "principal": 237.643974965114,
+          "debt": 293790.3010359482,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -2041.2720562651332
+        },
+        {
+          "month": 7,
+          "rent": 1040,
+          "interest": 1346.538879748096,
+          "principal": 238.73317651703724,
+          "debt": 293551.5678594312,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -1001.2720562651332
+        },
+        {
+          "month": 8,
+          "rent": 1040,
+          "interest": 1345.4446860223932,
+          "principal": 239.82737024274002,
+          "debt": 293311.74048918847,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -1001.2720562651332
+        },
+        {
+          "month": 9,
+          "rent": 1040,
+          "interest": 1344.345477242114,
+          "principal": 240.92657902301926,
+          "debt": 293070.81391016545,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -1001.2720562651332
+        },
+        {
+          "month": 10,
+          "rent": 1040,
+          "interest": 1343.2412304215916,
+          "principal": 242.0308258435416,
+          "debt": 292828.7830843219,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -1001.2720562651332
+        },
+        {
+          "month": 11,
+          "rent": 1040,
+          "interest": 1342.1319224698086,
+          "principal": 243.14013379532457,
+          "debt": 292585.64295052656,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -1001.2720562651332
+        },
+        {
+          "month": 12,
+          "rent": 1040,
+          "interest": 1341.0175301899133,
+          "principal": 244.25452607521993,
+          "debt": 292341.38842445135,
+          "operating": 456,
+          "works": 0,
+          "cashflow": -1001.2720562651332
+        }
+      ],
+      "scenario": "combined12mo",
+      "parameters": {
+        "months": 12,
+        "rate": 0.055,
+        "rent_factor": 0.8,
+        "fee_factor": 1.2,
+        "first_year_paid": 6,
+        "levy_month": 1,
+        "levy": 30000
+      }
+    },
+    {
+      "id": "R236",
+      "name": "Gravit8 Nordica",
+      "price": 328000,
+      "months": 72,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1300,
+      "fee_proxy": 230,
+      "other_cost_allowance": 180,
+      "gross_yield": 0.0475609756097561,
+      "standard_loan": 295200,
+      "standard_instalment": 1307.0710355303324,
+      "standard_monthly_balance": -237.07103553033244,
+      "current_shortfall": true,
+      "actual_loan": 295200,
+      "actual_instalment": 1307.0710355303324,
+      "entry_cash": 69200,
+      "cashflow_by_year": [
+        -6304.852426363991,
+        -6304.852426363991,
+        -6304.852426363991,
+        -6304.852426363991,
+        -6304.852426363991,
+        -6304.852426363991
+      ],
+      "cashflow_total": -37829.11455818387,
+      "terminal_debt": 268959.3422293436,
+      "terminal_nominal_breakeven": 387616.9657603376,
+      "terminal_8pct_required": 440255.26599097345,
+      "profit_by_exit_multiple": {
+        "1": -57828.45678752747,
+        "0.8": -121460.45678752748,
+        "1.15": -10104.456787527473
+      },
+      "minimum_cash": 392970.8854418141,
+      "remaining_cash": 392970.8854418141,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1544.6430147118592,
+      "future_buyer_stress_payment_at_breakeven": 1904.2458437561363,
+      "scenario": "exit_delay12",
+      "parameters": {
+        "months": 72
+      }
+    },
+    {
+      "id": "R236",
+      "name": "Gravit8 Nordica",
+      "price": 328000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 0.85,
+      "rent_assumed": 1300,
+      "fee_proxy": 230,
+      "other_cost_allowance": 180,
+      "gross_yield": 0.0475609756097561,
+      "standard_loan": 295200,
+      "standard_instalment": 1307.0710355303324,
+      "standard_monthly_balance": -237.07103553033244,
+      "current_shortfall": true,
+      "actual_loan": 250920,
+      "actual_instalment": 1111.0103802007827,
+      "entry_cash": 113480,
+      "cashflow_by_year": [
+        -3952.124562409391,
+        -3952.124562409391,
+        -3952.124562409391,
+        -3952.124562409391,
+        -3952.124562409391
+      ],
+      "cashflow_total": -19760.622812046982,
+      "terminal_debt": 232713.61239434328,
+      "terminal_nominal_breakeven": 377272.40742926835,
+      "terminal_8pct_required": 436864.47296415456,
+      "profit_by_exit_multiple": {
+        "1": -47794.235206390265,
+        "0.8": -111426.23520639027,
+        "1.15": -70.23520639026538
+      },
+      "minimum_cash": 366759.37718795147,
+      "remaining_cash": 366759.37718795147,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1503.420232486571,
+      "future_buyer_stress_payment_at_breakeven": 1853.4261326818507,
+      "scenario": "bank_value_down15",
+      "parameters": {
+        "valuation_ratio": 0.85
+      }
+    },
+    {
+      "id": "R236",
+      "name": "Gravit8 Nordica",
+      "price": 328000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 25,
+      "valuation_ratio": 1,
+      "rent_assumed": 1300,
+      "fee_proxy": 230,
+      "other_cost_allowance": 180,
+      "gross_yield": 0.0475609756097561,
+      "standard_loan": 295200,
+      "standard_instalment": 1307.0710355303324,
+      "standard_monthly_balance": -237.07103553033244,
+      "current_shortfall": true,
+      "actual_loan": 295200,
+      "actual_instalment": 1558.1743525590175,
+      "entry_cash": 69200,
+      "cashflow_by_year": [
+        -9318.09223070821,
+        -9318.09223070821,
+        -9318.09223070821,
+        -9318.09223070821,
+        -9318.09223070821
+      ],
+      "cashflow_total": -46590.46115354111,
+      "terminal_debt": 257132.82712666132,
+      "terminal_nominal_breakeven": 384456.9982270128,
+      "terminal_8pct_required": 428591.8823561856,
+      "profit_by_exit_multiple": {
+        "1": -54763.288280202425,
+        "0.8": -118395.28828020243,
+        "1.15": -7039.288280202425
+      },
+      "minimum_cash": 384209.5388464583,
+      "remaining_cash": 384209.5388464583,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1532.0506304556857,
+      "future_buyer_stress_payment_at_breakeven": 1888.7218714502942,
+      "scenario": "term25",
+      "parameters": {
+        "term": 25
+      }
+    },
+    {
+      "id": "R342",
+      "name": "Subang Avenue",
+      "price": 450000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 2500,
+      "fee_proxy": 323,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.06666666666666667,
+      "standard_loan": 405000,
+      "standard_instalment": 1793.2377011849073,
+      "standard_monthly_balance": 383.76229881509266,
+      "current_shortfall": false,
+      "actual_loan": 405000,
+      "actual_instalment": 1793.2377011849073,
+      "entry_cash": 102500,
+      "cashflow_by_year": [
+        -294.8524142188885,
+        -294.8524142188885,
+        -294.8524142188885,
+        -294.8524142188885,
+        -294.8524142188885
+      ],
+      "cashflow_total": -1474.2620710944457,
+      "terminal_debt": 375613.7933194207,
+      "terminal_nominal_breakeven": 494420.67566032487,
+      "terminal_8pct_required": 544901.0358516249,
+      "profit_by_exit_multiple": {
+        "1": -43088.05539051516,
+        "0.8": -130388.05539051516,
+        "1.15": 22386.94460948478
+      },
+      "minimum_cash": 394004.35264193837,
+      "remaining_cash": 396025.7379289041,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1970.2528796431325,
+      "future_buyer_stress_payment_at_breakeven": 2428.9404227868604,
+      "scenario": "base",
+      "parameters": {}
+    },
+    {
+      "id": "R342",
+      "name": "Subang Avenue",
+      "price": 450000,
+      "months": 12,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 2500,
+      "fee_proxy": 323,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.06666666666666667,
+      "standard_loan": 405000,
+      "standard_instalment": 1793.2377011849073,
+      "standard_monthly_balance": 383.76229881509266,
+      "current_shortfall": false,
+      "actual_loan": 405000,
+      "actual_instalment": 1793.2377011849073,
+      "entry_cash": 102500,
+      "cashflow_by_year": [
+        -27794.852414218898
+      ],
+      "cashflow_total": -27794.852414218898,
+      "terminal_debt": 399582.5436520519,
+      "terminal_nominal_breakeven": 546265.3567693513,
+      "terminal_8pct_required": 555755.0312272934,
+      "profit_by_exit_multiple": {
+        "1": -93377.39606627078,
+        "0.8": -180677.39606627077,
+        "1.15": -27902.39606627084
+      },
+      "cash_path": [
+        397500,
+        395183.76229881507,
+        392867.52459763014,
+        390551.2868964452,
+        388235.0491952603,
+        385918.81149407534,
+        383602.5737928904,
+        381286.3360917055,
+        378970.09839052055,
+        376653.8606893356,
+        374337.6229881507,
+        372021.38528696576,
+        369705.1475857808
+      ],
+      "minimum_cash": 369705.1475857808,
+      "remaining_cash": 369705.1475857808,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 2176.8525169111663,
+      "future_buyer_stress_payment_at_breakeven": 2683.6377844698554,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 1350,
+          "principal": 443.23770118490734,
+          "debt": 404556.76229881507,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 1348.52254099605,
+          "principal": 444.7151601888572,
+          "debt": 404112.0471386262,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 1347.0401571287541,
+          "principal": 446.1975440561532,
+          "debt": 403665.84959457006,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 1345.5528319819002,
+          "principal": 447.6848692030071,
+          "debt": 403218.16472536704,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 1344.060549084557,
+          "principal": 449.17715210035044,
+          "debt": 402768.98757326667,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 1342.563291910889,
+          "principal": 450.67440927401844,
+          "debt": 402318.31316399266,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 7,
+          "rent": 0,
+          "interest": 1341.0610438799756,
+          "principal": 452.1766573049317,
+          "debt": 401866.13650668773,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 8,
+          "rent": 0,
+          "interest": 1339.5537883556258,
+          "principal": 453.68391282928155,
+          "debt": 401412.45259385847,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 9,
+          "rent": 0,
+          "interest": 1338.0415086461949,
+          "principal": 455.19619253871247,
+          "debt": 400957.25640131976,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 10,
+          "rent": 0,
+          "interest": 1336.5241880043993,
+          "principal": 456.713513180508,
+          "debt": 400500.54288813926,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 11,
+          "rent": 0,
+          "interest": 1335.0018096271308,
+          "principal": 458.23589155777654,
+          "debt": 400042.3069965815,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        },
+        {
+          "month": 12,
+          "rent": 0,
+          "interest": 1333.4743566552718,
+          "principal": 459.76334452963556,
+          "debt": 399582.5436520519,
+          "operating": 523,
+          "works": 0,
+          "cashflow": -2316.2377011849076
+        }
+      ],
+      "scenario": "zero_rent_first12",
+      "parameters": {
+        "months": 12,
+        "initial_vacancy": 12
+      }
+    },
+    {
+      "id": "R342",
+      "name": "Subang Avenue",
+      "price": 450000,
+      "months": 12,
+      "actual_rate": 0.055,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 2500,
+      "fee_proxy": 323,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.06666666666666667,
+      "standard_loan": 405000,
+      "standard_instalment": 1793.2377011849073,
+      "standard_monthly_balance": 383.76229881509266,
+      "current_shortfall": false,
+      "actual_loan": 405000,
+      "actual_instalment": 2174.9159308515545,
+      "entry_cash": 102500,
+      "cashflow_by_year": [
+        -51150.191170218684
+      ],
+      "cashflow_total": -51150.191170218684,
+      "terminal_debt": 401078.1243628143,
+      "terminal_nominal_breakeven": 571884.8613742609,
+      "terminal_8pct_required": 583634.1434721615,
+      "profit_by_exit_multiple": {
+        "1": -118228.31553303299,
+        "0.8": -205528.315533033,
+        "1.15": -52753.31553303304
+      },
+      "cash_path": [
+        397500,
+        364737.4840691484,
+        361974.96813829686,
+        359212.4522074453,
+        356449.9362765937,
+        353687.42034574214,
+        350924.90441489057,
+        350162.388484039,
+        349399.8725531874,
+        348637.35662233585,
+        347874.8406914843,
+        347112.3247606327,
+        346349.80882978113
+      ],
+      "minimum_cash": 346349.80882978113,
+      "remaining_cash": 346349.80882978113,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 2278.945542562731,
+      "future_buyer_stress_payment_at_breakeven": 2809.4987231604346,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 1856.25,
+          "principal": 318.66593085155455,
+          "debt": 404681.33406914846,
+          "operating": 587.5999999999999,
+          "works": 30000,
+          "cashflow": -32762.515930851554
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 1854.7894478169303,
+          "principal": 320.12648303462424,
+          "debt": 404361.20758611383,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -2762.5159308515545
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 1853.3222014363553,
+          "principal": 321.5937294151993,
+          "debt": 404039.6138566986,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -2762.5159308515545
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 1851.8482301765353,
+          "principal": 323.0677006750193,
+          "debt": 403716.5461560236,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -2762.5159308515545
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 1850.3675032151084,
+          "principal": 324.54842763644615,
+          "debt": 403391.9977283872,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -2762.5159308515545
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 1848.8799895884413,
+          "principal": 326.0359412631133,
+          "debt": 403065.96178712405,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -2762.5159308515545
+        },
+        {
+          "month": 7,
+          "rent": 2000,
+          "interest": 1847.3856581909852,
+          "principal": 327.5302726605694,
+          "debt": 402738.4315144635,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -762.5159308515545
+        },
+        {
+          "month": 8,
+          "rent": 2000,
+          "interest": 1845.8844777746244,
+          "principal": 329.0314530769301,
+          "debt": 402409.4000613866,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -762.5159308515545
+        },
+        {
+          "month": 9,
+          "rent": 2000,
+          "interest": 1844.3764169480219,
+          "principal": 330.5395139035327,
+          "debt": 402078.860547483,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -762.5159308515545
+        },
+        {
+          "month": 10,
+          "rent": 2000,
+          "interest": 1842.861444175964,
+          "principal": 332.0544866755906,
+          "debt": 401746.80606080743,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -762.5159308515545
+        },
+        {
+          "month": 11,
+          "rent": 2000,
+          "interest": 1841.3395277787006,
+          "principal": 333.57640307285396,
+          "debt": 401413.22965773457,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -762.5159308515545
+        },
+        {
+          "month": 12,
+          "rent": 2000,
+          "interest": 1839.8106359312835,
+          "principal": 335.10529492027104,
+          "debt": 401078.1243628143,
+          "operating": 587.5999999999999,
+          "works": 0,
+          "cashflow": -762.5159308515545
+        }
+      ],
+      "scenario": "combined12mo",
+      "parameters": {
+        "months": 12,
+        "rate": 0.055,
+        "rent_factor": 0.8,
+        "fee_factor": 1.2,
+        "first_year_paid": 6,
+        "levy_month": 1,
+        "levy": 30000
+      }
+    },
+    {
+      "id": "R342",
+      "name": "Subang Avenue",
+      "price": 450000,
+      "months": 72,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 2500,
+      "fee_proxy": 323,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.06666666666666667,
+      "standard_loan": 405000,
+      "standard_instalment": 1793.2377011849073,
+      "standard_monthly_balance": 383.76229881509266,
+      "current_shortfall": false,
+      "actual_loan": 405000,
+      "actual_instalment": 1793.2377011849073,
+      "entry_cash": 102500,
+      "cashflow_by_year": [
+        -294.8524142188885,
+        -294.8524142188885,
+        -294.8524142188885,
+        -294.8524142188885,
+        -294.8524142188885,
+        -294.8524142188885
+      ],
+      "cashflow_total": -1769.114485313336,
+      "terminal_debt": 368999.097570746,
+      "terminal_nominal_breakeven": 487905.37325366936,
+      "terminal_8pct_required": 551105.552120038,
+      "profit_by_exit_multiple": {
+        "1": -36768.2120560593,
+        "0.8": -124068.2120560593,
+        "1.15": 28706.78794394064
+      },
+      "minimum_cash": 393709.5002277192,
+      "remaining_cash": 395730.88551468495,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1944.2895776203873,
+      "future_buyer_stress_payment_at_breakeven": 2396.9326970559923,
+      "scenario": "exit_delay12",
+      "parameters": {
+        "months": 72
+      }
+    },
+    {
+      "id": "R342",
+      "name": "Subang Avenue",
+      "price": 450000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 0.85,
+      "rent_assumed": 2500,
+      "fee_proxy": 323,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.06666666666666667,
+      "standard_loan": 405000,
+      "standard_instalment": 1793.2377011849073,
+      "standard_monthly_balance": 383.76229881509266,
+      "current_shortfall": false,
+      "actual_loan": 344250,
+      "actual_instalment": 1524.2520460071712,
+      "entry_cash": 163250,
+      "cashflow_by_year": [
+        2932.9754479139456,
+        2932.9754479139456,
+        2932.9754479139456,
+        2932.9754479139456,
+        2932.9754479139456
+      ],
+      "cashflow_total": 14664.877239569718,
+      "terminal_debt": 319271.72432150756,
+      "terminal_nominal_breakeven": 482326.6464762246,
+      "terminal_8pct_required": 558610.8782207504,
+      "profit_by_exit_multiple": {
+        "1": -31356.847081937827,
+        "0.8": -118656.84708193784,
+        "1.15": 34118.152918062115
+      },
+      "minimum_cash": 334702.7479539928,
+      "remaining_cash": 351414.87723956816,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1922.058503882779,
+      "future_buyer_stress_payment_at_breakeven": 2369.526086360916,
+      "scenario": "bank_value_down15",
+      "parameters": {
+        "valuation_ratio": 0.85
+      }
+    },
+    {
+      "id": "R342",
+      "name": "Subang Avenue",
+      "price": 450000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 25,
+      "valuation_ratio": 1,
+      "rent_assumed": 2500,
+      "fee_proxy": 323,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.06666666666666667,
+      "standard_loan": 405000,
+      "standard_instalment": 1793.2377011849073,
+      "standard_monthly_balance": 383.76229881509266,
+      "current_shortfall": false,
+      "actual_loan": 405000,
+      "actual_instalment": 2137.739203205969,
+      "entry_cash": 102500,
+      "cashflow_by_year": [
+        -4428.870438471626,
+        -4428.870438471626,
+        -4428.870438471626,
+        -4428.870438471626,
+        -4428.870438471626
+      ],
+      "cashflow_total": -22144.35219235813,
+      "terminal_debt": 352773.69575304136,
+      "terminal_nominal_breakeven": 492183.55458288605,
+      "terminal_8pct_required": 547261.2874476222,
+      "profit_by_exit_multiple": {
+        "1": -40918.04794539949,
+        "0.8": -128218.04794539949,
+        "1.15": 24556.95205460045
+      },
+      "minimum_cash": 375355.64780764165,
+      "remaining_cash": 375355.64780764165,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1961.3380132916243,
+      "future_buyer_stress_payment_at_breakeven": 2417.9501182078648,
+      "scenario": "term25",
+      "parameters": {
+        "term": 25
+      }
+    },
+    {
+      "id": "R345",
+      "name": "Impiria Residensi",
+      "price": 600000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 3000,
+      "fee_proxy": 330,
+      "other_cost_allowance": 250,
+      "gross_yield": 0.06,
+      "standard_loan": 540000,
+      "standard_instalment": 2390.9836015798764,
+      "standard_monthly_balance": 279.01639842012355,
+      "current_shortfall": false,
+      "actual_loan": 540000,
+      "actual_instalment": 2390.9836015798764,
+      "entry_cash": 105000,
+      "cashflow_by_year": [
+        -2651.8032189585174,
+        -2651.8032189585174,
+        -2651.8032189585174,
+        -2651.8032189585174,
+        -2651.8032189585174
+      ],
+      "cashflow_total": -13259.016094792565,
+      "terminal_debt": 500818.3910925604,
+      "terminal_nominal_breakeven": 638224.1311209825,
+      "terminal_8pct_required": 692646.9282319408,
+      "profit_by_exit_multiple": {
+        "1": -37077.40718735299,
+        "0.8": -153477.407187353,
+        "1.15": 50222.592812646995
+      },
+      "minimum_cash": 381421.80352258735,
+      "remaining_cash": 381740.983905209,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 2543.3057194047233,
+      "future_buyer_stress_payment_at_breakeven": 3135.403649548819,
+      "scenario": "base",
+      "parameters": {}
+    },
+    {
+      "id": "R345",
+      "name": "Impiria Residensi",
+      "price": 600000,
+      "months": 12,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 3000,
+      "fee_proxy": 330,
+      "other_cost_allowance": 250,
+      "gross_yield": 0.06,
+      "standard_loan": 540000,
+      "standard_instalment": 2390.9836015798764,
+      "standard_monthly_balance": 279.01639842012355,
+      "current_shortfall": false,
+      "actual_loan": 540000,
+      "actual_instalment": 2390.9836015798764,
+      "entry_cash": 105000,
+      "cashflow_by_year": [
+        -35651.803218958514
+      ],
+      "cashflow_total": -35651.803218958514,
+      "terminal_debt": 532776.7248694024,
+      "terminal_nominal_breakeven": 694256.2145240834,
+      "terminal_8pct_required": 704244.9460896071,
+      "profit_by_exit_multiple": {
+        "1": -91428.52808836088,
+        "0.8": -207828.52808836088,
+        "1.15": -4128.528088360879
+      },
+      "cash_path": [
+        395000,
+        392029.01639842015,
+        389058.0327968403,
+        386087.04919526045,
+        383116.0655936806,
+        380145.08199210075,
+        377174.0983905209,
+        374203.11478894105,
+        371232.1311873612,
+        368261.14758578135,
+        365290.1639842015,
+        362319.18038262165,
+        359348.1967810418
+      ],
+      "minimum_cash": 359348.1967810418,
+      "remaining_cash": 359348.1967810418,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 2766.592040370007,
+      "future_buyer_stress_payment_at_breakeven": 3410.6724622233496,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 1800,
+          "principal": 590.9836015798764,
+          "debt": 539409.0163984201,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 1798.0300546614005,
+          "principal": 592.9535469184759,
+          "debt": 538816.0628515016,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 1796.053542838339,
+          "principal": 594.9300587415376,
+          "debt": 538221.13279276,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 1794.0704426425336,
+          "principal": 596.9131589373428,
+          "debt": 537624.2196338227,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 1792.0807321127422,
+          "principal": 598.9028694671342,
+          "debt": 537025.3167643555,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 1790.0843892145185,
+          "principal": 600.8992123653579,
+          "debt": 536424.4175519901,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 7,
+          "rent": 0,
+          "interest": 1788.0813918399672,
+          "principal": 602.9022097399093,
+          "debt": 535821.5153422502,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 8,
+          "rent": 0,
+          "interest": 1786.0717178075008,
+          "principal": 604.9118837723756,
+          "debt": 535216.6034584779,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 9,
+          "rent": 0,
+          "interest": 1784.0553448615929,
+          "principal": 606.9282567182836,
+          "debt": 534609.6752017596,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 10,
+          "rent": 0,
+          "interest": 1782.0322506725317,
+          "principal": 608.9513509073447,
+          "debt": 534000.7238508522,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 11,
+          "rent": 0,
+          "interest": 1780.002412836174,
+          "principal": 610.9811887437024,
+          "debt": 533389.7426621085,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        },
+        {
+          "month": 12,
+          "rent": 0,
+          "interest": 1777.965808873695,
+          "principal": 613.0177927061814,
+          "debt": 532776.7248694024,
+          "operating": 580,
+          "works": 0,
+          "cashflow": -2970.9836015798764
+        }
+      ],
+      "scenario": "zero_rent_first12",
+      "parameters": {
+        "months": 12,
+        "initial_vacancy": 12
+      }
+    },
+    {
+      "id": "R345",
+      "name": "Impiria Residensi",
+      "price": 600000,
+      "months": 12,
+      "actual_rate": 0.055,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 3000,
+      "fee_proxy": 330,
+      "other_cost_allowance": 250,
+      "gross_yield": 0.06,
+      "standard_loan": 540000,
+      "standard_instalment": 2390.9836015798764,
+      "standard_monthly_balance": 279.01639842012355,
+      "current_shortfall": false,
+      "actual_loan": 540000,
+      "actual_instalment": 2899.8879078020727,
+      "entry_cash": 105000,
+      "cashflow_by_year": [
+        -58150.65489362483
+      ],
+      "cashflow_total": -58150.65489362483,
+      "terminal_debt": 534770.8324837522,
+      "terminal_nominal_breakeven": 719506.6880179144,
+      "terminal_8pct_required": 731772.4212015895,
+      "profit_by_exit_multiple": {
+        "1": -115921.487377377,
+        "0.8": -232321.487377377,
+        "1.15": -28621.487377376994
+      },
+      "cash_path": [
+        395000,
+        361454.11209219793,
+        357908.22418439586,
+        354362.3362765938,
+        350816.4483687917,
+        347270.56046098965,
+        343724.6725531876,
+        342578.7846453855,
+        341432.89673758345,
+        340287.0088297814,
+        339141.1209219793,
+        337995.23301417724,
+        336849.34510637517
+      ],
+      "minimum_cash": 336849.34510637517,
+      "remaining_cash": 336849.34510637517,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 2867.214487129803,
+      "future_buyer_stress_payment_at_breakeven": 3534.7204617973202,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 2475,
+          "principal": 424.88790780207273,
+          "debt": 539575.1120921979,
+          "operating": 646,
+          "works": 30000,
+          "cashflow": -33545.88790780207
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 2473.0525970892404,
+          "principal": 426.8353107128323,
+          "debt": 539148.2767814851,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -3545.8879078020727
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 2471.0962685818063,
+          "principal": 428.79163922026646,
+          "debt": 538719.4851422647,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -3545.8879078020727
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 2469.130973568713,
+          "principal": 430.7569342333595,
+          "debt": 538288.7282080314,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -3545.8879078020727
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 2467.1566709534773,
+          "principal": 432.7312368485955,
+          "debt": 537855.9969711828,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -3545.8879078020727
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 2465.1733194512544,
+          "principal": 434.7145883508183,
+          "debt": 537421.2823828319,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -3545.8879078020727
+        },
+        {
+          "month": 7,
+          "rent": 2400,
+          "interest": 2463.1808775879795,
+          "principal": 436.70703021409327,
+          "debt": 536984.5753526178,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -1145.8879078020727
+        },
+        {
+          "month": 8,
+          "rent": 2400,
+          "interest": 2461.179303699498,
+          "principal": 438.70860410257455,
+          "debt": 536545.8667485152,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -1145.8879078020727
+        },
+        {
+          "month": 9,
+          "rent": 2400,
+          "interest": 2459.1685559306948,
+          "principal": 440.71935187137797,
+          "debt": 536105.1473966438,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -1145.8879078020727
+        },
+        {
+          "month": 10,
+          "rent": 2400,
+          "interest": 2457.1485922346174,
+          "principal": 442.7393155674554,
+          "debt": 535662.4080810763,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -1145.8879078020727
+        },
+        {
+          "month": 11,
+          "rent": 2400,
+          "interest": 2455.1193703716,
+          "principal": 444.76853743047286,
+          "debt": 535217.6395436459,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -1145.8879078020727
+        },
+        {
+          "month": 12,
+          "rent": 2400,
+          "interest": 2453.080847908377,
+          "principal": 446.8070598936956,
+          "debt": 534770.8324837522,
+          "operating": 646,
+          "works": 0,
+          "cashflow": -1145.8879078020727
+        }
+      ],
+      "scenario": "combined12mo",
+      "parameters": {
+        "months": 12,
+        "rate": 0.055,
+        "rent_factor": 0.8,
+        "fee_factor": 1.2,
+        "first_year_paid": 6,
+        "levy_month": 1,
+        "levy": 30000
+      }
+    },
+    {
+      "id": "R345",
+      "name": "Impiria Residensi",
+      "price": 600000,
+      "months": 72,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 3000,
+      "fee_proxy": 330,
+      "other_cost_allowance": 250,
+      "gross_yield": 0.06,
+      "standard_loan": 540000,
+      "standard_instalment": 2390.9836015798764,
+      "standard_monthly_balance": 279.01639842012355,
+      "current_shortfall": false,
+      "actual_loan": 540000,
+      "actual_instalment": 2390.9836015798764,
+      "entry_cash": 105000,
+      "cashflow_by_year": [
+        -2651.8032189585174,
+        -2651.8032189585174,
+        -2651.8032189585174,
+        -2651.8032189585174,
+        -2651.8032189585174,
+        -2651.8032189585174
+      ],
+      "cashflow_total": -15910.819313751072,
+      "terminal_debt": 491998.796760994,
+      "terminal_nominal_breakeven": 631865.5835822114,
+      "terminal_8pct_required": 700608.6152610545,
+      "profit_by_exit_multiple": {
+        "1": -30909.616074745078,
+        "0.8": -147309.61607474508,
+        "1.15": 56390.38392525492
+      },
+      "minimum_cash": 378770.00030362915,
+      "remaining_cash": 379089.1806862508,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 2517.9670812462773,
+      "future_buyer_stress_payment_at_breakeven": 3104.166013447728,
+      "scenario": "exit_delay12",
+      "parameters": {
+        "months": 72
+      }
+    },
+    {
+      "id": "R345",
+      "name": "Impiria Residensi",
+      "price": 600000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 0.85,
+      "rent_assumed": 3000,
+      "fee_proxy": 330,
+      "other_cost_allowance": 250,
+      "gross_yield": 0.06,
+      "standard_loan": 540000,
+      "standard_instalment": 2390.9836015798764,
+      "standard_monthly_balance": 279.01639842012355,
+      "current_shortfall": false,
+      "actual_loan": 459000,
+      "actual_instalment": 2032.336061342895,
+      "entry_cash": 186000,
+      "cashflow_by_year": [
+        1651.9672638852608,
+        1651.9672638852608,
+        1651.9672638852608,
+        1651.9672638852608,
+        1651.9672638852608
+      ],
+      "cashflow_total": 8259.836319426304,
+      "terminal_debt": 425695.6324286767,
+      "terminal_nominal_breakeven": 622098.7588755159,
+      "terminal_8pct_required": 710926.7180574419,
+      "profit_by_exit_multiple": {
+        "1": -21435.796109250397,
+        "0.8": -137835.7961092504,
+        "1.15": 65864.2038907496
+      },
+      "minimum_cash": 311387.6639386571,
+      "remaining_cash": 322259.8363194254,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 2479.0465517242537,
+      "future_buyer_stress_payment_at_breakeven": 3056.1845343142295,
+      "scenario": "bank_value_down15",
+      "parameters": {
+        "valuation_ratio": 0.85
+      }
+    },
+    {
+      "id": "R345",
+      "name": "Impiria Residensi",
+      "price": 600000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 25,
+      "valuation_ratio": 1,
+      "rent_assumed": 3000,
+      "fee_proxy": 330,
+      "other_cost_allowance": 250,
+      "gross_yield": 0.06,
+      "standard_loan": 540000,
+      "standard_instalment": 2390.9836015798764,
+      "standard_monthly_balance": 279.01639842012355,
+      "current_shortfall": false,
+      "actual_loan": 540000,
+      "actual_instalment": 2850.318937607959,
+      "entry_cash": 105000,
+      "cashflow_by_year": [
+        -8163.827251295508,
+        -8163.827251295508,
+        -8163.827251295508,
+        -8163.827251295508,
+        -8163.827251295508
+      ],
+      "cashflow_total": -40819.13625647761,
+      "terminal_debt": 470364.9276707218,
+      "terminal_nominal_breakeven": 635241.3030177314,
+      "terminal_8pct_required": 695793.9303599375,
+      "profit_by_exit_multiple": {
+        "1": -34184.063927199386,
+        "0.8": -150584.0639271994,
+        "1.15": 53115.9360728006
+      },
+      "minimum_cash": 354180.86374352104,
+      "remaining_cash": 354180.86374352104,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 2531.4192309360487,
+      "future_buyer_stress_payment_at_breakeven": 3120.7499101101625,
+      "scenario": "term25",
+      "parameters": {
+        "term": 25
+      }
+    },
+    {
+      "id": "R347",
+      "name": "BBK Condominium",
+      "price": 250000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1500,
+      "fee_proxy": 350,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.072,
+      "standard_loan": 225000,
+      "standard_instalment": 996.2431673249484,
+      "standard_monthly_balance": 153.75683267505156,
+      "current_shortfall": false,
+      "actual_loan": 225000,
+      "actual_instalment": 996.2431673249484,
+      "entry_cash": 72500,
+      "cashflow_by_year": [
+        -2054.9180078993813,
+        -2054.9180078993813,
+        -2054.9180078993813,
+        -2054.9180078993813,
+        -2054.9180078993813
+      ],
+      "cashflow_total": -10274.590039496907,
+      "terminal_debt": 208674.3296219005,
+      "terminal_nominal_breakeven": 300462.80377463653,
+      "terminal_8pct_required": 338161.7969021544,
+      "profit_by_exit_multiple": {
+        "1": -48948.91966139742,
+        "0.8": -97448.91966139742,
+        "1.15": -12573.91966139742
+      },
+      "minimum_cash": 417225.4099605046,
+      "remaining_cash": 417225.4099605046,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1197.3360611831135,
+      "future_buyer_stress_payment_at_breakeven": 1476.0835975506009,
+      "scenario": "base",
+      "parameters": {}
+    },
+    {
+      "id": "R347",
+      "name": "BBK Condominium",
+      "price": 250000,
+      "months": 12,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1500,
+      "fee_proxy": 350,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.072,
+      "standard_loan": 225000,
+      "standard_instalment": 996.2431673249484,
+      "standard_monthly_balance": 153.75683267505156,
+      "current_shortfall": false,
+      "actual_loan": 225000,
+      "actual_instalment": 996.2431673249484,
+      "entry_cash": 72500,
+      "cashflow_by_year": [
+        -18554.91800789938
+      ],
+      "cashflow_total": -18554.91800789938,
+      "terminal_debt": 221990.30202891774,
+      "terminal_nominal_breakeven": 322727.03096579085,
+      "terminal_8pct_required": 329398.05571413244,
+      "profit_by_exit_multiple": {
+        "1": -70545.22003681712,
+        "0.8": -119045.22003681712,
+        "1.15": -34170.22003681712
+      },
+      "cash_path": [
+        427500,
+        425953.7568326751,
+        424407.51366535015,
+        422861.27049802523,
+        421315.0273307003,
+        419768.7841633754,
+        418222.54099605046,
+        416676.29782872554,
+        415130.0546614006,
+        413583.8114940757,
+        412037.56832675077,
+        410491.32515942585,
+        408945.0819921009
+      ],
+      "minimum_cash": 408945.0819921009,
+      "remaining_cash": 408945.0819921009,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1286.0583980429449,
+      "future_buyer_stress_payment_at_breakeven": 1585.4610650978072,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 750,
+          "principal": 246.24316732494844,
+          "debt": 224753.75683267505,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 749.1791894422503,
+          "principal": 247.06397788269817,
+          "debt": 224506.69285479235,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 748.3556428493079,
+          "principal": 247.8875244756406,
+          "debt": 224258.8053303167,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 747.5293511010558,
+          "principal": 248.71381622389265,
+          "debt": 224010.0915140928,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 746.700305046976,
+          "principal": 249.5428622779724,
+          "debt": 223760.54865181484,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 745.8684955060495,
+          "principal": 250.37467181889895,
+          "debt": 223510.17397999595,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 7,
+          "rent": 0,
+          "interest": 745.0339132666531,
+          "principal": 251.2092540582953,
+          "debt": 223258.96472593767,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 8,
+          "rent": 0,
+          "interest": 744.196549086459,
+          "principal": 252.0466182384895,
+          "debt": 223006.91810769917,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 9,
+          "rent": 0,
+          "interest": 743.3563936923306,
+          "principal": 252.88677363261786,
+          "debt": 222754.03133406656,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 10,
+          "rent": 0,
+          "interest": 742.5134377802219,
+          "principal": 253.72972954472652,
+          "debt": 222500.30160452184,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 11,
+          "rent": 0,
+          "interest": 741.6676720150728,
+          "principal": 254.5754953098757,
+          "debt": 222245.72610921197,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        },
+        {
+          "month": 12,
+          "rent": 0,
+          "interest": 740.8190870307067,
+          "principal": 255.42408029424178,
+          "debt": 221990.30202891774,
+          "operating": 550,
+          "works": 0,
+          "cashflow": -1546.2431673249484
+        }
+      ],
+      "scenario": "zero_rent_first12",
+      "parameters": {
+        "months": 12,
+        "initial_vacancy": 12
+      }
+    },
+    {
+      "id": "R347",
+      "name": "BBK Condominium",
+      "price": 250000,
+      "months": 12,
+      "actual_rate": 0.055,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1500,
+      "fee_proxy": 350,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.072,
+      "standard_loan": 225000,
+      "standard_instalment": 996.2431673249484,
+      "standard_monthly_balance": 153.75683267505156,
+      "current_shortfall": false,
+      "actual_loan": 225000,
+      "actual_instalment": 1208.2866282508637,
+      "entry_cash": 72500,
+      "cashflow_by_year": [
+        -44739.439539010345
+      ],
+      "cashflow_total": -44739.439539010345,
+      "terminal_debt": 222821.1802015635,
+      "terminal_nominal_breakeven": 350577.95849543693,
+      "terminal_8pct_required": 359515.41012893047,
+      "profit_by_exit_multiple": {
+        "1": -97560.61974057383,
+        "0.8": -146060.61974057383,
+        "1.15": -61185.619740573835
+      },
+      "cash_path": [
+        427500,
+        395671.71337174915,
+        393843.4267434983,
+        392015.14011524746,
+        390186.8534869966,
+        388358.56685874576,
+        386530.2802304949,
+        385901.99360224407,
+        385273.7069739932,
+        384645.4203457424,
+        384017.1337174915,
+        383388.8470892407,
+        382760.56046098983
+      ],
+      "minimum_cash": 382760.56046098983,
+      "remaining_cash": 382760.56046098983,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1397.0435830632337,
+      "future_buyer_stress_payment_at_breakeven": 1722.2843150529534,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 1031.25,
+          "principal": 177.0366282508637,
+          "debt": 224822.96337174912,
+          "operating": 620,
+          "works": 30000,
+          "cashflow": -31828.286628250862
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 1030.4385821205167,
+          "principal": 177.84804613034703,
+          "debt": 224645.11532561877,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -1828.2866282508637
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 1029.6234452424194,
+          "principal": 178.66318300844432,
+          "debt": 224466.45214261033,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -1828.2866282508637
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 1028.8045723202974,
+          "principal": 179.48205593056628,
+          "debt": 224286.97008667976,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -1828.2866282508637
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 1027.9819462306157,
+          "principal": 180.30468202024804,
+          "debt": 224106.66540465952,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -1828.2866282508637
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 1027.1555497713562,
+          "principal": 181.13107847950755,
+          "debt": 223925.53432618,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -1828.2866282508637
+        },
+        {
+          "month": 7,
+          "rent": 1200,
+          "interest": 1026.3253656616582,
+          "principal": 181.9612625892055,
+          "debt": 223743.5730635908,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -628.2866282508637
+        },
+        {
+          "month": 8,
+          "rent": 1200,
+          "interest": 1025.4913765414578,
+          "principal": 182.79525170940587,
+          "debt": 223560.7778118814,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -628.2866282508637
+        },
+        {
+          "month": 9,
+          "rent": 1200,
+          "interest": 1024.653564971123,
+          "principal": 183.63306327974078,
+          "debt": 223377.14474860166,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -628.2866282508637
+        },
+        {
+          "month": 10,
+          "rent": 1200,
+          "interest": 1023.8119134310909,
+          "principal": 184.47471481977277,
+          "debt": 223192.67003378188,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -628.2866282508637
+        },
+        {
+          "month": 11,
+          "rent": 1200,
+          "interest": 1022.9664043215002,
+          "principal": 185.32022392936346,
+          "debt": 223007.34980985252,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -628.2866282508637
+        },
+        {
+          "month": 12,
+          "rent": 1200,
+          "interest": 1022.1170199618241,
+          "principal": 186.16960828903962,
+          "debt": 222821.1802015635,
+          "operating": 620,
+          "works": 0,
+          "cashflow": -628.2866282508637
+        }
+      ],
+      "scenario": "combined12mo",
+      "parameters": {
+        "months": 12,
+        "rate": 0.055,
+        "rent_factor": 0.8,
+        "fee_factor": 1.2,
+        "first_year_paid": 6,
+        "levy_month": 1,
+        "levy": 30000
+      }
+    },
+    {
+      "id": "R347",
+      "name": "BBK Condominium",
+      "price": 250000,
+      "months": 72,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1500,
+      "fee_proxy": 350,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.072,
+      "standard_loan": 225000,
+      "standard_instalment": 996.2431673249484,
+      "standard_monthly_balance": 153.75683267505156,
+      "current_shortfall": false,
+      "actual_loan": 225000,
+      "actual_instalment": 996.2431673249484,
+      "entry_cash": 72500,
+      "cashflow_by_year": [
+        -2054.9180078993813,
+        -2054.9180078993813,
+        -2054.9180078993813,
+        -2054.9180078993813,
+        -2054.9180078993813,
+        -2054.9180078993813
+      ],
+      "cashflow_total": -12329.508047396288,
+      "terminal_debt": 204999.49865041455,
+      "terminal_nominal_breakeven": 298792.7904101143,
+      "terminal_8pct_required": 346468.19267185347,
+      "profit_by_exit_multiple": {
+        "1": -47329.00669781084,
+        "0.8": -95829.00669781084,
+        "1.15": -10954.006697810837
+      },
+      "minimum_cash": 415170.49195260555,
+      "remaining_cash": 415170.49195260555,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1190.6811035681271,
+      "future_buyer_stress_payment_at_breakeven": 1467.8793229978328,
+      "scenario": "exit_delay12",
+      "parameters": {
+        "months": 72
+      }
+    },
+    {
+      "id": "R347",
+      "name": "BBK Condominium",
+      "price": 250000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 0.85,
+      "rent_assumed": 1500,
+      "fee_proxy": 350,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.072,
+      "standard_loan": 225000,
+      "standard_instalment": 996.2431673249484,
+      "standard_monthly_balance": 153.75683267505156,
+      "current_shortfall": false,
+      "actual_loan": 191250,
+      "actual_instalment": 846.8066922262062,
+      "entry_cash": 106250,
+      "cashflow_by_year": [
+        -261.6803067144747,
+        -261.6803067144747,
+        -261.6803067144747,
+        -261.6803067144747,
+        -261.6803067144747
+      ],
+      "cashflow_total": -1308.4015335723725,
+      "terminal_debt": 177373.1801786153,
+      "terminal_nominal_breakeven": 293743.8986723584,
+      "terminal_8pct_required": 345778.3759961128,
+      "profit_by_exit_multiple": {
+        "1": -42431.58171218767,
+        "0.8": -90931.58171218766,
+        "1.15": -6056.581712187661
+      },
+      "minimum_cash": 391306.4720809158,
+      "remaining_cash": 392441.59846642753,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1170.5614079829165,
+      "future_buyer_stress_payment_at_breakeven": 1443.07563286952,
+      "scenario": "bank_value_down15",
+      "parameters": {
+        "valuation_ratio": 0.85
+      }
+    },
+    {
+      "id": "R347",
+      "name": "BBK Condominium",
+      "price": 250000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 25,
+      "valuation_ratio": 1,
+      "rent_assumed": 1500,
+      "fee_proxy": 350,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.072,
+      "standard_loan": 225000,
+      "standard_instalment": 996.2431673249484,
+      "standard_monthly_balance": 153.75683267505156,
+      "current_shortfall": false,
+      "actual_loan": 225000,
+      "actual_instalment": 1187.6328906699828,
+      "entry_cash": 72500,
+      "cashflow_by_year": [
+        -4351.594688039793,
+        -4351.594688039793,
+        -4351.594688039793,
+        -4351.594688039793,
+        -4351.594688039793
+      ],
+      "cashflow_total": -21757.973440198934,
+      "terminal_debt": 195985.38652946736,
+      "terminal_nominal_breakeven": 299219.95873161475,
+      "terminal_8pct_required": 339473.04778881936,
+      "profit_by_exit_multiple": {
+        "1": -47743.35996966629,
+        "0.8": -96243.35996966629,
+        "1.15": -11368.359969666293
+      },
+      "minimum_cash": 405742.0265598013,
+      "remaining_cash": 405742.0265598013,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1192.383357654497,
+      "future_buyer_stress_payment_at_breakeven": 1469.9778727844912,
+      "scenario": "term25",
+      "parameters": {
+        "term": 25
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -4943.278651691082,
+        -4943.278651691082,
+        -4943.278651691082,
+        -4943.278651691082,
+        -4943.278651691082
+      ],
+      "cashflow_total": -24716.39325845544,
+      "terminal_debt": 308838.00784041255,
+      "terminal_nominal_breakeven": 426860.20731842064,
+      "terminal_8pct_required": 471675.5561018149,
+      "profit_by_exit_multiple": {
+        "1": -55154.401098867995,
+        "0.8": -126934.401098868,
+        "1.15": -1319.401098868053
+      },
+      "minimum_cash": 394783.6067415436,
+      "remaining_cash": 394783.6067415436,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1701.0262597755504,
+      "future_buyer_stress_payment_at_breakeven": 2097.0361141353287,
+      "scenario": "base",
+      "parameters": {}
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 12,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -23093.278651691086
+      ],
+      "cashflow_total": -23093.278651691086,
+      "terminal_debt": 328545.64700279816,
+      "terminal_nominal_breakeven": 445504.04706648376,
+      "terminal_8pct_required": 453004.03515907313,
+      "profit_by_exit_multiple": {
+        "1": -73238.92565448924,
+        "0.8": -145018.92565448926,
+        "1.15": -19403.9256544893
+      },
+      "cash_path": [
+        419500,
+        417575.56011235906,
+        415651.1202247181,
+        413726.6803370772,
+        411802.24044943624,
+        409877.8005617953,
+        407953.36067415436,
+        406028.9207865134,
+        404104.4808988725,
+        402180.04101123154,
+        400255.6011235906,
+        398331.16123594966,
+        396406.7213483087
+      ],
+      "minimum_cash": 396406.7213483087,
+      "remaining_cash": 396406.7213483087,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1775.321451622387,
+      "future_buyer_stress_payment_at_breakeven": 2188.627704514414,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 1110,
+          "principal": 364.43988764092364,
+          "debt": 332635.56011235906,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 1108.7852003745302,
+          "principal": 365.65468726639347,
+          "debt": 332269.9054250927,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 1107.5663514169755,
+          "principal": 366.8735362239481,
+          "debt": 331903.0318888687,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 1106.3434396295625,
+          "principal": 368.0964480113612,
+          "debt": 331534.93544085737,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 1105.1164514695245,
+          "principal": 369.3234361713992,
+          "debt": 331165.612004686,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 1103.8853733489534,
+          "principal": 370.55451429197024,
+          "debt": 330795.057490394,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 7,
+          "rent": 0,
+          "interest": 1102.6501916346467,
+          "principal": 371.7896960062769,
+          "debt": 330423.2677943877,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 8,
+          "rent": 0,
+          "interest": 1101.4108926479591,
+          "principal": 373.0289949929645,
+          "debt": 330050.23879939475,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 9,
+          "rent": 0,
+          "interest": 1100.1674626646493,
+          "principal": 374.27242497627435,
+          "debt": 329675.96637441847,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 10,
+          "rent": 0,
+          "interest": 1098.9198879147282,
+          "principal": 375.51999972619546,
+          "debt": 329300.44637469226,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 11,
+          "rent": 0,
+          "interest": 1097.6681545823076,
+          "principal": 376.77173305861606,
+          "debt": 328923.67464163364,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        },
+        {
+          "month": 12,
+          "rent": 0,
+          "interest": 1096.4122488054454,
+          "principal": 378.02763883547823,
+          "debt": 328545.64700279816,
+          "operating": 450,
+          "works": 0,
+          "cashflow": -1924.4398876409236
+        }
+      ],
+      "scenario": "zero_rent_first12",
+      "parameters": {
+        "months": 12,
+        "initial_vacancy": 12
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 12,
+      "actual_rate": 0.055,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1788.2642098112783,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -49539.17051773533
+      ],
+      "cashflow_total": -49539.17051773533,
+      "terminal_debt": 329775.346698314,
+      "terminal_nominal_breakeven": 474035.5847588138,
+      "terminal_8pct_required": 483826.53842007584,
+      "profit_by_exit_multiple": {
+        "1": -100914.51721604934,
+        "0.8": -172694.51721604934,
+        "1.15": -47079.5172160494
+      },
+      "cash_path": [
+        419500,
+        387211.7357901887,
+        384923.47158037743,
+        382635.20737056615,
+        380346.94316075486,
+        378058.6789509436,
+        375770.4147411323,
+        374802.150531321,
+        373833.8863215097,
+        372865.62211169844,
+        371897.35790188715,
+        370929.09369207587,
+        369960.8294822646
+      ],
+      "minimum_cash": 369960.8294822646,
+      "remaining_cash": 369960.8294822646,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1889.018849539419,
+      "future_buyer_stress_payment_at_breakeven": 2328.7945879737504,
+      "schedule": [
+        {
+          "month": 1,
+          "rent": 0,
+          "interest": 1526.25,
+          "principal": 262.0142098112783,
+          "debt": 332737.9857901887,
+          "operating": 500,
+          "works": 30000,
+          "cashflow": -32288.264209811277
+        },
+        {
+          "month": 2,
+          "rent": 0,
+          "interest": 1525.049101538365,
+          "principal": 263.2151082729133,
+          "debt": 332474.7706819158,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -2288.2642098112783
+        },
+        {
+          "month": 3,
+          "rent": 0,
+          "interest": 1523.8426989587808,
+          "principal": 264.4215108524975,
+          "debt": 332210.3491710633,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -2288.2642098112783
+        },
+        {
+          "month": 4,
+          "rent": 0,
+          "interest": 1522.63076703404,
+          "principal": 265.6334427772383,
+          "debt": 331944.715728286,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -2288.2642098112783
+        },
+        {
+          "month": 5,
+          "rent": 0,
+          "interest": 1521.4132804213111,
+          "principal": 266.8509293899672,
+          "debt": 331677.8647988961,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -2288.2642098112783
+        },
+        {
+          "month": 6,
+          "rent": 0,
+          "interest": 1520.190213661607,
+          "principal": 268.0739961496713,
+          "debt": 331409.79080274643,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -2288.2642098112783
+        },
+        {
+          "month": 7,
+          "rent": 1320,
+          "interest": 1518.9615411792545,
+          "principal": 269.3026686320238,
+          "debt": 331140.4881341144,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -968.2642098112783
+        },
+        {
+          "month": 8,
+          "rent": 1320,
+          "interest": 1517.7272372813577,
+          "principal": 270.5369725299206,
+          "debt": 330869.9511615845,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -968.2642098112783
+        },
+        {
+          "month": 9,
+          "rent": 1320,
+          "interest": 1516.4872761572624,
+          "principal": 271.7769336540159,
+          "debt": 330598.1742279305,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -968.2642098112783
+        },
+        {
+          "month": 10,
+          "rent": 1320,
+          "interest": 1515.241631878015,
+          "principal": 273.0225779332634,
+          "debt": 330325.1516499972,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -968.2642098112783
+        },
+        {
+          "month": 11,
+          "rent": 1320,
+          "interest": 1513.9902783958205,
+          "principal": 274.2739314154578,
+          "debt": 330050.87771858176,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -968.2642098112783
+        },
+        {
+          "month": 12,
+          "rent": 1320,
+          "interest": 1512.7331895434997,
+          "principal": 275.53102026777856,
+          "debt": 329775.346698314,
+          "operating": 500,
+          "works": 0,
+          "cashflow": -968.2642098112783
+        }
+      ],
+      "scenario": "combined12mo",
+      "parameters": {
+        "months": 12,
+        "rate": 0.055,
+        "rent_factor": 0.8,
+        "fee_factor": 1.2,
+        "first_year_paid": 6,
+        "levy_month": 1,
+        "levy": 30000
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 72,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -4943.278651691082,
+        -4943.278651691082,
+        -4943.278651691082,
+        -4943.278651691082,
+        -4943.278651691082,
+        -4943.278651691082
+      ],
+      "cashflow_total": -29659.67191014654,
+      "terminal_debt": 303399.25800261326,
+      "terminal_nominal_breakeven": 426349.4122811957,
+      "terminal_8pct_required": 483674.7261563142,
+      "profit_by_exit_multiple": {
+        "1": -54658.929912759806,
+        "0.8": -126438.9299127598,
+        "1.15": -823.9299127598642
+      },
+      "minimum_cash": 389840.32808985235,
+      "remaining_cash": 389840.32808985235,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1698.9907555125951,
+      "future_buyer_stress_payment_at_breakeven": 2094.5267313874947,
+      "scenario": "exit_delay12",
+      "parameters": {
+        "months": 72
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 0.85,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 283050,
+      "actual_instalment": 1253.2739044947853,
+      "entry_cash": 130450,
+      "cashflow_by_year": [
+        -2289.286853937423,
+        -2289.286853937423,
+        -2289.286853937423,
+        -2289.286853937423,
+        -2289.286853937423
+      ],
+      "cashflow_total": -11446.434269687095,
+      "terminal_debt": 262512.3066643507,
+      "terminal_nominal_breakeven": 416916.2277670493,
+      "terminal_8pct_required": 482948.0931608737,
+      "profit_by_exit_multiple": {
+        "1": -45508.74093403778,
+        "0.8": -117288.74093403778,
+        "1.15": 8326.259065962164
+      },
+      "minimum_cash": 358103.565730314,
+      "remaining_cash": 358103.565730314,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1661.3997730392596,
+      "future_buyer_stress_payment_at_breakeven": 2048.18432640733,
+      "scenario": "bank_value_down15",
+      "parameters": {
+        "valuation_ratio": 0.85
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 25,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1757.6966781915746,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -8342.360138298893,
+        -8342.360138298893,
+        -8342.360138298893,
+        -8342.360138298893,
+        -8342.360138298893
+      ],
+      "cashflow_total": -41711.80069149453,
+      "terminal_debt": 290058.37206361175,
+      "terminal_nominal_breakeven": 425020.7966547488,
+      "terminal_8pct_required": 473616.2074140793,
+      "profit_by_exit_multiple": {
+        "1": -53370.17275510628,
+        "0.8": -125150.17275510628,
+        "1.15": 464.8272448936623
+      },
+      "minimum_cash": 377788.1993085041,
+      "remaining_cash": 377788.1993085041,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1693.6962585531994,
+      "future_buyer_stress_payment_at_breakeven": 2087.999641481489,
+      "scenario": "term25",
+      "parameters": {
+        "term": 25
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.055,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1788.2642098112783,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -8709.17051773534,
+        -8709.17051773534,
+        -8709.17051773534,
+        -8709.17051773534,
+        -8709.17051773534
+      ],
+      "cashflow_total": -43545.85258867666,
+      "terminal_debt": 314952.24556461466,
+      "terminal_nominal_breakeven": 452575.3589209189,
+      "terminal_8pct_required": 501578.6934011575,
+      "profit_by_exit_multiple": {
+        "1": -80098.09815329131,
+        "0.8": -151878.09815329133,
+        "1.15": -26263.098153291372
+      },
+      "minimum_cash": 375954.1474113229,
+      "remaining_cash": 375954.1474113229,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1803.5004360984065,
+      "future_buyer_stress_payment_at_breakeven": 2223.3669378250565,
+      "scenario": "rate_5_5pct",
+      "parameters": {
+        "rate": 0.055
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -8573.27865169108,
+        -8573.27865169108,
+        -8573.27865169108,
+        -8573.27865169108,
+        -8573.27865169108
+      ],
+      "cashflow_total": -42866.39325845546,
+      "terminal_debt": 308838.00784041255,
+      "terminal_nominal_breakeven": 445571.54752460617,
+      "terminal_8pct_required": 494350.0351436427,
+      "profit_by_exit_multiple": {
+        "1": -73304.40109886801,
+        "0.8": -145084.401098868,
+        "1.15": -19469.401098868067
+      },
+      "minimum_cash": 376633.6067415436,
+      "remaining_cash": 376633.6067415436,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1775.59043910317,
+      "future_buyer_stress_payment_at_breakeven": 2188.959314010864,
+      "scenario": "rent_down20",
+      "parameters": {
+        "rent_factor": 0.8
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -5543.278651691082,
+        -5543.278651691082,
+        -5543.278651691082,
+        -5543.278651691082,
+        -5543.278651691082
+      ],
+      "cashflow_total": -27716.39325845544,
+      "terminal_debt": 308838.00784041255,
+      "terminal_nominal_breakeven": 429952.99082357524,
+      "terminal_8pct_required": 475435.58962568716,
+      "profit_by_exit_multiple": {
+        "1": -58154.401098867995,
+        "0.8": -129934.401098868,
+        "1.15": -4319.401098868053
+      },
+      "minimum_cash": 391783.6067415436,
+      "remaining_cash": 391783.6067415436,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1713.3509175156526,
+      "future_buyer_stress_payment_at_breakeven": 2112.230031470128,
+      "scenario": "fee_up20",
+      "parameters": {
+        "fee_factor": 1.2
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -4943.278651691082,
+        -34943.278651691086,
+        -4943.278651691082,
+        -4943.278651691082,
+        -4943.278651691082
+      ],
+      "cashflow_total": -54716.393258455464,
+      "terminal_debt": 308838.00784041255,
+      "terminal_nominal_breakeven": 457788.04236996704,
+      "terminal_8pct_required": 510635.7210502685,
+      "profit_by_exit_multiple": {
+        "1": -85154.40109886802,
+        "0.8": -156934.40109886802,
+        "1.15": -31319.401098868075
+      },
+      "minimum_cash": 364783.6067415436,
+      "remaining_cash": 364783.6067415436,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1824.272837176575,
+      "future_buyer_stress_payment_at_breakeven": 2248.975287483321,
+      "scenario": "works30k_month24",
+      "parameters": {
+        "levy_month": 24,
+        "levy": 30000
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -6143.278651691082,
+        -6143.278651691082,
+        -6143.278651691082,
+        -6143.278651691082,
+        -6143.278651691082
+      ],
+      "cashflow_total": -30716.39325845545,
+      "terminal_debt": 308838.00784041255,
+      "terminal_nominal_breakeven": 438200.41350398766,
+      "terminal_8pct_required": 484350.26232481713,
+      "profit_by_exit_multiple": {
+        "1": -66154.401098868,
+        "0.8": -137934.401098868,
+        "1.15": -12319.401098868053
+      },
+      "minimum_cash": 388783.6067415436,
+      "remaining_cash": 388783.6067415436,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1746.2166714892594,
+      "future_buyer_stress_payment_at_breakeven": 2152.7471443629256,
+      "scenario": "unquoted_cost_buffer",
+      "parameters": {
+        "annual_extra_cost": 1200,
+        "exit_extra_cost": 5000
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.055,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1788.2642098112783,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -49539.17051773533,
+        -12939.170517735336,
+        -12939.170517735336,
+        -12939.170517735336,
+        -12939.170517735336
+      ],
+      "cashflow_total": -101295.85258867689,
+      "terminal_debt": 314952.24556461466,
+      "terminal_nominal_breakeven": 512111.44139514596,
+      "terminal_8pct_required": 582910.5092051589,
+      "profit_by_exit_multiple": {
+        "1": -137848.09815329156,
+        "0.8": -209628.09815329156,
+        "1.15": -84013.0981532916
+      },
+      "minimum_cash": 318204.1474113229,
+      "remaining_cash": 318204.1474113229,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 2040.7500975953799,
+      "future_buyer_stress_payment_at_breakeven": 2515.849846519942,
+      "scenario": "combined5yr",
+      "parameters": {
+        "rate": 0.055,
+        "rent_factor": 0.8,
+        "fee_factor": 1.2,
+        "first_year_paid": 6,
+        "levy_month": 1,
+        "levy": 30000
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -6593.278651691082,
+        -6593.278651691082,
+        -6593.278651691082,
+        -6593.278651691082,
+        -6593.278651691082
+      ],
+      "cashflow_total": -32966.39325845545,
+      "terminal_debt": 308838.00784041255,
+      "terminal_nominal_breakeven": 435365.36195759586,
+      "terminal_8pct_required": 481982.1374844639,
+      "profit_by_exit_multiple": {
+        "1": -63404.401098868,
+        "0.8": -135184.401098868,
+        "1.15": -9569.401098868053
+      },
+      "minimum_cash": 386533.6067415436,
+      "remaining_cash": 386533.6067415436,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1734.9190685608319,
+      "future_buyer_stress_payment_at_breakeven": 2138.8193868060266,
+      "scenario": "rent_low",
+      "parameters": {
+        "rent_factor": 0.9090909090909091
+      }
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -3293.2786516910883,
+        -3293.2786516910883,
+        -3293.2786516910883,
+        -3293.2786516910883,
+        -3293.2786516910883
+      ],
+      "cashflow_total": -16466.393258455413,
+      "terminal_debt": 308838.00784041255,
+      "terminal_nominal_breakeven": 418355.05267924536,
+      "terminal_8pct_required": 461368.97471916594,
+      "profit_by_exit_multiple": {
+        "1": -46904.401098867966,
+        "0.8": -118684.40109886797,
+        "1.15": 6930.598901131976
+      },
+      "minimum_cash": 403033.6067415436,
+      "remaining_cash": 403033.6067415436,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1667.1334509902683,
+      "future_buyer_stress_payment_at_breakeven": 2055.2528414646313,
+      "scenario": "rent_high",
+      "parameters": {
+        "rent_factor": 1.0909090909090908
+      }
+    }
+  ],
+  "branches": [
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 355000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.05577464788732395,
+      "standard_loan": 319500,
+      "standard_instalment": 1414.6652976014268,
+      "standard_monthly_balance": -14.6652976014268,
+      "current_shortfall": true,
+      "actual_loan": 319500,
+      "actual_instalment": 1414.6652976014268,
+      "entry_cash": 78250,
+      "cashflow_by_year": [
+        -4225.98357121712,
+        -4225.98357121712,
+        -4225.98357121712,
+        -4225.98357121712,
+        -4225.98357121712
+      ],
+      "cashflow_total": -21129.917856085598,
+      "terminal_debt": 296317.54806309816,
+      "terminal_nominal_breakeven": 407935.5318754472,
+      "terminal_8pct_required": 450864.5411315629,
+      "profit_by_exit_multiple": {
+        "1": -51347.465919183756,
+        "0.8": -120217.46591918376,
+        "1.15": 305.03408081618545
+      },
+      "minimum_cash": 400620.0821439142,
+      "remaining_cash": 400620.0821439142,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1625.6119453599322,
+      "future_buyer_stress_payment_at_breakeven": 2004.064862255199,
+      "scenario": "lower355k_distinct_ad",
+      "parameters": {},
+      "input_overrides": {
+        "price": 355000
+      },
+      "boundary": "Separate PF ad, photos not actual unit; unknown restriction/bays; no blended executable deal."
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1800,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.05837837837837838,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": 75.56011235907636,
+      "current_shortfall": false,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 80500,
+      "cashflow_by_year": [
+        -3293.2786516910837,
+        -3293.2786516910837,
+        -3293.2786516910837,
+        -3293.2786516910837,
+        -3293.2786516910837
+      ],
+      "cashflow_total": -16466.3932584554,
+      "terminal_debt": 308838.00784041255,
+      "terminal_nominal_breakeven": 418355.0526792453,
+      "terminal_8pct_required": 461368.9747191659,
+      "profit_by_exit_multiple": {
+        "1": -46904.40109886795,
+        "0.8": -118684.40109886795,
+        "1.15": 6930.598901131991
+      },
+      "minimum_cash": 403033.6067415436,
+      "remaining_cash": 403033.6067415436,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1667.133450990268,
+      "future_buyer_stress_payment_at_breakeven": 2055.252841464631,
+      "scenario": "high1800_older_ask",
+      "parameters": {},
+      "input_overrides": {
+        "rent_assumed": 1800
+      },
+      "boundary": "Older 2025/April2026 asking support, not proven current income or furnished premium."
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "price": 370000,
+      "months": 60,
+      "actual_rate": 0.04,
+      "actual_term_years": 35,
+      "valuation_ratio": 1,
+      "rent_assumed": 1650,
+      "fee_proxy": 250,
+      "other_cost_allowance": 200,
+      "gross_yield": 0.053513513513513515,
+      "standard_loan": 333000,
+      "standard_instalment": 1474.4398876409236,
+      "standard_monthly_balance": -74.43988764092364,
+      "current_shortfall": true,
+      "actual_loan": 333000,
+      "actual_instalment": 1474.4398876409236,
+      "entry_cash": 90500,
+      "cashflow_by_year": [
+        -8243.27865169108,
+        -4943.278651691082,
+        -4943.278651691082,
+        -4943.278651691082,
+        -4943.278651691082
+      ],
+      "cashflow_total": -28016.39325845545,
+      "terminal_debt": 308838.00784041255,
+      "terminal_nominal_breakeven": 440571.54752460617,
+      "terminal_8pct_required": 491742.5300056865,
+      "profit_by_exit_multiple": {
+        "1": -68454.401098868,
+        "0.8": -140234.401098868,
+        "1.15": -14619.401098868053
+      },
+      "minimum_cash": 381483.6067415436,
+      "remaining_cash": 381483.6067415436,
+      "protected_reserve_pass": true,
+      "future_buyer_standard_payment_at_breakeven": 1755.665575756671,
+      "future_buyer_stress_payment_at_breakeven": 2164.395814319605,
+      "scenario": "fitout35k_initial3mo",
+      "parameters": {
+        "initial_vacancy": 3
+      },
+      "input_overrides": {
+        "refurb_assumed": 35000
+      },
+      "boundary": "Analyst transition sensitivity, not quote."
+    }
+  ],
+  "thresholds": [
+    {
+      "id": "R235",
+      "standard_rent_required": 1266.0928940179465,
+      "rent_for_6pct_gross": 1300,
+      "annual_neutral_rent": 1555.7377025650326,
+      "price_for_annual_neutral": 132163.18162583737
+    },
+    {
+      "id": "R236",
+      "standard_rent_required": 1537.0710355303324,
+      "rent_for_6pct_gross": 1640,
+      "annual_neutral_rent": 1873.1684023967262,
+      "price_for_annual_neutral": 196153.58285606877
+    },
+    {
+      "id": "R342",
+      "standard_rent_required": 2116.2377011849076,
+      "rent_for_6pct_gross": 2250,
+      "annual_neutral_rent": 2526.80476492899,
+      "price_for_annual_neutral": 443834.07702955254
+    },
+    {
+      "id": "R345",
+      "standard_rent_required": 2720.9836015798764,
+      "rent_for_6pct_gross": 3000,
+      "annual_neutral_rent": 3241.07301990532,
+      "price_for_annual_neutral": 544545.767331773
+    },
+    {
+      "id": "R347",
+      "standard_rent_required": 1346.2431673249484,
+      "rent_for_6pct_gross": 1250,
+      "annual_neutral_rent": 1686.810727990853,
+      "price_for_annual_neutral": 207027.76868604272
+    },
+    {
+      "id": "R348",
+      "standard_rent_required": 1724.4398876409239,
+      "rent_for_6pct_gross": 1850,
+      "annual_neutral_rent": 2099.3889683355533,
+      "price_for_annual_neutral": 266626.67179263075
+    }
+  ],
+  "rank_grids": [
+    {
+      "ids": [
+        "R234",
+        "R348"
+      ],
+      "rents": [
+        1200,
+        1500
+      ],
+      "standard_balances": [
+        -135.79234740394236,
+        -224.43988764092364
+      ],
+      "coverage_leader": "R234"
+    },
+    {
+      "ids": [
+        "R234",
+        "R348"
+      ],
+      "rents": [
+        1200,
+        1650
+      ],
+      "standard_balances": [
+        -135.79234740394236,
+        -74.43988764092364
+      ],
+      "coverage_leader": "R348"
+    },
+    {
+      "ids": [
+        "R234",
+        "R348"
+      ],
+      "rents": [
+        1200,
+        1800
+      ],
+      "standard_balances": [
+        -135.79234740394236,
+        75.56011235907636
+      ],
+      "coverage_leader": "R348"
+    },
+    {
+      "ids": [
+        "R234",
+        "R348"
+      ],
+      "rents": [
+        1500,
+        1500
+      ],
+      "standard_balances": [
+        164.20765259605764,
+        -224.43988764092364
+      ],
+      "coverage_leader": "R234"
+    },
+    {
+      "ids": [
+        "R234",
+        "R348"
+      ],
+      "rents": [
+        1500,
+        1650
+      ],
+      "standard_balances": [
+        164.20765259605764,
+        -74.43988764092364
+      ],
+      "coverage_leader": "R234"
+    },
+    {
+      "ids": [
+        "R234",
+        "R348"
+      ],
+      "rents": [
+        1500,
+        1800
+      ],
+      "standard_balances": [
+        164.20765259605764,
+        75.56011235907636
+      ],
+      "coverage_leader": "R234"
+    },
+    {
+      "ids": [
+        "R234",
+        "R348"
+      ],
+      "rents": [
+        1600,
+        1500
+      ],
+      "standard_balances": [
+        264.20765259605764,
+        -224.43988764092364
+      ],
+      "coverage_leader": "R234"
+    },
+    {
+      "ids": [
+        "R234",
+        "R348"
+      ],
+      "rents": [
+        1600,
+        1650
+      ],
+      "standard_balances": [
+        264.20765259605764,
+        -74.43988764092364
+      ],
+      "coverage_leader": "R234"
+    },
+    {
+      "ids": [
+        "R234",
+        "R348"
+      ],
+      "rents": [
+        1600,
+        1800
+      ],
+      "standard_balances": [
+        264.20765259605764,
+        75.56011235907636
+      ],
+      "coverage_leader": "R234"
+    },
+    {
+      "ids": [
+        "R343",
+        "R348"
+      ],
+      "rents": [
+        1700,
+        1500
+      ],
+      "standard_balances": [
+        -504.84699058670185,
+        -224.43988764092364
+      ],
+      "coverage_leader": "R348"
+    },
+    {
+      "ids": [
+        "R343",
+        "R348"
+      ],
+      "rents": [
+        1700,
+        1650
+      ],
+      "standard_balances": [
+        -504.84699058670185,
+        -74.43988764092364
+      ],
+      "coverage_leader": "R348"
+    },
+    {
+      "ids": [
+        "R343",
+        "R348"
+      ],
+      "rents": [
+        1700,
+        1800
+      ],
+      "standard_balances": [
+        -504.84699058670185,
+        75.56011235907636
+      ],
+      "coverage_leader": "R348"
+    },
+    {
+      "ids": [
+        "R343",
+        "R348"
+      ],
+      "rents": [
+        1800,
+        1500
+      ],
+      "standard_balances": [
+        -404.84699058670185,
+        -224.43988764092364
+      ],
+      "coverage_leader": "R348"
+    },
+    {
+      "ids": [
+        "R343",
+        "R348"
+      ],
+      "rents": [
+        1800,
+        1650
+      ],
+      "standard_balances": [
+        -404.84699058670185,
+        -74.43988764092364
+      ],
+      "coverage_leader": "R348"
+    },
+    {
+      "ids": [
+        "R343",
+        "R348"
+      ],
+      "rents": [
+        1800,
+        1800
+      ],
+      "standard_balances": [
+        -404.84699058670185,
+        75.56011235907636
+      ],
+      "coverage_leader": "R348"
+    },
+    {
+      "ids": [
+        "R343",
+        "R348"
+      ],
+      "rents": [
+        2200,
+        1500
+      ],
+      "standard_balances": [
+        -4.84699058670185,
+        -224.43988764092364
+      ],
+      "coverage_leader": "R343"
+    },
+    {
+      "ids": [
+        "R343",
+        "R348"
+      ],
+      "rents": [
+        2200,
+        1650
+      ],
+      "standard_balances": [
+        -4.84699058670185,
+        -74.43988764092364
+      ],
+      "coverage_leader": "R343"
+    },
+    {
+      "ids": [
+        "R343",
+        "R348"
+      ],
+      "rents": [
+        2200,
+        1800
+      ],
+      "standard_balances": [
+        -4.84699058670185,
+        75.56011235907636
+      ],
+      "coverage_leader": "R348"
+    }
+  ],
+  "evaluation_count": 47,
+  "investor_exit_diagnostics": [
+    {
+      "id": "R235",
+      "operating_income_before_financing": 6320,
+      "operating_yield_at_nominal_break_even": 0.02032714444409849,
+      "nominal_break_even": 310914.3056163437,
+      "future_buyer_cash_15pct_plus_same_refurb": 61637.14584245155,
+      "future_buyer_cash_35pct_plus_same_refurb": 123820.00696572028,
+      "future_buyer_standard_instalment": 1238.9850103754532,
+      "future_buyer_stress_instalment": 1336.500103752619,
+      "income_sensitivities": [
+        {
+          "illustrative_required_operating_yield": 0.05,
+          "income_only_value_at_flat_rent": 126400,
+          "five_year_equity_profit_at_that_exit": -178978.87644785334
+        },
+        {
+          "illustrative_required_operating_yield": 0.06,
+          "income_only_value_at_flat_rent": 105333.33333333334,
+          "five_year_equity_profit_at_that_exit": -199413.54311452
+        },
+        {
+          "illustrative_required_operating_yield": 0.07,
+          "income_only_value_at_flat_rent": 90285.71428571428,
+          "five_year_equity_profit_at_that_exit": -214009.7335907105
+        }
+      ],
+      "boundary": "Flat rent and unchanged cost proxies; illustrative 5/6/7% operating yields are not observed cap rates or the user's preferred 6% gross. Buyer costs and refurbishment are proxies, not finance approval. 70% LTV is a stress branch, not a legal claim."
+    },
+    {
+      "id": "R236",
+      "operating_income_before_financing": 9380,
+      "operating_yield_at_nominal_break_even": 0.02429500386599978,
+      "nominal_break_even": 386087.6109234567,
+      "future_buyer_cash_15pct_plus_same_refurb": 77913.14163851851,
+      "future_buyer_cash_35pct_plus_same_refurb": 155130.66382320985,
+      "future_buyer_standard_instalment": 1538.5485774852277,
+      "future_buyer_stress_instalment": 1659.6410095504984,
+      "income_sensitivities": [
+        {
+          "illustrative_required_operating_yield": 0.05,
+          "income_only_value_at_flat_rent": 187600,
+          "five_year_equity_profit_at_that_exit": -192532.98259575304
+        },
+        {
+          "illustrative_required_operating_yield": 0.06,
+          "income_only_value_at_flat_rent": 156333.33333333334,
+          "five_year_equity_profit_at_that_exit": -222861.6492624197
+        },
+        {
+          "illustrative_required_operating_yield": 0.07,
+          "income_only_value_at_flat_rent": 134000,
+          "five_year_equity_profit_at_that_exit": -244524.98259575304
+        }
+      ],
+      "boundary": "Flat rent and unchanged cost proxies; illustrative 5/6/7% operating yields are not observed cap rates or the user's preferred 6% gross. Buyer costs and refurbishment are proxies, not finance approval. 70% LTV is a stress branch, not a legal claim."
+    },
+    {
+      "id": "R342",
+      "operating_income_before_financing": 21224,
+      "operating_yield_at_nominal_break_even": 0.042927007394369644,
+      "nominal_break_even": 494420.67566032487,
+      "future_buyer_cash_15pct_plus_same_refurb": 109163.10134904872,
+      "future_buyer_cash_35pct_plus_same_refurb": 208047.23648111368,
+      "future_buyer_standard_instalment": 1970.2528796431325,
+      "future_buyer_stress_instalment": 2125.322869938502,
+      "income_sensitivities": [
+        {
+          "illustrative_required_operating_yield": 0.05,
+          "income_only_value_at_flat_rent": 424480,
+          "five_year_equity_profit_at_that_exit": -67842.45539051518
+        },
+        {
+          "illustrative_required_operating_yield": 0.06,
+          "income_only_value_at_flat_rent": 353733.3333333334,
+          "five_year_equity_profit_at_that_exit": -136466.7220571818
+        },
+        {
+          "illustrative_required_operating_yield": 0.07,
+          "income_only_value_at_flat_rent": 303200,
+          "five_year_equity_profit_at_that_exit": -185484.05539051516
+        }
+      ],
+      "boundary": "Flat rent and unchanged cost proxies; illustrative 5/6/7% operating yields are not observed cap rates or the user's preferred 6% gross. Buyer costs and refurbishment are proxies, not finance approval. 70% LTV is a stress branch, not a legal claim."
+    },
+    {
+      "id": "R345",
+      "operating_income_before_financing": 26040,
+      "operating_yield_at_nominal_break_even": 0.04080071362118996,
+      "nominal_break_even": 638224.1311209825,
+      "future_buyer_cash_15pct_plus_same_refurb": 110733.61966814737,
+      "future_buyer_cash_35pct_plus_same_refurb": 238378.44589234385,
+      "future_buyer_standard_instalment": 2543.3057194047233,
+      "future_buyer_stress_instalment": 2743.4781933552167,
+      "income_sensitivities": [
+        {
+          "illustrative_required_operating_yield": 0.05,
+          "income_only_value_at_flat_rent": 520800,
+          "five_year_equity_profit_at_that_exit": -113901.40718735299
+        },
+        {
+          "illustrative_required_operating_yield": 0.06,
+          "income_only_value_at_flat_rent": 434000,
+          "five_year_equity_profit_at_that_exit": -198097.407187353
+        },
+        {
+          "illustrative_required_operating_yield": 0.07,
+          "income_only_value_at_flat_rent": 371999.99999999994,
+          "five_year_equity_profit_at_that_exit": -258237.40718735306
+        }
+      ],
+      "boundary": "Flat rent and unchanged cost proxies; illustrative 5/6/7% operating yields are not observed cap rates or the user's preferred 6% gross. Buyer costs and refurbishment are proxies, not finance approval. 70% LTV is a stress branch, not a legal claim."
+    },
+    {
+      "id": "R347",
+      "operating_income_before_financing": 9900,
+      "operating_yield_at_nominal_break_even": 0.03294916999917746,
+      "nominal_break_even": 300462.80377463653,
+      "future_buyer_cash_15pct_plus_same_refurb": 80069.42056619548,
+      "future_buyer_cash_35pct_plus_same_refurb": 140161.9813211228,
+      "future_buyer_standard_instalment": 1197.3360611831135,
+      "future_buyer_stress_instalment": 1291.5731478567754,
+      "income_sensitivities": [
+        {
+          "illustrative_required_operating_yield": 0.05,
+          "income_only_value_at_flat_rent": 198000,
+          "five_year_equity_profit_at_that_exit": -99388.91966139742
+        },
+        {
+          "illustrative_required_operating_yield": 0.06,
+          "income_only_value_at_flat_rent": 165000,
+          "five_year_equity_profit_at_that_exit": -131398.9196613974
+        },
+        {
+          "illustrative_required_operating_yield": 0.07,
+          "income_only_value_at_flat_rent": 141428.57142857142,
+          "five_year_equity_profit_at_that_exit": -154263.20537568314
+        }
+      ],
+      "boundary": "Flat rent and unchanged cost proxies; illustrative 5/6/7% operating yields are not observed cap rates or the user's preferred 6% gross. Buyer costs and refurbishment are proxies, not finance approval. 70% LTV is a stress branch, not a legal claim."
+    },
+    {
+      "id": "R348",
+      "operating_income_before_financing": 12750,
+      "operating_yield_at_nominal_break_even": 0.029869263476436,
+      "nominal_break_even": 426860.20731842064,
+      "future_buyer_cash_15pct_plus_same_refurb": 89029.0310977631,
+      "future_buyer_cash_35pct_plus_same_refurb": 174401.07256144722,
+      "future_buyer_standard_instalment": 1701.0262597755504,
+      "future_buyer_stress_instalment": 1834.9065998684125,
+      "income_sensitivities": [
+        {
+          "illustrative_required_operating_yield": 0.05,
+          "income_only_value_at_flat_rent": 255000,
+          "five_year_equity_profit_at_that_exit": -166704.401098868
+        },
+        {
+          "illustrative_required_operating_yield": 0.06,
+          "income_only_value_at_flat_rent": 212500,
+          "five_year_equity_profit_at_that_exit": -207929.401098868
+        },
+        {
+          "illustrative_required_operating_yield": 0.07,
+          "income_only_value_at_flat_rent": 182142.85714285713,
+          "five_year_equity_profit_at_that_exit": -237375.82967029657
+        }
+      ],
+      "boundary": "Flat rent and unchanged cost proxies; illustrative 5/6/7% operating yields are not observed cap rates or the user's preferred 6% gross. Buyer costs and refurbishment are proxies, not finance approval. 70% LTV is a stress branch, not a legal claim."
+    }
+  ],
+  "forward_threshold_control": [
+    {
+      "id": "B07-T03",
+      "price_sensitivity_only": 377000,
+      "fee_proxy": 250,
+      "other_monthly_proxy": 200,
+      "actual_rate_sensitivity": 0.04,
+      "standard_rent_required": 1752.3346963260224,
+      "rent_for_6pct_gross": 1885,
+      "actual_payment_plus_fee": 1752.3346963260224,
+      "annual_neutral_rent_at_actual_rate": 2129.819668719297,
+      "full_draw_no_income_carry12": 23428.016355912267,
+      "illustrative_entry_cash": 76550,
+      "boundary": "Ambang brochure repeats Type A at 270k affordable and 377k; no exact market layout/offer verified. 270k restricted cohort is excluded from this ordinary-market diagnostic. No rent, progressive draw schedule, return or clearance inferred. Fees/refurbishment are unverified, full-draw carry is not a worst-case bound."
+    },
+    {
+      "id": "B07-T03",
+      "price_sensitivity_only": 377000,
+      "fee_proxy": 250,
+      "other_monthly_proxy": 200,
+      "actual_rate_sensitivity": 0.055,
+      "standard_rent_required": 1752.3346963260224,
+      "rent_for_6pct_gross": 1885,
+      "actual_payment_plus_fee": 2072.096235402302,
+      "annual_neutral_rent_at_actual_rate": 2478.6504386206934,
+      "full_draw_no_income_carry12": 27265.154824827627,
+      "illustrative_entry_cash": 76550,
+      "boundary": "Ambang brochure repeats Type A at 270k affordable and 377k; no exact market layout/offer verified. 270k restricted cohort is excluded from this ordinary-market diagnostic. No rent, progressive draw schedule, return or clearance inferred. Fees/refurbishment are unverified, full-draw carry is not a worst-case bound."
+    },
+    {
+      "id": "B07-T03",
+      "price_sensitivity_only": 377000,
+      "fee_proxy": 350,
+      "other_monthly_proxy": 200,
+      "actual_rate_sensitivity": 0.04,
+      "standard_rent_required": 1852.3346963260224,
+      "rent_for_6pct_gross": 1885,
+      "actual_payment_plus_fee": 1852.3346963260224,
+      "annual_neutral_rent_at_actual_rate": 2238.910577810206,
+      "full_draw_no_income_carry12": 24628.016355912267,
+      "illustrative_entry_cash": 76550,
+      "boundary": "Ambang brochure repeats Type A at 270k affordable and 377k; no exact market layout/offer verified. 270k restricted cohort is excluded from this ordinary-market diagnostic. No rent, progressive draw schedule, return or clearance inferred. Fees/refurbishment are unverified, full-draw carry is not a worst-case bound."
+    },
+    {
+      "id": "B07-T03",
+      "price_sensitivity_only": 377000,
+      "fee_proxy": 350,
+      "other_monthly_proxy": 200,
+      "actual_rate_sensitivity": 0.055,
+      "standard_rent_required": 1852.3346963260224,
+      "rent_for_6pct_gross": 1885,
+      "actual_payment_plus_fee": 2172.096235402302,
+      "annual_neutral_rent_at_actual_rate": 2587.7413477116024,
+      "full_draw_no_income_carry12": 28465.154824827627,
+      "illustrative_entry_cash": 76550,
+      "boundary": "Ambang brochure repeats Type A at 270k affordable and 377k; no exact market layout/offer verified. 270k restricted cohort is excluded from this ordinary-market diagnostic. No rent, progressive draw schedule, return or clearance inferred. Fees/refurbishment are unverified, full-draw carry is not a worst-case bound."
+    },
+    {
+      "id": "B07-T03",
+      "price_sensitivity_only": 377000,
+      "fee_proxy": 450,
+      "other_monthly_proxy": 200,
+      "actual_rate_sensitivity": 0.04,
+      "standard_rent_required": 1952.3346963260224,
+      "rent_for_6pct_gross": 1885,
+      "actual_payment_plus_fee": 1952.3346963260224,
+      "annual_neutral_rent_at_actual_rate": 2348.001486901115,
+      "full_draw_no_income_carry12": 25828.016355912267,
+      "illustrative_entry_cash": 76550,
+      "boundary": "Ambang brochure repeats Type A at 270k affordable and 377k; no exact market layout/offer verified. 270k restricted cohort is excluded from this ordinary-market diagnostic. No rent, progressive draw schedule, return or clearance inferred. Fees/refurbishment are unverified, full-draw carry is not a worst-case bound."
+    },
+    {
+      "id": "B07-T03",
+      "price_sensitivity_only": 377000,
+      "fee_proxy": 450,
+      "other_monthly_proxy": 200,
+      "actual_rate_sensitivity": 0.055,
+      "standard_rent_required": 1952.3346963260224,
+      "rent_for_6pct_gross": 1885,
+      "actual_payment_plus_fee": 2272.096235402302,
+      "annual_neutral_rent_at_actual_rate": 2696.8322568025114,
+      "full_draw_no_income_carry12": 29665.154824827627,
+      "illustrative_entry_cash": 76550,
+      "boundary": "Ambang brochure repeats Type A at 270k affordable and 377k; no exact market layout/offer verified. 270k restricted cohort is excluded from this ordinary-market diagnostic. No rent, progressive draw schedule, return or clearance inferred. Fees/refurbishment are unverified, full-draw carry is not a worst-case bound."
+    }
+  ],
+  "checks": "Amortisation, principal conservation, independent economic basis, discounted exit, and annual cash identities passed.",
+  "decision_boundary": "All six cases remain G0 STOP / G9 Defer. These diagnostics supplement Working 01 and do not overwrite inputs or create an investable portfolio."
+}

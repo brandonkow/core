@@ -1,0 +1,64 @@
+{
+  "version": "B07-WORKING-02-2026-10-08",
+  "new_cases": [
+    {
+      "id": "R348",
+      "area_id": "A51",
+      "batch": "B07",
+      "catchment": "Central Shah Alam / Section 20",
+      "name": "Suri Puteri family",
+      "sqft": 1130,
+      "layout": "3BR/2BA marketed; original Type B profile",
+      "price": 370000,
+      "rent_assumed": 1650,
+      "rent_low": 1500,
+      "rent_high": 1800,
+      "fee_assumed": 250,
+      "other_assumed": 200,
+      "refurb_assumed": 25000,
+      "bays": 2,
+      "price_source": "W02-E20",
+      "rent_source": "W02-E22",
+      "price_status": "2 July 2026 asking claim, Bumi lot / strata perfected and basic-condition claims unverified; no offer or cleared value",
+      "rent_status": "Indexed 1130sf FF/2-bay whole-unit ask1650, page-open failed; September24 index timestamp, not authenticated current availability or achieved rent",
+      "fee_status": "250 combined service/sinking proxy near profile0.20psf plus unverified10% sensitivity; actual bill missing",
+      "cost_status": "25k fit-out and200/month other allowance, pre-tax; no quote, tax, levy, insurance or condition certification",
+      "unit_identity": "Exact parcel/title/plan not obtained; seller claims two basement bays and Bumi restriction. Header PF/body basic.",
+      "match": "Basic/PF purchase requires funded transition to FF rental. Separate355k ad uses non-unit photographs and cannot authenticate same parcel.",
+      "g0": "STOP: old mixed transfers and restricted parcel not normalised",
+      "g9": "Defer",
+      "quarantine": "Exact restriction/eligible transfer route and selected parcel unresolved; no assumption about user's eligibility."
+    }
+  ],
+  "branches": [
+    {
+      "parent": "R348",
+      "label": "lower355k_distinct_ad",
+      "overrides": {
+        "price": 355000
+      },
+      "parameters": {},
+      "boundary": "Separate PF ad, photos not actual unit; unknown restriction/bays; no blended executable deal."
+    },
+    {
+      "parent": "R348",
+      "label": "high1800_older_ask",
+      "overrides": {
+        "rent_assumed": 1800
+      },
+      "parameters": {},
+      "boundary": "Older 2025/April2026 asking support, not proven current income or furnished premium."
+    },
+    {
+      "parent": "R348",
+      "label": "fitout35k_initial3mo",
+      "overrides": {
+        "refurb_assumed": 35000
+      },
+      "parameters": {
+        "initial_vacancy": 3
+      },
+      "boundary": "Analyst transition sensitivity, not quote."
+    }
+  ]
+}
