@@ -21,7 +21,7 @@ new vm.Script(script); // The entire browser script must parse.
 const prefix = script.slice(script.indexOf("(() => {") + "(() => {".length,
   script.indexOf('/* ------------------------------------------------------------------ svg build */'));
 const app = vm.runInNewContext('(function(){' + prefix +
-  ';return {N,ORDER,EDGES,STEPS,FORM,BASE,PRESETS,evaluate,ROUTES,CORE,GATES};})()', {
+  ';return {N,ORDER,EDGES,STEPS,FORM,BASE,PRESETS,evaluate,ROUTES,CORE,GATES,calcStandard};})()', {
   window:{matchMedia:()=>({matches:true})}
 });
 const sha256 = s => crypto.createHash('sha256').update(s).digest('hex');
@@ -120,6 +120,22 @@ function walk(i,s) {
   for(const [v] of opts)walk(i+1,{...s,[id]:v});
 }
 walk(0,{});
+// Standard-coverage calculator arithmetic (integer sen), checked outside the browser.
+const cs = app.calcStandard;
+const payment = loan => { const r = 0.04 / 12; return loan * r / (1 - Math.pow(1 + r, -420)); }; // financial_engine.payment(loan, 0.04, 35)
+let dflt = cs(500000, 2200, 350);
+assert(Math.abs(dflt.inst - payment(450000)) < 1e-9 && dflt.cov < 0 && dflt.yieldMicro === 5280000n && !dflt.meets, 'default calculator case');
+const exact = cs(300022, 1500.11, 350);
+assert(exact.meets && exact.yieldMicro === 6000000n, 'exact 6% boundary must meet the preference');
+assert.equal(cs(102414, 0, 0).sixSen, 51207, '6% rent must round up to the exact sen');
+for (const bad of [[0, 1, 1], [-1, 1, 1], [1, -1, 1], [1, 1, -1], [0.004, 1, 1]]) assert.equal(cs(...bad), null, 'invalid calculator input ' + bad);
+let calculatorCases = 0;
+for (let P = 100000; P <= 1600000; P += 499) for (const fee of [0, 350, 1234.56]) {
+  const c0 = cs(P, 0, fee); calculatorCases++;
+  assert.equal(BigInt(c0.sixSen), (BigInt(Math.round(P * 100)) + 199n) / 200n, '6% rent at ' + P);
+  assert(cs(P, c0.sixSen / 100, fee).meets && !cs(P, (c0.sixSen - 1) / 100, fee).meets, '6% boundary at ' + P);
+  assert(cs(P, c0.zeroSen / 100, fee).cov >= 0 && cs(P, (c0.zeroSen - 1) / 100, fee).cov < 0, 'zero-coverage rent at ' + P);
+}
 console.log(JSON.stringify({status:'PASS',htmlSha256:sha256(html),sourceFiles:Object.keys(expected).length,
   quotations:quotes.length,nodes:app.ORDER.length,edges:app.EDGES.length,
-  core:35,gates:10,steps:app.STEPS.length,presets:app.PRESETS.length,combinations:total,decisions:counts},null,2));
+  core:35,gates:10,steps:app.STEPS.length,presets:app.PRESETS.length,combinations:total,decisions:counts,calculatorCases},null,2));

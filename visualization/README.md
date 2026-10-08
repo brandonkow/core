@@ -56,3 +56,14 @@ See [verification report](VERIFICATION_2026-10-07.md) and [machine-readable rece
 The current source/routing/decision suite covers 1,492,992 raw input combinations and 164 passages. Run `node visualization/verify.cjs`. Browser checks cover six viewport/theme configurations; see the report for exact evidence and limits. The original 41-item review transcript was unavailable, so this continuation does not claim to have closed that unpublished checklist.
 
 The residual assessment in Run a path is an explicit hypothetical evidence input, like the other gate inputs. Selecting it does not authenticate evidence or validate an investment. The calculator remains independent of the path simulator and does not silently set a gate result.
+
+## Reconciliation, 8 October 2026
+
+The verification continuation on main started from commit `e0ab750` and did not include the two later fixes on `claude/modest-fermi-2wstbv` (`83ae4a0`, `1882c08`). The reconciliation merges main, keeps the continuation's four fixes (MAP-V01 calculator input validation, MAP-V02 residual-divergence input, MAP-V03 non-sticky result, MAP-V04 conditional trace) and re-applies the five that were missing:
+
+- integer-sen calculator arithmetic, so the exact 6% test and the rounded-up rents hold at the boundary and the coverage label always agrees with the figure shown;
+- keyboard focus kept when entering Run a path from the overview, and after arrow keys, Escape and Play;
+- run-state badges kept inside their gate box;
+- the pinch re-baselined when one finger of a three-finger touch lifts.
+
+The calculator arithmetic is now a pure function (`calcStandard`), so `verify.cjs` checks it outside the browser over 9,021 boundary cases. See the [reconciliation verification](VERIFICATION_2026-10-08.md). The 7 October report and receipt remain as historical records of the version they tested.
