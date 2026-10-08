@@ -1,21 +1,25 @@
 # Current workflow and continuation
 
-> Current status — 8 October 2026: underwriting resumed under the user's active all-area goal after map verification. [B07 Working02](klang-valley-2026-10-07/round-3/b07-working-02/Working_02.md) adds component/substitute evidence and R348's full gates. Read [the current checkpoint](klang-valley-2026-10-07/round-3/b07-working-02/RESUME_AND_COMPLETION.md). B07 remains open; the earlier pause record is historical. Map remains verified and deployed.
+Updated8October2026. Canonical project repository: https://github.com/brandonkow/core.
 
-Updated: 8 October 2026. Canonical project repository: https://github.com/brandonkow/core.
+## Current status
 
-## Latest user instruction
+Map verification is recorded separately in visualization/; this underwriting release preserves the latest map files. Underwriting has resumed under the user's active all-area goal. [B07 final integrated release](klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md) closes the bounded desk pass for A46-A53 with Defer. Read its [substantive audit](klang-valley-2026-10-07/round-3/b07-final/Completion_Audit.md) and [continuation](klang-valley-2026-10-07/round-3/b07-final/RESUME_AND_COMPLETION.md). Earlier pause records and Working01/02 remain historical and immutable.
 
-Leave existing local files and Recycle Bin items alone. Suspend local cleanup. Deliver all new project files and subsequent updates to GitHub. This supersedes earlier instructions requiring local cleanup before research. No cleanup completion is claimed, and the remaining local copies are not an evidence or research blocker.
+B03-B07:36bounded desk-complete catchments. B01/B02:17enhanced catchments awaiting final substantive audit. B08:8catchments requiring comparable deepening.25of61remain without final acceptance. Cross-region comparison, full-programme portfolio stress and final audit remain. Zero Deploy; programme incomplete.
 
-Conversation remains Mandarin; project Markdown remains English. Use in-memory processing and direct repository writes where feasible; do not create new research outputs in the obsolete local directory. Verify remote content after publication. No local ACL/ownership edits, deletion retries or unrelated repository changes.
+## Latest user authority
 
-## Research continuation
+Leave all existing local files and Recycle Bin items alone. Local cleanup is suspended and does not block research. Deliver new project files and updates directly to GitHub using in-memory work; no persistent local clone or output directory. No ACL/ownership edits, deletion retries or unrelated repository changes.
 
-B06 A41-A45 has a bounded desk-complete Defer release. Read the [regional synthesis](klang-valley-2026-10-07/round-3/B06_Regional_Synthesis.md), [substantive audit](klang-valley-2026-10-07/round-3/B06_Completion_Audit.md) and [final B06 checkpoint](klang-valley-2026-10-07/round-3/B06_FINAL_RESUME_CHECKPOINT.md). Fourteen operating expressions and two threshold-only Kwasa controls remain Defer. No exact-unit due diligence or investment clearance is claimed. Working packet 01 and all prior releases remain immutable.
+Conversation remains Mandarin; Markdown and research artifacts English. Work independently; the user supplies Senior Market Red Team judgment, not routine facts. No outreach, paid access or scheduler is authorised.
 
-In progress: B07 A46-A53, covering Puchong Jaya/Kinrara/Puteri, Puchong South, Seri Kembangan/Serdang/Equine, Subang Jaya/USJ/Sunway, Subang Bestari, Shah Alam/Glenmarie, Setia Alam/Bukit Raja and Klang/Botanic/Bukit Tinggi. Working01 R338-R347 and Working02 R348 are preserved. Next new operating case is R349.
+## Next research
 
-B03-B06 cover 28 catchments with bounded desk-complete Defer releases. B01/B02 have 17 enhanced catchments awaiting final substantive audit; B07/B08 have 16 catchments awaiting deeper regional work. Cross-region comparison, programme portfolio stress and final audit remain. Zero Deploy; programme incomplete. The user's active research goal continues independently; no background scheduler was created.
+Continue B08 A54-A61 using the existing area register and new operating IDs from R351. Then finish B01/B02's17substantive audits and whole-programme work. B07's22cases retain their evidence/identity holds; its326evaluations,231pair paths and126rent-grid cells do not clear a purchase. New evidence goes into a new packet, preserving prior inputs and manifests.
 
-Frozen master SHA256: 1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b. Preserve Core, G0-G9 and all prior analytical releases. No new first-level module or G10. Use the existing 90%/4%/35-year standard, preferred 6% gross, separate full-cost/terminal stress, layout-neutral sampling and cross-gate Evidence-Judgment Divergence investigation.
+## Frozen architecture and standard
+
+Master SHA256:1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b. Preserve Core, G0-G9, SOP, validation, failure library, historical/forward records, terminal-risk and portfolio work. No G10 or new causal module.
+
+Use90%purchase-price LTV,4%,35years for the common comparison;6%gross preferred. Model complete costs, actual lending, no-sale cash and terminal separately. Current shortfall is lowest research priority, not permanent Reject; transitions need falsifiable mechanism, timing and funded carry. Studios through larger units and investor-led exits remain eligible. Material Evidence-Judgment Divergence triggers four-family investigation and existing-mechanism routing, never evidence override.

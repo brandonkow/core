@@ -1,0 +1,187 @@
+{
+  "version": "B07-FINAL-2026-10-08",
+  "source_commit": "ed283281812b4a84ebf6bf3f65472dbdc267a5f8",
+  "new_cases": [
+    {
+      "batch": "B07",
+      "price_status": "Advertised conditional input; no accepted offer or normalised clearing price.",
+      "rent_status": "Ordinary whole-unit asking evidence; no signed lease or collections.",
+      "fee_status": "Unverified combined management/sinking proxy; management-only standard remains unauthenticated.",
+      "cost_status": "Planning allowances, pre-tax; actual charges, insurance, levies, taxes and works quotes missing.",
+      "unit_identity": "Exact parcel/title/plan/inspection not obtained.",
+      "g0": "STOP: matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "quarantine": null,
+      "id": "R349",
+      "area_id": "A46",
+      "catchment": "Bandar Puteri Puchong",
+      "name": "The Cruise Residence two-bedroom",
+      "sqft": 861,
+      "layout": "2BR/2BA marketed",
+      "price": 600000,
+      "rent_assumed": 1950,
+      "rent_low": 1950,
+      "rent_high": 2300,
+      "fee_assumed": 330,
+      "other_assumed": 200,
+      "refurb_assumed": 15000,
+      "bays": 2,
+      "price_source": "F-E01",
+      "rent_source": "F-E02",
+      "match": "Partly furnished sale; 1950 rental header unfurnished but body includes cabinets, wardrobe, two AC and refrigerator. Separate861sf/two-bay units; same condition not certified. Higher2300 FF ask is older; model additional furnishings in explicit branch.",
+      "thesis": "Central Puteri small-household utility may attract a premium, but entry quantum can overwhelm rent."
+    },
+    {
+      "batch": "B07",
+      "price_status": "Advertised conditional input; no accepted offer or normalised clearing price.",
+      "rent_status": "Ordinary whole-unit asking evidence; no signed lease or collections.",
+      "fee_status": "Unverified combined management/sinking proxy; management-only standard remains unauthenticated.",
+      "cost_status": "Planning allowances, pre-tax; actual charges, insurance, levies, taxes and works quotes missing.",
+      "unit_identity": "Exact parcel/title/plan/inspection not obtained.",
+      "g0": "STOP: matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "quarantine": null,
+      "id": "R350",
+      "area_id": "A48",
+      "catchment": "Serdang Perdana",
+      "name": "East Lake Residence family",
+      "sqft": 1093,
+      "layout": "3BR + store /2BA marketed; store not bedroom",
+      "price": 350000,
+      "rent_assumed": 2000,
+      "rent_low": 1750,
+      "rent_high": 2200,
+      "fee_assumed": 300,
+      "other_assumed": 200,
+      "refurb_assumed": 20000,
+      "bays": 1,
+      "price_source": "F-E09",
+      "rent_source": "F-E10",
+      "match": "FF sale and separateFF1093sf/one-bay one-year rent ask; olderApril2026 income. September2200 same-size index is an upside lead;1750 rental is1116sf and not identical. Sale index21Sep versus opened7Aug date drift.",
+      "thesis": "Mature family-sized stock can compete with compact investments at a moderate purchase quantum, subject to true recurring costs and lease replacement."
+    }
+  ],
+  "branches": [
+    {
+      "parent": "R349",
+      "label": "older2300_FF_with35k_fitout",
+      "overrides": {
+        "rent_assumed": 2300,
+        "refurb_assumed": 35000
+      },
+      "parameters": {
+        "initial_vacancy": 3
+      },
+      "boundary": "Different April2026 FF rental; additional fit-out/letting sensitivity, not a signed lease or quote."
+    },
+    {
+      "parent": "R349",
+      "label": "older580k_FF_sale_2300_rent",
+      "overrides": {
+        "price": 580000,
+        "rent_assumed": 2300,
+        "refurb_assumed": 15000
+      },
+      "parameters": {},
+      "boundary": "April2026 indexed FF sale and separate older FF rent; favourable alternative, not a composite executable offer."
+    },
+    {
+      "parent": "R350",
+      "label": "September2200_same_size_index",
+      "overrides": {
+        "rent_assumed": 2200
+      },
+      "parameters": {},
+      "boundary": "1093sf one-bay September24 listing index; individual page failed. Furnishing and collection not authenticated."
+    },
+    {
+      "parent": "R350",
+      "label": "1750_larger1116sf_rent_counter",
+      "overrides": {
+        "rent_assumed": 1750
+      },
+      "parameters": {},
+      "boundary": "September7 lower rent1116sf, not same parcel/layout; functional budget counterexample."
+    },
+    {
+      "parent": "R350",
+      "label": "fee450_works30k",
+      "overrides": {
+        "fee_assumed": 450
+      },
+      "parameters": {
+        "levy_month": 1,
+        "levy": 30000
+      },
+      "boundary": "Analyst building-cost sensitivity; no actual levy or fee established."
+    },
+    {
+      "parent": "R339",
+      "label": "October1000_561sf_counter",
+      "overrides": {
+        "rent_assumed": 1000
+      },
+      "parameters": {},
+      "boundary": "Oct6 near-size one-bay advertised whole unit, condition/area mismatch; title hold preserved."
+    }
+  ],
+  "threshold_controls": [
+    {
+      "id": "B07-T04",
+      "name": "COVO current advertised floor",
+      "price": 584000,
+      "fee_assumed": 350,
+      "other_assumed": 200,
+      "refurb_assumed": 20000,
+      "boundary": "Current official926-1130sf/3-4BR marketing floor; not old250k minimum or proof of compact availability. Completion May2027 expected; no rent assigned."
+    },
+    {
+      "id": "B07-T05",
+      "name": "Quaver statutory floor",
+      "price": 555000,
+      "fee_assumed": 350,
+      "other_assumed": 200,
+      "refurb_assumed": 25000,
+      "boundary": "Official project notice minimum, March2027 target, displayed permit dates stale. No exact layout/offer/CCC or rent authenticated."
+    },
+    {
+      "id": "B07-T06",
+      "name": "2Rio current advertised floor",
+      "price": 605000,
+      "fee_assumed": 350,
+      "other_assumed": 200,
+      "refurb_assumed": 20000,
+      "boundary": "Official764-1012sf project floor; indexed official ended-campaign page labels newly completed, exact CCC/VP not obtained. No current rebate or rental forecast."
+    }
+  ],
+  "status_overlays": [
+    {
+      "id": "R339",
+      "evidence": [
+        "F-E05",
+        "F-E06"
+      ],
+      "change": "Developer states leasehold; advertised compact sizes551/550/560/561/552 differ. Parcel tenure, term and area remain held; current nearby1000-1200 asks narrow age-of-rent gap but not collections."
+    },
+    {
+      "id": "R233",
+      "evidence": [
+        "W02-E19",
+        "W02-E25",
+        "W02-E27"
+      ],
+      "change": "Historical15-floor/178-unit Seri Atria cohort narrows high-rise scope; affordable/restriction evidence strengthens need for exact transfer eligibility. No borrower eligibility assumed."
+    },
+    {
+      "id": "R346",
+      "evidence": [
+        "W02-E15",
+        "W02-E16",
+        "W02-E17",
+        "W02-E18",
+        "W02-E26"
+      ],
+      "change": "Mosaic and old Nadayu801 developer/phase cohorts separated. Exact1079sf sale parcel/auction basis/rights unresolved; quarantine retained."
+    }
+  ]
+}

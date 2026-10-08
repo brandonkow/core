@@ -1,0 +1,287 @@
+{
+  "version": "B07-FINAL-2026-10-08",
+  "cutoff": "2026-10-08",
+  "boundary": "Source observations are not authenticated units, achieved income, current availability, inspection or outcomes. Search-index evidence and failed detail access are labelled. W01/W02 evidence remains immutable and incorporated by reference.",
+  "sources": [
+    {
+      "id": "F-E01",
+      "url": "https://www.mudah.my/the-cruise-residence-2-bedrooms-for-sale-115604647.htm",
+      "source_type": "listing",
+      "source_date": "Publication date not established; relative age only",
+      "retrieved": "2026-10-08",
+      "access": "Indexed full advertisement",
+      "observations": "RM600000;861sf;2BR/2BA;PF;two bays;medium floor;freehold/non-Bumi claimed.",
+      "limits": "No selected title, accepted net price, inspection or current availability. Advertiser-relative age is not a stable publication date."
+    },
+    {
+      "id": "F-E02",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/the-cruise-residence-untuk-disewa-oleh-iris-yap-501416689",
+      "source_type": "listing",
+      "source_date": "2026-09-16",
+      "retrieved": "2026-10-08",
+      "access": "Indexed full advertisement; direct detail access failed",
+      "observations": "RM1950/month;861sf;2BR/2BA;two bays. Header unfurnished; body includes cabinets, wardrobe, two AC and refrigerator.",
+      "limits": "Condition conflict; independent advertiser from sale but different parcel. Ask, not signed lease or collections."
+    },
+    {
+      "id": "F-E03",
+      "url": "https://www.iproperty.com.my/property/puchong/rent-501105548/",
+      "source_type": "listing",
+      "source_date": "2026-04-13",
+      "retrieved": "2026-10-08",
+      "access": "Opened/indexed listing",
+      "observations": "RM2300/month;861sf;2BR/2BA;FF;two bays. Stated availability15June after tenancy.",
+      "limits": "Older furnished ask; not current availability or rent collections. Extra furnishing and letting costs are explicit branch assumptions."
+    },
+    {
+      "id": "F-E04",
+      "url": "https://www.brickz.my/transactions/residential/selangor/puchong/the-cruise-residence/non-landed/",
+      "source_type": "transaction aggregator",
+      "source_date": "Displayed window2025-12 to2026-06",
+      "retrieved": "2026-10-08",
+      "access": "Search-index evidence; direct access failed",
+      "observations": "Two displayed transactions;median RM735000; displayed sizes1324sf and1130sf.",
+      "limits": "No861sf matched clearing interval. Small mixed sample and hidden unit attributes preclude a discount calculation."
+    },
+    {
+      "id": "F-E05",
+      "url": "https://www.symphonylife.my/project/the-wharf/",
+      "source_type": "developer primary",
+      "source_date": "Undated project page",
+      "retrieved": "2026-10-08",
+      "access": "Opened page",
+      "observations": "Developer describes leasehold,551–1985sf and external storage.334-unit quick fact appears alongside three-tower description.",
+      "limits": "Scope of334 versus broader totals unresolved. No selected title/expiry/approved size. Undated future-mall wording is not a delivered amenity."
+    },
+    {
+      "id": "F-E06",
+      "url": "https://www.propertyguru.com.my/property-for-rent/at-the-wharf-residence-4469/with-1-bedroom",
+      "source_type": "listing index",
+      "source_date": "Listings2026-10-06;2026-10-01;2026-08-31",
+      "retrieved": "2026-10-08",
+      "access": "Opened index; selected details failed",
+      "observations": "RM1000/561sf;RM1100/550sf;RM1200/552sf, marketed one-bedroom and one bay.",
+      "limits": "Separate near-size units, unknown condition; index tenure fields conflict. Does not establish R339's560sf rights or achieved rent."
+    },
+    {
+      "id": "F-E07",
+      "url": "https://ir2.chartnexus.com/osk/docs/ar/OSKH-AR-2025.pdf",
+      "source_type": "issuer primary annual report",
+      "source_date": "FY2025 annual report",
+      "retrieved": "2026-10-08",
+      "access": "Direct PDF downloaded to memory; text read, printed68–69/PDF36",
+      "observations": "ANYA completed and handed over during2025; NARA still an ongoing development at year-end.",
+      "limits": "No exact CCC, current occupancy or rental absorption. Open-for-sale is compatible with completed stock. No ambiguous merged progress percentage used."
+    },
+    {
+      "id": "F-E08",
+      "url": "https://www.ioiproperties.com.my/16-sierra-puchong/covo-tod-service-apartment",
+      "source_type": "developer primary",
+      "source_date": "Current page at retrieval",
+      "retrieved": "2026-10-08",
+      "access": "Opened page",
+      "observations": "601units;advertised fromRM584000;926–1130sf;3/4BR;two bays;completing soon.",
+      "limits": "100m covered-walk claim not measured. Current marketed cohort cannot inherit historicalRM250000 minimum or prove compact availability."
+    },
+    {
+      "id": "F-E09",
+      "url": "https://www.edgeprop.my/listing/sale/4106097/east-lake-residence-for-sale-by-kenix",
+      "source_type": "listing",
+      "source_date": "Opened2026-08-07; search snapshot2026-09-21",
+      "retrieved": "2026-10-08",
+      "access": "Opened full listing",
+      "observations": "RM350000;1093sf;FF;one bay;header3+1/body3BR2BA plus store;leasehold claimed.",
+      "limits": "Store is not an approved bedroom. Date drift is one lineage, not two offers. Exact title/expiry/layout and furnishings unverified."
+    },
+    {
+      "id": "F-E10",
+      "url": "https://www.propertyguru.com.my/property-listing/east-lake-residence-for-rent-by-erik-oh-35214357",
+      "source_type": "listing",
+      "source_date": "2026-04-03",
+      "retrieved": "2026-10-08",
+      "access": "Indexed full advertisement",
+      "observations": "RM2000/month;1093sf;3BR2BA;FF;one bay;one-year term advertised.",
+      "limits": "Older ask, different unit; syndicated copy is one lineage. Incorrect MRT3/Serdang Jaya label excluded from transport evidence."
+    },
+    {
+      "id": "F-E11",
+      "url": "https://www.propertyguru.com.my/property-for-rent/at-east-lake-residence-1463",
+      "source_type": "listing index",
+      "source_date": "2026-09-24 and2026-09-07",
+      "retrieved": "2026-10-08",
+      "access": "Opened index; selected detail links failed",
+      "observations": "RM2200/1093sf/one bay andRM1750/1116sf/one bay, both marketed3BR2BA.",
+      "limits": "Condition and plan not authenticated; lower rent is different size. Upside branch is not a confirmed lease."
+    },
+    {
+      "id": "F-E12",
+      "url": "https://www.brickz.my/transactions/residential/selangor/seri-kembangan/east-lake-residence/non-landed/",
+      "source_type": "transaction aggregator",
+      "source_date": "Displayed2025-05 to2026-04",
+      "retrieved": "2026-10-08",
+      "access": "Indexed summary; direct access403",
+      "observations": "11transactions;medianRM400000;quartilesRM320000–505000.",
+      "limits": "Sizes, rights, floor, condition and transaction circumstances not matched. RM350000 versus median is not proven mispricing."
+    },
+    {
+      "id": "F-E13",
+      "url": "https://bpp.upm.edu.my/kompleks_perumahan_universiti/maklumat_kompleks_perumahan_universiti-13122?L=en",
+      "source_type": "university primary",
+      "source_date": "Updated2026-02-19",
+      "retrieved": "2026-10-08",
+      "access": "Opened official page",
+      "observations": "RM1000/month including utilities/Wifi;34houses in two blocks;three rooms/one bath;basic furnishings;student eligibility described.",
+      "limits": "Availability, allocation and exact eligibility unverified. Limited institutional option is not an unrestricted whole-market rent ceiling. No application or contact."
+    },
+    {
+      "id": "F-E14",
+      "url": "https://www.mymrt.com.my/projects/putrajaya-line/stations/",
+      "source_type": "rail operator primary",
+      "source_date": "Current station directory at retrieval",
+      "retrieved": "2026-10-08",
+      "access": "Opened official station pages",
+      "observations": "Serdang Raya Utara,Serdang Raya Selatan,Serdang Jaya,UPM,Equine Park,Putra Permai and16Sierra are separate Putrajaya Line stations.",
+      "limits": "Corrects the MRT3 advertisement error. No unit-to-station walk, crossing safety, bus reliability or rent transmission measured."
+    },
+    {
+      "id": "F-E15",
+      "url": "https://quaver.com.my/",
+      "source_type": "developer primary statutory notice",
+      "source_date": "Page accessed2026-10-08; displayed ADPL expiry2025-08",
+      "retrieved": "2026-10-08",
+      "access": "Opened official page",
+      "observations": "Simfoni Residensi/QuaverSdnBhd;684residential plus15retail;MBSJ;lease to20March2091;March2027target;minimumRM555000.",
+      "limits": "Stale displayed permit requires current approved confirmation; no illegality/delay inference. Retail not added to residential-unit denominator. No ordinary rent assumed."
+    },
+    {
+      "id": "F-E16",
+      "url": "https://uqs.com.my/newsite/project-update/one-equine-seri-kembangan-selangor/",
+      "source_type": "appointed quantity surveyor primary",
+      "source_date": "2023-05-05",
+      "retrieved": "2026-10-08",
+      "access": "Opened page",
+      "observations": "Phase1:1391=865SOHO+526serviced apartments;Phase2:1428;total2819.",
+      "limits": "Historical expected2024 completion superseded by later contractor reporting; nested total not additive. Components are not interchangeable legal-use or layout units."
+    },
+    {
+      "id": "F-E17",
+      "url": "https://tujusetia.investor.net.my/wp-content/uploads/2026/04/Tuju-Annual-Report-2025-V12-Web-2.pdf",
+      "source_type": "contractor primary annual report",
+      "source_date": "FY2025;published2026",
+      "retrieved": "2026-10-08",
+      "access": "Direct176-page PDF in memory; PDF9/printed7 text read",
+      "observations": "One Equine Phase1 completed inFY2025;Phase2 scheduled forFY2026.",
+      "limits": "Contractor completion is not selected-component CCC/VP or occupancy. No actual-delay inference from differing construction and marketing dates."
+    },
+    {
+      "id": "F-E18",
+      "url": "https://www.ioiproperties.com.my/bandar-puteri-puchong-puchong-jaya/2rio-residence",
+      "source_type": "developer primary",
+      "source_date": "Current page at retrieval",
+      "retrieved": "2026-10-08",
+      "access": "Opened page",
+      "observations": "632units;764–1012sf;2–3BR/2BA;PF;fromRM605000.",
+      "limits": "Floor price is not a selected net contract. Current incentives and ordinary rents not verified."
+    },
+    {
+      "id": "F-E19",
+      "url": "https://www.ioiproperties.com.my/ioifamfren/",
+      "source_type": "developer primary indexed campaign",
+      "source_date": "Campaign ended2026-07-31",
+      "retrieved": "2026-10-08",
+      "access": "Indexed catalog; opened page now campaign-ended shell",
+      "observations": "Indexed2Rio entry labels newly completed,RM605000 and764–1012sf.",
+      "limits": "Completed classification is provisional indexed primary evidence, not an authenticated CCC/VP date. No expired referral/incentive applied to price."
+    },
+    {
+      "id": "F-E20",
+      "url": "https://www.ioiproperties.com.my/news/ioi-properties-unveils-rm12-bil-ioi-rio-city-integrated-development-bandar-puteri-puchong",
+      "source_type": "issuer published project news",
+      "source_date": "2024-10-29",
+      "retrieved": "2026-10-08",
+      "access": "Opened/indexed issuer news",
+      "observations": "Rio City mall construction then planned frommid2026 with2030 opening;2Rio then expected2025.",
+      "limits": "Plan is not current groundbreaking, delivered mall, incremental jobs or guaranteed rent uplift. Masterplan and tower counts not added."
+    },
+    {
+      "id": "F-E21",
+      "url": "https://files.ioiproperties.com.my/dsites/s3fs-public/2024-07/COVO_Brochure%20%28Portrait%29.pdf",
+      "source_type": "developer primary brochure",
+      "source_date": "Brochure path2024-07",
+      "retrieved": "2026-10-08",
+      "access": "Indexed statutory brochure information",
+      "observations": "601units;historical minimumRM250000;lease29January2123;May2027expected completion.",
+      "limits": "Historical minimum not assumed available/unrestricted. T04 uses currentRM584000 marketed floor; no imputed rent."
+    },
+    {
+      "id": "F-E22",
+      "url": "https://malaysiaproperty4u.com/developers/osk-property/",
+      "source_type": "secondary directory",
+      "source_date": "Date not established",
+      "retrieved": "2026-10-08",
+      "access": "Opened/indexed; excluded as authority",
+      "observations": "ANYA heading is mixed with Mira's registered project row and908 count.",
+      "limits": "Not government corroboration. TEDUH returned an application shell rather than verified project data; F-E07 is the lifecycle authority."
+    },
+    {
+      "id": "F-E23",
+      "url": "https://www.propertyguru.com.my/property-listing/east-lake-residence-for-sale-by-michelle-loke-502000639",
+      "source_type": "listing",
+      "source_date": "2026-08-29 and later index changes",
+      "retrieved": "2026-10-08",
+      "access": "Indexed full advertisement; conflicting fields",
+      "observations": "RM340000/1093sf/FF;leasehold header with freehold body;later index showsRM330000.",
+      "limits": "Excluded as a clean base price; no lowest-price/highest-rent composite, no developer identity accepted from generic fields."
+    },
+    {
+      "id": "F-E24",
+      "url": "https://www.mudah.my/kaw-kaw-deal-east-lake-residence-1093sqf-1k-booking-full-loan-115555239.htm",
+      "source_type": "listing promotion",
+      "source_date": "Date not established",
+      "retrieved": "2026-10-08",
+      "access": "Indexed advertisement",
+      "observations": "RM340000/1093sf advertised with full-loan/zero-down language andRM1000booking.",
+      "limits": "Not proof of lender approval, net cost or authority to change90% comparison. Not modelled as executable funding."
+    },
+    {
+      "id": "F-E25",
+      "url": "https://www.mudah.my/the-wharf-residence-condominium-near-bandar-puteri-puchong-ioi-mall-114781430.htm",
+      "source_type": "listing historical lineage",
+      "source_date": "Indexed2026-05-30",
+      "retrieved": "2026-10-08",
+      "access": "Historical index; opened URL redirected to generic listings",
+      "observations": "OldRM1100/560sf/FF/one-bedroom plus store/one-bay ask.",
+      "limits": "Current availability not established; F-E06 refreshes only nearby asking evidence. No lease established."
+    },
+    {
+      "id": "F-E26",
+      "url": "https://www.iproperty.com.my/property/puchong/the-cruise-residence/sale-103819058/",
+      "source_type": "listing historical branch",
+      "source_date": "2026-04-04",
+      "retrieved": "2026-10-08",
+      "access": "Indexed listing",
+      "observations": "RM580000/861sf/2BR2BA/FF/two bays.",
+      "limits": "Older favourable branch paired with a separate rent ask, not one executable package."
+    },
+    {
+      "id": "F-E27",
+      "url": "https://oskproperty.com.my/collection/",
+      "source_type": "developer primary",
+      "source_date": "Current page at retrieval",
+      "retrieved": "2026-10-08",
+      "access": "Opened page",
+      "observations": "MIRA shown completed;ANYA open for sale.",
+      "limits": "Sales availability and construction lifecycle are separate. ANYA's actual2025handover statement comes from F-E07."
+    },
+    {
+      "id": "F-E28",
+      "url": "https://files.ioiproperties.com.my/dsites/s3fs-public/2025-09/IOI%202RIO%2022x31cm%20eBrochure_180825FAOL.pdf",
+      "source_type": "developer primary brochure",
+      "source_date": "File path2025-09",
+      "retrieved": "2026-10-08",
+      "access": "13-page PDF fetched in memory; text extraction did not resolve lifecycle",
+      "observations": "PDF fetched successfully;no usable completion-date text obtained.",
+      "limits": "Do not claim visually verified statutory dates. SHA25698c062e2348be766d80e5e696c69361b24e972db35aa7f4d8c003ab525666b94."
+    }
+  ]
+}

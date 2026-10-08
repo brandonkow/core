@@ -1,0 +1,168 @@
+{
+  "version": "B07-FINAL-2026-10-08",
+  "cutoff": "2026-10-08",
+  "entries": [
+    {
+      "sequence": 1,
+      "requests": [
+        {
+          "q": "Bandar Puteri Puchong La Vista Le Pavilion two bedroom 760 840 rent sale 2026"
+        },
+        {
+          "q": "The Wharf Residence 560 rent 2026 1 bedroom Puchong"
+        },
+        {
+          "q": "site.oskproperty.com.my Shorea Park MIRA ANYA NARA 2026 completed"
+        },
+        {
+          "q": "site.ioiproperties.com.my COVO 16 Sierra units completion 2026"
+        }
+      ]
+    }
+  ],
+  "selected_source_access": [
+    {
+      "id": "F-E01",
+      "url": "https://www.mudah.my/the-cruise-residence-2-bedrooms-for-sale-115604647.htm",
+      "access": "Indexed full advertisement"
+    },
+    {
+      "id": "F-E02",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/the-cruise-residence-untuk-disewa-oleh-iris-yap-501416689",
+      "access": "Indexed full advertisement; direct detail access failed"
+    },
+    {
+      "id": "F-E03",
+      "url": "https://www.iproperty.com.my/property/puchong/rent-501105548/",
+      "access": "Opened/indexed listing"
+    },
+    {
+      "id": "F-E04",
+      "url": "https://www.brickz.my/transactions/residential/selangor/puchong/the-cruise-residence/non-landed/",
+      "access": "Search-index evidence; direct access failed"
+    },
+    {
+      "id": "F-E05",
+      "url": "https://www.symphonylife.my/project/the-wharf/",
+      "access": "Opened page"
+    },
+    {
+      "id": "F-E06",
+      "url": "https://www.propertyguru.com.my/property-for-rent/at-the-wharf-residence-4469/with-1-bedroom",
+      "access": "Opened index; selected details failed"
+    },
+    {
+      "id": "F-E07",
+      "url": "https://ir2.chartnexus.com/osk/docs/ar/OSKH-AR-2025.pdf",
+      "access": "Direct PDF downloaded to memory; text read, printed68–69/PDF36"
+    },
+    {
+      "id": "F-E08",
+      "url": "https://www.ioiproperties.com.my/16-sierra-puchong/covo-tod-service-apartment",
+      "access": "Opened page"
+    },
+    {
+      "id": "F-E09",
+      "url": "https://www.edgeprop.my/listing/sale/4106097/east-lake-residence-for-sale-by-kenix",
+      "access": "Opened full listing"
+    },
+    {
+      "id": "F-E10",
+      "url": "https://www.propertyguru.com.my/property-listing/east-lake-residence-for-rent-by-erik-oh-35214357",
+      "access": "Indexed full advertisement"
+    },
+    {
+      "id": "F-E11",
+      "url": "https://www.propertyguru.com.my/property-for-rent/at-east-lake-residence-1463",
+      "access": "Opened index; selected detail links failed"
+    },
+    {
+      "id": "F-E12",
+      "url": "https://www.brickz.my/transactions/residential/selangor/seri-kembangan/east-lake-residence/non-landed/",
+      "access": "Indexed summary; direct access403"
+    },
+    {
+      "id": "F-E13",
+      "url": "https://bpp.upm.edu.my/kompleks_perumahan_universiti/maklumat_kompleks_perumahan_universiti-13122?L=en",
+      "access": "Opened official page"
+    },
+    {
+      "id": "F-E14",
+      "url": "https://www.mymrt.com.my/projects/putrajaya-line/stations/",
+      "access": "Opened official station pages"
+    },
+    {
+      "id": "F-E15",
+      "url": "https://quaver.com.my/",
+      "access": "Opened official page"
+    },
+    {
+      "id": "F-E16",
+      "url": "https://uqs.com.my/newsite/project-update/one-equine-seri-kembangan-selangor/",
+      "access": "Opened page"
+    },
+    {
+      "id": "F-E17",
+      "url": "https://tujusetia.investor.net.my/wp-content/uploads/2026/04/Tuju-Annual-Report-2025-V12-Web-2.pdf",
+      "access": "Direct176-page PDF in memory; PDF9/printed7 text read"
+    },
+    {
+      "id": "F-E18",
+      "url": "https://www.ioiproperties.com.my/bandar-puteri-puchong-puchong-jaya/2rio-residence",
+      "access": "Opened page"
+    },
+    {
+      "id": "F-E19",
+      "url": "https://www.ioiproperties.com.my/ioifamfren/",
+      "access": "Indexed catalog; opened page now campaign-ended shell"
+    },
+    {
+      "id": "F-E20",
+      "url": "https://www.ioiproperties.com.my/news/ioi-properties-unveils-rm12-bil-ioi-rio-city-integrated-development-bandar-puteri-puchong",
+      "access": "Opened/indexed issuer news"
+    },
+    {
+      "id": "F-E21",
+      "url": "https://files.ioiproperties.com.my/dsites/s3fs-public/2024-07/COVO_Brochure%20%28Portrait%29.pdf",
+      "access": "Indexed statutory brochure information"
+    },
+    {
+      "id": "F-E22",
+      "url": "https://malaysiaproperty4u.com/developers/osk-property/",
+      "access": "Opened/indexed; excluded as authority"
+    },
+    {
+      "id": "F-E23",
+      "url": "https://www.propertyguru.com.my/property-listing/east-lake-residence-for-sale-by-michelle-loke-502000639",
+      "access": "Indexed full advertisement; conflicting fields"
+    },
+    {
+      "id": "F-E24",
+      "url": "https://www.mudah.my/kaw-kaw-deal-east-lake-residence-1093sqf-1k-booking-full-loan-115555239.htm",
+      "access": "Indexed advertisement"
+    },
+    {
+      "id": "F-E25",
+      "url": "https://www.mudah.my/the-wharf-residence-condominium-near-bandar-puteri-puchong-ioi-mall-114781430.htm",
+      "access": "Historical index; opened URL redirected to generic listings"
+    },
+    {
+      "id": "F-E26",
+      "url": "https://www.iproperty.com.my/property/puchong/the-cruise-residence/sale-103819058/",
+      "access": "Indexed listing"
+    },
+    {
+      "id": "F-E27",
+      "url": "https://oskproperty.com.my/collection/",
+      "access": "Opened page"
+    },
+    {
+      "id": "F-E28",
+      "url": "https://files.ioiproperties.com.my/dsites/s3fs-public/2025-09/IOI%202RIO%2022x31cm%20eBrochure_180825FAOL.pdf",
+      "access": "13-page PDF fetched in memory; text extraction did not resolve lifecycle"
+    }
+  ],
+  "excluded": "Unrelated overseas Wharf results; room sums as whole-unit rent; retail/office as residential units; duplicated phase/masterplan totals; masked transaction medians as matched prices; advertising finance as approved credit.",
+  "access_failures": "Some portal detail/Brickz pages failed or returned403. TEDUH returned a JS shell, not verified records. Web PDF limits were addressed by direct in-memory primary PDF retrieval; no local artifacts.",
+  "scope": "Bounded search trace, not exhaustive listing census or complete web transcript."
+}
