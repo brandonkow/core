@@ -812,6 +812,21 @@ function evaluate(s){
   return {d, gs, pre, reasons, notes, prio, shortfall, trOK};
 }
 
+/* Standard-coverage arithmetic in integer sen. Pure, so verify.cjs can test it outside the browser. */
+function calcStandard(P, R, M){
+  const Ps = Math.round(P * 100), Rs = Math.round(R * 100), Ms = Math.round(M * 100);
+  if (![Ps, Rs, Ms].every(Number.isSafeInteger) || Ps <= 0 || Rs < 0 || Ms < 0) return null;
+  const L = 0.9 * Ps / 100, r = 0.04 / 12, inst = L * r / (1 - Math.pow(1 + r, -420));
+  const cov = Rs / 100 - inst - Ms / 100;
+  if (![L, inst, cov].every(Number.isFinite)) return null;
+  let zeroSen = Math.ceil(inst * 100 + Ms);
+  if (!Number.isSafeInteger(zeroSen)) return null;
+  while (zeroSen / 100 - inst - Ms / 100 < 0) zeroSen++;
+  return {L, inst, cov, zeroSen, sixSen: Math.ceil(Ps / 200),
+    yieldMicro: 1200n * BigInt(Rs) * 1000000n / BigInt(Ps),   // gross yield % x 10^6, truncated
+    meets: 200n * BigInt(Rs) >= BigInt(Ps)};                  // 12 R / P >= 6%  <=>  200 R >= P
+}
+
 /* ------------------------------------------------------------------ svg build */
 const $ = (s, r = document) => r.querySelector(s);
 const svg = $('#map');
@@ -1046,6 +1061,7 @@ svg.addEventListener('pointermove', e => {
 function endPtr(e){
   if (!ptrs.has(e.pointerId)) return;
   ptrs.delete(e.pointerId);
+  if (pinch && ptrs.size >= 2) { const [a, b] = [...ptrs.values()]; pinch = {d:Math.hypot(a.x - b.x, a.y - b.y) || 1, k:cam.k, cam:{...cam}, mx:(a.x + b.x)/2, my:(a.y + b.y)/2}; }
   if (pinch && ptrs.size === 1) { const rem = [...ptrs.values()][0]; drag = {x:rem.x, y:rem.y, cx:cam.x, cy:cam.y, moved:true, node:null}; }
   if (ptrs.size < 2) pinch = null;
   if (ptrs.size === 0 && drag) {
@@ -1158,6 +1174,7 @@ function paintRun(){
     n.stateEl = txt(n.g, n.x + 50, n.cy + 12, 'statebadge', special + (sf ? ' · SHORTFALL' : ''));
     n.stateEl.style.fill = `var(${s === 'pass' ? '--go' : s === 'unk' ? '--c-div' : s === 'cap' ? '--hold' : s === 'blocked' ? '--ink-3' : '--stop'})`;
     if (sf) n.stateEl.style.fill = 'var(--c-div)';
+    try { const max = n.w - 58; if (n.stateEl.getComputedTextLength() > max) { n.stateEl.setAttribute('textLength', max); n.stateEl.setAttribute('lengthAdjust', 'spacingAndGlyphs'); } } catch (err) {}
   });
   const divState = {none:'pass', resolved:'pass', partial:'unk', unresolved:'stop'}[runS.div];
   ['CHECK','S'].forEach(id => N[id].g.classList.add('st-' + divState));
@@ -1306,23 +1323,22 @@ function bindCalc(){
       out.innerHTML = '';
       return;
     }
-    const L = 0.9 * P, r = 0.04 / 12, inst = L > 0 ? L * r / (1 - Math.pow(1 + r, -420)) : 0;
-    const cov = R - inst - M, gy = P > 0 ? 1200 * R / P : 0, meets = P > 0 && 1200 * R >= 6 * P;
-    if (![L,inst,cov,gy,inst + M,P * 0.06 / 12].every(Number.isFinite)) {
-      error.hidden = false; error.textContent = 'Inputs exceed the supported numeric range.'; out.innerHTML = ''; return;
-    }
+    const c = calcStandard(P, R, M);
+    if (!c) { error.hidden = false; error.textContent = 'Inputs are outside the supported range, or the price rounds to zero sen.'; out.innerHTML = ''; return; }
     error.textContent = '';
+    const {L, inst, cov} = c;
     const state = cov < 0 ? ['Negative · shortfall → lowest research tier', 'neg'] : cov > 0 ? ['Positive · surplus', 'pos'] : ['Zero · break-even', ''];
-    const f2 = v => 'RM ' + v.toLocaleString('en-MY', {minimumFractionDigits:2, maximumFractionDigits:2});
-    const up = v => Math.ceil(v * 100) / 100;
-    $('#calc-out').innerHTML = [
-      ['Loan principal (90% of price)', f2(L)],
-      ['Instalment (4%, 420 months)', f2(inst)],
-      ['Standard monthly coverage', `<span class="${state[1]}">${cov < 0 ? '−' : ''}${f2(Math.abs(cov))}</span>`],
+    const money = (v, dp = 2) => 'RM ' + v.toLocaleString('en-MY', {minimumFractionDigits:dp, maximumFractionDigits:dp});
+    const covTxt = (cov < 0 ? '−' : '') + money(Math.abs(cov), cov !== 0 && Math.abs(cov) < 0.005 ? 4 : 2);
+    const yTxt = `${c.yieldMicro / 1000000n}.${String(c.yieldMicro % 1000000n).padStart(6, '0')}%`;
+    out.innerHTML = [
+      ['Loan principal (90% of price)', money(L)],
+      ['Instalment (4%, 420 months)', money(inst)],
+      ['Standard monthly coverage', `<span class="${state[1]}">${covTxt}</span>`],
       ['Result', `<span class="${state[1]}">${state[0]}</span>`],
-      ['Gross yield (truncated, not rounded)', `<span class="${meets ? 'pos' : ''}">${(Math.floor(gy * 1e6) / 1e6).toFixed(6)}%</span> · ${meets ? 'meets' : 'below'} the 6% preference`],
-      ['Rent for zero coverage (rounded up)', f2(up(inst + M))],
-      ['Rent for 6% gross (rounded up)', f2(up(P * 0.06 / 12))]
+      ['Gross yield (truncated, not rounded)', `<span class="${c.meets ? 'pos' : ''}">${yTxt}</span> · ${c.meets ? 'meets' : 'below'} the 6% preference`],
+      ['Rent for zero coverage (rounded up)', money(c.zeroSen / 100)],
+      ['Rent for 6% gross (rounded up)', money(c.sixSen / 100)]
     ].map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('');
   };
   ['#calc-price','#calc-rent','#calc-fee'].forEach(s => $(s).addEventListener('input', run));
@@ -1379,7 +1395,7 @@ function drawRun(){
 
 /* drawer delegation */
 function focusIn(sel){
-  const t = sel ? drawerBody.querySelector(sel) : null, h = drawerBody.querySelector('h2');
+  const t = sel ? drawerBody.querySelector(sel) : null, h = drawerBody.querySelector('h2, .verdict');
   const target = t && !t.disabled ? t : h;
   if (!target) return;
   if (target === h) h.setAttribute('tabindex', '-1');
@@ -1446,7 +1462,7 @@ playBtn.addEventListener('click', () => {
   if (playTimer) { stopPlay(); return; }
   if (mode !== 'walk' || stepIdx === STEPS.length - 1) goStep(0); else goStep(stepIdx);
   playBtn.textContent = 'Pause'; playBtn.setAttribute('aria-pressed', 'true');
-  playTimer = setInterval(() => { if (stepIdx >= STEPS.length - 1) { stopPlay(); return; } goStep(stepIdx + 1); }, 7000);
+  playTimer = setInterval(() => { if (stepIdx >= STEPS.length - 1) { stopPlay(); return; } const inDrawer = drawer.contains(document.activeElement); goStep(stepIdx + 1); if (inDrawer) focusIn('[data-step="1"]'); }, 7000);
 });
 
 /* panel / sheet */
@@ -1467,9 +1483,10 @@ sheetToggle.addEventListener('click', () => {
 document.addEventListener('keydown', e => {
   if (e.ctrlKey || e.metaKey || e.altKey || e.defaultPrevented) return;
   if (e.target.closest && e.target.closest('input, textarea, select')) return;
-  if (e.key === 'Escape') { if (mode === 'explore') clearSelection(); }
-  else if (mode === 'walk' && e.key === 'ArrowRight') goStep(stepIdx + 1);
-  else if (mode === 'walk' && e.key === 'ArrowLeft') goStep(stepIdx - 1);
+  const inDrawer = drawer.contains(document.activeElement);
+  if (e.key === 'Escape') { if (mode === 'explore') { clearSelection(); if (inDrawer) focusIn(null); } }
+  else if (mode === 'walk' && e.key === 'ArrowRight') { goStep(stepIdx + 1); if (inDrawer) focusIn('[data-step="1"]'); }
+  else if (mode === 'walk' && e.key === 'ArrowLeft') { goStep(stepIdx - 1); if (inDrawer) focusIn('[data-step="-1"]'); }
   else if (e.key === '+' || e.key === '=') $('#zoomIn').click();
   else if (e.key === '-') $('#zoomOut').click();
   else if (e.key === '0') $('#zoomFit').click();
