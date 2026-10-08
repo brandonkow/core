@@ -1,6 +1,6 @@
 # Klang Valley underwriting - round 3 continuation
 
-Current navigation updated:8October2026. Programme status: **incomplete; B03-B08 bounded desk passes completed; B01/B02 final audit pending**. Latest [B08 final synthesis](b08-final/Regional_Synthesis.md), [audit](b08-final/Completion_Audit.md), [verification](b08-final/Verification_Report.md) and [checkpoint](b08-final/RESUME_AND_COMPLETION.md) close A54-A61's bounded public desk work. All20operatingexpressions retain G0 STOP/G9 Defer. No Deploy. All work goes directly to main; current map and existing local files remain preserved. Assess the map after all-area underwriting and programme integration.
+Current navigation updated:8October2026. **All61declared catchments now have bounded regional desk acceptance. Programme integration remains incomplete.** Latest [B01-B02 final synthesis](b01-b02-final/Regional_Synthesis.md), [17-area audit](b01-b02-final/Completion_Audit.md), [verification](b01-b02-final/Verification_Report.md) and [checkpoint](b01-b02-final/RESUME_AND_COMPLETION.md). ZeroDeploy. Continue cross-region comparison, whole-programme portfolio stress and final audit, then assess whether the existing map needs updating. Main only; existing local files and map remain preserved.
 
 The 61-catchment map is complete as a scope register. Round 1's 14 cases and round 2's 50 cases provide conditional underwriting inputs, not 64 verified investment opportunities. The nine earlier Cheras expressions remain separate historical research. Having a disposition for each area did not complete the full regional research requirement. No Deploy is validated.
 
@@ -15,6 +15,8 @@ This continuation preserves the original programme scope, frozen consolidated Co
 5. [Case status overrides](Case_Status_Overrides.json) must accompany round 2 quantitative comparisons.
 
 ## Latest substantive work
+
+- [B01-B02 final release](b01-b02-final/Regional_Synthesis.md):17catchments accepted after targeted older-family/compact controls;33conditional expressions,475evaluations,528syntheticpairpaths,180rent-gridcells. [Cases](b01-b02-final/Cases_G0_G9.md), [financials](b01-b02-final/Financial_Underwriting.md), [evidence](b01-b02-final/Evidence.json), [divergences/misses](b01-b02-final/Divergence_and_Misses.md) and [audit](b01-b02-final/Completion_Audit.md). Prior29objects preserved;4new casesR362-R365. AllG0STOP/G9Defer.
 
 - [B08 final release](b08-final/Regional_Synthesis.md): eight catchments;20conditional expressions;306evaluations;190syntheticpairpaths;135rent-gridcells. [Cases](b08-final/Cases_G0_G9.md), [financials](b08-final/Financial_Underwriting.md), [new evidence](b08-final/Evidence.json), [divergences/misses](b08-final/Divergence_and_Misses.md) and [seven-dimension audit](b08-final/Completion_Audit.md). Prior18inputs/20branches unchanged. Bounded desk-complete Defer; zeroDeploy. Working01/02below remain historical checkpoints.
 
@@ -38,13 +40,15 @@ This continuation preserves the original programme scope, frozen consolidated Co
 - [South and southwest KL integrated regional synthesis](B02_Regional_Synthesis.md): seven catchments with product contrasts and price-dependent conclusions.
 - [Dated supply register](B01_B02_Supply_Register.md) and [official market context](Official_Market_Context.md): distinguish delivered stock, proposed phases and aggregate unsold inventory.
 - [Four additional G0-G9 controls](Contrasting_Cases_G0_G9.md): Desa Green two-bedroom, The Tropika two-bedroom, M Oscar two-bedroom and Silk Sky studio. Identity and offer limitations remain explicit.
-- [Current financial comparison](B01_B02_Financial_Comparison.md): 29 expressions at 90% LTV, 4% and 35 years. No positive cost-complete annual base-case carry and no validated Deploy within this comparison.
+- [Prior 29-case financial comparison](B01_B02_Financial_Comparison.md): 29 expressions at 90% LTV, 4% and 35 years. No positive cost-complete annual base-case carry and no validated Deploy within this comparison.
 
-B01/B02 have enhanced syntheses for17catchments with final substantive audit pending. B03-B08 have44bounded desk-complete catchments.17of61therefore lack final acceptance. Continue B01/B02 audits, cross-region comparison, programme portfolio stress and final requirement audit. These are workflow counts, not investment-readiness percentages.
+B01/B02's17catchments and B03-B08's44catchments are now bounded desk-complete:61of61. No regional acceptance gap remains within the declared scope. Cross-region comparison, whole-programme portfolio stress and final requirement audit remain. ZeroDeploy; these are workflow counts, not investment-readiness percentages.
 
 Earlier documents are retained as dated records. Their arithmetic remains conditional on their original inputs. The round 2 'public desk pass is closed' wording does not close outstanding material regional work. Root navigation points here without rewriting history.
 
-## Research still required
+## Research standards and remaining programme work
+
+Complete cross-region comparison, whole-programme portfolio stress and final audit next. The following standards also govern any later evidence-driven reopening; they do not negate the bounded regional acceptance above.
 
 Continue functional demand and real buyer tasks; contrasting eligible product/lifecycle cohorts; project and regional supply; relevant cleared comparable records and price limits; ordinary-tenancy evidence; operating and financing failure modes; exit alternatives and rank reversals. Distinguish inaccessible private evidence from public research not yet done.
 

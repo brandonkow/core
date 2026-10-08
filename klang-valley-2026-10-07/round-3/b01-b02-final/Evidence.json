@@ -1,0 +1,312 @@
+{
+  "version": "B01-B02-FINAL-EVIDENCE-2026-10-08",
+  "sources": [
+    {
+      "id": "F01",
+      "url": "https://www.mudah.my/astaka-heights-condo-1115sf-3br-freehold-pandan-perdana-kl-115433505.htm",
+      "title": "Astaka1115 sale",
+      "source_basis": "Indexed asking advertisement; August2026 crawl, relative post age not accepted as calendar date",
+      "permitted_inference": "388000;1115sf;3BR2BA;midfloor. Direct open failed; not executable consideration or proof of parcel rights.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F02",
+      "url": "https://www.iproperty.com.my/property-for-sale/at-astaka-heights-apartments-2020",
+      "title": "Astaka sale lineage",
+      "source_basis": "Indexed dated advertisements July-September2026",
+      "permitted_inference": "26Aug388000/1115/3BR2BA/onebay/unfurnished;06Aug398000 same size;07Sep410000/1222/PF. Luxury2.8m2659sf row is suspected cross-project contamination, excluded. No count of independent offers.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F03",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/astaka-heights-apartments-untuk-disewa-oleh-desmond-low-60088503",
+      "title": "Astaka1120 rent",
+      "source_basis": "Advertiser dated21June2025, historical offer",
+      "permitted_inference": "1600/1120sf/3BR2BA/onebay/PF. One year older than sale,5sf mismatch, not paid or same parcel. Baseline rent only conditional.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F04",
+      "url": "https://www.propertyguru.com.my/property-for-rent/at-astaka-heights-apartments-2020/partially-furnished",
+      "title": "Astaka1222 rent controls",
+      "source_basis": "Indexed April2026 asks",
+      "permitted_inference": "1222sf PF onebay1600-1700. Larger than1115; not independent validation of1600 realised rent.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F05",
+      "url": "https://www.mudah.my/astaka-heights-shamelin-condo-for-sale-114252240.htm",
+      "title": "Astaka fee lead",
+      "source_basis": "Advertiser claim; crawl4months before retrieval",
+      "permitted_inference": "1222sf nonBumi claimed sale450k; fee300 plus sinking30. Use330 as planning proxy for smaller selected unit, not actual bill or floor-area allocation.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F06",
+      "url": "https://www.iproperty.com.my/condo/astaka-heights-apartments-2020",
+      "title": "Astaka corrupt aggregate",
+      "source_basis": "Portal project fields August2026 index",
+      "permitted_inference": "Rental minimum2280000 and luxury sale rows cannot be adopted.190units/2007/freehold remain portal descriptions, not governance audit.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F07",
+      "url": "https://newprojek.com/property-transaction/astaka-heights-apartments",
+      "title": "Astaka automated return rejection",
+      "source_basis": "Aggregated/modelled market page",
+      "permitted_inference": "Advertised10.6%return derived partly from district rental assumptions despite zero active rentals. Excluded as rental and investment-return evidence.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F08",
+      "url": "https://www.iproperty.com.my/bm/properti/cheras/prima-midah-heights/sale-502196428/",
+      "title": "Prima1460 sale",
+      "source_basis": "Advertiser dated4October2026; indexed full text, direct open failed",
+      "permitted_inference": "550000;1460sf;4BR2BA;onebay;PF;freehold claimed. Low-density and quiet claims not adopted. Cross-platform same listingID not independent.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F09",
+      "url": "https://www.propertyguru.com.my/condo/prima-midah-heights-241",
+      "title": "Prima count conflict",
+      "source_basis": "Portal header and body",
+      "permitted_inference": "Header352/22floors vs body480 across3blocks. Do not average or select lowercount to claim desirability.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F10",
+      "url": "https://www.aspecthuntley.com.au/asxdata/20080829/pdf/00875404.pdf",
+      "title": "UOA2008 issuer report",
+      "source_basis": "Issuer historical report mirrored by ASX-data provider; indexed text, direct web open failed",
+      "permitted_inference": "Reportp6 identifies completion2005;34terrace houses separately from480condominiums in3towers. Primary historical content supports480condos; not2026MC records, title verification or current occupancy.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F11",
+      "url": "https://www.starproperty.my/kuala-lumpur/cheras/taman-midah/prima-midah-heights/property-insights/959",
+      "title": "Prima historical description",
+      "source_basis": "Secondary profile, old MRT-construction narrative and2017transactions",
+      "permitted_inference": "480=459standard+21penthouses;4BR2BAstandard. Leasehold label conflicts other freehold sources. Good-management/residentmix narrative stale and unverified.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F12",
+      "url": "https://www.iproperty.com.my/property/cheras/prima-midah-heights/rent-108133704/",
+      "title": "Prima rent/package controls",
+      "source_basis": "Indexed February-April2026 offers; listing path now aggregate",
+      "permitted_inference": "26March1461PF4BR2BAonebay1800;23February1461PF2400;16March1464FF2100;12March1465FF1900. Separate units and dates, no achieved distribution.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F13",
+      "url": "https://www.iproperty.com.my/bm/hartanah-disewa/di-prima-midah-heights-241",
+      "title": "Prima newer FF control",
+      "source_basis": "Retrieved page September2026 snapshot",
+      "permitted_inference": "11September1461sf3+1BR2BAonebayFF2200. Individual click failed. Higher FF asks not evidence PF1800must rise.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F14",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/cl-prima-midah-heights-untuk-disewa-oleh-michelle-yeap-60472163",
+      "title": "Prima upper FF control",
+      "source_basis": "26May2026 indexed offer",
+      "permitted_inference": "2900/1500sf/4BR2BAonebayFF; material size/fitout mismatch. Upper branch only with extra refurbishment cash, not baseline rent.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F15",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/cheras/prima-midah-heights/non-landed/?orderby=address",
+      "title": "Prima transactions depth",
+      "source_basis": "Public transaction-summary index",
+      "permitted_inference": "5reported records August2025-June2026. Not a parcel-matched clearing interval or buyer-profile evidence.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F16",
+      "url": "https://www.propertyguru.com.my/condo/ketumbar-heights-198",
+      "title": "Ketumbar geography and count",
+      "source_basis": "Secondary project profile",
+      "permitted_inference": "Jalan6/95B vs9/95B variants and inconsistent336units wording. Yulek/Midah-side substitute, not automatically DamaiPerdana task. No selectedA05case.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F17",
+      "url": "https://www.propertyguru.com.my/condo/damai-hillpark-8612",
+      "title": "Damai Hillpark product",
+      "source_basis": "Secondary profile",
+      "permitted_inference": "BandarDamaiPerdana6/1F;CTM;2015;420units two20storey towers;1020/1050/1070sf family types;shop/parking interface. Not MC audit. Room500/commercial218k floors excluded.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F18",
+      "url": "https://www.mudah.my/kuala-lumpur-bandar-damai-perdana/apartment-condominium-for-sale/3-bedrooms-with-parking-facility",
+      "title": "Damai ordinary index lead",
+      "source_basis": "Dated sale index",
+      "permitted_inference": "12August2026 JimmyTan390000/1020/3BR2BA. Same marketing title previously400000 June; repricing is possible, parcel equality not proved. Use390000 conditional index expression, current availability/rights/fitout not verified.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F19",
+      "url": "https://homes.cari.la/homes/apartment-for-rent-alam-damai-cheras",
+      "title": "Damai historical lineage",
+      "source_basis": "Aggregator tracing10June2026 Mudah ad",
+      "permitted_inference": "Jimmy400000/1020/3BR2BA/twobays; not a second transaction. Aggregator m2 label erroneous relative to source sqft and must not be converted again.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F20",
+      "url": "https://www.mudah.my/damai-hillpark-condo-1020sqft-bandar-damai-perdana-below-market-115357152.htm",
+      "title": "Damai restricted offer",
+      "source_basis": "Advertiser indexed July2026; separate ShermanTan listing",
+      "permitted_inference": "400000/1020/3BR2BA/twobays; BumiLot field and full-loan/incentive claims. Not interchangeable with Jimmy expression or unrestricted buyability.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F21",
+      "url": "https://www.iproperty.com.my/property/cheras/sale-501073277/",
+      "title": "Damai contradictory offer",
+      "source_basis": "Advertiser8April2026; syndication not independence",
+      "permitted_inference": "400kheader450kbody,1050header1020body,4roomheader3/4body variants. Excluded from standardcase price and layout. Never select favourable fields across versions.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F22",
+      "url": "https://www.iproperty.com.my/property/cheras/damai-hillpark/rent-500096340/",
+      "title": "Damai rental controls",
+      "source_basis": "Indexed February-May2026 offers",
+      "permitted_inference": "1020PF3BR2BA/twobays1600on6Feb,1700on12April,1800on2May;1070FF3+1at2200 not sameformat. Baseline1700 diagnostic not paid lease.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F23",
+      "url": "https://www.mudah.my/kuala-lumpur-bandar-damai-perdana/properties-for-rent/rent-from-1500-below-2000",
+      "title": "Damai competing uses",
+      "source_basis": "Rental index, mixed relative and2026dated rows",
+      "permitted_inference": "1020wholeunit1650;19June1020twobays1750;1050FF1900. DMajestica862sf3BR2BA townhouse1500 is a utility alternative, not same apartment or achievable same-parcel rent.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F24",
+      "url": "https://list.my/subsales/selangor/hulu-langat/cheras/bandar-damai-perdana-damai-hillpark",
+      "title": "Damai apparent recency rejected",
+      "source_basis": "Page stamped30September2026",
+      "permitted_inference": "Seven displayed records all2021-2022 despite2021-2026window. Median470000 notcurrentliquidity/valuation. No appreciation claim accepted.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F25",
+      "url": "https://www.mudah.my/kuala-lumpur/for-sale?q=alam+damai+bandar+damai+perdana+cheras",
+      "title": "A05 landed price ladder",
+      "source_basis": "Mixed dated asking index March-April2026",
+      "permitted_inference": "498k1280extended terrace,550k1600endlot,680k1700renovated terrace. Old asks/title/land-vs-building/condition unresolved; prove budget-overlap leads only, not current landed clearing floor.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F26",
+      "url": "https://www.propertyguru.com.my/property-listing/arena-green-for-sale-by-jenice-sh-goh-502007711",
+      "title": "Arena730 sale",
+      "source_basis": "Advertiser1September2026 indexed complete text",
+      "permitted_inference": "268000/730sf/2BR1BA/onebay/PF;132maintenance claimed. Current footer79 is stale generic copy. No verified bill, sinking split or original-plan/parcel rights.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F27",
+      "url": "https://www.iproperty.com.my/property/bukit-jalil/arena-green/rent-501915787/",
+      "title": "Arena726 rent",
+      "source_basis": "Retrieved advertiser15August2026 available5October2026",
+      "permitted_inference": "1300/726sf/2BR2BA/onebay/FF.730vs726 and1vs2BA plusfitout mismatch held; not a matched realised pair.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F28",
+      "url": "https://www.iproperty.com.my/apartment-for-rent/at-arena-green-163",
+      "title": "Arena rent version differences",
+      "source_basis": "Search index October2026 vs retrieved September2026snapshot",
+      "permitted_inference": "1300/726/2BR2BA OctoberPFindex vsAugustFFoffer can be distinct units/snapshots; noprooflistingcount=absorption. Same portal not independent rent corroboration.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F29",
+      "url": "https://findaproperty-cl.blogspot.com/2011/08/",
+      "title": "Arena old fee lineage",
+      "source_basis": "Dated17August2011 secondary profile",
+      "permitted_inference": "79monthly fee already present2011; copied2026pages cannot validate current levy. Historical726-950range not title verification.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F30",
+      "url": "https://www.mudah.my/malaysia/all?q=arena+green",
+      "title": "Arena cohort/price screen",
+      "source_basis": "June2026 indexed offers, direct retrievedbodychanges",
+      "permitted_inference": "270k7262BR sale;6501BR rent1000 androom550 do notprove550sfstudio.255k726ask elsewhere olderApril, not executed floor.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F31",
+      "url": "https://www.propertyguru.com.my/property-listing/arena-green-for-sale-by-jeremy-kung-500017828",
+      "title": "Arena cheaper control",
+      "source_basis": "25April2026 sale-index snapshot",
+      "permitted_inference": "255000/726/2BR2BA, current availability/rights unknown. Price-only branch, not sameparcel executable offer.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F32",
+      "url": "https://www.carousell.com.my/p/wtr-arena-green-condo-1141340961/",
+      "title": "Arena downside rent lead",
+      "source_basis": "Old undated advertiser page",
+      "permitted_inference": "1100/726FF;header1room/body2rooms;notcurrentpaidrent.1100usedonlylow scenario.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F33",
+      "url": "https://www.iproperty.com.my/service-residence-for-sale/in-bandar-damai-perdana-dbi56?freetext=Bandar%2520Damai%2520Perdana%252C%2520Cheras%252C%2520Selangor",
+      "title": "Damai voluntary-versus-auction screen",
+      "source_basis": "June2026 source index",
+      "permitted_inference": "390k1020ordinaryJune2,435k1020FFJune1,2163001050and220k1005auctionrows. Auctionreserves not voluntary clearing or successful outcomes.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    },
+    {
+      "id": "F34",
+      "url": "https://www.iproperty.com.my/property-for-sale/in-bandar-damai-perdana-dbi56/with-min-1-bathroom",
+      "title": "Damai townhouse/budget alternative",
+      "source_basis": "31August-1September2026 indexed offers",
+      "permitted_inference": "410k1083sf2BR2BAonebayPFtownhouse;260k886sf3BRAliranDamai. Rights/eligibility/condition notverified, never assume same pool. Lower-ticket choices challenge genericfamilycondopremium.",
+      "retrieved": "2026-10-08",
+      "achieved_or_executed": false
+    }
+  ],
+  "boundary": "Curated claims only, no page text dumps. Earlier sources remain in immutable regional syntheses and supply register. Snapshots and syndication do not prove current availability, independent offers or clearing. No outreach/site visit."
+}

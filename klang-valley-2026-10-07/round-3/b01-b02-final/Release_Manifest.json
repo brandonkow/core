@@ -1,0 +1,168 @@
+{
+  "version": "B01-B02-FINAL-2026-10-08",
+  "parent_commit": "76d960d1861909e5011b516ea0908df1c364754f",
+  "content_verified_tree": "c0b18eed97fd8dd24ef13545cc230623d90f36e6",
+  "report_tree": "300674a0f092a85b495a3265a07a112e1df091ca",
+  "branch": "main",
+  "scope": "A01-A17 bounded regional desk acceptance; programme integration still pending; zero Deploy",
+  "files": {
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Cases_G0_G9.md": {
+      "blob_sha": "7366bd3590ffa2787fa411cc3313575a80cbad54",
+      "sha256": "707b5eb5332fa515203499124d3b100734ea6a3c40e3b440e06ecdad88773180",
+      "bytes": 13527
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Completion_Audit.md": {
+      "blob_sha": "5e522e77469ce1e5493064a60296bb9efb2d4e9f",
+      "sha256": "53a933047c61312412226482e894a6a808da86330630d69934254fce7e5d1ad6",
+      "bytes": 15725
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Divergence_and_Misses.md": {
+      "blob_sha": "e9f5496712f093076fd536b5b73c61c2b9899cc0",
+      "sha256": "99b1e0f5368998f183639f018c21a874dcd0fb276c53d8271af528140b0208bd",
+      "bytes": 11103
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Evidence.json": {
+      "blob_sha": "807c0bd8426e0b9ab04af958b5f10c4667fc3d10",
+      "sha256": "fad84599f352c7d1a928642af5009e376a1bf5c41bcd9c223fa5cd6e980b87e8",
+      "bytes": 16817
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json": {
+      "blob_sha": "ba3eedfe2eb34f2fdb183ad61e45a5ac8dacbe1c",
+      "sha256": "ab1d365c4416ab0a31e50449556a70593ded2f3469f064f8edae9436833843ce",
+      "bytes": 2129528
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Underwriting.md": {
+      "blob_sha": "80a31af489e594a50327a778d15e9466ee9b6779",
+      "sha256": "f7ffcae51141987833aa3c64a309de36be67701a4f4065b231c3c81b8d427979",
+      "bytes": 12454
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Inputs.json": {
+      "blob_sha": "c2392fa97820cf4a51e399684b5ecfba6a947f11",
+      "sha256": "72b137d79d002038d18723ae7478f1d1a37f2e3ad675fc5430db7147a08f6a5b",
+      "bytes": 137623
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/RESUME_AND_COMPLETION.md": {
+      "blob_sha": "2ac54fec7bf2632925eb466345a9115ee5ec82eb",
+      "sha256": "83ad1d27666ab0bd2a5a9ab8b84376c6e23538d4a4c372381edf54b6baa87f7f",
+      "bytes": 3946
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Regional_Synthesis.md": {
+      "blob_sha": "ca912bd6e8aceee901855c142399aa6f7657baf7",
+      "sha256": "be8672a37d489c0879a36dca0aa349a9004a201776fe9ea025c79b19eb52c1ac",
+      "bytes": 7693
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Scenario_Builder.py": {
+      "blob_sha": "d1d93263402469e420cfb8f29a47a4dbc927a93e",
+      "sha256": "29ede0229952129fc5386fcf222c754cc7c94e5d229bc8e9819ad0402fb663cf",
+      "bytes": 8761
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Search_Log.json": {
+      "blob_sha": "17ae6dd6e918be2ffcbd2564cb1b7d503affe828",
+      "sha256": "2fe83526ee462611666b79d20812b85c26456e9b050b7fe0f3ce542459335b16",
+      "bytes": 23365
+    },
+    "Residential_Investment_Framework.md": {
+      "blob_sha": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+      "sha256": "1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b",
+      "bytes": 55579
+    },
+    "execution-release-2026-10-07/financial_engine.py": {
+      "blob_sha": "2fa3554d4b1358795d658efefe270ac53f27bbda",
+      "sha256": "3ab25fc9d9c100dde0eb7240cada5f53df2b6585be52af9165d8930cd8a64b5a",
+      "bytes": 16438
+    },
+    "execution-release-2026-10-07/financial_config.json": {
+      "blob_sha": "3e17c91823b093aa66f0930b2c012510d3b4528f",
+      "sha256": "ddcbfca298e1ee33a55544f8c25750b17c60a531eccddd62ad6ddc124a4a367c",
+      "bytes": 1037
+    },
+    "cheras/Cheras_Financial_Results.json": {
+      "blob_sha": "a71d3caca8b08d9c06da3202e2e095f742e2048f",
+      "sha256": "dc1d54bfcb54da4a519c2b322e68ba851708a214b8f123ff5fff3a39edee1165",
+      "bytes": 96922
+    },
+    "klang-valley-2026-10-07/Case_Inputs.json": {
+      "blob_sha": "a25167bf28cd0dcd34ae3b51bd21ea82cd85f3d8",
+      "sha256": "695ba0aeebaa42f97d37c17002e6c8427b84c58211df4478456b2674eae46c91",
+      "bytes": 15879
+    },
+    "klang-valley-2026-10-07/round-2/Case_Inputs.json": {
+      "blob_sha": "e73369d88823ce3e7888cd4de2783b80f941e076",
+      "sha256": "4820ae8bd5b36f8c2567f875520373434ff87858c7689c3ce8ca5fb587d5b048",
+      "bytes": 71074
+    },
+    "klang-valley-2026-10-07/round-3/Contrasting_Case_Inputs.json": {
+      "blob_sha": "ad3fcbd01b9c070120b4e57286329039d7c7005c",
+      "sha256": "7e959c860cb5b05ccecef81f6b5cffb9faf4b8da2a03952a0d2f591b64cc50af",
+      "bytes": 11931
+    },
+    "klang-valley-2026-10-07/round-3/Case_Status_Overrides.json": {
+      "blob_sha": "b89c106c32d4ccea134e600d33b340cbd64fbe22",
+      "sha256": "0209d298238688f3e142d52093c095d554586a4cc7e78d1ecf1d07cde002cd2e",
+      "bytes": 5453
+    },
+    "CURRENT_WORKFLOW.md": {
+      "blob_sha": "9b0137d69cd2a504560a16c6e5aec689a9a34fbb",
+      "sha256": "95c63db758e2e6fa8a464fffbcf5f7360b023d0df277eed461ac7733e458112d",
+      "bytes": 2980
+    },
+    "README.md": {
+      "blob_sha": "3e9f85c4bc2b2a980384e1559854adabc5569712",
+      "sha256": "f12a9852609d0cd8281cc30044d8cbb545ab9246125a075a1f848c6c009ebb89",
+      "bytes": 9408
+    },
+    "klang-valley-2026-10-07/round-3/README.md": {
+      "blob_sha": "1598b5ef105a562fcc5c8ca04839d8f4b5660698",
+      "sha256": "900676259293bbd471346b530c06fc1770e0a67f12a652d202843c0ee8fc85f7",
+      "bytes": 10005
+    },
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Verification_Report.md": {
+      "blob_sha": "03f6754ba3a14e37582bf495ef9dff22acb689f0",
+      "sha256": "d8d01b11fab0c403dedefec996349af58713e1cae26710a235f423a4069d570e",
+      "bytes": 3816
+    }
+  },
+  "preservation": {
+    "prior_files": 650,
+    "prior_non_navigation_blobs_unchanged": 647,
+    "changed_prior_paths": [
+      "CURRENT_WORKFLOW.md",
+      "README.md",
+      "klang-valley-2026-10-07/round-3/README.md"
+    ],
+    "expected_final_new_files": 13,
+    "expected_final_repository_files": 663,
+    "map_core_sop_historical_files_unchanged": true
+  },
+  "counts": {
+    "operating_cases": 33,
+    "evaluations": 475,
+    "pair_paths": 528,
+    "pairs_preserving_synthetic_reserve": 479,
+    "rank_grid_cells": 180,
+    "standard_nonshortfall": [
+      "C01",
+      "C05",
+      "KV01",
+      "KV02",
+      "R201",
+      "R204",
+      "R205",
+      "R206",
+      "R245",
+      "R304",
+      "R365"
+    ],
+    "annual_nonnegative": [],
+    "gross_at_least6pct": [
+      "C05",
+      "KV01",
+      "R201",
+      "R204",
+      "R205",
+      "R304"
+    ]
+  },
+  "checks": "Exact replay; master/engine/config hashes; all prior non-navigation blobs preserved;29sourceobjects and current status overlay exact; independent monthly/annual/gross/entry/flat-exit identities;40ordered gate rows;34evidenceIDs;3four-familyflags;12searchcalls;17areaauditrows;relative links;13rank reversals;479of528reserve passes",
+  "self_reference": "Manifest excludes its own hash. Final commit/ref and all listed hashes must be read back after publishing. No advance claim of remote verification."
+}

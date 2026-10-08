@@ -1,0 +1,511 @@
+{
+  "cutoff": "2026-10-08",
+  "note": "Research request log and returned URL inventory. Curated evidence retains claims, dates, source lineage and permitted use. Full copyrighted page text is not reproduced. Results may be indexed snapshots rather than live pages.",
+  "calls": [
+    {
+      "call": 1,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Arena Green\" \"550\" \"sale\" \"2026\""
+          },
+          {
+            "q": "\"Arena Green\" \"550\" \"rent\""
+          },
+          {
+            "q": "\"Astaka Heights\" \"sale\" \"2026\""
+          },
+          {
+            "q": "\"Astaka Heights\" \"rent\" \"2026\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.iproperty.com.my/building/astaka-heights-apartments-pty_63142/",
+        "https://irumah.co/taman-shamelin-perkasa/astaka-heights",
+        "https://my.roomz.asia/823710",
+        "https://www.iproperty.com.my/property/cheras/astaka-heights-apartments/sale-200070094/",
+        "https://www.mudah.my/kuala-lumpur-ampang/apartment-condominium-for-sale/astaka-heights",
+        "https://newprojek.com/property-transaction/astaka-heights-apartments",
+        "https://speedhome.com/rent/arena-green-apartment",
+        "https://www.mudah.my/malaysia/all?q=arena",
+        "https://www.carousell.com.my/property/for-sale/astaka/q-636/",
+        "https://www.scribd.com/document/479550293/1414744276140LPH-H1-2010-KualaLumpur-pdf",
+        "https://malaysiaproperty4u.com/projects/aliva-mount-austin/",
+        "https://malaysiaproperty4u.com/projects/the-astaka-one-bukit-senyum/"
+      ],
+      "contains_failed_open": false
+    },
+    {
+      "call": 2,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Arena Green\" \"studio\" sale rent"
+          },
+          {
+            "q": "\"Arena Green\" \"500\" \"1\" sqft"
+          },
+          {
+            "q": "\"Prima Midah\" \"rent\" \"2026\""
+          },
+          {
+            "q": "\"Ketumbar Heights\" \"sale\" \"2026\" \"rent\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.propertyguru.com.my/condo/ketumbar-heights-198",
+        "https://nilamap.com/property/ketumbar-heights-kuala-lumpur/",
+        "https://www.ibilik.com/locations/malaysia/kuala-lumpur/cheras/taman-midah",
+        "https://homes.cari.la/homes/apartment-for-rent-prima-midah",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/cl-prima-midah-heights-untuk-disewa-oleh-michelle-yeap-60472163",
+        "https://newprojek.com/buy?listing_type=rent&q=United+Point+Residence",
+        "https://alpha.edgeprop.my/agent/106153/fong-weng-ban",
+        "https://homes.cari.la/homes/for-rent-lrt-bukit-jalil-studio",
+        "https://myemail.constantcontact.com/April-2025--River-Park-Roundup.html?aid=zKTJnomwnyM&soid=1101438558541",
+        "https://list.my/subsales/kl/kuala-lumpur/mukim-kuala-lumpur/ketumbar-heights",
+        "https://www.edgeprop.my/listing/sale/3742117/ketumbar-heights-for-sale-by-tan-kian-leap",
+        "https://www.myrumahbaru.com/rental/nexus-taman-pertama-14",
+        "https://media.edgeprop.my/s3fs-public/pullout/20150814_DEP_010.pdf",
+        "https://ecconova-public.s3.eu-west-3.amazonaws.com/projects/198/documents/fr_terms.pdf",
+        "https://gobiernoabierto.navarra.es/sites/default/files/assets/files/propuestas-gobierno/2.3.%20Separata%20ICE%20Departamento%20Cultura%2C%20Deporte%20y%20Turismo%20-%20PSFV%20El%20Quinto%20Centenario%206_c.pdf",
+        "https://www.sanjoseca.gov/home/showpublisheddocument/74711/638654691652470000",
+        "https://www.boe.es/borme/dias/2026/08/19/pdfs/BORME-A-2026-159-99.pdf",
+        "https://sanjose.legistar.com/View.ashx?GUID=F6D1303E-41AC-4A6B-8618-47179B9A69A9&ID=15452988&M=F"
+      ],
+      "contains_failed_open": false
+    },
+    {
+      "call": 3,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Arena Green\" \"610\" studio sale rent"
+          },
+          {
+            "q": "\"Arena Green\" \"650\" \"sale\""
+          },
+          {
+            "q": "\"Damai Hillpark\" \"sale\" \"rent\" \"2026\""
+          },
+          {
+            "q": "\"Prima Midah Heights\" \"sale\" \"500000\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.propertyguru.com.my/condo/damai-hillpark-8612",
+        "https://www.iproperty.com.my/condo/damai-hillpark-8612",
+        "https://www.mudah.my/kuala-lumpur-bandar-damai-perdana/apartment-condominium-for-sale/damai-hillpark",
+        "https://list.my/subsales/selangor/hulu-langat/cheras/bandar-damai-perdana-damai-hillpark",
+        "https://www.mudah.my/malaysia/all?q=arena+green",
+        "https://nilamap.com/property/cloudtree-residence-petaling/",
+        "https://homes.cari.la/homes/bandar-damai-perdana-residence-swimming-pool",
+        "https://www.namshi.com/uae-en/buy-arena-men-s-allover-print-beach-boxers/ZFC79A226A1F6D3DDA2D0Z/p/",
+        "https://www.autocari.com.my/index.php?r=marketplace%2Findex",
+        "https://www.shermaineproperty.com/damai-hillpark-condominium-guide-guide.html",
+        "https://forum.lowyat.net/topic/2841321/all",
+        "https://idus.us.es/bitstreams/3a92efbc-d0e4-4d78-a555-977b7b439268/download",
+        "https://idus.us.es/server/api/core/bitstreams/3a92efbc-d0e4-4d78-a555-977b7b439268/content",
+        "https://irumah.co/bm/lrt-sri-petaling-line/listings/for-sale",
+        "https://homenewsrv.com/sites/default/files/HN20MG_.pdf",
+        "https://www.jerez.es/fileadmin/Documentos/OEP_2_EN_TRAMITE/OEP_2022/ARQUITECTO_TECNICO/BOP077_25-04-25.pdf",
+        "https://www.mgg.at/wp-content/uploads/2017/07/Pflegeanleitung_Rasen.pdf",
+        "https://assets.simpleviewinc.com/simpleview/image/upload/v1/clients/belfast/Conference_Guide_2025_August_13mb_1__ae0f64df-2854-4bc2-bd39-f4104dd7dba4.pdf"
+      ],
+      "contains_failed_open": false
+    },
+    {
+      "call": 4,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Astaka Heights\" \"1115\" \"1600\""
+          },
+          {
+            "q": "\"Damai Hillpark\" \"rent\" \"2026\" \"1600\""
+          },
+          {
+            "q": "\"Arena Green\" \"726\" \"rent\""
+          },
+          {
+            "q": "\"Prima Midah Heights\" sale 1464 2026"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://speedhome.com/blog/arena-green-apartment/",
+        "https://www.carousell.com.my/p/wtr-arena-green-condo-1141340961/",
+        "https://irumah.co/bukit-jalil/arena-green/listings/apartments/for-rent",
+        "https://irumah.co/taman-midah/prima-midah-heights",
+        "https://www.propertyguru.com.my/condo/prima-midah-heights-241",
+        "https://www.iproperty.com.my/property-for-rent/at-arena-green-163",
+        "https://www.starproperty.my/kuala-lumpur/bukit-jalil/arena-green/property-insights/900",
+        "https://www.iproperty.com.my/bm/properti/cheras/prima-midah-heights/sale-502196428/",
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/cheras/prima-midah-heights/non-landed/?orderby=address",
+        "https://auctionlist88.blogspot.com/2013/02/",
+        "https://irumah.co/bm/williamloo/listings/for-rent",
+        "https://www.propertyguru.com.my/property-for-sale/at-prima-midah-heights-241",
+        "https://www.pam.org.my/images/resources/references/propmarketreport/W.P.KUALA_LUMPUR.pdf",
+        "https://napic2.jpph.gov.my/storage/app/media//3-penerbitan/pasaran-harta-tanah/separuh-wilayah/2023/Wilayah-Tengah/Central%20Region%20Report%20H1%202023.pdf",
+        "https://pam.org.my/images/resources/references/propmarketreport/W.P.KUALA_LUMPUR.pdf",
+        "https://ekonomi.gov.my/sites/default/files/2024-03/Lampiran_Melengkap_Liputan_Pelaksanaan_PADU_31Mac2024_Taburan_Spatial_Mengikut_Negeri.pdf",
+        "https://govdocs.sinarproject.org/documents/state-governments/selangor/selangor-government-gazette/selgn14y2014.pdf",
+        "https://media.edgeprop.my/s3fs-public/pullout/20150724_EP_2009_lowres_locked.compressed.pdf"
+      ],
+      "contains_failed_open": false
+    },
+    {
+      "call": 5,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Damai Hillpark\" \"for rent\" \"1,600\""
+          },
+          {
+            "q": "\"Damai Hillpark\" \"for rent\" \"1,500\""
+          },
+          {
+            "q": "\"Astaka Heights\" \"for rent\" \"1,600\""
+          },
+          {
+            "q": "\"Arena Green\" \"726\" \"270,000\""
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.iproperty.com.my/bm/properti/cheras/prima-midah-heights/sale-502196428/"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/cl-damai-hillpark-untuk-disewa-oleh-regine-kong-43293569",
+        "https://homes.cari.la/homes/apartment-bukit-jalil-near-imu",
+        "https://homes.cari.la/homes/house-lot-swimming-pool-bukit-jalil",
+        "https://www.propertyguru.com.my/property-for-rent/at-damai-hillpark-8612",
+        "https://www.propertyguru.com.my/property-listing/astaka-heights-apartments-for-rent-by-paul-po-60138041",
+        "https://www.iproperty.com.my/property/cheras/damai-hillpark/rent-500096340/",
+        "https://homes.cari.la/homes/condominium-green-bukit-jalil",
+        "https://www.iproperty.com.my/rent/selangor/cheras/all-residential/?property=Damai+Hillpark&propertyId=479d97d0bfdd4c42b8ee3af476afb27f",
+        "https://homes.trovit.my/for-rent-damai-hillpark-cheras",
+        "https://speedhome.com/rent/damai-hillpark-bandar-damai-perdana",
+        "https://www.mudah.my/kuala-lumpur-bandar-damai-perdana/properties-for-rent/rent-from-1500-below-2000",
+        "https://homes.cari.la/homes?keyword=house-oug-lot-2-swimming-pool"
+      ],
+      "contains_failed_open": true
+    },
+    {
+      "call": 6,
+      "request": {
+        "search_query": [
+          {
+            "q": "site:uoa.com.my \"Prima Midah\" units"
+          },
+          {
+            "q": "\"Arena Green\" \"maintenance\" \"726\""
+          },
+          {
+            "q": "\"Astaka Heights\" \"1,115\" \"1,600\""
+          },
+          {
+            "q": "\"Prima Midah Heights\" \"502196428\""
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.mudah.my/kuala-lumpur-bandar-damai-perdana/apartment-condominium-for-sale/damai-hillpark"
+          },
+          {
+            "ref_id": "https://www.mudah.my/kuala-lumpur-ampang/apartment-condominium-for-sale/astaka-heights"
+          },
+          {
+            "ref_id": "https://www.mudah.my/malaysia/all?q=arena+green"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.iproperty.com.my/bm/properti/cheras/prima-midah-heights/sale-502196428/",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/astaka-heights-apartments-untuk-disewa-oleh-desmond-low-60088503",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/prima-midah-heights-untuk-dijual-oleh-ck-yee-502196428",
+        "https://homes.cari.la/homes/pandan-jaya-shopping-centre",
+        "https://www.propertyguru.com.my/property-listing/astaka-heights-apartments-for-rent-by-aames-chow-60105809",
+        "https://www.propertyguru.com.my/property-for-rent/at-astaka-heights-apartments-2020/partially-furnished",
+        "https://realestatemy.com/property/arena-green-bukit-jalil/",
+        "https://findaproperty-cl.blogspot.com/2011/08/",
+        "https://www.propertyguru.com.my/property-listing/arena-green-for-sale-by-jeremy-kung-500017828",
+        "https://www.carousell.com.my/p/arena-green-818sqf-bukit-jalil%F0%9F%94%91low-booking%F0%9F%94%91reno%F0%9F%8F%A1f-loan-tittle-ready-1449713437/",
+        "https://homes.cari.la/homes/corner-cheras",
+        "https://www.iproperty.com.my/apartment-for-rent/at-arena-green-163",
+        "https://uoa.com.my/wp-content/uploads/2021/03/UOA-LTD-Annual-Report-2020.pdf",
+        "https://uoa.com.my/wp-content/uploads/2020/06/uoa-ltd-annual-report-2018.pdf",
+        "https://www.mudah.my/kuala-lumpur-bandar-damai-perdana/apartment-condominium-for-sale/damai-hillpark",
+        "https://www.mudah.my/kuala-lumpur-ampang/apartment-condominium-for-sale/astaka-heights",
+        "https://www.mudah.my/malaysia/all?q=arena+green"
+      ],
+      "contains_failed_open": false
+    },
+    {
+      "call": 7,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Prima Midah Heights\" \"UOA\" \"480\""
+          },
+          {
+            "q": "\"Prima Midah Heights\" \"352\" \"UOA\""
+          },
+          {
+            "q": "\"Prima Midah Heights\" \"1460\" \"rent\" \"2000\""
+          },
+          {
+            "q": "\"Arena Green\" \"726\" \"maintenance fee\" \"2026\""
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn678view0",
+            "lineno": 45
+          },
+          {
+            "ref_id": "turn678view1",
+            "lineno": 43
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/apartment-for-rent/at-arena-green-163"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www2.durianproperty.com.my/property/taman_midah/prima_midah_heights",
+        "https://irumah.co/taman-midah/prima-midah-heights",
+        "https://www.edgeprop.my/condo/prima-midah-heights-11073",
+        "https://www.starproperty.my/kuala-lumpur/cheras/taman-midah/prima-midah-heights/property-insights/959",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/prima-midah-heights-untuk-disewa-oleh-elcoln-leong-501639018",
+        "https://www.aspecthuntley.com.au/asxdata/20080829/pdf/00875404.pdf",
+        "https://www.edgeprop.my/rent/kuala-lumpur/cheras/midah-heights/all-residential/4915",
+        "https://www.iproperty.com.my/bm/properti/bukit-jalil/arena-green/sale-502007711/",
+        "https://www.iproperty.com.my/property-for-sale/at-prima-midah-heights-241",
+        "https://www.iproperty.com.my/bm/hartanah-disewa/di-prima-midah-heights-241",
+        "https://forum.lowyat.net/topic/4257563/all",
+        "https://yesbroadband.blogspot.com/2011/03/",
+        "https://www.scribd.com/document/479232571/1414751078957jutajld23-pdf",
+        "https://www.mudah.my/kuala-lumpur-bandar-damai-perdana/apartment-condominium-for-sale/damai-hillpark",
+        "https://www.mudah.my/kuala-lumpur-ampang/apartment-condominium-for-sale/astaka-heights",
+        "https://www.iproperty.com.my/apartment-for-rent/at-arena-green-163"
+      ],
+      "contains_failed_open": false
+    },
+    {
+      "call": 8,
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.aspecthuntley.com.au/asxdata/20080829/pdf/00875404.pdf"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/bm/properti/bukit-jalil/arena-green/sale-502007711/"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/bm/hartanah-disewa/di-prima-midah-heights-241"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"Astaka Heights\" \"399000\" \"1115\" sale 2026"
+          },
+          {
+            "q": "\"Damai Hillpark\" \"395,000\" \"1020\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://homes.cari.la/homes/condo-pantai-kuala-lumpur",
+        "https://www.scribd.com/document/487314262/15881812786584-JadualHargadanSewaSelangor",
+        "https://www.scribd.com/document/693934580/Transaksi-Rumah-Selangor-2019",
+        "https://www.iproperty.com.my/bm/hartanah-disewa/di-prima-midah-heights-241"
+      ],
+      "contains_failed_open": true
+    },
+    {
+      "call": 9,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"502007711\" \"RM\""
+          },
+          {
+            "q": "\"Astaka Heights\" \"388,000\""
+          },
+          {
+            "q": "\"Damai Hillpark\" \"395000\""
+          },
+          {
+            "q": "\"Prima Midah Heights\" \"partially\" \"2,200\""
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn680view2",
+            "pattern": "2,200"
+          },
+          {
+            "ref_id": "turn679view2",
+            "pattern": "726"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.iproperty.com.my/property/cheras/prima-midah-heights/rent-102020918//",
+        "https://www.iproperty.com.my/property/cheras/prima-midah-heights/rent-102020980//",
+        "https://www.mudah.my/prima-midah-height-condominium-f-furnished-115785692.htm",
+        "https://www.iproperty.com.my/property/cheras/prima-midah-heights/rent-108133704/",
+        "https://www.iproperty.com.my/bm/properti/cheras/prima-midah-heights/rent-108133704//",
+        "https://www.iproperty.com.my/condo/astaka-heights-apartments-2020",
+        "https://www.mudah.my/astaka-heights-condo-1115sf-3br-freehold-pandan-perdana-kl-115433505.htm",
+        "https://www.propertyguru.com.my/apartment-for-sale/at-astaka-heights-apartments-2020",
+        "https://www.propertyguru.com.my/condo-for-rent/in-taman-midah-23uez/below-4251-sqft",
+        "https://www.propertyguru.com.my/bm/hartanah-dijual/di-astaka-heights-apartments-2020/diatas-1000-kps",
+        "https://www.iproperty.com.my/bm/pangsapuri-dijual/di-astaka-heights-apartments-2020/dengan-min-2-bilik-mandi",
+        "https://www.iproperty.com.my/property-for-sale/at-astaka-heights-apartments-2020",
+        "https://www.iproperty.com.my/bm/hartanah-disewa/di-prima-midah-heights-241",
+        "https://www.iproperty.com.my/apartment-for-rent/at-arena-green-163"
+      ],
+      "contains_failed_open": false
+    },
+    {
+      "call": 10,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Arena Green\" \"502007711\""
+          },
+          {
+            "q": "\"Damai Hillpark\" \"395\" \"1020\" \"sale\""
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn681view1",
+            "id": 29
+          },
+          {
+            "ref_id": "turn681view0",
+            "id": 25
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.propertyguru.com.my/property-listing/arena-green-for-sale-by-jenice-sh-goh-502007711",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/arena-green-untuk-dijual-oleh-jenice-sh-goh-502007711",
+        "https://www.iproperty.com.my/bm/properti/bukit-jalil/arena-green/sale-502007711/",
+        "https://arenaauctioneers.com/lang/malay/includes/app_ajax.php?newmasterlisting=true",
+        "https://arenaauctioneers.com/listing?city=SENAI&state=JOHOR",
+        "https://arenaauctioneers.com/listing?city=PETALING+JAYA&state=SELANGOR",
+        "https://arenaauctioneers.com/listing?state=JOHOR",
+        "https://arenaauctioneers.com/listing?city=SKUDAI&state=JOHOR",
+        "https://www.scribd.com/document/693934580/Transaksi-Rumah-Selangor-2019",
+        "https://arenaauctioneers.com/listing?city=KAJANG&state=SELANGOR",
+        "https://arenaauctioneers.com/includes/app_ajax.php?masterlisting=true",
+        "https://www.mudah.my/kk-tan-golden-vision-realty",
+        "https://www.iproperty.com.my/property/bukit-jalil/arena-green/rent-501915787/"
+      ],
+      "contains_failed_open": true
+    },
+    {
+      "call": 11,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Damai Hillpark\" \"for sale\" \"1020\" \"400,000\""
+          },
+          {
+            "q": "\"Damai Hillpark\" \"for sale\" \"395,000\" \"2\""
+          },
+          {
+            "q": "\"Astaka Heights\" \"maintenance fee\""
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "turn682view0",
+            "lineno": 64
+          },
+          {
+            "ref_id": "https://www.mudah.my/astaka-heights-condo-1115sf-3br-freehold-pandan-perdana-kl-115433505.htm"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.iproperty.com.my/property/cheras/sale-501073277/",
+        "https://www.mudah.my/damai-hillpark-condo-1020sqft-bandar-damai-perdana-below-market-115357152.htm",
+        "https://www.iproperty.com.my/bm/properti/cheras/sale-501073277/",
+        "https://www.propertyguru.com.my/property-listing/damai-hillpark-for-sale-by-chris-choo-501073277",
+        "https://homes.cari.la/homes/apartment-for-rent-alam-damai-cheras",
+        "https://homes.cari.la/homes/2-bedroom-apartment-cheras-gym",
+        "https://www.mudah.my/astaka-heights-shamelin-condo-for-sale-114252240.htm",
+        "https://www.mudah.my/kuala-lumpur/for-sale?q=alam+damai+bandar+damai+perdana+cheras",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/astaka-heights-apartments-untuk-dijual-oleh-yubi-leong-60051927",
+        "https://homes.cari.la/homes/apartment-for-rent-cheras-perdana",
+        "https://homes.cari.la/homes/condominium-nearby-gym-bandar-damai-perdana",
+        "https://www.mudah.my/malaysia/for-sale?q=alam+damai+bandar+damai+perdana+cheras",
+        "https://www.iproperty.com.my/property/bukit-jalil/arena-green/rent-501915787/"
+      ],
+      "contains_failed_open": true
+    },
+    {
+      "call": 12,
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Damai Hillpark\" \"Jimmy\" \"400,000\""
+          },
+          {
+            "q": "\"Damai Hillpark\" \"435,000\" \"Kenny\""
+          },
+          {
+            "q": "\"Prima Midah Heights\" \"00875404\""
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn682view0",
+            "pattern": "1,300"
+          },
+          {
+            "ref_id": "turn682view0",
+            "pattern": "Listed on"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.iproperty.com.my/bm/properti/cheras/sale-500357859/",
+        "https://homes.cari.la/homes/2-bedroom-apartment-cheras-gym",
+        "https://www.mudah.my/kuala-lumpur-bandar-damai-perdana/apartment-condominium-for-sale/3-bedrooms-with-parking-facility",
+        "https://homes.cari.la/homes/apartment-for-rent-alam-damai-cheras",
+        "https://homes.cari.la/homes/condominium-nearby-gym-bandar-damai-perdana",
+        "https://homes.cari.la/homes/bandar-damai-perdana-sale",
+        "https://www.iproperty.com.my/property-for-sale/in-bandar-damai-perdana-dbi56/with-min-1-bathroom",
+        "https://homes.cari.la/homes/apartment-for-rent-cheras-perdana",
+        "https://www.iproperty.com.my/property/cheras/sale-500265636/",
+        "https://homes.cari.la/homes/alam-damai-perdana-cheras",
+        "https://www.iproperty.com.my/service-residence-for-sale/in-bandar-damai-perdana-dbi56?freetext=Bandar%2520Damai%2520Perdana%252C%2520Cheras%252C%2520Selangor",
+        "https://www.iproperty.com.my/property-for-sale/near-madrasatul-iman-taman-desa-cheras-30317/above-750-sqft",
+        "https://www.iproperty.com.my/property/bukit-jalil/arena-green/rent-501915787/"
+      ],
+      "contains_failed_open": false
+    }
+  ]
+}
