@@ -1,6 +1,6 @@
 # Klang Valley underwriting - round 3 continuation
 
-Current navigation updated:8October2026. Programme status: **incomplete; B03-B07 bounded regional desk passes completed**. Latest [B07 final synthesis](b07-final/Regional_Synthesis.md), [audit](b07-final/Completion_Audit.md), [verification](b07-final/Verification_Report.md) and [checkpoint](b07-final/RESUME_AND_COMPLETION.md). Continue B08 A54-A61. Individual releases retain their own cutoffs; Working01/02 and earlier pause/checkpoints remain historical. Canonical repository [brandonkow/core](https://github.com/brandonkow/core); all new artifacts go to GitHub and existing local files remain untouched.
+Current navigation updated: 8 October 2026. Programme status: **incomplete; B03–B07 bounded regional desk passes completed; B08 in progress**. Latest [B08 Working01 regional work](b08-working-01/Regional_Working.md), [verification](b08-working-01/Verification_Report.md) and [checkpoint](b08-working-01/RESUME_AND_COMPLETION.md) add four conditional expressions across selected A54–A57 questions. No B08 catchment closes. [B07 final synthesis](b07-final/Regional_Synthesis.md) and [audit](b07-final/Completion_Audit.md) remain the latest completed regional batch. Earlier packets retain their own evidence cutoffs. Canonical repository [brandonkow/core](https://github.com/brandonkow/core); new artifacts go to GitHub and existing local files remain untouched.
 
 The 61-catchment map is complete as a scope register. Round 1's 14 cases and round 2's 50 cases provide conditional underwriting inputs, not 64 verified investment opportunities. The nine earlier Cheras expressions remain separate historical research. Having a disposition for each area did not complete the full regional research requirement. No Deploy is validated.
 
@@ -15,6 +15,8 @@ This continuation preserves the original programme scope, frozen consolidated Co
 5. [Case status overrides](Case_Status_Overrides.json) must accompany round 2 quantitative comparisons.
 
 ## Latest substantive work
+
+- [B08 Working01](b08-working-01/Regional_Working.md): four new [G0–G9 expressions](b08-working-01/Cases_G0_G9.md), nine preserved inputs, 35 curated sources, [192 financial evaluations](b08-working-01/Financial_Underwriting.md), 78 pair paths and 54 rent-grid cells. [Divergence and misses](b08-working-01/Divergence_and_Misses.md) distinguish conditional Arc income, MKH plan/record identity and Shaftsbury lower-price/access questions. All Defer; no regional closeout. Remaining work and next IDs are in the [checkpoint](b08-working-01/RESUME_AND_COMPLETION.md).
 
 - [B07 final integrated release](b07-final/Regional_Synthesis.md): eight catchments A46-A53,22conditional G0-G9 expressions,326evaluations,231joint cash paths and126rent-grid cells. [Evidence](b07-final/Evidence.json), [case integration](b07-final/Cases_G0_G9.md), [financials](b07-final/Financial_Underwriting.md), [divergence/misses](b07-final/Divergence_and_Misses.md) and [completion audit](b07-final/Completion_Audit.md). Bounded desk-complete Defer; no Deploy. ANYA lifecycle and several component/asking-evidence boundaries corrected; no Core changes.
 

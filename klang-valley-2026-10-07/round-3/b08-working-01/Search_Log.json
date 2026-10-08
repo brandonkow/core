@@ -1,0 +1,717 @@
+{
+  "version": "B08-W01-2026-10-08",
+  "queries": [
+    {
+      "sequence": 1,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "MKH Boulevard II Kajang 604 2 bedroom sale rent 2026"
+          },
+          {
+            "q": "Ascotte Boulevard Semenyih 785 sale rent 2026"
+          },
+          {
+            "q": "The Arc Cyberjaya 915 3 bedroom sale rent 2026"
+          },
+          {
+            "q": "Shaftsbury Putrajaya 686 1 bedroom sale rent 2026"
+          }
+        ]
+      },
+      "returned_urls": [
+        "https://www.propertyguru.com.my/condo/mkh-boulevard-ii-11693",
+        "https://www.mudah.my/selangor-semenyih/apartment-condominium-for-rent/ascotte-boulevard",
+        "https://www.iproperty.com.my/property/semenyih/ascotte-boulevard/rent-104735693/",
+        "https://www.edgeprop.my/listing/rental/2395845/selangor/kajang/nonlanded/condominium-apartment-servicedresidence/mkh-boulevard-2--kajang--selangor-serviced-apartment-for-rent--new-unit--partially-furnished-",
+        "https://www.mudah.my/property/properties-in-mkh-boulevard-ii-selangor",
+        "https://irumah.co/bandar-kajang/mkh-boulevard-2",
+        "https://t.me/s/PropMallmy?before=1563232",
+        "https://www.edgeprop.my/condo/mkh-boulevard-2-29628",
+        "https://www.propertyguru.com.my/property-for-rent/at-mkh-boulevard-ii-11693",
+        "https://www.mudah.my/the-arc-cyberjaya-for-rent-intake-november-2026-115832880.htm",
+        "https://www.iproperty.com.my/property-for-rent/at-the-arc-2085",
+        "https://www.myrumahbaru.com/rental/the-arc",
+        "https://www.mdbc.com.my/wp-content/uploads/2024/07/071824-MC-Discover-Rahim-n-Co.pdf",
+        "https://espritestateputrajaya.com/property/for-sale-shaftsbury-avenue-putrajaya-near-heriot-watt-alamanda/?pdf=3438",
+        "https://shaftsburyputrajaya.com.my/pdf/Retail_House_Rules.pdf",
+        "https://mkhberhad.com/wp-content/uploads/2025/08/K2P3_AKINA_Phase2_SalesKit-1.pdf",
+        "https://www.ambank.com.my/docs/ambankretaillibraries/auction-doc/property/onlineauctionlisting.pdf?sfvrsn=7a8f5418_75",
+        "https://www.reddit.com/r/Cyberjaya/comments/1tvinaf/anyone_need_a_single_seat_in_cyberjayam/",
+        "https://www.reddit.com/r/Cyberjaya/comments/1vo3zmq/mmu_accommodation/",
+        "https://www.reddit.com/r/malaysiauni/comments/1vo40ih/mmu_accommodation_cyberjaya/",
+        "https://www.reddit.com/r/malaysiauni/comments/1u0geqm/residency_near_mmu/",
+        "https://www.reddit.com/r/malaysiauni/comments/1w94gks/mmu_cyberjaya_accommodation/",
+        "https://en.wikipedia.org/wiki/Kajang_2",
+        "https://www.reddit.com/r/malaysiauni/comments/1ephdnp/i_cant_take_it_anymorelong_read/",
+        "https://www.reddit.com/r/MalaysianPF/comments/1v64xak/removed/"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 2,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "site.mkhberhad.com \"Boulevard II\" \"550\""
+          },
+          {
+            "q": "site.nottingham.edu.my Accommodation Fees 2026 Semenyih on campus"
+          },
+          {
+            "q": "site.mmu.edu.my accommodation Cyberjaya hostel rates 2026"
+          },
+          {
+            "q": "Shaftsbury Putrajaya official residences floor plan 686 2 bedrooms"
+          }
+        ]
+      },
+      "returned_urls": [
+        "https://www.mmu.edu.my/accommodation/",
+        "https://www.nottingham.edu.my/Study/Accommodation/On-campus-accommodation.aspx",
+        "https://www.nottingham.edu.my/Study/Documents/Accommodation/List-of-Service-Providers-for-Off-Campus-Accommodation-2025.pdf",
+        "https://shaftsburyputrajaya.com.my/EN/home",
+        "https://www.nottingham.edu.my/Study/Accommodation/Accommodation-FAQs.aspx",
+        "https://www.nottingham.edu.my/International/documents/INTERNATIONAL-STUDENT-GUIDE-1415.pdf",
+        "https://www.nottingham.edu.my/Study/Undergraduate-courses/Tuition-fees.aspx",
+        "https://www.mmu.edu.my/wp-content/uploads/2021/06/Accommodation_Cyberjaya_Melaka_On-Campus_2021_FO-updated.pdf",
+        "https://www.nottingham.edu.my/Study/Fees-and-Scholarships/Fees-and-Scholarships.aspx",
+        "https://epay.nottingham.edu.my/payments?category=Library",
+        "https://online.mmu.edu.my/storage/STAD_CYB/bulletin/b20212_Memo_ReApplication%20Result_2520%20%28Bulletin%20Board%29.pdf",
+        "https://cyberjaya.edu.my/campus-life/student-accommodation",
+        "https://www.scribd.com/document/1024608796/New-Students-Guide-March-2026-1",
+        "https://cdn.eduadvisor.my/brochures/EduAdvisor_MMU_Cyberjaya_University_Guide.pdf",
+        "https://creative.mmu.edu.my/wp-content/uploads/2022/10/i651_Academic-Handbook-2021_2022-Session.pdf",
+        "https://www.btstetris.com/",
+        "https://speedhome.com/blog/my/rumah-sewa-cyberjaya-bm/",
+        "https://studentliving.nottingham.ac.uk/story/34931241/paying-your-accommodation-fees",
+        "https://www.reddit.com/r/malaysiauni/comments/1ux8ibk/joining_mmu_cs_in_nov_seeking_fellow_students_and/",
+        "https://www.reddit.com/r/Cyberjaya/comments/1vo3zmq/mmu_accommodation/",
+        "https://www.reddit.com/r/malaysiauni/comments/1wke9xm/where_i_can_find_the_best_and_most_affordable/",
+        "https://www.reddit.com/r/malaysiauni/comments/1t3mev4/international_pg_student_cybersecurity_looking_to/",
+        "https://www.reddit.com/r/malaysiauni/comments/1w94gks/mmu_cyberjaya_accommodation/",
+        "https://www.reddit.com/r/malaysiauni/comments/1vo40ih/mmu_accommodation_cyberjaya/",
+        "https://www.reddit.com/r/mmmut_peeps/comments/1v4g98n/hostel_fee/",
+        "https://www.reddit.com/r/mmmut_peeps/comments/1v64cgn/how_to_select_hostel_and_pay_fee/",
+        "https://www.reddit.com/r/malaysiauni/comments/1cdi7zs",
+        "https://www.reddit.com/r/malaysiauni/comments/1u0geqm/residency_near_mmu/",
+        "https://www.reddit.com/r/malaysiauni/comments/1kdw374/help_looking_for_accommodation_near_mmu_cyberjaya/",
+        "https://www.reddit.com/r/malaysiauni/comments/1kzs7i3",
+        "https://en.wikipedia.org/wiki/University_of_Nottingham"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 3,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"MKH Boulevard II\" \"550\" \"sale\" \"2026\""
+          },
+          {
+            "q": "\"MKH Boulevard II\" \"550\" \"rent\" \"1600\""
+          },
+          {
+            "q": "\"Ascotte Boulevard\" \"860\" \"sale\" \"2026\""
+          },
+          {
+            "q": "\"The Arc\" Cyberjaya \"915\" \"sale\" \"2026\""
+          }
+        ]
+      },
+      "returned_urls": [
+        "https://www.mudah.my/2-room-mkh-boulevard-2-condo-jalan-bukit-taman-bukit-mewah-kajang-115828550.htm",
+        "https://www.mudah.my/selangor-semenyih/apartment-condominium-for-sale/ascotte-boulevard",
+        "https://www.propertyguru.com.my/condo-for-sale/at-ascotte-boulevard-6785/above-500-sqft",
+        "https://www.propertyguru.com.my/property-for-sale/at-mkh-boulevard-ii-11693",
+        "https://irumah.co/cyberjaya/the-arc",
+        "https://www.propertyguru.com.my/apartment-condo-service-residence-for-sale/at-mkh-boulevard-ii-11693",
+        "https://www.iproperty.com.my/property/kajang/mkh-boulevard-ii/sale-200300899//",
+        "https://alpha.edgeprop.my/listing/sale/2958207/selangor/kajang/nonlanded/condominium-apartment-servicedresidence/mkh-boulevard-2-jaln-bukit-tmn-bukit-mewah-kajang",
+        "https://mail.www2.durianproperty.com.my/classified/3296432/Ascotte-Boulevard-Condo-for-sale-by-Even",
+        "https://www2.durianproperty.com.my/buy/search/haul_54302.html?buy-cat=all&page=282&sortby=adz",
+        "https://www.mudah.my/malaysia/properties-all?adsby=true&q=ascotte+boulevard",
+        "https://www.mudah.my/selangor-cyberjaya/apartment-condominium-for-sale/cyberia-smarthomes?property_type_id=1"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 4,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "MKH Boulevard II site:mkhberhad.com"
+          },
+          {
+            "q": "\"MKH Boulevard II\" \"550\" \"1 bedroom\" rent"
+          },
+          {
+            "q": "\"The Arc\" \"913\" \"298000\" Cyberjaya sale"
+          },
+          {
+            "q": "\"Shaftsbury\" \"686\" \"sale\" \"rent\" Putrajaya 2026"
+          }
+        ]
+      },
+      "returned_urls": [
+        "https://mkhberhad.com/",
+        "https://mkhberhad.com/completed-projects/",
+        "https://www.mudah.my/rent-boulevard-2-kajang-mkh-beside-mrt-kajang-114604452.htm",
+        "https://mkhberhad.com/2019/01/15/mkh-boulevard-2/",
+        "https://mkhberhad.com/wp-content/uploads/2019/09/MKH_Revised_7.qxp_Layout-1.pdf",
+        "https://mkhberhad.com/wp-content/uploads/2016/07/eSalesKit-MKH-Boulevard-II-22022017-1.pdf",
+        "https://irumah.co/bandar-kajang/mkh-boulevard-2",
+        "https://mkhberhad.com/wp-content/uploads/2022/01/Sustainability-Report-pg29-40.pdf",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/mkh-boulevard-ii-untuk-disewa-oleh-tj-yoo-502131067",
+        "https://www.iproperty.com.my/service-residence-for-rent/at-mkh-boulevard-ii-11693/with-1-bedroom",
+        "https://mkhberhad.com/wp-content/uploads/2015/09/MKH-Catalogue-2015-Feb-edition.pdf",
+        "https://www.edgeprop.my/listing/sale/4034197/shaftsbury-avenue-putrajaya-for-sale-by-fitri-azmi",
+        "https://www.iproperty.com.my/property/putrajaya/shaftsbury-putrajaya/rent-200409020/",
+        "https://www.cozyhomes.my/property-details/2048/mkh-boulevard-ii/",
+        "https://www.mudah.my/property/properties-in-shaftsbury-avenue-selangor",
+        "https://nuprop.my/selangor/kajang/mkh-boulevard-kajang-for-sale"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 5,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.mudah.my/the-arc-cyberjaya-for-rent-intake-november-2026-115832880.htm"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-for-sale/at-the-arc-2085"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/property/putrajaya/shaftsbury-putrajaya/rent-200409020/"
+          },
+          {
+            "ref_id": "https://mkhberhad.com/wp-content/uploads/2016/07/eSalesKit-MKH-Boulevard-II-22022017-1.pdf"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.mudah.my/the-arc-cyberjaya-for-rent-intake-november-2026-115832880.htm",
+        "https://www.propertyguru.com.my/property-for-sale/at-the-arc-2085",
+        "https://www.iproperty.com.my/property/putrajaya/shaftsbury-putrajaya/rent-200409020/",
+        "https://mkhberhad.com/wp-content/uploads/2016/07/eSalesKit-MKH-Boulevard-II-22022017-1.pdf"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 6,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn625view3"
+          },
+          {
+            "ref_id": "turn625view2",
+            "lineno": 90
+          },
+          {
+            "ref_id": "https://www.mmu.edu.my/accommodation/"
+          },
+          {
+            "ref_id": "https://shaftsburyputrajaya.com.my/EN/home"
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn625view1",
+            "id": 54
+          },
+          {
+            "ref_id": "turn625view1",
+            "id": 56
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://mkhberhad.com/wp-content/uploads/2016/07/eSalesKit-MKH-Boulevard-II-22022017-1.pdf",
+        "https://www.iproperty.com.my/property/putrajaya/shaftsbury-putrajaya/rent-200409020/",
+        "https://www.mmu.edu.my/accommodation/",
+        "https://shaftsburyputrajaya.com.my/EN/home"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 7,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://mkhberhad.com/"
+          },
+          {
+            "ref_id": "turn626view3",
+            "lineno": 35
+          }
+        ],
+        "click": [
+          {
+            "ref_id": "turn626view2",
+            "id": 108
+          },
+          {
+            "ref_id": "turn626view2",
+            "id": 110
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://mkhberhad.com/",
+        "https://shaftsburyputrajaya.com.my/EN/home",
+        "https://www.mmu.edu.my/wp-content/uploads/2023/10/onCampusCyberjaya-300x81.png",
+        "https://www.mmu.edu.my/wp-content/uploads/2018/03/Off-Campus-The-Arc-300x224.jpg"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 8,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"MKH Boulevard II\" \"270,000\" \"550\" \"2026\" \"furnished\""
+          },
+          {
+            "q": "\"The Arc\" \"WL Wan\" \"220,000\""
+          },
+          {
+            "q": "\"Ascotte Boulevard\" \"Nichole Liew\" \"218,000\""
+          },
+          {
+            "q": "\"Shaftsbury Putrajaya\" parking \"monthly\" management"
+          }
+        ]
+      },
+      "returned_urls": [
+        "https://www.propertyguru.com.my/property-listing/ascotte-boulevard-for-sale-by-lucus-goh-60284661",
+        "https://www.propertyguru.com.my/property-listing/the-arc-for-sale-by-wl-wan-500813136",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/mkh-boulevard-ii-untuk-dijual-oleh-kingsley-phang-501391957",
+        "https://www.iproperty.com.my/bm/properti/cyberjaya/the-arc/sale-500813136/",
+        "https://www.iproperty.com.my/bm/servis-apartment-dijual/di-the-arc-2085/diatas-500-kps",
+        "https://www.iproperty.com.my/property-for-sale/near-faculty-of-computing-and-informatics-44024/priced-under-300k-rm",
+        "https://shaftsburyputrajaya.com.my/pdf/Retail_House_Rules.pdf",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/mkh-boulevard-ii-untuk-dijual-oleh-kingsley-phang-500940316",
+        "https://www.propertyguru.com.my/property-listing/mkh-boulevard-ii-for-sale-by-james-chong-501281171",
+        "https://edu.pioneer4ss.com/wp-content/uploads/2024/05/accommodation-brochure_organized.pdf",
+        "https://hw.ac.uk/malaysia/campus/transport",
+        "https://www.mudah.my/shaftsbury-avenue-alamanda-2bed-1bath-115528297.htm",
+        "https://www.iproperty.com.my/service-residence-for-sale/near-sekolah-kebangsaan-kajang-36934/above-500-sqft",
+        "https://www.hw.ac.uk/malaysia/doc/HWUM_StudentAccommodationBrochure_2024.pdf",
+        "https://www.iproperty.com.my/condo/serviced-residence-shaftsbury-putrajaya-8966",
+        "https://www.hw.ac.uk/document-library/student-accommodation-brochure.pdf",
+        "https://www.phbam.com.my/assets/pdf/download/archived-documents/AHB-AR-300919-en-bm-Compressed.pdf",
+        "https://www.rubberex.com.my/wp-content/uploads/2021/12/EGM-2021-Circular-Part-1.pdf"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 9,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"The Arc\" Cyberjaya Andaman \"guaranteed\" rental return"
+          },
+          {
+            "q": "\"Ascotte Boulevard\" \"897\" \"250,000\""
+          },
+          {
+            "q": "\"Ascotte Boulevard\" \"897\" \"800\" \"2026\""
+          },
+          {
+            "q": "site.mkhberhad.com \"Nexus\" \"2025\" \"completed\" Kajang"
+          }
+        ]
+      },
+      "returned_urls": [
+        "https://www.starproperty.my/selangor/cyberjaya/the-arc/property-insights/2408",
+        "https://property.malaysiamostwanted.com/projects/the-arc",
+        "https://financialfilings.com/filings/mkh-berhad/annual-report/2026/49105986/",
+        "https://forum.lowyat.net/topic/1753445/all",
+        "https://www.edgeprop.my/content/1271529/unit-owners-cyberjaya-property-sue-developer-over-alleged-payment-defaults",
+        "https://theedgemalaysia.com/article/m101-could-give-meda-inc-new-lease-life",
+        "https://www.theborneopost.com/2011/06/25/robust-demand-seen-for-arccyberjayaers/",
+        "https://www.penangpropertytalk.com/2025/09/guaranteed-rental-returns-grr-the-illusion-and-the-reality/",
+        "https://cdn1.i3investor.com/my/files/st88k/5040_MERIDIAN/annual/2020-06-30/5040_MERIDIAN_AnnualReport_2020-06-30_Meridian-Annual%20Report%202020%20%28FINAL%29%2030.10.20%20%28Bursa%29_-289161849.pdf",
+        "https://www.reddit.com/r/malaysia/comments/14240uh",
+        "https://www.meridianberhad.com.my/_files/ugd/a1c5d4_bacbe73f4619473eabd4466764075b56.pdf",
+        "https://www.meridianberhad.com.my/_files/ugd/a1c5d4_7af6414eb0d74933940c9716f4ce9238.pdf",
+        "https://rumahsewa4u.blogspot.com/2012/05/?m=0",
+        "https://www.justanswer.com/law/voeq0-strata-title-fees-maju-puncak-bumi-status.html",
+        "https://theedgemalaysia.com/node/781498",
+        "https://irumah.co/bandar-kajang/nexus",
+        "https://www.mdbc.com.my/wp-content/uploads/2024/07/071824-MC-Discover-Rahim-n-Co.pdf",
+        "https://www.fsa.usda.gov/Internet/FSA_File/1arcplc4.pdf",
+        "https://hotcopper.com.au/data/announcements/ASX/6A1284662_NXM.pdf"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 10,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"Ascotte Boulevard\" \"897\" \"250000\" sale"
+          },
+          {
+            "q": "\"Ascotte Boulevard\" \"860\" \"218000\" Nichole"
+          },
+          {
+            "q": "site.meridianberhad.com.my \"Arc\" \"2024\" rental"
+          },
+          {
+            "q": "site.mkhberhad.com \"Annual Report 2025\""
+          }
+        ],
+        "open": [
+          {
+            "ref_id": "https://www.btstetris.com/"
+          },
+          {
+            "ref_id": "https://www.hw.ac.uk/document-library/student-accommodation-brochure.pdf"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://financialfilings.com/filings/mkh-berhad/annual-report/2026/49105986/",
+        "https://www.insage.com.my/interactiveAR/MKH/interactiveAR2025/",
+        "https://financialfilings.com/filings/mkh-berhad/annual-report/2026/49105989/",
+        "https://financialfilings.com/filings/mkh-berhad/annual-report/2026/49105990/",
+        "https://www.scribd.com/document/787477349/Estimate-00181-Salah-Eldin-C-26-09-R1-2",
+        "https://list.my/subsales/selangor/gombak/bandar-hulu-kelang/arc-ampang-ukay?group_by_size=false",
+        "https://alrajhi-capital.sa/-/media/Feature/AlRajhiCapital/PDFs/About-us-Reports/ARC---Financial-Statements/2024/ARC__FS_2024__ENG_.pdf",
+        "https://www.jccal.org/Sites/Jefferson_County/Documents/Board%20of%20Equalization/2024%20Final%20Values%20Results%20-%20September%2011-%202024.pdf",
+        "https://barchart.websol.barchart.com/?accession_num=0001305168-24-000036&cik=1305168&lang=en&module=secFilings&override=1&symbol=ARC&type=CONVPDF",
+        "https://www.insage.com.my/interactiveAR/MKH/interactiveAR2025/136/",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/liberty-arc-untuk-disewa-oleh-maya-myra-60049213",
+        "https://www.robbinsville.net/Documents/Departments/Finance/2025%20Adopted%20Budget.pdf",
+        "https://ziba-property.com/Malaysia/liberty-arc-ampang-liberty-arc-ampang-jln-ukay-persiaran-ampang-ukay-68000-ampang-jaya-selangor-malaysia-5849",
+        "https://www.insage.com.my/interactiveAR/MKH/interactiveAR2025/200/",
+        "https://www.insage.com.my/ir/cmn/trps02/ar.aspx?Symbol=6114",
+        "https://www.klsescreener.com/v2/announcements/view/10999141",
+        "https://pub-burnaby.escribemeetings.com/filestream.ashx?DocumentId=78328",
+        "https://www.easthallpark.org.uk/data/2025_05_28_ARC_2024_25___Easthal_Park_HA_%28PDF%29_2025_08_18_14_57_45.pdf",
+        "https://www.reddit.com/r/malaysia/comments/14240uh",
+        "https://arxiv.org/abs/2407.19612",
+        "https://www.btstetris.com/",
+        "https://www.hw.ac.uk/document-library/student-accommodation-brochure.pdf"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 11,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.mudah.my/selangor-semenyih/apartment-condominium-for-sale/ascotte-boulevard"
+          },
+          {
+            "ref_id": "https://www.meridianberhad.com.my/_files/ugd/a1c5d4_bacbe73f4619473eabd4466764075b56.pdf"
+          },
+          {
+            "ref_id": "https://www.insage.com.my/interactiveAR/MKH/interactiveAR2025/40/"
+          },
+          {
+            "ref_id": "https://www.insage.com.my/interactiveAR/MKH/interactiveAR2025/42/"
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn630view0",
+            "pattern": "2026"
+          },
+          {
+            "ref_id": "turn630view1",
+            "pattern": "SHAFTSBURY"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.mudah.my/selangor-semenyih/apartment-condominium-for-sale/ascotte-boulevard",
+        "https://www.meridianberhad.com.my/_files/ugd/a1c5d4_bacbe73f4619473eabd4466764075b56.pdf",
+        "https://www.insage.com.my/interactiveAR/MKH/interactiveAR2025/40/",
+        "https://www.insage.com.my/interactiveAR/MKH/interactiveAR2025/42/",
+        "https://www.btstetris.com/",
+        "https://www.hw.ac.uk/document-library/student-accommodation-brochure.pdf"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 12,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "turn631view0",
+            "lineno": 40
+          },
+          {
+            "ref_id": "turn631view2"
+          },
+          {
+            "ref_id": "turn631view3"
+          },
+          {
+            "ref_id": "https://www.propertyguru.com.my/bm/senarai-hartanah/mkh-boulevard-ii-untuk-dijual-oleh-kingsley-phang-501391957"
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn631view1",
+            "pattern": "Guaranteed Rental"
+          },
+          {
+            "ref_id": "turn631view1",
+            "pattern": "2015"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.mudah.my/selangor-semenyih/apartment-condominium-for-sale/ascotte-boulevard",
+        "https://www.insage.com.my/interactiveAR/MKH/interactiveAR2025/40/",
+        "https://www.insage.com.my/interactiveAR/MKH/interactiveAR2025/42/",
+        "https://www.meridianberhad.com.my/_files/ugd/a1c5d4_bacbe73f4619473eabd4466764075b56.pdf"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 13,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "Ascotte Boulevard 860 \"218,000\" sale"
+          },
+          {
+            "q": "Ascotte Boulevard \"860\" \"900\" rent 2026"
+          },
+          {
+            "q": "site.brickz.my \"MKH BOULEVARD\" Kajang"
+          },
+          {
+            "q": "site.brickz.my \"THE ARC\" Cyberjaya"
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.brickz.my/transactions/commercial/selangor/kajang/mkh-boulevard-2/non-landed/",
+        "https://www.propertyguru.com.my/property-listing/ascotte-boulevard-for-sale-by-waliyuddin-abdul-wahab-42734422",
+        "https://speedhome.com/blog/the-arc/",
+        "https://mkhberhad.com/2019/01/15/mkh-boulevard-2/",
+        "https://www.mudah.my/property/properties-in-mkh-boulevard-selangor",
+        "https://mkhberhad.com/completed-projects/",
+        "https://www.propertyguru.com.my/condo/mkh-boulevard-6665",
+        "https://postcode.my/selangor-kajang-mkh-boulevard-43000.html",
+        "https://financialfilings.com/filings/mkh-berhad/annual-report/2026/49105986/",
+        "https://speedhome.com/blog/zh/the-arc/",
+        "https://cdn1.i3investor.com/my/files/st88k/5040_MERIDIAN/annual/2020-06-30/5040_MERIDIAN_AnnualReport_2020-06-30_Meridian-Annual%20Report%202020%20%28FINAL%29%2030.10.20%20%28Bursa%29_-289161849.pdf",
+        "https://mkhberhad.com/",
+        "https://www2.durianproperty.com.my/property/kajang/mkh_boulevard",
+        "https://cdn1.i3investor.com/my/files/st88k/6114_MKH/annual/2024-09-30/6114_MKH_AnnualReport_2024-09-30_MKHBerhad_AnnualReport2024_Part4_-621306530.pdf",
+        "https://mkhberhad.com/wp-content/uploads/2015/09/MKH-Catalogue-2015-Feb-edition.pdf",
+        "https://www.mpkj.gov.my/images/pengumuman/SENARAI_PREMIS_MAKANAN_GRED_A_BAGI_BULAN_OGOS_2025.pdf",
+        "https://media.edgeprop.my/s3fs-public/pullout/20200821_ep3131.pdf",
+        "https://jlj.com.my/wp-content/uploads/2015/12/2011-2-February.pdf"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 14,
+      "date": "2026-10-08",
+      "request": {
+        "search_query": [
+          {
+            "q": "\"ASCOTTE BOULEVARD\" \"860\" \"900\" \"Nick\""
+          },
+          {
+            "q": "\"ASCOTTE BOULEVARD\" transactions",
+            "domains": [
+              "brickz.my"
+            ]
+          },
+          {
+            "q": "\"THE ARC\" \"CYBERJAYA\" transactions",
+            "domains": [
+              "brickz.my"
+            ]
+          },
+          {
+            "q": "\"SHAFTSBURY\" \"PUTRAJAYA\" transactions",
+            "domains": [
+              "brickz.my"
+            ]
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.brickz.my/transactions/residential/selangor/semenyih/ascotte-boulevard/non-landed/",
+        "https://www.brickz.my/transactions/residential/selangor/semenyih/non-landed/service-residence/",
+        "https://www.brickz.my/transactions/commercial/selangor/semenyih/ascotte-boulevard/non-landed/",
+        "https://www.brickz.my/transactions/residential/selangor/semenyih/ascotte-boulevard/non-landed/?orderby=lot_size&range=2015+Jul-",
+        "https://www.iproperty.com.my/property-for-rent/p/ascotte-boulevard",
+        "https://www.propertyguru.com.my/property-listing/ascotte-boulevard-for-rent-by-jacqueline-san-60340259",
+        "https://www.brickz.my/transactions/residential/selangor/cyberjaya/the-arc/non-landed/",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/ascotte-boulevard-untuk-disewa-oleh-kenny-yew-60048761",
+        "https://www.iproperty.com.my/property/semenyih/ascotte-boulevard/cl-rent-105862421/",
+        "https://www.brickz.my/transactions/residential/selangor/cyberjaya/the-arc/non-landed/view/map/",
+        "https://www.propertyguru.com.my/property-listing/ascotte-boulevard-for-rent-by-steven-tay-43156309",
+        "https://www.iproperty.com.my/property/semenyih/ascotte-boulevard/rent-500334663/"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 15,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.propertyguru.com.my/condo-for-sale/at-ascotte-boulevard-6785/above-500-sqft"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/property-for-rent/p/ascotte-boulevard"
+          },
+          {
+            "ref_id": "https://www.hw.ac.uk/malaysia/campus/transport"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"SHAFTSBURY PUTRAJAYA\" \"Transactions\""
+          },
+          {
+            "q": "\"MKH BOULEVARD II\" \"brickz\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.brickz.my/transactions/residential/putrajaya/putrajaya/putrajaya-presint-1/non-landed/",
+        "https://www.propertyguru.com.my/property-for-sale/at-retail-shop-shaftsbury-putrajaya-23633?_freetextDisplay=Retail+Shop+%40+Shaftsbury+Putrajaya&isCommercial=true&listingType=sale&locale=en&propertyId=23633&propertyNanoId=vgtpg8&propertySlug=retail-shop-shaftsbury-putrajaya&slug=at-retail-shop-shaftsbury-putrajaya-23633",
+        "https://www.brickz.my/transactions/commercial/putrajaya/putrajaya/putrajaya-presint-1/non-landed/",
+        "https://www.shaftsburyputrajaya.com.my/EN/privacy-notice",
+        "https://www.iproperty.com.my/condo/serviced-residence-shaftsbury-putrajaya-8966",
+        "https://fuchsia-shark-2flf.squarespace.com/news/carsome-supports-putrajayas-language-programme-for-youths-with-year-long-commitment",
+        "https://www.propertyguru.com.my/condo/retail-shop-shaftsbury-putrajaya-23633",
+        "https://www.propertygenie.com.my/project/shaftsbury-putrajaya-by-ikhasas-sdn-bhd-ktBFqUDzFK6ntNBunsLyC6",
+        "https://www.propertyguru.com.my/bm/kondo/serviced-residence-shaftsbury-putrajaya-8966",
+        "https://www.propertyguru.com.my/property-listing/serviced-residence-shaftsbury-putrajaya-for-sale-by-sariza-hartanah-502138231",
+        "https://my.linkedin.com/jobs/view/sales-associate-at-quinnzite-crystals-jewellery-by-dr-olip-4451607226",
+        "https://alpha.edgeprop.my/listing/sale/3559356/dwiputra-residences-for-sale-by-azizirrahim-yeoproperty",
+        "https://content.knightfrank.com/research/179/documents/en/malaysia-real-estate-highlights-1h-2019-6532.pdf",
+        "https://www.pjh.com.my/wp-content/uploads/2019/11/50.-9-Sept-2019.pdf",
+        "https://www.hektarreit.com/pdf/announcements/hektar---ppp--announcement---final-151121.pdf",
+        "https://www.hw.ac.uk/malaysia/campus/transport"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 16,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-listing/serviced-residence-shaftsbury-putrajaya-for-sale-by-sariza-hartanah-502138231"
+          },
+          {
+            "ref_id": "https://www.iproperty.com.my/condo/serviced-residence-shaftsbury-putrajaya-8966"
+          },
+          {
+            "ref_id": "https://www.brickz.my/transactions/residential/putrajaya/putrajaya/putrajaya-presint-1/non-landed/"
+          }
+        ],
+        "find": [
+          {
+            "ref_id": "turn635view2",
+            "pattern": "Shaftsbury"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"MKH BOULEVARD 2\" \"RESIDENTIAL\" \"transactions\""
+          },
+          {
+            "q": "\"Shaftsbury\" \"368,000\" \"686\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.brickz.my/transactions/residential/selangor/kajang/mkh-boulevard-2/non-landed/service-residence/?range=2016+Dec-",
+        "https://www.propertyguru.com.my/property-listing/serviced-residence-shaftsbury-putrajaya-for-sale-by-rick-lum-501547761",
+        "https://www.iproperty.com.my/bm/servis-apartment-dijual/sekitar-presint-1-n76a6/harga-diatas-rm-200k",
+        "https://www.brickz.my/transactions/residential/selangor/kajang/non-landed/service-residence/",
+        "https://www.iproperty.com.my/service-residence-for-sale/near-sekolah-kebangsaan-putrajaya-presint-161-39055/with-2-bedrooms",
+        "https://www.brickz.my/transactions/residential/selangor/non-landed/service-residence/page/12/",
+        "https://www.propertyguru.com.my/property-for-sale/in-presint-1-n76a6/with-2-bedrooms",
+        "https://www.brickz.my/transactions/residential/selangor/kajang/page/7/",
+        "https://www.iproperty.com.my/service-residence-for-sale/in-presint-1-n76a6/priced-under-500k-rm",
+        "https://www.propertyguru.com.my/property-for-sale/p/putrajaya-alamanda",
+        "https://www.propertyguru.com.my/property-for-sale/in-presint-1-n76a6/below-750-sqft",
+        "https://www.propertyguru.com.my/condo/mkh-boulevard-ii-11693",
+        "https://www.iproperty.com.my/condo/serviced-residence-shaftsbury-putrajaya-8966",
+        "https://www.hw.ac.uk/malaysia/campus/transport"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    },
+    {
+      "sequence": 17,
+      "date": "2026-10-08",
+      "request": {
+        "open": [
+          {
+            "ref_id": "https://www.propertyguru.com.my/property-listing/serviced-residence-shaftsbury-putrajaya-for-sale-by-rick-lum-501547761"
+          },
+          {
+            "ref_id": "https://www.brickz.my/transactions/residential/selangor/kajang/mkh-boulevard-2/non-landed/service-residence/?range=2016+Dec-"
+          }
+        ],
+        "search_query": [
+          {
+            "q": "\"Ascotte Boulevard\" \"218,000\" \"Nichole\" \"furnished\""
+          },
+          {
+            "q": "\"Shaftsbury\" \"501547761\""
+          }
+        ],
+        "response_length": "long"
+      },
+      "returned_urls": [
+        "https://www.propertyguru.com.my/property-listing/serviced-residence-shaftsbury-putrajaya-for-sale-by-rick-lum-501547761",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/ascotte-boulevard-untuk-dijual-oleh-nichole-liew-42229724",
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/serviced-residence-shaftsbury-putrajaya-untuk-dijual-oleh-rick-lum-501547761",
+        "https://www.iproperty.com.my/property/putrajaya/serviced-residence-shaftsbury-putrajaya/sale-501547761/",
+        "https://www.iproperty.com.my/bm/properti/putrajaya/serviced-residence-shaftsbury-putrajaya/sale-501547761/"
+      ],
+      "boundary": "Web tool output, not a listing census; only ledger-curated observations support conclusions."
+    }
+  ],
+  "access_corrections": [
+    "Ascotte sale/rent category opens failed or returned a generic shell; old indexed details retained with dates.",
+    "PG individual clicks/opens for selected MKH/Arc/Shaftsbury sometimes failed; these observations are explicitly index-based.",
+    "Brickz direct opens failed for MKH and Shaftsbury; indexed visible rows only, no paid/unmasked record access.",
+    "2017 MKH kit does not establish550sf original plan;604 was unit count, not unit area.",
+    "MMU rates in images were not verified and were not used.",
+    "Shaftsbury686sf is marketed2BR here; other portals label1BR. Original plan remains a hold."
+  ]
+}

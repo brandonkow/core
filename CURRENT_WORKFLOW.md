@@ -4,7 +4,7 @@ Updated8October2026. Canonical project repository: https://github.com/brandonkow
 
 ## Current status
 
-Map verification is recorded separately in visualization/; this underwriting release preserves the latest map files. Underwriting has resumed under the user's active all-area goal. [B07 final integrated release](klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md) closes the bounded desk pass for A46-A53 with Defer. Read its [substantive audit](klang-valley-2026-10-07/round-3/b07-final/Completion_Audit.md) and [continuation](klang-valley-2026-10-07/round-3/b07-final/RESUME_AND_COMPLETION.md). Earlier pause records and Working01/02 remain historical and immutable.
+Map verification is recorded separately in visualization/; this underwriting release preserves the latest map files. Underwriting continues under the user's active all-area goal. [B08 Working01](klang-valley-2026-10-07/round-3/b08-working-01/Regional_Working.md) deepens selected A54–A57 questions with R351–R354; nine inherited inputs are unchanged. Thirteen conditional cases yield 192 evaluations, 78 pair paths and 54 rent-grid cells. All G0 STOP / G9 Defer; no B08 catchment closes. Read the [verification](klang-valley-2026-10-07/round-3/b08-working-01/Verification_Report.md) and [continuation](klang-valley-2026-10-07/round-3/b08-working-01/RESUME_AND_COMPLETION.md). [B07 final](klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md) remains the latest completed regional batch. All prior releases/checkpoints remain immutable.
 
 B03-B07:36bounded desk-complete catchments. B01/B02:17enhanced catchments awaiting final substantive audit. B08:8catchments requiring comparable deepening.25of61remain without final acceptance. Cross-region comparison, full-programme portfolio stress and final audit remain. Zero Deploy; programme incomplete.
 
@@ -16,7 +16,7 @@ Conversation remains Mandarin; Markdown and research artifacts English. Work ind
 
 ## Next research
 
-Continue B08 A54-A61 using the existing area register and new operating IDs from R351. Then finish B01/B02's17substantive audits and whole-programme work. B07's22cases retain their evidence/identity holds; its326evaluations,231pair paths and126rent-grid cells do not clear a purchase. New evidence goes into a new packet, preserving prior inputs and manifests.
+Continue B08's unfinished A54–A57 public comparisons and A58–A61 regional deepening using the Working01 checkpoint; new operating IDs start R355. Then finish the eight-catchment B08 integration/audit, B01/B02's 17 final substantive audits, cross-region comparison, programme portfolio stress and final audit. R353's thin positive annual scenario is evidence priority only; R354's lower368k offer and provider access constraints materially change its interpretation. New evidence belongs in a new packet; preserve current and historical inputs/manifests.
 
 ## Frozen architecture and standard
 

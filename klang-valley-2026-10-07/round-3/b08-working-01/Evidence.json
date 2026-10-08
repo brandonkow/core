@@ -1,0 +1,466 @@
+{
+  "version": "B08-W01-2026-10-08",
+  "cutoff": "2026-10-08",
+  "scope": "Selected public evidence for A54-A57 working packet. No authenticated selected-parcel files or region completion.",
+  "sources": [
+    {
+      "id": "W01-E01",
+      "title": "MKH Boulevard II 550sf sale ask",
+      "urls": [
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/mkh-boulevard-ii-untuk-dijual-oleh-kingsley-phang-501391957"
+      ],
+      "source_date": "Listing 9 August 2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text; direct detail open failed",
+      "observation": "RM270,000;550sf;1BR/2BA;unfurnished. Parking not established.",
+      "boundary": "Asking offer only; availability, incentives, title and exact unit unverified. Do not confuse a separate270k850sf listing with this expression.",
+      "lineage": "PG listing501391957"
+    },
+    {
+      "id": "W01-E02",
+      "title": "MKH Boulevard II 550sf ordinary rent",
+      "urls": [
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/mkh-boulevard-ii-untuk-disewa-oleh-tj-yoo-502131067"
+      ],
+      "source_date": "Listing22September2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index listing text",
+      "observation": "RM1,500;550sf;1BR/2BA;partly furnished. Advertisement discloses illustrative pictures/multiple units.",
+      "boundary": "Different parcel from sale; images were not inspected. No authenticated lease, bay or furnishing inventory.",
+      "lineage": "PG listing502131067"
+    },
+    {
+      "id": "W01-E03",
+      "title": "MKH Boulevard II furnished rent control",
+      "urls": [
+        "https://www.mudah.my/rent-boulevard-2-kajang-mkh-beside-mrt-kajang-114604452.htm"
+      ],
+      "source_date": "27April shown; year not explicit in returned date",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index listing text",
+      "observation": "RM1,750;550sf;1BR/2BA;furnished;two parking bays advertised.",
+      "boundary": "Older higher-condition control; not evidence that the selected bare sale has two bays or achieves this rent.",
+      "lineage": "MKH Boulevard II furnished rent control"
+    },
+    {
+      "id": "W01-E04",
+      "title": "MKH Boulevard II higher furnished price control",
+      "urls": [
+        "https://alpha.edgeprop.my/listing/sale/2958207/selangor/kajang/nonlanded/condominium-apartment-servicedresidence/mkh-boulevard-2-jaln-bukit-tmn-bukit-mewah-kajang"
+      ],
+      "source_date": "20August2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index listing text",
+      "observation": "RM360,000;550sf;1BR/2BA;furnished;two bays advertised.",
+      "boundary": "Separate offer; higher price may reflect rights/condition/date, not a supported value ceiling.",
+      "lineage": "MKH Boulevard II higher furnished price control"
+    },
+    {
+      "id": "W01-E05",
+      "title": "MKH550sf student-style two-room advertisement",
+      "urls": [
+        "https://www.mudah.my/2-room-mkh-boulevard-2-condo-jalan-bukit-taman-bukit-mewah-kajang-115828550.htm"
+      ],
+      "source_date": "Relative posting only; exact date unverified",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index listing text",
+      "observation": "RM1,600;550sf;two rooms/two bathrooms marketed;one bay;furnished/student positioning;minimum one-year term.",
+      "boundary": "Approved plan unknown. Neither an original two-bedroom product nor a lawful partition arrangement is established.",
+      "lineage": "MKH550sf student-style two-room advertisement"
+    },
+    {
+      "id": "W01-E06",
+      "title": "Historical MKH Boulevard II sales-kit layout mismatch",
+      "urls": [
+        "https://mkhberhad.com/wp-content/uploads/2016/07/eSalesKit-MKH-Boulevard-II-22022017-1.pdf"
+      ],
+      "source_date": "Filename22February2017; historical marketing",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened12-page PDF; extracted text only",
+      "observation": "Plan labels in pages6–8 show960,1065,1110 and1120sf layouts.",
+      "boundary": "This retrieved kit does not validate the selected550sf plan. Historical revision/project scope needs reconciliation; no fraud inference. No visual plan inspection claimed.",
+      "lineage": "Historical MKH Boulevard II sales-kit layout mismatch"
+    },
+    {
+      "id": "W01-E07",
+      "title": "MKH Boulevard2 residential transfer context",
+      "urls": [
+        "https://www.brickz.my/transactions/residential/selangor/kajang/mkh-boulevard-2/non-landed/service-residence/?range=2016+Dec-"
+      ],
+      "source_date": "SummaryJuly2025–April2026; individual rows2018–2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text; direct open failed",
+      "observation": "Summary has6 transfers andRM417,500 median across sizes. An older20February2025 row shows549sf/1room/RM270,000;27March2023 shows549sf/RM393,000. Two2025 549sf rows have masked prices.",
+      "boundary": "Different observation windows, sizes and masked terms prevent a current normalised interval. Do not infer a discount from the mixed median or price trend from two unlike older sales.",
+      "lineage": "Brickz project record; repeated area/map pages are not independent"
+    },
+    {
+      "id": "W01-E08",
+      "title": "MKH developer project-status classifications",
+      "urls": [
+        "https://mkhberhad.com/completed-projects/",
+        "https://mkhberhad.com/"
+      ],
+      "source_date": "Undated current pages",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened official pages",
+      "observation": "Completed-project page includes BoulevardII and Nexus KajangStation B/C; homepage groups them with ongoing/open-for-sales TODs.",
+      "boundary": "Marketing sales status and physical completion are distinct. Neither page supplies exact selected-parcel CCC, VP, vacant stock or rental absorption.",
+      "lineage": "MKH developer project-status classifications"
+    },
+    {
+      "id": "W01-E09",
+      "title": "Ascotte860sf low sale control",
+      "urls": [
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/ascotte-boulevard-untuk-dijual-oleh-nichole-liew-42229724"
+      ],
+      "source_date": "9April2026; index also refreshes14April",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index full listing text",
+      "observation": "RM218,000;860sf;3BR/2BA;bare;two bays;high floor;full-loan marketing;non-Bumi/freehold claimed.",
+      "boundary": "Old advertised price and claimed rights/condition are not authenticated; full-loan wording requires net-consideration/credit resolution. The same ad appears in multiple indexes.",
+      "lineage": "PG listing42229724; Nichole listing lineage"
+    },
+    {
+      "id": "W01-E10",
+      "title": "Ascotte860sf rental index",
+      "urls": [
+        "https://www.iproperty.com.my/property-for-rent/p/ascotte-boulevard",
+        "https://www.iproperty.com.my/property/semenyih/ascotte-boulevard/cl-rent-105862421/"
+      ],
+      "source_date": "28April and15May2026 index dates",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text; direct category open failed; detail URLs return listing collections",
+      "observation": "NickYeap860sf/3BR/2BA/two-bay partly furnished ask RM900.",
+      "boundary": "Older index, not a currently accessible selected-unit offer or signed lease. Repeated portal collections are one lineage; bare-to-PF cost not quoted.",
+      "lineage": "NickYeap860sf RM900 rental lineage"
+    },
+    {
+      "id": "W01-E11",
+      "title": "Ascotte adverse and furnished rental alternatives",
+      "urls": [
+        "https://www.mudah.my/selangor-semenyih/apartment-condominium-for-rent/ascotte-boulevard"
+      ],
+      "source_date": "August2026 dated items plus undated relative postings",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text; later direct open returned generic Malaysia shell",
+      "observation": "860sf asks include800/900/1000 with different furnishing. Separate897sf asks include800 basic and1300 furnished; the basic advertisement says maintenance included.",
+      "boundary": "Do not count listings as unique available units. Do not deduct a second tenant fee or treat landlord charges as free.897sf furnished rent is not a matched860sf realised rent.",
+      "lineage": "Ascotte adverse and furnished rental alternatives"
+    },
+    {
+      "id": "W01-E12",
+      "title": "Ascotte residential transfer context",
+      "urls": [
+        "https://www.brickz.my/transactions/residential/selangor/semenyih/ascotte-boulevard/non-landed/"
+      ],
+      "source_date": "August2025–June2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index record text",
+      "observation": "8 transfers;RM305,000 median. Recent visible sizes include818,872 and980sf; detailed prices masked.",
+      "boundary": "Mixed-size and unknown-condition/rights records do not validate a discount from218k. Earlier query-window median330k is not a clean time-series change.",
+      "lineage": "Brickz Ascotte residential dataset"
+    },
+    {
+      "id": "W01-E13",
+      "title": "Ascotte higher same-marketed-size sale control",
+      "urls": [
+        "https://mail.www2.durianproperty.com.my/classified/3296432/Ascotte-Boulevard-Condo-for-sale-by-Even"
+      ],
+      "source_date": "25March2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text",
+      "observation": "RM290,000;860sf;3BR/2BA;two bays;bare/tenanted claims;100%loan promotion.",
+      "boundary": "Separate offer, old and incentive-conditioned. It provides price sensitivity, not an independent normalised clearing value.",
+      "lineage": "Ascotte higher same-marketed-size sale control"
+    },
+    {
+      "id": "W01-E14",
+      "title": "University of Nottingham on-campus accommodation",
+      "urls": [
+        "https://www.nottingham.edu.my/Study/Accommodation/On-campus-accommodation.aspx"
+      ],
+      "source_date": "Current page; tariff effective date not shown",
+      "retrieved_on": "2026-10-08",
+      "access": "Official university search-index text",
+      "observation": "Monthly options shown from550 for four-share to1200 for super-deluxe;single en-suite air-conditioned900. Water/electricity/Wi-Fi included except separately metered air-conditioning.",
+      "boundary": "Student eligibility, availability, sharing and contract restrictions differ from a private whole unit. No room-rate multiplication into an apartment lease or universal rent ceiling.",
+      "lineage": "University of Nottingham on-campus accommodation"
+    },
+    {
+      "id": "W01-E15",
+      "title": "BTS Tetris operator rate and term control",
+      "urls": [
+        "https://www.btstetris.com/"
+      ],
+      "source_date": "Rates effective1March2026;parking note effective1September2025",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened operator page and date/rate sections",
+      "observation": "12-month single studio640 and duplex1355;9-month terms cost more. Utilities metered separately. Dated parking note25/month conflicts with older free-parking FAQ.",
+      "boundary": "Operator accommodation is a student substitute, not an investable high-rise title or proven vacancy.2025 university provider PDF rates are superseded; actual contract needed.",
+      "lineage": "BTS Tetris operator rate and term control"
+    },
+    {
+      "id": "W01-E16",
+      "title": "The Arc913sf low sale lineage",
+      "urls": [
+        "https://www.propertyguru.com.my/property-listing/the-arc-for-sale-by-wl-wan-500813136",
+        "https://www.iproperty.com.my/bm/properti/cyberjaya/the-arc/sale-500813136/"
+      ],
+      "source_date": "15April PG;2September iProperty;September index refreshes",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index listing text; direct-index detail clicks failed",
+      "observation": "RM220,000;913sf;3BR/2BA;PF;one bay on iProperty. Body advertises cash discount, loan assistance/cashback and terms.",
+      "boundary": "Same listing ID is one lineage. Do not assume 220k is unconditional net consideration, bank value or proof of approved finance.",
+      "lineage": "Shared listing500813136"
+    },
+    {
+      "id": "W01-E17",
+      "title": "The Arc ordinary whole-unit rental control",
+      "urls": [
+        "https://www.mudah.my/the-arc-cyberjaya-for-rent-intake-november-2026-115832880.htm"
+      ],
+      "source_date": "November2026 intake;relative posting date only",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened listing text",
+      "observation": "RM1,500;BlockC;913sf;3BR/2BA;one covered bay;furnished;minimum one-year tenancy advertised.",
+      "boundary": "Future availability, not currently collected rent or GRR. Advertiser tenant preferences do not establish a project-wide legal restriction. Actual inventory, contract and tenancy performance held.",
+      "lineage": "The Arc ordinary whole-unit rental control"
+    },
+    {
+      "id": "W01-E18",
+      "title": "The Arc higher same-marketed-size ask",
+      "urls": [
+        "https://www.propertyguru.com.my/property-for-sale/at-the-arc-2085"
+      ],
+      "source_date": "13September2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened index; individual click failed",
+      "observation": "ArranSathananthar913sf/one-bay askRM285,000.",
+      "boundary": "Condition and exact parcel unknown. Separate price branch; duplicated index listings do not establish liquidity or inventory depth.",
+      "lineage": "The Arc higher same-marketed-size ask"
+    },
+    {
+      "id": "W01-E19",
+      "title": "The Arc higher larger-unit rent control",
+      "urls": [
+        "https://www.iproperty.com.my/property-for-rent/at-the-arc-2085"
+      ],
+      "source_date": "23September2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text",
+      "observation": "RM1,700;950sf;3BR/2BA;one bay;furnished.",
+      "boundary": "Upper-rent sensitivity only;950sf is not the selected913sf. No achieved-rent conclusion.",
+      "lineage": "The Arc higher larger-unit rent control"
+    },
+    {
+      "id": "W01-E20",
+      "title": "MMU accommodation boundaries",
+      "urls": [
+        "https://www.mmu.edu.my/accommodation/"
+      ],
+      "source_date": "Undated current page;some image assets older",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened official university page; rate-image figures not visually verified",
+      "observation": "Cyberjaya on-campus twin/triple accommodation and off-campus Arc provider option appear. Arc provider describes12-month terms;shorter terms20%higher and separate deposits/admin.",
+      "boundary": "Student/provider contracts do not allocate tenants to every private unit. Lower-page Melaka accommodation/rates are a different campus. No image-derived price used.",
+      "lineage": "MMU accommodation boundaries"
+    },
+    {
+      "id": "W01-E21",
+      "title": "Heriot-Watt historical accommodation provider brochure",
+      "urls": [
+        "https://www.hw.ac.uk/document-library/student-accommodation-brochure.pdf"
+      ],
+      "source_date": "Printed as ofNovember2024",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened4-page official PDF; extracted text",
+      "observation": "Arc/Solstice appear through third-party provider arrangements;Shaftsbury also has a specified provider. Different billing/contract arrangements apply.",
+      "boundary": "Historical brochure is not a current rent guarantee, occupancy certification, owner mandate or universal tenant allocation.",
+      "lineage": "Heriot-Watt historical accommodation provider brochure"
+    },
+    {
+      "id": "W01-E22",
+      "title": "The Arc sparse older transfer context",
+      "urls": [
+        "https://www.brickz.my/transactions/residential/selangor/cyberjaya/the-arc/non-landed/"
+      ],
+      "source_date": "26September2024 only",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index record text",
+      "observation": "One displayed residential transfer:904sf atRM364,000.",
+      "boundary": "Too old/sparse and not identical to913sf selected offer. Does not prove220k undervaluation or zero later market transactions. Map version is the same dataset.",
+      "lineage": "The Arc sparse older transfer context"
+    },
+    {
+      "id": "W01-E23",
+      "title": "MEDAINC2015 annual report: historic Arc GRR losses",
+      "urls": [
+        "https://www.meridianberhad.com.my/_files/ugd/a1c5d4_bacbe73f4619473eabd4466764075b56.pdf"
+      ],
+      "source_date": "Financial year2015;recent crawl is not event date",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened issuer-hosted159-page PDF; text at PDF pages7 and113",
+      "observation": "Director discussion reports Arc GRR losses/future provisions. Note21(iii) describes onerous leaseback obligations with3–4-year non-cancellable periods.",
+      "boundary": "Historical issuer fact only. No present guarantee, current litigation outcome, obligation on every parcel or current building-quality conclusion established.",
+      "lineage": "MEDAINC2015 annual report: historic Arc GRR losses"
+    },
+    {
+      "id": "W01-E24",
+      "title": "Shaftsbury686sf lower sale expression",
+      "urls": [
+        "https://www.propertyguru.com.my/property-listing/serviced-residence-shaftsbury-putrajaya-for-sale-by-rick-lum-501547761"
+      ],
+      "source_date": "14September2026;later indexes refresh same ID",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index full text;direct open failed",
+      "observation": "RM368,000;686sf;2BR/1BA;furnished;high-floor/fire-sale marketing. Parking not stated.",
+      "boundary": "No authenticated distress, effective price, bay right, original plan or availability. Selected instead of470k before this packet was locked; not an outcome-driven rewrite.",
+      "lineage": "PG501547761"
+    },
+    {
+      "id": "W01-E25",
+      "title": "Shaftsbury686sf earlier higher/no-bay sale",
+      "urls": [
+        "https://www.edgeprop.my/listing/sale/4034197/shaftsbury-avenue-putrajaya-for-sale-by-fitri-azmi"
+      ],
+      "source_date": "31July2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index listing text",
+      "observation": "RM470,000;686sf;2BR/1BA;PF header;level10;no attached parking stated, management rental suggested;tenant1800 claimed.",
+      "boundary": "Separate conditional price/control, not proof every unit has no bay or that selected368k offer is identical. Tenant claim unverified.",
+      "lineage": "Shaftsbury686sf earlier higher/no-bay sale"
+    },
+    {
+      "id": "W01-E26",
+      "title": "Shaftsbury686sf rental price conflict",
+      "urls": [
+        "https://www.iproperty.com.my/property/putrajaya/shaftsbury-putrajaya/rent-200409020/"
+      ],
+      "source_date": "18March2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened listing text",
+      "observation": "686sf;2BR/1BA;furnished. Header RM2,000;body RM1,800.",
+      "boundary": "One old ad with an internal discrepancy, not two independent rent observations.1800 is conservative scenario choice; no authenticated lease, bay or availability.",
+      "lineage": "Shaftsbury686sf rental price conflict"
+    },
+    {
+      "id": "W01-E27",
+      "title": "PutrajayaPresint1 residential transfer context",
+      "urls": [
+        "https://www.brickz.my/transactions/residential/putrajaya/putrajaya/putrajaya-presint-1/non-landed/"
+      ],
+      "source_date": "July2025–April2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text;direct open failed",
+      "observation": "6 residential records, visible sizes689sf;several address rows name MenaraShaftsbury.16July2025 record shows2rooms/RM420,000;newer prices masked.",
+      "boundary": "Slight marketed/recorded size difference and unknown component/bays/condition/incentives prevent a unit-level interval. Not interchangeable with Presint1 commercial records.",
+      "lineage": "PutrajayaPresint1 residential transfer context"
+    },
+    {
+      "id": "W01-E28",
+      "title": "Shaftsbury management-site identity",
+      "urls": [
+        "https://shaftsburyputrajaya.com.my/EN/home"
+      ],
+      "source_date": "Undated current page",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened management-branded page",
+      "observation": "Site identifies PerbadananPengurusanShaftsburyPutrajaya COB/PPj/015 and integrated retail/hotel/residence components.",
+      "boundary": "Identity/context only; no authenticated residential bill, accounts, reserves, bay availability or lift performance.",
+      "lineage": "Shaftsbury management-site identity"
+    },
+    {
+      "id": "W01-E29",
+      "title": "Shaftsbury retail rules scope exclusion",
+      "urls": [
+        "https://shaftsburyputrajaya.com.my/pdf/Retail_House_Rules.pdf"
+      ],
+      "source_date": "Historical document;exact effective residential applicability not established",
+      "retrieved_on": "2026-10-08",
+      "access": "Indexed PDF text;filename indicates retail rules",
+      "observation": "Retrieved rule document includes management-related charges/procedures.",
+      "boundary": "Not used as current residential fee, parcel-specific legal advice or proof of a selected residence's parking/access rights.",
+      "lineage": "Shaftsbury retail rules scope exclusion"
+    },
+    {
+      "id": "W01-E30",
+      "title": "Heriot-Watt Shaftsbury transport eligibility",
+      "urls": [
+        "https://www.hw.ac.uk/malaysia/campus/transport"
+      ],
+      "source_date": "Undated current official page",
+      "retrieved_on": "2026-10-08",
+      "access": "Opened official page, targeted transport paragraph",
+      "observation": "Dedicated Shaftsbury shuttle is for official-provider tenants at TowerA HWUM floors with specified tenancy/access cards.",
+      "boundary": "Do not assign shuttle access to all private owners/tenants. Campus parking prices elsewhere on this page are not residential parking charges.",
+      "lineage": "Heriot-Watt Shaftsbury transport eligibility"
+    },
+    {
+      "id": "W01-E31",
+      "title": "MKH Boulevard2 commercial-record exclusion",
+      "urls": [
+        "https://www.brickz.my/transactions/commercial/selangor/kajang/mkh-boulevard-2/non-landed/"
+      ],
+      "source_date": "September2025",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text",
+      "observation": "Two commercial shop-unit records have1152/1313sf;median840950.",
+      "boundary": "Excluded from residential550sf valuation; matching project name is insufficient.",
+      "lineage": "MKH Boulevard2 commercial-record exclusion"
+    },
+    {
+      "id": "W01-E32",
+      "title": "Ascotte commercial-record exclusion",
+      "urls": [
+        "https://www.brickz.my/transactions/commercial/selangor/semenyih/ascotte-boulevard/non-landed/"
+      ],
+      "source_date": "July2024",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text",
+      "observation": "One1345sf shop-unit record.",
+      "boundary": "Not an860sf residential comparable.",
+      "lineage": "Ascotte commercial-record exclusion"
+    },
+    {
+      "id": "W01-E33",
+      "title": "PutrajayaPresint1 commercial-record exclusion",
+      "urls": [
+        "https://www.brickz.my/transactions/commercial/putrajaya/putrajaya/putrajaya-presint-1/non-landed/"
+      ],
+      "source_date": "December2024–November2025",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text",
+      "observation": "Six commercial records include Shaftsbury retail units.",
+      "boundary": "Excluded from residential686sf pricing and liquidity counts.",
+      "lineage": "PutrajayaPresint1 commercial-record exclusion"
+    },
+    {
+      "id": "W01-E34",
+      "title": "MKH850sf family rental contrast",
+      "urls": [
+        "https://www.edgeprop.my/listing/rental/2395845/selangor/kajang/nonlanded/condominium-apartment-servicedresidence/mkh-boulevard-2--kajang--selangor-serviced-apartment-for-rent--new-unit--partially-furnished-"
+      ],
+      "source_date": "6October2026",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index listing text",
+      "observation": "850sf;2BR/2BA;RM2,200;PF label with appliance/furniture descriptions;multiple-unit ad.",
+      "boundary": "Screen-only family contrast. No compatible verified purchase price, exact unit or independent current lease; not an additional operating case.",
+      "lineage": "MKH850sf family rental contrast"
+    },
+    {
+      "id": "W01-E35",
+      "title": "Shaftsbury lower offer price-date drift",
+      "urls": [
+        "https://www.propertyguru.com.my/bm/senarai-hartanah/serviced-residence-shaftsbury-putrajaya-untuk-dijual-oleh-rick-lum-501547761"
+      ],
+      "source_date": "16June2026 field;indexed beforeSeptember English version",
+      "retrieved_on": "2026-10-08",
+      "access": "Search-index text",
+      "observation": "Same listing501547761 previously showsRM379,000 for686sf furnished2BR/1BA.",
+      "boundary": "One offer lineage, not independent corroboration or proved negotiated reduction; locale/index timing can differ.",
+      "lineage": "PG501547761"
+    }
+  ],
+  "method": "Source observations are paraphrases. Search-index text, opened HTML text and extracted PDF text are distinguished. No photos/site conditions/videos/rate images were visually verified. Ads are not achieved prices or independent when syndicated. No outreach or paid report. Unused broad search returns are omitted."
+}

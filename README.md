@@ -28,7 +28,9 @@ No automated market-data ingestion, alert scheduler, software decision engine or
 
 ## Regional underwriting
 
-Current programme status: **incomplete; B03-B07 bounded desk passes closed; B08 next**. Latest: [B07 integrated regional synthesis](klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md), [substantive audit](klang-valley-2026-10-07/round-3/b07-final/Completion_Audit.md) and [continuation](klang-valley-2026-10-07/round-3/b07-final/RESUME_AND_COMPLETION.md), dated8October2026. B07 covers eight catchments through22conditional expressions,326financial evaluations,231synthetic pair paths and126rent-grid cells. All cases Defer; no investment clearance. Earlier Working01/02 remain immutable.
+Current programme status: **incomplete; B03–B07 bounded desk passes closed; B08 research in progress**. Latest: [B08 Working01](klang-valley-2026-10-07/round-3/b08-working-01/Regional_Working.md), [case gates](klang-valley-2026-10-07/round-3/b08-working-01/Cases_G0_G9.md), [verification](klang-valley-2026-10-07/round-3/b08-working-01/Verification_Report.md) and [continuation](klang-valley-2026-10-07/round-3/b08-working-01/RESUME_AND_COMPLETION.md), dated 8 October 2026. Four new expressions deepen selected A54–A57 questions; nine prior inputs remain unchanged. Thirteen cases produce 192 conditional evaluations, 78 pair paths and 54 rent-grid cells. All Defer; no B08 catchment closes in this partial packet.
+
+[B07 final synthesis](klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md) and its [substantive audit](klang-valley-2026-10-07/round-3/b07-final/Completion_Audit.md) remain the latest completed regional batch. All earlier working and final releases remain immutable.
 
 Thirty-six of61catchments in B03-B07 are bounded desk-complete. Seventeen in B01/B02 await final substantive audit; eight in B08 require comparable deepening. **25catchments remain without final acceptance**, plus cross-region comparison, programme portfolio stress and final audit. Zero Deploy; Core unchanged. Read [current workflow](CURRENT_WORKFLOW.md) and [round3navigation](klang-valley-2026-10-07/round-3/README.md).
 
