@@ -1,29 +1,29 @@
 # Current workflow and continuation
 
-Updated8October2026. Canonical repository: https://github.com/brandonkow/core .
+Updated: 8 October 2026. Canonical repository: https://github.com/brandonkow/core .
 
 ## Current status
 
-All61declared functional catchments now have bounded regional desk acceptance. B01/B02's17catchments close through the [latest final synthesis](klang-valley-2026-10-07/round-3/b01-b02-final/Regional_Synthesis.md) and [substantive audit](klang-valley-2026-10-07/round-3/b01-b02-final/Completion_Audit.md); B03-B08's44prior accepted catchments remain intact. **Zero remaining regional acceptance gaps within the declared scope; zeroDeploy. Whole-programme underwriting remains incomplete.**
+**The bounded all-area public desk underwriting programme is complete:** 61 regional desk passes, 138 conditional operating expressions, 122 project groups, cross-region comparison and programme portfolio/terminal integration. **Zero Deploy.** Exact-unit investment readiness and realised outcome validation remain separate; no all-project census is claimed.
 
-Latest33-case [financial replay](klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Underwriting.md):29priorobjects plus4newcontrols;475evaluations,528syntheticpairpaths,180rent-gridcells. No annual nonnegative base case; identity/offer holds remain binding. Read [verification](klang-valley-2026-10-07/round-3/b01-b02-final/Verification_Report.md) and [resume record](klang-valley-2026-10-07/round-3/b01-b02-final/RESUME_AND_COMPLETION.md).
+Start with the [programme comparison](klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md), [case/area register](klang-valley-2026-10-07/round-3/programme-final/Case_and_Area_Register.md), [completion audit](klang-valley-2026-10-07/round-3/programme-final/Programme_Completion_Audit.md), [verification](klang-valley-2026-10-07/round-3/programme-final/Verification_Report.md) and [continuation record](klang-valley-2026-10-07/round-3/programme-final/RESUME_AND_COMPLETION.md). Earlier releases retain their historical status at their own cutoff.
 
 ## Next work
 
-Complete cross-region comparison and one source-pinned current case/area register, whole-programme portfolio/no-sale/terminal stress with project variants deduplicated, and final requirement/preservation audit. Do not repeat closed regional listing searches without a material new gap. New operating IDs startR366 if needed.
+Assess the existing decision map now that programme research is complete. Determine whether it needs a status/navigation update; preserve framework authority and distinguish dated research. The user authorised this sequencing, not an automatic architecture rewrite.
 
-After those steps are complete, independently assess whether the existing decision map needs updating. The user directed all-area underwriting first and a later map decision, not an automatic rewrite. Current map remains preserved during research.
+Future underwriting work should be targeted unit validation or an evidence-driven reopening, using the continuation record's task-specific queues. Do not restart all 61 areas without a material new gap. New operating IDs start R366 if needed. No background research or scheduler is running.
 
 ## User authority
 
-All new files and changes go directly to main. No new branch; expected-head checks, no force. User suspended local cleanup: leave existing files, RecycleBin and ACLs alone. Use GitHub/RAM without a persistent local clone/output.
+All new files and changes go directly to main with expected-head checks and no force. No new branch or persistent local clone/output. The user suspended local cleanup: existing files, RecycleBin and ACLs remain untouched. Use GitHub/RAM.
 
-Conversation Mandarin; Markdown/artifacts English. Work independently; user is SeniorMarketRedTeam, not a routine fact provider. No outreach, paid access, purchase or scheduler.
+Conversation Mandarin; artifacts English. Work independently; the user is Senior Market Red Team, not a routine fact provider. No outreach, paid access, purchase or scheduler.
 
 ## Frozen architecture and standard
 
-Master SHA256:1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b. Preserve Core/G0-G9, SOP, validation/failure/history/forward/terminal/portfolio records. No G10 or new causal promotion.
+Master SHA256: `1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b`. Preserve Core/G0-G9, SOP, validation/failure/history/forward/terminal/portfolio records. No G10 or causal promotion.
 
-90% purchase-price LTV,4%,35years;6%gross preferred. Standard coverage is separate from full-cost carry, actual credit and terminal burden. Current shortfall is lowest research priority, not permanentReject; a transition needs falsifiable mechanism, timing and funded carry. Studio through larger original residential units and investor-led exits remain eligible.
+90% purchase-price LTV, 4%, 35 years; 6% gross preferred. Standard coverage is separate from full-cost carry, actual credit and terminal burden. Current shortfall is lowest research priority, not permanent Reject; transition requires falsifiable mechanism, timing and funded carry. Original studios through larger units and investor-led exits remain eligible.
 
-Material Evidence-Judgment Divergence triggers four-family investigation and existing-mechanism routing. It cannot override evidence or lower standards. Regional desk completion does not establish normalized fair value, physical inspection, actual loan/lease or investment readiness.
+Material Evidence-Judgment Divergence triggers four-family investigation and existing-mechanism routing. It cannot override evidence or lower standards. All current operating expressions remain G0 STOP / G9 Defer.

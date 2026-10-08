@@ -1,6 +1,10 @@
 # Klang Valley underwriting - round 3 continuation
 
-Current navigation updated:8October2026. **All61declared catchments now have bounded regional desk acceptance. Programme integration remains incomplete.** Latest [B01-B02 final synthesis](b01-b02-final/Regional_Synthesis.md), [17-area audit](b01-b02-final/Completion_Audit.md), [verification](b01-b02-final/Verification_Report.md) and [checkpoint](b01-b02-final/RESUME_AND_COMPLETION.md). ZeroDeploy. Continue cross-region comparison, whole-programme portfolio stress and final audit, then assess whether the existing map needs updating. Main only; existing local files and map remain preserved.
+Current navigation updated: 8 October 2026. **The bounded all-area public desk underwriting programme is complete: 61 catchments, 138 conditional expressions, 122 project groups, zero Deploy.** Read the [programme comparison](programme-final/Cross_Region_Comparison.md), [case/area register](programme-final/Case_and_Area_Register.md), [financial replay](programme-final/Financial_Underwriting.md), [portfolio/terminal integration](programme-final/Portfolio_and_Terminal_Risk.md), [final audit](programme-final/Programme_Completion_Audit.md), [verification](programme-final/Verification_Report.md) and [continuation](programme-final/RESUME_AND_COMPLETION.md).
+
+Exact-unit investment readiness is unresolved; all G0 STOP / G9 Defer. All earlier regional releases remain intact as dated evidence. Map assessment follows this completion; map and Core were preserved throughout underwriting. Main only; existing local files remain untouched.
+
+The historical programme narratives below retain their release dates and do not supersede the completed current register.
 
 The 61-catchment map is complete as a scope register. Round 1's 14 cases and round 2's 50 cases provide conditional underwriting inputs, not 64 verified investment opportunities. The nine earlier Cheras expressions remain separate historical research. Having a disposition for each area did not complete the full regional research requirement. No Deploy is validated.
 
@@ -42,13 +46,13 @@ This continuation preserves the original programme scope, frozen consolidated Co
 - [Four additional G0-G9 controls](Contrasting_Cases_G0_G9.md): Desa Green two-bedroom, The Tropika two-bedroom, M Oscar two-bedroom and Silk Sky studio. Identity and offer limitations remain explicit.
 - [Prior 29-case financial comparison](B01_B02_Financial_Comparison.md): 29 expressions at 90% LTV, 4% and 35 years. No positive cost-complete annual base-case carry and no validated Deploy within this comparison.
 
-B01/B02's17catchments and B03-B08's44catchments are now bounded desk-complete:61of61. No regional acceptance gap remains within the declared scope. Cross-region comparison, whole-programme portfolio stress and final requirement audit remain. ZeroDeploy; these are workflow counts, not investment-readiness percentages.
+B01/B02's17catchments and B03-B08's44catchments are now bounded desk-complete:61of61. No regional acceptance gap remains within the declared scope. The final programme release now completes cross-region comparison, programme portfolio stress and the final audit. Zero Deploy; desk completion is not unit admission.
 
 Earlier documents are retained as dated records. Their arithmetic remains conditional on their original inputs. The round 2 'public desk pass is closed' wording does not close outstanding material regional work. Root navigation points here without rewriting history.
 
 ## Research standards and remaining programme work
 
-Complete cross-region comparison, whole-programme portfolio stress and final audit next. The following standards also govern any later evidence-driven reopening; they do not negate the bounded regional acceptance above.
+Cross-region comparison, programme portfolio stress and final audit are completed in programme-final. The following standards govern later evidence-driven reopening.
 
 Continue functional demand and real buyer tasks; contrasting eligible product/lifecycle cohorts; project and regional supply; relevant cleared comparable records and price limits; ordinary-tenancy evidence; operating and financing failure modes; exit alternatives and rank reversals. Distinguish inaccessible private evidence from public research not yet done.
 
