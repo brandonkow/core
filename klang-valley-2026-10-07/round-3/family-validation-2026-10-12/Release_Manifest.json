@@ -1,0 +1,123 @@
+{
+  "release": "FAMILY-ADOPTION-2026-10-12",
+  "created_date": "2026-10-12",
+  "baseline_commit": "67761c77408db4a8f6ed83a5ff762ce9f3428f89",
+  "baseline_tree": "78704912da2125a346db93c92c84bdcc97125554",
+  "baseline_file_blobs": 697,
+  "expected_result_file_blobs": 706,
+  "expected_new_files": 9,
+  "expected_modified_existing_files": 2,
+  "expected_unchanged_existing_files": 695,
+  "allowed_new_directory": "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/",
+  "allowed_existing_modifications": [
+    "README.md",
+    "CURRENT_WORKFLOW.md"
+  ],
+  "protected_examples": {
+    "AGENTS.md": {
+      "git_blob_sha": "df5a1ca365b4934cc9d0e8bcbad580a9bc63a262"
+    },
+    "Residential_Investment_Framework.md": {
+      "git_blob_sha": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e"
+    },
+    "execution-release-2026-10-07/financial_engine.py": {
+      "git_blob_sha": "2fa3554d4b1358795d658efefe270ac53f27bbda"
+    },
+    "execution-release-2026-10-07/financial_config.json": {
+      "git_blob_sha": "3e17c91823b093aa66f0930b2c012510d3b4528f"
+    },
+    "sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md": {
+      "git_blob_sha": "bb223fcae99fd2247838bdbf51672d0e52e68df2"
+    },
+    "klang-valley-2026-10-07/round-3/programme-final/Inputs.json": {
+      "git_blob_sha": "c892fe220959f8d74d54d7c6f54cf14bfdd91c43"
+    },
+    "visualization/Decision_Engine_Neural_Map.html": {
+      "git_blob_sha": "ebc6bd206ee10aa4d6a13eca12aa738b78d0d286"
+    }
+  },
+  "preservation_rule": "Every baseline blob outside the two root navigation files must retain its exact Git blob hash. No deletions or paths outside the allowed set.",
+  "financial_checks": {
+    "financial_runs_checked": 49,
+    "financial_identities": "closed amortisation, principal conservation, independent interest-cost exit identity and discounted hurdle passed",
+    "annual_neutral_roots": "passed",
+    "common_standard_invariant": "passed",
+    "base_monthly_positive_annual_negative": "passed",
+    "base_flat_price_loss": "passed"
+  },
+  "source_references": {
+    "new": 16,
+    "historical_retained": 2,
+    "independent_observations": "Not an independent-unit or transaction count"
+  },
+  "evidence_boundary": "Public desk observations and conditional arithmetic; no executed leases, actual collections, current MC accounts, lender approval or realised validation.",
+  "decisions": {
+    "R315": "G0 STOP / G9 Defer",
+    "R342": "G0 STOP / G9 Defer",
+    "R350": "G0 STOP / G9 Defer",
+    "MJ_F01": "Unresolved",
+    "new_case_ids": 0,
+    "deploy": 0
+  },
+  "protected_framework": "No Core, G0-G9, SOP or map changes. Historical source cases and frozen engine/config remain unchanged.",
+  "local_policy": "RAM and direct GitHub publication only; no persistent clone or local output. Existing local files untouched.",
+  "publication_protocol": [
+    "Verify final tree against payload hashes and every baseline file.",
+    "Compare one-parent commit against baseline; exact changed paths required.",
+    "Advance main using expected baseline SHA and force=false.",
+    "Read back main, commit parity and published report."
+  ],
+  "payload_files": {
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/README.md": {
+      "bytes": 15002,
+      "sha256": "4b8475d56eec91ebc1186458b203c77252091e775b0994314f2f8b9f88ac1a07",
+      "git_blob_sha": "cc36bd61da09c016d2b155f0ad43fa83e721b772"
+    },
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/Evidence_Ledger.json": {
+      "bytes": 12488,
+      "sha256": "a201e7e361360db5cda46ecdbac94ba8bfe80d8c29230aec33ad55ce10918f4b",
+      "git_blob_sha": "56e3eba047c648e88e0d55a448bc85111655b0ee"
+    },
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/Financial_Inputs.json": {
+      "bytes": 10744,
+      "sha256": "27af742a0b6f8a208f0d94f3b9b3eb2cd6fa13d50a7394c75181950759b8f495",
+      "git_blob_sha": "00eb0414590bfa76f2d527c7463ef716aa4773e2"
+    },
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/Financial_Results.json": {
+      "bytes": 69148,
+      "sha256": "3c8962b29bd0c4b130c9e4919af22696d34a3b92085d8ddcf3a3172874fcab8c",
+      "git_blob_sha": "22c1b6533312aefcaea037b848a01bb22ad7fe10"
+    },
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/reproduce.py": {
+      "bytes": 6183,
+      "sha256": "9b4afdf7ab57622865d8e86c3449c01cdd6970b008e8c6f9e40e566b774a0373",
+      "git_blob_sha": "08a0ea548b6ceaf17c93397430746ccc9c573a10"
+    },
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/Case_Status.json": {
+      "bytes": 11149,
+      "sha256": "32ee88a83e9f3d62ef8265e8debac1cb7d1e90939cfffb7c799277dccf43041e",
+      "git_blob_sha": "9622739e8049da67adba3131000051b9b6ad2b7f"
+    },
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/Investigation_and_Misses.md": {
+      "bytes": 7438,
+      "sha256": "45a0abbdce3ff4bcf70917b8ecaa59534199c65567f15631512a9abd5d8a5cc8",
+      "git_blob_sha": "fc889326eceeb4d2692e0513df187d55ca037173"
+    },
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/Verification.md": {
+      "bytes": 3105,
+      "sha256": "48cfd52bc4a10d4c06cd873d8713b3121904db109a0e32588750db8144e86edc",
+      "git_blob_sha": "ce0931677889d7dee1d98eea259dc75cbe43289d"
+    },
+    "CURRENT_WORKFLOW.md": {
+      "bytes": 8512,
+      "sha256": "e17957e325bf0acd9489f3426f7d3a6f06615d61279b4925dfbc3eb25877e8b9",
+      "git_blob_sha": "b73cf8f2e1b81821d7cbfb1b1b8ba6e09a302d4d"
+    },
+    "README.md": {
+      "bytes": 11377,
+      "sha256": "80cc6208468f3532c388f83ff533decf3b6cf395b76bf17e8bbe1a2e626c243c",
+      "git_blob_sha": "6e7c8d88b53e0753793cfdaf60d8105e58ec71fb"
+    }
+  },
+  "self_hash": "Excluded to avoid self-reference. The Git commit pins this manifest and the complete tree."
+}

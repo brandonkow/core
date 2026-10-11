@@ -1,0 +1,204 @@
+{
+  "packet": "FAMILY-ADOPTION-2026-10-12",
+  "historical_programme_cutoff": "2026-10-08",
+  "new_operating_ids": [],
+  "deploy_change": 0,
+  "cases": [
+    {
+      "hypothesis": "MJ-F01",
+      "hypothesis_status": "Unresolved",
+      "g0": "STOP",
+      "g9": "Defer",
+      "financial_inputs_changed": false,
+      "family_adoption": {
+        "physical_capacity": "Advertised three-bedroom layout only; original plans and useful room dimensions not inspected",
+        "actual_household_tenancy": "Unknown",
+        "renewals": "Unknown",
+        "owner_occupier_adoption": "Unknown",
+        "family_buyer_funding": "Unknown"
+      },
+      "rent_evidence": {
+        "advertised": "See source ledger",
+        "agreed": "Unknown",
+        "collected": "Unknown",
+        "renewed": "Unknown",
+        "paid_months": "Eleven is a comparison assumption, not observed"
+      },
+      "privacy": {
+        "entrance_circulation": "Unknown",
+        "bathroom_kitchen_laundry_exclusivity": "Whole-unit intended tenancy; actual occupancy/configuration unverified",
+        "acoustic_visual_separation": "Unknown",
+        "unrelated_co_residents": "Unmeasured",
+        "visitor_rules": "Unknown",
+        "utility_inclusion_metering": "Unknown",
+        "lawful_use": "No approved plan or MC rules authenticated"
+      },
+      "tenant_source_concentration": "No representative tenant panel or validated dominance ratio",
+      "exit": {
+        "investor_led": "Eligible, subject to repeatable income, net resale and buyer financing",
+        "owner_family": "Possible, unmeasured; not a prerequisite for investor resale",
+        "liquidity_ranking": "Not established"
+      },
+      "divergence": {
+        "flag": false,
+        "reason": "Available public observations do not establish a material conflict on the same market proposition; missing evidence and source wording conflicts are not proof against the cohort hypothesis"
+      },
+      "uncertainty_action": "Preserve Defer; do not assign family/management premium, rent growth or lower exit yield. Raise evidence burden and required margin of safety without inventing a percentage.",
+      "finite_task": "Obtain permitted exact-unit plan/condition and effective price evidence, matched ordinary household lease/collections/renewals, actual MC charges/reserves/works and financeable net resale. Do not replace missing private evidence with more portal counts.",
+      "sources_status": "Public observations or historical evidence only; no inspection or realised validation",
+      "id": "R315",
+      "name": "Mont Kiara Pines",
+      "tenant_task": "Family or other household seeking useful space and school/work/daily-living access; actual capture unmeasured",
+      "substitutes": "Other mature Mont Kiara family stock and smaller/larger whole-unit alternatives identified historically; shared rooms serve a different task. Controls in other districts are capital alternatives, not valuation comparables.",
+      "governance": {
+        "manager_association": "JL Facilities public client list",
+        "current_contract": "Unknown",
+        "service_outcomes": "Unknown",
+        "reserves_arrears_accounts": "Unknown",
+        "works_and_special_assessment": "Unknown",
+        "charge": "450 combined fee proxy, not an invoice"
+      },
+      "unit": "1268sf advertised; P-S1 original/unfurnished versus furnished rent. One bay in sale index; rental bays and rights unresolved.",
+      "research_priority": "First for family-adoption evidence; not an investment winner",
+      "sources": [
+        "P-S1",
+        "P-S2",
+        "P-R1",
+        "P-R2",
+        "P-R3",
+        "P-R4",
+        "P-C1",
+        "P-C2",
+        "G-P1",
+        "C-P1"
+      ],
+      "financial_consequence": "Original3800 scenario approximately annual-neutral;3500 rent materially negative. Extra purchase price, fit-out and works require corresponding verified benefit."
+    },
+    {
+      "hypothesis": "MJ-F01",
+      "hypothesis_status": "Unresolved",
+      "g0": "STOP",
+      "g9": "Defer",
+      "financial_inputs_changed": false,
+      "family_adoption": {
+        "physical_capacity": "Advertised three-bedroom layout only; original plans and useful room dimensions not inspected",
+        "actual_household_tenancy": "Unknown",
+        "renewals": "Unknown",
+        "owner_occupier_adoption": "Unknown",
+        "family_buyer_funding": "Unknown"
+      },
+      "rent_evidence": {
+        "advertised": "See source ledger",
+        "agreed": "Unknown",
+        "collected": "Unknown",
+        "renewed": "Unknown",
+        "paid_months": "Eleven is a comparison assumption, not observed"
+      },
+      "privacy": {
+        "entrance_circulation": "Unknown",
+        "bathroom_kitchen_laundry_exclusivity": "Whole-unit intended tenancy; actual occupancy/configuration unverified",
+        "acoustic_visual_separation": "Unknown",
+        "unrelated_co_residents": "Unmeasured",
+        "visitor_rules": "Unknown",
+        "utility_inclusion_metering": "Unknown",
+        "lawful_use": "No approved plan or MC rules authenticated"
+      },
+      "tenant_source_concentration": "No representative tenant panel or validated dominance ratio",
+      "exit": {
+        "investor_led": "Eligible, subject to repeatable income, net resale and buyer financing",
+        "owner_family": "Possible, unmeasured; not a prerequisite for investor resale",
+        "liquidity_ranking": "Not established"
+      },
+      "divergence": {
+        "flag": false,
+        "reason": "Available public observations do not establish a material conflict on the same market proposition; missing evidence and source wording conflicts are not proof against the cohort hypothesis"
+      },
+      "uncertainty_action": "Preserve Defer; do not assign family/management premium, rent growth or lower exit yield. Raise evidence burden and required margin of safety without inventing a percentage.",
+      "finite_task": "Obtain permitted exact-unit plan/condition and effective price evidence, matched ordinary household lease/collections/renewals, actual MC charges/reserves/works and financeable net resale. Do not replace missing private evidence with more portal counts.",
+      "sources_status": "Public observations or historical evidence only; no inspection or realised validation",
+      "id": "R342",
+      "name": "Subang Avenue",
+      "tenant_task": "Whole-household accommodation or separately evaluated shared operation; student predominance not authenticated",
+      "substitutes": "Nearby SS16 whole-unit/room alternatives retained from historical case; price the actual household commute and service package.",
+      "governance": {
+        "manager_association": "No current residential MC authentication; mall advisory references excluded",
+        "service_outcomes": "Unknown",
+        "reserves_arrears_accounts": "Unknown",
+        "works_and_special_assessment": "Unknown",
+        "charge": "323 combined proxy from historical mismatched-layout offer, not verified1021sf invoice"
+      },
+      "unit": "1021sf original/unfurnished sale versus furnished rental; one bay in sale body, rental parking count unconfirmed.",
+      "research_priority": "Live income and household-adoption control",
+      "sources": [
+        "S-S1",
+        "S-R1"
+      ],
+      "financial_consequence": "2300 two-year ask and2400 one-year ask differ in term, not just desirability. Neither is guaranteed collection; original2500 retained as history."
+    },
+    {
+      "hypothesis": "MJ-F01",
+      "hypothesis_status": "Unresolved",
+      "g0": "STOP",
+      "g9": "Defer",
+      "financial_inputs_changed": false,
+      "family_adoption": {
+        "physical_capacity": "Advertised three-bedroom layout only; original plans and useful room dimensions not inspected",
+        "actual_household_tenancy": "Unknown",
+        "renewals": "Unknown",
+        "owner_occupier_adoption": "Unknown",
+        "family_buyer_funding": "Unknown"
+      },
+      "rent_evidence": {
+        "advertised": "See source ledger",
+        "agreed": "Unknown",
+        "collected": "Unknown",
+        "renewed": "Unknown",
+        "paid_months": "Eleven is a comparison assumption, not observed"
+      },
+      "privacy": {
+        "entrance_circulation": "Unknown",
+        "bathroom_kitchen_laundry_exclusivity": "Whole-unit intended tenancy; actual occupancy/configuration unverified",
+        "acoustic_visual_separation": "Unknown",
+        "unrelated_co_residents": "Unmeasured",
+        "visitor_rules": "Unknown",
+        "utility_inclusion_metering": "Unknown",
+        "lawful_use": "No approved plan or MC rules authenticated"
+      },
+      "tenant_source_concentration": "No representative tenant panel or validated dominance ratio",
+      "exit": {
+        "investor_led": "Eligible, subject to repeatable income, net resale and buyer financing",
+        "owner_family": "Possible, unmeasured; not a prerequisite for investor resale",
+        "liquidity_ranking": "Not established"
+      },
+      "divergence": {
+        "flag": false,
+        "reason": "Available public observations do not establish a material conflict on the same market proposition; missing evidence and source wording conflicts are not proof against the cohort hypothesis"
+      },
+      "uncertainty_action": "Preserve Defer; do not assign family/management premium, rent growth or lower exit yield. Raise evidence burden and required margin of safety without inventing a percentage.",
+      "finite_task": "Obtain permitted exact-unit plan/condition and effective price evidence, matched ordinary household lease/collections/renewals, actual MC charges/reserves/works and financeable net resale. Do not replace missing private evidence with more portal counts.",
+      "sources_status": "Public observations or historical evidence only; no inspection or realised validation",
+      "id": "R350",
+      "name": "East Lake Residence",
+      "tenant_task": "Household-sized whole-unit letting; professional/family/student capture unmeasured",
+      "substitutes": "Local whole-unit and shared-accommodation alternatives; school context alone does not demonstrate equivalence to Mont Kiara.",
+      "governance": {
+        "manager_association": "Historical2016/2017 MC event lead only",
+        "service_outcomes": "Unknown",
+        "reserves_arrears_accounts": "Unknown",
+        "works_and_special_assessment": "Unknown",
+        "charge": "300 combined proxy, not an invoice"
+      },
+      "unit": "1093sf three bedrooms plus historically advertised store; store not counted as bedroom. E-S1 tenure wording conflicts and parking unresolved; do not import one bay automatically from the2200 rental.",
+      "research_priority": "Live lower-capital challenger;330k lead held for title/bay/condition resolution",
+      "sources": [
+        "E-S1",
+        "E-R1",
+        "G-E1",
+        "C-E1",
+        "F-E09",
+        "F-E10"
+      ],
+      "financial_consequence": "330k/2000 is only slightly annual-positive under inherited assumptions.330k/2200 requires matching separate offers and resolving title/bays; no executable8% claim."
+    }
+  ]
+}

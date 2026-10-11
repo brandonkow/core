@@ -30,7 +30,17 @@ The [Eve/Maxim public validation packet](klang-valley-2026-10-07/round-3/privacy
 
 Fourteen source references, local whole-unit/shared counterexamples, price/rent/void/cost reversals and five-year investor-exit burdens are documented. Ninety financial evaluations passed model checks; these are not ninety market observations. The privacy premium, paid collections, actual fees/works and financeable transfers remain unresolved. Both cases remain G0 STOP / G9 Defer. No numerical privacy premium, new Core mechanism, map update or programme-count change.
 
-The bounded public pass has reached its stopping rule. Do not repeat portal searches to simulate private evidence. Reopen this pair on material unit/collection/cost/exit evidence; retain Eve first for that evidence and Maxim as challenger. **Next independent main-line packet: Pines with East Lake/Subang Avenue household-adoption and governance controls; then Zeva/Solstice tenant diversity and investor exit.** Brightwood remains paused. No background research is running.
+The bounded public pass has reached its stopping rule. Do not repeat portal searches to simulate private evidence. Reopen this pair on material unit/collection/cost/exit evidence; retain Eve first for that evidence and Maxim as challenger. The subsequent Pines/East Lake/Subang Avenue public pass is recorded below; Zeva/Solstice remains next. Brightwood remains paused. No background research is running.
+
+## 12 October family-adoption reopening
+
+The [Pines / East Lake / Subang Avenue public packet](klang-valley-2026-10-07/round-3/family-validation-2026-10-12/README.md) is complete. Pines stays first for family-adoption evidence; East Lake and Subang remain investment challengers. The original price/rent scenarios of 700k/3,800, 450k/2,500 and 350k/2,000 respectively produce annual cash of about -74, -295 and -737 under inherited costs. Family adoption, renewals, current MC funding and buyer depth remain unvalidated.
+
+New observations distinguish original-condition Pines 700k from furnished rent and 780k asks; Subang's 2,300 two-year / 2,400 one-year lease packages; an East Lake 330k furnished price lead held for conflicting tenure and unconfirmed bays; and JL Facilities' own Pines client listing. These are source observations, not accepted transactions or a management grade.
+
+49 financial evaluations and publication-preservation checks accompany the packet. No historical inputs, Core/SOP/map logic, old releases or programme counts change. All three remain G0 STOP / G9 Defer; MJ-F01 remains Unresolved. The bounded public stopping rule is reached.
+
+**Next independent main-line packet: Zeva versus Solstice**, testing captured tenant diversity, replacement demand and financeable investor exit. Reopen prior pairs only on material unit, collection, governance or resale evidence. Brightwood remains paused; no background task is running.
 
 ## User authority
 

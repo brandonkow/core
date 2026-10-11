@@ -1,0 +1,293 @@
+{
+  "packet": "FAMILY-ADOPTION-2026-10-12",
+  "baseline_commit": "67761c77408db4a8f6ed83a5ff762ce9f3428f89",
+  "preregistered_before_search": {
+    "date": "2026-10-12",
+    "baseline": "67761c77408db4a8f6ed83a5ff762ce9f3428f89",
+    "hypothesis": "MJ-F01 from committed 11 October packet",
+    "questions": [
+      "Does Pines capture actual family household adoption rather than merely advertise family-capable space?",
+      "Do East Lake/Subang Avenue have contrary whole-household offers, and does Pines also have shared accommodation?",
+      "Do identifiable net rent/price/works differences reverse the capital preference?"
+    ],
+    "rivals": [
+      "School ecosystem without project capture",
+      "Renovation and parking rather than durable family preference",
+      "Price and lower capital burden favour income controls",
+      "Good service reputation without funded reserves"
+    ],
+    "scope": "1268-sf Pines R315; 1021-sf Subang Avenue R342; 1093-sf East Lake R350. Neighbourhood and layout substitutes only as controls, not new coverage.",
+    "stop": "Bounded public offers, institutional context and governance search plus cash/exit/repair thresholds; do not substitute more portal counts for authenticated leases, renewals or MC accounts.",
+    "unchanged": "No Core/SOP/map/historical input edits; no rent growth or family/management premium assumed."
+  },
+  "historical_cases": [
+    {
+      "id": "R315",
+      "area_id": "A28",
+      "batch": "B04",
+      "name": "Mont Kiara Pines",
+      "sqft": 1268,
+      "layout": "3BR / 2BA marketed",
+      "price": 700000,
+      "rent_assumed": 3800,
+      "rent_low": 3200,
+      "rent_high": 4500,
+      "fee_assumed": 450,
+      "other_assumed": 250,
+      "refurb_assumed": 40000,
+      "evidence_dates": "30 September 2026 sale index; 10 September same-size rental index",
+      "retrievals": [
+        "004",
+        "015",
+        "023"
+      ],
+      "sale_source": "https://www.propertyguru.com.my/property-for-sale/at-mont-kiara-pines-602",
+      "rent_source": "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/at-mont-kiara-pines-602",
+      "source_note": "1268-sf3BR/one-bay sale700k and rent3800 are dated asking/index leads. Furnishing/floor not normalised. Nearby1260-sf3200 and renovated high asks are contrary observations; base3800 is not a lease.",
+      "mechanism": "Older useful family space can compete with a newer premium one-bedroom at lower capital cost; renovation and major works may consume the apparent income advantage.",
+      "buyer": "Family tenancy/ownership plus income-led resale are plausible, not measured. Compare OOAK compact, other mature Mont Kiara family stock and newly delivered Allevia by task.",
+      "project": "Historical age and unverified praise of management cannot settle liabilities. Primary MRT3 evidence does not support current Sri Hartamas rail access shown in portal copy.",
+      "comp": "A visible1292-sf700k April2026 transaction differs from1268sf; mixed19-record median is not a reference interval.",
+      "reversal": "At3200rent or higher charges the income lead weakens. A fully renovated premium rent cannot be combined with the cheapest unrefurbished purchase.",
+      "next": "Identify actual sale condition and fit-out/works budget, confirm matched ordinary3800leases and fees, normalise family transfers and test realistic school/work journeys.",
+      "hold": "Exact offer, approved plan, rent/costs and normalised clearing value unverified",
+      "g0": "STOP",
+      "g9": "Defer",
+      "price_status": "Advertised scenario, not executable net consideration",
+      "rent_status": "Whole-unit ordinary-rent working scenario, not authenticated collection",
+      "fee_status": "Unverified combined management/sinking proxy",
+      "cost_status": "Illustrative pre-tax allowances; actual quotes and specific charges missing"
+    },
+    {
+      "id": "R342",
+      "area_id": "A49",
+      "batch": "B07",
+      "catchment": "Subang Jaya–USJ–Sunway",
+      "name": "Subang Avenue",
+      "sqft": 1021,
+      "layout": "3BR/2BA",
+      "price": 450000,
+      "rent_assumed": 2500,
+      "fee_assumed": 323,
+      "other_assumed": 200,
+      "refurb_assumed": 35000,
+      "rent_low": 2300,
+      "rent_high": 2800,
+      "bays": 1,
+      "match": "Original/unfurnished sale versus furnished rent; 2500 rental header versus2600 body. Fee323 from different1021sf sale with inconsistent4BR/3BA label; proxy only.",
+      "price_source": "E10",
+      "rent_source": "E11",
+      "price_status": "Advertised figure for conditional analysis, not agreed net consideration or verified clearing price",
+      "rent_status": "Conditional long-term whole-unit scenario informed by asking evidence; not an achieved lease",
+      "fee_status": "Unverified combined management/sinking proxy; standard management-only test remains unverified",
+      "cost_status": "Illustrative allowances, pre-tax; property-specific costs and works not quoted",
+      "unit_identity": "No exact inspected parcel/title/approved plan; any advertised identity remains unauthenticated",
+      "g0": "STOP: unit-matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "quarantine": null
+    },
+    {
+      "batch": "B07",
+      "price_status": "Advertised conditional input; no accepted offer or normalised clearing price.",
+      "rent_status": "Ordinary whole-unit asking evidence; no signed lease or collections.",
+      "fee_status": "Unverified combined management/sinking proxy; management-only standard remains unauthenticated.",
+      "cost_status": "Planning allowances, pre-tax; actual charges, insurance, levies, taxes and works quotes missing.",
+      "unit_identity": "Exact parcel/title/plan/inspection not obtained.",
+      "g0": "STOP: matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "quarantine": null,
+      "id": "R350",
+      "area_id": "A48",
+      "catchment": "Serdang Perdana",
+      "name": "East Lake Residence family",
+      "sqft": 1093,
+      "layout": "3BR + store /2BA marketed; store not bedroom",
+      "price": 350000,
+      "rent_assumed": 2000,
+      "rent_low": 1750,
+      "rent_high": 2200,
+      "fee_assumed": 300,
+      "other_assumed": 200,
+      "refurb_assumed": 20000,
+      "bays": 1,
+      "price_source": "F-E09",
+      "rent_source": "F-E10",
+      "match": "FF sale and separateFF1093sf/one-bay one-year rent ask; olderApril2026 income. September2200 same-size index is an upside lead;1750 rental is1116sf and not identical. Sale index21Sep versus opened7Aug date drift.",
+      "thesis": "Mature family-sized stock can compete with compact investments at a moderate purchase quantum, subject to true recurring costs and lease replacement."
+    }
+  ],
+  "frozen_engine_sha256": "3ab25fc9d9c100dde0eb7240cada5f53df2b6585be52af9165d8930cd8a64b5a",
+  "basis": "Historical cases unchanged; advertised terms do not authenticate leases, accepted prices, title or condition. Cost inputs are inherited allowances.",
+  "scenarios": [
+    {
+      "label": "P_base",
+      "case_id": "R315"
+    },
+    {
+      "label": "S_base",
+      "case_id": "R342"
+    },
+    {
+      "label": "E_base",
+      "case_id": "R350"
+    },
+    {
+      "label": "P_rent3500",
+      "case_id": "R315",
+      "case_overrides": {
+        "rent_assumed": 3500
+      },
+      "sources": [
+        "P-R2"
+      ]
+    },
+    {
+      "label": "P_rent3200",
+      "case_id": "R315",
+      "case_overrides": {
+        "rent_assumed": 3200
+      },
+      "status": "Historical downside, not a new exact-unit rent"
+    },
+    {
+      "label": "P_rent4500",
+      "case_id": "R315",
+      "case_overrides": {
+        "rent_assumed": 4500
+      },
+      "status": "Historical upside; renovation and collection unverified"
+    },
+    {
+      "label": "P_price780_rent3800",
+      "case_id": "R315",
+      "case_overrides": {
+        "price": 780000
+      },
+      "sources": [
+        "P-S2",
+        "P-R1"
+      ],
+      "status": "Separate ads; no same-unit paired sale and rent"
+    },
+    {
+      "label": "P_price780_rent4500",
+      "case_id": "R315",
+      "case_overrides": {
+        "price": 780000,
+        "rent_assumed": 4500
+      },
+      "status": "Conditional upgrade price/rent; no achieved rent"
+    },
+    {
+      "label": "P_extra30k_refurb",
+      "case_id": "R315",
+      "case_overrides": {
+        "refurb_assumed": 70000
+      },
+      "status": "Illustrative total refurb70k, not a quote"
+    },
+    {
+      "label": "P_one_extra_paid_month",
+      "case_id": "R315",
+      "paid_months_per_year": 12,
+      "status": "Retention upside only; no collection evidence"
+    },
+    {
+      "label": "S_rent2300",
+      "case_id": "R342",
+      "case_overrides": {
+        "rent_assumed": 2300
+      },
+      "sources": [
+        "S-R1"
+      ],
+      "status": "Two-year advertised rate; no guaranteed renewal or collections"
+    },
+    {
+      "label": "S_rent2400",
+      "case_id": "R342",
+      "case_overrides": {
+        "rent_assumed": 2400
+      },
+      "sources": [
+        "S-R1"
+      ],
+      "status": "One-year advertised rate"
+    },
+    {
+      "label": "S_rent2600",
+      "case_id": "R342",
+      "case_overrides": {
+        "rent_assumed": 2600
+      },
+      "status": "Historical header/body conflict upside sensitivity"
+    },
+    {
+      "label": "E_rent2200",
+      "case_id": "R350",
+      "case_overrides": {
+        "rent_assumed": 2200
+      },
+      "sources": [
+        "E-R1"
+      ]
+    },
+    {
+      "label": "E_price330_rent2000",
+      "case_id": "R350",
+      "case_overrides": {
+        "price": 330000
+      },
+      "sources": [
+        "E-S1"
+      ],
+      "status": "Quarantined offer lead: title wording conflict; bay rights unconfirmed"
+    },
+    {
+      "label": "E_price330_rent2200",
+      "case_id": "R350",
+      "case_overrides": {
+        "price": 330000,
+        "rent_assumed": 2200
+      },
+      "sources": [
+        "E-S1",
+        "E-R1"
+      ],
+      "status": "Separate ads; title and bay mismatch risk; not an executable yield"
+    }
+  ],
+  "common_stresses": {
+    "rate5_5": {
+      "rate": 0.055
+    },
+    "rent_down20": {
+      "rent_factor": 0.8
+    },
+    "works30k_month24": {
+      "levy_month": 24,
+      "levy": 30000
+    },
+    "bank_value_down15": {
+      "valuation_ratio": 0.85
+    },
+    "term25": {
+      "term": 25
+    },
+    "exit_delay12": {
+      "months": 72
+    },
+    "unquoted_cost_buffer": {
+      "annual_extra_cost": 1200,
+      "exit_extra_cost": 5000
+    },
+    "combined12": {
+      "months": 12,
+      "rate": 0.055,
+      "rent_factor": 0.8,
+      "first_year_paid": 6,
+      "levy_month": 1,
+      "levy": 30000
+    }
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "packet": "FAMILY-ADOPTION-2026-10-12",
+  "evidence_cutoff": "2026-10-12",
+  "boundary": "Direct page text and search extracts only. No visual inspection, site visit, tenant census, executed lease, collections, MC account or lender authentication. Ads are not independent units until deduplicated; refresh dates do not measure absorption.",
+  "sources": [
+    {
+      "id": "P-S1",
+      "url": "https://www.propertyguru.com.my/property-listing/mont-kiara-pines-for-sale-by-law-wei-ching-500115806",
+      "kind": "direct advertised sale",
+      "access_date": "2026-10-12",
+      "source_date": "2026-09-30",
+      "observation": "RM700000;1268sf;3BR/2BA;unfurnished and original condition, renovation invited. Index advertises one bay.",
+      "limits": "No condition/works quote, original plan, title or bay rights authenticated. Furnished rent requires a different package. Advertised school distances and MRT wording not adopted."
+    },
+    {
+      "id": "P-S2",
+      "url": "https://www.propertyguru.com.my/property-listing/mont-kiara-pines-for-sale-by-dion-diong-501530239",
+      "kind": "direct advertised sale",
+      "access_date": "2026-10-12",
+      "source_date": "2026-10-09",
+      "observation": "RM780000;1268sf;3BR/2BA;fully furnished. Index advertises one bay.",
+      "limits": "Separate from rental records; no effective price, matched condition or proof this is the same physical unit as another advertiser's renovated offer."
+    },
+    {
+      "id": "P-R1",
+      "url": "https://www.propertyguru.com.my/property-listing/mont-kiara-pines-for-rent-by-st-chin-501917828",
+      "kind": "direct advertised whole-unit rent",
+      "access_date": "2026-10-12",
+      "source_date": "2026-10-07",
+      "observation": "RM3800 negotiable;1268sf;3BR/2BA;fully furnished. Body confirms monthly rent and complete household appliances.",
+      "limits": "No tenant family status, executed terms, parking count, collections, renewal or occupancy duration authenticated."
+    },
+    {
+      "id": "P-R2",
+      "url": "https://www.propertyguru.com.my/property-listing/mont-kiara-pines-for-rent-by-dion-diong-501612098",
+      "kind": "direct advertised whole-unit rent",
+      "access_date": "2026-10-12",
+      "source_date": "2026-10-07",
+      "observation": "RM3500;1268sf;3BR/2BA;fully furnished;one bay in index.",
+      "limits": "Like-size downside lead, not proven equal condition or achieved lower rent. No family composition or vacancy measurement."
+    },
+    {
+      "id": "P-R3",
+      "url": "https://www.propertyguru.com.my/property-listing/mont-kiara-pines-for-rent-by-lachman-mulchandani-501438665",
+      "kind": "direct listing with sale/rent body conflict",
+      "access_date": "2026-10-12",
+      "source_date": "2026-10-09",
+      "observation": "Header RM3800 rent; body offers an updated lower-floor1268sf unit for sale at RM780000, with kitchen/bath/flooring renovation.",
+      "limits": "Do not silently convert the body into a rental contract or count a same-unit paired yield. P-R1 separately supports an asking scenario, not a lease."
+    },
+    {
+      "id": "P-R4",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/mont-kiara-pines-untuk-disewa-oleh-dion-diong-502037415",
+      "kind": "search-index advertised upgraded rental; direct page not inspected",
+      "access_date": "2026-10-12",
+      "source_date": "2026-09-06 body; October index refresh",
+      "observation": "RM7000;1268sf;3BR/2BA;fully furnished and newly renovated advertised.",
+      "limits": "Retrieved dated September body and October index refresh are one lineage. No renovation budget, agreed lease or ordinary family rent. Excluded from base and upside numerical rent."
+    },
+    {
+      "id": "P-C1",
+      "url": "https://www.ibilik.com/room-rentals/019aeae4-41ee-72c2-91c8-a0da14701fef/middle-room-at-mont-kiara-kuala-lumpur-mont-kiara-pines",
+      "kind": "search-index room offer; direct opening failed",
+      "access_date": "2026-10-12",
+      "source_date": null,
+      "observation": "RM1200 from-price;150sf middle room/shared bathroom;advertiser reports two housemates and shared household facilities.",
+      "limits": "Date/year and current availability unresolved. Self-reported room operation only; not proof of current occupancy, student share, legal partition or dominant mode."
+    },
+    {
+      "id": "P-C2",
+      "url": "https://www.cozyhomes.my/property-details/2051/mont-kiara-pines/",
+      "kind": "historical agency record; later direct response redirects",
+      "access_date": "2026-10-12",
+      "source_date": null,
+      "observation": "Indexed record MKP001 shows1268sf,3BR/2BA,fully furnished,RM3300 and status rented; later opening returns a brand redirection page.",
+      "limits": "Unknown letting date and whether displayed ask equals agreed/collected rent. Not an authenticated achieved comparable or live offer."
+    },
+    {
+      "id": "S-S1",
+      "url": "https://www.propertyguru.com.my/property-listing/subang-avenue-for-sale-by-sean-lo-501889164",
+      "kind": "direct advertised sale",
+      "access_date": "2026-10-12",
+      "source_date": "2026-08-11",
+      "observation": "RM450000;1021sf;3BR/2BA;body one parking bay;unfurnished/original condition.",
+      "limits": "No net offer, fit-out quote, title or bay authentication. Do not count transport-icon number as parking count. Syndicated iProperty copies are one lineage."
+    },
+    {
+      "id": "S-R1",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/subang-avenue-untuk-disewa-oleh-calvin-hoh-502076479",
+      "kind": "direct advertised whole-unit lease packages",
+      "access_date": "2026-10-12",
+      "source_date": "2026-09-12",
+      "observation": "1021sf;3BR/2BA;fully furnished. Header2299;body RM2400 for one year or RM2300 for two years, with parking.",
+      "limits": "Different contract terms explain much of the price range; no agreed lease or guaranteed two-year collections. Parking count not stated in body; tenant type unknown."
+    },
+    {
+      "id": "E-S1",
+      "url": "https://www.propertyguru.com.my/property-listing/east-lake-residence-for-sale-by-michelle-loke-502000639",
+      "kind": "direct advertised sale; conflicting tenure text",
+      "access_date": "2026-10-12",
+      "source_date": "2026-09-25",
+      "observation": "RM330000;1093sf;3BR/2BA;fully furnished. Metadata says leasehold; headline says freehold. Bay count not authenticated.",
+      "limits": "Quarantined price lead. Title, lease expiry, bay rights, condition and availability unresolved. No tenure premium or upcoming-rail uplift adopted."
+    },
+    {
+      "id": "E-R1",
+      "url": "https://www.propertyguru.com.my/property-listing/east-lake-residence-for-rent-by-michelle-loke-502000649",
+      "kind": "direct advertised whole-unit rent",
+      "access_date": "2026-10-12",
+      "source_date": "2026-09-24",
+      "observation": "RM2200;1093sf;3BR/2BA;fully furnished;one dedicated parking spot;available1October;marketed to professionals.",
+      "limits": "Whole-unit offer is not actual family adoption or professional occupancy. Separate sale cannot be assumed to be this unit. Management/developer praise is promotional."
+    },
+    {
+      "id": "G-P1",
+      "url": "https://www.jlfacilities.com/",
+      "kind": "manager's own public client page",
+      "access_date": "2026-10-12",
+      "source_date": null,
+      "observation": "Mont Kiara Pines appears under Our Clients.",
+      "limits": "Supports a management-company association claim only. Undated contract, current service KPIs, collection rate, reserves, audit and works budget not provided."
+    },
+    {
+      "id": "G-E1",
+      "url": "https://www.ongmaju.com/?m=201701",
+      "kind": "historical manager blog search extract; later page fetch inconsistent",
+      "access_date": "2026-10-12",
+      "source_date": "January2017 archive",
+      "observation": "Search extract describes an East Lake MC staff-appreciation event at2016year-end.",
+      "limits": "Historical activity, not current governance quality. Adjacent AGM/audit text relates to Avelon Tower and must not be attributed to East Lake."
+    },
+    {
+      "id": "C-P1",
+      "url": "https://www.mkis.edu.my/why-choose-mkis",
+      "kind": "official school institutional page",
+      "access_date": "2026-10-12",
+      "source_date": null,
+      "observation": "International-school ecosystem at22JalanKiara,MontKiara.",
+      "limits": "No Pines tenant/student allocation, school journey audit, family occupancy or buyer premium. School existence alone does not measure project capture."
+    },
+    {
+      "id": "C-E1",
+      "url": "https://aism.edu.my/contact-us/",
+      "kind": "official school location page",
+      "access_date": "2026-10-12",
+      "source_date": null,
+      "observation": "AISM locates its campus at22JalanAnggerik,TheMINESResortCity,SeriKembangan.",
+      "limits": "International-school context is not exclusive to Mont Kiara. Does not prove East Lake access quality, enrolment capture or equivalence of the two ecosystems."
+    }
+  ],
+  "historical_sources": [
+    {
+      "id": "F-E09",
+      "url": "https://www.edgeprop.my/listing/sale/4106097/east-lake-residence-for-sale-by-kenix",
+      "source_type": "listing",
+      "source_date": "Opened2026-08-07; search snapshot2026-09-21",
+      "retrieved": "2026-10-08",
+      "access": "Opened full listing",
+      "observations": "RM350000;1093sf;FF;one bay;header3+1/body3BR2BA plus store;leasehold claimed.",
+      "limits": "Store is not an approved bedroom. Date drift is one lineage, not two offers. Exact title/expiry/layout and furnishings unverified.",
+      "refresh_status": "Retained historical8October evidence; not newly authenticated on12October"
+    },
+    {
+      "id": "F-E10",
+      "url": "https://www.propertyguru.com.my/property-listing/east-lake-residence-for-rent-by-erik-oh-35214357",
+      "source_type": "listing",
+      "source_date": "2026-04-03",
+      "retrieved": "2026-10-08",
+      "access": "Indexed full advertisement",
+      "observations": "RM2000/month;1093sf;3BR2BA;FF;one bay;one-year term advertised.",
+      "limits": "Older ask, different unit; syndicated copy is one lineage. Incorrect MRT3/Serdang Jaya label excluded from transport evidence.",
+      "refresh_status": "Retained historical8October evidence; not newly authenticated on12October"
+    }
+  ],
+  "excluded_or_downgraded": [
+    {
+      "url": "https://www.propertyguru.com.my/property-listing/mont-kiara-pines-for-sale-by-barry-teh-501593573",
+      "reason": "RM700k fully furnished search record redirected to project index; not substituted for original-condition P-S1."
+    },
+    {
+      "url": "https://www.iproperty.com.my/property/subang-jaya/subang-avenue/rent-501955624/",
+      "reason": "Older whole-unit2500/2600 lead failed direct retrieval; PropertyGuru copy redirected. Keep historical scenario separate; no refreshed achieved rent."
+    },
+    {
+      "url": "https://www.edgeprop.my/listing/rental/3251268/subang-avenue-for-rent-by-muhammad-taufeeq-zulkifly",
+      "reason": "June renovated2999/3000 search lead redirects to index; not a current executable3000lease."
+    },
+    {
+      "url": "https://homelore.homes/building/mont-kiara-pines",
+      "reason": "Undated derivative RM4m sinking-fund refurbishment narrative lacks an authenticated current underlying account. No reserve balance or management grade adopted."
+    },
+    {
+      "url": "https://www.vestasia.com/sg/projects/subang",
+      "reason": "Mall advisory/management scope cannot establish residential MC financial health."
+    },
+    {
+      "url": "https://speedhome.com/rent/subang-avenue/room",
+      "reason": "Project-named page lists other buildings and future availability; totals cannot measure Subang Avenue room occupancy."
+    },
+    {
+      "url": "https://www.propertyguru.com.my/condo/east-lake-residence-1463/reviews",
+      "reason": "Anonymous reviews are unverified, non-representative tenure/tenant/management anecdotes."
+    },
+    {
+      "item": "Forum nationality descriptions and generic development boilerplate",
+      "reason": "Not evidence of tenant quality, collection behaviour, family suitability or governance. No discriminatory proxy adopted."
+    },
+    {
+      "item": "Repeated same-agent/index results and dates",
+      "reason": "No independent-unit census, inventory absorption, price trend or regional mode share inferred."
+    }
+  ]
+}
