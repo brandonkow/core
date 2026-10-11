@@ -1,0 +1,265 @@
+{
+  "packet": "EVE-MAXIM-PRIVACY-2026-10-12",
+  "baseline_commit": "904574c38b6ecb57ef320f110d3b01bafe85951d",
+  "preregistered_before_search": {
+    "date": "2026-10-11",
+    "baseline": "904574c38b6ecb57ef320f110d3b01bafe85951d",
+    "hypothesis": "MJ-P01 already recorded on main before this investigation",
+    "scope": "Eve 680-sf whole compact and Maxim 825-sf 2BR, with local accommodation controls",
+    "questions": [
+      "Does exclusive compact accommodation command a repeatable net premium after package matching?",
+      "What price/rent/cost differences reverse cash and return preference?",
+      "Does the future buyer support the exit burden under no growth and tighter credit?"
+    ],
+    "evidence_priority": "Dated identifiable sale/rent offers and public transaction records, followed by local controls; never equate advertisements to paid leases",
+    "stop": "Complete one bounded public evidence packet and numerical rank/exit sensitivity; stop active searching if private collection, occupancy or governance evidence is unavailable rather than repeat portal searches",
+    "constraints": "No contact, paid data, booking or purchase. No Core/SOP/old input changes. Missing achieved rent is not negative demand evidence.",
+    "counterexamples": [
+      "whole-unit Cheras household demand",
+      "room/shared use in Ara",
+      "Eve premium consumed by furnishing, fees or void",
+      "Maxim cheaper price and extra room improve net economics"
+    ],
+    "forecast_policy": "No assumed privacy premium or growth; all new ranges are ask-derived sensitivities with material uncertainty."
+  },
+  "historical_cases": [
+    {
+      "id": "KV01",
+      "batch": "B01",
+      "catchment": "Connaught–Len Seng",
+      "name": "Maxim Residences",
+      "sqft": 825,
+      "layout": "2BR/2BA",
+      "price": 380000,
+      "rent_assumed": 2000,
+      "fee_assumed": 300,
+      "other_assumed": 200,
+      "refurb_assumed": 20000,
+      "rent_low": 1800,
+      "rent_high": 2200,
+      "bays": 1,
+      "match": "Partly furnished sale; fully furnished rental scenario",
+      "price_source": "E01",
+      "rent_source": "E02",
+      "diagnostic_source": "E03",
+      "selection_reason": "Standard coverage test; small household exit competing with larger local stock",
+      "price_status": "advertised consideration; not agreed or verified effective price",
+      "rent_status": "scenario informed by asking rents; not achieved rent",
+      "fee_status": "unverified combined management/sinking proxy; management-only standard unverified",
+      "cost_status": "illustrative allowance; actual quote and taxes pending",
+      "g0": "STOP: matched effective clearing interval unvalidated",
+      "g9": "Defer"
+    },
+    {
+      "id": "R306",
+      "area_id": "A22",
+      "batch": "B03",
+      "name": "Eve Suite compact",
+      "sqft": 680,
+      "layout": "studio / 1BR marketed",
+      "price": 390000,
+      "rent_assumed": 2000,
+      "rent_low": 1800,
+      "rent_high": 2200,
+      "fee_assumed": 280,
+      "other_assumed": 180,
+      "refurb_assumed": 15000,
+      "evidence_dates": "2026-08-23 sale; September 2026 rent index",
+      "sale_source": "https://www.propertyguru.com.my/property-listing/eve-suite-nzx-square-for-sale-by-lewis-tam-501963404",
+      "rent_source": "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/at-eve-suite-nzx-square-2080",
+      "retrievals": [
+        "052",
+        "053",
+        "076"
+      ],
+      "source_note": "Sale is fully furnished, one bay, header 1+1 versus body 1BR. Historical product record calls 680-sf stock studios. Base rent is an asking-informed whole-unit assumption, not a signed lease.",
+      "mechanism": "A lower entry quantum may monetise Ara accessibility for small households without family-sized acquisition cost.",
+      "buyer": "Primary resale underwriting is investor-led. Single/couple owner adoption is possible but unmeasured. Pacific Place 864-sf two-bedroom and Eve 1065-sf two-bedroom compete on different space/price tradeoffs.",
+      "project": "Historic studio-heavy mix increases correlated small-unit competition; it does not establish current investor ownership or vacancy. No MC records inspected.",
+      "comp": "Brickz reports 18 mixed transactions in May 2025-April 2026; a visible 689-sf/3-room RM364k row cannot be treated as an exact 680-sf studio match.",
+      "reversal": "At assumed costs the low-rent case fails monthly coverage; even base coverage can coexist with negative annual carry. A small charge or net-rent difference can reverse the lead.",
+      "next": "Resolve approved room/area and bay rights; obtain ordinary leases near RM2k and charges; test a matched compact transfer and current competing inventory. Reopen priority only if this changes the financial or exit burden.",
+      "g0": "STOP: no unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "price_status": "Advertised/indexed or unresolved price scenario; not executable consideration",
+      "rent_status": "Whole-unit ordinary-rent scenario; no achieved lease authenticated",
+      "fee_status": "Unverified combined service/sinking proxy",
+      "cost_status": "Analyst allowances; pre-tax, transaction-specific quotes unavailable",
+      "hold": "Exact unit, price/condition and rent unverified"
+    }
+  ],
+  "basis": "Historical inputs unchanged. Alternative prices and rents are conditional sensitivities, not accepted offers, collected rents, fair values or purchase ceilings.",
+  "scenarios": [
+    {
+      "label": "M_base",
+      "case_id": "KV01"
+    },
+    {
+      "label": "E_base",
+      "case_id": "R306"
+    },
+    {
+      "label": "E_370k_2000",
+      "case_id": "R306",
+      "case_overrides": {
+        "price": 370000
+      },
+      "source_ids": [
+        "ES2",
+        "ER1"
+      ]
+    },
+    {
+      "label": "E_370k_2200",
+      "case_id": "R306",
+      "case_overrides": {
+        "price": 370000,
+        "rent_assumed": 2200
+      },
+      "source_ids": [
+        "ES2"
+      ],
+      "status": "2200 is an upside sensitivity; no matched achieved evidence"
+    },
+    {
+      "label": "E_390k_2100",
+      "case_id": "R306",
+      "case_overrides": {
+        "rent_assumed": 2100
+      },
+      "source_ids": [
+        "ER2"
+      ],
+      "status": "Header/body asking conflict; not a rent upgrade"
+    },
+    {
+      "label": "E_390k_2200",
+      "case_id": "R306",
+      "case_overrides": {
+        "rent_assumed": 2200
+      },
+      "status": "Upside sensitivity"
+    },
+    {
+      "label": "E_410k_2000",
+      "case_id": "R306",
+      "case_overrides": {
+        "price": 410000
+      },
+      "status": "Premium sensitivity, no executable offer"
+    },
+    {
+      "label": "E_410k_2200",
+      "case_id": "R306",
+      "case_overrides": {
+        "price": 410000,
+        "rent_assumed": 2200
+      },
+      "status": "Premium and rent sensitivity"
+    },
+    {
+      "label": "E_2100_one_extra_void_each_year",
+      "case_id": "R306",
+      "case_overrides": {
+        "rent_assumed": 2100
+      },
+      "paid_months_per_year": 10
+    },
+    {
+      "label": "E_one_less_void_each_year",
+      "case_id": "R306",
+      "paid_months_per_year": 12
+    },
+    {
+      "label": "E_additional_refurb10k",
+      "case_id": "R306",
+      "case_overrides": {
+        "refurb_assumed": 25000
+      }
+    },
+    {
+      "label": "M_2500_two_bay_ad_is_not_base",
+      "case_id": "KV01",
+      "case_overrides": {
+        "rent_assumed": 2500
+      },
+      "source_ids": [
+        "MR2"
+      ],
+      "status": "Unmatched two-bay asking sensitivity only; second-bay acquisition rights/cost not modelled"
+    },
+    {
+      "label": "E_fee_plus100",
+      "case_id": "R306",
+      "case_overrides": {
+        "fee_assumed": 380
+      }
+    },
+    {
+      "label": "M_fee_plus100",
+      "case_id": "KV01",
+      "case_overrides": {
+        "fee_assumed": 400
+      }
+    }
+  ],
+  "common_stresses": {
+    "rate_5_5": {
+      "rate": 0.055
+    },
+    "rent_down20": {
+      "rent_factor": 0.8
+    },
+    "works30k_month24": {
+      "levy_month": 24,
+      "levy": 30000
+    },
+    "bank_value_down15": {
+      "valuation_ratio": 0.85
+    },
+    "term25": {
+      "term": 25
+    },
+    "exit_delay12": {
+      "months": 72
+    },
+    "unquoted_cost_buffer": {
+      "annual_extra_cost": 1200,
+      "exit_extra_cost": 5000
+    },
+    "combined_12months": {
+      "months": 12,
+      "rate": 0.055,
+      "rent_factor": 0.8,
+      "first_year_paid": 6,
+      "levy_month": 1,
+      "levy": 30000
+    },
+    "other_cost_plus100": {
+      "annual_extra_cost": 1200
+    }
+  },
+  "grid": {
+    "eve_prices": [
+      370000,
+      390000,
+      410000
+    ],
+    "eve_rents": [
+      1800,
+      2000,
+      2200
+    ],
+    "maxim_rents": [
+      1800,
+      2000,
+      2200
+    ]
+  },
+  "gross_exit_yields": [
+    0.06,
+    0.07,
+    0.08
+  ],
+  "frozen_engine_sha256": "3ab25fc9d9c100dde0eb7240cada5f53df2b6585be52af9165d8930cd8a64b5a"
+}

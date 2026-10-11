@@ -1,0 +1,98 @@
+{
+  "release": "EVE-MAXIM-PRIVACY-2026-10-12",
+  "baseline_commit": "904574c38b6ecb57ef320f110d3b01bafe85951d",
+  "baseline_tree": "12a6f66430975ecc726c03bab99a6bc94991540f",
+  "historical_programme_cutoff": "2026-10-08",
+  "research_window": "2026-10-11/2026-10-12",
+  "new_case_ids": [],
+  "decision_changes": [],
+  "core_changes": false,
+  "sop_changes": false,
+  "map_changes": false,
+  "historical_file_count": 688,
+  "allowed_modified_paths": [
+    "CURRENT_WORKFLOW.md",
+    "README.md"
+  ],
+  "allowed_new_directory": "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/",
+  "payload": {
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/Evidence_Ledger.json": {
+      "sha256": "6f37fa781cab4d05200e002591461ac48bf39fa467ffc84fb8ed142fc044eb34",
+      "git_blob": "d1cac4ad7468a99bb3423ae89c41f3f3fdb73fdc",
+      "bytes": 11668
+    },
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/Financial_Inputs.json": {
+      "sha256": "affb654f204bf713d1e05a5a98d0a7828f740f878bce950ebb06787191e5c0ac",
+      "git_blob": "f8a04dd6e5ea1bab98d1fa891030b35b7af679bd",
+      "bytes": 9007
+    },
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/Financial_Results.json": {
+      "sha256": "f1b0c4ebcc3a38ef5500e533efc10fabe758195727f2810a557bfda63b2f1447",
+      "git_blob": "9c5084c4d63307ab1273078893a31af7ab009e34",
+      "bytes": 58707
+    },
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/reproduce.py": {
+      "sha256": "2dc47cb64ac47ffae896d30e84700c6f93a86899a19bcc194b5c6a79c71a5ba5",
+      "git_blob": "ce71efc4f398c16f1e0a0a9735392a7a168fb809",
+      "bytes": 7244
+    },
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/README.md": {
+      "sha256": "0a437a3f76e91611e9cdf29f04fd0123a46f393080cecae4243cc0fc113030d6",
+      "git_blob": "05d5c7cb6d7e0bedecb3f40dd357f99bec8b4f9a",
+      "bytes": 14464
+    },
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/Case_Status.json": {
+      "sha256": "8df30e025b12a86196dc24f48d6fc208b378ea13f4fd55108128a5e0c5616c9d",
+      "git_blob": "d2d943f750cef145f1e8fc1616ae78fba7448c0b",
+      "bytes": 7746
+    },
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/Investigation_and_Misses.md": {
+      "sha256": "b2dfce61095d34c74b8d3dcca70dc438993a612b358ff5439dbfb59aa2e5bcb1",
+      "git_blob": "e25f6a46322861dbf7e57b9f87017d39ded84e9a",
+      "bytes": 8823
+    },
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/Verification.md": {
+      "sha256": "6d796a3747878ec0ed2677ea05cedc7afd98ed29b193eada3d46ade3f0b6e6f3",
+      "git_blob": "59ac33bcef8e875016b291ac64bcb42c35c439a4",
+      "bytes": 3710
+    },
+    "CURRENT_WORKFLOW.md": {
+      "sha256": "81d6cd33f74c741ef9e451d2f696662bbdcde1a980cb38555340847240395206",
+      "git_blob": "507f41a1b3c8d70087acdbbd765ff8be972daf16",
+      "bytes": 7127
+    },
+    "README.md": {
+      "sha256": "79cc99563aedb1644b97b4b4da865024d97fb5ce2d0e9b684f6ec78ee4caddb6",
+      "git_blob": "e147013b419bc3f34e30b3001442835edf8ba96d",
+      "bytes": 11339
+    }
+  },
+  "manifest_hash_policy": "Manifest excludes itself; Git commit/tree pins it and every payload.",
+  "protected_git_blobs": {
+    "Residential_Investment_Framework.md": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+    "execution-release-2026-10-07/financial_engine.py": "2fa3554d4b1358795d658efefe270ac53f27bbda",
+    "execution-release-2026-10-07/financial_config.json": "3e17c91823b093aa66f0930b2c012510d3b4528f",
+    "visualization/Decision_Engine_Neural_Map.html": "ebc6bd206ee10aa4d6a13eca12aa738b78d0d286",
+    "sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md": "bb223fcae99fd2247838bdbf51672d0e52e68df2",
+    "klang-valley-2026-10-07/round-3/programme-final/Inputs.json": "c892fe220959f8d74d54d7c6f54cf14bfdd91c43"
+  },
+  "checks": {
+    "financial": {
+      "financial_runs_checked": 90,
+      "identity_checks": "closed amortisation, principal conservation, zero-profit exit, independent interest-cost identity, discounted hurdle",
+      "annual_neutral_roots": "passed",
+      "rank_reversal": "passed",
+      "standard_baseline_invariance": "passed",
+      "baseline_monthly_positive_annual_negative": "passed",
+      "flat_exit_losses": "passed"
+    },
+    "relative_links": "passed",
+    "json_parse": "passed",
+    "change_allowlist": "passed",
+    "market_validation": "Not established",
+    "g0": "STOP",
+    "g9": "Defer",
+    "hypothesis": "MJ-P01 Unresolved"
+  },
+  "publication_protocol": "Create tree on verified base; compare all existing blob hashes outside two navigation files; verify new payload blob hashes and commit changed-path set; main expected-head CAS with force false; verify remote head and compare. No branch or local clone."
+}

@@ -1,0 +1,152 @@
+{
+  "date": "2026-10-12",
+  "historical_programme_cutoff": "2026-10-08",
+  "coverage_change": 0,
+  "deploy_change": 0,
+  "cases": [
+    {
+      "hypothesis": "MJ-P01",
+      "hypothesis_status": "Unresolved",
+      "g0": "STOP: no authenticated matched effective clearing interval",
+      "g9": "Defer",
+      "authenticated_premium": null,
+      "rent_evidence": {
+        "advertised": "Source-linked offers only",
+        "agreed": "Unknown",
+        "collected": "Unknown",
+        "renewed": "Unknown",
+        "paid_months": "Eleven is an inherited scenario, not an observed collection rate"
+      },
+      "tenant_income_and_mode_share": "Unknown; neither equal incomes nor area-wide housing preferences measured",
+      "family_adoption": {
+        "physical_capacity": "Advertised layout only",
+        "actual_family_occupancy": "Unknown",
+        "renewals": "Unknown",
+        "owner_occupier_adoption": "Unknown"
+      },
+      "governance": {
+        "service_outcomes": "Unknown",
+        "funding_and_reserves": "Unknown",
+        "arrears": "Unknown",
+        "capital_works": "Unknown",
+        "management_only_charge": "Unknown; model uses combined fee proxy"
+      },
+      "demand_concentration": {
+        "actual_tenant_sources": "Unknown",
+        "functional_access": "No verified door-to-destination routes",
+        "structural_change": "No quantified dated rent transmission established in this packet"
+      },
+      "investor_exit": {
+        "eligible": true,
+        "financing_acceptance": "Unknown",
+        "matched_net_resales": "Unknown",
+        "required_sale": "See conditional five-year results; not supported market value"
+      },
+      "divergence_flag": {
+        "activated": false,
+        "reason": "No authenticated material same-proposition contradiction. Missing paid evidence and differing financial measures do not alone constitute divergence."
+      },
+      "financial_action": "Historical inputs unchanged; new scenarios isolated in this dated packet",
+      "uncertainty_action": "No premium, growth or yield compression credited. Higher evidence burden; no numeric margin-of-safety calibration invented.",
+      "finite_evidence_task": "Authenticate effective unit/price, approved configuration, like-package collections, charge/works records and matched financeable transfers through authorised evidence access. Stop at Defer if unavailable; do not request routine facts from the Senior Market Red Team.",
+      "id": "R306",
+      "name": "Eve Suite compact",
+      "research_priority": "First within this pair; prioritise ES2 RM370k one-bay lead without assigning a privacy premium",
+      "sources": [
+        "ES1",
+        "ES2",
+        "ES3",
+        "ER1",
+        "ER2",
+        "LC1",
+        "LC2",
+        "LC3",
+        "LC4",
+        "BT-E"
+      ],
+      "tenant_task": "Single/couple or other small household seeking exclusive ordinary accommodation; target cohort is a hypothesis, not an observed census",
+      "feasible_substitutes": "Whole compact, Pacific Place whole two-bedroom, Eve larger whole unit and shared-room packages; budgets/commutes not fully matched",
+      "privacy": {
+        "advertised": "Compact with full household furnishing/equipment; intended exclusive occupancy",
+        "entrance_and_circulation": "Unknown",
+        "kitchen_bath_laundry_exclusivity": "Suggestive advertisement, not approved-plan/physical verification",
+        "visual_and_acoustic": "Unknown",
+        "unrelated_co_residents": "Not observed",
+        "visitor_rules": "Unknown",
+        "utilities_and_metering": "Unverified",
+        "parking": "One bay in ES2 and baseline; ES3 advertises two, kept separate",
+        "lawful_form": "No original-plan/title verification; not assumed dual-key or partitioned"
+      },
+      "next_material_change": "An executable like-condition lower entry price, sustained collected rent, fewer voids, lower actual costs or supported exit; any one requires dated evidence and full rerun"
+    },
+    {
+      "hypothesis": "MJ-P01",
+      "hypothesis_status": "Unresolved",
+      "g0": "STOP: no authenticated matched effective clearing interval",
+      "g9": "Defer",
+      "authenticated_premium": null,
+      "rent_evidence": {
+        "advertised": "Source-linked offers only",
+        "agreed": "Unknown",
+        "collected": "Unknown",
+        "renewed": "Unknown",
+        "paid_months": "Eleven is an inherited scenario, not an observed collection rate"
+      },
+      "tenant_income_and_mode_share": "Unknown; neither equal incomes nor area-wide housing preferences measured",
+      "family_adoption": {
+        "physical_capacity": "Advertised layout only",
+        "actual_family_occupancy": "Unknown",
+        "renewals": "Unknown",
+        "owner_occupier_adoption": "Unknown"
+      },
+      "governance": {
+        "service_outcomes": "Unknown",
+        "funding_and_reserves": "Unknown",
+        "arrears": "Unknown",
+        "capital_works": "Unknown",
+        "management_only_charge": "Unknown; model uses combined fee proxy"
+      },
+      "demand_concentration": {
+        "actual_tenant_sources": "Unknown",
+        "functional_access": "No verified door-to-destination routes",
+        "structural_change": "No quantified dated rent transmission established in this packet"
+      },
+      "investor_exit": {
+        "eligible": true,
+        "financing_acceptance": "Unknown",
+        "matched_net_resales": "Unknown",
+        "required_sale": "See conditional five-year results; not supported market value"
+      },
+      "divergence_flag": {
+        "activated": false,
+        "reason": "No authenticated material same-proposition contradiction. Missing paid evidence and differing financial measures do not alone constitute divergence."
+      },
+      "financial_action": "Historical inputs unchanged; new scenarios isolated in this dated packet",
+      "uncertainty_action": "No premium, growth or yield compression credited. Higher evidence burden; no numeric margin-of-safety calibration invented.",
+      "finite_evidence_task": "Authenticate effective unit/price, approved configuration, like-package collections, charge/works records and matched financeable transfers through authorised evidence access. Stop at Defer if unavailable; do not request routine facts from the Senior Market Red Team.",
+      "id": "KV01",
+      "name": "Maxim Residences",
+      "research_priority": "Immediate challenger; retain one-bay whole-unit comparator and investigate rather than import unmatched RM2500",
+      "sources": [
+        "MS1",
+        "MR1",
+        "MR2",
+        "BT-M"
+      ],
+      "tenant_task": "Small household renting an entire two-bedroom unit; shared/room models are separate expressions and not required by location",
+      "feasible_substitutes": "Existing local whole-unit and room alternatives in historical KV01 plus R306 as a capital-allocation rival, not a valuation comparable",
+      "privacy": {
+        "advertised": "Whole 825-sf two-bedroom/two-bath household unit",
+        "entrance_and_circulation": "Unknown",
+        "kitchen_bath_laundry_exclusivity": "Whole-unit intended use; actual lease/plan unverified",
+        "visual_and_acoustic": "Unknown",
+        "unrelated_co_residents": "Not observed; two bedrooms do not imply strangers sharing",
+        "visitor_rules": "Unknown",
+        "utilities_and_metering": "Unverified",
+        "parking": "One bay in MS1/MR1; two in MR2, not cross-paired",
+        "lawful_form": "Original layout and actual changes not authenticated"
+      },
+      "next_material_change": "Like-for-like higher net collections, a lower effective price, lower costs or stronger funded exit can reverse the Eve research preference"
+    }
+  ]
+}

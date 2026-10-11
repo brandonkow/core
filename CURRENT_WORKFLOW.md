@@ -1,6 +1,6 @@
 # Current workflow and continuation
 
-Updated: 11 October 2026. Market evidence cutoff: 8 October 2026. Canonical repository: https://github.com/brandonkow/core .
+Updated: 12 October 2026. Historical programme evidence cutoff: 8 October 2026; targeted reopening evidence: 11-12 October 2026. Canonical repository: https://github.com/brandonkow/core .
 
 ## Current status
 
@@ -23,6 +23,14 @@ The [new packet](klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/READ
 Latest user sequencing: put the Brightwood side task aside and return to the main programme. The [paused continuation](side-investigations/2026-10-11-brightwood/PAUSED_CONTINUATION.md) retains its scope and preliminary work. Accept the user's project/site premise when it resumes and focus on investment attractiveness, not further identity investigation. It does not add to programme coverage.
 
 The main programme's desk research, cross-region conclusions and approved insight integration are complete. The substantive next stage remains targeted investment-readiness evidence: Eve/Maxim privacy and collected net income; Pines with East Lake/Subang Avenue household-adoption controls; Zeva/Solstice tenant concentration and financeable investor exit. The seven overlays remain Unresolved / Defer. No purchase-ready shortlist or realised validation is claimed, and no broad-area restart is required.
+
+## 12 October targeted Eve/Maxim reopening
+
+The [Eve/Maxim public validation packet](klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/README.md) is complete. A one-bay 680-sf Eve RM370k advertised sale is a new research lead, not an authenticated effective price. Historical R306/KV01 inputs remain unchanged. At their original prices and RM2,000 assumed rent, annual cash differs by only RM1.80 and both are about RM2,170 negative despite positive simplified monthly coverage.
+
+Fourteen source references, local whole-unit/shared counterexamples, price/rent/void/cost reversals and five-year investor-exit burdens are documented. Ninety financial evaluations passed model checks; these are not ninety market observations. The privacy premium, paid collections, actual fees/works and financeable transfers remain unresolved. Both cases remain G0 STOP / G9 Defer. No numerical privacy premium, new Core mechanism, map update or programme-count change.
+
+The bounded public pass has reached its stopping rule. Do not repeat portal searches to simulate private evidence. Reopen this pair on material unit/collection/cost/exit evidence; retain Eve first for that evidence and Maxim as challenger. **Next independent main-line packet: Pines with East Lake/Subang Avenue household-adoption and governance controls; then Zeva/Solstice tenant diversity and investor exit.** Brightwood remains paused. No background research is running.
 
 ## User authority
 
