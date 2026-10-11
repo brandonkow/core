@@ -4,7 +4,7 @@ Interactive framework: [Decision Engine Neural Map](https://brandonkow.github.io
 
 Project repository: [brandonkow/core](https://github.com/brandonkow/core), designated by the user on7October2026 for GitHub-only retention. Future framework and generated research files belong here. This directory structure is preserved at repository root. The user subsequently suspended local cleanup: existing local files are left alone, and all new project files and updates go to GitHub. Cleanup no longer blocks research. See [current workflow](CURRENT_WORKFLOW.md) for the latest instruction and REPOSITORY_TRANSFER.md for historical transfer verification.
 
-Latest sequencing instruction: all updates go directly to main, with no other branch. Complete all-area underwriting and programme integration before independently assessing whether the decision map needs updating. Current map files remain preserved during underwriting; the programme is now desk-complete and map assessment is the next step.
+Latest sequencing instruction: all updates go directly to main, with no other branch. Complete all-area underwriting and programme integration before independently assessing whether the decision map needs updating. The programme is desk-complete. The [11 October map assessment](klang-valley-2026-10-07/round-3/programme-final/Map_Assessment_2026-10-11.md) concludes that the existing framework map should remain unchanged.
 
 ## Authoritative framework entry point
 
@@ -34,7 +34,7 @@ Current programme status, 8 October 2026: **bounded all-area public desk underwr
 
 Read the [cross-region comparison](klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md), [complete case/area register](klang-valley-2026-10-07/round-3/programme-final/Case_and_Area_Register.md), [financial underwriting](klang-valley-2026-10-07/round-3/programme-final/Financial_Underwriting.md), [portfolio/terminal stress](klang-valley-2026-10-07/round-3/programme-final/Portfolio_and_Terminal_Risk.md), [completion audit](klang-valley-2026-10-07/round-3/programme-final/Programme_Completion_Audit.md), [verification](klang-valley-2026-10-07/round-3/programme-final/Verification_Report.md) and [continuation](klang-valley-2026-10-07/round-3/programme-final/RESUME_AND_COMPLETION.md).
 
-**56 expressions cover the simplified monthly standard; only five have positive annual base carry, all materially held.** No numerical count is a cleared shortlist. Existing regional syntheses, sources, gate workpapers, scenarios and misses remain intact. The next step is to assess whether the decision map needs a dated status/navigation update. Read [current workflow](CURRENT_WORKFLOW.md) and [round 3 navigation](klang-valley-2026-10-07/round-3/README.md).
+**56 expressions cover the simplified monthly standard; only five have positive annual base carry, all materially held.** No numerical count is a cleared shortlist. Existing regional syntheses, sources, gate workpapers, scenarios and misses remain intact. The [post-underwriting assessment](klang-valley-2026-10-07/round-3/programme-final/Map_Assessment_2026-10-11.md) confirms that the map's existing framework scope and logic should remain unchanged. Read [current workflow](CURRENT_WORKFLOW.md) and [round 3 navigation](klang-valley-2026-10-07/round-3/README.md).
 
 The following sections describe historical releases and their completion limits at those dates. Their old remaining-work counts are superseded by the current register above.
 

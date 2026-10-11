@@ -1,6 +1,6 @@
 # Current workflow and continuation
 
-Updated: 8 October 2026. Canonical repository: https://github.com/brandonkow/core .
+Updated: 11 October 2026. Market evidence cutoff: 8 October 2026. Canonical repository: https://github.com/brandonkow/core .
 
 ## Current status
 
@@ -8,11 +8,11 @@ Updated: 8 October 2026. Canonical repository: https://github.com/brandonkow/cor
 
 Start with the [programme comparison](klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md), [case/area register](klang-valley-2026-10-07/round-3/programme-final/Case_and_Area_Register.md), [completion audit](klang-valley-2026-10-07/round-3/programme-final/Programme_Completion_Audit.md), [verification](klang-valley-2026-10-07/round-3/programme-final/Verification_Report.md) and [continuation record](klang-valley-2026-10-07/round-3/programme-final/RESUME_AND_COMPLETION.md). Earlier releases retain their historical status at their own cutoff.
 
-## Next work
+## Post-completion state and next work
 
-Assess the existing decision map now that programme research is complete. Determine whether it needs a status/navigation update; preserve framework authority and distinguish dated research. The user authorised this sequencing, not an automatic architecture rewrite.
+The [11 October decision-map assessment](klang-valley-2026-10-07/round-3/programme-final/Map_Assessment_2026-10-11.md) is complete. Keep the existing map HTML, nodes, routing, calculator and rules unchanged: all eight source hashes, source/logic tests and live HTML parity passed. The framework map intentionally excludes regional cases; no new causal mechanism passed promotion. The [verification receipt](klang-valley-2026-10-07/round-3/programme-final/Post_Completion_Verification_2026-10-11.json) pins the checks. No fresh interactive browser session is claimed.
 
-Future underwriting work should be targeted unit validation or an evidence-driven reopening, using the continuation record's task-specific queues. Do not restart all 61 areas without a material new gap. New operating IDs start R366 if needed. No background research or scheduler is running.
+There is no unfinished broad-region batch or programme-integration step at this cutoff. Future underwriting work should be targeted unit validation or an evidence-driven reopening, using the continuation record's task-specific queues. Do not restart all 61 areas without a material new gap. New operating IDs start R366 if needed. No background research or scheduler is running.
 
 ## User authority
 

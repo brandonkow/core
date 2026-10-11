@@ -1,8 +1,8 @@
 # Klang Valley underwriting - round 3 continuation
 
-Current navigation updated: 8 October 2026. **The bounded all-area public desk underwriting programme is complete: 61 catchments, 138 conditional expressions, 122 project groups, zero Deploy.** Read the [programme comparison](programme-final/Cross_Region_Comparison.md), [case/area register](programme-final/Case_and_Area_Register.md), [financial replay](programme-final/Financial_Underwriting.md), [portfolio/terminal integration](programme-final/Portfolio_and_Terminal_Risk.md), [final audit](programme-final/Programme_Completion_Audit.md), [verification](programme-final/Verification_Report.md) and [continuation](programme-final/RESUME_AND_COMPLETION.md).
+Current navigation updated: 11 October 2026; market research cutoff remains 8 October 2026. **The bounded all-area public desk underwriting programme is complete: 61 catchments, 138 conditional expressions, 122 project groups, zero Deploy.** Read the [programme comparison](programme-final/Cross_Region_Comparison.md), [case/area register](programme-final/Case_and_Area_Register.md), [financial replay](programme-final/Financial_Underwriting.md), [portfolio/terminal integration](programme-final/Portfolio_and_Terminal_Risk.md), [final audit](programme-final/Programme_Completion_Audit.md), [verification](programme-final/Verification_Report.md) and [continuation](programme-final/RESUME_AND_COMPLETION.md).
 
-Exact-unit investment readiness is unresolved; all G0 STOP / G9 Defer. All earlier regional releases remain intact as dated evidence. Map assessment follows this completion; map and Core were preserved throughout underwriting. Main only; existing local files remain untouched.
+Exact-unit investment readiness is unresolved; all G0 STOP / G9 Defer. All earlier regional releases remain intact as dated evidence. The [11 October map assessment](programme-final/Map_Assessment_2026-10-11.md) is complete: retain the current framework-only map. Map and Core remain unchanged. Main only; existing local files remain untouched.
 
 The historical programme narratives below retain their release dates and do not supersede the completed current register.
 
