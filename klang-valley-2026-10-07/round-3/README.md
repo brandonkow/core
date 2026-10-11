@@ -4,6 +4,8 @@ Current navigation updated: 11 October 2026; market research cutoff remains 8 Oc
 
 Exact-unit investment readiness is unresolved; all G0 STOP / G9 Defer. All earlier regional releases remain intact as dated evidence. The [11 October map assessment](programme-final/Map_Assessment_2026-10-11.md) is complete: retain the current framework-only map. Map and Core remain unchanged. Main only; existing local files remain untouched.
 
+Latest targeted reopening: [11 October market judgments](market-judgment-2026-10-11/README.md), [seven case overlays](market-judgment-2026-10-11/Case_Status_Overlays.json) and the [reusable SOP addendum](../../sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md). These supersede the earlier family-verification queue and qualify tenant/exit comparisons without changing financial inputs or the 8 October desk-completion status. Pines leads the discussed family-demand task; East Lake/Subang Avenue remain larger-unit income controls. Eve and Zeva lead their distinct privacy-demand and investor-exit investigations. All underlying market mechanisms remain unvalidated at project level.
+
 The historical programme narratives below retain their release dates and do not supersede the completed current register.
 
 The 61-catchment map is complete as a scope register. Round 1's 14 cases and round 2's 50 cases provide conditional underwriting inputs, not 64 verified investment opportunities. The nine earlier Cheras expressions remain separate historical research. Having a disposition for each area did not complete the full regional research requirement. No Deploy is validated.

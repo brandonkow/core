@@ -1,0 +1,134 @@
+{
+  "packet": "KV-MJ-2026-10-11",
+  "retrieved_date": "2026-10-11",
+  "baseline_cutoff_preserved": "2026-10-08",
+  "method": "Bounded public search and page-text retrieval. No site visit, outreach, private leases, resident census, MC accounts, paid data or transaction authentication.",
+  "entries": [
+    {
+      "id": "E01",
+      "url": "https://www.mymrt.com.my/projects/putrajaya-line/stations/taman-equine/",
+      "publisher": "MRT Corp",
+      "kind": "Official station page",
+      "access": "Opened successfully",
+      "publication_date": null,
+      "observation": "Lists Taman Equine station at Jalan Putra Permai, Bandar Putra Permai.",
+      "supports": "A rail-context lead for the Zeva investigation.",
+      "limits": "Does not establish Zeva's route, travel time, walkability, tenant use or price effect."
+    },
+    {
+      "id": "E02",
+      "url": "https://www.mymrt.com.my/projects/putrajaya-line/stations/",
+      "publisher": "MRT Corp",
+      "kind": "Official network station list",
+      "access": "Opened successfully",
+      "publication_date": null,
+      "observation": "Lists both Taman Equine and Cyberjaya Utara / Cyberjaya City Centre.",
+      "supports": "Rail presence is not an exclusive Equine-versus-Cyberjaya distinction.",
+      "limits": "Does not show either project's functional access or tenant capture."
+    },
+    {
+      "id": "E03",
+      "url": "https://www.mkis.edu.my/why-choose-mkis",
+      "publisher": "Mont'Kiara International School",
+      "kind": "School's own institutional page",
+      "access": "Opened and address checked",
+      "publication_date": null,
+      "observation": "Identifies the international school at 22 Jalan Kiara, Mont'Kiara.",
+      "supports": "International-school ecosystem context for the family hypothesis.",
+      "limits": "No evidence of Pines household share, school enrolment by building, management quality, buyer budget or willingness to pay."
+    },
+    {
+      "id": "E04",
+      "url": "https://www.cyberview.com.my/corporate/our-journey/",
+      "publisher": "Cyberview",
+      "kind": "Institutional history / promotional context",
+      "access": "Search extract obtained; initial open returned document metadata; subsequent targeted open timed out",
+      "publication_date": null,
+      "observation": "Describes Cyberview's role in developing Cyberjaya's technology ecosystem.",
+      "supports": "A non-student demand-source hypothesis worth testing.",
+      "limits": "Neither employment forecasts nor this institutional role prove current numbers or Solstice worker occupancy. No job counts adopted."
+    },
+    {
+      "id": "E05",
+      "url": "https://www.propertyguru.com.my/bm/kondo/eve-suite-nzx-square-2080",
+      "publisher": "PropertyGuru; user-submitted Q&A",
+      "kind": "Historical self-reported room demand/offer",
+      "access": "Opened successfully; dated Q&A inspected",
+      "publication_date": "Posts dated 2024-01-27 and 2024-09-29",
+      "observation": "A master-room offering question and a furnished-room seeking question appear in Eve's project Q&A.",
+      "supports": "A counterexample lead to an absolute whole-unit-only narrative.",
+      "limits": "No executed tenancy, current availability, representative sample, household identity or relative room/whole-unit share. Does not refute a relative privacy preference."
+    },
+    {
+      "id": "E06",
+      "url": "https://www.mudah.my/east-lake-re-idence-master-room-zero-deposit-114717650.htm",
+      "publisher": "Mudah advertiser",
+      "kind": "Indexed room advertisement",
+      "access": "Search extract only; direct opening returned 410 Gone",
+      "publication_date": null,
+      "observation": "Indexed title describes an East Lake master-room offer.",
+      "supports": "Historical room-operation investigation lead only.",
+      "limits": "Not current availability, an independently titled small dwelling, legal partition proof, executed rent or student/room dominance."
+    },
+    {
+      "id": "E07",
+      "url": "https://my.roomz.asia/rent/room/19609/subang-avenue-ss16-subang-jaya-new-reno-designer-rooms-3-mins-walk-to-ss15-lrt-komuter-aeon-big-uoa-temasya-glenmarie",
+      "publisher": "Roomz advertiser",
+      "kind": "Historical room advertisement",
+      "access": "Search extract only; direct opening returned 410 Gone",
+      "publication_date": "Search extract says updated 2022-05-23",
+      "observation": "Indexed advertisement describes a Subang Avenue room with shared facilities.",
+      "supports": "Historical room-operation lead.",
+      "limits": "Old offer; not current price, availability, partition legality, tenant identity, representative occupancy or confirmed travel time. Metadata has inconsistent property classification."
+    },
+    {
+      "id": "E08",
+      "url": "https://www.iproperty.com.my/property/cheras/maxim-residences/rent-501176724/",
+      "publisher": "iProperty advertiser",
+      "kind": "Indexed whole-unit rental offer",
+      "access": "Search extract obtained; direct opening timed out",
+      "publication_date": "Listing dated 2026-04-22 in extract",
+      "observation": "Advertises Maxim 825 sf, two bedrooms/two bathrooms, furnished, one bay, RM2,500 per month.",
+      "supports": "Whole-unit marketed product exists as a counterexample lead to a room-only Cheras narrative.",
+      "limits": "Not an achieved rent, current availability or tenant-mode share. Older offer is not substituted for the unchanged RM2,000 scenario."
+    }
+  ],
+  "excluded_or_unresolved": [
+    {
+      "topic": "Pines management",
+      "finding": "The bounded searches did not authenticate current Pines management accounts or operating outcomes. Results for other Mont Kiara developments cannot transfer their awards or reputation to Pines.",
+      "meaning": "Unknown current project evidence, not a finding of poor management."
+    },
+    {
+      "url": "https://speedhome.com/rent/subang-avenue",
+      "finding": "Project-named search return contained other developments.",
+      "treatment": "Excluded as project-specific occupancy evidence."
+    },
+    {
+      "url": "https://speedhome.com/blog/maxim-residences-room-rental-investment-guide/",
+      "finding": "Commercial operating/investment guide rather than observed lease or buyer panel.",
+      "treatment": "Not used to authenticate demand shares, rents, rules or legal status."
+    },
+    {
+      "topic": "Room-search taxonomy",
+      "finding": "Room-oriented aggregation results can contain whole-unit multi-bedroom offers.",
+      "treatment": "Never count search-category totals as room prevalence without unit-level classification and deduplication."
+    },
+    {
+      "topic": "Developer identity queries",
+      "finding": "A preliminary Zeva query included an unverified developer-domain association.",
+      "treatment": "No developer identity or claim adopted from that unsuccessful query."
+    }
+  ],
+  "search_topics": [
+    "Mont Kiara Pines management and international-school context",
+    "Taman Equine and Putrajaya Line official station context",
+    "Zeva developer/access and Solstice MRT context",
+    "Cyberview employment and technology-ecosystem context",
+    "East Lake Residence room rental",
+    "Subang Avenue room rental",
+    "Eve Suite room rental",
+    "Maxim Residences whole-unit and 825-sf rental"
+  ],
+  "interpretation": "Sources support context and counterexample leads only. They do not quantify any privacy premium, family share, concentration ratio, management grade or relative resale liquidity. No financial input changed."
+}

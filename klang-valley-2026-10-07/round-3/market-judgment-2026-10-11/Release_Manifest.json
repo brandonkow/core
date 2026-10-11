@@ -1,0 +1,114 @@
+{
+  "release": "KV-MJ-2026-10-11",
+  "date": "2026-10-11",
+  "baseline_commit": "508b7232d03ab4946a41e09a07eee85039a5e897",
+  "baseline_tree": "d07b6cb6bead323913c550d603fb10d4bae8e385",
+  "baseline_file_count": 679,
+  "expected_file_count": 687,
+  "allowed_modified_existing_paths": [
+    "AGENTS.md",
+    "CURRENT_WORKFLOW.md",
+    "README.md",
+    "klang-valley-2026-10-07/round-3/README.md"
+  ],
+  "expected_added_paths": [
+    "sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md",
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Case_Status_Overlays.json",
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Judgment_and_Hypotheses.md",
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Evidence_Register.json",
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/README.md",
+    "side-investigations/2026-10-11-sungai-besi-pin/README.md",
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Integration_Audit.md",
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Release_Manifest.json"
+  ],
+  "preservation_rule": "All 675 other baseline file blobs must remain identical; no removals. This includes Core, all prior SOPs/research/releases, financial engine/config/inputs/results, map and workflow.",
+  "payloads": {
+    "sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md": {
+      "sha256": "6057b54048f4af49d2ecaf15f4b6f44c8b7d303a95da7c3cd737fee64a049ce8",
+      "git_blob_sha": "bb223fcae99fd2247838bdbf51672d0e52e68df2",
+      "bytes": 10250
+    },
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Case_Status_Overlays.json": {
+      "sha256": "c2cba2fbe2b3066ec6df18426573e71bde748472b7f3aa624015d549648aacaf",
+      "git_blob_sha": "fcec365a18902562aea9bf114de4848bc03a5ed3",
+      "bytes": 6539
+    },
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Judgment_and_Hypotheses.md": {
+      "sha256": "8c2863251c2f9d101b361271073cb9c4737a8f65b7955649dcb4eeca2f5fb7c6",
+      "git_blob_sha": "438fe32a4abf3470429dae65788f8b5ffe08a887",
+      "bytes": 12593
+    },
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Evidence_Register.json": {
+      "sha256": "6d8252bdd8d5ea6b36c1b60775806fb882ceab3f8159e2ae5a740e7a49b6a1de",
+      "git_blob_sha": "7acaa3997b1c27ee65d65c28c46a56b94b323b61",
+      "bytes": 7583
+    },
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/README.md": {
+      "sha256": "e1c019fd84118cccaeb189b2a25d22f3fc7695757187046c0ea4de08120024d2",
+      "git_blob_sha": "cc18c538435cc7fd32e8860e9c4683aaca3ea923",
+      "bytes": 2800
+    },
+    "side-investigations/2026-10-11-sungai-besi-pin/README.md": {
+      "sha256": "b3e8249a3b0282f86ec3d0bf169fd62364cad91e2d0c7705da50490240b482b7",
+      "git_blob_sha": "082b4ec4836f6ab681ba67b0b0c8fe43c441388a",
+      "bytes": 4068
+    },
+    "CURRENT_WORKFLOW.md": {
+      "sha256": "4d1683eecc677ed18269500dec8efaa48ec2f900ec72a1988e391e497410e6bd",
+      "git_blob_sha": "418cdff3cf67c890985f6584412bc0ed31b3ee6b",
+      "bytes": 4682
+    },
+    "AGENTS.md": {
+      "sha256": "180027df44e199440146a48a8072a28dc7f11bcd0b8e6536c5db90cdf1aa942a",
+      "git_blob_sha": "df5a1ca365b4934cc9d0e8bcbad580a9bc63a262",
+      "bytes": 4237
+    },
+    "README.md": {
+      "sha256": "af163e3a4e6aaf5a67fafbd453c57afcc654ca1fd994d582e13ca7085de11298",
+      "git_blob_sha": "2c5f2f158d4fec462ff8d6bb08d8f29073ae1712",
+      "bytes": 10849
+    },
+    "klang-valley-2026-10-07/round-3/README.md": {
+      "sha256": "84998746bd266e5ddbbf28e9397f7adaee85f5265467b01e52d12d3cab6dbc0d",
+      "git_blob_sha": "e2d12e63fecfd9fded9b1a6ea0de028a3ec90d90",
+      "bytes": 11222
+    },
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Integration_Audit.md": {
+      "sha256": "776a832c2012bfec0c8c9d45b85ddb213877f1da19444056b0fd890c0cd7d693",
+      "git_blob_sha": "bda276091567edd6bafa7c0073857fe9daab5a0d",
+      "bytes": 4166
+    }
+  },
+  "self_hash": "Manifest excludes its own digest to avoid circularity; verify its Git blob against prepared content separately.",
+  "financial_inputs_changed": false,
+  "g0_g9_unchanged": true,
+  "market_validation_claim": false,
+  "protected_examples": {
+    "Residential_Investment_Framework.md": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+    "execution-release-2026-10-07/financial_config.json": "3e17c91823b093aa66f0930b2c012510d3b4528f",
+    "execution-release-2026-10-07/financial_engine.py": "2fa3554d4b1358795d658efefe270ac53f27bbda",
+    "klang-valley-2026-10-07/round-3/programme-final/Case_and_Area_Register.md": "f43a577dc02b3c717d746f0cd9334b063dd46e70",
+    "klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md": "350ac9eebc87f3c2290294f00dd615ecbd981362",
+    "klang-valley-2026-10-07/round-3/programme-final/Divergence_and_Misses.md": "85e51f9f6f44a7f8e648f4167d45f44e6999fae0",
+    "klang-valley-2026-10-07/round-3/programme-final/Financial_Results.json": "d35dc67c99066c502dbcef4a18042f16b3624cfa",
+    "klang-valley-2026-10-07/round-3/programme-final/Financial_Underwriting.md": "3aed1f158794dd0c70c0db40cb240151fa8355b2",
+    "klang-valley-2026-10-07/round-3/programme-final/Inputs.json": "c892fe220959f8d74d54d7c6f54cf14bfdd91c43",
+    "klang-valley-2026-10-07/round-3/programme-final/Map_Assessment_2026-10-11.md": "72bcca0519b5b1505aa34041adaee7c1a7f4799f",
+    "klang-valley-2026-10-07/round-3/programme-final/Portfolio_and_Terminal_Risk.md": "b7afb289e4beececd621359bf2f8d8d54c65189b",
+    "klang-valley-2026-10-07/round-3/programme-final/Post_Completion_Verification_2026-10-11.json": "ee52b455f568237f9cb8cbc3019bfc851217a956",
+    "klang-valley-2026-10-07/round-3/programme-final/Programme_Completion_Audit.md": "a9e12010721f80fb5d2696188b32563224264e64",
+    "klang-valley-2026-10-07/round-3/programme-final/README.md": "457d11ac06ceb8f4775d1bb97994f541dfc2938a",
+    "klang-valley-2026-10-07/round-3/programme-final/RESUME_AND_COMPLETION.md": "300bb8b217846d9050b6694bf180e4dafb9043c1",
+    "klang-valley-2026-10-07/round-3/programme-final/Release_Manifest.json": "8902678c98605fb0d73183b8e745fa9ce8ae3b2d",
+    "klang-valley-2026-10-07/round-3/programme-final/Scenario_Builder.py": "5c319a3b14af76df070cc464c6426898f74a8b51",
+    "klang-valley-2026-10-07/round-3/programme-final/Verification_Report.md": "a17c3989394255202aacc66cb8cf7ade39f7bcde",
+    "sop/Approved_Execution_Supplement.md": "6335fedd163614cc6af7589b7281c6820d9895f7",
+    "visualization/Decision_Engine_Neural_Map.html": "ebc6bd206ee10aa4d6a13eca12aa738b78d0d286",
+    "visualization/README.md": "4c27aa6daa3f7a62aab0452d9fd1b79982e6f53e",
+    "visualization/VERIFICATION_2026-10-07.md": "b85a320ea538057dd7c96822cd86b24ad4403e3f",
+    "visualization/VERIFICATION_2026-10-08.md": "03ab22532302a9e573ad9ee1e25f7ebd0bc88fe0",
+    "visualization/browser_smoke.py": "72c1b175c942b40ef6bb545c95f834b8e3c8c8af",
+    "visualization/verification-results.json": "db6e250335679dc470b1721d591cf2c920edcc9a",
+    "visualization/verify.cjs": "56e6fcf99932e9cf5b391f25c551c96194204fae"
+  }
+}

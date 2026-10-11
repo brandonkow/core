@@ -1,0 +1,143 @@
+{
+  "packet": "KV-MJ-2026-10-11",
+  "date": "2026-10-11",
+  "baseline_commit": "508b7232d03ab4946a41e09a07eee85039a5e897",
+  "baseline_evidence_cutoff": "2026-10-08",
+  "authority": "User's three market Red Team answers on 11 October 2026; future integration expressly requested.",
+  "scope": "Qualitative research-priority and interpretation overlays only; read with historical case and financial records.",
+  "financial_inputs_changed": false,
+  "financial_engine_changed": false,
+  "core_changed": false,
+  "map_changed": false,
+  "deploy_count_change": 0,
+  "new_operating_case_ids": [],
+  "hypothesis_status": "All three mechanisms remain unresolved at project level; context evidence and public offers are not authenticated leases or buyer measurements.",
+  "overlays": [
+    {
+      "id": "KV01",
+      "project": "Maxim Residences",
+      "hypothesis": "MJ-P01",
+      "role": "Immediate whole-unit challenger; test room and household demand separately.",
+      "treatment": "Do not label all Cheras tenants room-only or reject its original two-bedroom product.",
+      "baseline_scenario": {
+        "price": 380000,
+        "rent": 2000,
+        "fee": 300,
+        "refurb": 20000,
+        "all_values_status": "Unchanged historical conditional assumptions; not newly validated."
+      },
+      "g0": "STOP: matched effective clearing interval unvalidated",
+      "g9": "Defer",
+      "financial_inputs_changed": false,
+      "evidence_status": "Attributed informed judgment plus bounded public context; unit evidence still missing."
+    },
+    {
+      "id": "R306",
+      "project": "Eve Suite compact",
+      "hypothesis": "MJ-P01",
+      "role": "First whole-unit privacy-demand verification lead in the Eve/Maxim pair.",
+      "treatment": "Retain investor-led exit base. Actual plan is unresolved studio / 1BR marketed; no extra bedroom or privacy premium inferred.",
+      "baseline_scenario": {
+        "price": 390000,
+        "rent": 2000,
+        "fee": 280,
+        "refurb": 15000,
+        "all_values_status": "Unchanged historical conditional assumptions; not newly validated."
+      },
+      "g0": "STOP: no unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "financial_inputs_changed": false,
+      "evidence_status": "Attributed informed judgment plus bounded public context; unit evidence still missing."
+    },
+    {
+      "id": "R315",
+      "project": "Mont Kiara Pines",
+      "hypothesis": "MJ-F01",
+      "role": "First family-demand verification lead among Pines, East Lake and Subang Avenue.",
+      "treatment": "School-linked family adoption and good management are attributed user judgments pending project evidence. Keep repairs, reserves, fees and fit-out independent.",
+      "baseline_scenario": {
+        "price": 700000,
+        "rent": 3800,
+        "fee": 450,
+        "refurb": 40000,
+        "all_values_status": "Unchanged historical conditional assumptions; not newly validated."
+      },
+      "g0": "STOP",
+      "g9": "Defer",
+      "financial_inputs_changed": false,
+      "evidence_status": "Attributed informed judgment plus bounded public context; unit evidence still missing."
+    },
+    {
+      "id": "R231",
+      "project": "Zeva Equine South",
+      "hypothesis": "MJ-X01",
+      "role": "First investor-exit and tenant-source-diversity verification lead in the Zeva/Solstice pair.",
+      "treatment": "No access, rent or exit-price premium assigned. Project capture and door-to-destination access remain unverified.",
+      "baseline_scenario": {
+        "price": 210000,
+        "rent": 1200,
+        "fee": 180,
+        "refurb": 20000,
+        "all_values_status": "Unchanged historical conditional assumptions; not newly validated."
+      },
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "financial_inputs_changed": false,
+      "evidence_status": "Attributed informed judgment plus bounded public context; unit evidence still missing."
+    },
+    {
+      "id": "R342",
+      "project": "Subang Avenue",
+      "hypothesis": "MJ-F01",
+      "role": "Larger-unit income control; actual household-versus-shared occupancy unresolved.",
+      "treatment": "Verify original plan, actual operating configuration and rent package; no automatic family-demand or student-dominance label.",
+      "baseline_scenario": {
+        "price": 450000,
+        "rent": 2500,
+        "fee": 323,
+        "refurb": 35000,
+        "all_values_status": "Unchanged historical conditional assumptions; not newly validated."
+      },
+      "g0": "STOP: unit-matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "financial_inputs_changed": false,
+      "evidence_status": "Attributed informed judgment plus bounded public context; unit evidence still missing."
+    },
+    {
+      "id": "R350",
+      "project": "East Lake Residence family",
+      "hypothesis": "MJ-F01",
+      "role": "Larger-unit income control; actual household-versus-shared occupancy unresolved.",
+      "treatment": "Physical family capacity remains eligible. Withdraw any implication that size or the previous queue established genuine family adoption. Student/partition predominance is unverified.",
+      "baseline_scenario": {
+        "price": 350000,
+        "rent": 2000,
+        "fee": 300,
+        "refurb": 20000,
+        "all_values_status": "Unchanged historical conditional assumptions; not newly validated."
+      },
+      "g0": "STOP: matched normalised clearing interval unvalidated",
+      "g9": "Defer",
+      "financial_inputs_changed": false,
+      "evidence_status": "Attributed informed judgment plus bounded public context; unit evidence still missing."
+    },
+    {
+      "id": "KV14",
+      "project": "Solstice @ Pan'gaea",
+      "hypothesis": "MJ-X01",
+      "role": "Retain lower-entry-cost challenger; directly test alleged student dependence.",
+      "treatment": "No exclusive-student classification. Preserve favourable conditional arithmetic and test employment/rail capture on the same basis as Zeva.",
+      "baseline_scenario": {
+        "price": 200000,
+        "rent": 1200,
+        "fee": 180,
+        "refurb": 15000,
+        "all_values_status": "Unchanged historical conditional assumptions; not newly validated."
+      },
+      "g0": "STOP: matched effective clearing interval unvalidated",
+      "g9": "Defer",
+      "financial_inputs_changed": false,
+      "evidence_status": "Attributed informed judgment plus bounded public context; unit evidence still missing."
+    }
+  ]
+}

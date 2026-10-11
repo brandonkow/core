@@ -14,6 +14,12 @@ The [11 October decision-map assessment](klang-valley-2026-10-07/round-3/program
 
 There is no unfinished broad-region batch or programme-integration step at this cutoff. Future underwriting work should be targeted unit validation or an evidence-driven reopening, using the continuation record's task-specific queues. Do not restart all 61 areas without a material new gap. New operating IDs start R366 if needed. No background research or scheduler is running.
 
+## 11 October market judgment integration
+
+Apply the [tenant privacy and exit-demand SOP addendum](sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md) to all new or materially revised cases, alongside existing execution standards. The user's three answers are [attributed hypotheses with counterexamples and misses](klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Judgment_and_Hypotheses.md), not authenticated rent or buyer measurements. Read the [seven-case overlays](klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Case_Status_Overlays.json) with historical case papers: Eve first for whole-unit privacy demand; Pines first for family-adoption verification; Zeva first for investor-exit/demand-diversity verification. East Lake/Subang Avenue are larger-unit income controls with actual occupancy mode unresolved. Financial assumptions, G0 stops and G9 Defer remain unchanged.
+
+The [new packet](klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/README.md) is dated 11 October; it does not change the completed programme's 8 October evidence cutoff. The [separate Sungai Besi land pin](side-investigations/2026-10-11-sungai-besi-pin/README.md) is a location intake with a clarified new-project investment objective but unresolved project/parcel identity, not another completed residential case.
+
 ## User authority
 
 All new files and changes go directly to main with expected-head checks and no force. No new branch or persistent local clone/output. The user suspended local cleanup: existing files, RecycleBin and ACLs remain untouched. Use GitHub/RAM.
