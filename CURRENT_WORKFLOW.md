@@ -60,7 +60,17 @@ Under inherited 90% / 4% / 35 years and eleven paid months, Parkview 400k/2,400 
 
 64 financial evaluations passed; original inputs and all historical releases remain intact. PAL-D01 is an Unresolved Lucentia fee-interpretation Divergence Flag. No authenticated numerical input correction, G0 admission, Core/SOP/map edit or programme-count change.
 
-The [continuation checkpoint](klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Continuation_Checkpoint.md) now links all four public tasks across ten existing cases, all G0 STOP / G9 Defer. **Next independent desk task: a concise ten-case evidence-priority and decision-boundary sheet using existing releases.** Separate arithmetic attractiveness, evidence readiness, capital costs and funded exit. Avoid further portal searches absent a material gap. Brightwood remains paused; no background research or outreach is running.
+The [continuation checkpoint](klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Continuation_Checkpoint.md) now links all four public tasks across ten existing cases, all G0 STOP / G9 Defer. The subsequent ten-case consolidation is complete and recorded below. Avoid further portal searches absent a material gap. Brightwood remains paused; no background research or outreach is running.
+
+## 13 October ten-case decision synthesis
+
+The [ten-case decision sheet](klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/README.md) consolidates all four targeted public packets without changing their evidence or base inputs. Nine historical scenarios pass simplified monthly coverage; two are annual-positive; all ten produce five-year flat-price losses. Thirty annual-neutral price/rent/fee roots, ten paid-month identities and 28 source-scenario parity checks accompany the 58 financial evaluations. These are model checks, not validated rents, values or market outcomes.
+
+Eve, Pines and Zeva retain their different task-specific research priorities, with challengers preserved. Parkview/Arc retain fragile ordinary-income/effective-price holds. Lucentia's unperiodised fee remains PAL-D01 Unresolved; the favourable fee branches are not adopted facts. All ten stay G0 STOP / G9 Defer; no universal winner or allocation is asserted.
+
+**The bounded public queue and synthesis are complete. Next stage: exact-unit evidence admission.** Use Eve's 370k advertised lead with Maxim as the first concrete privacy bundle if a material resolving unit/collection/cost/transfer source becomes available. The decision sheet names the required evidence, thresholds, rival explanations and stop conditions for all ten. Clearing one field is not a complete G0-G9 admission. Do not repeat the public searches to simulate private evidence or assign routine fact collection to the Senior Market Red Team.
+
+No new source has cleared these holds. Private-document acquisition, site access and lender work remain separate execution activities; no outreach, paid access, purchase or scheduler is authorised by this synthesis. Material public evidence may justify a targeted reopening. Core/SOP/map, historical programme counts and prior releases remain unchanged. Brightwood stays paused.
 
 ## User authority
 

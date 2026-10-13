@@ -1,0 +1,83 @@
+{
+  "release": "TEN-CASE-DECISION-SHEET-2026-10-13",
+  "date": "2026-10-13",
+  "repository": "brandonkow/core",
+  "branch": "main",
+  "baseline_commit": "2e4a1c9d7d1c155456f9601fd217baa4044a075b",
+  "baseline_tree": "926df19f84d9b8f56694efe5b6b2f862713f95bc",
+  "purpose": "Consolidate ten existing cases and held alternatives into evidence priorities and conditional decision boundaries.",
+  "source_blobs": {
+    "klang-valley-2026-10-07/round-3/programme-final/Inputs.json": "c892fe220959f8d74d54d7c6f54cf14bfdd91c43",
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/Financial_Results.json": "9c5084c4d63307ab1273078893a31af7ab009e34",
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/Financial_Results.json": "22c1b6533312aefcaea037b848a01bb22ad7fe10",
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Financial_Results.json": "b32e2f2d67f08511c909dd3435c66743cdff994c",
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Financial_Results.json": "a6804d2fd69fd4d5fe31ca519b8b4d7009b2e377",
+    "execution-release-2026-10-07/financial_engine.py": "2fa3554d4b1358795d658efefe270ac53f27bbda",
+    "execution-release-2026-10-07/financial_config.json": "3e17c91823b093aa66f0930b2c012510d3b4528f"
+  },
+  "payloads": {
+    "klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/README.md": {
+      "bytes": 15500,
+      "sha256": "a60956c31ebe5d58f75acfc8ae45bc04abeb05bddbf32f9e47e79ddf7784116d",
+      "git_blob_sha": "54de76ad844ae435368f2a61910e53ed64316a1e"
+    },
+    "klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/Decision_Sheet.json": {
+      "bytes": 41583,
+      "sha256": "3dca8964db054a9557de9da60964768574684ad571e5e88eb19c9a1235da867f",
+      "git_blob_sha": "3c8b4f693e936eb9247ed5be5cdadb1507b0cb1e"
+    },
+    "klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/reproduce.py": {
+      "bytes": 11060,
+      "sha256": "5dce51baa6b85d069d2a4a5399d3f535bc0c9e9e78a4a5b87fd88f2d0abe89d0",
+      "git_blob_sha": "10dd5c8ed1fa7742f4b54385776ea0f57902b6a2"
+    },
+    "README.md": {
+      "bytes": 11704,
+      "sha256": "7f5faf8b40739b57807dd8b1df89e65dde47268b5736ae42b6fd361ad4d659d0",
+      "git_blob_sha": "30a70f0a740193180bba163545cda81d2e2e821b"
+    },
+    "CURRENT_WORKFLOW.md": {
+      "bytes": 13422,
+      "sha256": "2d5fd081e46fb61c3549ccddbf0e7b7e0b9c13acc2916f7970c66c113e84b394",
+      "git_blob_sha": "8b1f1c104cc671c87bfc456a42a122e2f8373487"
+    },
+    "klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/Verification.md": {
+      "bytes": 3707,
+      "sha256": "53c75a9b70d2b04c7a692ada7759ee49470f49526e19e3cca67287351e3f2539",
+      "git_blob_sha": "b59a35dcc95d52b4a68c2d1645fcaf51f8d57278"
+    }
+  },
+  "manifest_scope": "Payloads exclude this self-referential manifest. The containing Git commit identifies the complete release.",
+  "verification": {
+    "source_blobs": "passed",
+    "financial": {
+      "financial_evaluations": 58,
+      "source_scenario_parity": 28,
+      "annual_neutral_engine_roots": 30,
+      "paid_month_algebra_checks": 10,
+      "source_blobs": "passed",
+      "financial_identities": "passed",
+      "scope_and_status": "passed"
+    },
+    "json_parse": "passed",
+    "relative_file_links": "passed",
+    "replay_semantic_parity": "passed"
+  },
+  "preservation_contract": {
+    "baseline_blobs": 727,
+    "allowed_existing_modifications": [
+      "README.md",
+      "CURRENT_WORKFLOW.md"
+    ],
+    "new_directory": "klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/",
+    "new_files": 5,
+    "expected_final_blobs": 732,
+    "expected_unchanged_prior_blobs": 725,
+    "historical_inputs": "unchanged",
+    "core_sop_map_engine": "unchanged",
+    "programme_counts": "61 catchments / 122 project groups / 138 expressions / zero Deploy"
+  },
+  "status": "All ten G0 STOP / G9 Defer. Four bounded public packets and synthesis complete; exact-unit evidence admission remains pending.",
+  "next_stage": "Eve 370k lead with Maxim control is the first concrete privacy evidence bundle if a material resolving source becomes available. No new outreach, paid access, scheduler or broad-area restart.",
+  "publication_protocol": "Compare prospective tree to baseline, commit once, expected-head update with force false, then verify remote main and report."
+}
