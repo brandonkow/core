@@ -1,0 +1,96 @@
+{
+  "packet": "KV-INPUT-ANOMALY-2026-10-13",
+  "baseline_commit": "fb72d3aa7b7bb9dddf9f549080002b5562266e59",
+  "baseline_tree": "4c0c59ad028447693e13dde3e85c531a53e0cfc0",
+  "publication_branch": "main",
+  "update_policy": "Expected baseline head; force=false. No branch, clone or local output.",
+  "date": "2026-10-13",
+  "scope": "Three existing cases, allG0STOP/G9Defer; no financial input correction,Core/SOP/map change or coverage increase.",
+  "expected_change_set": {
+    "added": 11,
+    "modified": 2,
+    "deleted": 0,
+    "baseline_blobs": 716,
+    "expected_final_blobs": 727,
+    "unchanged_baseline_blobs": 714
+  },
+  "protected_baseline_blobs": {
+    "Residential_Investment_Framework.md": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+    "AGENTS.md": "df5a1ca365b4934cc9d0e8bcbad580a9bc63a262",
+    "execution-release-2026-10-07/financial_engine.py": "2fa3554d4b1358795d658efefe270ac53f27bbda",
+    "execution-release-2026-10-07/financial_config.json": "3e17c91823b093aa66f0930b2c012510d3b4528f",
+    "sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md": "bb223fcae99fd2247838bdbf51672d0e52e68df2",
+    "visualization/Decision_Engine_Neural_Map.html": "ebc6bd206ee10aa4d6a13eca12aa738b78d0d286",
+    "klang-valley-2026-10-07/round-3/programme-final/Inputs.json": "c892fe220959f8d74d54d7c6f54cf14bfdd91c43"
+  },
+  "payloads": {
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/README.md": {
+      "bytes": 13436,
+      "sha256": "a18f7e0126423d200310d5fd7dce1c9c3cc951a2cc65f3168201ff608c6ea0de",
+      "git_blob_sha": "a2c61acd37418c8ae3e4c4c7056d5743eb9affb9"
+    },
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Research_Lock.json": {
+      "bytes": 940,
+      "sha256": "a9cf96dc781e63a4f170b00b9c14452ab935984a1bacf2a453c1f45bead87e3d",
+      "git_blob_sha": "07e8d7aeeed55f64de90133352de21f67ae3b154"
+    },
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Evidence_Ledger.json": {
+      "bytes": 10639,
+      "sha256": "506b22d5b4ba3ef547cdf07fb2e93676fba5e424b3cf4d8d95b931ea2f1622f3",
+      "git_blob_sha": "e3ed60ebe2e7f4acd8952a120b5d15a9cc426147"
+    },
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Financial_Inputs.json": {
+      "bytes": 11540,
+      "sha256": "35fa1aede6cb409b0381db63d9fd8b32e05ea18cb9f9930d2f3f088614697527",
+      "git_blob_sha": "e166c474edbb4cc8b79639f50400f1a83720ca0e"
+    },
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Financial_Results.json": {
+      "bytes": 80368,
+      "sha256": "1dd1bc1e4d4961451fe47584d253e1c7e2c18bca0bc148d2c13510222c9e017e",
+      "git_blob_sha": "a6804d2fd69fd4d5fe31ca519b8b4d7009b2e377"
+    },
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/reproduce.py": {
+      "bytes": 7936,
+      "sha256": "c5443c8b056795d27dbec275b84d638e3a368406b9bdf33ce1273f09c78646ce",
+      "git_blob_sha": "98f1ca04087a14448693c48062360f16b08c6053"
+    },
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Case_Status.json": {
+      "bytes": 9816,
+      "sha256": "0f6126e472a9e9b623b5f9caa629e384e02c1d575dfa4005ebe5e40ca82e9408",
+      "git_blob_sha": "43b5d825a15fc7186c7803602a4cb33cc7e1ce8a"
+    },
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Investigation_and_Misses.md": {
+      "bytes": 9676,
+      "sha256": "75f6da736d4d8d7c3f121e7fcd38c9306451e6fe37e0dac5c9e93c839a887f97",
+      "git_blob_sha": "44970904dbb8cf1a76bb1539bf16227056ca34a7"
+    },
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Continuation_Checkpoint.md": {
+      "bytes": 3662,
+      "sha256": "9820f680fd1303cc3aa8b6de641e218f0c73274c174f5de4ff47525eb170aa26",
+      "git_blob_sha": "f19753d7685c1df89212774f0f058579d0209f3e"
+    },
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Verification.md": {
+      "bytes": 3056,
+      "sha256": "6a296faa2f5819fe9f26f7911fb7f88af1b1af19a23b1d3bcf18bc518e1c1fcc",
+      "git_blob_sha": "cdaa6468337e64d406177cf66dcdddae468d5766"
+    },
+    "CURRENT_WORKFLOW.md": {
+      "bytes": 11671,
+      "sha256": "4b57bf466571957165b0b7e1c8948d644d9dc5339587ea70fea84f64539b910e",
+      "git_blob_sha": "8d43526c8e35c1f375cdc97d54fe8b7ee248bd1f"
+    },
+    "README.md": {
+      "bytes": 11561,
+      "sha256": "2a266b6d334ed2f1df5e1dd299b0a53c63a21bf3dcaef748e74ef974a5fba030",
+      "git_blob_sha": "32337c45c00ba26b6c24dada6dfcee10736e26ed"
+    }
+  },
+  "manifest_boundary": "This manifest excludes its own content hash to avoid circularity. Full new-tree blob hashes are verified before publication; main hash and exact report readback after publication.",
+  "validation": {
+    "financial_runs_checked": 64,
+    "financial_identities": "passed",
+    "annual_neutral_roots": "passed",
+    "three_case_reversals": "passed",
+    "common_standard_invariant": "passed"
+  }
+}

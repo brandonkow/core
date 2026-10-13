@@ -1,0 +1,179 @@
+{
+  "packet": "KV-INPUT-ANOMALY-2026-10-13",
+  "baseline_commit": "fb72d3aa7b7bb9dddf9f549080002b5562266e59",
+  "retrieved_on": "2026-10-13",
+  "historical_sources": [
+    "../B05_Evidence_and_Supply.md",
+    "../b08-working-01/Evidence.json",
+    "../programme-final/Inputs.json"
+  ],
+  "sources": [
+    {
+      "id": "P-S1",
+      "title": "Parkview selected sale",
+      "url": "https://www.propertyguru.com.my/property-listing/parkview-service-apartment-for-sale-by-sylvia-chin-107696761",
+      "access": "Direct page; listed 8 October 2026",
+      "observed": "400k; furnished low-floor compact. Header615sf/1BR, body600sf. No selected bay proof.",
+      "boundary": "Updated advertisement, not executable net offer, plan or transfer.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "P-R1",
+      "title": "Parkview 2400 advertised rental",
+      "url": "https://www.propertyguru.com.my/property-listing/parkview-service-apartment-for-rent-by-khew-zi-xian-200038437",
+      "access": "Direct page;24 September2026",
+      "observed": "615sf,1BR/1BA,furnished,2400/month. Advertiser says actual unit.",
+      "boundary": "No minimum term, paid lease, utilities or allocated bay proven. Distinct listing ID does not prove independent physical unit.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "P-R2",
+      "title": "Parkview near-size lower asking branch",
+      "url": "https://www.propertyguru.com.my/property-listing/parkview-service-apartment-for-rent-by-soon-sheng-law-502144229",
+      "access": "Direct page;25 September2026",
+      "observed": "610sf furnished1BR;2250 header versus2300 body, with advance/security/utility deposit and agreement charges.",
+      "boundary": "One conflicting lead, not two independent observations. Deposit is not income; actual annual lease and plan unverified.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "P-R3",
+      "title": "Parkview old same-size lower asking lead",
+      "url": "https://www.propertyguru.com.my/property-listing/parkview-service-apartment-for-rent-by-khew-zi-xian-200094442",
+      "access": "Search-index full listing text;22 July2026;direct refresh timed out",
+      "observed": "615sf furnished1BR at2100/month; same advertiser as P-R1.",
+      "boundary": "Older/index only; do not infer same unit, achieved decline or fresh availability.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "P-R4",
+      "title": "Parkview advertised annual term control",
+      "url": "https://www.propertyguru.com.my/property-listing/parkview-service-apartment-for-rent-by-veve-choy-501201292",
+      "access": "Direct page;1 October2026",
+      "observed": "Header625sf/2100 and1-year lease. Body offers multiple sizes/furnishing/forms and illustrative images; says bays need renting.",
+      "boundary": "Annual-term advertising exists, but this generic lead cannot authenticate the selected615sf2400 lease or a625sf price.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "P-R5",
+      "title": "Parkview older upper-rent annual-term control",
+      "url": "https://www.propertyguru.com.my/property-listing/parkview-service-apartment-for-rent-by-charles-goh-60168344",
+      "access": "Search-index text;5 June2026;direct URL redirects to building index",
+      "observed": "2500 furnished studio,1-year lease;650sf header versus615sf body.",
+      "boundary": "Older size-conflicting control; direct redirect does not renew its date. Used as conditional upside only.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "A-S1",
+      "title": "Arc historical low-price expression refreshed",
+      "url": "https://www.propertyguru.com.my/property-listing/the-arc-for-sale-by-wl-wan-500813136",
+      "access": "Direct page;13 October2026",
+      "observed": "220k/913sf/3BR2BA/one bay/partly furnished. Cash discount, loan/refinancing/cashback and transfer-cost promotions subject to terms.",
+      "boundary": "No unconditional net consideration, actual financing or surviving contract settled; advertisements not proof of inflated SPA or wrongdoing.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "A-R1",
+      "title": "Arc ordinary whole-unit annual offer",
+      "url": "https://www.mudah.my/the-arc-cyberjaya-for-rent-intake-november-2026-115832880.htm",
+      "access": "Direct page;relative posting3weeks ago;November2026 intake",
+      "observed": "1500/month,913sf,BlockC,3BR2BA,furnished,one covered bay,minimum1year. Students/families marketed.",
+      "boundary": "Future advertised tenancy, not collected income or transfer of this arrangement to A-S1; no GRR receipt credited.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "A-S2",
+      "title": "Arc alternative direct price",
+      "url": "https://www.iproperty.com.my/property/cyberjaya/the-arc/sale-107605826/",
+      "access": "Direct page;10 October2026;search index retained2April2026",
+      "observed": "248k/913sf/3BR2BA/one bay/partly furnished. Older index same listing ID shows280k and different nearby-campus copy.",
+      "boundary": "No explicit package in viewed body does not prove no incentives, clean title or no liabilities. Same listing refresh is not an achieved price change.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "A-H1",
+      "title": "Issuer historical GRR disclosure",
+      "url": "https://www.meridianberhad.com.my/_files/ugd/a1c5d4_bacbe73f4619473eabd4466764075b56.pdf",
+      "access": "Issuer-hosted FY2015 annual report;PDF text pages7 and113 inspected",
+      "observed": "Directors identify Arc GRR losses/provisions; note21(iii) describes3–4year non-cancellable leaseback obligations.",
+      "boundary": "Historical counterparty mechanism only; not present scheme, current court outcome, parcel obligation or building condition. No PDF images inspected.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "L-S1",
+      "title": "Lucentia selected sale with unperiodised charge",
+      "url": "https://www.propertyguru.com.my/property-listing/lucentia-residences-for-sale-by-novan-loo-500267857",
+      "access": "Direct page;12 October2026",
+      "observed": "600k/454sf studio;unitT1-07-02;maintenance1165 without period. Furnished header versus confirmation requested in body.",
+      "boundary": "No charge invoice, allocation basis, inclusive items or effective offer. A refresh does not cure ambiguity.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "L-R1",
+      "title": "Lucentia selected rent lineage refreshed",
+      "url": "https://www.edgeprop.my/listing/rental/4046809/lucentia-residences-bbcc-for-rent-by-jeson-lim",
+      "access": "Direct page;13 October2026",
+      "observed": "454sf furnished studio,one bay,3400 monthly advertisement.",
+      "boundary": "No minimum term, utilities, operator deductions, paid collections or match to sale inventory. Monthly quotation is not proof of annual tenancy.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "L-F1",
+      "title": "Lucentia broker fee alternative",
+      "url": "https://www.propertysummarist.com/lucentia-residences-bbcc-kl-bukit-bintang-city-centre-2/",
+      "access": "Direct marketing page;fee effective date absent;launch-era narrative",
+      "observed": "States0.60psf including sinking fund.",
+      "boundary": "Broker marketing, not MC bill. Monthly0.60x454=272.40 is a labelled scenario; actual charge may use share units, extras, revised rate or different period.",
+      "retrieved_on": "2026-10-13"
+    },
+    {
+      "id": "L-R2",
+      "title": "Lucentia stale3000 rent lead",
+      "url": "https://condo.com.my/terranceleong/kuala-lumpur-bukit-bintang/lucentia-residences-454sf-condoserviced-residence-for-rent?nav=1",
+      "access": "Search-index text;ID20220728153202 and28July2022 timestamp",
+      "observed": "454sf furnished studio/one bay at3000.",
+      "boundary": "Recent crawl does not make it a2026 rent. Excluded as fresh corroboration;3000 remains inherited downside only.",
+      "retrieved_on": "2026-10-13"
+    }
+  ],
+  "exclusions": [
+    {
+      "item": "Parkview international namesakes",
+      "reason": "Broad615 search returned foreign addresses and institutional PDFs; excluded without claiming local plan."
+    },
+    {
+      "item": "Parkview generic portal panels and room/short-stay offers",
+      "reason": "Smaller420–550sf, larger650sf two-room and nightly rates are not selected615sf ordinary income; no count/median/occupancy inferred."
+    },
+    {
+      "item": "Parkview direct search misses",
+      "reason": "Charles URL redirected; Khew2100 timed out; ledger retains indexed date/access boundary. P-R2 price contradiction retained."
+    },
+    {
+      "item": "Lucentia developer website",
+      "url": "https://bbcckl.com/",
+      "reason": "Home page and inferred /lucentia-residences/ endpoint failed. No current authoritative fee found. An inferred endpoint is not proof of a developer page."
+    },
+    {
+      "item": "Lucentia third-party-hosted old brochure",
+      "url": "https://93b34d52-4570-48c5-ade3-f31a406a96a3.filesusr.com/ugd/4e39db_de8bba69f4904decb1bb290ddedb1cf8.pdf",
+      "reason": "Indexed0.60servicecharge with2021completion target; host/currency/fee period not authenticated. Not an independent current bill."
+    },
+    {
+      "item": "Lucentia third-party reviews/staging portal",
+      "reason": "Aggregated rents, mixed common-room labels and legacy launch prices do not authenticate fee or ordinary owner income; no replicated rent statistic used."
+    },
+    {
+      "item": "Arc legacy25year8% marketing/forum/reporting",
+      "reason": "Historical marketing and litigation commentary cannot establish present collectible guarantee or legal outcome; use issuer historical disclosure only for history."
+    },
+    {
+      "item": "Arc source freshness",
+      "reason": "October search index and September direct panel differed; older April Kelvin index280k superseded for observed asking price by direct10October248k, without assuming same unchanged parcel or achieved reduction."
+    },
+    {
+      "item": "Arc alternative sizes/room rents",
+      "reason": "946/950/1000sf and530room starts excluded from selected913sf whole-unit arithmetic; no unsupported current1700 exact-size corroboration."
+    }
+  ],
+  "method": "Public direct text and indexed snippets only. Agent dates, crawl dates and event dates separated. No paid data, outreach, site visit, current private documents, image/plan inspection or realised outcomes. Source claims are not authenticated market facts. Repeated syndication is one lineage."
+}

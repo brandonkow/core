@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-13",
+  "baseline": "fb72d3aa7b7bb9dddf9f549080002b5562266e59",
+  "cases": [
+    "R321",
+    "R322",
+    "R353"
+  ],
+  "scope": "Targeted public input-anomaly pass; no G0 admission, Core/SOP/engine/map change or new operating IDs",
+  "hypotheses": [
+    "Parkview 2400 could be ordinary whole-unit rent, or package/layout/term contamination; attempt lower-rent counterexample.",
+    "Arc 220k/1500 may survive without historic guarantee, but cashback/contract and furnishing mismatch could erase advantage; seek direct ordinary non-GRR offers.",
+    "Lucentia 1165 may refer to a period other than monthly; alternative fees remain branches until invoice or authoritative current parcel evidence."
+  ],
+  "stop": "One bounded primary/current-asking search per anomaly with source reconciliation; if private plan/lease/fee/contract evidence inaccessible, keep Defer, report unresolved fields and do not recycle counts."
+}

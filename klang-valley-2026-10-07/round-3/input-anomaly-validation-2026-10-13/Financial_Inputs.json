@@ -1,0 +1,320 @@
+{
+  "packet": "KV-INPUT-ANOMALY-2026-10-13",
+  "baseline_commit": "fb72d3aa7b7bb9dddf9f549080002b5562266e59",
+  "evidence_cutoff": "2026-10-13",
+  "frozen_engine_sha256": "3ab25fc9d9c100dde0eb7240cada5f53df2b6585be52af9165d8930cd8a64b5a",
+  "historical_cases": [
+    {
+      "id": "R321",
+      "area_id": "A34",
+      "batch": "B05",
+      "name": "Parkview compact",
+      "sqft": 615,
+      "layout": "studio / 1BR unresolved",
+      "price": 400000,
+      "rent_assumed": 2400,
+      "fee_assumed": 350,
+      "other_assumed": 200,
+      "refurb_assumed": 25000,
+      "rent_low": 1900,
+      "rent_high": 2400,
+      "sale_source": "https://www.propertyguru.com.my/property-listing/parkview-service-apartment-for-sale-by-sylvia-chin-107696761",
+      "rent_source": "https://www.propertyguru.com.my/apartment-condo-service-residence-for-rent/at-parkview-service-apartment-1578",
+      "retrievals": [
+        "003",
+        "025",
+        "032",
+        "034"
+      ],
+      "evidence_dates": "Sale 1 Oct; rent index Sep/older syndicated lead",
+      "source_note": "Sale header615sf/1BR versus body600sf; FF low floor; rental615sf2400 studio, bay and annual term unmatched.",
+      "mechanism": "Lower-quantum central accommodation could earn sufficient ordinary income without tourism.",
+      "buyer": "Investor income and possible single/couple use; Vortex larger compact and Angkasa Impian mature space are alternatives.",
+      "project": "Older building costs, access route, short-stay interface and bay rights unknown.",
+      "comp": "Mixed-size recorded transfers and conflicting plan labels do not establish a615-sf clearing interval.",
+      "reversal": "A lower true ordinary rent or works bill removes the narrow annual surplus; central postcode does not establish owner desirability.",
+      "next": "Authenticate sale/plan/bay and ordinary annual lease plus fee/works evidence before transfer adjustments.",
+      "hold": "Plan/size and ordinary-income hold",
+      "price_status": "Advertised or indexed conditional amount; not confirmed effective price",
+      "rent_status": "Ordinary whole-unit underwriting hypothesis informed by asks, not achieved or contracted rent",
+      "fee_status": "Unverified combined management/sinking proxy",
+      "cost_status": "Unquoted planning allowances; actual taxes and itemised costs unresolved",
+      "g0": "STOP",
+      "g9": "Defer"
+    },
+    {
+      "id": "R322",
+      "area_id": "A35",
+      "batch": "B05",
+      "name": "Lucentia studio - monthly-fee interpretation",
+      "sqft": 454,
+      "layout": "studio",
+      "price": 600000,
+      "rent_assumed": 3400,
+      "fee_assumed": 1165,
+      "other_assumed": 230,
+      "refurb_assumed": 20000,
+      "rent_low": 3000,
+      "rent_high": 3400,
+      "sale_source": "https://www.propertyguru.com.my/property-listing/lucentia-residences-for-sale-by-novan-loo-500267857",
+      "rent_source": "https://www.edgeprop.my/listing/rental/4046809/lucentia-residences-bbcc-for-rent-by-jeson-lim",
+      "retrievals": [
+        "010",
+        "026",
+        "029",
+        "034",
+        "048"
+      ],
+      "evidence_dates": "Sale30Sep; rent4Oct2026",
+      "source_note": "Sale T1-07-02 states1165maintenance without period; FF header versus confirmation required in copy. Rental454studioFF one bay3400 is another unit.",
+      "mechanism": "BBCC access could support small-unit tenancy; net income depends on fee period and lease type.",
+      "buyer": "Income-led compact buyers and possible single/couple use; Angkasa older compact, SWNK and TRX are substitutes by task.",
+      "project": "Actual fee invoice, sinking/arrears breakdown, furnishings and operating rules unresolved.",
+      "comp": "Lucentia transfer panel contains other sizes;600k is an ask, not a validated454-sf discount.",
+      "reversal": "Monthly1165 erases simplified coverage; quarterly interpretation can reverse carry but is an unverified hypothesis, not a correction.",
+      "next": "Obtain charge-period/itemisation evidence and matched ordinary lease; test SWNK delivered competition before valuing scarcity.",
+      "hold": "Fee-period and furnishing/lease hold; quarterly branch is conditional",
+      "price_status": "Advertised or indexed conditional amount; not confirmed effective price",
+      "rent_status": "Ordinary whole-unit underwriting hypothesis informed by asks, not achieved or contracted rent",
+      "fee_status": "1165 period unknown: base is explicitly monthly interpretation; quarterly alternative is hypothesis",
+      "cost_status": "Unquoted planning allowances; actual taxes and itemised costs unresolved",
+      "g0": "STOP",
+      "g9": "Defer"
+    },
+    {
+      "id": "R353",
+      "area_id": "A56",
+      "batch": "B08",
+      "catchment": "Cyberjaya",
+      "name": "The Arc",
+      "sqft": 913,
+      "layout": "3BR/2BA marketed",
+      "price": 220000,
+      "rent_assumed": 1500,
+      "rent_low": 1400,
+      "rent_high": 1700,
+      "fee_assumed": 250,
+      "other_assumed": 180,
+      "refurb_assumed": 25000,
+      "bays": 1,
+      "evidence": [
+        "W01-E16",
+        "W01-E17",
+        "W01-E18",
+        "W01-E22"
+      ],
+      "match": "913sf PF sale versus Block C 913sf FF rent offered for November 2026 intake and minimum one year. Price packages unverified; 950sf upper rent is not same-size corroboration.",
+      "quarantine": "Offer includes cash/loan/cashback conditions; title/assignment/GRR residue, inventory and selected-parcel ordinary leasing rights unresolved. No historic guaranteed yield used.",
+      "price_status": "Advertised amount, not authenticated net consideration or current executable offer.",
+      "rent_status": "Conditional ordinary whole-unit rent informed by asking evidence; not signed or collected income.",
+      "fee_status": "Unverified combined management/sinking allowance, not authenticated management-only standard charge.",
+      "cost_status": "Analyst planning allowances, pre-tax; actual cost inventory and quotes pending.",
+      "unit_identity": "Exact parcel, approved plan, title, usable bays, tenure restrictions and inventory not authenticated.",
+      "g0": "STOP: no unit-matched normalised clearing interval or authenticated net terms.",
+      "g9": "Defer"
+    }
+  ],
+  "scenarios": [
+    {
+      "label": "P_base",
+      "case_id": "R321",
+      "case_overrides": {}
+    },
+    {
+      "label": "P_rent_1900",
+      "case_id": "R321",
+      "case_overrides": {
+        "rent_assumed": 1900
+      }
+    },
+    {
+      "label": "P_rent_2100",
+      "case_id": "R321",
+      "case_overrides": {
+        "rent_assumed": 2100
+      }
+    },
+    {
+      "label": "P_rent_2250",
+      "case_id": "R321",
+      "case_overrides": {
+        "rent_assumed": 2250
+      }
+    },
+    {
+      "label": "P_rent_2300",
+      "case_id": "R321",
+      "case_overrides": {
+        "rent_assumed": 2300
+      }
+    },
+    {
+      "label": "P_rent_2500",
+      "case_id": "R321",
+      "case_overrides": {
+        "rent_assumed": 2500
+      }
+    },
+    {
+      "label": "P_ten_paid_months",
+      "case_id": "R321",
+      "case_overrides": {},
+      "paid_months_per_year": 10
+    },
+    {
+      "label": "P_fee450",
+      "case_id": "R321",
+      "case_overrides": {
+        "fee_assumed": 450
+      }
+    },
+    {
+      "label": "A_base",
+      "case_id": "R353",
+      "case_overrides": {}
+    },
+    {
+      "label": "A_rent_1400",
+      "case_id": "R353",
+      "case_overrides": {
+        "rent_assumed": 1400
+      }
+    },
+    {
+      "label": "A_rent_1700",
+      "case_id": "R353",
+      "case_overrides": {
+        "rent_assumed": 1700
+      }
+    },
+    {
+      "label": "A_248k_1500",
+      "case_id": "R353",
+      "case_overrides": {
+        "price": 248000
+      }
+    },
+    {
+      "label": "A_248k_1700",
+      "case_id": "R353",
+      "case_overrides": {
+        "price": 248000,
+        "rent_assumed": 1700
+      }
+    },
+    {
+      "label": "A_ten_paid_months",
+      "case_id": "R353",
+      "case_overrides": {},
+      "paid_months_per_year": 10
+    },
+    {
+      "label": "A_initial_works50k",
+      "case_id": "R353",
+      "case_overrides": {
+        "refurb_assumed": 50000
+      }
+    },
+    {
+      "label": "A_unknown_liability30k",
+      "case_id": "R353",
+      "case_overrides": {},
+      "engine_arguments": {
+        "levy_month": 1,
+        "levy": 30000
+      }
+    },
+    {
+      "label": "L_base",
+      "case_id": "R322",
+      "case_overrides": {}
+    },
+    {
+      "label": "L_quarterly_3400",
+      "case_id": "R322",
+      "case_overrides": {
+        "fee_assumed": 388.3333333333333
+      }
+    },
+    {
+      "label": "L_quarterly_3000",
+      "case_id": "R322",
+      "case_overrides": {
+        "fee_assumed": 388.3333333333333,
+        "rent_assumed": 3000
+      }
+    },
+    {
+      "label": "L_060psf_3400",
+      "case_id": "R322",
+      "case_overrides": {
+        "fee_assumed": 272.4
+      }
+    },
+    {
+      "label": "L_060psf_3000",
+      "case_id": "R322",
+      "case_overrides": {
+        "fee_assumed": 272.4,
+        "rent_assumed": 3000
+      }
+    },
+    {
+      "label": "L_monthly_3000",
+      "case_id": "R322",
+      "case_overrides": {
+        "rent_assumed": 3000
+      }
+    },
+    {
+      "label": "L_quarterly_ten_paid",
+      "case_id": "R322",
+      "case_overrides": {
+        "fee_assumed": 388.3333333333333
+      },
+      "paid_months_per_year": 10
+    }
+  ],
+  "common_stresses": {
+    "rate5_5": {
+      "rate": 0.055
+    },
+    "rent_down20": {
+      "rent_factor": 0.8
+    },
+    "fee_plus20pct": {
+      "fee_factor": 1.2
+    },
+    "works30k_month24": {
+      "levy_month": 24,
+      "levy": 30000
+    },
+    "bank_value_down15": {
+      "valuation_ratio": 0.85
+    },
+    "term25": {
+      "term": 25
+    },
+    "exit_delay12": {
+      "months": 72
+    },
+    "unquoted_cost_buffer": {
+      "annual_extra_cost": 1200,
+      "exit_extra_cost": 5000
+    },
+    "combined12": {
+      "months": 12,
+      "rate": 0.055,
+      "rent_factor": 0.8,
+      "first_year_paid": 6,
+      "levy_month": 1,
+      "levy": 30000
+    }
+  },
+  "branch_boundaries": {
+    "P": "400k historical ask unchanged. 2400 direct advertised lead; 1900 inherited downside from smaller stock, 2100 old same-agent 615sf index, 2250/2300 one near-size internally conflicting lead, 2500 older 650 header/615 body lead. All conditional, no new stable market range. 10 paid months and fee450 are analyst shocks.",
+    "A": "220k conditional-package historical ask; 248k separately advertised partly furnished 913sf. Rent1500 future whole-unit minimum1year advert;1400/1700 inherited assumptions. Fit-out25k baseline,50k sensitivity. Unknown30k liability is hypothetical unfunded arrears/contract/works exposure, not a known debt; not combined with bank-financed consideration. No GRR receipts or cashback credited.",
+    "L": "1165 monthly remains historical branch,1165/3 quarter conjecture not verified;0.60x454 monthly alternative from old broker marketing with sinking said included, not current invoice or share-unit calculation. Rent3400 current monthly advert;3000 retained downside, newly found source dates2022 and does not refresh it. All entry at600k and works20k; no actual fee correction or net rent promotion."
+  },
+  "cost_boundary": "90% of purchase price,4%,35years;11paid months absent labelled scenarios;5% entry3% exit allowances,pre-tax,unknown actual costs not zero. 8% hurdle and synthetic500k/150k are illustrations; neither user wealth nor investment targets."
+}

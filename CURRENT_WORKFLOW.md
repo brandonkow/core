@@ -50,7 +50,17 @@ At unchanged historical inputs, annual cash is about -802 for Zeva and -324 for 
 
 The [three-hypothesis checkpoint](klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Three_Hypothesis_Checkpoint.md) closes all three bounded public passes. All seven cases remain G0 STOP / G9 Defer; the three mechanisms remain Unresolved. No Core/SOP/map, historical financial input or programme-count changes.
 
-**Next independent public task: Parkview / Arc / Lucentia input-anomaly packet**, using the existing programme continuation queue. Resolve ordinary-versus-packaged rent and unit form; effective price/guarantee terms; and fee scope/period respectively. Preserve unresolved branches and re-run only affected calculations. Do not restart all areas or repeat portal counts to stand in for private evidence. Brightwood stays paused; no background research is running.
+The subsequent Parkview / Arc / Lucentia input-anomaly public pass is complete and recorded below. Reopen these cases only on material resolving evidence.
+
+## 13 October input-anomaly reopening
+
+The [Parkview / Arc / Lucentia packet](klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/README.md) completes the fourth bounded public evidence task. Parkview now has a direct 615-sf RM2,400 advertised rental lead but no matched paid annual lease or original plan. Arc's refreshed RM220k conditional package and separate RM248k / 913-sf offer are distinct price branches; no historic GRR is booked. Lucentia's RM1,165 charge still lacks a period; quarter and RM0.60 psf/month alternatives remain hypotheses.
+
+Under inherited 90% / 4% / 35 years and eleven paid months, Parkview 400k/2,400 gives about +672 annual cash; 2,300 rent gives -428. Arc 220k/1,500 gives +820; 248k/1,500 gives -519. Lucentia 600k/3,400 gives -8,032 with monthly 1,165 fees, versus +1,288 under a quarterly hypothesis. The lower 3,000 rent remains annual-negative in both favourable fee branches. None of these is a validated current income/fee/price.
+
+64 financial evaluations passed; original inputs and all historical releases remain intact. PAL-D01 is an Unresolved Lucentia fee-interpretation Divergence Flag. No authenticated numerical input correction, G0 admission, Core/SOP/map edit or programme-count change.
+
+The [continuation checkpoint](klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Continuation_Checkpoint.md) now links all four public tasks across ten existing cases, all G0 STOP / G9 Defer. **Next independent desk task: a concise ten-case evidence-priority and decision-boundary sheet using existing releases.** Separate arithmetic attractiveness, evidence readiness, capital costs and funded exit. Avoid further portal searches absent a material gap. Brightwood remains paused; no background research or outreach is running.
 
 ## User authority
 

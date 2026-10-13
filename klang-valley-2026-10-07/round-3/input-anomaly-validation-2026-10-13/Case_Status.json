@@ -1,0 +1,157 @@
+{
+  "packet": "KV-INPUT-ANOMALY-2026-10-13",
+  "baseline_commit": "fb72d3aa7b7bb9dddf9f549080002b5562266e59",
+  "as_of": "2026-10-13",
+  "historical_input_policy": "Unchanged; this is a dated evidence/scenario overlay, not numerical correction.",
+  "gate_policy": "ExistingG0-G9; diagnostic later gates do not overrule G0STOP. AllG9Defer; no new gate/core/screen.",
+  "cases": [
+    {
+      "case_id": "R321",
+      "name": "Parkview compact",
+      "hypothesis": "PAL-P01",
+      "flag": null,
+      "status": "Unresolved",
+      "sources": [
+        "P-S1",
+        "P-R1",
+        "P-R2",
+        "P-R3",
+        "P-R4",
+        "P-R5"
+      ],
+      "tenant_task": "Exclusive compact for single/couple/small household; ordinary annual use hypothesised. Tenant all-in cost and actual cohort unknown.",
+      "substitutes": "Other original Parkview compacts by usable space/bay/term; preserved Vortex and Angkasa Impian expressions by task, not unadjusted valuation comps. Room and nightly products separate.",
+      "privacy_configuration": "Independent approved enclosure, entrance, bathroom/kitchen/laundry, acoustic separation and sharing unknown; 1BR/studio labels conflict.",
+      "rent_evidence": "2400 direct monthly asking; no agreed/collected/renewed lease. Generic one-year term elsewhere cannot clear selected unit. Lower/upper branches retained with individual limitations.",
+      "family_fields": {
+        "capable": "Unknown beyond marketed compact form",
+        "occupied": "Unknown",
+        "renewed": "Unknown",
+        "owner_adopted": "Unknown"
+      },
+      "governance": "Condition/service outcomes and financial ability unknown; age and covered-parking facility label are not a bay title or management grade.",
+      "concentration_and_access": "Actual tenant/employer/operator shares and practical journeys unknown; no transfer of tourism demand into ordinary rent.",
+      "investor_exit": "Ordinary net income and transferrable rights must support entry and future funded buyer; five-year burden computed, not exit valuation.",
+      "gates": {
+        "G0": "STOP: no matched effective clearing interval or authenticated unit offer; assumptions remain conditional.",
+        "G1": "Exclusive central compact could earn ordinary income independently of tourism; hypothesis unvalidated.",
+        "G2": "Tenant marketing is not actual cohort or financeable buyer depth; investor-led exit remains eligible.",
+        "G3": "Current management outcomes, reserves, arrears, major works and operating permissions unverified.",
+        "G4": "615/600sf discrepancy and studio/1BR boundary not resolved. Allocated bays and actual utilities/fit-out unknown.",
+        "G5": "Not adjudicated while G0-G4 prerequisites remain unresolved; no validated mispricing.",
+        "G6": "Test transferable net ordinary income, buyer equity and lending; no owner-occupier prerequisite.",
+        "G7": "Conditional cash, financing and terminal stresses run; actual lender/lease/cost evidence missing.",
+        "G8": "Research-task priority only; no actual allocation. Synthetic combined reserve test is not user finances.",
+        "G9": "Defer"
+      },
+      "next_evidence": "Parcel-linked approved plan/bay plus ordinary lease/collections with package reconciliation; current charges/works and effective transfers.",
+      "financial_labels": [
+        "P_base",
+        "P_rent_1900",
+        "P_rent_2100",
+        "P_rent_2250",
+        "P_rent_2300",
+        "P_rent_2500",
+        "P_ten_paid_months",
+        "P_fee450"
+      ]
+    },
+    {
+      "case_id": "R353",
+      "name": "The Arc",
+      "hypothesis": "PAL-A01",
+      "flag": null,
+      "status": "Unresolved",
+      "sources": [
+        "A-S1",
+        "A-R1",
+        "A-S2",
+        "A-H1"
+      ],
+      "tenant_task": "Ordinary whole unit for household or jointly renting students/workers; genuine family adoption and sharing arrangements unknown.",
+      "substitutes": "Other Cyberjaya ordinary whole units or operator/room accommodation; Solstice compact is a different task/capital alternative, not same-size comp.",
+      "privacy_configuration": "Marketed3BR2BA whole unit; legal original plan/actual modifications, room locks/sharing, private amenities and bay rights require proof.",
+      "rent_evidence": "Separate BlockC furnished1500 minimum-one-year November intake advert; not acquired parcel's paid lease or GRR.",
+      "family_fields": {
+        "capable": "Marketed3BR suggests potential only",
+        "occupied": "Not proved by family marketing",
+        "renewed": "Unknown",
+        "owner_adopted": "Unknown"
+      },
+      "governance": "No current management accounts, levies, funded works or service outcomes. Historical issuerGRR is not a current building-quality grade.",
+      "concentration_and_access": "Student/family marketing and campus walking claims do not establish capture, concentration or route quality.",
+      "investor_exit": "Eligible yield-led resale; current option/assignment/occupation rights, liability allocation and buyer credit/price unverified.",
+      "gates": {
+        "G0": "STOP:220k carries unspecified package terms;248k separate offer is not authenticated net price. No matched clearing interval.",
+        "G1": "Ordinary-income recovery at low net entry could survive without historicGRR; no guarantee income credited.",
+        "G2": "Tenant marketing is not actual cohort or financeable buyer depth; investor-led exit remains eligible.",
+        "G3": "Current management outcomes, reserves, arrears, major works and operating permissions unverified.",
+        "G4": "Partly furnished sale versus furnished rental; inventory/legal occupancy/assignment and contract residue unresolved.",
+        "G5": "Not adjudicated while G0-G4 prerequisites remain unresolved; no validated mispricing.",
+        "G6": "Test transferable net ordinary income, buyer equity and lending; no owner-occupier prerequisite.",
+        "G7": "Conditional cash, financing and terminal stresses run; actual lender/lease/cost evidence missing.",
+        "G8": "Research-task priority only; no actual allocation. Synthetic combined reserve test is not user finances.",
+        "G9": "Defer"
+      },
+      "next_evidence": "Current seller net term sheet and parcel contracts/releases/possession, charges and inventory; ordinary collections and actual buyer finance. Do not infer every unit remains bound or released.",
+      "financial_labels": [
+        "A_base",
+        "A_rent_1400",
+        "A_rent_1700",
+        "A_248k_1500",
+        "A_248k_1700",
+        "A_ten_paid_months",
+        "A_initial_works50k",
+        "A_unknown_liability30k"
+      ]
+    },
+    {
+      "case_id": "R322",
+      "name": "Lucentia studio",
+      "hypothesis": "PAL-D01",
+      "flag": "PAL-D01",
+      "status": "Unresolved",
+      "sources": [
+        "L-S1",
+        "L-R1",
+        "L-F1",
+        "L-R2"
+      ],
+      "tenant_task": "Exclusive central compact for single/couple/small household; minimum lease term and operator/service bundle unresolved.",
+      "substitutes": "Same original Lucentia studio ordinary letting, SWNK and older central compacts by budget/utility; larger1+1units not studio valuation comps.",
+      "privacy_configuration": "Marketed454studio, separate rentalonebay; exact sale inventory, approved use, access, private facilities, noise and bay allocation unknown.",
+      "rent_evidence": "3400 advertised monthly, not annual contract or collections.3000 inherited stress not refreshed by2022hit; no nightly/operator receipts entered.",
+      "family_fields": {
+        "capable": "Small household potentially; no genericfamily premium",
+        "occupied": "Unknown",
+        "renewed": "Unknown",
+        "owner_adopted": "Unknown"
+      },
+      "governance": "1165unperiodised; monthly/quarterly/rate alternatives not evidence of management success/failure. Invoice, resolution, reserves and levies required.",
+      "concentration_and_access": "Actual cohorts, operator dependence and door-to-destination journeys unknown; BBCC adjacency cannot allocate tenants automatically.",
+      "investor_exit": "Financeable investor or optional household route requires net income and actual rights; fee correction alone cannot validate a clearing price.",
+      "gates": {
+        "G0": "STOP:600k ask, unmatched3400rental, furnishing uncertainty and no unit-matched clearing interval.",
+        "G1": "Mechanism hypothesis only; no automatic location, rail, lifecycle or guarantee uplift.",
+        "G2": "Tenant marketing is not actual cohort or financeable buyer depth; investor-led exit remains eligible.",
+        "G3": "Fee scope/period/current rates unresolved; oldbroker0.60scale cannot replace bill or establish reserves.",
+        "G4": "Exact original parcel, plan, inventory, bays, private facilities and condition not inspected.",
+        "G5": "Not adjudicated while G0-G4 prerequisites remain unresolved; no validated mispricing.",
+        "G6": "Test transferable net ordinary income, buyer equity and lending; no owner-occupier prerequisite.",
+        "G7": "Monthly1165branch and lower-fee alternatives calculated; carry changes materially. Actual cost and credit must be proved.",
+        "G8": "Research-task priority only; no actual allocation. Synthetic combined reserve test is not user finances.",
+        "G9": "Defer"
+      },
+      "next_evidence": "Current matching invoice/account statement, recurring versus one-off items and share-unit basis; fee resolution/works, sale inventory and ordinary paid lease.",
+      "financial_labels": [
+        "L_base",
+        "L_quarterly_3400",
+        "L_quarterly_3000",
+        "L_060psf_3400",
+        "L_060psf_3000",
+        "L_monthly_3000",
+        "L_quarterly_ten_paid"
+      ]
+    }
+  ]
+}
