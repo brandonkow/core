@@ -6,6 +6,8 @@ Project repository: [brandonkow/core](https://github.com/brandonkow/core), desig
 
 Latest sequencing instruction: all updates go directly to main, with no other branch. Complete all-area underwriting and programme integration before independently assessing whether the decision map needs updating. The programme is desk-complete. The [11 October map assessment](klang-valley-2026-10-07/round-3/programme-final/Map_Assessment_2026-10-11.md) concludes that the existing framework map should remain unchanged.
 
+**Current user sequencing:** the [consolidated 24-question market Red Team review](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/README.md) must be answered, reconciled and explicitly closed by the user before exact-unit admission, final underwriting review or investment decision closeout starts. These three stages are on hold; see [current workflow](CURRENT_WORKFLOW.md). Core/SOP/map and all historical results remain unchanged.
+
 ## Authoritative framework entry point
 
 Use [Residential Investment Framework](Residential_Investment_Framework.md) as the single consolidated master for future underwriting. It preserves the available Core and G0-G9 definitions and embeds the Evidence-Judgment Divergence control. Read its cross-module execution binding before applying the gates. All Markdown artifacts are English; conversation with the user is Mandarin.

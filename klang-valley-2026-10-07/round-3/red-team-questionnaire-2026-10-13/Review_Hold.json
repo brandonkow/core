@@ -1,0 +1,50 @@
+{
+  "version": "RT-CONSOLIDATION-2026-10-13",
+  "baseline_commit": "6edb9fb1f18190799ee03d11ec3f775682aa54c5",
+  "authority": "Direct user instruction: list all currently known market Red Team questions together; only run the three next stages after responses are reconciled and the user confirms no outstanding current interpretation issues.",
+  "state": "Awaiting Red Team responses and explicit user closure confirmation",
+  "questions": 24,
+  "answers_received": 0,
+  "question_register": "Question_Register.json",
+  "paused_stages": [
+    {
+      "stage": 1,
+      "name": "Exact-unit evidence admission",
+      "status": "Not started after this instruction"
+    },
+    {
+      "stage": 2,
+      "name": "Final G0-G9 / financial / portfolio review",
+      "status": "Not started after this instruction"
+    },
+    {
+      "stage": 3,
+      "name": "Final investment decision closeout",
+      "status": "Not started after this instruction"
+    }
+  ],
+  "permitted_preparation": [
+    "Read and reconcile existing records",
+    "Publish the consolidated questionnaire and audit",
+    "Receive, attribute and analyse replies",
+    "Consolidate necessary interpretation follow-ups"
+  ],
+  "release_conditions": [
+    "Each RT-01 through RT-24 has a recorded response/disposition; uncertainty or unfamiliarity is allowed and remains uncertainty.",
+    "Overlaps, disagreements and material interpretation gaps are reconciled without converting opinions into verified facts.",
+    "The analyst presents one consolidated response review, including residual empirical holds and any necessary interpretation follow-ups.",
+    "The user explicitly confirms closure of the current Red Team review and authorises starting the three stages."
+  ],
+  "automatic_resume": false,
+  "background_work": false,
+  "unchanged": [
+    "Core/G0-G9",
+    "SOP",
+    "Financial inputs/engine/configuration",
+    "Map",
+    "Historical releases",
+    "All current G0 STOP / G9 Defer dispositions"
+  ],
+  "future_new_fact_rule": "A later material new fact may create a specifically logged new issue. Current closure is not a promise of perfect foresight or permission to ignore evidence.",
+  "brightwood": "Paused"
+}

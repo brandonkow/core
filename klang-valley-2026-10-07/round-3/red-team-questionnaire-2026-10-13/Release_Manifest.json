@@ -1,0 +1,105 @@
+{
+  "release": "CONSOLIDATED-RED-TEAM-2026-10-13",
+  "repository": "brandonkow/core",
+  "branch": "main",
+  "baseline_commit": "6edb9fb1f18190799ee03d11ec3f775682aa54c5",
+  "baseline_tree": "6f236122219da45610d69c58c3933cff5934bf88",
+  "authority": "User requested all known market Red Team questions together and explicitly withheld the three execution stages until response reconciliation and confirmation.",
+  "payloads": {
+    "klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/README.md": {
+      "bytes": 24975,
+      "sha256": "27ce7699d4ef8b5413ae91c5e579a582d16322585307cec85d6207955707b453",
+      "git_blob_sha": "c2ecac892a41479b9d6968eacb66cf7ede973c59"
+    },
+    "klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/Question_Register.json": {
+      "bytes": 57925,
+      "sha256": "926dab9db1272bf9cd3c3031d092528acf5abec28aa091b2d31bec0705cbb86e",
+      "git_blob_sha": "b8fbb1bc90b0c437bf7d498637d74839638e9edd"
+    },
+    "klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/Review_Hold.json": {
+      "bytes": 2194,
+      "sha256": "e7e8daf36400e3252340efbb65790789281a59ca52463334649dae9e50fa941f",
+      "git_blob_sha": "a34a41fefe0e07dfe3a8ea70dfa4749d96ed2790"
+    },
+    "klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/Coverage_and_Review_Audit.md": {
+      "bytes": 7567,
+      "sha256": "cb095fb65c98aabeef4eff78df286c5b8dd0dd28d5bd2ec8a6e10114e57afcb8",
+      "git_blob_sha": "c0bd51cc9f3189fd3f0594c926498e0a6ffb862b"
+    },
+    "README.md": {
+      "bytes": 12158,
+      "sha256": "951d88157fcecb359dacb6e186cc37291d9c4095712fe7eb73602af2c9a6f008",
+      "git_blob_sha": "578ebd0b07b19e03e956c540dad2ef2fcf2de11f"
+    },
+    "CURRENT_WORKFLOW.md": {
+      "bytes": 15039,
+      "sha256": "a4c17229e1941c1935116719bed6da334becb7027116988eb89c252fc7d057b0",
+      "git_blob_sha": "87670477db8b5e319ee97f84f082b23440edb6ef"
+    }
+  },
+  "source_blobs": {
+    "klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md": "350ac9eebc87f3c2290294f00dd615ecbd981362",
+    "klang-valley-2026-10-07/round-3/programme-final/Case_and_Area_Register.md": "f43a577dc02b3c717d746f0cd9334b063dd46e70",
+    "klang-valley-2026-10-07/round-3/programme-final/Divergence_and_Misses.md": "85e51f9f6f44a7f8e648f4167d45f44e6999fae0",
+    "klang-valley-2026-10-07/round-3/programme-final/Portfolio_and_Terminal_Risk.md": "b7afb289e4beececd621359bf2f8d8d54c65189b",
+    "klang-valley-2026-10-07/round-3/programme-final/RESUME_AND_COMPLETION.md": "300bb8b217846d9050b6694bf180e4dafb9043c1",
+    "klang-valley-2026-10-07/round-3/programme-final/Programme_Completion_Audit.md": "a9e12010721f80fb5d2696188b32563224264e64",
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Regional_Synthesis.md": "ca912bd6e8aceee901855c142399aa6f7657baf7",
+    "klang-valley-2026-10-07/round-3/B01_Regional_Synthesis.md": "f8dee6b50c135a689fbc12cf2cefc3a5a317ab80",
+    "klang-valley-2026-10-07/round-3/B02_Regional_Synthesis.md": "946b86a1a23d557a6c26263b2c3733dfcd9afb66",
+    "klang-valley-2026-10-07/round-3/B03_Regional_Synthesis.md": "371ef8ce7b8a0ea4c1b4b37b19c15602d1020546",
+    "klang-valley-2026-10-07/round-3/B04_Regional_Synthesis.md": "419c2a5d0e4069536ea8aeb35aa09014527c3613",
+    "klang-valley-2026-10-07/round-3/B05_Regional_Synthesis.md": "697fe475274e7faa2f80fd755d7ff0cb2dd7be77",
+    "klang-valley-2026-10-07/round-3/B06_Regional_Synthesis.md": "b40b5b0b7feb66e69c4e9f80d8df84923d8806ae",
+    "klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md": "125f65a982e438697ee5706b04ff85fe372be9cb",
+    "klang-valley-2026-10-07/round-3/b08-final/Regional_Synthesis.md": "f050c46f0b61ec9b441136347c23b34aa82fea5f",
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Divergence_and_Misses.md": "e9f5496712f093076fd536b5b73c61c2b9899cc0",
+    "klang-valley-2026-10-07/round-3/B03_Divergence_and_Misses.md": "e2a47a2ec98b3e992573f9955cd7ba20027fba93",
+    "klang-valley-2026-10-07/round-3/B04_Divergence_and_Misses.md": "49c5958314db6a6d30fa2943638f365af49b6a6b",
+    "klang-valley-2026-10-07/round-3/B05_Divergence_and_Misses.md": "ac503a8dac4e7fc62fb39d42f174940d7808a341",
+    "klang-valley-2026-10-07/round-3/B06_Divergence_and_Misses.md": "072ea51531cec1d5b79fb092f3c7c5c48611f37f",
+    "klang-valley-2026-10-07/round-3/b07-final/Divergence_and_Misses.md": "3eb9889cf9365ec7a131aa2432015223a28f2b8e",
+    "klang-valley-2026-10-07/round-3/b08-final/Divergence_and_Misses.md": "bb22736c99e18f0f71fcbb8c5004e7715f32cdc0",
+    "klang-valley-2026-10-07/round-3/Compact_Buyer_Hypothesis.md": "ed9618eb0abacd4a70d8d4b1b7baf20f6a4e2f1b",
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Judgment_and_Hypotheses.md": "438fe32a4abf3470429dae65788f8b5ffe08a887",
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/README.md": "cc18c538435cc7fd32e8860e9c4683aaca3ea923",
+    "sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md": "bb223fcae99fd2247838bdbf51672d0e52e68df2",
+    "sop/Approved_Execution_Supplement.md": "6335fedd163614cc6af7589b7281c6820d9895f7",
+    "sop/Founder_QA_Approval_Register.md": "1bed5e8b8e56ae5ba363ca508a797f299ae87a85",
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/README.md": "05d5c7cb6d7e0bedecb3f40dd357f99bec8b4f9a",
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/README.md": "cc36bd61da09c016d2b155f0ad43fa83e721b772",
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/README.md": "944411d7f6e1a8417bb73ba341caa241b6295d07",
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/README.md": "a2c61acd37418c8ae3e4c4c7056d5743eb9affb9",
+    "klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/README.md": "54de76ad844ae435368f2a61910e53ed64316a1e",
+    "execution-release-2026-10-07/Decision_Execution_Standard.md": "133f73319c5bd86a46b5f8f362b59d0ae315e850",
+    "klang-valley-2026-10-07/round-3/programme-final/Inputs.json": "c892fe220959f8d74d54d7c6f54cf14bfdd91c43"
+  },
+  "checks": {
+    "questions": 24,
+    "uniqueIds": 24,
+    "pending": 24,
+    "areas": 61,
+    "cases": 138,
+    "sources": 35,
+    "sourceHashMismatches": [],
+    "sourcePathFailures": [],
+    "badLinks": [],
+    "stageCount": 3,
+    "automaticResume": false,
+    "nonEnglishBodyFiles": []
+  },
+  "scope": "Documentation preparation only; no new underwriting stage, fresh market research, numerical or Core/SOP/map change.",
+  "preservation": {
+    "baseline_blobs": 732,
+    "permitted_existing_changes": [
+      "README.md",
+      "CURRENT_WORKFLOW.md"
+    ],
+    "new_files": 5,
+    "expected_final_blobs": 737,
+    "expected_unchanged_prior_blobs": 730
+  },
+  "status": "Awaiting responses; exact-unit admission, final underwriting review and final investment closeout are on hold.",
+  "self_reference": "Manifest excluded from its own payload hashes. Parent and containing commit identify the release.",
+  "publication": "Create tree from pinned baseline; verify allowed paths and preservation; parented main commit; expected-head update with force false; verify remote content."
+}

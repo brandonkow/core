@@ -2,6 +2,16 @@
 
 Updated: 13 October 2026. Historical programme evidence cutoff: 8 October 2026; targeted reopening evidence: 11-13 October 2026. Canonical repository: https://github.com/brandonkow/core .
 
+## Current sequencing hold - consolidated Red Team review
+
+User instruction, 13 October 2026: first collect all currently known market Red Team questions in one list, receive and reconcile the answers, and obtain the user's confirmation that the review is closed before starting the three execution stages.
+
+The [24-question consolidated packet](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/README.md) covers all eight batches and the full 61-catchment register, prior judgments, counterexamples, supply/transition and exit/portfolio issues. The previous conversational Eve/Pines/Zeva follow-ups are included as questions 1, 4 and 5. [Coverage and responsibility audit](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/Coverage_and_Review_Audit.md) distinguishes market judgment from analyst-owned facts and records two historical summary-label corrections.
+
+**Current state: awaiting Red Team answers and explicit closure/start confirmation.** Exact-unit admission, final G0-G9/financial/portfolio review and final investment decision closeout are on hold. Replies alone do not automatically resume execution. [Review_Hold.json](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/Review_Hold.json) defines the release conditions. Existing G0 STOP / G9 Defer remains unchanged.
+
+The programme's bounded public desk completion and ten-case synthesis remain valid. The Eve/Maxim unit-evidence bundle is the previously proposed next task, subject to this new hold and any reconciled research-priority changes. Brightwood stays paused. No background work is running.
+
 ## Current status
 
 **The bounded all-area public desk underwriting programme is complete:** 61 regional desk passes, 138 conditional operating expressions, 122 project groups, cross-region comparison and programme portfolio/terminal integration. **Zero Deploy.** Exact-unit investment readiness and realised outcome validation remain separate; no all-project census is claimed.

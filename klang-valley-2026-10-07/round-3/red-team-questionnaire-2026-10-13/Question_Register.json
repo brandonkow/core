@@ -1,0 +1,1556 @@
+{
+  "packet": "CONSOLIDATED-RED-TEAM-QUESTIONS-2026-10-13",
+  "baseline_commit": "6edb9fb1f18190799ee03d11ec3f775682aa54c5",
+  "scope": "Known market-interpretation issues across the bounded 61-catchment programme, not a census of every possible future question.",
+  "current_status": "Awaiting user answers; the three execution stages are on hold",
+  "previous_conversational_questions_mapping": {
+    "Eve income channel": "RT-01",
+    "Pines exit buyer": "RT-04",
+    "Zeva saleability versus premium": "RT-05"
+  },
+  "frozen_positions": [
+    "90% purchase-price LTV / 4% / 35 years",
+    "6% gross preferred, not universal rejection",
+    "All original studio through family layouts eligible",
+    "Investor-led exit eligible",
+    "Current monthly shortfall: lowest research priority, not permanent Reject",
+    "Evidence-Judgment Divergence investigates rather than overrides evidence",
+    "No Core/G10 change"
+  ],
+  "questions": [
+    {
+      "id": "RT-01",
+      "number": 1,
+      "title": "Privacy monetisation",
+      "question": "For Eve's whole-unit privacy thesis, is the main advantage higher rent, shorter voids, longer retention, or easier replacement of tenants? Which channel is strongest, and what observation would make you withdraw it?",
+      "existing_position": "MJ-P01 remains a plausible unvalidated hypothesis. No privacy premium or occupancy improvement is booked.",
+      "decision_consequence": "Select the primary measurable benefit and prevent counting the same preference twice.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/README.md",
+        "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Judgment_and_Hypotheses.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-02",
+      "number": 2,
+      "title": "Local whole-unit substitutes",
+      "question": "At similar total housing cost, why would the target tenant choose Eve's compact over a genuine whole-unit two-bedroom such as Pacific Place? Is the decisive difference the project experience, route, condition, exclusivity or something else, and for which cohort?",
+      "existing_position": "A household can obtain privacy in either format. More rooms and a studio label do not independently establish willingness to pay.",
+      "decision_consequence": "Define local substitutes and test whether the proposed premium is privacy or another product/package attribute.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B03_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/README.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G4"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-03",
+      "number": 3,
+      "title": "Young compact owner buyers",
+      "question": "Under what market conditions would a young resident buy an original studio or one-bedroom instead of continuing to rent or buying a larger home elsewhere? Among Eve, Endah, Zeva and Solstice, where is that additional buyer route most plausible or least plausible, and why?",
+      "existing_position": "H-C01 is unresolved; current compact exits remain provisionally investor-dependent. No young-owner premium is assumed.",
+      "decision_consequence": "Identify a falsifiable potential exit-buyer expansion while retaining valid investor-only routes.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/Compact_Buyer_Hypothesis.md",
+        "klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md"
+      ],
+      "gate_routing": [
+        "G2",
+        "G6",
+        "G7"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-04",
+      "number": 4,
+      "title": "Pines rental families versus purchasing families",
+      "question": "Who is most likely to buy the selected mature Pines family product at resale: local owner families, foreign owner families or income investors? What makes that buyer choose it over a comparable-budget alternative?",
+      "existing_position": "Pines is first for family-adoption evidence. Household renting, household buying and funded buying are distinct; nationality is not a quality proxy.",
+      "decision_consequence": "Specify the actual exit thesis instead of treating family tenancy as proof of owner demand.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/README.md",
+        "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Judgment_and_Hypotheses.md"
+      ],
+      "gate_routing": [
+        "G2",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-05",
+      "number": 5,
+      "title": "Zeva price premium versus saleability",
+      "question": "When Zeva is judged more attractive to resale investors than Solstice, does the advantage mainly mean a shorter sale period/smaller negotiation discount, or a willingness to accept a lower investment yield and pay more? What would support either channel or reverse the preference?",
+      "existing_position": "Zeva leads captured-diversity investigation; Solstice retains lower-capital advantages. No yield compression is assigned.",
+      "decision_consequence": "Separate exit timing and bid depth from a numerical capital-value premium.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/README.md"
+      ],
+      "gate_routing": [
+        "G2",
+        "G6",
+        "G8"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-06",
+      "number": 6,
+      "title": "Useful rooms, bays and household duration",
+      "question": "For the households relevant to Maxim/Aster, Encorp and the larger family controls, which marginal feature changes willingness to pay most: a genuine additional bedroom, a second usable bay, another bathroom or better daily access? Where would a household accept less space to obtain the other benefit?",
+      "existing_position": "All original layouts remain eligible. Room labels, studies and raw floor area are insufficient proxies for useful household accommodation.",
+      "decision_consequence": "Refine comparable adjustments and distinguish family-capable layouts from actual adoption.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B01_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B03_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md"
+      ],
+      "gate_routing": [
+        "G2",
+        "G4",
+        "G5"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-07",
+      "number": 7,
+      "title": "Where landed substitution actually binds",
+      "question": "You have already identified Cheras condominium prices approaching landed alternatives. Which buyer tasks still justify choosing high-rise at a similar all-in budget? Does the answer change in outer Cheras, Semenyih, Bangi or Rawang where landed alternatives also appear in the research?",
+      "existing_position": "Landed competition is relevant but budget, condition, commute, security and upkeep must match; there is no universal price ceiling.",
+      "decision_consequence": "Bound the functional substitute set and locate where the future high-rise buyer pool narrows.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B01_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/b01-b02-final/Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/b08-final/Regional_Synthesis.md"
+      ],
+      "gate_routing": [
+        "G2",
+        "G5",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-08",
+      "number": 8,
+      "title": "Older affordability versus newer product",
+      "question": "For Mahkota versus Sterling, and Endah/Arena versus newer M Oscar/Tropika-type choices, what would make the newer product's premium durable enough to affect rent or resale? Conversely, what older-product weakness would erase the apparent low-entry advantage?",
+      "existing_position": "Relative age does not establish current management. The user's prior uncertainty about management is retained, not asked as a missing fact.",
+      "decision_consequence": "Identify testable product differences and adverse ageing mechanisms; do not award a newness bonus.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B03_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B02_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/b01-b02-final/Regional_Synthesis.md"
+      ],
+      "gate_routing": [
+        "G3",
+        "G4",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-09",
+      "number": 9,
+      "title": "Prime owner utility and income weakness",
+      "question": "For TTDI, Damansara Heights and Desa ParkCity, what scarce utility would keep future buyers paying the premium once competing homes are considered? Where do you suspect the useful location/product advantage is already fully reflected in acquisition price?",
+      "existing_position": "These selected current-shortfall scenarios retain lowest ordinary-income research priority. Good living quality can coexist with poor investment terms.",
+      "decision_consequence": "Challenge both prestige-based optimism and an income-only inference of structural weakness.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B04_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/programme-final/Divergence_and_Misses.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G5",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-10",
+      "number": 10,
+      "title": "Who pays for central employment-node housing",
+      "question": "Across Bangsar South, KLCC, BBCC and TRX, which ordinary long-term tenant tasks can actually support premium private rents: employer-funded stays, self-paying professionals, couples or another cohort? Which nodes should not be treated as substitutes, and why?",
+      "existing_position": "Office presence, retail visitors and large asking rents do not demonstrate captured ordinary-tenancy demand; short-stay income is separate.",
+      "decision_consequence": "Define budget setters, repeatable tenancy and true local competition before any employment-driven uplift.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B04_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B05_Regional_Synthesis.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-11",
+      "number": 11,
+      "title": "Different prime family catchments",
+      "question": "Would a family considering Pines realistically substitute Windsor in Sri Hartamas or Tara in Ampang Hilir at an appropriate total budget? Which school/work/lifestyle routines create a firm boundary between their tenant and purchaser pools?",
+      "existing_position": "International-school context does not allocate families to every nearby development or create one interchangeable premium-family comparable set.",
+      "decision_consequence": "Refine family demand boundaries and prevent borrowed location/tenant premiums.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B04_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B05_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/README.md"
+      ],
+      "gate_routing": [
+        "G2",
+        "G5",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-12",
+      "number": 12,
+      "title": "Student and institutional accommodation segmentation",
+      "question": "Across Sunway/Subang, Setapak, Serdang/UPM, Cyberjaya and Subang Bestari/HELP, which cohorts materially prefer a private whole unit and which are more constrained by room/provider/campus alternatives? How do government/provider options change the analogous Putrajaya case?",
+      "existing_position": "Existing user judgments about East Lake/Subang Avenue and Solstice remain attributed hypotheses. These are different institutions and housing tasks; no district-wide exclusive-student label is imposed.",
+      "decision_consequence": "Test the accessible private tenant pool, concentration and effective substitutes without asking for enrolment or contract data.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B06_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/b08-final/Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/README.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-13",
+      "number": 13,
+      "title": "Hospital access and ordinary lease duration",
+      "question": "For Titiwangsa and Selayang, is the durable ordinary-tenancy mechanism chiefly staff/shift workers, long-term nearby households or another cohort? Does patient/accompanying-family demand belong mainly to a shorter-stay business that should not support the ordinary annual-rent thesis?",
+      "existing_position": "Hospital proximity is context only; the current Titiwangsa lease and actual tenant mix remain unknown.",
+      "decision_consequence": "Avoid borrowing transient demand to justify an ordinary lease and identify appropriate operating evidence.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B05_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B06_Regional_Synthesis.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-14",
+      "number": 14,
+      "title": "Puchong's internal market boundaries",
+      "question": "Between Puchong Jaya/Kinrara, central Bandar Puteri and south Puchong, what would make the same household pay materially more for Cruise/Puteri convenience instead of choosing Skypod, Kinrara Mas, Wharf or another local option? Where is changing submarket impractical for its daily routines?",
+      "existing_position": "These are distinct housing tasks; the central Puteri premium and future retail story do not currently repair the worked income gap.",
+      "decision_consequence": "Test product/location premium transmission and avoid pooling different Puchong catchments.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/b07-final/Divergence_and_Misses.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G5"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-15",
+      "number": 15,
+      "title": "Western employment growth and private tenants",
+      "question": "For Glenmarie/Shah Alam, Setia Alam/Bukit Raja and Klang/Botanic, which additional worker or family cohorts are likely to rent private high-rise homes rather than employer accommodation, rooms or landed homes? What would prevent industrial/logistics growth from reaching those rents?",
+      "existing_position": "Warehouse ownership or investment announcements do not establish new jobs or project-level tenancy. Actual capture remains unmeasured.",
+      "decision_consequence": "Discriminate employment-driven demand from a headline-growth narrative and improve the outer-west exit thesis.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/programme-final/Portfolio_and_Terminal_Risk.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-16",
+      "number": 16,
+      "title": "Airport corridor housing budgets",
+      "question": "For Alanis/Kota Warisan/Salak Tinggi, which tenant cohort would choose a private unit after shift schedules, car needs and total housing-plus-travel cost are considered? What makes that preference persist against employer, room, campus and other neighbourhood options?",
+      "existing_position": "Airport and university presence do not establish accessible private demand; transport rights and times need later factual verification.",
+      "decision_consequence": "Define a durable tenant mechanism and the strongest functional substitution risk.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/b08-final/Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/b08-final/Divergence_and_Misses.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-17",
+      "number": 17,
+      "title": "New-township high-rise adoption",
+      "question": "In Kwasa, Elmina/Denai Alam, the western townships and Gamuda Gardens/Rawang, are the relevant condominium buyers more likely to be lasting high-rise households or households using an affordable first step toward landed housing? What would turn township amenities into demand for the selected apartments rather than only landed homes?",
+      "existing_position": "Township brands and landed household incomes do not automatically support compact apartment rent or exit. Each location and budget must remain separate.",
+      "decision_consequence": "Test the formation and durability of a new apartment buyer pool instead of importing a landed-township premium.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B06_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/b08-final/Regional_Synthesis.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-18",
+      "number": 18,
+      "title": "Competitive supply versus complementary supply",
+      "question": "Which upcoming/delivered cohorts in the research genuinely compete for the same paying tenants, and which serve another task? In particular, could larger Ara supply materially weaken Eve compacts, and could newer Maluri/Bangsar South/central-KL stock displace older stock mainly through incentives, furnishing or daily convenience?",
+      "existing_position": "New stock counts are not vacancies, and family supply is not automatically direct studio competition. Older dated timing records require later refresh.",
+      "decision_consequence": "Identify the transmission of supply pressure, the strongest rival explanation and appropriate matched comparisons.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/B01_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B03_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B04_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B05_Regional_Synthesis.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G3",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-19",
+      "number": 19,
+      "title": "Cheap outliers and recovery from stigma",
+      "question": "Assume the exact rights, financing, effective price and ordinary lease of a held expression can later be verified. For Arc, Amcorp, Centrestage or Neo, what remaining market mechanism could still explain persistent cheapness or a weak exit? What observable change would convince you that an old stigma or temporary release has normalised?",
+      "existing_position": "The legal/identity/contract premise is hypothetical, not cleared. Old guarantee history is neither present income nor a permanent veto.",
+      "decision_consequence": "Distinguish hidden mispricing from enduring product/demand impairment without judging title or invoices by opinion.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/programme-final/Divergence_and_Misses.md",
+        "klang-valley-2026-10-07/round-3/B03_Divergence_and_Misses.md",
+        "klang-valley-2026-10-07/round-3/B04_Divergence_and_Misses.md",
+        "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/README.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G3",
+        "G5",
+        "G6"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-20",
+      "number": 20,
+      "title": "Durable furnishing and refurbishment value",
+      "question": "For Pines, Subang Avenue, Savanna and compact whole-unit rentals, which improvements change lasting tenant utility or retention, and which mainly create a fresh-looking advertisement premium that fades at replacement or resale? Where might the research be overestimating a tenant's willingness to pay for an upgrade?",
+      "existing_position": "Fit-out costs and vacancies are already charged in scenarios; premium furnished asks are not achieved incremental income.",
+      "decision_consequence": "Specify an improvement thesis and falsifier before paying for assumed rent or recoverable resale uplift.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/README.md",
+        "klang-valley-2026-10-07/round-3/b08-final/Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/README.md"
+      ],
+      "gate_routing": [
+        "G3",
+        "G4",
+        "G6",
+        "G7"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-21",
+      "number": 21,
+      "title": "Hidden exit ceilings and ageing",
+      "question": "Which issues would ordinary tenants tolerate but future purchasers penalise more strongly: mixed short-stay circulation, noise/privacy, weak pedestrian access, bays/lifts or a changing resident-use pattern? In mature family stock, which weaknesses can good management/works repair and which are inherent to the product?",
+      "existing_position": "No named building is asserted to have these defects. Age and nationality are not proxies for quality; current condition/funding still need evidence.",
+      "decision_consequence": "Prioritise the decisive physical/governance checks and distinguish repairable costs from persistent exit ceilings.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/programme-final/Divergence_and_Misses.md",
+        "klang-valley-2026-10-07/round-3/B04_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B05_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B06_Regional_Synthesis.md"
+      ],
+      "gate_routing": [
+        "G3",
+        "G4",
+        "G6",
+        "G7"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-22",
+      "number": 22,
+      "title": "Specific transition exceptions and their deadline",
+      "question": "Among the current-shortfall examples such as TRX, Kwasa, Elmina or central Bandar Puteri, do you see at most one or two especially credible rent-transition mechanisms, or none? For any nominated case, identify the paying cohort, the event that changes its choice, a plausible recognition/review window and what would make you abandon the thesis.",
+      "existing_position": "The user already permits evidence-led flexibility while keeping current-shortfall research lowest priority. A favourable opinion does not raise that tier or revise rent; delays/no-uplift must be funded.",
+      "decision_consequence": "Select finite, falsifiable transition investigations and separate intended maturity from indefinite thesis extension.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/programme-final/RESUME_AND_COMPLETION.md",
+        "klang-valley-2026-10-07/round-3/B05_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/B06_Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md",
+        "klang-valley-2026-10-07/round-3/b08-final/Regional_Synthesis.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-23",
+      "number": 23,
+      "title": "Cross-area concentration overlooked by labels",
+      "question": "Which cases or submarkets in our queues actually draw on overlapping employers, institutions, accommodation providers or household budgets, such that an apparently diversified portfolio could lose rent or investor bids together? Which concentration should the existing joint stress make most explicit?",
+      "existing_position": "Rate/credit/common-works stresses already exist. Different areas and project names are not empirical independence, and no actual user allocation is assumed.",
+      "decision_consequence": "Refine exposure clusters and the no-sale duration narrative; no probability or correlation coefficient is invented.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/programme-final/Portfolio_and_Terminal_Risk.md",
+        "klang-valley-2026-10-07/round-3/programme-final/Divergence_and_Misses.md"
+      ],
+      "gate_routing": [
+        "G2",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    },
+    {
+      "id": "RT-24",
+      "number": 24,
+      "title": "Challenge the overall evidence queue",
+      "question": "After the preceding answers, which current research preference would you most strongly challenge, if any? Compare the Eve/Pines/Zeva task leads with existing controls such as Skypod, Kuchai Avenue, Endah, Urban 360, Windsor or Titiwangsa; identify up to three conclusions most likely to be wrong and the missing market mechanism.",
+      "existing_position": "These are evidence priorities, not buy recommendations. The ten reopened cases are not the complete 138-expression universe.",
+      "decision_consequence": "Catch a material false-negative or omitted mechanism without asking the user to redo the regional census or supply routine documents.",
+      "sources": [
+        "klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md",
+        "klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/README.md"
+      ],
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6",
+        "G8"
+      ],
+      "answer": null,
+      "answer_status": "Awaiting user response",
+      "disposition": "Pending interpretation review; no assumption or decision change"
+    }
+  ],
+  "area_coverage": [
+    {
+      "area_id": "A01",
+      "batch": "B01",
+      "name": "Maluri–Cochrane",
+      "case_ids": [
+        "C01",
+        "KV02"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-10",
+        "RT-18",
+        "RT-24"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A02",
+      "batch": "B01",
+      "name": "Shamelin–Pandan fringe",
+      "case_ids": [
+        "C02",
+        "R243",
+        "R362"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-07",
+        "RT-08",
+        "RT-20",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A03",
+      "batch": "B01",
+      "name": "Midah–Mutiara–Taynton",
+      "case_ids": [
+        "C03",
+        "R363"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-07",
+        "RT-08",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A04",
+      "batch": "B01",
+      "name": "Connaught–Len Seng",
+      "case_ids": [
+        "C04",
+        "C05",
+        "KV01"
+      ],
+      "question_ids": [
+        "RT-01",
+        "RT-06",
+        "RT-07",
+        "RT-12",
+        "RT-24"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A05",
+      "batch": "B01",
+      "name": "Alam Damai–Damai Perdana",
+      "case_ids": [
+        "C06",
+        "R244",
+        "R364"
+      ],
+      "question_ids": [
+        "RT-07",
+        "RT-08",
+        "RT-20",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A06",
+      "batch": "B01",
+      "name": "Batu 9–Suntex–Cuepacs",
+      "case_ids": [
+        "C07",
+        "KV04"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-07",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A07",
+      "batch": "B01",
+      "name": "Bandar Tun Hussein Onn",
+      "case_ids": [
+        "C08",
+        "KV06"
+      ],
+      "question_ids": [
+        "RT-07",
+        "RT-08",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A08",
+      "batch": "B01",
+      "name": "Cheras Selatan–Balakong–C180",
+      "case_ids": [
+        "KV03",
+        "R304"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-19",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A09",
+      "batch": "B01",
+      "name": "Bandar Mahkota Cheras",
+      "case_ids": [
+        "KV05"
+      ],
+      "question_ids": [
+        "RT-07",
+        "RT-12",
+        "RT-18"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A10",
+      "batch": "B01",
+      "name": "Sungai Long",
+      "case_ids": [
+        "C09",
+        "R245"
+      ],
+      "question_ids": [
+        "RT-03",
+        "RT-07",
+        "RT-12",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A11",
+      "batch": "B02",
+      "name": "Old Klang Road",
+      "case_ids": [
+        "KV07"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-08",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A12",
+      "batch": "B02",
+      "name": "Kuchai",
+      "case_ids": [
+        "R201"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-07",
+        "RT-08",
+        "RT-24"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A13",
+      "batch": "B02",
+      "name": "Happy Garden–OUG",
+      "case_ids": [
+        "R202"
+      ],
+      "question_ids": [
+        "RT-07",
+        "RT-08",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A14",
+      "batch": "B02",
+      "name": "Taman Desa",
+      "case_ids": [
+        "R203",
+        "R301"
+      ],
+      "question_ids": [
+        "RT-02",
+        "RT-06",
+        "RT-18"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A15",
+      "batch": "B02",
+      "name": "Sri Petaling",
+      "case_ids": [
+        "R204",
+        "R303"
+      ],
+      "question_ids": [
+        "RT-03",
+        "RT-08",
+        "RT-20",
+        "RT-24"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A16",
+      "batch": "B02",
+      "name": "Bukit Jalil",
+      "case_ids": [
+        "R205",
+        "R302",
+        "R365"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-08",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A17",
+      "batch": "B02",
+      "name": "Sungai Besi–Chan Sow Lin",
+      "case_ids": [
+        "R206"
+      ],
+      "question_ids": [
+        "RT-10",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A18",
+      "batch": "B03",
+      "name": "PJ Old/New Town",
+      "case_ids": [
+        "R207",
+        "R309"
+      ],
+      "question_ids": [
+        "RT-10",
+        "RT-19",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A19",
+      "batch": "B03",
+      "name": "Sections 13/14/17/19",
+      "case_ids": [
+        "R208",
+        "R305"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-18",
+        "RT-19",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A20",
+      "batch": "B03",
+      "name": "SS2–Sea Park–Paramount",
+      "case_ids": [
+        "R209"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-07",
+        "RT-08"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A21",
+      "batch": "B03",
+      "name": "Kelana Jaya",
+      "case_ids": [
+        "R210",
+        "R308"
+      ],
+      "question_ids": [
+        "RT-08",
+        "RT-20",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A22",
+      "batch": "B03",
+      "name": "Ara Damansara",
+      "case_ids": [
+        "KV08",
+        "R306",
+        "R307"
+      ],
+      "question_ids": [
+        "RT-01",
+        "RT-02",
+        "RT-03",
+        "RT-18",
+        "RT-24"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A23",
+      "batch": "B03",
+      "name": "Tropicana",
+      "case_ids": [
+        "R211",
+        "R310"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-07",
+        "RT-08",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A24",
+      "batch": "B03",
+      "name": "Kota Damansara–Surian",
+      "case_ids": [
+        "R212",
+        "R311"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A25",
+      "batch": "B04",
+      "name": "Bangsar South–Pantai–Kerinchi",
+      "case_ids": [
+        "R213",
+        "R312"
+      ],
+      "question_ids": [
+        "RT-10",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A26",
+      "batch": "B04",
+      "name": "TTDI",
+      "case_ids": [
+        "R214",
+        "R313"
+      ],
+      "question_ids": [
+        "RT-07",
+        "RT-09",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A27",
+      "batch": "B04",
+      "name": "Damansara Heights",
+      "case_ids": [
+        "R215",
+        "R314"
+      ],
+      "question_ids": [
+        "RT-09",
+        "RT-10",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A28",
+      "batch": "B04",
+      "name": "Mont Kiara",
+      "case_ids": [
+        "KV10",
+        "R315"
+      ],
+      "question_ids": [
+        "RT-04",
+        "RT-11",
+        "RT-18",
+        "RT-20",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A29",
+      "batch": "B04",
+      "name": "Sri Hartamas",
+      "case_ids": [
+        "R216",
+        "R316"
+      ],
+      "question_ids": [
+        "RT-11",
+        "RT-19",
+        "RT-20",
+        "RT-21",
+        "RT-24"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A30",
+      "batch": "B04",
+      "name": "Dutamas–Segambut",
+      "case_ids": [
+        "R217",
+        "R317"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-08",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A31",
+      "batch": "B04",
+      "name": "Desa ParkCity–Menjalara",
+      "case_ids": [
+        "R218",
+        "R246",
+        "R318"
+      ],
+      "question_ids": [
+        "RT-07",
+        "RT-09",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A32",
+      "batch": "B04",
+      "name": "Kepong–Jinjang",
+      "case_ids": [
+        "KV09",
+        "R319"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-08",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A33",
+      "batch": "B04",
+      "name": "Damansara Perdana–Mutiara Damansara",
+      "case_ids": [
+        "R219",
+        "R320"
+      ],
+      "question_ids": [
+        "RT-03",
+        "RT-06",
+        "RT-18",
+        "RT-19"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A34",
+      "batch": "B05",
+      "name": "KLCC–Ampang Park",
+      "case_ids": [
+        "R220",
+        "R321"
+      ],
+      "question_ids": [
+        "RT-10",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A35",
+      "batch": "B05",
+      "name": "Bukit Bintang–Imbi–Pudu",
+      "case_ids": [
+        "KV11",
+        "R322"
+      ],
+      "question_ids": [
+        "RT-10",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A36",
+      "batch": "B05",
+      "name": "TRX",
+      "case_ids": [
+        "R221",
+        "R323"
+      ],
+      "question_ids": [
+        "RT-09",
+        "RT-10",
+        "RT-18",
+        "RT-22"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A37",
+      "batch": "B05",
+      "name": "Tun Razak–Titiwangsa–Sentul",
+      "case_ids": [
+        "R222",
+        "R324",
+        "R328"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-10",
+        "RT-13",
+        "RT-18",
+        "RT-24"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A38",
+      "batch": "B05",
+      "name": "Jalan Ampang–Jelatek–Dato Keramat",
+      "case_ids": [
+        "R223",
+        "R325"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-10",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A39",
+      "batch": "B05",
+      "name": "Ampang Hilir",
+      "case_ids": [
+        "R224",
+        "R326"
+      ],
+      "question_ids": [
+        "RT-04",
+        "RT-07",
+        "RT-11",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A40",
+      "batch": "B05",
+      "name": "Ampang–Pandan Indah–Pandan Mewah",
+      "case_ids": [
+        "R225",
+        "R327",
+        "R329"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-07",
+        "RT-19",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A41",
+      "batch": "B06",
+      "name": "Setapak–Wangsa Maju–Danau Kota",
+      "case_ids": [
+        "KV12",
+        "R250",
+        "R330",
+        "R337"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-12",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A42",
+      "batch": "B06",
+      "name": "Gombak",
+      "case_ids": [
+        "R226",
+        "R333"
+      ],
+      "question_ids": [
+        "RT-03",
+        "RT-06",
+        "RT-07",
+        "RT-19",
+        "RT-24"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A43",
+      "batch": "B06",
+      "name": "Melawati–Ukay",
+      "case_ids": [
+        "R227",
+        "R331",
+        "R334"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-07",
+        "RT-17",
+        "RT-20",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A44",
+      "batch": "B06",
+      "name": "Batu Caves–Selayang",
+      "case_ids": [
+        "R228",
+        "R335",
+        "R336"
+      ],
+      "question_ids": [
+        "RT-08",
+        "RT-13",
+        "RT-19",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A45",
+      "batch": "B06",
+      "name": "Sungai Buloh–Kwasa",
+      "case_ids": [
+        "R229",
+        "R332"
+      ],
+      "question_ids": [
+        "RT-17",
+        "RT-18",
+        "RT-22"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A46",
+      "batch": "B07",
+      "name": "Puchong Jaya–Kinrara–Bandar Puteri",
+      "case_ids": [
+        "KV13",
+        "R338",
+        "R349"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-14",
+        "RT-18",
+        "RT-22",
+        "RT-24"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A47",
+      "batch": "B07",
+      "name": "Puchong Prima–South",
+      "case_ids": [
+        "R230",
+        "R339"
+      ],
+      "question_ids": [
+        "RT-03",
+        "RT-07",
+        "RT-14",
+        "RT-18"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A48",
+      "batch": "B07",
+      "name": "Seri Kembangan–Serdang–Equine",
+      "case_ids": [
+        "R231",
+        "R340",
+        "R341",
+        "R350"
+      ],
+      "question_ids": [
+        "RT-03",
+        "RT-05",
+        "RT-06",
+        "RT-12",
+        "RT-18",
+        "RT-20",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A49",
+      "batch": "B07",
+      "name": "Subang Jaya–USJ–Sunway",
+      "case_ids": [
+        "R232",
+        "R249",
+        "R342"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-12",
+        "RT-20",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A50",
+      "batch": "B07",
+      "name": "Subang Bestari",
+      "case_ids": [
+        "R233",
+        "R346"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-12",
+        "RT-19"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A51",
+      "batch": "B07",
+      "name": "Shah Alam–Glenmarie",
+      "case_ids": [
+        "R234",
+        "R343",
+        "R348"
+      ],
+      "question_ids": [
+        "RT-12",
+        "RT-15",
+        "RT-20",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A52",
+      "batch": "B07",
+      "name": "Setia Alam–Bukit Raja",
+      "case_ids": [
+        "R235",
+        "R344",
+        "R347"
+      ],
+      "question_ids": [
+        "RT-07",
+        "RT-15",
+        "RT-17",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A53",
+      "batch": "B07",
+      "name": "Klang–Botanic–Bukit Tinggi",
+      "case_ids": [
+        "R236",
+        "R345"
+      ],
+      "question_ids": [
+        "RT-07",
+        "RT-15",
+        "RT-17",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A54",
+      "batch": "B08",
+      "name": "Kajang–Saujana Impian–Bangi",
+      "case_ids": [
+        "R237",
+        "R351",
+        "R360"
+      ],
+      "question_ids": [
+        "RT-07",
+        "RT-12",
+        "RT-17",
+        "RT-20"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A55",
+      "batch": "B08",
+      "name": "Semenyih",
+      "case_ids": [
+        "R238",
+        "R352"
+      ],
+      "question_ids": [
+        "RT-07",
+        "RT-12",
+        "RT-17",
+        "RT-19"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A56",
+      "batch": "B08",
+      "name": "Cyberjaya",
+      "case_ids": [
+        "KV14",
+        "R353"
+      ],
+      "question_ids": [
+        "RT-03",
+        "RT-05",
+        "RT-12",
+        "RT-19",
+        "RT-23"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A57",
+      "batch": "B08",
+      "name": "Putrajaya",
+      "case_ids": [
+        "R239",
+        "R354"
+      ],
+      "question_ids": [
+        "RT-12",
+        "RT-17",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A58",
+      "batch": "B08",
+      "name": "Dengkil–Kota Warisan–Salak Tinggi",
+      "case_ids": [
+        "R248",
+        "R355",
+        "R359"
+      ],
+      "question_ids": [
+        "RT-12",
+        "RT-16",
+        "RT-18"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A59",
+      "batch": "B08",
+      "name": "Kota Kemuning–Rimbayu–Tropicana Aman–Eco Sanctuary",
+      "case_ids": [
+        "R240",
+        "R247",
+        "R356",
+        "R361"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-07",
+        "RT-17",
+        "RT-20"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A60",
+      "batch": "B08",
+      "name": "Elmina",
+      "case_ids": [
+        "R241",
+        "R357"
+      ],
+      "question_ids": [
+        "RT-17",
+        "RT-18",
+        "RT-22"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    },
+    {
+      "area_id": "A61",
+      "batch": "B08",
+      "name": "Rawang–Gamuda Gardens–Kundang",
+      "case_ids": [
+        "R242",
+        "R358"
+      ],
+      "question_ids": [
+        "RT-06",
+        "RT-07",
+        "RT-17",
+        "RT-18",
+        "RT-21"
+      ],
+      "coverage_meaning": "Thematic interpretation coverage, not evidence admission or a separate question for every project"
+    }
+  ],
+  "source_git_blobs": {
+    "klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md": "350ac9eebc87f3c2290294f00dd615ecbd981362",
+    "klang-valley-2026-10-07/round-3/programme-final/Case_and_Area_Register.md": "f43a577dc02b3c717d746f0cd9334b063dd46e70",
+    "klang-valley-2026-10-07/round-3/programme-final/Divergence_and_Misses.md": "85e51f9f6f44a7f8e648f4167d45f44e6999fae0",
+    "klang-valley-2026-10-07/round-3/programme-final/Portfolio_and_Terminal_Risk.md": "b7afb289e4beececd621359bf2f8d8d54c65189b",
+    "klang-valley-2026-10-07/round-3/programme-final/RESUME_AND_COMPLETION.md": "300bb8b217846d9050b6694bf180e4dafb9043c1",
+    "klang-valley-2026-10-07/round-3/programme-final/Programme_Completion_Audit.md": "a9e12010721f80fb5d2696188b32563224264e64",
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Regional_Synthesis.md": "ca912bd6e8aceee901855c142399aa6f7657baf7",
+    "klang-valley-2026-10-07/round-3/B01_Regional_Synthesis.md": "f8dee6b50c135a689fbc12cf2cefc3a5a317ab80",
+    "klang-valley-2026-10-07/round-3/B02_Regional_Synthesis.md": "946b86a1a23d557a6c26263b2c3733dfcd9afb66",
+    "klang-valley-2026-10-07/round-3/B03_Regional_Synthesis.md": "371ef8ce7b8a0ea4c1b4b37b19c15602d1020546",
+    "klang-valley-2026-10-07/round-3/B04_Regional_Synthesis.md": "419c2a5d0e4069536ea8aeb35aa09014527c3613",
+    "klang-valley-2026-10-07/round-3/B05_Regional_Synthesis.md": "697fe475274e7faa2f80fd755d7ff0cb2dd7be77",
+    "klang-valley-2026-10-07/round-3/B06_Regional_Synthesis.md": "b40b5b0b7feb66e69c4e9f80d8df84923d8806ae",
+    "klang-valley-2026-10-07/round-3/b07-final/Regional_Synthesis.md": "125f65a982e438697ee5706b04ff85fe372be9cb",
+    "klang-valley-2026-10-07/round-3/b08-final/Regional_Synthesis.md": "f050c46f0b61ec9b441136347c23b34aa82fea5f",
+    "klang-valley-2026-10-07/round-3/b01-b02-final/Divergence_and_Misses.md": "e9f5496712f093076fd536b5b73c61c2b9899cc0",
+    "klang-valley-2026-10-07/round-3/B03_Divergence_and_Misses.md": "e2a47a2ec98b3e992573f9955cd7ba20027fba93",
+    "klang-valley-2026-10-07/round-3/B04_Divergence_and_Misses.md": "49c5958314db6a6d30fa2943638f365af49b6a6b",
+    "klang-valley-2026-10-07/round-3/B05_Divergence_and_Misses.md": "ac503a8dac4e7fc62fb39d42f174940d7808a341",
+    "klang-valley-2026-10-07/round-3/B06_Divergence_and_Misses.md": "072ea51531cec1d5b79fb092f3c7c5c48611f37f",
+    "klang-valley-2026-10-07/round-3/b07-final/Divergence_and_Misses.md": "3eb9889cf9365ec7a131aa2432015223a28f2b8e",
+    "klang-valley-2026-10-07/round-3/b08-final/Divergence_and_Misses.md": "bb22736c99e18f0f71fcbb8c5004e7715f32cdc0",
+    "klang-valley-2026-10-07/round-3/Compact_Buyer_Hypothesis.md": "ed9618eb0abacd4a70d8d4b1b7baf20f6a4e2f1b",
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Judgment_and_Hypotheses.md": "438fe32a4abf3470429dae65788f8b5ffe08a887",
+    "klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/README.md": "cc18c538435cc7fd32e8860e9c4683aaca3ea923",
+    "sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md": "bb223fcae99fd2247838bdbf51672d0e52e68df2",
+    "sop/Approved_Execution_Supplement.md": "6335fedd163614cc6af7589b7281c6820d9895f7",
+    "sop/Founder_QA_Approval_Register.md": "1bed5e8b8e56ae5ba363ca508a797f299ae87a85",
+    "klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/README.md": "05d5c7cb6d7e0bedecb3f40dd357f99bec8b4f9a",
+    "klang-valley-2026-10-07/round-3/family-validation-2026-10-12/README.md": "cc36bd61da09c016d2b155f0ad43fa83e721b772",
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/README.md": "944411d7f6e1a8417bb73ba341caa241b6295d07",
+    "klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/README.md": "a2c61acd37418c8ae3e4c4c7056d5743eb9affb9",
+    "klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/README.md": "54de76ad844ae435368f2a61910e53ed64316a1e",
+    "execution-release-2026-10-07/Decision_Execution_Standard.md": "133f73319c5bd86a46b5f8f362b59d0ae315e850",
+    "klang-valley-2026-10-07/round-3/programme-final/Inputs.json": "c892fe220959f8d74d54d7c6f54cf14bfdd91c43"
+  },
+  "analyst_owned_residuals": [
+    "Authenticate parcel, component, legal use/rights, plans, bays and actual lender treatment.",
+    "Reconcile net executable price, incentives, current paid ordinary lease, occupancy and itemised bills/works.",
+    "Refresh delivery/access/institutional restrictions through appropriate sources when stage one is released.",
+    "Distinguish announced/achieved/collected/renewed and deduplicate evidence; compute financial and terminal boundaries.",
+    "Use actual personal capital constraints only for a later authorised real allocation; synthetic figures remain illustrative.",
+    "Apply the two source-name reading corrections in Coverage_and_Review_Audit.md; do not ask the user to resolve recordkeeping errors."
+  ]
+}
