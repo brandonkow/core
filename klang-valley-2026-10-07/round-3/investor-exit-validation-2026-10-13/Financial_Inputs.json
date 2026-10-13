@@ -1,0 +1,256 @@
+{
+  "packet": "INVESTOR-EXIT-2026-10-13",
+  "baseline_commit": "521d680f56b761ca974a0a9010139dd546c85a53",
+  "research_design": {
+    "date": "2026-10-13",
+    "baseline": "521d680f56b761ca974a0a9010139dd546c85a53",
+    "hypothesis": "MJ-X01: Zeva's selected compact captures broader, less correlated tenant demand and deeper financeable investor resale than Solstice, after price and costs.",
+    "rivals": [
+      "Location diversity does not transmit to these specific small units.",
+      "Solstice also captures employment demand; affordable privacy and lower entry compensate for concentration.",
+      "Condition, bays, utilities, actual costs and exit buyer yield explain apparent advantage.",
+      "Rail requires a feeder or drive and may already be priced; regional station presence is not project access."
+    ],
+    "scope": "R231 Zeva and KV14 Solstice; whole-unit ordinary leases, local substitutes and functional transport/employer context. No new IDs or all-area restart.",
+    "stop": "Bounded public matched sale/rent and primary access/employer evidence, then calculate reversals and exit affordability; do not repeat portals as a substitute for collections, actual tenant panel, MC accounts or bank approvals.",
+    "preregistration_status": "Recorded in session RAM before new public searches, not a separate committed preregistration."
+  },
+  "historical_cases": [
+    {
+      "id": "R231",
+      "area_id": "A48",
+      "batch": "B07",
+      "catchment": "Seri Kembangan–Serdang–Equine",
+      "name": "Zeva Equine South",
+      "sqft": 450,
+      "layout": "studio",
+      "price": 210000,
+      "rent_assumed": 1200,
+      "rent_low": 850,
+      "rent_high": 1300,
+      "fee_assumed": 180,
+      "other_assumed": 150,
+      "refurb_assumed": 20000,
+      "retrievals": [
+        "021",
+        "060",
+        "104",
+        "106",
+        "110",
+        "112",
+        "115",
+        "120"
+      ],
+      "match": "Live 210k partly furnished sale replaces redirected 200k lead; 1200 furnished and 850 partly furnished whole-unit rents",
+      "thesis": "Compact operating rent can exceed family yield if furnishing premium is durable",
+      "decisive_risk": "The 850 same-area counterexample can destroy coverage; stale transfers do not validate undervaluation",
+      "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+      "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+      "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+      "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+      "g0": "STOP: no defensible unit-matched normalised clearing interval",
+      "g9": "Defer",
+      "quarantine": null,
+      "unit_identity": "Tower/floor/unit/title/plan not obtained"
+    },
+    {
+      "id": "KV14",
+      "batch": "B08",
+      "catchment": "Cyberjaya",
+      "name": "Solstice @ Pan'gaea",
+      "sqft": 450,
+      "layout": "1BR/1BA marketed; plan pending",
+      "price": 200000,
+      "rent_assumed": 1200,
+      "fee_assumed": 180,
+      "other_assumed": 150,
+      "refurb_assumed": 15000,
+      "rent_low": 1000,
+      "rent_high": 1300,
+      "bays": null,
+      "match": "Furnished sale; whole-unit rent; parcel use and parking must be established",
+      "price_source": "E40",
+      "rent_source": "E41",
+      "diagnostic_source": "E42",
+      "selection_reason": "Low-capital ordinary-income counterexample; tenant depth versus narrower owner exit",
+      "price_status": "advertised consideration; not agreed or verified effective price",
+      "rent_status": "scenario informed by asking rents; not achieved rent",
+      "fee_status": "unverified combined management/sinking proxy; management-only standard unverified",
+      "cost_status": "illustrative allowance; actual quote and taxes pending",
+      "g0": "STOP: matched effective clearing interval unvalidated",
+      "g9": "Defer"
+    }
+  ],
+  "frozen_engine_sha256": "3ab25fc9d9c100dde0eb7240cada5f53df2b6585be52af9165d8930cd8a64b5a",
+  "basis": "Historical cases unchanged. Offers, institutional packages and analyst thresholds are not accepted prices, collected rents, bank terms or actual tenant shares.",
+  "scenarios": [
+    {
+      "label": "Z_base",
+      "case_id": "R231"
+    },
+    {
+      "label": "S_base",
+      "case_id": "KV14"
+    },
+    {
+      "label": "Z_rent850",
+      "case_id": "R231",
+      "case_overrides": {
+        "rent_assumed": 850
+      },
+      "sources": [
+        "Z-R2"
+      ],
+      "status": "Partly furnished competing offer; same refurbishment allowance retained conservatively, not a matched finished package"
+    },
+    {
+      "label": "Z_rent1300",
+      "case_id": "R231",
+      "case_overrides": {
+        "rent_assumed": 1300
+      },
+      "status": "Historical upside sensitivity; not an authenticated collection"
+    },
+    {
+      "label": "Z_price280_rent1200",
+      "case_id": "R231",
+      "case_overrides": {
+        "price": 280000
+      },
+      "sources": [
+        "Z-S2",
+        "Z-R1"
+      ],
+      "status": "Separate furnished ads; condition/bay matching unverified"
+    },
+    {
+      "label": "Z_price280_rent1300",
+      "case_id": "R231",
+      "case_overrides": {
+        "price": 280000,
+        "rent_assumed": 1300
+      },
+      "status": "Premium price at historical upside rent; no matched lease"
+    },
+    {
+      "label": "Z_price280_zero_initial_works",
+      "case_id": "R231",
+      "case_overrides": {
+        "price": 280000,
+        "refurb_assumed": 0
+      },
+      "status": "Counterfactual zero upfront refresh tests favourable package assumption; not a verified zero cost"
+    },
+    {
+      "label": "Z_one_extra_paid_month",
+      "case_id": "R231",
+      "paid_months_per_year": 12,
+      "status": "Retention upside only"
+    },
+    {
+      "label": "S_rent1000",
+      "case_id": "KV14",
+      "case_overrides": {
+        "rent_assumed": 1000
+      },
+      "status": "Historical downside sensitivity"
+    },
+    {
+      "label": "S_rent1300",
+      "case_id": "KV14",
+      "case_overrides": {
+        "rent_assumed": 1300
+      },
+      "sources": [
+        "S-R3"
+      ],
+      "status": "Indexed furnished one-bay ask; no collections"
+    },
+    {
+      "label": "S_rent1350",
+      "case_id": "KV14",
+      "case_overrides": {
+        "rent_assumed": 1350
+      },
+      "sources": [
+        "S-R4"
+      ],
+      "status": "Indexed furnished one-bay ask; no collections"
+    },
+    {
+      "label": "S_one_fewer_paid_month",
+      "case_id": "KV14",
+      "paid_months_per_year": 10,
+      "status": "Illustrative concentration/turnover shock, not observed seasonality"
+    },
+    {
+      "label": "S_one_extra_paid_month",
+      "case_id": "KV14",
+      "paid_months_per_year": 12,
+      "status": "Retention upside only"
+    },
+    {
+      "label": "S_fitted_cost_equalised",
+      "case_id": "KV14",
+      "case_overrides": {
+        "refurb_assumed": 20000
+      },
+      "status": "Equal initial works for price-only comparison; not a quote"
+    }
+  ],
+  "common_stresses": {
+    "rate5_5": {
+      "rate": 0.055
+    },
+    "rent_down20": {
+      "rent_factor": 0.8
+    },
+    "fee_plus20pct": {
+      "fee_factor": 1.2
+    },
+    "works30k_month24": {
+      "levy_month": 24,
+      "levy": 30000
+    },
+    "bank_value_down15": {
+      "valuation_ratio": 0.85
+    },
+    "term25": {
+      "term": 25
+    },
+    "exit_delay12": {
+      "months": 72
+    },
+    "unquoted_cost_buffer": {
+      "annual_extra_cost": 1200,
+      "exit_extra_cost": 5000
+    },
+    "combined12": {
+      "months": 12,
+      "rate": 0.055,
+      "rent_factor": 0.8,
+      "first_year_paid": 6,
+      "levy_month": 1,
+      "levy": 30000
+    }
+  },
+  "comparison_assumptions": {
+    "gross_exit_yields": [
+      0.06,
+      0.07,
+      0.08
+    ],
+    "net_exit_yields": [
+      0.05,
+      0.06
+    ],
+    "exit_price_multiples": [
+      0.8,
+      1,
+      1.15
+    ],
+    "tenant_shares": "Unknown; no diversity index or concentration percentage invented",
+    "income_growth": 0,
+    "exit_yield_compression": 0
+  }
+}

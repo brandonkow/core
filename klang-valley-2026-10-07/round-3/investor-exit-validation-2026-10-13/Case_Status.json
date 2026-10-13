@@ -1,0 +1,144 @@
+{
+  "packet": "INVESTOR-EXIT-2026-10-13",
+  "date": "2026-10-13",
+  "new_ids": [],
+  "deploy_count_change": 0,
+  "cases": [
+    {
+      "hypothesis": "MJ-X01",
+      "hypothesis_status": "Unresolved",
+      "g0": "STOP",
+      "g9": "Defer",
+      "historical_inputs_changed": false,
+      "evidence_level": "Public observations and conditional scenarios only",
+      "privacy": {
+        "entrance_and_circulation": "Unknown",
+        "exclusive_bath_kitchen_laundry": "Whole-unit intended accommodation; approved configuration and actual exclusivity unverified",
+        "unrelated_co_residents": "Unknown",
+        "acoustic_visual_separation": "Unknown",
+        "visitor_rules": "Unknown",
+        "utilities_metering_inclusion": "Unknown; reconcile operator package separately",
+        "lawful_form": "Original plan, use/title and rules not authenticated"
+      },
+      "household_adoption": {
+        "physical_capacity": "Compact advertised studio/1BR; usable room layout uninspected",
+        "actual_household_tenancy": "Unknown",
+        "renewal": "Unknown",
+        "owner_occupier_adoption": "Unknown; not required to legitimise investor resale"
+      },
+      "rent": {
+        "advertised": "Ledger",
+        "agreed": "Unknown",
+        "collected": "Unknown",
+        "renewed": "Unknown"
+      },
+      "governance": {
+        "actual_service": "Unknown",
+        "accounts_arrears_reserves": "Unknown",
+        "planned_works": "Unknown",
+        "fee": "180/month inherited combined proxy; not a current invoice"
+      },
+      "exit": {
+        "primary": "Financeable ordinary-income investor",
+        "secondary": "Possible small-household owner, unmeasured and not a prerequisite",
+        "buyer_yield": "Unknown; calculations are sensitivities",
+        "funding": "No bank approval or valuation",
+        "liquidity": "No representative resales/marketing-duration evidence"
+      },
+      "divergence": {
+        "flag": false,
+        "reason": "Missing tenant observations and different outcomes are not a material same-proposition contradiction. Credible material contrary observations would activate the existing flag without requiring full authentication first."
+      },
+      "uncertainty_action": "Retain Defer; no rail/diversity/ownership premium; higher evidence burden and required margin of safety with no invented percentage.",
+      "finite_evidence_task": "Match exact permitted parcel/net price, ordinary lease/collections and replacement tenant source, bay/access/cost/works, and funded investor transfers. Public repetition cannot replace these records.",
+      "id": "R231",
+      "project": "Zeva Equine South",
+      "unit": "450 sf studio / some rental one-bedroom wording; partly furnished historical sale; one advertised bay unverified.",
+      "tenant_task": "Working single/couple or other small household seeking private accommodation and useful daily/work access; actual capture unknown.",
+      "tenant_concentration": "No representative sample, institution share or covariance measure.",
+      "sources": [
+        "Z-S1",
+        "Z-S2",
+        "Z-R1",
+        "Z-R2",
+        "C-Z1",
+        "T-01",
+        "D-Z1"
+      ],
+      "access": "Retail and MRT context; portal proximity not a door-to-platform route. Actual journey, service and use unknown.",
+      "substitutes": "Local compact and room alternatives including historical Galleria/3 Elements/Univ360 leads; not an adjusted clearing-price set.",
+      "research_priority": "First for diversity verification; not buy first",
+      "financial_consequence": "43/month sustained additional rent can match base carry only; higher upfront and exit burden remain. 280k premium-price and 850 basic-rent branches materially weaken economics."
+    },
+    {
+      "hypothesis": "MJ-X01",
+      "hypothesis_status": "Unresolved",
+      "g0": "STOP",
+      "g9": "Defer",
+      "historical_inputs_changed": false,
+      "evidence_level": "Public observations and conditional scenarios only",
+      "privacy": {
+        "entrance_and_circulation": "Unknown",
+        "exclusive_bath_kitchen_laundry": "Whole-unit intended accommodation; approved configuration and actual exclusivity unverified",
+        "unrelated_co_residents": "Unknown",
+        "acoustic_visual_separation": "Unknown",
+        "visitor_rules": "Unknown",
+        "utilities_metering_inclusion": "Unknown; reconcile operator package separately",
+        "lawful_form": "Original plan, use/title and rules not authenticated"
+      },
+      "household_adoption": {
+        "physical_capacity": "Compact advertised studio/1BR; usable room layout uninspected",
+        "actual_household_tenancy": "Unknown",
+        "renewal": "Unknown",
+        "owner_occupier_adoption": "Unknown; not required to legitimise investor resale"
+      },
+      "rent": {
+        "advertised": "Ledger",
+        "agreed": "Unknown",
+        "collected": "Unknown",
+        "renewed": "Unknown"
+      },
+      "governance": {
+        "actual_service": "Unknown",
+        "accounts_arrears_reserves": "Unknown",
+        "planned_works": "Unknown",
+        "fee": "180/month inherited combined proxy; not a current invoice"
+      },
+      "exit": {
+        "primary": "Financeable ordinary-income investor",
+        "secondary": "Possible small-household owner, unmeasured and not a prerequisite",
+        "buyer_yield": "Unknown; calculations are sensitivities",
+        "funding": "No bank approval or valuation",
+        "liquidity": "No representative resales/marketing-duration evidence"
+      },
+      "divergence": {
+        "flag": false,
+        "reason": "Missing tenant observations and different outcomes are not a material same-proposition contradiction. Credible material contrary observations would activate the existing flag without requiring full authentication first."
+      },
+      "uncertainty_action": "Retain Defer; no rail/diversity/ownership premium; higher evidence burden and required margin of safety with no invented percentage.",
+      "finite_evidence_task": "Match exact permitted parcel/net price, ordinary lease/collections and replacement tenant source, bay/access/cost/works, and funded investor transfers. Public repetition cannot replace these records.",
+      "id": "KV14",
+      "project": "Solstice @ Pan'gaea",
+      "unit": "450 sf 1BR/1BA marketed; original plan, title/use and sale bay unresolved.",
+      "tenant_task": "Private small-household ordinary tenancy or separately reconciled student-operator accommodation; marketed workers/couples are not actual tenants.",
+      "tenant_concentration": "A university channel is documented; actual student/operator concentration and replacement demand unknown.",
+      "sources": [
+        "S-S1",
+        "S-S2",
+        "S-R1",
+        "S-R2",
+        "S-R3",
+        "S-R4",
+        "I-S1",
+        "I-S2",
+        "C-S1",
+        "T-01",
+        "T-02"
+      ],
+      "access": "Cyberjaya employment and feeder-network context; entrance-to-stop and destination journeys unverified.",
+      "substitutes": "Cyber 11 whole units plus operator and university accommodation; all-in tenant budgets and owner receipts differ.",
+      "research_priority": "Lower-capital challenger; investigate channel durability as well as concentration",
+      "financial_consequence": "Lower base entry/carry burden remains. One additional annual void month reverses base annual-carry preference; operator advertised1400 not owner income."
+    }
+  ]
+}

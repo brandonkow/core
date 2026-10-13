@@ -1,0 +1,216 @@
+{
+  "packet": "INVESTOR-EXIT-2026-10-13",
+  "cutoff": "2026-10-13",
+  "boundary": "Public text/index/PDF extraction, not physical inspection, imagery review, lease/collection audit, tenant census or lender clearance. Source count is not independent-unit count.",
+  "sources": [
+    {
+      "id": "Z-S1",
+      "url": "https://www.propertyguru.com.my/property-listing/zeva-equine-south-for-sale-by-lydia-wong-502180664",
+      "access": "Refreshed project search index; direct English/Malay detail failed",
+      "retrieved": "2026-10-13",
+      "source_date": "1 October 2026 advertised date",
+      "observation": "RM210,000; 450 sf studio, one bath and one bay in refreshed index. Preserved 7 October detail calls it partly furnished and leasehold.",
+      "limits": "Partly furnished status is retained historical body evidence, not newly authenticated. Current condition, title, bay rights and accepted price unknown. October search snapshot and September direct index response differ; no inventory trend.",
+      "related_url": "https://www.propertyguru.com.my/property-for-sale/at-zeva-equine-south-6404"
+    },
+    {
+      "id": "Z-S2",
+      "url": "https://www.propertyguru.com.my/property-listing/zeva-equine-south-for-sale-by-jone-hoong-taw-502104271",
+      "access": "Direct sale advertisement",
+      "retrieved": "2026-10-13",
+      "source_date": "17 September 2026",
+      "observation": "RM280,000; 450 sf studio, one bath, fully furnished, leasehold claimed.",
+      "limits": "No matched rent, bay count, renovation quote or transferable funding established. Portal distance and generic project boilerplate are not inspected routes."
+    },
+    {
+      "id": "Z-R1",
+      "url": "https://www.mudah.my/soho-zeva-unit-for-rent-condo-taman-equine-seri-kembangan-disewa-mrt-115556784.htm",
+      "access": "Direct whole-unit advertisement",
+      "retrieved": "2026-10-13",
+      "source_date": "Page says 17 Aug; year not displayed",
+      "observation": "RM1,200; 450 sf, one bedroom/bath, fully furnished and one bay; advertised by Ann Wai.",
+      "limits": "SOHO/bedroom wording does not authenticate original plan/use. No tenant source, collections, service bundle or renewal; relative search refresh date not a new letting."
+    },
+    {
+      "id": "Z-R2",
+      "url": "https://www.mudah.my/zeva-residence-studio-with-1-parking-equine-park-bdr-putra-permai-115753810.htm",
+      "access": "Direct whole-unit advertisement",
+      "retrieved": "2026-10-13",
+      "source_date": "Page says 10 Sep; year not displayed",
+      "observation": "RM850; 450 sf studio, partly furnished, one bay. Rent includes monthly maintenance; basic cabinet, air-conditioning and heater advertised.",
+      "limits": "Owner cost remains payable from gross rent; no extra maintenance income added and no cost removed. Different package from Z-R1; terms, condition and collection unknown."
+    },
+    {
+      "id": "S-S1",
+      "url": "https://www.propertyguru.com.my/property-listing/solstice-pan-gaea-for-sale-by-alan-wan-100778282",
+      "access": "Direct sale advertisement",
+      "retrieved": "2026-10-13",
+      "source_date": "8 September 2026",
+      "observation": "RM200,000; 450 sf, one bedroom/bath, fully furnished; freehold claimed.",
+      "limits": "No authenticated parcel, use, bay, arrears, effective consideration or lender terms. Generic project asking ranges not sale outcomes."
+    },
+    {
+      "id": "S-S2",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/solstice-pan-gaea-untuk-dijual-oleh-brian-tan-501500126",
+      "access": "Malay search-index advertisement; English direct opening failed",
+      "retrieved": "2026-10-13",
+      "source_date": "19 August 2026 body date",
+      "observation": "RM200,000; 450 sf, one bedroom/bath, furnished; same listing ID as historical E40.",
+      "limits": "Refresh of a retained lineage, not an additional independent transfer. No achieved price or sale date inferred."
+    },
+    {
+      "id": "S-R1",
+      "url": "https://www.propertyguru.com.my/property-listing/solstice-pan-gaea-for-rent-by-brian-tan-501919866",
+      "access": "Direct whole-unit advertisement",
+      "retrieved": "2026-10-13",
+      "source_date": "19 August 2026",
+      "observation": "RM1,200; 450 sf, one bedroom/bath, fully furnished; marketed to professionals and students.",
+      "limits": "Marketing cohort does not identify occupants or concentration. Same agent as S-S2 does not prove a paired physical unit. Parking not authenticated."
+    },
+    {
+      "id": "S-R2",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/solstice-pan-gaea-untuk-disewa-oleh-alan-wan-101563332",
+      "access": "Direct whole-unit advertisement",
+      "retrieved": "2026-10-13",
+      "source_date": "18 September 2026",
+      "observation": "RM1,200; 450 sf, one bedroom/bath, fully furnished.",
+      "limits": "Advertised travel times not audited; no achieved rent or tenant profile. Same advertiser as S-S1 does not prove paired-unit income."
+    },
+    {
+      "id": "S-R3",
+      "url": "https://www.iproperty.com.my/property/cyberjaya/solstice-pan-gaea/rent-501929970/",
+      "access": "Search-index rental text; direct opening failed",
+      "retrieved": "2026-10-13",
+      "source_date": "17 August 2026 listing; older project metadata also present",
+      "observation": "RM1,300; 450 sf, furnished one-bedroom studio with one bay; markets to workers, couples and students.",
+      "limits": "No verified physical independence, actual occupancy or collected rent. Old project metadata and generic transport claims excluded."
+    },
+    {
+      "id": "S-R4",
+      "url": "https://www.edgeprop.my/listing/rental/4064188/solstice-pan-gaea-for-rent-by-manisha-deep-kaur",
+      "access": "Search-index full rental text; direct page not inspected",
+      "retrieved": "2026-10-13",
+      "source_date": "16 July 2026",
+      "observation": "RM1,350; 450 sf studio/one-bedroom wording, one bath, furnished, one bay; workers and students targeted.",
+      "limits": "Older asking package; no achieved premium or confirmed availability. No visual furniture inspection."
+    },
+    {
+      "id": "I-S1",
+      "url": "https://www.hw.ac.uk/malaysia/campus/accommodation/the-solstice-residence",
+      "access": "Direct university accommodation page",
+      "retrieved": "2026-10-13",
+      "source_date": null,
+      "observation": "Heriot-Watt names Solstice as third-party accommodation provided by Brachtia Maju, with furnished one-room accommodation.",
+      "limits": "Evidence of a distribution channel, not project-wide share, a master lease for any offered parcel, guaranteed rent or renewal. Operator terms and participation unknown."
+    },
+    {
+      "id": "I-S2",
+      "url": "https://www.hw.ac.uk/document-library/accommodation-price-sheet.pdf",
+      "access": "University PDF text extraction; screenshot did not render",
+      "retrieved": "2026-10-13",
+      "source_date": "PDF contains July 2026 and separate 2027 schedule labels; exact Solstice effective date not visually verified",
+      "observation": "Solstice row shows RM1,400 monthly single one-bedroom accommodation, separate advance payments, deposits and charges.",
+      "limits": "Consumer/operator package, not owner net receipt or executed lease. Layout of cross-provider tables not visually authenticated. Not entered into the financial inputs; deposits are not income."
+    },
+    {
+      "id": "C-S1",
+      "url": "https://careers.dhl.com/global/en/its-malaysia",
+      "access": "Direct employer location/careers page",
+      "retrieved": "2026-10-13",
+      "source_date": null,
+      "observation": "DHL identifies its IT Services operation at Jalan Teknokrat 5, Cyberjaya, and describes hybrid work.",
+      "limits": "Non-student employment context only. No allocation of staff to Solstice, current local headcount, commute audit or incremental rental demand. Hybrid work is a rival to mandatory nearby residence."
+    },
+    {
+      "id": "C-Z1",
+      "url": "https://aeonretail.com.my/locations/aeon-taman-equine-store/",
+      "access": "Direct retailer location page",
+      "retrieved": "2026-10-13",
+      "source_date": "Historical page; retrieved 13 October 2026",
+      "observation": "AEON lists its Taman Equine store.",
+      "limits": "Amenity/retail employment context only; no Zeva staff tenancies, salaries or actual pedestrian route."
+    },
+    {
+      "id": "T-01",
+      "url": "https://www.mymrt.com.my/ms/awam/laluan-putrajaya/bas-perantara/",
+      "access": "MRT Corp search table and initial opened page; later retrieval inconsistent",
+      "retrieved": "2026-10-13",
+      "source_date": null,
+      "observation": "Indexed table associates Taman Equine with T542/T543 and Cyberjaya Utara with T504 to Cyber 11.",
+      "limits": "Network context only. Current route operation, stop access, frequency, waiting time and project-to-destination travel were not authenticated. Do not treat the historical table as a current timetable."
+    },
+    {
+      "id": "T-02",
+      "url": "https://myrapid.com.my/businfraupgrade25/",
+      "access": "Operator search-index infrastructure schedule",
+      "retrieved": "2026-10-13",
+      "source_date": "Programme described as beginning November 2025",
+      "observation": "T504 stop-upgrade list includes MRT Cyberjaya Utara, MKN Embassy Techzone, MMU and Gem In Mall.",
+      "limits": "Infrastructure list, not route sequence, current headway, completed works or Solstice entrance access. No rail premium assigned."
+    },
+    {
+      "id": "D-Z1",
+      "url": "https://www.trinitygroup.com.my/news/nurturing-new-commercial-value-added-hubs/",
+      "access": "Developer-hosted historical press article",
+      "retrieved": "2026-10-13",
+      "source_date": "Historical launch-era article, not current operations",
+      "observation": "Describes a SOHO element within Zeva and original target market.",
+      "limits": "Project concept does not authenticate the selected parcel's permitted use or loan eligibility. Not evidence of today's buyer composition."
+    }
+  ],
+  "historical_sources": [
+    {
+      "path": "klang-valley-2026-10-07/round-2/raw/115_zeva_detail.json",
+      "commit": "521d680f56b761ca974a0a9010139dd546c85a53",
+      "purpose": "Retained partly furnished Z-S1 body; direct refresh failed."
+    },
+    {
+      "path": "klang-valley-2026-10-07/Evidence_Register.json",
+      "commit": "521d680f56b761ca974a0a9010139dd546c85a53",
+      "ids": [
+        "E40",
+        "E41",
+        "E42"
+      ],
+      "purpose": "Original Solstice lineage, not new independent observations."
+    }
+  ],
+  "excluded_or_downgraded": [
+    {
+      "url": "https://www.propertyguru.com.my/property-for-sale/at-zeva-equine-south-3032",
+      "reason": "Unverified guessed project slug failed; discarded. Correct project 6404 found independently; no evidence inferred from the failed path."
+    },
+    {
+      "url": "https://speedhome.com/rent/zeva-residence/condo/furnished",
+      "reason": "Project-named landing page returned other buildings. Could suggest substitutes, but cannot count Zeva supply or occupancy."
+    },
+    {
+      "url": "https://ziba-property.com/Malaysia/solstice-residence-cyberjaya-216lorong-haji-taib-4-off-jln-raja-laut-chow-kit-50350-kuala-lumpur-wilayah-persekutuan-kuala-lumpur-malaysia-45830",
+      "reason": "2025 offer with mismatched Chow Kit address; no fresh Solstice lease inference."
+    },
+    {
+      "url": "https://list.my/subsales/selangor/sepang/bandar-cyberjaya/cyberjaya-solstice-residence?group_by_size=false&size_max=474&size_min=425",
+      "reason": "Multi-year 2021-2026 aggregate, conflicting headline/subset medians and unnormalised rows. Not a current clearing interval or buyer-depth measurement."
+    },
+    {
+      "url": "https://www.hlb.com.my/content/dam/hlb/my/docs/pdf/Personal/Property-Auction/oct-2025/hlb-ncm-flyer-klang-valley-28-oct-25.pdf",
+      "reason": "Indexed 2025 auction reserve for a 450-sf Solstice parcel is neither a successful auction result nor today's voluntary effective sale. No auction valuation floor adopted."
+    },
+    {
+      "url": "https://www.starproperty.my/selangor/cyberjaya/solstice/property-insights/6488",
+      "reason": "Launch-era estimated completion and maintenance narrative is not a current charge invoice. No decrease to inherited fee proxy."
+    },
+    {
+      "url": "https://www.cyberview.com.my/business/cyberview-tech-hub-developer/",
+      "reason": "2045 development projections, including inconsistent company counts in page text, are not current tenants or employment captured by Solstice."
+    },
+    {
+      "item": "Historical Rapid KL interruption notices",
+      "reason": "Individual old disruptions do not measure today's relative service reliability. No disruption-rate or travel-time estimate inferred."
+    },
+    {
+      "item": "University brochure and price-sheet screenshots",
+      "reason": "Brochure text search and screenshot rendering did not provide reliable visual verification. Only identified text/page evidence used; no image or plan inspection claimed."
+    }
+  ]
+}

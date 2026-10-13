@@ -1,0 +1,128 @@
+{
+  "release": "INVESTOR-EXIT-2026-10-13",
+  "date": "2026-10-13",
+  "baseline_commit": "521d680f56b761ca974a0a9010139dd546c85a53",
+  "baseline_tree": "ac07d840dff01bc09f19f5cf627a6b90ae1b2b34",
+  "baseline_file_blobs": 706,
+  "expected_result_file_blobs": 716,
+  "expected_new_files": 10,
+  "expected_modified_existing_files": 2,
+  "expected_unchanged_existing_files": 704,
+  "allowed_new_directory": "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/",
+  "allowed_existing_modifications": [
+    "README.md",
+    "CURRENT_WORKFLOW.md"
+  ],
+  "protected_examples": {
+    "AGENTS.md": {
+      "git_blob_sha": "df5a1ca365b4934cc9d0e8bcbad580a9bc63a262"
+    },
+    "Residential_Investment_Framework.md": {
+      "git_blob_sha": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e"
+    },
+    "execution-release-2026-10-07/financial_engine.py": {
+      "git_blob_sha": "2fa3554d4b1358795d658efefe270ac53f27bbda"
+    },
+    "execution-release-2026-10-07/financial_config.json": {
+      "git_blob_sha": "3e17c91823b093aa66f0930b2c012510d3b4528f"
+    },
+    "sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md": {
+      "git_blob_sha": "bb223fcae99fd2247838bdbf51672d0e52e68df2"
+    },
+    "klang-valley-2026-10-07/round-3/programme-final/Inputs.json": {
+      "git_blob_sha": "c892fe220959f8d74d54d7c6f54cf14bfdd91c43"
+    },
+    "visualization/Decision_Engine_Neural_Map.html": {
+      "git_blob_sha": "ebc6bd206ee10aa4d6a13eca12aa738b78d0d286"
+    }
+  },
+  "preservation_rule": "Every baseline blob outside the two root navigation files must retain its exact Git blob hash. No deleted files or unexpected paths.",
+  "checks": {
+    "financial_runs_checked": 45,
+    "financial_identities": "closed amortisation, principal conservation, independent interest-cost exit identity and discounted hurdle passed",
+    "annual_neutral_roots": "passed",
+    "relative_carry_and_exit_parity": "passed",
+    "common_standard_invariant": "passed",
+    "base_monthly_positive_annual_negative": "passed",
+    "base_flat_price_loss": "passed"
+  },
+  "derived_capitalisation_rows": 10,
+  "joint_stress_rows": 2,
+  "source_references": 17,
+  "source_count_boundary": "References include historical/indexed records and repeated source lineages; not independent units or verified transactions.",
+  "historical_inputs": "R231 and KV14 exactly preserved from programme-final/Inputs.json.",
+  "decisions": {
+    "R231": "G0 STOP / G9 Defer",
+    "KV14": "G0 STOP / G9 Defer",
+    "MJ_X01": "Unresolved",
+    "new_operating_case_ids": 0,
+    "deploy": 0
+  },
+  "three_hypothesis_checkpoint": "All three bounded public passes complete; all seven cases Defer. No causal premium validated. Next: existing Parkview / Arc / Lucentia public anomaly queue.",
+  "framework_boundary": "Core/G0-G9, SOP, historical inputs/results/releases, validation/failure/forward/terminal/portfolio and map unchanged.",
+  "execution_boundary": "RAM and GitHub only. No persistent local output/clone/branch, cleanup, ACL change, outreach or scheduler.",
+  "publication_protocol": [
+    "Verify complete proposed tree against payload and baseline hashes.",
+    "Require exact changed paths and a single-parent commit.",
+    "Advance main with baseline expected SHA and force=false.",
+    "Read back remote head, commit parity and exact report content."
+  ],
+  "payload_files": {
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/README.md": {
+      "bytes": 16405,
+      "sha256": "9d479e240827e43055e656d59d082b68949c72cce650fc2d347062388d60f182",
+      "git_blob_sha": "944411d7f6e1a8417bb73ba341caa241b6295d07"
+    },
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Evidence_Ledger.json": {
+      "bytes": 13166,
+      "sha256": "436764b90e6abeca67f810ead6304b390503978c03da1b2dd2f6a996486f29b7",
+      "git_blob_sha": "72262d37a4b7607a6a2dd9c292a7c7095d8ca57c"
+    },
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Financial_Inputs.json": {
+      "bytes": 8217,
+      "sha256": "3b6e93f78742643a5b9c07c8f5c3b2630217c3dfe6cdb3254167db32f9ac5d63",
+      "git_blob_sha": "1cf613a64ec562414142c4fbe8c6152e8a5d4a36"
+    },
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Financial_Results.json": {
+      "bytes": 60603,
+      "sha256": "f367a5d05f47eb509b375d918ef798b4d41bed358d97f111156ebd42e723ecbf",
+      "git_blob_sha": "b32e2f2d67f08511c909dd3435c66743cdff994c"
+    },
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/reproduce.py": {
+      "bytes": 9890,
+      "sha256": "8a49e7bb5f18d6523592b85b734b04f8b1083ec8a8ce524d3e1dda5691f3981b",
+      "git_blob_sha": "9ef534254cda78d84f5e641dc3e42fb2662cc9f0"
+    },
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Case_Status.json": {
+      "bytes": 7482,
+      "sha256": "ac2d682855f8a8999e6a9f1f96b7632e121be158ecc0bd8e6c1d1798ff9edb68",
+      "git_blob_sha": "1fc43c99daff59b2dd430f7b4245bd3a5ff63644"
+    },
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Investigation_and_Misses.md": {
+      "bytes": 8054,
+      "sha256": "959df51a95a23de86bd0155b71c422827445a965f16a3d2b0e3080aa1fb43e05",
+      "git_blob_sha": "48d024ed5f683519a887beb8d7e282ee6321df94"
+    },
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Three_Hypothesis_Checkpoint.md": {
+      "bytes": 4326,
+      "sha256": "db29c040c39b69b895807ae09bdbe919a8ddce4be6bb0e0c0618cc49c727c2e1",
+      "git_blob_sha": "c509d5730cf5566dfb8af8c36209addfc9e7f0ef"
+    },
+    "klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Verification.md": {
+      "bytes": 3758,
+      "sha256": "e8f867f030dff4f58a35d07e255f4c63d9af1faaf9ac472dddb61c643bb5eedf",
+      "git_blob_sha": "48fd97019d968a10be0c6f49b0a2cb603cba94a4"
+    },
+    "CURRENT_WORKFLOW.md": {
+      "bytes": 10180,
+      "sha256": "612d0193be0154a4a586015dbe4576afcfe06c458b8a1a4858eaa4840a728271",
+      "git_blob_sha": "8b04f652ce86db4d3d5ccc587fe40657bf2b3856"
+    },
+    "README.md": {
+      "bytes": 11577,
+      "sha256": "e4528bcf074e97a3f108dcc6a75c163e51c53c6ad14ae27ed77dff8badb7a863",
+      "git_blob_sha": "f76bfd62c53bb25a6f51d90596fd5e2f021be667"
+    }
+  },
+  "self_hash": "Excluded to avoid self-reference. The Git commit pins the complete tree and this manifest."
+}

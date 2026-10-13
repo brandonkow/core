@@ -1,6 +1,6 @@
 # Current workflow and continuation
 
-Updated: 12 October 2026. Historical programme evidence cutoff: 8 October 2026; targeted reopening evidence: 11-12 October 2026. Canonical repository: https://github.com/brandonkow/core .
+Updated: 13 October 2026. Historical programme evidence cutoff: 8 October 2026; targeted reopening evidence: 11-13 October 2026. Canonical repository: https://github.com/brandonkow/core .
 
 ## Current status
 
@@ -30,7 +30,7 @@ The [Eve/Maxim public validation packet](klang-valley-2026-10-07/round-3/privacy
 
 Fourteen source references, local whole-unit/shared counterexamples, price/rent/void/cost reversals and five-year investor-exit burdens are documented. Ninety financial evaluations passed model checks; these are not ninety market observations. The privacy premium, paid collections, actual fees/works and financeable transfers remain unresolved. Both cases remain G0 STOP / G9 Defer. No numerical privacy premium, new Core mechanism, map update or programme-count change.
 
-The bounded public pass has reached its stopping rule. Do not repeat portal searches to simulate private evidence. Reopen this pair on material unit/collection/cost/exit evidence; retain Eve first for that evidence and Maxim as challenger. The subsequent Pines/East Lake/Subang Avenue public pass is recorded below; Zeva/Solstice remains next. Brightwood remains paused. No background research is running.
+The bounded public pass has reached its stopping rule. Do not repeat portal searches to simulate private evidence. Reopen this pair on material unit/collection/cost/exit evidence; retain Eve first for that evidence and Maxim as challenger. The subsequent family-adoption and investor-exit public passes are recorded below. Brightwood remains paused. No background research is running.
 
 ## 12 October family-adoption reopening
 
@@ -40,7 +40,17 @@ New observations distinguish original-condition Pines 700k from furnished rent a
 
 49 financial evaluations and publication-preservation checks accompany the packet. No historical inputs, Core/SOP/map logic, old releases or programme counts change. All three remain G0 STOP / G9 Defer; MJ-F01 remains Unresolved. The bounded public stopping rule is reached.
 
-**Next independent main-line packet: Zeva versus Solstice**, testing captured tenant diversity, replacement demand and financeable investor exit. Reopen prior pairs only on material unit, collection, governance or resale evidence. Brightwood remains paused; no background task is running.
+The subsequent Zeva/Solstice public pass is complete and recorded below. Reopen prior pairs only on material unit, collection, governance or resale evidence. Brightwood remains paused; no background task is running.
+
+## 13 October investor-exit reopening and three-hypothesis checkpoint
+
+The [Zeva / Solstice public packet](klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/README.md) is complete. Zeva remains first for captured-demand-diversity evidence; Solstice retains its lower-capital challenge. The university accommodation channel supports a specific distribution mechanism, not guaranteed income or an exclusive-student census. Worker marketing and employment context do not establish project capture. Door-to-destination journeys and buyer funding remain unverified.
+
+At unchanged historical inputs, annual cash is about -802 for Zeva and -324 for Solstice. Zeva needs about 43/month additional rent to match annual carry only; its five-year nominal break-even sale is about 237,935 versus 220,164. No diversity premium, rent growth or yield compression is assigned. Forty-five financial evaluations passed; those are model checks, not market validation.
+
+The [three-hypothesis checkpoint](klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Three_Hypothesis_Checkpoint.md) closes all three bounded public passes. All seven cases remain G0 STOP / G9 Defer; the three mechanisms remain Unresolved. No Core/SOP/map, historical financial input or programme-count changes.
+
+**Next independent public task: Parkview / Arc / Lucentia input-anomaly packet**, using the existing programme continuation queue. Resolve ordinary-versus-packaged rent and unit form; effective price/guarantee terms; and fee scope/period respectively. Preserve unresolved branches and re-run only affected calculations. Do not restart all areas or repeat portal counts to stand in for private evidence. Brightwood stays paused; no background research is running.
 
 ## User authority
 
