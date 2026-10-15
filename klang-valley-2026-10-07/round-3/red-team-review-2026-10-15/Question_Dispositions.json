@@ -1,0 +1,333 @@
+{
+  "version": "RED-TEAM-RECONCILIATION-2026-10-15",
+  "baseline_commit": "294d5e56d52b1bae7fd2a31290a3c8fc8ec2b417",
+  "original_question_register": "../red-team-questionnaire-2026-10-13/Question_Register.json",
+  "source": "Direct user answers in this conversation; English paraphrases. Prior approvals and clarifications are preserved in ../red-team-integration-2026-10-14/README.md.",
+  "questions": [
+    {
+      "id": "RT-01",
+      "title": "Privacy monetisation",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "response_summary": "Eve's main advantage is fewer vacancies; the user considers tenant demand sufficient.",
+      "analyst_disposition": "Prioritise void duration/replacement evidence, without booking higher rent or occupancy.",
+      "remaining_analyst_evidence_work": "Matched ordinary leases, actual vacancy/renewal and rival package explanations.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-02",
+      "title": "Local whole-unit substitutes",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G4"
+      ],
+      "response_summary": "Eve offers compact single-person privacy, easier cleaning and a higher-end project experience; Pacific Place is perceived as more budget/room-rental oriented. Later clarification replaces lower fees with less upward fee pressure.",
+      "analyst_disposition": "Separate user-attributed positioning from a resident census and verified charges.",
+      "remaining_analyst_evidence_work": "Actual target cohort, whole-unit substitutes, repair load, fee history, funding and service outcomes.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-03",
+      "title": "Young compact owner buyers",
+      "gate_routing": [
+        "G2",
+        "G6",
+        "G7"
+      ],
+      "response_summary": "Established community amenities and local roots may attract young compact owner buyers; temporary school-led tenants are less likely to buy locally.",
+      "analyst_disposition": "Local attachment is a candidate buyer route, not proven housing-form adoption.",
+      "remaining_analyst_evidence_work": "Actual funded compact buyers, motives, budgets, alternatives and ownership willingness.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-04",
+      "title": "Pines rental families versus purchasing families",
+      "gate_routing": [
+        "G2",
+        "G6"
+      ],
+      "response_summary": "Pines, and user-nominated Palma/Pelangi comparators, appeal to local and foreign families through community and management. The user later agrees that demand does not ensure the next buyer pays more, while retaining a price-support view.",
+      "analyst_disposition": "Retain family-adoption hypothesis; no guaranteed price floor. Palma/Pelangi are leads, not admitted new cases.",
+      "remaining_analyst_evidence_work": "Family buying versus renting, supported exit quantum, current governance/works and substitutes.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-05",
+      "title": "Zeva price premium versus saleability",
+      "gate_routing": [
+        "G2",
+        "G6",
+        "G8"
+      ],
+      "response_summary": "Zeva should sell more easily than Solstice because of amenities and a more varied community, but the user does not expect a higher price or necessarily appreciation, citing Seri Kembangan stigma.",
+      "analyst_disposition": "Saleability hypothesis only; no premium or yield compression.",
+      "remaining_analyst_evidence_work": "Buyer depth, time/discount to sale, captured demand diversity, funded investor exits.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-06",
+      "title": "Useful rooms, bays and household duration",
+      "gate_routing": [
+        "G2",
+        "G4",
+        "G5"
+      ],
+      "response_summary": "Two usable bays can outweigh an extra bedroom or space for city couples/families. The user confirms this is contextual, not universal.",
+      "analyst_disposition": "Apply the approved two-vehicle household scope; preserve compact/investor eligibility.",
+      "remaining_analyst_evidence_work": "Legal/practical bays, additional cost, actual household vehicles and relevant alternatives.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-07",
+      "title": "Where landed substitution actually binds",
+      "gate_routing": [
+        "G2",
+        "G5",
+        "G6"
+      ],
+      "response_summary": "Older landed security/ageing may favour condos; newer planned gated/guarded landed may attract outer-area buyers. The user retains older-landed stagnation as a view.",
+      "analyst_disposition": "Keep attributed stagnation hypothesis and matched landed alternatives; no permanent price law.",
+      "remaining_analyst_evidence_work": "Matched condition, security, total budget, routes and actual older-landed prices/demand.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-08",
+      "title": "Older affordability versus newer product",
+      "gate_routing": [
+        "G3",
+        "G4",
+        "G6"
+      ],
+      "response_summary": "Resident behaviour and management effectiveness are the user's two key project-level factors after initial product screening, particularly 5-10 years after completion.",
+      "analyst_disposition": "Separate project appreciation from individual return; retain other Core mechanisms and re-open missed/changed physical issues when needed.",
+      "remaining_analyst_evidence_work": "Operating behaviour, management ability/funding/results, matched price trajectory and counterexamples.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-09",
+      "title": "Prime owner utility and income weakness",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G5",
+        "G6"
+      ],
+      "response_summary": "Much prime-area utility is already priced in; owner-use or trophy demand does not ensure attractive investment terms.",
+      "analyst_disposition": "Keep utility and acquisition economics separate.",
+      "remaining_analyst_evidence_work": "Matched buyer willingness and price/return evidence; no automatic prestige premium.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-10",
+      "title": "Who pays for central employment-node housing",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "response_summary": "Third-party-funded foreign executives/students may support premium rents more readily than self-paying tenants. The user approves separate resident/payer/budget checks.",
+      "analyst_disposition": "Payer and budget structure matter; nationality alone does not establish capacity or willingness.",
+      "remaining_analyst_evidence_work": "Payment limits, lease duration, employer/provider alternatives and actual node-specific capture.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-11",
+      "title": "Different prime family catchments",
+      "gate_routing": [
+        "G2",
+        "G5",
+        "G6"
+      ],
+      "response_summary": "School choice is usually the main boundary for family catchments.",
+      "analyst_disposition": "Use specific school and daily routines rather than one pooled international-family market.",
+      "remaining_analyst_evidence_work": "School/route substitution, household budgets and project-level capture.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-12",
+      "title": "Student and institutional accommodation segmentation",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "response_summary": "Initial view distinguishes wealthier private-university whole-unit demand from budget-limited local-university demand. The user subsequently approves payer, institution-rule and accommodation-alternative checks.",
+      "analyst_disposition": "Do not operationalise the initial statement as a universal segmentation rule.",
+      "remaining_analyst_evidence_work": "Institution/year-specific rules, budgets, freedom to live off-campus and provider competition.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-13",
+      "title": "Hospital access and ordinary lease duration",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "response_summary": "Short-stay hospital demand is distinct; longer-term demand chiefly comes from regular employees and shift workers.",
+      "analyst_disposition": "Do not use transient demand to support ordinary annual tenancy.",
+      "remaining_analyst_evidence_work": "Actual staff leases, schedules, access and tenant mix.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-14",
+      "title": "Puchong's internal market boundaries",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G5"
+      ],
+      "response_summary": "Commercial-centre proximity is associated in the user's judgment with higher prices, convenience and upscale appeal; the user accepts separating benefits and price.",
+      "analyst_disposition": "Test convenience and nuisances independently; high price does not prove quality.",
+      "remaining_analyst_evidence_work": "Matched household substitution, paid rent, total budget and negative externalities.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-15",
+      "title": "Western employment growth and private tenants",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "response_summary": "Western industrial workers often prefer rooms; family tenants may choose landed for more space and lower rent, depending on industry.",
+      "analyst_disposition": "Treat employment-to-private-condo capture as conditional.",
+      "remaining_analyst_evidence_work": "Actual industry/cohort, employer housing, room/landed alternatives and budgets.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-16",
+      "title": "Airport corridor housing budgets",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "response_summary": "Cabin crew are the proposed airport-corridor cohort seeking better condo environments without excessive distance.",
+      "analyst_disposition": "Specific target cohort to investigate; no automatic allocation of airport workers.",
+      "remaining_analyst_evidence_work": "Shift-compatible door-to-door access, budget/payer, leases and alternatives.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-17",
+      "title": "New-township high-rise adoption",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6"
+      ],
+      "response_summary": "Township demand is staged: early spillover from older/expensive districts, then later arrivals for employment/schools as the township matures.",
+      "analyst_disposition": "Do not assume inevitable apartment maturity or double-count movers.",
+      "remaining_analyst_evidence_work": "Household origins/timing, jobs, housing-form adoption and retained demand.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-18",
+      "title": "Competitive supply versus complementary supply",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G3",
+        "G6"
+      ],
+      "response_summary": "Different lifestyles may reduce direct competition; the user accepts stage and effective-substitution refinements.",
+      "analyst_disposition": "No blanket exemption from competing supply; test indirect budget/upgrade substitution.",
+      "remaining_analyst_evidence_work": "Actual competing layouts, packages, incentives, delivery and tenant choices.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-19",
+      "title": "Cheap outliers and recovery from stigma",
+      "gate_routing": [
+        "G1",
+        "G3",
+        "G5",
+        "G6"
+      ],
+      "response_summary": "The user states the SqWhere distress/auction/stigma case was verified by them and accepts that cheap auction purchases need not exit at the desired price.",
+      "analyst_disposition": "Record user-verified provenance, not independent analyst verification; retain stigma-recovery and exit checks.",
+      "remaining_analyst_evidence_work": "Effective basis, liabilities, continuing supply, catalyst transmission and financeable resales.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-20",
+      "title": "Durable furnishing and refurbishment value",
+      "gate_routing": [
+        "G3",
+        "G4",
+        "G6",
+        "G7"
+      ],
+      "response_summary": "Tenant-specific function should guide improvements; internet/desks may matter more to students, and fixed improvements are favoured. The user approves separate recovery/lifecycle tests.",
+      "analyst_disposition": "No universal fixed-versus-movable recovery rule.",
+      "remaining_analyst_evidence_work": "Incremental cost, useful life, paid rent/retention, replacement and supported resale recovery.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-21",
+      "title": "Hidden exit ceilings and ageing",
+      "gate_routing": [
+        "G3",
+        "G4",
+        "G6",
+        "G7"
+      ],
+      "response_summary": "Mixed circulation and noise are key risks; resident behaviour and management repair efficiency matter. Scope is later clarified to post-screening project stewardship.",
+      "analyst_disposition": "Operational and inherent-design risks remain separate.",
+      "remaining_analyst_evidence_work": "Observed use/noise, circulation/lift capacity, management funding and buyer penalties.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-22",
+      "title": "Specific transition exceptions and their deadline",
+      "gate_routing": [
+        "G1",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "response_summary": "Kwasa is the user's strongest transition candidate. The user attributes present rental demand to nearby established employment areas including Kota Damansara, Mutiara Damansara and Bandar Utama, and expects later high-end offices within Kwasa to add demand. Other new townships are expected to mature more slowly without comparable nearby support.",
+      "analyst_disposition": "Kwasa leads hypothesis validation within the named township/transition group only. No verified tenant mix, office pipeline, rent growth, delivery date or investment clearance is asserted.",
+      "remaining_analyst_evidence_work": "Verify existing spillover, actual office occupation and jobs, incremental versus relocated demand, selected residential capture, supply and funded delay. Establish a finite evidence-based review/deadline before an actionable transition case; no date supplied by user.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-23",
+      "title": "Cross-area concentration overlooked by labels",
+      "gate_routing": [
+        "G2",
+        "G6",
+        "G7",
+        "G8"
+      ],
+      "response_summary": "Bandar Puteri and TRX are distinguished by surrounding mature amenities. The remaining candidates depend on similar buyer/tenant sources. The user explicitly clarifies that remaining means the named township candidates, not all projects such as Eve/Pines.",
+      "analyst_disposition": "Scope common spillover/employment-maturation exposure to Kwasa, Elmina/Denai Alam, Gamuda Gardens and the western-township candidates. This does not imply identical tenants, perfect correlation or zero risk for the exceptions.",
+      "remaining_analyst_evidence_work": "Map actual origins, employers, budgets and competing supply; no numeric correlations or changed stress results.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    },
+    {
+      "id": "RT-24",
+      "title": "Challenge the overall evidence queue",
+      "gate_routing": [
+        "G1",
+        "G2",
+        "G6",
+        "G8"
+      ],
+      "response_summary": "No additional challenge to the current research preferences.",
+      "analyst_disposition": "Record no further ranking objection; this is not endorsement of every assumption, a buy instruction or execution-start approval.",
+      "remaining_analyst_evidence_work": "Existing case-specific empirical holds persist.",
+      "status": "Response received; interpretation recorded; empirical claims not certified"
+    }
+  ],
+  "responses_received": 24,
+  "market_clarification_pending": [],
+  "analyst_review_status": "Ready for explicit user closure/start confirmation",
+  "empirical_validation_complete": false,
+  "user_review_closed": false,
+  "user_start_authorised": false
+}

@@ -1,0 +1,71 @@
+{
+  "version": "RT-REVIEW-READY-2026-10-15",
+  "baseline_commit": "294d5e56d52b1bae7fd2a31290a3c8fc8ec2b417",
+  "authority": "Direct user instruction: list all currently known market Red Team questions together; only run the three next stages after responses are reconciled and the user confirms no outstanding current interpretation issues.",
+  "state": "All 24 response topics recorded and interpretation review ready; explicit user closure/start confirmation pending",
+  "questions": 24,
+  "answers_received": 24,
+  "question_register": "Question_Dispositions.json",
+  "paused_stages": [
+    {
+      "stage": 1,
+      "name": "Exact-unit evidence admission",
+      "status": "Not started after this instruction"
+    },
+    {
+      "stage": 2,
+      "name": "Final G0-G9 / financial / portfolio review",
+      "status": "Not started after this instruction"
+    },
+    {
+      "stage": 3,
+      "name": "Final investment decision closeout",
+      "status": "Not started after this instruction"
+    }
+  ],
+  "permitted_preparation": [
+    "Read and reconcile existing records",
+    "Publish the consolidated questionnaire and audit",
+    "Receive, attribute and analyse replies",
+    "Consolidate necessary interpretation follow-ups",
+    "Record approved synthesis items 1-8 and apply the new SOP to future authorised cases"
+  ],
+  "release_conditions": [
+    "Each RT-01 through RT-24 has a recorded response/disposition; uncertainty or unfamiliarity is allowed and remains uncertainty.",
+    "Overlaps, disagreements and material interpretation gaps are reconciled without converting opinions into verified facts.",
+    "The analyst presents one consolidated response review, including residual empirical holds and any necessary interpretation follow-ups.",
+    "The user explicitly confirms closure of the current Red Team review and authorises starting the three stages."
+  ],
+  "automatic_resume": false,
+  "background_work": false,
+  "unchanged": [
+    "Core/G0-G9",
+    "Financial inputs/engine/configuration",
+    "Map",
+    "Historical releases",
+    "All current G0 STOP / G9 Defer dispositions",
+    "Historical SOP releases"
+  ],
+  "future_new_fact_rule": "A later material new fact may create a specifically logged new issue. Current closure is not a promise of perfect foresight or permission to ignore evidence.",
+  "brightwood": "Paused",
+  "answers_received_definition": "All original response topics have recorded dispositions, including RT-23 scope clarification; empirical claims remain unvalidated.",
+  "approval_record": "../red-team-integration-2026-10-14/README.md",
+  "original_questionnaire_snapshot_preserved": true,
+  "approved_synthesis_items": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "pending_substantive_questions": [],
+  "user_review_closed": false,
+  "user_start_authorised": false,
+  "sop_change": "None in this release; the 14 October approved addendum remains in force.",
+  "consolidated_review": "README.md",
+  "pending_market_clarifications": [],
+  "qualitative_transition_priority": "Kwasa first within the named transition group only; no ordinary-income tier, numerical assumption or G0/G9 clearance change."
+}

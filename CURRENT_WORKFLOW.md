@@ -1,6 +1,6 @@
 # Current workflow and continuation
 
-Updated: 14 October 2026. Historical programme evidence cutoff: 8 October 2026; targeted reopening evidence: 11-13 October 2026. Canonical repository: https://github.com/brandonkow/core .
+Updated: 15 October 2026. Historical programme evidence cutoff: 8 October 2026; targeted reopening evidence: 11-13 October 2026. Canonical repository: https://github.com/brandonkow/core .
 
 ## Current sequencing hold - consolidated Red Team review
 
@@ -8,11 +8,19 @@ User instruction, 13 October 2026: first collect all currently known market Red 
 
 The [24-question consolidated packet](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/README.md) covers all eight batches and the full 61-catchment register, prior judgments, counterexamples, supply/transition and exit/portfolio issues. The previous conversational Eve/Pines/Zeva follow-ups are included as questions 1, 4 and 5. [Coverage and responsibility audit](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/Coverage_and_Review_Audit.md) distinguishes market judgment from analyst-owned facts and records two historical summary-label corrections.
 
-**Current state: clarified synthesis items 1-8 approved and recorded; original RT-22-24 and explicit closure/start confirmation remain pending.** Exact-unit admission, final G0-G9/financial/portfolio review and final investment decision closeout are on hold. Replies alone do not automatically resume execution. [Current Review_Hold.json](klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/Review_Hold.json) preserves the release conditions; the original 13 October snapshot remains unchanged. Existing G0 STOP / G9 Defer remains unchanged.
+**Current state: all 24 response topics recorded and consolidated interpretation review ready; explicit user closure/start confirmation remains pending.** Exact-unit admission, final G0-G9/financial/portfolio review and final investment decision closeout are on hold. Replies alone do not automatically resume execution. [Current Review_Hold.json](klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/Review_Hold.json) preserves the release conditions; the original 13-14 October snapshots remain unchanged. Existing G0 STOP / G9 Defer remains unchanged.
 
 The programme's bounded public desk completion and ten-case synthesis remain valid. The Eve/Maxim unit-evidence bundle is the previously proposed next task, subject to this new hold and any reconciled research-priority changes. Brightwood stays paused. No background work is running.
 
-## 14 October partial Red Team integration
+## 15 October response reconciliation
+
+Read [the consolidated response review](klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/README.md) and [all 24 dispositions](klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/Question_Dispositions.json). The user nominates Kwasa as the strongest transition opportunity and explicitly limits RT-23 shared-demand exposure to the named township candidates, not Eve/Pines or the whole programme. RT-24 adds no ranking objection.
+
+Kwasa is first for mechanism validation within the transition group only. Surrounding-employment spillover and later internal office demand are separately testable user judgments. No actual tenant composition, office date, rental uplift or funded exit is authenticated. The analyst must establish finite milestones, review/funding stops and falsifiers before an actionable transition case. Ordinary-income research priorities and shortfall policy remain unchanged.
+
+No further current market-level clarification is required on the known questionnaire; remaining empirical work belongs to the analyst. The user's explicit review closure/start confirmation is still pending under their earlier instruction. All three stages remain paused. No Core/SOP/map, numerical input, historical record or case capital decision changes.
+
+## 14 October partial Red Team integration (historical checkpoint)
 
 The user authorised recording clarified synthesis items 1-8 before answering original questions RT-22-24. Apply [the approved execution addendum](sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md) to future authorised work; read [the approval, attribution and analyst corrections](klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/README.md). Eight synthesis topics are not the first eight questionnaire answers.
 

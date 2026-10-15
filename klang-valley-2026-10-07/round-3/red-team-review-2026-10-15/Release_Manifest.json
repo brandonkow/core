@@ -1,0 +1,49 @@
+{
+  "version": "RT-REVIEW-READY-2026-10-15",
+  "date": "2026-10-15",
+  "baseline_commit": "294d5e56d52b1bae7fd2a31290a3c8fc8ec2b417",
+  "baseline_tree": "bfabdf8d9f95ab8a8ed42958800b2639607455c1",
+  "authority": "Record and reconcile direct Red Team replies under the existing review process. Explicit closure/start remains pending.",
+  "payload_blobs": {
+    "klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/Question_Dispositions.json": "36f8530add44f2b6455ffc5e24f0c7d07533abb1",
+    "klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/README.md": "d2658c39ef37fa1be8eb9d5695eed841091ce852",
+    "klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/Review_Hold.json": "96d2c0818c9d2dd7e8ec39c3c39ecadebf94e365",
+    "CURRENT_WORKFLOW.md": "a0b4376b176f0e4fcc104876128d0f4020e25fa3",
+    "README.md": "f00f897d995fa134dbec0157c4823b37dfc37478",
+    "AGENTS.md": "8d21ed8aa6f2651332bb3dd8aaf0c3d0353dc0d7"
+  },
+  "manifest_self_excluded": true,
+  "checks": {
+    "responses": 24,
+    "unique_ids": true,
+    "json": "pass",
+    "local_links": 81,
+    "hold_preserved": true,
+    "allowed_existing_changes": [
+      "AGENTS.md",
+      "README.md",
+      "CURRENT_WORKFLOW.md"
+    ],
+    "baseline_files": 741
+  },
+  "expected_changes": {
+    "modified": [
+      "AGENTS.md",
+      "README.md",
+      "CURRENT_WORKFLOW.md"
+    ],
+    "added": [
+      "klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/Question_Dispositions.json",
+      "klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/README.md",
+      "klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/Review_Hold.json",
+      "klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/Release_Manifest.json"
+    ],
+    "deleted": [],
+    "untouched_existing_files": 738,
+    "total_files": 745
+  },
+  "frozen_master_blob": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+  "preservation": "All baseline files outside the three current navigation/instruction files must retain identical Git blob hashes. SOP, Core/G0-G9, map, financials, historical releases and case capital decisions remain unchanged.",
+  "publication_protocol": "Verify candidate-tree preservation before commit; expected-head update of main without force; remote content/head readback. This manifest records pre-publication checks, not an already completed publication receipt.",
+  "research_boundary": "No new empirical market verification. Kwasa is first within the named transition-hypothesis group only; no numerical input or ordinary-income priority change. All three execution stages remain on hold."
+}
