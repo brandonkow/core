@@ -6,7 +6,7 @@ Project repository: [brandonkow/core](https://github.com/brandonkow/core), desig
 
 Latest sequencing instruction: all updates go directly to main, with no other branch. Complete all-area underwriting and programme integration before independently assessing whether the decision map needs updating. The programme is desk-complete. The [11 October map assessment](klang-valley-2026-10-07/round-3/programme-final/Map_Assessment_2026-10-11.md) concludes that the existing framework map should remain unchanged.
 
-**Current user sequencing:** the [consolidated 24-question market Red Team review](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/README.md) must be answered, reconciled and explicitly closed by the user before exact-unit admission, final underwriting review or investment decision closeout starts. These three stages are on hold; see [current workflow](CURRENT_WORKFLOW.md). Core/SOP/map and all historical results remain unchanged.
+**Current user sequencing:** the [consolidated 24-question market Red Team review](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/README.md) must be answered, reconciled and explicitly closed by the user before exact-unit admission, final underwriting review or investment decision closeout starts. These three stages are on hold; see [current workflow](CURRENT_WORKFLOW.md). Core/map and all historical results remain unchanged. On 14 October the user authorised recording the eight clarified synthesis topics in a [new SOP addendum](sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md); [approval and continuation](klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/README.md) retain RT-22-24 and explicit closure/start as pending.
 
 ## Authoritative framework entry point
 

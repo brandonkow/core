@@ -1,0 +1,52 @@
+{
+  "version": "RT-PARTIAL-INTEGRATION-2026-10-14",
+  "date": "2026-10-14",
+  "baseline_commit": "3307fd0902dacb9a79081373879aaa3bdb3760c3",
+  "baseline_tree": "163b25361d5e23122f5ebb114c287144b19b7510",
+  "authority": "User explicitly authorised recording clarified synthesis items 1-8; RT-22-24 deferred.",
+  "payload_blobs": {
+    "sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md": "1b7ec675d949a22ef8c660d0e60654ff43b31fb4",
+    "klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/README.md": "a23319c725e46599ac01e5729941bdfe17f0eeaa",
+    "klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/Review_Hold.json": "0df209520922dc9b2c3bc7254b3e0f97e33b5913",
+    "README.md": "4e0e8073c9752c6abb18e2ef4041af55d765f7c3",
+    "CURRENT_WORKFLOW.md": "4bc8d525128827b0e1f756c83c2e97e06c05c913",
+    "AGENTS.md": "6692e180c7b90c7d02832fd8c31318747e967ca6"
+  },
+  "manifest_self_excluded": true,
+  "expected_changes": {
+    "modified_existing": [
+      "AGENTS.md",
+      "README.md",
+      "CURRENT_WORKFLOW.md"
+    ],
+    "new_files": [
+      "sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md",
+      "klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/README.md",
+      "klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/Review_Hold.json",
+      "klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/Release_Manifest.json"
+    ],
+    "deleted": [],
+    "existing_files_unchanged": 734,
+    "expected_total_files": 741
+  },
+  "frozen_master_blob": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+  "verification": {
+    "status": "pass",
+    "approved_topics": 8,
+    "pending_questions": [
+      "RT-22",
+      "RT-23",
+      "RT-24"
+    ],
+    "local_links": "pass",
+    "json": "pass",
+    "existing_files": 737,
+    "allowed_existing_changes": [
+      "AGENTS.md",
+      "README.md",
+      "CURRENT_WORKFLOW.md"
+    ]
+  },
+  "publication_protocol": "Verify complete candidate tree preservation before commit; move main with expected-head lease and no force; read back remote content. This manifest states pre-publication checks and required procedure, not an already completed remote receipt.",
+  "boundary": "No market validation, financial recalculation, unit admission, ranking change, stage resume or Core promotion. Existing 737 files preserved except three current navigation/instruction files; historical releases remain unchanged."
+}

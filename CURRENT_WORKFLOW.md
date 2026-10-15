@@ -1,6 +1,6 @@
 # Current workflow and continuation
 
-Updated: 13 October 2026. Historical programme evidence cutoff: 8 October 2026; targeted reopening evidence: 11-13 October 2026. Canonical repository: https://github.com/brandonkow/core .
+Updated: 14 October 2026. Historical programme evidence cutoff: 8 October 2026; targeted reopening evidence: 11-13 October 2026. Canonical repository: https://github.com/brandonkow/core .
 
 ## Current sequencing hold - consolidated Red Team review
 
@@ -8,9 +8,17 @@ User instruction, 13 October 2026: first collect all currently known market Red 
 
 The [24-question consolidated packet](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/README.md) covers all eight batches and the full 61-catchment register, prior judgments, counterexamples, supply/transition and exit/portfolio issues. The previous conversational Eve/Pines/Zeva follow-ups are included as questions 1, 4 and 5. [Coverage and responsibility audit](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/Coverage_and_Review_Audit.md) distinguishes market judgment from analyst-owned facts and records two historical summary-label corrections.
 
-**Current state: awaiting Red Team answers and explicit closure/start confirmation.** Exact-unit admission, final G0-G9/financial/portfolio review and final investment decision closeout are on hold. Replies alone do not automatically resume execution. [Review_Hold.json](klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/Review_Hold.json) defines the release conditions. Existing G0 STOP / G9 Defer remains unchanged.
+**Current state: clarified synthesis items 1-8 approved and recorded; original RT-22-24 and explicit closure/start confirmation remain pending.** Exact-unit admission, final G0-G9/financial/portfolio review and final investment decision closeout are on hold. Replies alone do not automatically resume execution. [Current Review_Hold.json](klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/Review_Hold.json) preserves the release conditions; the original 13 October snapshot remains unchanged. Existing G0 STOP / G9 Defer remains unchanged.
 
 The programme's bounded public desk completion and ten-case synthesis remain valid. The Eve/Maxim unit-evidence bundle is the previously proposed next task, subject to this new hold and any reconciled research-priority changes. Brightwood stays paused. No background work is running.
+
+## 14 October partial Red Team integration
+
+The user authorised recording clarified synthesis items 1-8 before answering original questions RT-22-24. Apply [the approved execution addendum](sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md) to future authorised work; read [the approval, attribution and analyst corrections](klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/README.md). Eight synthesis topics are not the first eight questionnaire answers.
+
+The record distinguishes project-level price trajectory over the post-completion 5-10 year window from individual investment return; stable fees from lower fees; contextual two-bay needs; staged township demand; and user-verified observations from independent analyst verification. Older landed stagnation remains the user's retained view. Household price support is not booked as a guaranteed floor.
+
+Only SOP execution fields, attribution and current navigation change. Core/G0-G9, map, numerical inputs, historical releases, case decisions and task rankings remain unchanged. No stage has started, no blanket review closure is inferred and no background research is running. Next: receive RT-22-24, reconcile the consolidated review and obtain explicit closure/start confirmation.
 
 ## Current status
 
