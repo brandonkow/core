@@ -1,0 +1,332 @@
+{
+  "release": "BW-CAL-2026-10-15-R1",
+  "parent_commit": "69b097a07f49267833142a36ecb14db04e66e0c3",
+  "status": "Parameter calibration in progress; no financial replay or new capital decision",
+  "authority": "User authorised case-specific changes and requests completion of P1-P28 before redesigning stress tests. No permanent SOP change.",
+  "scope": {
+    "included": [
+      "D standard",
+      "B standard with proposed entrance separation"
+    ],
+    "excluded": [
+      "A",
+      "A(A)",
+      "C",
+      "C(A)"
+    ],
+    "not_modelled": [
+      "D(A): no calibrated nett price"
+    ],
+    "historical_files_preserved": true
+  },
+  "unchanged_user_baseline": {
+    "ltv_on_gross": 0.9,
+    "annual_interest": 0.04,
+    "term_years": 35,
+    "term_start_pending": true,
+    "preferred_gross_yield": 0.06
+  },
+  "price_anchors": {
+    "D": {
+      "gross": 551000,
+      "nett": 495000,
+      "loan": 495900
+    },
+    "B": {
+      "gross": 555000,
+      "nett": 499000,
+      "loan": 499500
+    },
+    "status": "Previous rounded starting price anchors, not a new exact-unit quotation"
+  },
+  "parameters": [
+    {
+      "id": "P1",
+      "status": "approved",
+      "setting": {
+        "D_monthly_streams_today": [
+          1500,
+          1500
+        ],
+        "total": 3000,
+        "provenance": "User market judgment; conditional rental forecast"
+      },
+      "open": null
+    },
+    {
+      "id": "P2",
+      "status": "approved_conditional",
+      "setting": {
+        "B_monthly_streams_today": [
+          1200,
+          2000
+        ],
+        "total": 3200,
+        "configuration": "Additional entrance separation: studio/master-room component plus two-bedroom component",
+        "provenance": "User-proposed operating scenario, not independently authenticated configuration"
+      },
+      "open": "Check privacy, separate access, kitchen/bathroom use, services, parking allocation, permitted works and fit-out inclusion. Master room is not automatically a self-contained studio. Keep ordinary whole-unit fallback separate; do not reject this scenario merely because execution checks remain."
+    },
+    {
+      "id": "P3",
+      "status": "excluded",
+      "setting": {
+        "type": "C and C(A)"
+      },
+      "open": null
+    },
+    {
+      "id": "P4",
+      "status": "excluded",
+      "setting": {
+        "type": "A and A(A)"
+      },
+      "open": null
+    },
+    {
+      "id": "P5",
+      "status": "approved",
+      "setting": {
+        "rent_reference": "Today: 2026-10-15",
+        "annual_growth": 0.05,
+        "method": "Annual compounding from today through construction, no construction rental receipts",
+        "D_at_month48": 3646.51875,
+        "B_at_month48": 3889.62
+      },
+      "open": "Calendar anchor is today's estimate, not an assumed actual contract commencement; shift timing if real purchase date differs."
+    },
+    {
+      "id": "P6",
+      "status": "approved",
+      "setting": {
+        "annual_growth_after_handover": 0.05,
+        "method": "Annual rent steps, not monthly repricing during a fixed one-year lease",
+        "status": "User forecast, not guaranteed escalation"
+      },
+      "open": null
+    },
+    {
+      "id": "P7",
+      "status": "approved_partial",
+      "setting": {
+        "initial_letting_void_months_per_stream": 1,
+        "first_year_paid_months_per_stream": 11
+      },
+      "open": "Fit-out/ready-to-let lead time before initial letting is not specified; avoid either hiding it or double-counting it in the same month."
+    },
+    {
+      "id": "P8",
+      "status": "approved",
+      "setting": {
+        "annual_turnover": "Expected tenant replacement every year",
+        "void_months_per_stream_each_year": 1,
+        "paid_months_per_stream_each_year": 11,
+        "alignment": "Annual totals only; do not assume both components must be vacant simultaneously in cash-timing model"
+      },
+      "open": null
+    },
+    {
+      "id": "P9",
+      "status": "approved_working_assumption",
+      "setting": {
+        "combined_service_sinking_fee_psf_month": 0.35,
+        "D_monthly": 250.6,
+        "B_monthly": 257.6,
+        "area_basis": "D716/B736 sq ft excluding PES; no new area authentication"
+      },
+      "open": null
+    },
+    {
+      "id": "P10",
+      "status": "pending",
+      "setting": {
+        "previous_annual_fee_growth": 0
+      },
+      "open": "Confirm flat charge through operating hold, or amount/timing of increases."
+    },
+    {
+      "id": "P11",
+      "status": "approved_partial",
+      "setting": {
+        "repair_months_of_rent_per_year": 0.5,
+        "D_today_annual": 1500,
+        "B_today_annual": 1600,
+        "basis": "Advertised monthly rent, not 5% collected rent"
+      },
+      "open": "Should this reserve rise with each year's forecast rent (recommended interpretation) or remain fixed at today's RM1500/RM1600? Reserve is not proof the amount is spent annually."
+    },
+    {
+      "id": "P12",
+      "status": "approved_partial",
+      "setting": {
+        "tenancy_years": 1,
+        "payment_event": "Tenant move-in",
+        "previous_allowance_months_per_year": 0.5
+      },
+      "open": "Commission amount per new tenancy remains open; apply separately to each stream, sum once. Confirm inclusive or exclusive of any applicable invoice tax. No annual smoothing in the timed cash ledger."
+    },
+    {
+      "id": "P13",
+      "status": "approved",
+      "setting": {
+        "unitemised_other_monthly": 0,
+        "removed_allowance": 200,
+        "boundary": "Remove unsupported flat allowance. Known non-covered owner bills, if later evidenced, must be itemised; their actual cost is not established as zero."
+      },
+      "open": null
+    },
+    {
+      "id": "P14",
+      "status": "pending",
+      "setting": {
+        "previous_separate_owner_utilities_allowance": 0,
+        "previous_extra_parking_revenue": 0
+      },
+      "open": "Confirm quoted rent excludes tenant electricity/water/internet and allocation of any shared owner-paid services. No invented generic allowance."
+    },
+    {
+      "id": "P15",
+      "status": "approved",
+      "setting": {
+        "fitout_fraction_of_net": 0.05,
+        "D": 24750,
+        "B": 24950,
+        "nominal_basis": "Nett purchase consideration, not gross or appreciated future value"
+      },
+      "open": "Clarify whether B separation, all furniture/equipment and fit-out cost inflation/contingency must fit within this fixed budget; do not add unapproved amounts."
+    },
+    {
+      "id": "P16",
+      "status": "pending",
+      "setting": {
+        "previous_package_credits": 0,
+        "previous_separate_furniture_exit_recovery": 0
+      },
+      "open": "Determine supplied package inclusion and avoid counting the same fit-out twice. Default no separately added furniture terminal value, pending calibration."
+    },
+    {
+      "id": "P17",
+      "status": "pending",
+      "setting": {
+        "previous_acquisition_fraction_of_gross": 0.05,
+        "D": 27550,
+        "B": 27750
+      },
+      "open": "Replace or retain 5% allowance? Prefer itemised buyer-paid acquisition costs after evidenced developer coverage, no double counting fees or rebates. Unknown itemised costs are not confirmed zero."
+    },
+    {
+      "id": "P18",
+      "status": "approved",
+      "setting": {
+        "build_months": 48,
+        "construction_rent": 0,
+        "source": "User answer 7 reasonably confirms the stated 48-month period; no unspoken subsidy or timing facts inferred"
+      },
+      "open": null
+    },
+    {
+      "id": "P19",
+      "status": "pending",
+      "setting": {
+        "previous_average_progressive_draw": 0.5,
+        "construction_interest": "Interest only on drawn balance"
+      },
+      "open": "Confirm 50% average utilisation or alternative staged draw schedule."
+    },
+    {
+      "id": "P20",
+      "status": "pending",
+      "setting": {
+        "previous_interest_subsidy_credit": 0
+      },
+      "open": "Subsidy amount, timing and conditions are not settled by answer 7; document before crediting as a fact. Zero-credit scenario can be retained."
+    },
+    {
+      "id": "P21",
+      "status": "pending",
+      "setting": {
+        "previous_term": "35 years amortisation after full draw, plus construction"
+      },
+      "open": "Confirm modelling 35 years from first draw versus 35 years from handover/full draw. Preserve annual rate4% and 90% gross LTV; do not conflate term convention with verified bank offer."
+    },
+    {
+      "id": "P22",
+      "status": "pending",
+      "setting": {
+        "previous_extra_deposit_bridge_fraction_of_gross": 0.1,
+        "D": 55100,
+        "B": 55500
+      },
+      "open": "Identify payment and rebate offset dates. An initial deposit is cash timing, not a second acquisition cost; do not permanently stack it on peak funding without a ledger. Gross loan above rounded nett is not automatically spendable cashback."
+    },
+    {
+      "id": "P23",
+      "status": "approved_partial",
+      "setting": {
+        "holding_clock_start": "Handover",
+        "previous_operating_hold_months": 60
+      },
+      "open": "User fixed the start point, not the length: confirm five operating years or alternative."
+    },
+    {
+      "id": "P24",
+      "status": "pending",
+      "setting": {
+        "previous_exit_cost_fraction": 0.03
+      },
+      "open": "Confirm 3% or itemised agency/legal/other seller costs; tax remains separate."
+    },
+    {
+      "id": "P25",
+      "status": "pending",
+      "setting": {
+        "previous_exit_multipliers": [
+          0.8,
+          1,
+          1.15
+        ],
+        "previous_basis": "Nett acquisition consideration"
+      },
+      "open": "Choose independently justified base exit price or property appreciation path and start date. Rental growth5% does not imply property growth5%. Old price multipliers are held pending stress redesign, not a mandatory pass test."
+    },
+    {
+      "id": "P26",
+      "status": "pending",
+      "setting": {
+        "previous_base_special_levy": 0,
+        "old_stress_levy": 30000
+      },
+      "open": "Confirm zero base extraordinary works/levy, distinguish MC sinking fund from in-unit repair reserve. Stress amount remains undecided."
+    },
+    {
+      "id": "P27",
+      "status": "pending",
+      "setting": {
+        "previous_reporting": "Pre-tax, no complete individual tax model"
+      },
+      "open": "Confirm pre-tax comparison first, or include an explicit investor tax profile. Tax not modelled is not tax-free."
+    },
+    {
+      "id": "P28",
+      "status": "pending",
+      "setting": {
+        "previous_future_buyer_gross_yield": 0.06
+      },
+      "open": "Confirm6% as sensitivity/reference only or propose exit-yield range. User's preferred acquisition yield does not determine future buyer's required yield."
+    }
+  ],
+  "stress_status": "Not recalibrated or rerun. Prior stress outputs remain historical. Complete base calibration first; next distinguish ordinary variation, adverse scenarios and severe survival scenarios with defensible combinations/timing.",
+  "decision_controls": {
+    "force_non_defer": false,
+    "annual_positive_cashflow_is_new_hard_gate": false,
+    "flat_price_recovery_is_new_hard_gate": false,
+    "core_sop_map_changed": false
+  },
+  "additional_pending": [
+    "Minimum acceptable return measure and target",
+    "Acceptable funded shortfall and duration",
+    "Actual capital availability if personal portfolio allocation is later requested; discard synthetic RM500k/RM150k as user facts",
+    "Fit-out lead time and one-month lease-up overlap",
+    "B rental package/privacy/utility/parking specification; analyst-owned factual checks remain separate from user calibration"
+  ]
+}

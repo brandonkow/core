@@ -1,5 +1,10 @@
 # Current workflow and continuation
 
+## Latest Brightwood update — parameter calibration in progress
+
+The user's subsequent Red Team answers reopen Brightwood's case assumptions. Read [calibration round 1](side-investigations/2026-10-15-brightwood-calibration-r1/README.md) and [P1–P28 status](side-investigations/2026-10-15-brightwood-calibration-r1/Parameter_Calibration.json). Scope is standard D and proposed split-operation B; A/C are excluded. Today's rents are D RM3,000 and B RM3,200, with user-forecast 5% annual growth; fit-out is5%nett and the unsupported RM200/month allowance is removed. Remaining base choices are pending, followed by stress calibration and then a financial rerun. No new G9 decision or revised financial result is claimed. Prior Brightwood calculations and ranking below are historical, not outputs under the new assumptions. Core/SOP/map remain unchanged.
+
+
 ## Latest authoritative status — 15 October 2026
 
 The user has explicitly closed the consolidated Red Team review and authorised Brightwood's three-stage analysis using supplied PDFs and online research. The [Brightwood packet](side-investigations/2026-10-15-brightwood-three-stage/README.md) completes those analytical reviews with **G0 STOP / G4 not cleared / G9 Defer**. Exact-unit admission, actual financing and capital deployment are not claimed. [Current authority/status](side-investigations/2026-10-15-brightwood-three-stage/Review_Status.json) supersedes the earlier sequencing hold and Brightwood pause for this case.

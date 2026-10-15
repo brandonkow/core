@@ -1,5 +1,10 @@
 # Residential Investment Decision Engine
 
+## Latest Brightwood update — parameter calibration in progress
+
+The user's subsequent Red Team answers reopen Brightwood's case assumptions. Read [calibration round 1](side-investigations/2026-10-15-brightwood-calibration-r1/README.md) and [P1–P28 status](side-investigations/2026-10-15-brightwood-calibration-r1/Parameter_Calibration.json). Scope is standard D and proposed split-operation B; A/C are excluded. Today's rents are D RM3,000 and B RM3,200, with user-forecast 5% annual growth; fit-out is5%nett and the unsupported RM200/month allowance is removed. Remaining base choices are pending, followed by stress calibration and then a financial rerun. No new G9 decision or revised financial result is claimed. Prior Brightwood calculations and ranking below are historical, not outputs under the new assumptions. Core/SOP/map remain unchanged.
+
+
 Interactive framework: [Decision Engine Neural Map](https://brandonkow.github.io/core/) · [verification and limits](visualization/VERIFICATION_2026-10-08.md) (earlier [7 October report](visualization/VERIFICATION_2026-10-07.md)).
 
 Project repository: [brandonkow/core](https://github.com/brandonkow/core), designated by the user on7October2026 for GitHub-only retention. Future framework and generated research files belong here. This directory structure is preserved at repository root. The user subsequently suspended local cleanup: existing local files are left alone, and all new project files and updates go to GitHub. Cleanup no longer blocks research. See [current workflow](CURRENT_WORKFLOW.md) for the latest instruction and REPOSITORY_TRANSFER.md for historical transfer verification.
