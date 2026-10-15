@@ -1,0 +1,148 @@
+{
+  "release": "BW-3S-2026-10-15",
+  "currency": "MYR",
+  "standard": {
+    "ltv_on_gross": 0.9,
+    "rate": 0.04,
+    "years": 35,
+    "preferred_gross_yield": 0.06
+  },
+  "costs": {
+    "fee_psf_month": 0.35,
+    "paid_months": 11,
+    "repairs_fraction_collected": 0.05,
+    "letting_months_per_year": 0.5,
+    "other_monthly": 200,
+    "acquisition_allowance_fraction_gross": 0.05,
+    "disposal_fraction": 0.03
+  },
+  "timing": {
+    "build_months": 48,
+    "operating_months": 60,
+    "draw": "linear midpoint loan utilisation; interest-only construction, then 35 years amortisation; unquoted scenario"
+  },
+  "source_status": {
+    "gross": "user-supplied price table",
+    "net": "rounded advertised starting prices; user clarifies gross/net distinction",
+    "loan": "user explicitly requires 90% gross",
+    "fee": "unverified agent-guide combined service/sinking estimate",
+    "all_rents": "analyst scenarios, no Brightwood paid lease",
+    "costs": "unquoted allowances, pre-tax; no subsidy or capital appreciation credited"
+  },
+  "types": [
+    {
+      "id": "A",
+      "bua": 1082,
+      "pes": 0,
+      "count": 64,
+      "bays": "2",
+      "gross": 739000,
+      "gross_max": 843960,
+      "net": 665000,
+      "rents": [
+        2500,
+        2800,
+        3200
+      ],
+      "fitout": 45000
+    },
+    {
+      "id": "A(A)",
+      "bua": 1082,
+      "pes": 311,
+      "count": 4,
+      "bays": "3",
+      "gross": 853000,
+      "gross_max": 927150,
+      "net": null,
+      "rents": [
+        2500,
+        2800,
+        3200
+      ],
+      "fitout": 45000
+    },
+    {
+      "id": "B",
+      "bua": 736,
+      "pes": 0,
+      "count": 68,
+      "bays": "1-2",
+      "gross": 555000,
+      "gross_max": 661125,
+      "net": 499000,
+      "rents": [
+        1900,
+        2300,
+        2600
+      ],
+      "fitout": 30000
+    },
+    {
+      "id": "C",
+      "bua": 956,
+      "pes": 0,
+      "count": 32,
+      "bays": "2",
+      "gross": 692000,
+      "gross_max": 745680,
+      "net": 622000,
+      "rents": [
+        2300,
+        2600,
+        3000
+      ],
+      "fitout": 40000
+    },
+    {
+      "id": "C(A)",
+      "bua": 956,
+      "pes": 275,
+      "count": 2,
+      "bays": "3",
+      "gross": 812000,
+      "gross_max": 822000,
+      "net": null,
+      "rents": [
+        2300,
+        2600,
+        3000
+      ],
+      "fitout": 40000
+    },
+    {
+      "id": "D",
+      "bua": 716,
+      "pes": 0,
+      "count": 32,
+      "bays": "1",
+      "gross": 551000,
+      "gross_max": 620550,
+      "net": 495000,
+      "rents": [
+        2200,
+        2600,
+        3000,
+        3200
+      ],
+      "fitout": 40000
+    },
+    {
+      "id": "D(A)",
+      "bua": 716,
+      "pes": 206,
+      "count": 2,
+      "bays": "2",
+      "gross": 630000,
+      "gross_max": 643160,
+      "net": null,
+      "rents": [
+        2200,
+        2600,
+        3000,
+        3200
+      ],
+      "fitout": 40000
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-15",
+  "parent": "42587cd6f7aecfac0060ce9cf3c56adc5fc0d891",
+  "review_closed": true,
+  "authority": [
+    {
+      "event": "Review closure",
+      "user_instruction_english": "The review can be closed; assess whether the side-task prelaunch project is suitable for the three stages."
+    },
+    {
+      "event": "Explicit Brightwood stage start",
+      "user_instruction_english": "Use the supplied materials together with online research and run all three stages."
+    },
+    {
+      "event": "Price clarification",
+      "user_instruction_english": "The price difference is gross versus nett."
+    },
+    {
+      "event": "Financing clarification",
+      "user_instruction_english": "Calculate the loan on gross."
+    }
+  ],
+  "authority_english": "The user explicitly closes the consolidated review, then authorises the three-stage Brightwood analysis using supplied PDFs and public research. Later price and financing clarifications govern this case.",
+  "scope": "Brightwood only; other unit-validation queues are not claimed executed",
+  "stage_1": {
+    "analysis": "completed",
+    "exact_unit_admission": "not cleared"
+  },
+  "stage_2": {
+    "analysis": "completed conditionally through all G0-G9 fields",
+    "gate_clearance": "not cleared"
+  },
+  "stage_3": {
+    "analysis": "completed",
+    "decision": "Defer"
+  },
+  "capital_committed": 0,
+  "core_change": false,
+  "sop_change": false,
+  "map_change": false,
+  "programme_counts_changed": false,
+  "next": "Reopen only on material product/price/rent/delivery/funding evidence. No recurring or background job. No further questionnaire approval required to finish this authorised case.",
+  "historical_holds": "All13-15October review snapshots and11October Brightwood pause remain historical; this record supersedes their current sequencing effect."
+}

@@ -1,5 +1,19 @@
 # Current workflow and continuation
 
+## Latest authoritative status — 15 October 2026
+
+The user has explicitly closed the consolidated Red Team review and authorised Brightwood's three-stage analysis using supplied PDFs and online research. The [Brightwood packet](side-investigations/2026-10-15-brightwood-three-stage/README.md) completes those analytical reviews with **G0 STOP / G4 not cleared / G9 Defer**. Exact-unit admission, actual financing and capital deployment are not claimed. [Current authority/status](side-investigations/2026-10-15-brightwood-three-stage/Review_Status.json) supersedes the earlier sequencing hold and Brightwood pause for this case.
+
+The user clarified gross versus nett prices and requires Brightwood debt at90%gross,4%,35years; yield uses nett. This case-specific financing instruction does not rewrite the frozen master, old financial configuration or historical results. D is first for conditional privacy-income research; no unit is purchase-cleared. See [financials](side-investigations/2026-10-15-brightwood-three-stage/Financial_Underwriting.md) and [finite continuation](side-investigations/2026-10-15-brightwood-three-stage/Stage_3_Decision_and_Continuation.md).
+
+The bounded regional programme remains desk-complete, zero Deploy. Other targeted queues are not claimed executed by this Brightwood task. Core/SOP/map and all historical evidence/release files remain unchanged. No background job, outreach or purchase is authorised or running.
+
+## Historical workflow snapshot before explicit closure and Brightwood start
+
+The dated text below is retained for traceability. Its pending-approval and Brightwood-paused statements describe the prior checkpoint and are superseded by the current status above; historical findings and numerical records remain valid at their own cutoffs.
+
+# Prior workflow record
+
 Updated: 15 October 2026. Historical programme evidence cutoff: 8 October 2026; targeted reopening evidence: 11-13 October 2026. Canonical repository: https://github.com/brandonkow/core .
 
 ## Current sequencing hold - consolidated Red Team review

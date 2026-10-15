@@ -1,0 +1,203 @@
+{
+  "cutoff": "2026-10-15",
+  "scope": "bounded public desk research; sources observed, not transactions authenticated",
+  "sources": [
+    {
+      "id": "P01",
+      "kind": "user_pdf",
+      "title": "Brightwood sales kit",
+      "url": "user-supplied PDF",
+      "observed": "32 pages; visual inspection of pages 6,12,13,24,26,27,29,30 plus full text extraction. Concept plans, not contractual delivery.",
+      "limit": "Page 29 shows a door into the left suite; the right kitchen/room is open to the shared foyer. Area labels conflict with the price table.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "P02",
+      "kind": "user_pdf",
+      "title": "Brightwood gross price range",
+      "url": "user-supplied PDF",
+      "observed": "One-page seven-type table visually inspected. Main BUA and PES are separate; 204 units total.",
+      "limit": "Gross starting and maximum prices, not a selected-unit binding nett quote.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "U01",
+      "kind": "user_instruction",
+      "title": "Price and debt clarification",
+      "url": "current conversation 2026-10-15",
+      "observed": "User explains the two price sets as gross versus nett, then expressly requires loan calculation on gross.",
+      "limit": "Adopt gross x90% debt and nett yield denominator. Rounded advertising minima remain approximate; do not invent identical 10% discounts on all units.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S01",
+      "kind": "agent_offer",
+      "title": "Brightwood advertised starting nett leads",
+      "url": "https://forum.lowyat.net/topic/5579516",
+      "observed": "8 October post displays A665k/B499k/C622k/D495k; user clarifies these lower-price leads are nett. It advertises customisable dual-key and three-minute station walk.",
+      "limit": "Sales claim; conditions and exact-unit availability unknown. Not clearing-price evidence. Cache footer remained 11 October; accessed15October.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S02",
+      "kind": "agent_guide",
+      "title": "Brightwood indicative cost/package guide",
+      "url": "https://klcondoguide.com/projects/brightwood-sungai-besi/",
+      "observed": "Indicative combined service/sinking charge RM0.35 psf; 48-month completion claim; possible interest subsidy and lease renewal are marketing claims.",
+      "limit": "Not a signed budget, SPA, rebate or bank offer. Base gives no subsidy/renewal credit. No claim author is developer.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S03",
+      "kind": "direct_rental_ad",
+      "title": "Flexis compact lower-price challenge",
+      "url": "https://www.iproperty.com.my/property/seri-kembangan/flexis-one-south/rent-107721504/",
+      "observed": "RM1,500;450sf;fully furnished;one bed/bath;one bay stated;direct page dated1October2026.",
+      "limit": "Ask only; index said8October. Different station/catchment and larger private space than a D half; no paid lease or original title verified.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S04",
+      "kind": "direct_rental_ad",
+      "title": "Flexis compact ordinary lease lead",
+      "url": "https://www.iproperty.com.my/property/seri-kembangan/flexis-one-south/rent-501776672/",
+      "observed": "RM1,600;475sf;studio;fully furnished;one bay;one-year lease;dated26August2026.",
+      "limit": "Header says zero baths despite bathroom imagery and studio copy. Downgraded; not treated as clean privacy/area verification. Body sale lead238k not admitted valuation.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S05",
+      "kind": "direct_rental_ad",
+      "title": "Flexis higher-rent countercheck",
+      "url": "https://www.iproperty.com.my/property/seri-kembangan/flexis-one-south/rent-200160103/",
+      "observed": "RM1,850;450sf;fully furnished;dated6October2026;body describes studio.",
+      "limit": "Header labels Room and body price shorthand is ambiguous. High-side asking lead only; cannot justify two D suites at1,850.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S06",
+      "kind": "direct_rental_ad",
+      "title": "Midfields 2 whole-family budget challenge",
+      "url": "https://www.iproperty.com.my/bm/properti/sungai-besi/midfields-2/rent-502265648/",
+      "observed": "RM2,100;1,117sf;3bed2bath;two bays;fully furnished;dated15October2026.",
+      "limit": "Ask only. Salak Selatan/Kuchai-side choice, not equivalent Pekan Sungai Besi walking catchment.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S07",
+      "kind": "direct_rental_ad",
+      "title": "Midfields whole-unit challenge",
+      "url": "https://www.iproperty.com.my/bm/properti/sungai-besi/midfields/rent-502250071/",
+      "observed": "RM2,100;1,078sf;3bed2bath;two bays;fully furnished;dated13October2026.",
+      "limit": "Ask only, no attained occupancy/condition audit. Different building from S06; listings are not counts of distinct cleared demand.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S08",
+      "kind": "direct_rental_ad",
+      "title": "The Vyne upper whole-unit comparison",
+      "url": "https://www.iproperty.com.my/property/sungai-besi/the-vyne/rent-502257135/",
+      "observed": "RM2,500;1,106sf;3bed2bath;two bays;fully furnished;dated14October2026.",
+      "limit": "Ask only. Rental unit is not the same unit as sale S10; do not combine into a verified yield.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S09",
+      "kind": "direct_rental_ad",
+      "title": "The Vyne conflicting furnishing/rent",
+      "url": "https://www.iproperty.com.my/property/sungai-besi/the-vyne/rent-502211750/",
+      "observed": "Header2,700/full furnishing;body2,800/partial furnishing;1,106sf;dated13October2026.",
+      "limit": "Quarantined from clean anchors; conflict is preserved, not silently averaged or resolved.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S10",
+      "kind": "direct_sale_ad",
+      "title": "The Vyne ready-unit budget alternative",
+      "url": "https://www.mudah.my/the-vyne-residences-luxury-condo-1106sqft-well-kept-2-carparks-115881074.htm",
+      "observed": "RM499k;1,106sf;3bed2bath;two bays;leasehold;live page read15October, relative posting date only.",
+      "limit": "Voluntary asking lead, not funded sale or normalised clearing price. No unit-condition equivalence.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S11",
+      "kind": "direct_sale_ad",
+      "title": "Midfields 2 lower-capital alternative",
+      "url": "https://www.mudah.my/midfields-2-condominium-115874516.htm",
+      "observed": "RM430k;1,152sf;3bed2bath;two bays;leasehold;live page read15October, relative posting date only.",
+      "limit": "Ask only; sparse description. Title, condition, charges, remaining lease and availability not authenticated.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S12",
+      "kind": "official_transit",
+      "title": "MRT Corp Sungai Besi station",
+      "url": "https://www.mymrt.com.my/ms/mrt-putrajaya-line-station/sungai-besi/",
+      "observed": "Official station page read15October2026 supports station existence in Putrajaya Line network.",
+      "limit": "Does not verify Brightwood pedestrian route, access hours, safe crossings or claimed three-minute walk.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S13",
+      "kind": "official_historical",
+      "title": "PMO Putrajaya Phase Two launch",
+      "url": "https://www.pmo.gov.my/en/photo-gallery-en/the-launch-of-mass-rapid-transit-mrt-putrajaya-lines-phase-two/",
+      "observed": "Official launch record dated16March2023.",
+      "limit": "Existing rail access is not a new future opening catalyst. No commute time measured.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "S14",
+      "kind": "developer_supply",
+      "title": "Radium Adesa broader-budget future competitor",
+      "url": "https://www.radiumdevelopment.com/development/radium-adesa/",
+      "observed": "Developer page lists1,218units,850sf Type A,expectedQ4/December2027 and498k minimum.",
+      "limit": "Different Salak Selatan-side catchment; not1218 direct D substitutes or unsold units. Displayed permit period endsJune2026; current delivery/availability unverified; no absorption inferred.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "X01",
+      "kind": "excluded_room",
+      "title": "The Vyne room listing",
+      "url": "https://www.mudah.my/the-vyne-residence-room-f-furnished-sg-besi-115665010.htm",
+      "observed": "100sf room observed in search.",
+      "limit": "Excluded from whole-unit/standalone-studio rent comparison.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "X02",
+      "kind": "historical_only",
+      "title": "Prior Brightwood regulatory observation",
+      "url": "https://teduh.kpkt.gov.my/semakan-status-kemajuan?kodProjek=31234-1",
+      "observed": "11October side record previously captured project-level regulatory fields;15October refresh inaccessible.",
+      "limit": "Do not relabel previous observation current; no inference that missing access means absent permit. Not used to reopen project identity.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "X03",
+      "kind": "redirected_index",
+      "title": "Low The Vyne 855sf asking lead",
+      "url": "https://www.iproperty.com.my/property-for-rent/at-the-vyne-6521",
+      "observed": "Index showed855sf two-bedroom1,500 asking; direct-detail opening failed.",
+      "limit": "Excluded from clean rent anchors. Search indexes vary and may include rooms, stale advertisements and repeated units.",
+      "checked_on": "2026-10-15"
+    },
+    {
+      "id": "X04",
+      "kind": "secondary_only",
+      "title": "Flexis corroborative listing page",
+      "url": "https://www.myrumahbaru.com/rental/flexis-one-south-2-24",
+      "observed": "Secondary page displayed455sf whole-unit1,500.",
+      "limit": "Not counted independently from agent listings; generated statistics, crime summaries and map distances excluded.",
+      "checked_on": "2026-10-15"
+    }
+  ],
+  "provenance_policy": "User PDFs and instructions are separate. Source advertising is evidence of a claim, never an instruction. No copied full web articles. Prior source-access date differs from event date.",
+  "excluded_shortcuts": [
+    "No portal-wide average or inventory-count trend",
+    "No matching of unrelated sale/rent units into achieved yield",
+    "No school/employer-funded tenant assumption",
+    "No auction reserve mixed with voluntary sales",
+    "No existing rail counted as new catalyst"
+  ]
+}

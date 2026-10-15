@@ -1,0 +1,112 @@
+{
+  "release": "BW-3S-2026-10-15",
+  "baseline_commit": "42587cd6f7aecfac0060ce9cf3c56adc5fc0d891",
+  "baseline_tree": "3c00a15ffdc83da115e07eec1216cdc4272cb79f",
+  "baseline_blob_count": 745,
+  "preserve_every_existing_blob_except": [
+    "AGENTS.md",
+    "CURRENT_WORKFLOW.md",
+    "README.md"
+  ],
+  "frozen_core_blob": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+  "frozen_engine_blob": "2fa3554d4b1358795d658efefe270ac53f27bbda",
+  "frozen_config_blob": "3e17c91823b093aa66f0930b2c012510d3b4528f",
+  "artifact_hashes": {
+    "side-investigations/2026-10-15-brightwood-three-stage/Financial_Results.json": {
+      "sha256": "c984cfc816bcb268d07b9a6bd462c88ba586d3bcea2e1901358f1e3bb691b33c",
+      "git_blob_sha": "dbde2b1961d2587d7458fb9a1d4009f1dce7d2e0",
+      "bytes": 273546
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/Financial_Inputs.json": {
+      "sha256": "94dfa1209dbbc39a802d6d695815bcd00a1583ce21b75bb19d0f18a841fdeb61",
+      "git_blob_sha": "4dee4553ac5f8c94c4727c9dc4c5d61b0bab84bf",
+      "bytes": 2933
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/financial_model.py": {
+      "sha256": "934da44e33273717a708e5cf7d0147aa350633b6f4bbdce5367450056870c7c9",
+      "git_blob_sha": "323038d80431c278e1a450fefbe42afeb940caac",
+      "bytes": 9007
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/Evidence_Register.json": {
+      "sha256": "8ab346e726204c3f2b863d1a29269a778878930906df9983a3d8bdb39d6a34fa",
+      "git_blob_sha": "80e9bf7b857b10513a3399325b7b66ac5a38d79a",
+      "bytes": 10677
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/Review_Status.json": {
+      "sha256": "1394ec383f11cc105669fe9e87d944d5708612e07acc97a72e8b1e52882221cc",
+      "git_blob_sha": "8b0546fdb6eae82e5d0b50825b137e011d8ef54d",
+      "bytes": 1839
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/PDF_Source_Extracts.json": {
+      "sha256": "b5bfd7534ff5131ecee8e8e92cce187522497e4bdfb0c5b688425125116f7f5f",
+      "git_blob_sha": "da13efe8291bd36f6020528d3f4c3b08ad751115",
+      "bytes": 13878
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/Stage_1_Evidence_Admission.md": {
+      "sha256": "59c4d7c40f2b1c16e66568815e77a67bc8b96e628f1db1d59a1080846271dea7",
+      "git_blob_sha": "408107071613af951576fae02a2af2a4a290ebe9",
+      "bytes": 8419
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/Stage_2_G0_G9_and_Risks.md": {
+      "sha256": "345dad40a4736e7ed0474d3c2d3131eb4b0e33e29d7e7b5b3bfa4c42899dda9e",
+      "git_blob_sha": "c7dacb243d3c0f185d8e6b9ea148610fca1438ae",
+      "bytes": 12717
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/Financial_Underwriting.md": {
+      "sha256": "b48405839be83a5fd1fc0d2f7dfceffe7eddd564b5867f92252f0997d0c971cf",
+      "git_blob_sha": "15fcece4c5d3c9ef224850bdb27310fee50c55f9",
+      "bytes": 14209
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/Stage_3_Decision_and_Continuation.md": {
+      "sha256": "fe61ee297829352028457713feeed004784ecac082a22251fd07d23cb743dc72",
+      "git_blob_sha": "3368c467e1ae6c1f09e64d744328d281e0ab5f7c",
+      "bytes": 7271
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/Divergence_and_Misses.md": {
+      "sha256": "056050ac292c811615d70682b71e379f137ec9786f25e5b50da93ca67d67033a",
+      "git_blob_sha": "50b35bcb4f9391e3d207337858fc59855816a7b3",
+      "bytes": 5041
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/README.md": {
+      "sha256": "b7cea91ca92ee590c24f266de843c06af840b9e14891d17d1134b766ae1935f4",
+      "git_blob_sha": "e3ac83ac88176822d15be66b56e1a0cfe46edbe6",
+      "bytes": 3308
+    },
+    "README.md": {
+      "sha256": "14dc4120d9143e1f3e8e8f7dad1b2b714c1b3b4ef49390d4ffc591ad1b2b9a0a",
+      "git_blob_sha": "40883314938e03387ed6f7a73eb85d21b4ebf8af",
+      "bytes": 13155
+    },
+    "CURRENT_WORKFLOW.md": {
+      "sha256": "4e3be3c3e8faa85a88c6b3421d9d1a95dc7eec335106bc32d666750f5babd4dd",
+      "git_blob_sha": "c4e8ad05bff3aff0fa5c9c397083831325112062",
+      "bytes": 19581
+    },
+    "AGENTS.md": {
+      "sha256": "f26d116143590c3fdf2b0999cbfe048001afd16d536d81e47ec801c569bacdb1",
+      "git_blob_sha": "73207d26e9784504302ff37e009983c6698406e4",
+      "bytes": 6370
+    },
+    "side-investigations/2026-10-15-brightwood-three-stage/Validation_Report.md": {
+      "sha256": "7cd7567731c2d0f7d3487589769d90d01513a192e88d45f9335451bb1d747ced",
+      "git_blob_sha": "e40a71c6c0214b497a9d6e5d8931e88fa38c2f43",
+      "bytes": 3760
+    }
+  },
+  "self_hash_excluded": true,
+  "checks": {
+    "evaluations": 53,
+    "threshold_roots": 12,
+    "type_price_screens": 14,
+    "passed": true
+  },
+  "payment_parity": {
+    "payment_parity_checks": 45,
+    "passed": true
+  },
+  "publication_policy": "main only, expected-head protected non-force update, remote readback; no local clone/output",
+  "market_validation": false,
+  "capital_decision": "Defer",
+  "gross_based_financing_user_override": true,
+  "source_pdfs_originals_uploaded": false
+}
