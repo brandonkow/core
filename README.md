@@ -1,8 +1,8 @@
 # Residential Investment Decision Engine
 
-## Latest Brightwood update — parameter calibration in progress
+## Latest Brightwood update — 16 October calibration
 
-The user's subsequent Red Team answers reopen Brightwood's case assumptions. Read [calibration round 1](side-investigations/2026-10-15-brightwood-calibration-r1/README.md) and [P1–P28 status](side-investigations/2026-10-15-brightwood-calibration-r1/Parameter_Calibration.json). Scope is standard D and proposed split-operation B; A/C are excluded. Today's rents are D RM3,000 and B RM3,200, with user-forecast 5% annual growth; fit-out is5%nett and the unsupported RM200/month allowance is removed. Remaining base choices are pending, followed by stress calibration and then a financial rerun. No new G9 decision or revised financial result is claimed. Prior Brightwood calculations and ranking below are historical, not outputs under the new assumptions. Core/SOP/map remain unchanged.
+[Round2](side-investigations/2026-10-16-brightwood-calibration-r2/README.md) supersedes round1 for future calculations. Rents stay D3,000/B3,200;5%growth is removed.10%gross rebate offsets initial payment; calculated nett D495,900/B499,500. Management fixed first TWO YEARS AFTER handover, then AGM decisions. User targets cumulative10%nett at year3 and20%at year5. [All28dispositions](side-investigations/2026-10-16-brightwood-calibration-r2/Parameter_Calibration.json) and [cost/billing research](side-investigations/2026-10-16-brightwood-calibration-r2/Cost_and_Billing_Research.md) separate scenario choices from unknown invoices and future events. Next: stress calibration, then full rerun. No new G9 result; Core/SOP/map and historical files unchanged. Earlier growth/financial conclusions below remain dated historical findings.
 
 
 Interactive framework: [Decision Engine Neural Map](https://brandonkow.github.io/core/) · [verification and limits](visualization/VERIFICATION_2026-10-08.md) (earlier [7 October report](visualization/VERIFICATION_2026-10-07.md)).

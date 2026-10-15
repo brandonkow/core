@@ -1,0 +1,54 @@
+{
+  "checked": "2026-10-16",
+  "sources": [
+    {
+      "id": "C01",
+      "url": "https://classic.lam.gov.my/sites/default/files/form/GC-02-2017.pdf",
+      "scope": "LAM GC2/2017 ScheduleH certification percentages; PDFpages10-15 (one-based). General reference, not project SPA.",
+      "access": "Web extracted PDF text read; direct RAM download403. Main-domain version404; classic official copy accessible via web."
+    },
+    {
+      "id": "C02",
+      "url": "https://www.malaysianbar.org.my/cms/upload_files/document/Solicitors%20Remuneration%20Order%202023.pdf",
+      "scope": "SRO2023 TableA/TableB; Fourth/Fifth Schedules; fee inclusions and permissible discounts",
+      "access": "Web PDF text read"
+    },
+    {
+      "id": "C03",
+      "url": "https://mysst.customs.gov.my/background/",
+      "scope": "Current8% general service-tax rate and registered-provider condition"
+    },
+    {
+      "id": "C04",
+      "url": "https://mysst.customs.gov.my/assets/document/1.%20Guide%20on%20Professional%20S~1.pdf",
+      "scope": "Professional-service categories, including estate-agent services;2018 guide NOT used for current tax rate"
+    },
+    {
+      "id": "C05",
+      "url": "https://www.hasil.gov.my/en/duti-setem/pengenalan-duti-setem/",
+      "scope": "Current HASiL introduction points to StampAct ThirdSchedule"
+    },
+    {
+      "id": "C06",
+      "url": "https://www.hasil.gov.my/wp-content/uploads/akta-setem-1949-01072014.pdf",
+      "scope": "HASiL-linked2014reprint ThirdSchedule, transferee bears conveyance duty; not used as complete2026rate/exemption guide"
+    },
+    {
+      "id": "C07",
+      "url": "https://www.hasil.gov.my/en/ckht/pegangan-dan-remitan-wang-oleh-pemeroleh/",
+      "scope": "Retention/remittance separate from final tax; current2026 deemed-assessment option"
+    },
+    {
+      "id": "C08",
+      "url": "https://www.malaysianbar.org.my/cms/upload_files/document/Circular%20No%20024-2026.pdf",
+      "scope": "2026 Bar circular referencing SRO2023 discount/waiver distinctions; search-result text only"
+    }
+  ],
+  "unverified": [
+    "Brightwood signed billing schedule and milestone dates",
+    "Exact unit deal and lender offer",
+    "Itemised legal quotation and package coverage",
+    "Actual tax profile",
+    "Future fee and tax-law changes"
+  ]
+}

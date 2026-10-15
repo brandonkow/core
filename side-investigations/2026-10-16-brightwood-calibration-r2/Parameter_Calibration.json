@@ -1,0 +1,449 @@
+{
+  "release": "BW-CAL-2026-10-16-R2",
+  "parent_commit": "3017024767ee340252ac09b15beda4bbd9b2b6b1",
+  "status": "All P1-P28 response topics recorded; base scenario conventions set, empirical cost totals and future AGM outcomes remain unresolved. Stress calibration is next; no full underwriting rerun.",
+  "authority": "User16October parameter answers plus explicit follow-up: first two years AFTER handover; year5 cumulative20%nett.",
+  "scope": {
+    "included": [
+      "D standard",
+      "B standard with proposed entrance separation"
+    ],
+    "excluded": [
+      "A",
+      "A(A)",
+      "C",
+      "C(A)"
+    ],
+    "not_modelled": [
+      "D(A): no calibrated nett price"
+    ],
+    "historical_files_preserved": true
+  },
+  "unchanged_user_baseline": {
+    "ltv_on_gross": 0.9,
+    "annual_interest": 0.04,
+    "term_years": 35,
+    "term_start_pending": true,
+    "preferred_gross_yield": 0.06
+  },
+  "price_anchors": {
+    "D": {
+      "gross": 551000,
+      "nett": 495900,
+      "loan": 495900,
+      "rebate": 55100,
+      "fitout": 24795,
+      "year3": 545490,
+      "year5": 595080,
+      "agent": 17852.399999999998,
+      "legal_reference": 7200.8,
+      "agent_plus_legal": 25053.199999999997,
+      "agent_plus_legal_including_conditional_8pct_sst": 27057.456
+    },
+    "B": {
+      "gross": 555000,
+      "nett": 499500,
+      "loan": 499500,
+      "rebate": 55500,
+      "fitout": 24975,
+      "year3": 549450,
+      "year5": 599400,
+      "agent": 17982,
+      "legal_reference": 7244,
+      "agent_plus_legal": 25226,
+      "agent_plus_legal_including_conditional_8pct_sst": 27244.08
+    },
+    "reconciliation": {
+      "prior_rounded_advertised_net": {
+        "D": 495000,
+        "B": 499000
+      },
+      "exact_ten_percent_rebate_net": {
+        "D": 495900,
+        "B": 499500
+      },
+      "differences": {
+        "D": 900,
+        "B": 500
+      },
+      "status": "Computed from user rebate instruction and retained gross starting-price anchors. Not newly authenticated exact-unit quotation."
+    }
+  },
+  "parameters": [
+    {
+      "id": "P1",
+      "status": "approved",
+      "setting": {
+        "D_monthly_streams_today": [
+          1500,
+          1500
+        ],
+        "total": 3000,
+        "provenance": "User market judgment; conditional rental forecast"
+      },
+      "open": null
+    },
+    {
+      "id": "P2",
+      "status": "approved_conditional",
+      "setting": {
+        "B_monthly_streams_today": [
+          1200,
+          2000
+        ],
+        "total": 3200,
+        "configuration": "Additional entrance separation: studio/master-room component plus two-bedroom component",
+        "provenance": "User-proposed operating scenario, not independently authenticated configuration"
+      },
+      "open": "Check privacy, separate access, kitchen/bathroom use, services, parking allocation, permitted works and fit-out inclusion. Master room is not automatically a self-contained studio. Keep ordinary whole-unit fallback separate; do not reject this scenario merely because execution checks remain."
+    },
+    {
+      "id": "P3",
+      "status": "excluded",
+      "setting": {
+        "type": "C and C(A)"
+      },
+      "open": null
+    },
+    {
+      "id": "P4",
+      "status": "excluded",
+      "setting": {
+        "type": "A and A(A)"
+      },
+      "open": null
+    },
+    {
+      "id": "P5",
+      "status": "approved",
+      "setting": {
+        "rent_growth_during_construction": 0,
+        "handover_monthly_rent": {
+          "D": 3000,
+          "B": 3200
+        },
+        "construction_rent": 0,
+        "supersedes": "R1 5% rental-growth assumption removed"
+      },
+      "open": null
+    },
+    {
+      "id": "P6",
+      "status": "approved_interpretation",
+      "setting": {
+        "annual_rent_growth_after_handover": 0,
+        "note": "User removes 5% rent growth; no other growth rate is substituted. Flat D3000/B3200 carried through operating projection."
+      },
+      "open": null
+    },
+    {
+      "id": "P7",
+      "status": "approved",
+      "setting": {
+        "fitout_months": 1,
+        "marketing": "Concurrent with fit-out",
+        "base_first_receipt": "Operating month2",
+        "no_double_count": "One initial no-rent month total, not fit-out plus another separate letting month"
+      },
+      "open": null
+    },
+    {
+      "id": "P8",
+      "status": "approved",
+      "setting": {
+        "expected_new_tenants": "Annual replacement expectation retained",
+        "void_months_per_replacement": 1,
+        "lease_months": 12,
+        "timeline_convention": "12 paid months per one-year lease, then one vacancy month. No vacancy during a continuing renewal.",
+        "five_year_base_example": {
+          "vacant_months": [
+            1,
+            14,
+            27,
+            40,
+            53
+          ],
+          "new_lease_start_months": [
+            2,
+            15,
+            28,
+            41,
+            54
+          ],
+          "paid_months": 55
+        },
+        "note": "Event timing resolves prior annual-average simplification; individual component turnover can diverge. Renewal is a separate event, not a second simultaneous fee."
+      },
+      "open": null
+    },
+    {
+      "id": "P9",
+      "status": "approved_working_assumption",
+      "setting": {
+        "combined_service_sinking_fee_psf_month": 0.35,
+        "D_monthly": 250.6,
+        "B_monthly": 257.6,
+        "area_basis": "D716/B736 sq ft excluding PES; no new area authentication"
+      },
+      "open": null
+    },
+    {
+      "id": "P10",
+      "status": "approved_governance_rule",
+      "setting": {
+        "flat_first_months_after_handover": 24,
+        "thereafter": "Fee follows AGM decisions",
+        "future_agm_rate": null,
+        "provisional_projection": "Carry last known charge forward only as an explicitly provisional no-new-resolution scenario; no guarantee of unchanged five-year fees. Reprice on AGM resolution; calibrate increase scenarios in stress round.",
+        "clarification": "User expressly confirmed first TWO YEARS AFTER handover"
+      },
+      "open": null
+    },
+    {
+      "id": "P11",
+      "status": "approved",
+      "setting": {
+        "annual_repair_reserve_formula": "0.5 * prevailing monthly total advertised rent",
+        "D": 1500,
+        "B": 1600,
+        "not_collected_rent_fraction": true
+      },
+      "open": null
+    },
+    {
+      "id": "P12",
+      "status": "approved",
+      "setting": {
+        "new_tenant_commission_months": 1,
+        "same_tenant_renewal_commission_months": 0.5,
+        "event": "New tenant at move-in; renewal at renewal event",
+        "basis": "Per component's monthly rent, summed once across parcel",
+        "five_year_new_tenant_base": "Five new tenancy starts per component over60months, no renewal fee at those same events",
+        "service_tax": "Apply only if chargeable and not already included in quoted commission; separate invoice field"
+      },
+      "open": null
+    },
+    {
+      "id": "P13",
+      "status": "approved",
+      "setting": {
+        "unitemised_other_monthly": 0,
+        "removed_allowance": 200,
+        "boundary": "Remove unsupported flat allowance. Known non-covered owner bills, if later evidenced, must be itemised; their actual cost is not established as zero."
+      },
+      "open": null
+    },
+    {
+      "id": "P14",
+      "status": "approved",
+      "setting": {
+        "rent_excludes": [
+          "electricity",
+          "water",
+          "internet"
+        ],
+        "tenant_pays": true,
+        "extra_parking_revenue": 0,
+        "between_lease_owner_consumption": "Actual attributable bill only, not the deleted generic RM200"
+      },
+      "open": null
+    },
+    {
+      "id": "P15",
+      "status": "approved",
+      "setting": {
+        "fitout_fraction_of_net": 0.05,
+        "D": 24795,
+        "B": 24975,
+        "includes": "All fit-out, furniture/equipment and B entrance separation within final buyer-paid budget",
+        "additional_inflation_or_contingency_allowance": 0,
+        "net_basis": "Calculated10%gross rebate nett, see price reconciliation"
+      },
+      "open": null
+    },
+    {
+      "id": "P16",
+      "status": "approved",
+      "setting": {
+        "budget": "5%nett is final buyer-paid fit-out; developer-supplied items not double charged",
+        "separately_added_furniture_exit_value": 0
+      },
+      "open": null
+    },
+    {
+      "id": "P17",
+      "status": "approved_method_actual_costs_pending",
+      "setting": {
+        "method": "Itemise buyer-paid acquisition costs after confirmed package coverage; remove blanket5%gross",
+        "items": [
+          "purchase legal fees",
+          "loan legal fees",
+          "transfer duty",
+          "loan duty",
+          "applicable professional-service SST",
+          "registration/searches/disbursements",
+          "later perfection if applicable without duplication"
+        ],
+        "cost_total": null,
+        "note": "Unknown amounts/coverage are not zero; current statutory references are in Cost_and_Billing_Research.md. No exemption or developer fee absorption invented."
+      },
+      "open": null
+    },
+    {
+      "id": "P18",
+      "status": "approved",
+      "setting": {
+        "build_months": 48,
+        "construction_rent": 0,
+        "source": "User answer 7 reasonably confirms the stated 48-month period; no unspoken subsidy or timing facts inferred"
+      },
+      "open": null
+    },
+    {
+      "id": "P19",
+      "status": "approved_simplified_estimate",
+      "setting": {
+        "average_loan_utilisation": 0.5,
+        "build_months": 48,
+        "interest": "Actual drawn balance interest-only; 50% average retained as user-approved planning approximation",
+        "general_schedule_source": "LAM General Circular2/2017, ScheduleH",
+        "limits": "Stage percentages do not specify months. Generic schedule cannot verify50% utilisation or Brightwood billing dates; no invented dated construction programme.",
+        "estimated_construction_interest": {
+          "D": 39672,
+          "B": 39960
+        }
+      },
+      "open": null
+    },
+    {
+      "id": "P20",
+      "status": "approved",
+      "setting": {
+        "interest_subsidy": 0
+      },
+      "open": null
+    },
+    {
+      "id": "P21",
+      "status": "approved_model_convention",
+      "setting": {
+        "ltv_on_gross": 0.9,
+        "rate": 0.04,
+        "amortisation_years": 35,
+        "starts": "Handover",
+        "construction_interest": "Separate48-month interest-only period",
+        "lender_offer_verified": false
+      },
+      "open": null
+    },
+    {
+      "id": "P22",
+      "status": "approved_user_case_terms",
+      "setting": {
+        "rebate_fraction_gross": 0.1,
+        "loan_fraction_gross": 0.9,
+        "rebate_offsets_initial_payment": true,
+        "cash_downpayment": 0,
+        "extra_deposit_bridge": 0,
+        "price_cashback": 0,
+        "nett_formula": "gross * (1 - 0.10)",
+        "condition": "User-specified90%gross financing plus10%rebate case; bank approval not claimed"
+      },
+      "open": null
+    },
+    {
+      "id": "P23",
+      "status": "approved",
+      "setting": {
+        "hold_after_handover_months": 60,
+        "build_months": 48,
+        "total_months": 108,
+        "first_fitout_month": "Included in60-month holding period"
+      },
+      "open": null
+    },
+    {
+      "id": "P24",
+      "status": "approved_method_actual_costs_pending",
+      "setting": {
+        "agency_fraction_of_sale": 0.03,
+        "agency_is_not_total_exit_cost": true,
+        "additional_costs": "Seller's legal representation, discharge OR reassignment, applicable CKHT filing, actual consent/search/registration/disbursements, taxable invoice SST, evidenced lender charges and closing adjustments",
+        "buyer_transfer_duty": "Not automatically seller expense; any unpaid original acquisition perfection cost remains acquisition-related and is tracked once",
+        "tax_retention": "Cash timing/credit, not automatically final tax expense",
+        "cost_total": null
+      },
+      "open": null
+    },
+    {
+      "id": "P25",
+      "status": "approved_user_forecast",
+      "setting": {
+        "basis": "Calculated nett acquisition price",
+        "clock": "Handover",
+        "year3_cumulative_growth": 0.1,
+        "year5_cumulative_growth": 0.2,
+        "not_compounded_to_21pct": true,
+        "year3_prices": {
+          "D": 545490,
+          "B": 549450
+        },
+        "year5_prices": {
+          "D": 595080,
+          "B": 599400
+        },
+        "intermediate_year_values": "Not supplied; no arbitrary yearly trajectory required for year3/year5 endpoint tests",
+        "status": "User underwriting target/hypothesis, not guaranteed minimum market price or observed forecast"
+      },
+      "open": null
+    },
+    {
+      "id": "P26",
+      "status": "approved",
+      "setting": {
+        "base_extraordinary_levy": 0,
+        "sinking_fund": "Included in combined fee",
+        "unit_repairs": "SeparateP11",
+        "stress_amount": "Not yet calibrated"
+      },
+      "open": null
+    },
+    {
+      "id": "P27",
+      "status": "approved",
+      "setting": {
+        "reporting": "Pre-tax comparison",
+        "personal_income_tax_modelled": false,
+        "final_RPGT_modelled": false,
+        "indirect_service_tax": "Transaction/operating cost if payable; not excluded simply because returns are pre-tax"
+      },
+      "open": null
+    },
+    {
+      "id": "P28",
+      "status": "approved",
+      "setting": {
+        "reference_future_buyer_gross_yield": 0.06,
+        "use": "Sensitivity/reference only, no universal exit-buyer hard gate",
+        "stress_range": "Later calibration"
+      },
+      "open": null
+    }
+  ],
+  "stress_status": "Not recalibrated or rerun. Prior stress outputs remain historical. Complete base calibration first; next distinguish ordinary variation, adverse scenarios and severe survival scenarios with defensible combinations/timing.",
+  "decision_controls": {
+    "force_non_defer": false,
+    "annual_positive_cashflow_is_new_hard_gate": false,
+    "flat_price_recovery_is_new_hard_gate": false,
+    "core_sop_map_changed": false
+  },
+  "additional_pending": [
+    "Actual itemised acquisition costs and package coverage (analyst-owned evidence)",
+    "Actual seller-service scope, invoices and disbursements (analyst-owned evidence)",
+    "Future AGM rates, treated as events and sensitivities, not fabricated facts",
+    "Project-specific progress billing dates if available; planning approximation explicitly retained",
+    "B configuration and practical operation evidence",
+    "Stress magnitude/duration/combinations calibration, followed by model implementation and full rerun",
+    "Return benchmark and funded downside limits if an actionable allocation is later requested"
+  ]
+}
