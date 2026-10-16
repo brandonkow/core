@@ -1,0 +1,31 @@
+{
+  "release": "BW-REPLAY-2026-10-16",
+  "completed": [
+    "P1-P28 integration",
+    "S1-S24 disposition including user clarifications",
+    "104 conditional financial evaluations",
+    "333 arithmetic/boundary checks",
+    "stage1 evidence admission review",
+    "stage2 G0-G9 and divergence review",
+    "stage3 decision and SOP assessment"
+  ],
+  "case_scope": [
+    "B standard split",
+    "D standard dual-side"
+  ],
+  "conditional_research_priority": [
+    "B",
+    "D"
+  ],
+  "G0": "STOP",
+  "G4": "not cleared",
+  "G9": "Defer",
+  "decision_basis": "Positive base references at user20%nett target; thin annual cash and growth-dependent recovery; exact unit, operation, package and market/funding evidence not cleared",
+  "unanswered_current_calibration_questions": [],
+  "permanent_numeric_SOP_promotion": false,
+  "core_changed": false,
+  "map_changed": false,
+  "portfolio_allocation": false,
+  "background_work": false,
+  "next": "Finite evidence-driven validation of B split operation, costs/package, comparable accommodation and executable funding/exit; no broad regional restart"
+}

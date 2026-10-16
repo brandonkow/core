@@ -1,0 +1,43 @@
+{
+  "release": "BW-REPLAY-2026-10-16",
+  "parent_commit": "3837218874f6293ef85ad12ca7c8b18522913d6f",
+  "base_tree": "b61e8f791a5ae6665c277742e4f167d3dca4d6f7",
+  "branch": "main",
+  "new_files": [
+    "side-investigations/2026-10-16-brightwood-stress-replay/Inputs.json",
+    "side-investigations/2026-10-16-brightwood-stress-replay/financial_model.js",
+    "side-investigations/2026-10-16-brightwood-stress-replay/validate_model.js",
+    "side-investigations/2026-10-16-brightwood-stress-replay/run_replay.js",
+    "side-investigations/2026-10-16-brightwood-stress-replay/Results.json",
+    "side-investigations/2026-10-16-brightwood-stress-replay/Base_Monthly_Ledgers.json",
+    "side-investigations/2026-10-16-brightwood-stress-replay/Validation_Report.json",
+    "side-investigations/2026-10-16-brightwood-stress-replay/README.md",
+    "side-investigations/2026-10-16-brightwood-stress-replay/Stress_Register.md",
+    "side-investigations/2026-10-16-brightwood-stress-replay/Financial_Underwriting.md",
+    "side-investigations/2026-10-16-brightwood-stress-replay/Three_Stage_Review.md",
+    "side-investigations/2026-10-16-brightwood-stress-replay/SOP_Promotion_Assessment.md",
+    "side-investigations/2026-10-16-brightwood-stress-replay/Sources.md",
+    "side-investigations/2026-10-16-brightwood-stress-replay/Review_Status.json",
+    "side-investigations/2026-10-16-brightwood-stress-replay/Release_Manifest.json"
+  ],
+  "modified_navigation": [
+    "CURRENT_WORKFLOW.md",
+    "README.md"
+  ],
+  "preservation": {
+    "master_blob_sha": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+    "all_other_existing_blobs": "Must remain byte-identical to parent; verified by complete Git-tree comparison before advancing main.",
+    "no_deletions": true,
+    "permanent_SOP_unchanged": true,
+    "map_unchanged": true,
+    "historical_releases_unchanged": true
+  },
+  "validation": {
+    "evaluations": 104,
+    "arithmetic_checks": 333,
+    "passed": 333,
+    "execution": "In-memory V8; Node CLI wrapper supplied but not separately executed"
+  },
+  "scope": "Case scenario replay; not verified market returns or exact-unit admission",
+  "publication_receipt": "Commit and remote tree/readback verification reported in delivery response; this manifest does not claim a post-commit check before it occurs."
+}

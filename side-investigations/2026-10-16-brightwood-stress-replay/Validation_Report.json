@@ -1,0 +1,1342 @@
+{
+  "checks": 333,
+  "passed": 333,
+  "evaluations": 104,
+  "tests": [
+    {
+      "name": "D independent closed-form debt",
+      "pass": true
+    },
+    {
+      "name": "D independent rent/cost identity",
+      "pass": true
+    },
+    {
+      "name": "D construction average",
+      "pass": true
+    },
+    {
+      "name": "D rebate and nett identity",
+      "pass": true
+    },
+    {
+      "name": "D overrun loss exactly10k",
+      "pass": true
+    },
+    {
+      "name": "D S8 no double commission",
+      "pass": true
+    },
+    {
+      "name": "D persistent S8 collections",
+      "pass": true
+    },
+    {
+      "name": "D arrears and existing void not duplicated",
+      "pass": true
+    },
+    {
+      "name": "D one component arrears",
+      "pass": true
+    },
+    {
+      "name": "D AGM first2years and escalation",
+      "pass": true
+    },
+    {
+      "name": "D legal coverage delta only",
+      "pass": true
+    },
+    {
+      "name": "D future buyer haircut applied to resale only",
+      "pass": true
+    },
+    {
+      "name": "D break-even root",
+      "pass": true
+    },
+    {
+      "name": "D renewal59months",
+      "pass": true
+    },
+    {
+      "name": "B independent closed-form debt",
+      "pass": true
+    },
+    {
+      "name": "B independent rent/cost identity",
+      "pass": true
+    },
+    {
+      "name": "B construction average",
+      "pass": true
+    },
+    {
+      "name": "B rebate and nett identity",
+      "pass": true
+    },
+    {
+      "name": "B overrun loss exactly10k",
+      "pass": true
+    },
+    {
+      "name": "B S8 no double commission",
+      "pass": true
+    },
+    {
+      "name": "B persistent S8 collections",
+      "pass": true
+    },
+    {
+      "name": "B arrears and existing void not duplicated",
+      "pass": true
+    },
+    {
+      "name": "B one component arrears",
+      "pass": true
+    },
+    {
+      "name": "B AGM first2years and escalation",
+      "pass": true
+    },
+    {
+      "name": "B legal coverage delta only",
+      "pass": true
+    },
+    {
+      "name": "B future buyer haircut applied to resale only",
+      "pass": true
+    },
+    {
+      "name": "B break-even root",
+      "pass": true
+    },
+    {
+      "name": "B renewal59months",
+      "pass": true
+    },
+    {
+      "name": "D/BASE/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/BASE/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/BASE/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/BASE/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/BASE/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/BASE/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_VP/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_VP/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_VP/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_VP/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_VP/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_VP/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_first_draw/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_first_draw/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_first_draw/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_first_draw/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_first_draw/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_up_first_draw/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S1_down_VP/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_down_VP/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_down_VP/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S1_down_VP/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_down_VP/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S1_down_VP/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term31/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term31/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term31/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term31/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term31/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term31/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term25/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term25/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term25/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term25/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term25/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S2_term25/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S4_build60/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S4_build60/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S4_build60/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S4_build60/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S4_build60/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S4_build60/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S7_rent_minus20/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S7_rent_minus20/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S7_rent_minus20/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S7_rent_minus20/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S7_rent_minus20/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S7_rent_minus20/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_once/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_once/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_once/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_once/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_once/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_once/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_persistent/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_persistent/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_persistent/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_persistent/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_persistent/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S8_crisis_persistent/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S12_fee5/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S12_fee5/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S12_fee5/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S12_fee5/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S12_fee5/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S12_fee5/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S15_fitout10k/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S15_fitout10k/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S15_fitout10k/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S15_fitout10k/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S15_fitout10k/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S15_fitout10k/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S16_exit_minus10/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S16_exit_minus10/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S16_exit_minus10/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S16_exit_minus10/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S16_exit_plus10/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S16_exit_plus10/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S16_exit_plus10/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S16_exit_plus10/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S16_exit_plus10/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S16_exit_plus10/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S17_exit66/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S17_exit66/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S17_exit66/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S17_exit66/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S17_exit66/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S17_exit66/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_first/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_first/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_first/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_first/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_first/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_first/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_second/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_second/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_second/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_second/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_second/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_second/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_both/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_both/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_both/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_both/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_both/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/S24_arrears_both/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/J1_delivery_cost/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J1_delivery_cost/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J1_delivery_cost/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/J1_delivery_cost/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J1_delivery_cost/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J1_delivery_cost/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/J2_demand_exit/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J2_demand_exit/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J2_demand_exit/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J2_demand_exit/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J3_all_selected/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J3_all_selected/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J3_all_selected/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/J3_all_selected/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_exit_flat/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_exit_flat/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_exit_flat/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_exit_flat/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_exit_flat/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_exit_flat/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_year3/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_year3/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_year3/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_year3/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_year3/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_year3/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_renewal/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_renewal/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_renewal/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_renewal/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_renewal/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_renewal/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_no_invoice_SST/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_no_invoice_SST/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_no_invoice_SST/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_no_invoice_SST/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_no_invoice_SST/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "D/DIAG_no_invoice_SST/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/BASE/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/BASE/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/BASE/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/BASE/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/BASE/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/BASE/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_VP/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_VP/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_VP/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_VP/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_VP/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_VP/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_first_draw/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_first_draw/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_first_draw/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_first_draw/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_first_draw/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_up_first_draw/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S1_down_VP/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_down_VP/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_down_VP/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S1_down_VP/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_down_VP/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S1_down_VP/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term31/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term31/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term31/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term31/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term31/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term31/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term25/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term25/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term25/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term25/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term25/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S2_term25/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S4_build60/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S4_build60/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S4_build60/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S4_build60/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S4_build60/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S4_build60/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S7_rent_minus20/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S7_rent_minus20/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S7_rent_minus20/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S7_rent_minus20/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S7_rent_minus20/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S7_rent_minus20/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_once/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_once/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_once/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_once/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_once/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_once/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_persistent/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_persistent/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_persistent/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_persistent/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_persistent/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S8_crisis_persistent/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S12_fee5/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S12_fee5/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S12_fee5/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S12_fee5/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S12_fee5/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S12_fee5/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S15_fitout10k/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S15_fitout10k/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S15_fitout10k/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S15_fitout10k/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S15_fitout10k/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S15_fitout10k/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S16_exit_minus10/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S16_exit_minus10/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S16_exit_minus10/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S16_exit_minus10/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S16_exit_plus10/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S16_exit_plus10/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S16_exit_plus10/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S16_exit_plus10/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S16_exit_plus10/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S16_exit_plus10/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S17_exit66/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S17_exit66/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S17_exit66/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S17_exit66/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S17_exit66/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S17_exit66/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S23_B_whole/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S23_B_whole/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S23_B_whole/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S23_B_whole/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S23_B_whole/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S23_B_whole/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_first/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_first/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_first/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_first/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_first/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_first/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_second/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_second/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_second/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_second/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_second/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_second/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_both/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_both/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_both/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_both/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_both/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/S24_arrears_both/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/J1_delivery_cost/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J1_delivery_cost/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J1_delivery_cost/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/J1_delivery_cost/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J1_delivery_cost/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J1_delivery_cost/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/J2_demand_exit/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J2_demand_exit/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J2_demand_exit/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J2_demand_exit/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J3_all_selected/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J3_all_selected/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J3_all_selected/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/J3_all_selected/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_exit_flat/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_exit_flat/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_exit_flat/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_exit_flat/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_exit_flat/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_exit_flat/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_year3/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_year3/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_year3/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_year3/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_year3/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_year3/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_renewal/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_renewal/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_renewal/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_renewal/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_renewal/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_renewal/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_no_invoice_SST/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_no_invoice_SST/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_no_invoice_SST/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_no_invoice_SST/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_no_invoice_SST/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_no_invoice_SST/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_B_whole_restore/self_paid_reference cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_B_whole_restore/self_paid_reference debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_B_whole_restore/self_paid_reference IRR residual",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_B_whole_restore/advertised_legal_absorption cash conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_B_whole_restore/advertised_legal_absorption debt conservation",
+      "pass": true
+    },
+    {
+      "name": "B/DIAG_B_whole_restore/advertised_legal_absorption IRR residual",
+      "pass": true
+    },
+    {
+      "name": "zero-interest annuity",
+      "pass": true
+    },
+    {
+      "name": "B fallback one contract",
+      "pass": true
+    },
+    {
+      "name": "no invented D whole fallback",
+      "pass": true
+    },
+    {
+      "name": "104 evaluations",
+      "pass": true
+    },
+    {
+      "name": "no removed stress reinstated",
+      "pass": true
+    }
+  ],
+  "scope": "Arithmetic and selected boundary checks, not market validation",
+  "runtime": "Executed in tool V8 JavaScript isolate. CommonJS runner provided but not executed in a local Node process.",
+  "publication": "Git tree comparison and remote readback performed separately; see release manifest and delivery response."
+}

@@ -1,0 +1,599 @@
+{
+  "release": "BW-REPLAY-2026-10-16",
+  "currency": "MYR",
+  "base": {
+    "build_months": 48,
+    "hold_months": 60,
+    "ltv_gross": 0.9,
+    "rate": 0.04,
+    "term_years": 35,
+    "fee_psf": 0.35,
+    "fee_growth": 0,
+    "fitout_fraction_net": 0.05,
+    "repair_rent_months_year": 0.5,
+    "new_lease_commission_months": 1,
+    "renewal_commission_months": 0.5,
+    "lease_months": 12,
+    "initial_void_months": 1,
+    "turnover_void_months": 1,
+    "rent_growth": 0,
+    "exit_multiplier": 1.2,
+    "draw_average": 0.5
+  },
+  "fees": {
+    "service_tax": 0.08,
+    "agent_sale_fraction": 0.03,
+    "discharge_reference": 400,
+    "ckht1a_reference": 500,
+    "acquisition_price_basis": "gross reference, no exemption",
+    "tax_regime": "ordinary local purchaser reference, not a verified investor profile",
+    "unpriced_costs": "Actual disbursements, searches, consent/perfection, additional instruments, insurance, rates or other evidenced owner costs remain residual U; not assumed absent"
+  },
+  "types": [
+    {
+      "id": "D",
+      "gross": 551000,
+      "net": 495900,
+      "area": 716,
+      "rents": [
+        1500,
+        1500
+      ],
+      "fallback": null
+    },
+    {
+      "id": "B",
+      "gross": 555000,
+      "net": 499500,
+      "area": 736,
+      "rents": [
+        1200,
+        2000
+      ],
+      "fallback": 2500
+    }
+  ],
+  "cost_modes": [
+    "self_paid_reference",
+    "advertised_legal_absorption"
+  ],
+  "scenarios": [
+    {
+      "id": "BASE",
+      "label": "Calibrated base; last-known fee held as reference"
+    },
+    {
+      "id": "S1_up_VP",
+      "rate_after": 0.0425,
+      "rate_change_op_month": 1,
+      "label": "One25bp increase at handover; remains to exit"
+    },
+    {
+      "id": "S1_up_first_draw",
+      "construction_rate": 0.0425,
+      "rate_after": 0.0425,
+      "rate_change_op_month": 1,
+      "label": "Earlier timing bound:25bp increase at first draw; remains"
+    },
+    {
+      "id": "S1_down_VP",
+      "rate_after": 0.0375,
+      "rate_change_op_month": 1,
+      "label": "Favourable25bp sensitivity; not downside"
+    },
+    {
+      "id": "S2_term31",
+      "term_years": 31,
+      "label": "Shorter initial amortisation eligibility"
+    },
+    {
+      "id": "S2_term25",
+      "term_years": 25,
+      "label": "Shorter initial amortisation eligibility"
+    },
+    {
+      "id": "S4_build60",
+      "build_months": 60,
+      "label": "12month handover delay; same50%average draw"
+    },
+    {
+      "id": "S7_rent_minus20",
+      "rent_multiplier": 0.8,
+      "label": "20%lower rent across entire operating hold"
+    },
+    {
+      "id": "S8_crisis_once",
+      "initial_void_months": 2,
+      "label": "One crisis lease-up:10paid months in year1, less1month commission"
+    },
+    {
+      "id": "S8_crisis_persistent",
+      "initial_void_months": 2,
+      "turnover_void_months": 2,
+      "label": "Duration bound:2month void per replacement throughout hold"
+    },
+    {
+      "id": "S12_fee5",
+      "fee_growth": 0.05,
+      "label": "Fee0.35 first24months, then5%annual steps"
+    },
+    {
+      "id": "S15_fitout10k",
+      "fitout_extra": 10000,
+      "label": "One-off fit-out overrun"
+    },
+    {
+      "id": "S16_exit_minus10",
+      "exit_multiplier": 0.9,
+      "label": "Exit10%below nett, not10%below target"
+    },
+    {
+      "id": "S16_exit_plus10",
+      "exit_multiplier": 1.1,
+      "label": "Exit10%above nett; below20%base target"
+    },
+    {
+      "id": "S17_exit66",
+      "hold_months": 66,
+      "label": "Six-month delayed sale; keep20%nett target, no extra appreciation"
+    },
+    {
+      "id": "S23_B_whole",
+      "only": "B",
+      "whole_unit": true,
+      "label": "B whole-unit fallback2500; same fit-out budget, no automatic conversion-cost saving"
+    },
+    {
+      "id": "S24_arrears_first",
+      "arrears_stream": 0,
+      "label": "One component misses opmonths12-13, relet voidmonth14 already scheduled"
+    },
+    {
+      "id": "S24_arrears_second",
+      "arrears_stream": 1,
+      "label": "Other component misses opmonths12-13; no duplicated void"
+    },
+    {
+      "id": "S24_arrears_both",
+      "arrears_stream": "all",
+      "label": "Synchronous two-component arrears bound; not assumed typical"
+    },
+    {
+      "id": "J1_delivery_cost",
+      "build_months": 60,
+      "fitout_extra": 10000,
+      "fee_growth": 0.05,
+      "rate_after": 0.0425,
+      "rate_change_op_month": 1,
+      "label": "Delivery/cost scenario; no demand crash automatically added"
+    },
+    {
+      "id": "J2_demand_exit",
+      "rent_multiplier": 0.8,
+      "initial_void_months": 2,
+      "exit_multiplier": 0.9,
+      "hold_months": 66,
+      "label": "Demand recession:rent loss, slower initial absorption, weaker and later exit"
+    },
+    {
+      "id": "J3_all_selected",
+      "build_months": 60,
+      "fitout_extra": 10000,
+      "fee_growth": 0.05,
+      "rate_after": 0.0425,
+      "rate_change_op_month": 1,
+      "rent_multiplier": 0.8,
+      "initial_void_months": 2,
+      "exit_multiplier": 0.9,
+      "hold_months": 66,
+      "label": "Selected all-adverse envelope; not forecast or automatic admission veto; no stacked arrears/term haircut"
+    },
+    {
+      "id": "DIAG_exit_flat",
+      "exit_multiplier": 1,
+      "label": "No appreciation diagnostic, not required pass gate"
+    },
+    {
+      "id": "DIAG_year3",
+      "hold_months": 36,
+      "exit_multiplier": 1.1,
+      "label": "User third-year price target"
+    },
+    {
+      "id": "DIAG_renewal",
+      "renew": true,
+      "label": "Favourable same-tenant renewal check; no invented renewal probability"
+    },
+    {
+      "id": "DIAG_no_invoice_SST",
+      "service_tax": 0,
+      "label": "Invoice-inclusive/not-chargeable comparison only; not tax waiver assumption"
+    },
+    {
+      "id": "DIAG_B_whole_restore",
+      "only": "B",
+      "whole_unit": true,
+      "fitout_extra": 10000,
+      "label": "Whole-unit fallback with user10koverrun as conversion-cost sensitivity, not contractor quote"
+    }
+  ],
+  "provenance": {
+    "baseline": "../2026-10-16-brightwood-calibration-r2/Parameter_Calibration.json",
+    "latest_authority": "User S1-S24 responses and subsequent S1/S8 clarifications,16 October2026",
+    "term_start_pending": false,
+    "amortisation_start": "handover",
+    "financial_units": "MYR nominal",
+    "rent_status": "User case calibration, not authenticated current or future lease",
+    "fee_status": "First24months userfixed; later AGM unknown; base lastknown fee reference and S12 stress separated",
+    "exit_status": "User forecast10%nett at36months/20%nett at60months; not observed valuation",
+    "draw_status": "Midpoint linear50%average planning proxy, not authenticated ScheduleH dates",
+    "first_rate_change": "VP in primary S1; firstdraw timing bound; eventdate analyst convention",
+    "S8_duration": "One initialcrisis primary; persistent turnover durationbound separately",
+    "S24_timing": "Arrears opmonths12-13, then relet month14 overlapping baseline turnover. No duplicate vacancy or replacement commission.",
+    "cost_timing": "Priced acquisition charges atmonth0 as funding reference, not actual invoice/payment dates; IRR timing-sensitive",
+    "IRR": "Grid-bracket monthly IRR annualised; null means no unique bracket located, not a numeric zero or proof no root anywhere",
+    "unpriced_costs": "Residual U has not been set to zero; totals are incomplete-cost reference calculations",
+    "scope": "B and D standard starting-price expressions only; no A/C/PES; no actualportfolio"
+  },
+  "P1_P28": [
+    {
+      "id": "P1",
+      "status": "approved",
+      "setting": {
+        "D_monthly_streams_today": [
+          1500,
+          1500
+        ],
+        "total": 3000,
+        "provenance": "User market judgment; conditional rental forecast"
+      },
+      "open": null
+    },
+    {
+      "id": "P2",
+      "status": "approved_conditional",
+      "setting": {
+        "B_monthly_streams_today": [
+          1200,
+          2000
+        ],
+        "total": 3200,
+        "configuration": "Additional entrance separation: studio/master-room component plus two-bedroom component",
+        "provenance": "User-proposed operating scenario, not independently authenticated configuration"
+      },
+      "open": "Check privacy, separate access, kitchen/bathroom use, services, parking allocation, permitted works and fit-out inclusion. Master room is not automatically a self-contained studio. Keep ordinary whole-unit fallback separate; do not reject this scenario merely because execution checks remain."
+    },
+    {
+      "id": "P3",
+      "status": "excluded",
+      "setting": {
+        "type": "C and C(A)"
+      },
+      "open": null
+    },
+    {
+      "id": "P4",
+      "status": "excluded",
+      "setting": {
+        "type": "A and A(A)"
+      },
+      "open": null
+    },
+    {
+      "id": "P5",
+      "status": "approved",
+      "setting": {
+        "rent_growth_during_construction": 0,
+        "handover_monthly_rent": {
+          "D": 3000,
+          "B": 3200
+        },
+        "construction_rent": 0,
+        "supersedes": "R1 5% rental-growth assumption removed"
+      },
+      "open": null
+    },
+    {
+      "id": "P6",
+      "status": "approved_interpretation",
+      "setting": {
+        "annual_rent_growth_after_handover": 0,
+        "note": "User removes 5% rent growth; no other growth rate is substituted. Flat D3000/B3200 carried through operating projection."
+      },
+      "open": null
+    },
+    {
+      "id": "P7",
+      "status": "approved",
+      "setting": {
+        "fitout_months": 1,
+        "marketing": "Concurrent with fit-out",
+        "base_first_receipt": "Operating month2",
+        "no_double_count": "One initial no-rent month total, not fit-out plus another separate letting month"
+      },
+      "open": null
+    },
+    {
+      "id": "P8",
+      "status": "approved",
+      "setting": {
+        "expected_new_tenants": "Annual replacement expectation retained",
+        "void_months_per_replacement": 1,
+        "lease_months": 12,
+        "timeline_convention": "12 paid months per one-year lease, then one vacancy month. No vacancy during a continuing renewal.",
+        "five_year_base_example": {
+          "vacant_months": [
+            1,
+            14,
+            27,
+            40,
+            53
+          ],
+          "new_lease_start_months": [
+            2,
+            15,
+            28,
+            41,
+            54
+          ],
+          "paid_months": 55
+        },
+        "note": "Event timing resolves prior annual-average simplification; individual component turnover can diverge. Renewal is a separate event, not a second simultaneous fee."
+      },
+      "open": null
+    },
+    {
+      "id": "P9",
+      "status": "approved_working_assumption",
+      "setting": {
+        "combined_service_sinking_fee_psf_month": 0.35,
+        "D_monthly": 250.6,
+        "B_monthly": 257.6,
+        "area_basis": "D716/B736 sq ft excluding PES; no new area authentication"
+      },
+      "open": null
+    },
+    {
+      "id": "P10",
+      "status": "approved_governance_rule",
+      "setting": {
+        "flat_first_months_after_handover": 24,
+        "thereafter": "Fee follows AGM decisions",
+        "future_agm_rate": null,
+        "provisional_projection": "Carry last known charge forward only as an explicitly provisional no-new-resolution scenario; no guarantee of unchanged five-year fees. Reprice on AGM resolution; calibrate increase scenarios in stress round.",
+        "clarification": "User expressly confirmed first TWO YEARS AFTER handover"
+      },
+      "open": null
+    },
+    {
+      "id": "P11",
+      "status": "approved",
+      "setting": {
+        "annual_repair_reserve_formula": "0.5 * prevailing monthly total advertised rent",
+        "D": 1500,
+        "B": 1600,
+        "not_collected_rent_fraction": true
+      },
+      "open": null
+    },
+    {
+      "id": "P12",
+      "status": "approved",
+      "setting": {
+        "new_tenant_commission_months": 1,
+        "same_tenant_renewal_commission_months": 0.5,
+        "event": "New tenant at move-in; renewal at renewal event",
+        "basis": "Per component's monthly rent, summed once across parcel",
+        "five_year_new_tenant_base": "Five new tenancy starts per component over60months, no renewal fee at those same events",
+        "service_tax": "Apply only if chargeable and not already included in quoted commission; separate invoice field"
+      },
+      "open": null
+    },
+    {
+      "id": "P13",
+      "status": "approved",
+      "setting": {
+        "unitemised_other_monthly": 0,
+        "removed_allowance": 200,
+        "boundary": "Remove unsupported flat allowance. Known non-covered owner bills, if later evidenced, must be itemised; their actual cost is not established as zero."
+      },
+      "open": null
+    },
+    {
+      "id": "P14",
+      "status": "approved",
+      "setting": {
+        "rent_excludes": [
+          "electricity",
+          "water",
+          "internet"
+        ],
+        "tenant_pays": true,
+        "extra_parking_revenue": 0,
+        "between_lease_owner_consumption": "Actual attributable bill only, not the deleted generic RM200"
+      },
+      "open": null
+    },
+    {
+      "id": "P15",
+      "status": "approved",
+      "setting": {
+        "fitout_fraction_of_net": 0.05,
+        "D": 24795,
+        "B": 24975,
+        "includes": "All fit-out, furniture/equipment and B entrance separation within final buyer-paid budget",
+        "additional_inflation_or_contingency_allowance": 0,
+        "net_basis": "Calculated10%gross rebate nett, see price reconciliation"
+      },
+      "open": null
+    },
+    {
+      "id": "P16",
+      "status": "approved",
+      "setting": {
+        "budget": "5%nett is final buyer-paid fit-out; developer-supplied items not double charged",
+        "separately_added_furniture_exit_value": 0
+      },
+      "open": null
+    },
+    {
+      "id": "P17",
+      "status": "approved_method_actual_costs_pending",
+      "setting": {
+        "method": "Itemise buyer-paid acquisition costs after confirmed package coverage; remove blanket5%gross",
+        "items": [
+          "purchase legal fees",
+          "loan legal fees",
+          "transfer duty",
+          "loan duty",
+          "applicable professional-service SST",
+          "registration/searches/disbursements",
+          "later perfection if applicable without duplication"
+        ],
+        "cost_total": null,
+        "note": "Unknown amounts/coverage are not zero; current statutory references are in Cost_and_Billing_Research.md. No exemption or developer fee absorption invented."
+      },
+      "open": null
+    },
+    {
+      "id": "P18",
+      "status": "approved",
+      "setting": {
+        "build_months": 48,
+        "construction_rent": 0,
+        "source": "User answer 7 reasonably confirms the stated 48-month period; no unspoken subsidy or timing facts inferred"
+      },
+      "open": null
+    },
+    {
+      "id": "P19",
+      "status": "approved_simplified_estimate",
+      "setting": {
+        "average_loan_utilisation": 0.5,
+        "build_months": 48,
+        "interest": "Actual drawn balance interest-only; 50% average retained as user-approved planning approximation",
+        "general_schedule_source": "LAM General Circular2/2017, ScheduleH",
+        "limits": "Stage percentages do not specify months. Generic schedule cannot verify50% utilisation or Brightwood billing dates; no invented dated construction programme.",
+        "estimated_construction_interest": {
+          "D": 39672,
+          "B": 39960
+        }
+      },
+      "open": null
+    },
+    {
+      "id": "P20",
+      "status": "approved",
+      "setting": {
+        "interest_subsidy": 0
+      },
+      "open": null
+    },
+    {
+      "id": "P21",
+      "status": "approved_model_convention",
+      "setting": {
+        "ltv_on_gross": 0.9,
+        "rate": 0.04,
+        "amortisation_years": 35,
+        "starts": "Handover",
+        "construction_interest": "Separate48-month interest-only period",
+        "lender_offer_verified": false
+      },
+      "open": null
+    },
+    {
+      "id": "P22",
+      "status": "approved_user_case_terms",
+      "setting": {
+        "rebate_fraction_gross": 0.1,
+        "loan_fraction_gross": 0.9,
+        "rebate_offsets_initial_payment": true,
+        "cash_downpayment": 0,
+        "extra_deposit_bridge": 0,
+        "price_cashback": 0,
+        "nett_formula": "gross * (1 - 0.10)",
+        "condition": "User-specified90%gross financing plus10%rebate case; bank approval not claimed"
+      },
+      "open": null
+    },
+    {
+      "id": "P23",
+      "status": "approved",
+      "setting": {
+        "hold_after_handover_months": 60,
+        "build_months": 48,
+        "total_months": 108,
+        "first_fitout_month": "Included in60-month holding period"
+      },
+      "open": null
+    },
+    {
+      "id": "P24",
+      "status": "approved_method_actual_costs_pending",
+      "setting": {
+        "agency_fraction_of_sale": 0.03,
+        "agency_is_not_total_exit_cost": true,
+        "additional_costs": "Seller's legal representation, discharge OR reassignment, applicable CKHT filing, actual consent/search/registration/disbursements, taxable invoice SST, evidenced lender charges and closing adjustments",
+        "buyer_transfer_duty": "Not automatically seller expense; any unpaid original acquisition perfection cost remains acquisition-related and is tracked once",
+        "tax_retention": "Cash timing/credit, not automatically final tax expense",
+        "cost_total": null
+      },
+      "open": null
+    },
+    {
+      "id": "P25",
+      "status": "approved_user_forecast",
+      "setting": {
+        "basis": "Calculated nett acquisition price",
+        "clock": "Handover",
+        "year3_cumulative_growth": 0.1,
+        "year5_cumulative_growth": 0.2,
+        "not_compounded_to_21pct": true,
+        "year3_prices": {
+          "D": 545490,
+          "B": 549450
+        },
+        "year5_prices": {
+          "D": 595080,
+          "B": 599400
+        },
+        "intermediate_year_values": "Not supplied; no arbitrary yearly trajectory required for year3/year5 endpoint tests",
+        "status": "User underwriting target/hypothesis, not guaranteed minimum market price or observed forecast"
+      },
+      "open": null
+    },
+    {
+      "id": "P26",
+      "status": "approved",
+      "setting": {
+        "base_extraordinary_levy": 0,
+        "sinking_fund": "Included in combined fee",
+        "unit_repairs": "SeparateP11",
+        "stress_amount": "S14 deleted by user; no special-levy shock in this replay"
+      },
+      "open": null
+    },
+    {
+      "id": "P27",
+      "status": "approved",
+      "setting": {
+        "reporting": "Pre-tax comparison",
+        "personal_income_tax_modelled": false,
+        "final_RPGT_modelled": false,
+        "indirect_service_tax": "Transaction/operating cost if payable; not excluded simply because returns are pre-tax"
+      },
+      "open": null
+    },
+    {
+      "id": "P28",
+      "status": "approved",
+      "setting": {
+        "reference_future_buyer_gross_yield": 0.06,
+        "use": "Sensitivity/reference only, no universal exit-buyer hard gate",
+        "stress_range": "Later calibration"
+      },
+      "open": null
+    }
+  ]
+}

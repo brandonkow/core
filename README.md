@@ -1,5 +1,14 @@
 # Residential Investment Decision Engine
 
+## Latest Brightwood update — 16 October completed calibrated replay
+
+The [calibrated stress replay](side-investigations/2026-10-16-brightwood-stress-replay/README.md) completes all approved P1-P28/S1-S24 calculations and the three analytical stage reviews:104evaluations and333arithmetic checks. B at3,200split rent now ranks ahead of D at3,000for conditional research; the historical D-first call is superseded for these revised expressions. At the user's year5 nett+20%target, nominal nine-year profit before unknown costs is B22,912–32,406 / D14,744–24,176 across self-paid versus advertised legal-coverage references. Annual operating cash is B+513/D-1,096before additional bills and later AGM changes.
+
+[Stress dispositions](side-investigations/2026-10-16-brightwood-stress-replay/Stress_Register.md), [financial results](side-investigations/2026-10-16-brightwood-stress-replay/Financial_Underwriting.md), [G0-G9 review](side-investigations/2026-10-16-brightwood-stress-replay/Three_Stage_Review.md) and [SOP assessment](side-investigations/2026-10-16-brightwood-stress-replay/SOP_Promotion_Assessment.md) distinguish positive conditional economics from actual admission. G0 STOP / G4 not cleared / G9 Defer remains; no purchase or portfolio allocation. Revised numbers are recorded for Brightwood only; no permanent numerical SOP, Core or map change. All historical files remain unchanged. No calibration reply or background job is pending.
+
+The older status snapshots below retain their dated assumptions and are superseded where inconsistent with this release.
+
+
 ## Latest Brightwood update — 16 October calibration
 
 [Round2](side-investigations/2026-10-16-brightwood-calibration-r2/README.md) supersedes round1 for future calculations. Rents stay D3,000/B3,200;5%growth is removed.10%gross rebate offsets initial payment; calculated nett D495,900/B499,500. Management fixed first TWO YEARS AFTER handover, then AGM decisions. User targets cumulative10%nett at year3 and20%at year5. [All28dispositions](side-investigations/2026-10-16-brightwood-calibration-r2/Parameter_Calibration.json) and [cost/billing research](side-investigations/2026-10-16-brightwood-calibration-r2/Cost_and_Billing_Research.md) separate scenario choices from unknown invoices and future events. Next: stress calibration, then full rerun. No new G9 result; Core/SOP/map and historical files unchanged. Earlier growth/financial conclusions below remain dated historical findings.
