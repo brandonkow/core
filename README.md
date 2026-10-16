@@ -1,5 +1,14 @@
 # Residential Investment Decision Engine
 
+## Latest checkpoint — sequential funnel; paused for usage continuity
+
+The user explicitly requires **sequential funnel admission**, with a progress update at each completed step. [16 October checkpoint](klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/README.md) and [resume instructions](klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/RESUME.md) are current. All138base financial replays are complete; all138still stop atG0,zeroDeploy. Financial56/4/1counts are overlapping diagnostics,not an admission funnel. The [gate register](klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/Funnel_Register.md) records each first stop and evidence boundary.
+
+A boundedCentrestagepublicprobe is complete:1,299rent/7,500fit-out yields onlyRM34.05flat-exitprofit;20,000fit-out yields-RM12,465.95,under unchanged conditional finance/cost assumptions. Noactualrent or unitrights authenticated; oldinputsunchanged. Next boundedtaskisAmcorpR309offer/componentfreshness. Brightwoodexecution,finalunit/portfolioadmission andlateroutcomesremainincomplete. Furtherresearchispausedatuser'susagelimitcheckpoint; no backgroundjoboroutreach.
+
+Apply [funnel execution reporting](sop/Funnel_Execution_Reporting_2026-10-16.md) with existingCore/SOP. The older dated notices below are historical; this latest checkpoint controls continuation.
+
+
 ## Latest whole-programme SOP v2 replay — 16 October 2026
 
 [All138base operating expressions are now recalculated](klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/README.md), including the remaining128requested by the user. Coverage is61catchments/122project groups; zero base replays remain. The first10and18held alternatives reproduce unchanged. Total3,330evaluations include24paths per base plus18held alternatives;28,578financial/event checks passed.

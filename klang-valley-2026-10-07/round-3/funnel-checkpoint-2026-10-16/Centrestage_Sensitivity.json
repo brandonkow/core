@@ -1,0 +1,56 @@
+{
+  "source_model": "../sop-v2-all-base-replay-2026-10-16/financial_model.cjs",
+  "source_commit": "978e15258947cb9decb17e57b248b4e3621e3429",
+  "rows": [
+    {
+      "scenario": "rent1299_fit7500_flat",
+      "rent": 1299,
+      "fitout": 7500,
+      "annual": 2423.6291952603706,
+      "flat_profit": 34.0482031617139,
+      "peak": 30870.161800789938
+    },
+    {
+      "scenario": "rent1299_fit20000_flat",
+      "rent": 1299,
+      "fitout": 20000,
+      "annual": 2423.6291952603706,
+      "flat_profit": -12465.951796838286,
+      "peak": 43370.16180078994
+    },
+    {
+      "scenario": "rent1400_fit7500_flat",
+      "rent": 1400,
+      "fitout": 7500,
+      "annual": 3375.0491952603707,
+      "flat_profit": 4791.148203161778,
+      "peak": 30886.658467456604
+    },
+    {
+      "scenario": "rent1400_fit20000_flat",
+      "rent": 1400,
+      "fitout": 20000,
+      "annual": 3375.0491952603707,
+      "flat_profit": -7708.851796838342,
+      "peak": 43386.65846745661
+    },
+    {
+      "scenario": "rent1500_fit7500_flat",
+      "rent": 1500,
+      "fitout": 7500,
+      "annual": 4317.049195260372,
+      "flat_profit": 9501.148203161707,
+      "peak": 30902.99180078994
+    },
+    {
+      "scenario": "rent1500_fit20000_flat",
+      "rent": 1500,
+      "fitout": 20000,
+      "annual": 4317.049195260372,
+      "flat_profit": -2998.851796838295,
+      "peak": 43402.99180078994
+    }
+  ],
+  "baseline_changed": false,
+  "gate_changed": false
+}

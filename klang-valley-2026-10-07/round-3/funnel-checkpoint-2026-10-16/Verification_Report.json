@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-16",
+  "checks": 583,
+  "passed": true,
+  "method": "Executed reproduce.cjs in memory using filesystem/path adapter over staged JSON and unchanged financial model; five additional count/navigation assertions",
+  "scope": "138 gate dispositions; six sensitivity branches and profit bridge; not market validation",
+  "limitations": "No native Node invocation, exact-unit inspection, authenticated rent, quote or actual portfolio validation"
+}

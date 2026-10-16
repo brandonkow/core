@@ -1,0 +1,35 @@
+{
+  "version": "KV-FUNNEL-CHECKPOINT-2026-10-16",
+  "parent_commit": "978e15258947cb9decb17e57b248b4e3621e3429",
+  "parent_tree": "65dc256610a5364cb31b4ea5c8ccf5cb43bbff65",
+  "master_blob": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+  "modified_existing_paths": [
+    "CURRENT_WORKFLOW.md",
+    "README.md",
+    "AGENTS.md"
+  ],
+  "new_paths": [
+    "klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/Funnel_Register.json",
+    "klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/Funnel_Register.md",
+    "sop/Funnel_Execution_Reporting_2026-10-16.md",
+    "klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/Centrestage_Probe.md",
+    "klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/Centrestage_Sensitivity.json",
+    "klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/reproduce.cjs",
+    "klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/RESUME.md",
+    "klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/README.md",
+    "klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/Verification_Report.json",
+    "klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/Release_Manifest.json"
+  ],
+  "deleted": [],
+  "historical_policy": "All existing blobs except AGENTS.md, README.md, CURRENT_WORKFLOW.md must remain identical; existing Core/SOP/map/model unchanged",
+  "validation": {
+    "date": "2026-10-16",
+    "checks": 583,
+    "passed": true,
+    "method": "Executed reproduce.cjs in memory using filesystem/path adapter over staged JSON and unchanged financial model; five additional count/navigation assertions",
+    "scope": "138 gate dispositions; six sensitivity branches and profit bridge; not market validation",
+    "limitations": "No native Node invocation, exact-unit inspection, authenticated rent, quote or actual portfolio validation"
+  },
+  "pause_reason": "User requests progress saved before usage exhaustion",
+  "next": "R309 Amcorp bounded offer/component probe"
+}
