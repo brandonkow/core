@@ -1,0 +1,54 @@
+{
+  "version": "KV-V2-ALL-BASES-REPLAY-2026-10-16",
+  "source_commit": "645d2174509203208bbc22905dba98102f03c49c",
+  "checks": {
+    "passed": 28578,
+    "evaluations": 3330,
+    "boundary": "Arithmetic, source bridge and event checks; not empirical market validation."
+  },
+  "prior_priority_parity": {
+    "evaluations": 238,
+    "numeric_comparisons": 21842,
+    "status": "passed; first10and18held unchanged"
+  },
+  "historical_table_parity": {
+    "rows": 138,
+    "rounded_field_comparisons": 414,
+    "tolerance": 0.51,
+    "status": "passed; current90/4/35historical reference, not raw legacy source outputs"
+  },
+  "scope": {
+    "bases": 138,
+    "new_bases": 128,
+    "prior_bases_rechecked": 10,
+    "areas": 61,
+    "project_groups": 122,
+    "held_alternatives": 18,
+    "scenarios_per_base": 24,
+    "evaluations": 3330,
+    "old_narrow_nonnegative": 56,
+    "new_narrow_nonnegative": 56,
+    "old_annual_nonnegative": 5,
+    "new_annual_nonnegative": 4,
+    "renewal_annual_nonnegative": 19,
+    "gross6": 40,
+    "old_flat_profit_nonnegative": 1,
+    "new_flat_profit_nonnegative": 1,
+    "target_profit_nonnegative": 129,
+    "target_profit_negative": 9,
+    "annual_improved": 17,
+    "annual_deteriorated": 121,
+    "deploy": 0,
+    "remaining_base_replay": 0,
+    "j3_profit_nonnegative": 0,
+    "pair_annual_leader_changes": 5,
+    "pair_rent_rank_reversals": 18
+  },
+  "cost_adapter": {
+    "change": "Add>RM1mtransfer band and correct perRM100rounding",
+    "previous_priority_results_changed": false,
+    "permanent_SOP_changed": false
+  },
+  "evidence": "No market refresh, exact-unit admission, tax/lender opinion, actual portfolio allocation or realised outcome is claimed.",
+  "preservation": "Only README.md and CURRENT_WORKFLOW.md change outside new packet; every other existing blob must match baseline before guardedmainupdate."
+}

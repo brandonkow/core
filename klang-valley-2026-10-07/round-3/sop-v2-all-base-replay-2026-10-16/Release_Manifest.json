@@ -1,0 +1,86 @@
+{
+  "version": "KV-V2-ALL-BASES-REPLAY-2026-10-16",
+  "baseline_commit": "645d2174509203208bbc22905dba98102f03c49c",
+  "baseline_tree": "17a1967b103fb75e141990e1dfdb2ad612257f3d",
+  "source_blobs": {
+    "klang-valley-2026-10-07/round-3/programme-final/Inputs.json": "c892fe220959f8d74d54d7c6f54cf14bfdd91c43",
+    "klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/Decision_Sheet.json": "3c8b4f693e936eb9247ed5be5cdadb1507b0cb1e",
+    "sop/Financial_Execution_Parameters_v2.json": "a5bc8732f53ae0cc03e9b3152fa1297cea0b718b",
+    "Residential_Investment_Framework.md": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+    "klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/Results.json": "84f509482b6bfb8ca394c2541755a98940ef6cd9",
+    "execution-release-2026-10-07/financial_engine.py": "2fa3554d4b1358795d658efefe270ac53f27bbda"
+  },
+  "scope": {
+    "bases": 138,
+    "new_bases": 128,
+    "prior_bases_rechecked": 10,
+    "areas": 61,
+    "project_groups": 122,
+    "held_alternatives": 18,
+    "scenarios_per_base": 24,
+    "evaluations": 3330,
+    "old_narrow_nonnegative": 56,
+    "new_narrow_nonnegative": 56,
+    "old_annual_nonnegative": 5,
+    "new_annual_nonnegative": 4,
+    "renewal_annual_nonnegative": 19,
+    "gross6": 40,
+    "old_flat_profit_nonnegative": 1,
+    "new_flat_profit_nonnegative": 1,
+    "target_profit_nonnegative": 129,
+    "target_profit_negative": 9,
+    "annual_improved": 17,
+    "annual_deteriorated": 121,
+    "deploy": 0,
+    "remaining_base_replay": 0,
+    "j3_profit_nonnegative": 0,
+    "pair_annual_leader_changes": 5,
+    "pair_rent_rank_reversals": 18
+  },
+  "checks": {
+    "passed": 28578,
+    "evaluations": 3330,
+    "boundary": "Arithmetic, source bridge and event checks; not empirical market validation."
+  },
+  "prior_priority_parity": {
+    "evaluations": 238,
+    "numeric_comparisons": 21842,
+    "status": "passed; first10and18held unchanged"
+  },
+  "historical_reference_parity": {
+    "rows": 138,
+    "rounded_field_comparisons": 414,
+    "tolerance": 0.51,
+    "status": "passed; current90/4/35historical reference, not raw legacy source outputs"
+  },
+  "new_files": [
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Inputs.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/financial_model.cjs",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/validate.cjs",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/B01_Results.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/B02_Results.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/B03_Results.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/B04_Results.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/B05_Results.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/B06_Results.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/B07_Results.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/B08_Results.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Held_Alternatives.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/reproduce.cjs",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/README.md",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Full_Case_Register.md",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Cross_Region_Conclusions.md",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Applicability_and_Holds.md",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Sources_and_Method.md",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Verification_Report.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Release_Manifest.json"
+  ],
+  "modified_existing": [
+    "README.md",
+    "CURRENT_WORKFLOW.md"
+  ],
+  "frozen_core_sha": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+  "protected": "Every other baseline blob unchanged. No oldcase/model/config/SOP/map or historical manifest edits.",
+  "publication": "Directmain, expected-headnon-force update; verify tree preservation and remote readback."
+}

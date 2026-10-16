@@ -1,5 +1,16 @@
 # Residential Investment Decision Engine
 
+## Latest whole-programme SOP v2 replay — 16 October 2026
+
+[All138base operating expressions are now recalculated](klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/README.md), including the remaining128requested by the user. Coverage is61catchments/122project groups; zero base replays remain. The first10and18held alternatives reproduce unchanged. Total3,330evaluations include24paths per base plus18held alternatives;28,578financial/event checks passed.
+
+The narrow monthly standard remains56nonnegative. Annual cash after explicit commission/repairs is nonnegative in4bases, all materially held. Continuous same-tenant renewal gives19nonnegative scenarios, not an adopted retention forecast. At the selected20%year5target129bases show nominal profit and9loss; flat-price profit remains positive only in quarantined Centrestage. All138retain G0 STOP / G9 Defer, zero Deploy.
+
+[Full financial register](klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Full_Case_Register.md), [cross-region conclusions](klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Cross_Region_Conclusions.md) and [applicability/holds](klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Applicability_and_Holds.md) replace earlier incomplete replay counts. This is a dated-input parameter replay, not a new listing survey, every historical branch replay or actual portfolio allocation. Core/SOP/map and all previous research files remain unchanged.
+
+Next investment-readiness boundary is targeted exact-unit evidence, achieved rents/retention, fees/works, actual financing and exit support. No further Red Team answer is pending for this completed numeric replay. No background process, outreach or purchase is running or authorised by this release.
+
+
 ## Latest SOP v2 priority replay — 16 October 2026
 
 The user authorised starting the existing-candidate replay. [Ten priority bases and eighteen held alternatives](klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/README.md) have now been recalculated under SOPv2:238evaluations and2,048financial/event checks. Nine bases cover narrow monthly payments; only Arc retains positive annual cash (about610before U). All ten are positive at the selected20%year5target and negative at flat-price exit. This is a parameter replay using dated market inputs, not new verified rent/value evidence.
