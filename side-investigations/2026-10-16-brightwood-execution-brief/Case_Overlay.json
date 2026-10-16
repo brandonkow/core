@@ -1,0 +1,48 @@
+{
+  "release": "BW-EXECUTION-BRIEF-2026-10-16",
+  "parent_commit": "07d9a54b50a9bee285e4219252cfefedff676580",
+  "authority": "Latest user instruction: assume one car park for all active Brightwood expressions",
+  "scope": [
+    "B standard",
+    "D standard"
+  ],
+  "parking": {
+    "B": {
+      "total_bays_per_purchased_parcel": 1,
+      "per_component_bays": null,
+      "provisional_allocation": "One bay to the two-bedroom tenancy; master-suite tenancy advertised without a bay. Analyst operating draft, not a confirmed user allocation."
+    },
+    "D": {
+      "total_bays_per_purchased_parcel": 1,
+      "per_component_bays": null,
+      "provisional_allocation": "One side receives the one bay, other side has none; allocation by tenancy schedule remains open."
+    }
+  },
+  "rent": {
+    "B": [
+      1200,
+      2000
+    ],
+    "D": [
+      1500,
+      1500
+    ],
+    "unchanged": true,
+    "parking_premium_added": 0
+  },
+  "costs": {
+    "extra_bay_purchase": 0,
+    "extra_bay_rent": 0,
+    "extra_bay_income": 0,
+    "fitout_B": 24975,
+    "fitout_D": 24795
+  },
+  "boundaries": [
+    "One bay per entire purchased parcel, not one per rental side",
+    "No actual two-bay stock search or price-to-bay pairing required for this assumed case",
+    "No universal parking SOP change",
+    "No exact unit, approval or contractor quote invented",
+    "Unallocated bays in draft do not mean two tenants may both claim the same bay"
+  ],
+  "financial_effect": "No numerical change: prior model already had no separately priced extra bay or parking revenue. Tenant willingness to pay remains an evidence question."
+}

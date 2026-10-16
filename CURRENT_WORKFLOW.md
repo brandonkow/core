@@ -1,5 +1,14 @@
 # Current workflow and continuation
 
+## Latest Brightwood execution brief — one bay per parcel
+
+The user's latest instruction fixes both B and D at **one total parking bay per purchased parcel**. [Current execution brief](side-investigations/2026-10-16-brightwood-execution-brief/README.md) records this overlay, preserves rents and numerical bases, and prepares a concrete B master-suite/two-bedroom operation and quotation checklist. Provisional bay allocation to B's two-bedroom household is an analyst draft, not a second confirmed instruction.
+
+The supplied price sheet is a type-level range, not unit-by-unit availability. Price-only diagnostics now show annual cash neutrality near gross565,725at rent3,200before unknown bills; this is not a maximum-bid rule. No two-bay search or parking premium is active.24price evaluations,4base parity comparisons and77checks accompany the packet.
+
+The approved measured split, actual contractor quote, contractual fee coverage and exact offer have not been obtained. G0 STOP / G4 not cleared / G9 Defer remains. Core/SOP/map and historical releases unchanged. No further rent/parking calibration reply or background work is pending.
+
+
 ## Latest Brightwood follow-up — B execution and rental alternatives
 
 The [bounded B execution check](side-investigations/2026-10-16-brightwood-b-execution-check/README.md) visually re-examines the supplied plan, checks four direct rental advertisements and records excluded stale/inconsistent leads. The plan supports a plausible master-suite plus two-bedroom arrangement but does not show a second private kitchen; actual design/approval/services and fee coverage remain unresolved. No new rental value is adopted.

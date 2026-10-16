@@ -1,0 +1,31 @@
+{
+  "release": "BW-EXECUTION-BRIEF-2026-10-16",
+  "parent_commit": "07d9a54b50a9bee285e4219252cfefedff676580",
+  "base_tree": "b4eb5d0280be848c989bed5ba563a4291155604b",
+  "branch": "main",
+  "new_files": [
+    "side-investigations/2026-10-16-brightwood-execution-brief/Case_Overlay.json",
+    "side-investigations/2026-10-16-brightwood-execution-brief/B_Operating_Brief.md",
+    "side-investigations/2026-10-16-brightwood-execution-brief/Price_and_Cost_Envelope.md",
+    "side-investigations/2026-10-16-brightwood-execution-brief/README.md",
+    "side-investigations/2026-10-16-brightwood-execution-brief/Calculations.json",
+    "side-investigations/2026-10-16-brightwood-execution-brief/reproduce.js",
+    "side-investigations/2026-10-16-brightwood-execution-brief/Release_Manifest.json"
+  ],
+  "modified_existing": [
+    "README.md",
+    "CURRENT_WORKFLOW.md"
+  ],
+  "preservation": "All other existing blobs preserved; compare entire trees before main advancement.",
+  "price_pdf_sha256": "2048781060b9f1b0ec4d4968c674b4967bc80b42c4a609d733a90ab38f0b7594",
+  "validation": {
+    "passed": 77,
+    "checks": 77,
+    "price_diagnostics": 24,
+    "parking_parity_comparisons": 4
+  },
+  "source_boundary": "Supplied type-level price file visually checked; one-bay allocation is user assumption; no actual quote or approved design obtained",
+  "case_overlay": "One bay per parcel B/D; no financial baseline change",
+  "permanent_rules_changed": false,
+  "publication": "Remote verification reported in delivery response after commit."
+}
