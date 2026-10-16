@@ -1,0 +1,36 @@
+{
+  "release": "KV-V2-PRIORITY-REPLAY-2026-10-16",
+  "baseline": "24b305a7c1ce26b6da116ff0bf23474663150497",
+  "base_tree": "e7afcd98f2f3818e400d9077470cfc63daee18dc",
+  "scope": {
+    "bases": 10,
+    "held_alternatives": 18,
+    "evaluations": 238,
+    "checks": 2048,
+    "remaining_bases": 128,
+    "deploy": 0
+  },
+  "source_blobs": {
+    "klang-valley-2026-10-07/round-3/programme-final/Inputs.json": "c892fe220959f8d74d54d7c6f54cf14bfdd91c43",
+    "klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/Decision_Sheet.json": "3c8b4f693e936eb9247ed5be5cdadb1507b0cb1e",
+    "sop/Financial_Execution_Parameters_v2.json": "a5bc8732f53ae0cc03e9b3152fa1297cea0b718b",
+    "Residential_Investment_Framework.md": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e"
+  },
+  "new_files": [
+    "klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/README.md",
+    "klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/Inputs.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/Results.json",
+    "klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/financial_model.cjs",
+    "klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/validate.cjs",
+    "klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/reproduce.cjs",
+    "klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/Sources_and_Method.md",
+    "klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/Verification_Report.md",
+    "klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/Release_Manifest.json"
+  ],
+  "modified_current_navigation": [
+    "README.md",
+    "CURRENT_WORKFLOW.md"
+  ],
+  "protected": "Every other pre-existing blob unchanged; frozen Core, SOP, historical studies and map preserved.",
+  "publication": "Expected-head non-force update to main; exact blob verification before update and remote read-back after."
+}

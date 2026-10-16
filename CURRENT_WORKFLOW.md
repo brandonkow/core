@@ -1,5 +1,14 @@
 # Current workflow and continuation
 
+## Latest SOP v2 priority replay — 16 October 2026
+
+The user authorised starting the existing-candidate replay. [Ten priority bases and eighteen held alternatives](klang-valley-2026-10-07/round-3/sop-v2-priority-replay-2026-10-16/README.md) have now been recalculated under SOPv2:238evaluations and2,048financial/event checks. Nine bases cover narrow monthly payments; only Arc retains positive annual cash (about610before U). All ten are positive at the selected20%year5target and negative at flat-price exit. This is a parameter replay using dated market inputs, not new verified rent/value evidence.
+
+Existing research priorities remain Eve/privacy, Pines/family retention and Zeva/captured demand, with their challengers. Same-tenant renewal is a material diagnostic, not an adopted retention forecast. All cases remain G0 STOP / G9 Defer. Core/SOP/map and historical files are unchanged.
+
+Replay coverage is10of138programme bases;128remain to be recalculated. The historical61-catchment desk programme remains complete. Next numeric step: remaining-base replay with lifecycle, input-quarantine and cost applicability, then whole-universe comparison. No background job, new Red Team question, outreach or purchase is pending.
+
+
 ## Current financial SOP — 16 October 2026 v2
 
 The user explicitly authorised reusable parameter adoption. Apply [Financial execution SOP v2](sop/Financial_Execution_SOP_v2.md) and [current parameter register](sop/Financial_Execution_Parameters_v2.json) to new or materially reopened underwriting. They supersede conflicting inherited financial presets, including blanket cost allowances and older synthetic stress settings. [Adoption and full parameter dispositions](execution-release-2026-10-16/Release_Record.md) distinguish standard assumptions, planning defaults, target scenarios and project-only inputs.
