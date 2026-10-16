@@ -1,0 +1,636 @@
+{
+  "version": "KV-SOP-FIN-2026-10-16-v2",
+  "date": "2026-10-16",
+  "baseline_commit": "53be4a5e72e0663dbf7a2121ea8665481d751bd0",
+  "baseline_tree": "60dce70462d6e6829fee767bc28216f4b68c688e",
+  "boundary": "SOP/configuration and preservation checks only; no historical financial replay, empirical validation or case admission.",
+  "checks_count": 153,
+  "passed": 153,
+  "checks": [
+    {
+      "name": "base tree complete",
+      "pass": true
+    },
+    {
+      "name": "all 28 P dispositions unique",
+      "pass": true
+    },
+    {
+      "name": "all 24 S dispositions",
+      "pass": true
+    },
+    {
+      "name": "exact removed stress list",
+      "pass": true
+    },
+    {
+      "name": "90 4 35 unchanged",
+      "pass": true
+    },
+    {
+      "name": "25 basis point units",
+      "pass": true
+    },
+    {
+      "name": "target20 not compound21",
+      "pass": true
+    },
+    {
+      "name": "stress anchored nett",
+      "pass": true
+    },
+    {
+      "name": "no growth base",
+      "pass": true
+    },
+    {
+      "name": "no project fee rebate timeline",
+      "pass": true
+    },
+    {
+      "name": "no blanket acquisition or total disposal",
+      "pass": true
+    },
+    {
+      "name": "60 month calendar55 receipts",
+      "pass": true
+    },
+    {
+      "name": "persistent crisis50 receipts",
+      "pass": true
+    },
+    {
+      "name": "crisis10 receipts9 equivalents",
+      "pass": true
+    },
+    {
+      "name": "sale delay60 to66",
+      "pass": true
+    },
+    {
+      "name": "future buyer distinct",
+      "pass": true
+    },
+    {
+      "name": "S21 no deleted added",
+      "pass": true
+    },
+    {
+      "name": "source mappings corrected",
+      "pass": true
+    },
+    {
+      "name": "English artifact sop/Financial_Execution_SOP_v2.md",
+      "pass": true
+    },
+    {
+      "name": "link sop/Financial_Execution_SOP_v2.md -> Residential_Investment_Framework.md",
+      "pass": true
+    },
+    {
+      "name": "link sop/Financial_Execution_SOP_v2.md -> sop/Approved_Execution_Supplement.md",
+      "pass": true
+    },
+    {
+      "name": "link sop/Financial_Execution_SOP_v2.md -> execution-release-2026-10-07/Decision_Execution_Standard.md",
+      "pass": true
+    },
+    {
+      "name": "link sop/Financial_Execution_SOP_v2.md -> sop/Financial_Execution_Parameters_v2.json",
+      "pass": true
+    },
+    {
+      "name": "English artifact sop/Financial_Execution_Parameters_v2.json",
+      "pass": true
+    },
+    {
+      "name": "English artifact execution-release-2026-10-16/Release_Record.md",
+      "pass": true
+    },
+    {
+      "name": "link execution-release-2026-10-16/Release_Record.md -> sop/Financial_Execution_SOP_v2.md",
+      "pass": true
+    },
+    {
+      "name": "link execution-release-2026-10-16/Release_Record.md -> sop/Financial_Execution_Parameters_v2.json",
+      "pass": true
+    },
+    {
+      "name": "link execution-release-2026-10-16/Release_Record.md -> side-investigations/2026-10-16-brightwood-stress-replay/SOP_Promotion_Assessment.md",
+      "pass": true
+    },
+    {
+      "name": "link execution-release-2026-10-16/Release_Record.md -> side-investigations/2026-10-16-brightwood-stress-replay/Inputs.json",
+      "pass": true
+    },
+    {
+      "name": "link execution-release-2026-10-16/Release_Record.md -> side-investigations/2026-10-16-brightwood-stress-replay/Stress_Register.md",
+      "pass": true
+    },
+    {
+      "name": "link execution-release-2026-10-16/Release_Record.md -> side-investigations/2026-10-16-brightwood-execution-brief/Case_Overlay.json",
+      "pass": true
+    },
+    {
+      "name": "link execution-release-2026-10-16/Release_Record.md -> execution-release-2026-10-16/Validation_Report.json",
+      "pass": true
+    },
+    {
+      "name": "English artifact README.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> sop/Financial_Execution_SOP_v2.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> sop/Financial_Execution_Parameters_v2.json",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> execution-release-2026-10-16/Release_Record.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-16-brightwood-execution-brief/README.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-16-brightwood-b-execution-check/README.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-16-brightwood-stress-replay/README.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-16-brightwood-stress-replay/Stress_Register.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-16-brightwood-stress-replay/Financial_Underwriting.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-16-brightwood-stress-replay/Three_Stage_Review.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-16-brightwood-stress-replay/SOP_Promotion_Assessment.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-16-brightwood-calibration-r2/README.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-16-brightwood-calibration-r2/Parameter_Calibration.json",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-16-brightwood-calibration-r2/Cost_and_Billing_Research.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> visualization/VERIFICATION_2026-10-08.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> visualization/VERIFICATION_2026-10-07.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> CURRENT_WORKFLOW.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/programme-final/Map_Assessment_2026-10-11.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-15-brightwood-three-stage/README.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-15-brightwood-three-stage/Review_Status.json",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-15-brightwood-three-stage/Financial_Underwriting.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-15-brightwood-three-stage/Stage_3_Decision_and_Continuation.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> Residential_Investment_Framework.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> execution-release-2026-10-07/Release_Record.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> execution-release-2026-10-07/Decision_Execution_Standard.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> execution-release-2026-10-07/financial_config.json",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> execution-release-2026-10-07/Financial_Replay.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> execution-release-2026-10-07/Case_Replay_and_Investigation_Plan.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> execution-release-2026-10-07/Validation_Report.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> execution-release-2026-10-07/Regional_Underwriting_Protocol.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> sop/Approved_Execution_Supplement.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> sop/Founder_QA_Approval_Register.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/README.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> side-investigations/2026-10-11-brightwood/PAUSED_CONTINUATION.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/README.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> Evidence_Judgment_Divergence_Integration_Audit.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> Framework_Integrity_Manifest.json",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> phase-7/README.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/programme-final/Case_and_Area_Register.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/programme-final/Financial_Underwriting.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/programme-final/Portfolio_and_Terminal_Risk.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/programme-final/Programme_Completion_Audit.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/programme-final/Verification_Report.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/programme-final/RESUME_AND_COMPLETION.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/programme-final/Map_Assessment_2026-10-11.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> CURRENT_WORKFLOW.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-3/README.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-2/All_Catchment_Review.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-2/All_Catchment_Coverage.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-2/Financial_Underwriting.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-2/Divergence_and_Misses.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/round-2/Validation_Report.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> sop/Layout_Neutral_Regional_Sampling.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/layout-expansion/Scope_Clarification.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/Programme_Review.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/Regional_Coverage.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/Selected_Case_Workpapers.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/Evidence_Register.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/Financial_Underwriting.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> klang-valley-2026-10-07/Divergence_and_Misses.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> cheras/Cheras_Regional_Underwriting.md",
+      "pass": true
+    },
+    {
+      "name": "link README.md -> cheras/Cheras_Approved_Baseline_Bridge.md",
+      "pass": true
+    },
+    {
+      "name": "English artifact CURRENT_WORKFLOW.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> sop/Financial_Execution_SOP_v2.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> sop/Financial_Execution_Parameters_v2.json",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> execution-release-2026-10-16/Release_Record.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-16-brightwood-execution-brief/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-16-brightwood-b-execution-check/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-16-brightwood-stress-replay/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-16-brightwood-stress-replay/Stress_Register.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-16-brightwood-stress-replay/Financial_Underwriting.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-16-brightwood-stress-replay/Three_Stage_Review.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-16-brightwood-stress-replay/SOP_Promotion_Assessment.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-16-brightwood-calibration-r2/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-16-brightwood-calibration-r2/Parameter_Calibration.json",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-16-brightwood-calibration-r2/Cost_and_Billing_Research.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-15-brightwood-three-stage/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-15-brightwood-three-stage/Review_Status.json",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-15-brightwood-three-stage/Financial_Underwriting.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-15-brightwood-three-stage/Stage_3_Decision_and_Continuation.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/red-team-questionnaire-2026-10-13/Coverage_and_Review_Audit.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/Review_Hold.json",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/red-team-review-2026-10-15/Question_Dispositions.json",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/red-team-integration-2026-10-14/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/programme-final/Cross_Region_Comparison.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/programme-final/Case_and_Area_Register.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/programme-final/Programme_Completion_Audit.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/programme-final/Verification_Report.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/programme-final/RESUME_AND_COMPLETION.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/programme-final/Map_Assessment_2026-10-11.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/programme-final/Post_Completion_Verification_2026-10-11.json",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Judgment_and_Hypotheses.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/Case_Status_Overlays.json",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/market-judgment-2026-10-11/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> side-investigations/2026-10-11-brightwood/PAUSED_CONTINUATION.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/privacy-validation-2026-10-12/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/family-validation-2026-10-12/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/investor-exit-validation-2026-10-13/Three_Hypothesis_Checkpoint.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/README.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/input-anomaly-validation-2026-10-13/Continuation_Checkpoint.md",
+      "pass": true
+    },
+    {
+      "name": "link CURRENT_WORKFLOW.md -> klang-valley-2026-10-07/round-3/ten-case-decision-sheet-2026-10-13/README.md",
+      "pass": true
+    },
+    {
+      "name": "English artifact AGENTS.md",
+      "pass": true
+    },
+    {
+      "name": "English artifact sop/Approved_Execution_Supplement.md",
+      "pass": true
+    },
+    {
+      "name": "link sop/Approved_Execution_Supplement.md -> sop/Financial_Execution_SOP_v2.md",
+      "pass": true
+    },
+    {
+      "name": "link sop/Approved_Execution_Supplement.md -> sop/Financial_Execution_Parameters_v2.json",
+      "pass": true
+    },
+    {
+      "name": "link sop/Approved_Execution_Supplement.md -> execution-release-2026-10-16/Release_Record.md",
+      "pass": true
+    },
+    {
+      "name": "link sop/Approved_Execution_Supplement.md -> sop/Founder_QA_Approval_Register.md",
+      "pass": true
+    },
+    {
+      "name": "link sop/Approved_Execution_Supplement.md -> execution-release-2026-10-07/Decision_Execution_Standard.md",
+      "pass": true
+    },
+    {
+      "name": "preserve existing text README.md",
+      "pass": true
+    },
+    {
+      "name": "preserve existing text CURRENT_WORKFLOW.md",
+      "pass": true
+    },
+    {
+      "name": "preserve existing text sop/Approved_Execution_Supplement.md",
+      "pass": true
+    },
+    {
+      "name": "preserve AGENTS existing",
+      "pass": true
+    },
+    {
+      "name": "only four existing entrypoints",
+      "pass": true
+    },
+    {
+      "name": "master protected",
+      "pass": true
+    }
+  ],
+  "planned_changed_existing": [
+    "README.md",
+    "CURRENT_WORKFLOW.md",
+    "AGENTS.md",
+    "sop/Approved_Execution_Supplement.md"
+  ],
+  "planned_new_files": [
+    "sop/Financial_Execution_SOP_v2.md",
+    "sop/Financial_Execution_Parameters_v2.json",
+    "execution-release-2026-10-16/Release_Record.md",
+    "execution-release-2026-10-16/Validation_Report.json"
+  ],
+  "publication": "Create tree from baseline; verify all other blobs unchanged before guarded main update; verify read-back after publication."
+}

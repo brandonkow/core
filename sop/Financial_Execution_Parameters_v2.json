@@ -1,0 +1,221 @@
+{
+  "version": "KV-SOP-FIN-2026-10-16-v2",
+  "effective_date": "2026-10-16",
+  "currency": "MYR",
+  "authority": "Explicit user instruction to promote all reusable, non-project-specific calibrated parameters into current SOP. User-selected execution defaults, not empirical validation.",
+  "scope": "New or materially reopened Malaysian residential underwriting; lifecycle and operating-form applicability must be declared.",
+  "schema": "Declarative SOP parameter register, not a drop-in input for historical case models. Future adapters must map fields explicitly and validate results.",
+  "precedence": "Frozen Core and G0-G9 unchanged. This version supersedes conflicting inherited financial presets for future work only; evidence-supported actual terms are shown separately.",
+  "standard": {
+    "ltv": 0.9,
+    "annual_rate": 0.04,
+    "amortisation_years": 35,
+    "preferred_gross_yield": 0.06,
+    "launch_debt_basis": "Gross contracted price reference; actual lender valuation and rebate treatment verified separately.",
+    "resale_debt_basis": "Agreed acquisition price reference; actual valuation/LTV separately.",
+    "yield_basis": "Effective nett consideration excluding unreceived or conditional incentives.",
+    "coverage": "Monthly parcel rent less full principal-and-interest instalment less management fee; identify combined sinking charges."
+  },
+  "base": {
+    "rent_growth_construction": 0,
+    "rent_growth_operation": 0,
+    "fitout_months": 1,
+    "marketing_concurrent": true,
+    "initial_void_months": 1,
+    "lease_months": 12,
+    "turnover_void_months": 1,
+    "new_tenant_commission_rent_months": 1,
+    "renewal_commission_rent_months": 0.5,
+    "annual_repairs_rent_months": 0.5,
+    "unitemised_other_allowance": 0,
+    "tenant_paid_utilities": [
+      "electricity",
+      "water",
+      "internet"
+    ],
+    "extra_parking_revenue": 0,
+    "fitout_fraction_nett": 0.05,
+    "furniture_exit_addon": 0,
+    "management_fee_psf": null,
+    "new_launch_fee_reference_flat_months": 24,
+    "base_fee_growth_assumption": 0,
+    "construction_months": null,
+    "average_draw_fraction_planning_proxy": 0.5,
+    "interest_subsidy_credit": 0,
+    "amortisation_start_convention": "Handover for construction-period interest-only planning; actual lender maturity separately.",
+    "rebate_fraction": null,
+    "rebate_offsets_deposit": null,
+    "cash_downpayment": null,
+    "hold_months_from_handover": 60,
+    "completed_property_clock": "Completion/possession; no artificial construction delay.",
+    "sale_agent_fraction": 0.03,
+    "acquisition_blanket_allowance": null,
+    "sale_all_in_allowance": null,
+    "extraordinary_levy_base": 0,
+    "personal_income_tax_included": false,
+    "final_RPGT_included": false,
+    "professional_service_tax_rate": null,
+    "unknown_cost_residual": "U, separately disclosed, never asserted zero.",
+    "cashflow_timing": "Monthly event ledger; actual fee/payment dates where available."
+  },
+  "targets": {
+    "year3_month": 36,
+    "year3_nett_multiplier": 1.1,
+    "year5_month": 60,
+    "year5_nett_multiplier": 1.2,
+    "status": "User-selected target scenario, not verified forecast, guaranteed floor or automatic investment pass.",
+    "flat_exit_diagnostic_multiplier": 1,
+    "automatic_growth_credit_for_higher_entry": false,
+    "reference_future_buyer_gross_yield": 0.06
+  },
+  "stress": {
+    "S1": {
+      "rate_change_percentage_points": 0.25,
+      "up_rate": 0.0425,
+      "down_rate": 0.0375,
+      "events_in_test": 1,
+      "persist_until_sale": true,
+      "timing": "At handover for planning base; first-draw bound for new launches. Existing holdings: at stress start.",
+      "frequency_claim": false,
+      "maximum_possible_rate_claim": false
+    },
+    "S2": {
+      "initial_amortisation_years": [
+        31,
+        25
+      ]
+    },
+    "S3": {
+      "launch_valuation_basis": "Gross reference, not lender guarantee.",
+      "resale_valuation_haircut": 0.1,
+      "applies_to": "Actual acquisition financing or future resale buyer as applicable; keep separate from seller sale price."
+    },
+    "S4": {
+      "delay_months": 12,
+      "example_base48_total60": "Translate approved delay to case-specific completion baseline; 60 is not a universal construction period."
+    },
+    "S5": {
+      "status": "removed_default",
+      "risk": "Alternative draw-shape stress"
+    },
+    "S6": {
+      "status": "removed_default",
+      "risk": "Automatic rebate-failure/deposit-bridge stress"
+    },
+    "S7": {
+      "rent_multiplier": 0.8,
+      "duration": "Entire operating hold"
+    },
+    "S8": {
+      "potential_months": 12,
+      "void_months": 2,
+      "received_months": 10,
+      "commission_rent_months": 1,
+      "net_rent_equivalent_months": 9,
+      "timing": "One initial crisis lease-up; persistent two-month replacement void shown separately as duration bound."
+    },
+    "S9": {
+      "status": "removed_default",
+      "risk": "One income component at zero for the entire hold"
+    },
+    "S10": {
+      "status": "removed_default",
+      "risk": "Entire first operating year at zero"
+    },
+    "S11": {
+      "status": "removed_default",
+      "risk": "First year with only six paid months"
+    },
+    "S12": {
+      "fee_flat_months": 24,
+      "annual_fee_growth_after": 0.05,
+      "starting_fee": "Case-specific charge, no universal psf"
+    },
+    "S13": {
+      "status": "removed_default",
+      "risk": "Arbitrary other-expense shock"
+    },
+    "S14": {
+      "status": "removed_default",
+      "risk": "Invented special-levy stress"
+    },
+    "S15": {
+      "additional_fitout_cost": 10000
+    },
+    "S16": {
+      "exit_multipliers_nett": [
+        0.9,
+        1.1
+      ],
+      "basis": "Original effective nett entry, not target exit"
+    },
+    "S17": {
+      "sale_delay_months": 6,
+      "total_months_at_standard_hold": 66,
+      "additional_price_growth": 0
+    },
+    "S18": {
+      "seller_costs": "Itemised; no arbitrary blanket extra charge."
+    },
+    "S19": {
+      "future_buyer_ltv": 0.85,
+      "annual_rate": 0.045,
+      "term_years": 30
+    },
+    "S20": {
+      "future_buyer_gross_yield": 0.06,
+      "hard_gate": false
+    },
+    "S21": {
+      "J1": [
+        "S4",
+        "S15",
+        "S1_up",
+        "S12"
+      ],
+      "J2": [
+        "S7",
+        "S8_once",
+        "S16_minus10",
+        "S17"
+      ],
+      "J3": "Union of J1 and J2; no duplicate charges, added arrears, term shock or deleted stresses."
+    },
+    "S22": {
+      "status": "removed_default",
+      "risk": "Synthetic portfolio cash/reserve preset; actual portfolio review retained"
+    },
+    "S23": {
+      "method": "Test supported ordinary whole-parcel fallback for split operation; no invented rent or conversion saving.",
+      "fallback_rent": null
+    },
+    "S24": {
+      "arrears_months": 2,
+      "reletting_void_months": 1,
+      "deposit_recovery_assumed": 0,
+      "scope": "Each income stream separately and synchronous bound when applicable."
+    }
+  },
+  "required_case_inputs": [
+    "Gross/effective nett/confirmed incentives",
+    "Rent per supported operating stream and evidence status",
+    "Area/fee and sinking-fund scope",
+    "Contractual completion timeline",
+    "Parking rights/count/allocation",
+    "Actual financing and subsidy/package evidence",
+    "Works scope/quote",
+    "Current applicable fee/tax schedules and buyer/seller profile",
+    "Unknown cost residual and payment timing",
+    "Actual investor liquidity for allocation"
+  ],
+  "override_protocol": "Retain standard comparison; show authenticated terms and scoped sensitivities separately. Record reason, evidence, old/new value and affected results. Never silently tune to a favourable result.",
+  "not_promoted": [
+    "Project identity, specific layouts and split rents",
+    "One parking bay per parcel",
+    "0.35 psf",
+    "10% rebate and zero deposit as universal terms",
+    "48-month project delivery",
+    "Specific source asking prices, fee invoices/quotes and project ranking",
+    "Automatic G0/G4/G9 clearance"
+  ]
+}

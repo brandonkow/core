@@ -1,5 +1,12 @@
 # Current workflow and continuation
 
+## Current financial SOP — 16 October 2026 v2
+
+The user explicitly authorised reusable parameter adoption. Apply [Financial execution SOP v2](sop/Financial_Execution_SOP_v2.md) and [current parameter register](sop/Financial_Execution_Parameters_v2.json) to new or materially reopened underwriting. They supersede conflicting inherited financial presets, including blanket cost allowances and older synthetic stress settings. [Adoption and full parameter dispositions](execution-release-2026-10-16/Release_Record.md) distinguish standard assumptions, planning defaults, target scenarios and project-only inputs.
+
+Core/G0-G9 and the framework map remain unchanged. Historical reports/configurations retain their original versions and have not been rerun. Brightwood case figures and G0 STOP / G4 not cleared / G9 Defer are unchanged. The earlier no-promotion statements below are dated snapshots, superseded for reusable SOP authority only. No further calibration approval, regional rerun, outreach or deployment is implied.
+
+
 ## Latest Brightwood execution brief — one bay per parcel
 
 The user's latest instruction fixes both B and D at **one total parking bay per purchased parcel**. [Current execution brief](side-investigations/2026-10-16-brightwood-execution-brief/README.md) records this overlay, preserves rents and numerical bases, and prepares a concrete B master-suite/two-bedroom operation and quotation checklist. Provisional bay allocation to B's two-bedroom household is an analyst draft, not a second confirmed instruction.

@@ -1,5 +1,7 @@
 # Approved execution supplement
 
+**Current financial execution notice — 16 October 2026:** Apply [Financial SOP v2](Financial_Execution_SOP_v2.md) and its [parameter register](Financial_Execution_Parameters_v2.json) for new/materially reopened cases. Explicit user approval now adopts reusable numerical defaults and target/stress scenarios. This supersedes conflicting earlier financial settings below, including the historical unapproved status of the5%fit-out reference, ambiguity over launch gross/nett financing and the absence of a standard comparison hold. Existing evidence, field, causality and decision controls remain valid. See [adoption record](../execution-release-2026-10-16/Release_Record.md); old research outputs are not rewritten.
+
 Effective: 6 October 2026. Read alongside the existing master before future underwriting. Authority: the user's explicit approval of the twelve Founder-QA conflict resolutions, with replacement instructions for items 4 and 5. This is an execution supplement, not another framework master, a Core amendment, a G10, or a new capital-decision category.
 
 ## Scope and precedence
