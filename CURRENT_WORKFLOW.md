@@ -1,5 +1,12 @@
 # Current workflow and continuation
 
+## Latest Brightwood follow-up — B execution and rental alternatives
+
+The [bounded B execution check](side-investigations/2026-10-16-brightwood-b-execution-check/README.md) visually re-examines the supplied plan, checks four direct rental advertisements and records excluded stale/inconsistent leads. The plan supports a plausible master-suite plus two-bedroom arrangement but does not show a second private kitchen; actual design/approval/services and fee coverage remain unresolved. No new rental value is adopted.
+
+At unchanged other assumptions and D rent3,000, B's self-paid total-profit ranking reverses near3,026.58combined rent. B annual cash neutrality is3,145.55before unknown owner bills. Twelve diagnostics passed26identity/root checks. B remains first only under the approved3,200split scenario; G0 STOP / G4 not cleared / G9 Defer persists. The public pass is complete; next evidence is specific design/package/matched accommodation, not another broad portal sweep. Core/SOP/map and prior releases unchanged.
+
+
 ## Latest Brightwood update — 16 October completed calibrated replay
 
 The [calibrated stress replay](side-investigations/2026-10-16-brightwood-stress-replay/README.md) completes all approved P1-P28/S1-S24 calculations and the three analytical stage reviews:104evaluations and333arithmetic checks. B at3,200split rent now ranks ahead of D at3,000for conditional research; the historical D-first call is superseded for these revised expressions. At the user's year5 nett+20%target, nominal nine-year profit before unknown costs is B22,912–32,406 / D14,744–24,176 across self-paid versus advertised legal-coverage references. Annual operating cash is B+513/D-1,096before additional bills and later AGM changes.

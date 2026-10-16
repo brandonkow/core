@@ -1,0 +1,146 @@
+{
+  "cases": [
+    {
+      "rents": [
+        1200,
+        2000
+      ],
+      "mode": "self_paid_reference",
+      "total": 3200,
+      "annual_cash": 512.882022463371,
+      "profit": 22912.443351698283,
+      "irr": 0.03544983967697202
+    },
+    {
+      "rents": [
+        1200,
+        2000
+      ],
+      "mode": "advertised_legal_absorption",
+      "total": 3200,
+      "annual_cash": 512.882022463371,
+      "profit": 32406.318351698283,
+      "irr": 0.05575651049332042
+    },
+    {
+      "rents": [
+        1050,
+        2000
+      ],
+      "mode": "self_paid_reference",
+      "total": 3050,
+      "annual_cash": -900.117977536629,
+      "profit": 15847.443351698283,
+      "irr": 0.024658680290885693
+    },
+    {
+      "rents": [
+        1050,
+        2000
+      ],
+      "mode": "advertised_legal_absorption",
+      "total": 3050,
+      "annual_cash": -900.117977536629,
+      "profit": 25341.318351698283,
+      "irr": 0.043768074163343273
+    },
+    {
+      "rents": [
+        1200,
+        1800
+      ],
+      "mode": "self_paid_reference",
+      "total": 3000,
+      "annual_cash": -1371.1179775366277,
+      "profit": 13492.443351697992,
+      "irr": 0.021033098407265305
+    },
+    {
+      "rents": [
+        1200,
+        1800
+      ],
+      "mode": "advertised_legal_absorption",
+      "total": 3000,
+      "annual_cash": -1371.1179775366277,
+      "profit": 22986.31835169799,
+      "irr": 0.039748969078874374
+    },
+    {
+      "rents": [
+        1050,
+        1800
+      ],
+      "mode": "self_paid_reference",
+      "total": 2850,
+      "annual_cash": -2784.117977536628,
+      "profit": 6427.443351697992,
+      "irr": 0.01007376470335375
+    },
+    {
+      "rents": [
+        1050,
+        1800
+      ],
+      "mode": "advertised_legal_absorption",
+      "total": 2850,
+      "annual_cash": -2784.117977536628,
+      "profit": 15921.318351697992,
+      "irr": 0.027627372093904645
+    },
+    {
+      "rents": [
+        1000,
+        1800
+      ],
+      "mode": "self_paid_reference",
+      "total": 2800,
+      "annual_cash": -3255.1179775366254,
+      "profit": 4072.443351697715,
+      "irr": 0.006393907198335658
+    },
+    {
+      "rents": [
+        1000,
+        1800
+      ],
+      "mode": "advertised_legal_absorption",
+      "total": 2800,
+      "annual_cash": -3255.1179775366254,
+      "profit": 13566.318351697715,
+      "irr": 0.02356657168399834
+    },
+    {
+      "rents": [
+        1200,
+        2200
+      ],
+      "mode": "self_paid_reference",
+      "total": 3400,
+      "annual_cash": 2396.8820224633746,
+      "profit": 32332.443351697715,
+      "irr": 0.04963140465207028
+    },
+    {
+      "rents": [
+        1200,
+        2200
+      ],
+      "mode": "advertised_legal_absorption",
+      "total": 3400,
+      "annual_cash": 2396.8820224633746,
+      "profit": 41826.31835169773,
+      "irr": 0.07156914073460952
+    }
+  ],
+  "assumptions": "Diagnostic tests, not newly adopted rents. Keep original calibration and all costs/exit targets fixed.",
+  "slope_profit_per_month_rent": 47.1,
+  "B_total_rent_equal_D_profit": 3026.5797603945193,
+  "B_total_rent_zero_annual": 3145.553925428517,
+  "validation": {
+    "checks": 26,
+    "passed": 26
+  },
+  "baseline_commit": "c2403f4e008988c58de9b12ef91487349fc4b34e",
+  "approved_inputs_changed": false
+}

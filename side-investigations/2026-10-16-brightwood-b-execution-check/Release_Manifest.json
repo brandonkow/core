@@ -1,0 +1,29 @@
+{
+  "release": "BW-B-EXEC-2026-10-16",
+  "parent_commit": "c2403f4e008988c58de9b12ef91487349fc4b34e",
+  "base_tree": "422b8755fbb4c92647094cbf1959d6950a68ce94",
+  "added": [
+    "side-investigations/2026-10-16-brightwood-b-execution-check/README.md",
+    "side-investigations/2026-10-16-brightwood-b-execution-check/Execution_and_Evidence.md",
+    "side-investigations/2026-10-16-brightwood-b-execution-check/Rent_Diagnostics.json",
+    "side-investigations/2026-10-16-brightwood-b-execution-check/rent_diagnostics.js",
+    "side-investigations/2026-10-16-brightwood-b-execution-check/Release_Manifest.json"
+  ],
+  "modified": [
+    "README.md",
+    "CURRENT_WORKFLOW.md"
+  ],
+  "preserved": "Every other existing blob, including the calibrated replay, frozen Core, SOP and map. Complete tree comparison before main update.",
+  "source_pdf_sha256": "313c53da9961bd91b6d0118352d5d17310dece2c2529c096b4feb47f86b76010",
+  "visual_review": "Original saleskit page26 rendered and inspected in RAM; online alternative floorplan not visually inspected due403",
+  "validation": {
+    "financial_evaluations": 12,
+    "independent_checks": 26,
+    "checks_passed": 26,
+    "runtime": "V8 in-memory; supplied CommonJS script replayed with injected require; no local Node CLI execution"
+  },
+  "market_validation": false,
+  "calibration_changed": false,
+  "capital_decision": "Defer",
+  "publication": "Commit and remote readback receipt are reported after publishing, not claimed in advance."
+}
