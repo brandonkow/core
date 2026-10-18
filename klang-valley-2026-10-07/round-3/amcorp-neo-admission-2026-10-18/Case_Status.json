@@ -1,0 +1,82 @@
+{
+  "version": "KV-ADMISSION-2026-10-18",
+  "date": "2026-10-18",
+  "baseline_commit": "5eeaf9e9826de031a4d5c5fd84d053df56cdc8f1",
+  "coverage_delta": 0,
+  "admission_delta": 0,
+  "Deploy": 0,
+  "cases": [
+    {
+      "case_id": "R309",
+      "name": "Amcorp compact",
+      "first_unpassed_gate": "G0",
+      "passed_gate_prefix": [],
+      "G0": "STOP",
+      "G9": "Defer",
+      "work_queue": "Bounded public pass complete; await material parcel-linked evidence",
+      "findings": [
+        "225k old link cannot be treated as current executable offer",
+        "260k sale and1600/1800 rentals are new conditional leads with shared advertiser lineage",
+        "Same-size office and serviced-apartment transaction labels require segregation"
+      ],
+      "next_three": [
+        {
+          "question": "Which exact parcel and price can be acquired?",
+          "needed": "Dated unit-linked seller offer, original title/plan/allowed use, remaining lease, bay schedule, inventory and incentive terms; matched same-component references",
+          "effect": "Resolve identity/normalisation atG0; a generic project label or old median does not suffice"
+        },
+        {
+          "question": "Which income belongs to that permitted parcel and package?",
+          "needed": "Exclusive accommodation scope, ordinary lease/collections, furnishing and bay allocation; no sharing ambiguity",
+          "effect": "Select actual operating assumption and retestG1/G2/G4/G6; current asks remain scenarios"
+        },
+        {
+          "question": "What costs and lending attach to it?",
+          "needed": "Current service/sinking bill, governance/works disclosures, buyer-paid quote and actual valuation/loan terms",
+          "effect": "Recalculate carry and survival; do not invent a minimum remaining-lease lending cutoff"
+        }
+      ]
+    },
+    {
+      "case_id": "R219",
+      "name": "Neo Damansara",
+      "first_unpassed_gate": "G0",
+      "passed_gate_prefix": [],
+      "G0": "STOP",
+      "G9": "Defer",
+      "work_queue": "Bounded public pass complete; prioritise N02 exact-package evidence within this case",
+      "findings": [
+        "210k monthly category is a sale-ad mismatch, not rent",
+        "1399rent is a direct asking lead, not a paid match",
+        "N02 links265knett,1800rent andtwo bays in one advertisement; linkage is still unverified"
+      ],
+      "next_three": [
+        {
+          "question": "Does N02 identify one available transferable parcel?",
+          "needed": "Dated parcel-linked265knett offer, original plan/title/use, two legal usable accessory bays and inventory",
+          "effect": "AdvanceG0investigation; if package differs, withdraw coupled branch"
+        },
+        {
+          "question": "Can the advertised package achieve ordinary1800income?",
+          "needed": "Annual/ordinary lease scope and actual agreed/collected rent, bay inclusion, utilities and tenant task",
+          "effect": "Validate or falsify package income; no automatic uplift for two bays"
+        },
+        {
+          "question": "Are costs and exit references compatible?",
+          "needed": "Current fee/works documents, eligible matched resales with dated condition/bay adjustments and actual lender valuation",
+          "effect": "Normalise clearing range andfundedexit; feeproxy210 is not verified"
+        }
+      ]
+    }
+  ],
+  "Arc": {
+    "case_id": "R353",
+    "action": "Reconciled existing13Octoberstatus only; no fresh market recheck or financial rerun",
+    "first_unpassed_gate": "G0",
+    "G9": "Defer",
+    "requirements": "Unconditional nett seller terms; title/assignment/occupation/GRR release if applicable; matching inventory and ordinary collections",
+    "source": "../input-anomaly-validation-2026-10-13/Case_Status.json"
+  },
+  "programme": "Existing138-base funnel dispositions unchanged; no claim that every future unit is rejected",
+  "Brightwood": "Separate execution holds unchanged"
+}

@@ -1,0 +1,149 @@
+{
+  "as_of": "2026-10-18",
+  "boundary": "Page text and search extracts only. No contacts, inspection, paid data or signed instruments. Retrieval date is not offer validity.",
+  "sources": [
+    {
+      "id": "A01",
+      "case_id": "R309",
+      "url": "https://www.mudah.my/amcorp-mall-suites-below-market-investment-lrt-112365105.htm",
+      "type": "Old advertised sale",
+      "retrieved_on": "2026-10-18",
+      "access": "Search/open and redirect recheck",
+      "observation": "Search/initial open showed 225000,495sf,furnished; subsequent find resolved to the national sale category.",
+      "limitation": "Search cache had relative time; current availability/date not established. Same historical lineage, not independent confirmation. Delisting/redirect does not prove sale.",
+      "use": "Historical scenario only; exclude from executable-offer set"
+    },
+    {
+      "id": "A02",
+      "case_id": "R309",
+      "url": "https://www.iproperty.com.my/property/petaling-jaya/amcorp-serviced-suites/rent-200087434/",
+      "type": "Old rental link",
+      "retrieved_on": "2026-10-18",
+      "access": "Search/open and redirect recheck",
+      "observation": "Initial open title showed1700; later requests redirected to project rental index. Prior packet recorded1600/March2026.",
+      "limitation": "Inconsistent snapshots; no inferred price increase or achieved letting.",
+      "use": "Exclude as refreshed matching lease"
+    },
+    {
+      "id": "A03",
+      "case_id": "R309",
+      "url": "https://www.iproperty.com.my/property/petaling-jaya/amcorp-serviced-suites/sale-502017802/",
+      "type": "Direct sale advertisement",
+      "retrieved_on": "2026-10-18",
+      "access": "Page text",
+      "observation": "260000,495sf,partly furnished,2Sep2026. Body advertises multiple units from260k to350k.",
+      "limitation": "Same advertiser as A04/A05. Exact parcel, bay, rights, availability, inventory and effective terms missing.",
+      "use": "New conditional expression; no normalised value"
+    },
+    {
+      "id": "A04",
+      "case_id": "R309",
+      "url": "https://www.iproperty.com.my/property/petaling-jaya/amcorp-serviced-suites/rent-502005961/",
+      "type": "Direct rental advertisement",
+      "retrieved_on": "2026-10-18",
+      "access": "Page text",
+      "observation": "1600/month,495sf,furnished,one-year lease,31Aug2026. Header Room; body describes service suite.",
+      "limitation": "Whole-parcel exclusivity and same-unit relationship unverified; common covered-parking facility not an allocated bay.",
+      "use": "Ordinary-rent lead, not collections"
+    },
+    {
+      "id": "A05",
+      "case_id": "R309",
+      "url": "https://www.iproperty.com.my/property/petaling-jaya/amcorp-serviced-suites/rent-502017137/",
+      "type": "Direct rental advertisement",
+      "retrieved_on": "2026-10-18",
+      "access": "Page text",
+      "observation": "1800/month,495sf,furnished,one-year lease,2Sep2026; washing machine/dryer mentioned; header Room.",
+      "limitation": "Same advertiser/marketing lineage as A03/A04, not three independent units; scope and bay unresolved.",
+      "use": "Upper asking sensitivity only"
+    },
+    {
+      "id": "A06",
+      "case_id": "R309",
+      "url": "https://list.my/subsales/selangor/petaling/bandar-petaling-jaya/amcorp-mall",
+      "type": "Published transaction aggregator",
+      "retrieved_on": "2026-10-18",
+      "access": "Page text",
+      "observation": "495sf record315000/Jul2024/level11 labelledOffice;495sf320000/Oct2023/level23 labelledServiced Apt. Index mixes retail,office and serviced categories.",
+      "limitation": "Publisher attributes NAPIC; underlying instruments not inspected. Dated/unadjusted and not a current matched clearing interval.",
+      "use": "Exclude aggregate median; retain component-specific leads for verification"
+    },
+    {
+      "id": "A07",
+      "case_id": "R309",
+      "url": "https://www.myrumahbaru.com/subsale/amcorp-serviced-suites-3-5",
+      "type": "Search-extracted transaction lead",
+      "retrieved_on": "2026-10-18",
+      "access": "Search extract only",
+      "observation": "Reported495sf May2024 prices278000 and310000,March2024 price280000.",
+      "limitation": "Historical secondary source, no underlying parcel records/normalisation. No proof of independent lineage from other transaction publishers.",
+      "use": "Do not use old price spread to certify225k discount"
+    },
+    {
+      "id": "A08",
+      "case_id": "R309",
+      "url": "https://www.auctionnetwork.com.my/index.php?property_id=311513&route=property%2Fproperty",
+      "type": "Auction lead access attempt",
+      "retrieved_on": "2026-10-18",
+      "access": "Search plus landing-page open",
+      "observation": "Search described495sf Menara Melawangi service suite; opening returned general member/platform landing page.",
+      "limitation": "No proclamation, conditions, title, event price or sold result obtained. No paywall bypass/purchase.",
+      "use": "No valuation/rights credit"
+    },
+    {
+      "id": "N01",
+      "case_id": "R219",
+      "url": "https://www.iproperty.com.my/property/petaling-jaya/neo-damansara/rent-502051789/",
+      "type": "Misclassified listing",
+      "retrieved_on": "2026-10-18",
+      "access": "Page text",
+      "observation": "Header210000/month; body describes421sf furnished studios for sale and multiple units;9Sep2026.",
+      "limitation": "Interpret as a sale lead, never rental income. Price-to-parcel and financing/promotion conditions unresolved; bays unspecified.",
+      "use": "210k diagnostic branch only"
+    },
+    {
+      "id": "N02",
+      "case_id": "R219",
+      "url": "https://www.propertyguru.com.my/property-listing/neo-damansara-for-rent-by-bryan-peng-502033120",
+      "type": "Single-advertisement sale/rent lead",
+      "retrieved_on": "2026-10-18",
+      "access": "Page text",
+      "observation": "Header1800/month,421sf,furnished,5Sep2026; body states265000nett sale, renovated and two bays.",
+      "limitation": "Stronger advertised package linkage than cross-ad stitching, but not proof of same available parcel or signed rent. Bay rights, exact inventory, fee and lease term unverified.",
+      "use": "Priority within Neo package-authentication task; not purchase ranking"
+    },
+    {
+      "id": "N03",
+      "case_id": "R219",
+      "url": "https://www.iproperty.com.my/bm/properti/petaling-jaya/neo-damansara/rent-502048892/",
+      "type": "Direct rental advertisement",
+      "retrieved_on": "2026-10-18",
+      "access": "Page text",
+      "observation": "1399/month,421sf,studio,furnished,8Sep2026; advertiser claims actual vacant unit.",
+      "limitation": "Claims not inspected; headerBilik/Room and unspecifiedbay/term prevent automatic match toN01 or old220k sale.",
+      "use": "Supports asking lineage only; old model unchanged"
+    },
+    {
+      "id": "N04",
+      "case_id": "R219",
+      "url": "https://www.propertyguru.com.my/bm/kondo-dijual/sekitar-neo-damansara-kwhtg/harga-dibawah-rm-400k",
+      "type": "Search-extracted sale index",
+      "retrieved_on": "2026-10-18",
+      "access": "Search extract only",
+      "observation": "220000,421sf,one bay,29Jun2026 indexed alongside other size/price offers.",
+      "limitation": "Dated index not current offered parcel; do not substitute483/521sf alternatives.",
+      "use": "Historical220k remains unverified"
+    },
+    {
+      "id": "N05",
+      "case_id": "R219",
+      "url": "https://www.brickz.my/transactions/residential/non-landed/page/130/",
+      "type": "Search-extracted project aggregate",
+      "retrieved_on": "2026-10-18",
+      "access": "Search extract only",
+      "observation": "Neo project-level service-residence median/transaction count shown.",
+      "limitation": "No exact like-unit evidence obtained; mixed unit sizes, timing and rights not normalised.",
+      "use": "No G0 interval derived"
+    }
+  ]
+}

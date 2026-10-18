@@ -1,0 +1,8 @@
+{
+  "checks": 220,
+  "passed": true,
+  "meaning": "Arithmetic, event and source-baseline parity only; no gate admission",
+  "method": "Executed reproduce.cjs in memory with filesystem/path adapter over exact staged JSON and unchanged financial model; 18 replay comparisons, independent cash/debt checks and two roots",
+  "source_model_blob": "1554e72296b9abd455946906e5a48daeff2b7a16",
+  "native_node_run": false
+}

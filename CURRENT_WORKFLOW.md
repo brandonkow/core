@@ -1,5 +1,14 @@
 # Current workflow and continuation
 
+## Latest admission review — 18 October 2026
+
+The user resumed research. [Amcorp and Neo bounded public reviews](klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/README.md) are complete, with 18 conditional evaluations and 220 calculation checks. Both remain **G0 STOP / G9 Defer**; no base inputs or admission counts changed. [Current continuation](klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/RESUME.md) and [concrete evidence-access plan](klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/Evidence_Access_Plan.md) supersede the earlier usage pause and the pending Amcorp/Neo public-search steps.
+
+Amcorp's old 225k link redirected; the new 260k sale and 1,600/1,800 rentals remain unpaired advertised expressions. Neo's single advertisement links 265k nett, 1,800 rent and two bays, warranting exact-package authentication. Arc's existing evidence stop was reconciled, with no fresh Arc market or financial pass. The numeric-outlier public queue now has recorded dispositions; repeat portal sweeps do not constitute exact-unit validation.
+
+The 138-base replay remains complete, zero Deploy. Brightwood execution, final unit/actual portfolio admission and later outcome validation remain open. Existing Eve/Pines/Zeva research priorities, Core/SOP/map and all historical records are preserved. No outreach, paid service, purchase or unattended process is authorised or running.
+
+
 ## Latest checkpoint — sequential funnel; paused for usage continuity
 
 The user explicitly requires **sequential funnel admission**, with a progress update at each completed step. [16 October checkpoint](klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/README.md) and [resume instructions](klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/RESUME.md) are current. All138base financial replays are complete; all138still stop atG0,zeroDeploy. Financial56/4/1counts are overlapping diagnostics,not an admission funnel. The [gate register](klang-valley-2026-10-07/round-3/funnel-checkpoint-2026-10-16/Funnel_Register.md) records each first stop and evidence boundary.

@@ -1,0 +1,60 @@
+{
+  "release": "KV-ADMISSION-2026-10-18",
+  "baseline_commit": "5eeaf9e9826de031a4d5c5fd84d053df56cdc8f1",
+  "baseline_tree": "c1eace9d5379740b6f2d82fab2a07de73c8a9784",
+  "modified_existing": [
+    "AGENTS.md",
+    "CURRENT_WORKFLOW.md",
+    "README.md"
+  ],
+  "new_files": [
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/Sources.json",
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/Case_Status.json",
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/Required_Analytical_Fields.json",
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/Diagnostics.json",
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/Findings.md",
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/RESUME.md",
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/Evidence_Access_Plan.md",
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/README.md",
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/Verification_Report.json",
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/reproduce.cjs",
+    "klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/Release_Manifest.json"
+  ],
+  "deleted": [],
+  "source_blobs": [
+    {
+      "path": "Residential_Investment_Framework.md",
+      "sha": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e"
+    },
+    {
+      "path": "sop/Financial_Execution_SOP_v2.md",
+      "sha": "c28628abf3479227ed27ec78b058831918387a4c"
+    },
+    {
+      "path": "sop/Financial_Execution_Parameters_v2.json",
+      "sha": "a5bc8732f53ae0cc03e9b3152fa1297cea0b718b"
+    },
+    {
+      "path": "sop/Funnel_Execution_Reporting_2026-10-16.md",
+      "sha": "d6f2679428c89fa55d564921b20111ae57f18e79"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Inputs.json",
+      "sha": "194dc4a2caa460450d64ce26e90dc3de57883407"
+    },
+    {
+      "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/financial_model.cjs",
+      "sha": "1554e72296b9abd455946906e5a48daeff2b7a16"
+    }
+  ],
+  "validation": {
+    "checks": 220,
+    "passed": true,
+    "meaning": "Arithmetic, event and source-baseline parity only; no gate admission",
+    "method": "Executed reproduce.cjs in memory with filesystem/path adapter over exact staged JSON and unchanged financial model; 18 replay comparisons, independent cash/debt checks and two roots",
+    "source_model_blob": "1554e72296b9abd455946906e5a48daeff2b7a16",
+    "native_node_run": false
+  },
+  "preservation_rule": "Every old blob except three navigation/instruction files must remain identical. No existing SOP/Core/map/financial/historical change.",
+  "market_boundary": "Two bounded public reviews only; no new authenticated parcel, rent, normalised valuation or admission"
+}

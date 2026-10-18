@@ -1,0 +1,41 @@
+{
+  "cases": [
+    "R309",
+    "R219"
+  ],
+  "fields": {
+    "tenant_task": "Exclusive compact for a single/couple or other small household with useful work/access routines; actual tenant mix not measured.",
+    "payer_and_decisionmaker": "Unknown; no nationality, student or third-party-payer premium.",
+    "substitutes": "Same permitted component and accommodation package; compare exclusive compacts and larger whole units by all-in housing budget. Cross-region capital alternatives are not valuation comparables.",
+    "privacy": "Advertised studio/furnishing does not authenticate independent entrance, bathroom/kitchen/laundry exclusivity, noise, unrelated sharing, visitor rules or utilities; approved and actual form remain unknown.",
+    "family_adoption": {
+      "physical_capacity": "Compact potential only",
+      "occupied": "Unknown",
+      "renewed": "Unknown",
+      "owner_adopted": "Unknown"
+    },
+    "rent": {
+      "advertised": "Source ledger",
+      "agreed": "Unknown",
+      "collected": "Unknown",
+      "renewed": "Unknown"
+    },
+    "management": "Current charge bills, service outcomes, reserve funding, arrears and major works unknown. Stable fee/age/marketing claims are not a management grade.",
+    "demand": "Transport and amenity claims do not establish captured demand; no door-to-destination route, tenant concentration or retention distribution authenticated.",
+    "exit": "Financeable investor remains eligible; actual borrower terms and normalised resale references unknown. Owner occupation is not a mandatory alternative.",
+    "hypothesis": "A repeatable ordinary net income may support investor demand at the specified entry, if rights/package and normalised references are validated.",
+    "rival_and_falsifier": "Low price may reflect stale availability, different use/rights, missing bays, work costs or weak transferable income. An ineligible parcel, lower supported rent, higher cost or normalised reference eliminating the supposed gap defeats the preferred explanation.",
+    "divergence": {
+      "flag": false,
+      "reason": "Missing evidence, different packages and model sensitivities do not alone establish material same-proposition evidence/judgment conflict.",
+      "investigation_families": {
+        "data_limitation": "Stale caches, redirects, component/category errors and duplicates",
+        "judgment_bias": "Anchoring on positive annual cash or headline discount",
+        "omitted_variable": "Rights, bay usability, furnishing scope, fees/works and financeability",
+        "structural_change": "No new evidenced demand/management change adopted"
+      }
+    },
+    "uncertainty": "Higher evidence burden and required margin of safety, lower conviction; no arbitrary numeric discount invented."
+  },
+  "note": "Common unresolved fields supplement case-specific evidence and next_three records. They do not replace existing historical G0-G9 workpapers."
+}
