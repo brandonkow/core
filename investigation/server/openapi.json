@@ -1,0 +1,82 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "Core Workspace API",
+    "version": "1.0.0"
+  },
+  "paths": {
+    "/v1/workspace": {
+      "get": {
+        "security": [
+          {
+            "bearer": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Workspace aggregate conforming to contracts.d.ts and runtime validateWorkspace; ETag revision header."
+          },
+          "401": {
+            "description": "Invalid token"
+          }
+        }
+      },
+      "put": {
+        "security": [
+          {
+            "bearer": []
+          }
+        ],
+        "parameters": [
+          {
+            "in": "header",
+            "name": "If-Match",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "description": "Workspace schema version 1, specified in contracts.d.ts and enforced by validateWorkspace."
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Saved aggregate with next ETag"
+          },
+          "400": {
+            "description": "Invalid workspace"
+          },
+          "401": {
+            "description": "Invalid token"
+          },
+          "412": {
+            "description": "Revision conflict"
+          },
+          "413": {
+            "description": "Body exceeds 2 MB"
+          },
+          "428": {
+            "description": "If-Match required"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearer": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    }
+  }
+}

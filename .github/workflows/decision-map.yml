@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'visualization/**'
+      - 'investigation/**'
       - 'Residential_Investment_Framework.md'
       - 'sop/**'
       - 'klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18/**'
@@ -15,6 +16,7 @@ on:
   pull_request:
     paths:
       - 'visualization/**'
+      - 'investigation/**'
       - 'Residential_Investment_Framework.md'
       - 'sop/**'
       - 'klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18/**'
@@ -41,6 +43,8 @@ jobs:
           node-version: '24'
       - name: Verify sources, routing and decision precedence
         run: node visualization/verify.cjs
+      - name: Verify Core investigation domain and API
+        run: node investigation/tests.mjs
       - name: Install browser verification runtime
         run: |
           npm install --prefix "$RUNNER_TEMP/map-smoke" --no-save --package-lock=false playwright@1.62.1
@@ -54,12 +58,24 @@ jobs:
           server_pid=$!
           trap 'kill "$server_pid"' EXIT
           node visualization/browser_smoke.cjs
-      - name: Stage only the map for publication
+      - name: Verify Core investigation interactions
+        env:
+          CORE_TEST_URL: http://127.0.0.1:8789/investigation/
+        run: |
+          export NODE_PATH="$RUNNER_TEMP/map-smoke/node_modules"
+          python3 -m http.server 8789 --bind 127.0.0.1 >/dev/null 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          node investigation/browser-smoke.cjs
+      - name: Stage the map and Core investigation workspace
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |
           mkdir -p _site
           cp visualization/Decision_Engine_Neural_Map.html _site/index.html
           cp visualization/Decision_Engine_Neural_Map.html _site/Decision_Engine_Neural_Map.html
+          mkdir -p _site/investigation
+          cp investigation/index.html investigation/styles.css _site/investigation/
+          cp investigation/app.mjs investigation/scene.mjs investigation/engine.mjs investigation/data.mjs investigation/repository.mjs _site/investigation/
           touch _site/.nojekyll
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'

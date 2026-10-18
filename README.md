@@ -1,5 +1,9 @@
 # Residential Investment Decision Engine
 
+## Core property investigation demo
+
+[Open Core](https://brandonkow.github.io/core/investigation/) — animated district, evidence room, investigation board, scenario lab and decision journal. Six fictional properties; no real case admission changes. Uses the latest 18 October map evaluator. [Source, data adapters and backend setup](investigation/README.md). The [decision map](https://brandonkow.github.io/core/) remains available at its original URL.
+
 ## Map refreshed; investment research paused — 18 October 2026
 
 The user paused the investment follow-up and explicitly requested the decision map update. [Interactive map](https://brandonkow.github.io/core/) now represents current financial SOP v2, separate gross loan/nett yield bases, sequential admission labels and a dated Current SOP & progress panel. [Verification](visualization/VERIFICATION_2026-10-18.md) records source/logic/browser checks. The 35 frozen Core principles, G0-G9 and capital-decision precedence are unchanged.
