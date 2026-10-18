@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-18",
+  "source_commit": "956aca7ae42578233d346c80fbbfe5b4be995c85",
+  "candidate_html_sha256": "16ca256e9568a35940541645b609b84be56b5251931984966269d224c0550b7d",
+  "logic": {
+    "status": "PASS",
+    "runtime": "Native Node 24.19.0; remote-ref/blob mode, stdin, no local project files",
+    "sources": 13,
+    "quotations": 164,
+    "nodes": 112,
+    "edges": 299,
+    "core": 35,
+    "gates": 10,
+    "steps": 16,
+    "presets": 7,
+    "input_combinations": 1492992,
+    "calculator_boundary_cases": 9021,
+    "extra_controls": [
+      "Gross loan basis versus nett yield",
+      "Invalid separate loan basis",
+      "Contiguous admission trace across all input combinations",
+      "Programme snapshot count parity",
+      "No superseded minimum-stress display"
+    ],
+    "decision_evaluator_unchanged": true
+  },
+  "browser": {
+    "status": "PASS",
+    "browser": "Edge 155.0.4283.45",
+    "layouts": [
+      [
+        1440,
+        900,
+        "light"
+      ],
+      [
+        1440,
+        900,
+        "dark"
+      ],
+      [
+        1024,
+        768,
+        "light"
+      ],
+      [
+        861,
+        600,
+        "light"
+      ],
+      [
+        390,
+        844,
+        "dark"
+      ],
+      [
+        320,
+        568,
+        "light"
+      ]
+    ],
+    "pageErrors": 0,
+    "checks": [
+      "All four modes across six layouts",
+      "Seven preset outcomes",
+      "Contiguous gate prefix and conditional later nodes",
+      "Gross/net basis and resale reset",
+      "Invalid input and exact 6% boundary",
+      "Reasoning steps, zoom buttons and panel/sheet controls"
+    ],
+    "execution": "Native Node Playwright, headless Edge, RAM-only candidate HTTP preview. Not a physical-device test."
+  },
+  "visual_review": "RAM-only desktop screenshot inspected at 1100x760; six viewport DOM/action tests. Native headless browser, not physical-device testing.",
+  "source_guard_correction": "Approved_Execution_Supplement.md changed only by the 16 October precedence notice; compared to original 448b231 body, which remains identical. Updated expected hash after that review.",
+  "preservation": "Core/SOP/research files untouched; changes limited to visualization, CI and root navigation/current authority. Existing verification reports remain historical.",
+  "publication": "CI and Pages verification follow expected-head main publication; recorded in completion message.",
+  "limitations": [
+    "No backend or investment validation",
+    "No realised outcome validation",
+    "No outreach authorised or sent",
+    "Static dated status snapshot, not automatic monitoring",
+    "No physical-device or exhaustive cross-browser certification"
+  ]
+}

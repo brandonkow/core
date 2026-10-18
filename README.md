@@ -1,5 +1,12 @@
 # Residential Investment Decision Engine
 
+## Map refreshed; investment research paused — 18 October 2026
+
+The user paused the investment follow-up and explicitly requested the decision map update. [Interactive map](https://brandonkow.github.io/core/) now represents current financial SOP v2, separate gross loan/nett yield bases, sequential admission labels and a dated Current SOP & progress panel. [Verification](visualization/VERIFICATION_2026-10-18.md) records source/logic/browser checks. The 35 frozen Core principles, G0-G9 and capital-decision precedence are unchanged.
+
+All 138 research bases remain G0 STOP / G9 Defer, zero Deploy. The prior execution closeout remains available below. **Document enquiries are paused and unsent**; the earlier permission question has not been answered with authority to contact anyone. No background research or monitoring. Resume external document work only within a later explicit user instruction and applicable messaging authority.
+
+
 ## Latest execution closeout — 18 October 2026
 
 [Execution closeout and current-SOP portfolio refresh](klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18/README.md) closes the remaining numerical portfolio gap. All seven historical study baskets and 9,436 different-project expression pairs now have current-SOP conditional funding/terminal diagnostics, without a synthetic personal cash/reserve assumption. Old portfolio results remain historical.

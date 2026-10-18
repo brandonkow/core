@@ -7,6 +7,7 @@ on:
       - 'visualization/**'
       - 'Residential_Investment_Framework.md'
       - 'sop/**'
+      - 'klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18/**'
       - 'execution-release-2026-10-07/**'
       - 'phase-7/Phase_7_SOP_Addendum.md'
       - 'Evidence_Judgment_Divergence_Integration_Audit.md'
@@ -16,6 +17,7 @@ on:
       - 'visualization/**'
       - 'Residential_Investment_Framework.md'
       - 'sop/**'
+      - 'klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18/**'
       - 'execution-release-2026-10-07/**'
       - 'phase-7/Phase_7_SOP_Addendum.md'
       - 'Evidence_Judgment_Divergence_Integration_Audit.md'
@@ -39,6 +41,19 @@ jobs:
           node-version: '24'
       - name: Verify sources, routing and decision precedence
         run: node visualization/verify.cjs
+      - name: Install browser verification runtime
+        run: |
+          npm install --prefix "$RUNNER_TEMP/map-smoke" --no-save --package-lock=false playwright@1.62.1
+          node "$RUNNER_TEMP/map-smoke/node_modules/playwright/cli.js" install --with-deps chromium
+      - name: Verify interactive map
+        env:
+          MAP_TEST_URL: http://127.0.0.1:8788/Decision_Engine_Neural_Map.html
+        run: |
+          export NODE_PATH="$RUNNER_TEMP/map-smoke/node_modules"
+          python3 -m http.server 8788 --bind 127.0.0.1 --directory visualization >/dev/null 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          node visualization/browser_smoke.cjs
       - name: Stage only the map for publication
         if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         run: |

@@ -284,12 +284,13 @@ form.run legend{padding:0;font-family:var(--font-mono);font-size:10.5px;font-wei
   <header class="top">
     <div class="brand">
       <h1>Decision Engine <span>Neural Map</span></h1>
-      <p class="meta">Residential_Investment_Framework.md · sha256 1fbf607a… · Core 5.1–5.35 frozen · G0–G9 · KV-EXEC-2026-10-07 · KV-FIN-90-4-35-v1</p>
+      <p class="meta">Residential_Investment_Framework.md · sha256 1fbf607a… · Core 5.1–5.35 frozen · G0–G9 · Financial SOP v2 · 18 Oct 2026</p>
     </div>
     <div class="modes" role="tablist" aria-label="View mode">
       <button role="tab" id="tab-explore" aria-selected="true" data-mode="explore">Explore</button>
       <button role="tab" id="tab-walk" aria-selected="false" data-mode="walk">Walk the reasoning</button>
       <button role="tab" id="tab-run" aria-selected="false" data-mode="run">Run a path</button>
+      <button role="tab" id="tab-current" aria-selected="false" data-mode="current">Current SOP & progress</button>
     </div>
     <div class="tools">
       <button class="btn hidepanel" id="togglePanel" type="button" aria-pressed="false">Hide panel</button>
@@ -336,8 +337,14 @@ const F = {
   TPL:'execution-release-2026-10-07/Case_Workpaper_Template.md',
   CFG:'execution-release-2026-10-07/financial_config.json',
   P7:'phase-7/Phase_7_SOP_Addendum.md',
-  AUD:'Evidence_Judgment_Divergence_Integration_Audit.md'
+  AUD:'Evidence_Judgment_Divergence_Integration_Audit.md',
+  FIN:'sop/Financial_Execution_SOP_v2.md',
+  PARAM:'sop/Financial_Execution_Parameters_v2.json',
+  FUNNEL:'sop/Funnel_Execution_Reporting_2026-10-16.md',
+  PRIVACY:'sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md',
+  JUDGMENT:'sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md'
 };
+const CURRENT = {"asOf":"2026-10-18","sourceCommit":"956aca7ae42578233d346c80fbbfe5b4be995c85","sourcePath":"klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18","cases":138,"areas":61,"projects":122,"admitted":0,"deploy":0,"firstStop":"G0","priorityDossiers":13,"outreach":"Paused; no enquiries sent","forwardReview":"2027-10-06"};
 const LAYER_NAME = {in:'01 Input', det:'02 Detect', cell:'02 Detect · polarity', inv:'03 Investigate', bus:'03 → 04 Interpretation', core:'04 Core', gate:'05 Gate', sop:'06 SOP', dec:'07 G9 output', prio:'07 Output', role:'07 Role', lane:'08 Learn'};
 
 /* ------------------------------------------------------------------ nodes */
@@ -477,26 +484,26 @@ const SOP_GROUPS = [
     ['S6','S6','Unit selection','Step 6 — Unit Selection',`Prioritise irreversible factors.`,'Master §7 Step 6',`Test tower, stack, orientation, floor, privacy, view, noise, rail, traffic, permanent externalities, lift, refuse, service access, parking, layout and the future buyer.`],
     ['S7','S7','Entry / exit sentence','Step 7 — Entry / Exit',`I buy from ___ today at RM___ because ___, and I expect ___ buyer to pay RM___ because ___.`,'Master §7 Step 7',`State the entry thesis, mispricing source, acceptable band, future buyer, alternative assets, ceiling, liquidity, floor and kill conditions.`],
     ['S8','S8','Opportunity radar','Step 8 — Opportunity Radar',`Signal -> Interpretation -> Re-underwrite`,'Master §7 Step 8',`Status: Ignore, Watch, Investigate, Underwrite, Buy Zone. Map reading: these radar statuses are not G9 decisions, and they differ from the work-queue states in Execution standard §6 (advance investigation, event-watch, stop active research, rerun affected gates).`],
-    ['S9','S9','Capital allocation gate','Step 9 — Capital Allocation & Portfolio Gate',`A good asset is not enough.`,'Master §7 Step 9',`Ask how much equity and DSR are consumed, what future opportunity is lost, whether correlation rises and whether the portfolio can survive 12 months without selling. Outputs: Deploy, Defer, Reject, Preserve Capacity.`]
+    ['S9','S9','Capital allocation gate','Step 9 — Capital Allocation & Portfolio Gate',`A good asset is not enough.`,'Master §7 Step 9',`Ask how much equity and DSR are consumed, what future opportunity is lost, whether correlation rises and whether an actual funded forced hold survives. Current SOP uses actual capital and commitments, without a synthetic cash/reserve preset. Outputs: Deploy, Defer, Reject, Preserve Capacity.`]
   ]],
   ['Master §8 · diagnostics', [
     ['D1','8.1','Transaction motive audit','8.1 Transaction Motive / Demand Authenticity Audit',`Transaction Count -> Transaction Motive -> Buyer-Depth Interpretation`,'Master §8.1',`Classify organic end-user, organic investment, financially induced and speculative or narrative demand before treating transaction count as buyer depth.`],
     ['D2','8.2','Management stress test','8.2 Management Stress Test',`Management preserves or destroys project premium.`,'Master §5.25 (applied by §8.2)',`Required for short-stay exposure, transient residents, high density, large unit counts, lift pressure, mixed use and high rental turnover. The ladder's G0–G5 labels are governance severity levels, not the decision gates.`],
     ['D3','8.3','Project escape quality','8.3 Project Escape Quality Test',`A true project escape requires more than higher PSF.`,'Master §8.3',`Needs stable premium, an independent buyer set, secondary depth, strong resident and management quality, age resilience, and a price not explained only by unit size or car parks.`],
     ['D4','8.4','Secondary conversion','8.4 Secondary Demand Conversion Quality',`Test whether launch demand converts into durable resale demand after: completion; ageing; competing supply; incentives disappear; management becomes visible.`,'Master §8.4',`Metrics: annual secondary transactions over total units, secondary clearing versus effective launch basis, band stability, owner-buyer continuity, listing-to-transaction friction, competing-supply survival.`],
-    ['D5','8.5','Macro / credit stress','8.5 Macro / Credit Regime Stress Test',`Debt Service -> Buyer Affordability -> Financeable Buyer Pool -> Liquidity -> Marginal Clearing Price`,'Master §8.5',`Do not use "rate up, price down". Minimum stress: +1.5 percentage point mortgage rate, rent −20%, six months vacancy, twelve months unable to sell, one material repair or levy.`],
+    ['D5','8.5','Macro / credit stress','8.5 Macro / Credit Regime Stress Test',`Debt Service -> Buyer Affordability -> Financeable Buyer Pool -> Liquidity -> Marginal Clearing Price`,'Master §8.5',`Current financial execution uses SOP v2, which supersedes older numerical stress presets while preserving this causal chain. Use one +0.25 percentage-point rate event, rent −20%, two initial void months, six-month sale delay, RM10k fit-out overrun and case-specific fee escalation in the specified separate/joint scenarios. These are chosen sensitivities, not an exhaustive worst case. See Current SOP & progress.`],
     ['D6','8.6','Leasehold financing & exit','8.6 Leasehold Financing & Exit Test',`Remaining Lease at Exit = Verified Remaining Lease Today - Intended Holding Period`,'Master §8.6',`Never infer remaining lease from completion year; verify title. Then test loan tenure, LTV, bank valuation and the future buyer's cash requirement.`],
     ['D7','8.7','Unit-level terminal value','8.7 Unit-Level Terminal Value',`Same project + same size is not enough.`,'Master §8.7 and §17',`Reversible: paint, flooring, cabinetry, furniture, normal wear. Irreversible: layout, privacy, car parks, lift and refuse, rail or highway noise, heat, permanent negative adjacency, obstruction risk.`],
     ['D8','8.8','Exit-path redundancy','8.8 Exit-Path Redundancy',`Does the thesis survive if the strongest exit support disappears?`,'Master §8.8',`Count independent supports: owner-occupier demand, organic investor demand, rental floor, lender financeability, redevelopment optionality, scarce layout, low quantum, broad substitution demand.`]
   ]],
   ['Execution supplement & standard', [
-    ['X1','§1','Standard coverage 90·4·35','Standard monthly coverage — 90% LTV, 4%, 35 years',`Standard monthly coverage = monthly whole-unit rent - mortgage instalment on 90% of acquisition price at 4% annual interest over 35 years - monthly management fee`,'Execution supplement §1 · financial_config KV-FIN-90-4-35-v1',`Full principal and interest: Instalment = L·r / [1 − (1+r)^−420], r = 0.04/12. A current shortfall puts the case in the lowest research tier; it is not by itself a structural Reject. Never lower the comparison LTV or raise the assumed rent to rescue a case, and never call this line a net profit or a stress pass.`],
-    ['X2','§2','Gross yield vs 6%','Gross rental yield against the 6% preference',`Gross rental yield = 12 * monthly whole-unit rent / acquisition price`,'Execution supplement §2',`A preferred target, not a rejection threshold, a net yield or a forecast. Show the unrounded calculation: rounding 5.9% to 6% must not manufacture attainment. Never increase rent to make the target hold.`],
+    ['X1','§1','Standard coverage 90·4·35','Standard monthly coverage — 90% LTV, 4%, 35 years',`Standard monthly coverage = monthly whole-unit rent - mortgage instalment on 90% of acquisition price at 4% annual interest over 35 years - monthly management fee`,'Execution supplement §1 · standard retained by Financial SOP v2 §1',`Full principal and interest: Instalment = L·r / [1 − (1+r)^−420], r = 0.04/12. Financial SOP v2 separates gross contracted new-launch loan basis from effective nett yield basis; resale uses agreed acquisition price. Actual valuation and terms remain separate. A current shortfall puts the case in the lowest research tier; it is not by itself a structural Reject. Never lower the comparison LTV or raise the assumed rent to rescue a case, and never call this line a net profit or a stress pass.`],
+    ['X2','§2','Gross yield vs 6%','Gross rental yield against the 6% preference',`Gross rental yield = 12 * monthly whole-unit rent / acquisition price`,'Execution supplement §2',`Use effective nett consideration for yield under current SOP v2. A preferred target, not a rejection threshold, a net yield or a forecast. Show the unrounded calculation: rounding 5.9% to 6% must not manufacture attainment. Never increase rent to make the target hold.`],
     ['X3','L2','Cost-complete cashflow','Cost-complete operating and holding cashflow (line 2)',`A mandatory or financed cost is still a cost.`,'Execution supplement §1 and §5',`Vacancy, rent collection, management, sinking fund, maintenance, insurance, taxes, letting and turnover. Count loan principal once and separate economic return from cash movements and borrowing proceeds. Unknown costs are not verified zero.`],
     ['X4','L3','Actual & stress affordability','Actual investor and stress affordability (line 3)',`Do not call line 1 a net profit or a stress pass.`,'Execution supplement §1',`Uses realistic finance terms, reserves, liabilities and the existing G7/G8 stress requirements. A lower bank valuation, lender margin or shorter eligible term needs its own cash requirement. Personal wealth cannot erase a shortfall.`],
     ['X5','T','Shortfall transition record','Current-shortfall transition record',`Forecast rent does not replace the current negative number.`,'Execution standard §2 · Execution supplement §1',`Nine items: current shortfall and proxies; rent needed for the standard and for complete costs; causal transmission from a funded or operating change; discriminating evidence; earliest benefit date and delay case; cumulative carry and no-uplift stress; competing tenant alternatives; falsifiers and affected gates; an accurate role. Passing it is not a guaranteed Deploy.`],
-    ['X6','§5','Improvement budget','Cost and improvement budget',`Split proposed works into basic repair, rental configuration and resale improvement.`,'Execution supplement §5',`Name the target user, itemised scope, incremental cost, useful life and evidence for the rent, absorption or resale effect. Test a cheaper alternative and a no-premium outcome. RM20k and 5% of price are historical references, not ceilings.`],
-    ['X7','§6','Hold & review triggers','Holding and post-purchase review',`Declare planned hold, affordable forced-hold duration and thesis-review points separately.`,'Execution supplement §6',`No universal three-, five-, seven- or eight-year rule. Review triggers include arrears, enquiry or conversion change, governance deterioration, major works, competing supply delivery and changes in credit or the expected buyer pool.`],
+    ['X6','§5','Improvement budget','Cost and improvement budget',`Split proposed works into basic repair, rental configuration and resale improvement.`,'Execution supplement §5',`Name the target user, itemised scope, incremental cost, useful life and evidence for the rent, absorption or resale effect. Test a cheaper alternative and a no-premium outcome. Current SOP v2 uses 5% of effective nett as the buyer-paid fit-out planning budget, reconciled to actual scope and developer inventory. The separate overrun sensitivity adds RM10k once. A quote may demonstrate the budget is inadequate.`],
+    ['X7','§6','Hold & review triggers','Holding and post-purchase review',`Declare planned hold, affordable forced-hold duration and thesis-review points separately.`,'Execution supplement §6',`Current SOP planning hold is 60 months from handover/possession, construction additional; year-3 +10% and year-5 +20% nett are targets, not forecasts. Case-specific holding needs and funded forced-hold duration remain explicit. Review triggers include arrears, enquiry or conversion change, governance deterioration, major works, competing supply delivery and changes in credit or the expected buyer pool.`],
     ['X8','§7','Sourcing & supply controls','Sourcing, transaction and supply controls',`Seller urgency can motivate an offer but does not prove undervaluation or a clean transaction.`,'Execution supplement §7',`Track the demand funnel from attention to completed sale and cancellation; crowds indicate attention only. Track competing supply from announcement to effective competition. Density and new launches trigger investigation, not automatic Reject.`]
   ]],
   ['Controls', [
@@ -711,7 +718,7 @@ const STEPS = [
   {s:'G3–G4', gate:true, stage:'Valuation / underwriting', title:'G3–G4 · Judge the project, then the exact unit', body:`Test product, density, resident selection, management, operational livability, competing supply and secondary conversion. Then test the irreversible microstructure of the specific unit: stack, orientation, noise, parking, layout and permanent exposures.`, q:`Is this specific unit easier or harder to sell than the project median?`, src:'Master §9 · G4', cond:`Critical management failure may be a hard Gate.`, nodes:expand(['G3','G4'])},
   {s:'G5', gate:true, stage:'Valuation / underwriting', title:'G5 · Price the gap only after G0–G4 survive', body:`A validated discount is the normalised clearing price minus the acquisition price. Ask why the gap exists, whether it is reversible or structural, and how much is recoverable after costs and time. Fair-priced quality can still be analysed without manufacturing a discount.`, q:`Cheapness alone is not alpha.`, src:'Master §2', nodes:expand(['G5'])},
   {s:'G6', gate:true, stage:'Exit logic', title:'G6 · Design the exit before the entry', body:`Define the future buyer, future comparable set, quantum ladder, floor, ceiling, liquidity and the independent supports for an exit. The required exit price is a condition, not a forecast.`, q:`Does the thesis survive if the strongest exit support disappears?`, src:'Master §8.8', cond:`If exit depends on one catalyst / one buyer: flag Single-Point Exit Failure.`, nodes:expand(['G6'])},
-  {s:'G7', gate:true, stage:'Valuation / underwriting', title:'G7 · Survive the financing and a forced hold', body:`Three lines stay separate: standard monthly coverage at 90% LTV, 4% and 35 years plus management fee; a cost-complete cashflow; and actual plus stress affordability (+1.5 pp rate, rent −20%, six months vacancy, twelve months unable to sell, one material repair). A current shortfall drops the case to the lowest research tier but is not by itself a structural Reject.`, q:`Do not call line 1 a net profit or a stress pass.`, src:'Execution supplement §1', nodes:expand(['G7'])},
+  {s:'G7', gate:true, stage:'Valuation / underwriting', title:'G7 · Survive the financing and a forced hold', body:`Three lines stay separate: standard monthly coverage at 90% LTV, 4% and 35 years plus management fee; a cost-complete cashflow; and actual plus stress affordability under current financial SOP v2 (selected +0.25 pp rate, rent −20%, two initial void months, six-month sale delay, RM10k fit-out overrun and fee escalation, with scenario-specific timing). A current shortfall drops the case to the lowest research tier but is not by itself a structural Reject.`, q:`Do not call line 1 a net profit or a stress pass.`, src:'Execution supplement §1', nodes:expand(['G7'])},
   {s:'G8', gate:true, stage:'Valuation / underwriting', title:'G8 · Is this the best use of scarce capital?', body:`Equity, DSR, lender appetite, mortgage slots, management attention, reserves and the ability to act on future distress are all scarce. Correlation is mapped through future buyer, tenant source, financing regime and exit channel, not postcode.`, q:`A defensible asset can still be the wrong use of scarce capital.`, src:'Master §18', nodes:expand(['G8'])},
   {s:'G9', gate:true, stage:'Decision', title:'G9 · One of four capital decisions', body:`Insufficient evidence or an unresolved required gate ordinarily yields Defer. An independently established structural failure supports Reject. An independently established allocation constraint supports Preserve Capacity. Deploy needs sufficient evidence, passing asset and portfolio gates and one declared role. Product preference, attractiveness at the price and research priority are reported separately.`, q:`Negative alignment does not invent a structural failure, and divergence resolution does not auto-deploy.`, src:'Master §5 · decision precedence', nodes:['G9','DEPLOY','DEFER','REJECT','PRESERVE','COMP','DEFU','SPEC','INC','FUT','NOT','PRIO','S9','X5','K1','K2','M']},
   {s:'Learn', stage:'After the decision', title:'Record the call, then learn without moving Core', body:`Original calls, revisions, false positives and false negatives are recorded without retroactive rationalisation. Misses are classified F1–F12. A candidate mechanism enters Core only if all six promotion criteria hold; execution improvements go to SOP.`, q:`If it only improves execution: put it in SOP, not Core.`, src:'Master §22', nodes:['G9','LREC','LFAIL','LCAND','LPROMO','BUS']}
@@ -813,10 +820,10 @@ function evaluate(s){
 }
 
 /* Standard-coverage arithmetic in integer sen. Pure, so verify.cjs can test it outside the browser. */
-function calcStandard(P, R, M){
-  const Ps = Math.round(P * 100), Rs = Math.round(R * 100), Ms = Math.round(M * 100);
-  if (![Ps, Rs, Ms].every(Number.isSafeInteger) || Ps <= 0 || Rs < 0 || Ms < 0) return null;
-  const L = 0.9 * Ps / 100, r = 0.04 / 12, inst = L * r / (1 - Math.pow(1 + r, -420));
+function calcStandard(P, R, M, B = P){
+  const Ps = Math.round(P * 100), Rs = Math.round(R * 100), Ms = Math.round(M * 100), Bs = Math.round(B * 100);
+  if (![Ps, Rs, Ms, Bs].every(Number.isSafeInteger) || Ps <= 0 || Bs <= 0 || Rs < 0 || Ms < 0) return null;
+  const L = 0.9 * Bs / 100, r = 0.04 / 12, inst = L * r / (1 - Math.pow(1 + r, -420));
   const cov = Rs / 100 - inst - Ms / 100;
   if (![L, inst, cov].every(Number.isFinite)) return null;
   let zeroSen = Math.ceil(inst * 100 + Ms);
@@ -825,6 +832,18 @@ function calcStandard(P, R, M){
   return {L, inst, cov, zeroSen, sixSen: Math.ceil(Ps / 200),
     yieldMicro: 1200n * BigInt(Rs) * 1000000n / BigInt(Ps),   // gross yield % x 10^6, truncated
     meets: 200n * BigInt(Rs) >= BigInt(Ps)};                  // 12 R / P >= 6%  <=>  200 R >= P
+}
+
+function gateTrace(gs){
+  const prefix = [];
+  let firstStop = null;
+  const conditional = [];
+  for(let i=0;i<9;i++){
+    const g = 'G'+i;
+    if(firstStop === null && gs[g] === 'pass') prefix.push(g);
+    else { if(firstStop === null) firstStop = g; if(gs[g] === 'pass') conditional.push(g); }
+  }
+  return {prefix,firstStop,conditional};
 }
 
 /* ------------------------------------------------------------------ svg build */
@@ -1157,11 +1176,13 @@ function paint(){
   } else if (mode === 'walk') {
     const {lv, elv} = stepActivation(STEPS[stepIdx]); paintLevels(lv, elv);
   } else if (mode === 'run') paintRun();
+  else if (mode === 'current') setPulses([]);
 }
 function paintRun(){
   const r = evaluate(runS);
   const stateOf = {};
-  Object.entries(r.gs).forEach(([g, s]) => stateOf[g] = s);
+  const trace = gateTrace(r.gs);
+  Object.entries(r.gs).forEach(([g, s]) => stateOf[g] = trace.conditional.includes(g) ? 'unk' : s);
   stateOf.G9 = {deploy:'pass', defer:'unk', reject:'fail', preserve:'cap'}[r.d];
   const runNodes = new Set(['CHECK','S','M','X1','X5', ...Object.keys(stateOf), 'DEPLOY','DEFER','REJECT','PRESERVE','PRIO', ROLE_NODE[runS.role]]);
   ORDER.forEach(id => N[id].g.classList.toggle('dim', !runNodes.has(id)));
@@ -1169,7 +1190,7 @@ function paintRun(){
   Object.entries(stateOf).forEach(([g, s]) => {
     const n = N[g]; n.g.classList.add('st-' + s);
     if (n.badgeEl) n.badgeEl.style.display = 'none';
-    const special = g === 'G6' && runS.G6 === 'single' ? 'SINGLE-POINT FLAG' : g === 'G1' && s === 'unk' ? 'INCOMPLETE' : g === 'G9' ? r.d.toUpperCase() : label[s];
+    const special = trace.conditional.includes(g) ? 'CONDITIONAL' : g === 'G6' && runS.G6 === 'single' ? 'SINGLE-POINT FLAG' : g === 'G1' && s === 'unk' ? 'INCOMPLETE' : g === 'G9' ? r.d.toUpperCase() : label[s];
     const sf = r.shortfall && (g === 'G7' || g === 'G8');
     n.stateEl = txt(n.g, n.x + 50, n.cy + 12, 'statebadge', special + (sf ? ' · SHORTFALL' : ''));
     n.stateEl.style.fill = `var(${s === 'pass' ? '--go' : s === 'unk' ? '--c-div' : s === 'cap' ? '--hold' : s === 'blocked' ? '--ink-3' : '--stop'})`;
@@ -1267,9 +1288,12 @@ function drawOverview(){
       <li><strong>Walk the reasoning.</strong> Sixteen steps from evidence intake to G9 and the learning loop.</li>
       <li><strong>Run a path.</strong> Set what the evidence supports at each gate and see which of the four decisions the precedence rules allow.</li>
     </ul>
+    <h3>Current execution version</h3>
+    <p>Financial SOP v2 and the sequential admission overlay are current. The programme snapshot is dated 18 October 2026; research and document enquiries are paused.</p>
+    <button class="btn primary" type="button" data-mode-go="current">Current SOP & progress</button>
     <h3>Sources read</h3>
-    <ul class="srcs">${[F.M, F.SUP, F.REG, F.STD, F.TPL, F.CFG, F.P7, F.AUD].map(f => `<li>${esc(f)}</li>`).join('')}</ul>
-    <p class="fine">Area-based underwriting (regional protocols, Cheras and Klang Valley case files) is left out on purpose. This map is a reading aid. It does not amend the master, add a gate, score assets or authorise outreach or purchase.</p>
+    <ul class="srcs">${[F.M, F.SUP, F.REG, F.STD, F.TPL, F.CFG, F.P7, F.AUD, F.FIN, F.PARAM, F.FUNNEL, F.PRIVACY, F.JUDGMENT].map(f => `<li>${esc(f)}</li>`).join('')}</ul>
+    <p class="fine">Case details remain outside the framework graph. A separate dated progress panel links to research records without turning their results into rules. The 7 October financial configuration is historical; current numerical execution follows SOP v2. This map is a reading aid. It does not amend the master, add a gate, score assets or authorise outreach or purchase.</p>
     <p class="fine">Visual references: layered neurons and weighted links after TensorFlow Playground; ports and wires after open-source node editors such as litegraph.js and Rete.js; hover activation after Obsidian-style graph views.</p>
   </div>`;
 }
@@ -1301,29 +1325,32 @@ function drawNode(id){
 function calcHTML(){
   return `<h3>Try the standard</h3><div class="calc">
     <div class="inputs">
-      <label for="calc-price">Price (RM)<input id="calc-price" type="number" inputmode="decimal" min="0.01" step="any" required value="500000"></label>
+      <label for="calc-price">Effective nett price (RM)<input id="calc-price" type="number" inputmode="decimal" min="0.01" step="any" required value="500000"></label>
       <label for="calc-rent">Rent / month<input id="calc-rent" type="number" inputmode="decimal" min="0" step="any" required value="2200"></label>
       <label for="calc-fee">Mgmt fee / month<input id="calc-fee" type="number" inputmode="decimal" min="0" step="any" required value="350"></label>
     </div>
+    <label><input id="calc-separate" type="checkbox"> Use separate gross loan basis (new launch)</label>
+    <label id="calc-basis-wrap" for="calc-basis" hidden>Gross contracted loan basis (RM)<input id="calc-basis" type="number" inputmode="decimal" min="0.01" step="any" value="500000"></label>
     <p id="calc-error" class="fine" role="status" hidden></p>
     <dl id="calc-out" aria-live="polite"></dl>
-    <p class="fine">Example inputs, not a case. Scenario arithmetic on the approved convention only: not a net profit, a stress pass or a lender approval.</p>
+    <p class="fine">Example inputs, not a case. 90% of the selected loan basis at 4%/35 years; gross yield uses effective nett. Actual valuation, rebates and loan approval must be checked. Narrow coverage excludes vacancy, commission, repairs and other full costs; it does not set a gate result.</p>
   </div>`;
 }
 function bindCalc(){
   const run = () => {
-    const inputs = ['#calc-price','#calc-rent','#calc-fee'].map(s => $(s));
-    const [P,R,M] = inputs.map(e => e.valueAsNumber);
-    const invalid = inputs.map((e,i) => e.value.trim() === '' || !Number.isFinite(e.valueAsNumber) || (i === 0 ? e.valueAsNumber <= 0 : e.valueAsNumber < 0));
+    const separate = $('#calc-separate').checked;
+    const inputs = ['#calc-price','#calc-rent','#calc-fee', ...(separate ? ['#calc-basis'] : [])].map(s => $(s));
+    const [P,R,M,B = P] = inputs.map(e => e.valueAsNumber);
+    const invalid = inputs.map((e,i) => e.value.trim() === '' || !Number.isFinite(e.valueAsNumber) || (i === 0 || i === 3 ? e.valueAsNumber <= 0 : e.valueAsNumber < 0));
     inputs.forEach((e,i) => e.setAttribute('aria-invalid', String(invalid[i])));
     const error = $('#calc-error'), out = $('#calc-out');
     error.hidden = !invalid.some(Boolean);
     if (!error.hidden) {
-      error.textContent = 'Incomplete or invalid inputs. Enter a price above zero and non-negative monthly rent and management fee; enter 0 explicitly if applicable.';
+      error.textContent = 'Incomplete or invalid inputs. Enter positive price and loan basis, and non-negative monthly rent and management fee; enter 0 explicitly if applicable.';
       out.innerHTML = '';
       return;
     }
-    const c = calcStandard(P, R, M);
+    const c = calcStandard(P, R, M, B);
     if (!c) { error.hidden = false; error.textContent = 'Inputs are outside the supported range, or the price rounds to zero sen.'; out.innerHTML = ''; return; }
     error.textContent = '';
     const {L, inst, cov} = c;
@@ -1332,7 +1359,7 @@ function bindCalc(){
     const covTxt = (cov < 0 ? '−' : '') + money(Math.abs(cov), cov !== 0 && Math.abs(cov) < 0.005 ? 4 : 2);
     const yTxt = `${c.yieldMicro / 1000000n}.${String(c.yieldMicro % 1000000n).padStart(6, '0')}%`;
     out.innerHTML = [
-      ['Loan principal (90% of price)', money(L)],
+      ['Loan principal (90% of selected basis)', money(L)],
       ['Instalment (4%, 420 months)', money(inst)],
       ['Standard monthly coverage', `<span class="${state[1]}">${covTxt}</span>`],
       ['Result', `<span class="${state[1]}">${state[0]}</span>`],
@@ -1341,7 +1368,8 @@ function bindCalc(){
       ['Rent for 6% gross (rounded up)', money(c.sixSen / 100)]
     ].map(([a, b]) => `<div><dt>${a}</dt><dd>${b}</dd></div>`).join('');
   };
-  ['#calc-price','#calc-rent','#calc-fee'].forEach(s => $(s).addEventListener('input', run));
+  ['#calc-price','#calc-rent','#calc-fee','#calc-basis'].forEach(s => $(s).addEventListener('input', run));
+  $('#calc-separate').addEventListener('change', () => { $('#calc-basis-wrap').hidden = !$('#calc-separate').checked; if($('#calc-separate').checked) $('#calc-basis').value = $('#calc-price').value; run(); });
   run();
 }
 function drawStep(){
@@ -1359,8 +1387,61 @@ function drawStep(){
   </div>`;
   drawerBody.parentElement.scrollTop = 0;
 }
+function drawCurrent(){
+  const repo = 'https://github.com/brandonkow/core/blob/' + CURRENT.sourceCommit + '/';
+  const link = (path,label) => '<a href="'+repo+path+'" target="_blank" rel="noopener noreferrer">'+esc(label)+'</a>';
+  drawerBody.innerHTML = `<div class="dz">
+    <p class="eyebrow">Execution overlay · ${CURRENT.asOf}</p>
+    <h2>Current SOP & programme progress</h2>
+    <p><strong>Paused.</strong> Document enquiries have not been sent. This is a dated snapshot, not a live investment feed.</p>
+    <div class="formula">Evidence → G0 → G1 → G2 → G3 → G4 → G5 → G6 → G7 → G8 → G9</div>
+    <p>Admission follows the passed contiguous prefix. Later research can continue conditionally, but cannot clear an earlier unresolved gate. G0 asks for a defensible normalised clearing price; it is not a catch-all for every later requirement.</p>
+    <h3>Current funnel</h3>
+    <ul class="plain" id="programme-status">
+      <li><strong>${CURRENT.cases} / ${CURRENT.cases}</strong> base financial replays complete across ${CURRENT.areas} catchments / ${CURRENT.projects} project groups.</li>
+      <li><strong>${CURRENT.admitted}</strong> admitted beyond G0; <strong>${CURRENT.deploy} Deploy</strong>. All current base expressions remain G0 STOP / G9 Defer.</li>
+      <li>${CURRENT.priorityDossiers} priority evidence dossiers prepared. Monthly, annual and flat-exit positives are overlapping diagnostics, not successive funnel stages.</li>
+    </ul>
+    <h3>Four-step completion guide</h3>
+    <ol class="plain" id="completion-guide">
+      <li><strong>Old-candidate replay — complete.</strong> The current-SOP portfolio refresh also covers 7 original study baskets and 9,436 different-project expression pairs. These are conditional studies.</li>
+      <li><strong>Brightwood execution — prepared, not verified.</strong> Exact offer, approved configuration, quote, actual financing and parking-matched rental evidence remain outstanding.</li>
+      <li><strong>Unit and portfolio decision — unresolved.</strong> Actual evidence and actual capital commitments are required; no synthetic personal cash or reserve balance is assumed.</li>
+      <li><strong>Outcome validation — awaiting observations.</strong> Six original locked forward cases are preserved. Earliest original review: ${CURRENT.forwardReview}. No automated monitoring is running.</li>
+    </ol>
+    <p>${link(CURRENT.sourcePath+'/README.md','Open the dated execution closeout')} · ${link(CURRENT.sourcePath+'/Portfolio_Review.md','Portfolio and terminal review')}</p>
+    <h3>Financial SOP v2 — current execution</h3>
+    <ul class="plain" id="current-financial-rules">
+      <li><strong>Finance / price:</strong> standard 90% LTV, 4%, 35 years. New-launch loan basis is gross contracted price; yield uses effective nett. Resale uses agreed price. Actual bank valuation and terms remain separately evidenced.</li>
+      <li><strong>Income:</strong> no automatic rental growth. One initial fit-out month with concurrent marketing; 12 paid months per lease and one replacement void. The 60-month replacement example has 55 paid months and 5 new-tenancy commissions.</li>
+      <li><strong>Costs:</strong> new tenancy commission 1 month; uninterrupted renewal 0.5 month. Annual repair budget is half a month's rent. Fit-out planning is 5% nett. Include applicable invoice tax and actual itemised owner bills; no generic RM200 monthly allowance.</li>
+      <li><strong>Fees:</strong> case-specific charge; no universal psf. New-launch planning keeps the quoted fee for the first 24 months after handover; later base revisions follow actual AGM decisions. This is not a contractual freeze.</li>
+      <li><strong>Exit:</strong> 60 months from handover/possession, construction additional. Year 3 +10% and year 5 +20% nett are selected targets, not forecasts. Exit agency 3% plus relevant itemised selling costs. Personal income tax/final RPGT and unresolved costs remain explicit.</li>
+      <li><strong>Decision:</strong> 6% gross is preferred, not a universal veto. Current narrow-coverage shortfall means lowest research priority; a falsifiable, funded transition remains researchable. Flat-exit loss alone is not a new Reject rule.</li>
+    </ul>
+    <h3>Selected stress settings</h3>
+    <ul class="plain" id="current-stress-rules">
+      <li>S1: one +0.25 percentage-point event, 4.25% through sale; down case 3.75%. S2: separate 31 / 25-year terms.</li>
+      <li>S3: resale valuation −10%, separate from seller proceeds; new-launch gross valuation remains a reference, not a guarantee. S4: case-specific delivery delay +12 months, e.g. 48 to 60.</li>
+      <li>S7: rent −20%. S8: two initial void months; ten paid less one commission gives nine rent equivalents before invoice tax. Persistent turnover-void duration is a separate bound, not double counted.</li>
+      <li>S12: fee +5% each year from year 3. S15: one RM10k fit-out overrun. S16: exit at 90% / 110% of original nett, not ±10% of the 120% target. S17: sale delayed six months without extra appreciation.</li>
+      <li>S19: future buyer 85% LTV, 4.5%, 30 years. S20: 6% gross buyer-yield reference, not proven value. S24: two unpaid months and one re-letting month, reconciled to the lease calendar.</li>
+      <li>S21: J1 delivery/cost; J2 demand/exit; J3 their union. Do not add deleted shocks or assume probabilities. S23 fallback rent needs case evidence. No synthetic portfolio capital/reserve preset.</li>
+      <li>Removed defaults: S5, S6, S9, S10, S11, S13, S14 and S22. Known actual liabilities remain costs. These chosen sensitivities are not an exhaustive worst case.</li>
+    </ul>
+    <p>${link(F.FIN,'Financial SOP v2')} · ${link(F.PARAM,'Parameter register')} · ${link(F.FUNNEL,'Sequential funnel reporting')}</p>
+    <h3>Market-judgment execution</h3>
+    <p>Test tenant tasks and privacy, household adoption, actual governance and investor exit depth. Resident composition and management are material post-completion mechanisms; neither age nor family demand guarantees appreciation. Separate stable fees from lower fees, early township spillover from later internal employment demand, and auction absorption from a proven profitable exit. Parking needs are contextual, not a universal two-bay veto.</p>
+    <p>${link(F.PRIVACY,'Tenant privacy and exit demand')} · ${link(F.JUDGMENT,'Post-completion judgment controls')}</p>
+    <p class="fine">The 35 Core principles, ten gates and four capital decisions are unchanged. Source quotations remain attributable to their original documents; SOP v2 supersedes conflicting earlier financial presets. Cases and progress are not added to the framework graph.</p>
+    <div class="navrow"><button class="btn" type="button" data-mode-go="explore">Back to map overview</button></div>
+  </div>`;
+  drawer.scrollTop = 0;
+}
+
 function drawRun(){
   const r = evaluate(runS);
+  const trace = gateTrace(r.gs);
   const name = {deploy:'Deploy', defer:'Defer', reject:'Reject', preserve:'Preserve Capacity'}[r.d];
   const fs = FORM.map(([id, label, opts]) => {
     if (id === 'tr' && runS.cov !== 'neg') return '';
@@ -1376,6 +1457,9 @@ function drawRun(){
       <p class="prio"><b>Research priority.</b> ${esc(r.prio)}</p>
     </div>
     ${r.notes.length ? `<ul class="plain">${r.notes.map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
+    <h3>Sequential admission</h3>
+    <p id="funnel-prefix">Passed contiguous prefix: <strong>${esc(trace.prefix.join(" → ") || "None")}</strong>. First unpassed gate: <strong>${esc(trace.firstStop || "None through G8")}</strong>.</p>
+    <p class="fine">Later positive inputs remain conditional when an earlier gate is unresolved. An independently established structural failure or allocation constraint retains its existing G9 precedence.</p>
     <h3>Illustrative paths</h3>
     <div class="presets">${PRESETS.map((p, i) => `<button type="button" data-preset="${i}" aria-pressed="${i === presetIdx}">${esc(p[0])}<br><span class="fine">${esc(p[1])}</span></button>`).join('')}</div>
     <h3>Set the evidence at each gate</h3>
@@ -1423,6 +1507,7 @@ function setMode(m, opts = {}){
   if (m !== 'walk') stopPlay();
   if (m === 'explore') { if (!opts.keepSel) selected = null; selected ? drawNode(selected) : drawOverview(); if (!opts.keepCam) { intent = {type:'all'}; applyIntent(); } }
   if (m === 'walk') { selected = null; goStep(stepIdx); }
+  if (m === 'current') { selected = null; drawCurrent(); intent = {type:'all'}; applyIntent(); }
   if (m === 'run') { selected = null; drawRun(); intent = {type:'nodes', ids:['G0','G9','X1','PRESERVE','CHECK','M'], maxK:1}; applyIntent(); }
   updateRibbon(); openSheet(); paint();
 }

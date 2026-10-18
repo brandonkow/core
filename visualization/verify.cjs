@@ -21,13 +21,19 @@ new vm.Script(script); // The entire browser script must parse.
 const prefix = script.slice(script.indexOf("(() => {") + "(() => {".length,
   script.indexOf('/* ------------------------------------------------------------------ svg build */'));
 const app = vm.runInNewContext('(function(){' + prefix +
-  ';return {N,ORDER,EDGES,STEPS,FORM,BASE,PRESETS,evaluate,ROUTES,CORE,GATES,calcStandard};})()', {
+  ';return {N,ORDER,EDGES,STEPS,FORM,BASE,PRESETS,evaluate,ROUTES,CORE,GATES,calcStandard,gateTrace,CURRENT};})()', {
   window:{matchMedia:()=>({matches:true})}
 });
 const sha256 = s => crypto.createHash('sha256').update(s).digest('hex');
 const expected = {
+"sop/Financial_Execution_SOP_v2.md":"4cfb60515716c9e428a49bdcc8a403155c8132561f51a0621ca5afcc01ef9359",
+"sop/Financial_Execution_Parameters_v2.json":"ec09c022a73c318a9dfc0d69a0865d7d443151a3bc1c9872bffb2cfe48235c5e",
+"sop/Funnel_Execution_Reporting_2026-10-16.md":"e8956644a3001f640572dcb0963d9529dbe1986563999eea8ef33ec0d283ae2b",
+"sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md":"6057b54048f4af49d2ecaf15f4b6f44c8b7d303a95da7c3cd737fee64a049ce8",
+"sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md":"9b1d6d8d8706391c413e011ebcec9aa932691b205ab6ef35a947707c03251335",
+
 'Residential_Investment_Framework.md':'1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b',
-'sop/Approved_Execution_Supplement.md':'2e62521e1b95eeaae3801020d762d9e76b4005ade30065b50a990ce1eb2f5b74',
+'sop/Approved_Execution_Supplement.md':'61aebaea5bb7a11f5ca00e1d0579fc74a2bfbe445f8c0fc0514f7249ef1fc90a',
 'sop/Founder_QA_Approval_Register.md':'d60b617cc6568670df93d7a9d8269d6b1ae8ebcf707e1880c6528367152cce81',
 'execution-release-2026-10-07/Decision_Execution_Standard.md':'ac13a9c14b7b30908e500ec75b0ad3edaf6f234730c40a3f3322312466c17327',
 'execution-release-2026-10-07/Case_Workpaper_Template.md':'8cc826e2ddfa4194a77543342277c59c0aea6ecb05e487255745f5b18f39abc7',
@@ -94,6 +100,11 @@ app.PRESETS.forEach((p,i)=>assert.equal(app.evaluate({...app.BASE,...p[2]}).d,pr
 let total=0; const counts={deploy:0,defer:0,reject:0,preserve:0};
 function check(s) {
   const r=app.evaluate(s); total++; counts[r.d]++;
+  const trace=app.gateTrace(r.gs);
+  const stop=Array.from({length:9},(_,i)=>'G'+i).findIndex(g=>r.gs[g]!=='pass');
+  assert.equal(trace.prefix.length,stop<0?9:stop);
+  assert.equal(trace.firstStop,stop<0?null:'G'+stop);
+  assert(trace.conditional.every(g=>r.gs[g]==='pass'&&Number(g.slice(1))>stop));
   const failure=['G3','G4','G6','G7'].some(g=>s[g]==='fail');
   assert.equal(r.d==='reject',failure);
   if(!failure && s.G8==='cap') assert.equal(r.d,'preserve');
@@ -136,6 +147,28 @@ for (let P = 100000; P <= 1600000; P += 499) for (const fee of [0, 350, 1234.56]
   assert(cs(P, c0.sixSen / 100, fee).meets && !cs(P, (c0.sixSen - 1) / 100, fee).meets, '6% boundary at ' + P);
   assert(cs(P, c0.zeroSen / 100, fee).cov >= 0 && cs(P, (c0.zeroSen - 1) / 100, fee).cov < 0, 'zero-coverage rent at ' + P);
 }
+
+// Current SOP basis separation, source snapshot and explicit scope guards.
+const gross=cs(450000,2500,350,500000);
+assert(Math.abs(gross.inst-payment(450000))<1e-9);
+assert.equal(gross.yieldMicro,6666666n);
+assert.equal(gross.inst,cs(500000,2500,350).inst);
+assert.equal(gross.yieldMicro,cs(450000,2500,350).yieldMicro);
+for(const b of [0,-1,NaN,Infinity,.004])assert.equal(cs(450000,2500,350,b),null);
+const cfg=JSON.parse(sources['sop/Financial_Execution_Parameters_v2.json']);
+assert.equal(cfg.standard.ltv,.9);assert.equal(cfg.standard.annual_rate,.04);
+assert.equal(cfg.standard.amortisation_years,35);
+assert.equal(cfg.stress.S1.up_rate,.0425);assert.equal(cfg.stress.S19.future_buyer_ltv,.85);
+const snapshot=JSON.parse(read(app.CURRENT.sourcePath+'/Funnel_Closeout.json'));
+assert.equal(app.CURRENT.cases,snapshot.scope.bases);assert.equal(app.CURRENT.areas,snapshot.scope.catchments);
+assert.equal(app.CURRENT.projects,snapshot.scope.projects);assert.equal(app.CURRENT.deploy,snapshot.scope.deploy);
+assert.equal(app.CURRENT.admitted,snapshot.scope.admitted);
+assert.equal(app.CURRENT.priorityDossiers,snapshot.scope.priority_evidence_dossiers);
+assert(html.includes('id="tab-current"'));assert(html.includes('id="calc-separate"'));
+assert(html.includes('id="funnel-prefix"'));assert(html.includes("trace.conditional.includes(g) ? 'unk' : s"));
+assert(!html.includes('Minimum stress: +1.5'));assert(!html.includes('actual plus stress affordability (+1.5'));
+assert.equal(app.CURRENT.outreach,'Paused; no enquiries sent');
+
 console.log(JSON.stringify({status:'PASS',htmlSha256:sha256(html),sourceFiles:Object.keys(expected).length,
   quotations:quotes.length,nodes:app.ORDER.length,edges:app.EDGES.length,
   core:35,gates:10,steps:app.STEPS.length,presets:app.PRESETS.length,combinations:total,decisions:counts,calculatorCases},null,2));

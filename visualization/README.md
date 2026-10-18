@@ -2,15 +2,39 @@
 
 Interactive single-file visualisation of the [master framework](../Residential_Investment_Framework.md) and its SOP layer, built on 7 October 2026 at the user's request. Use the [interactive map](https://brandonkow.github.io/core/) after the Pages deployment passes, or download [Decision_Engine_Neural_Map.html](Decision_Engine_Neural_Map.html) and open it in a browser. Fonts load from Google Fonts; without a network connection the page falls back to system fonts and still works.
 
-The map lays the framework out as a left-to-right network: evidence and informed judgment, the Evidence–Judgment Divergence check (four-state logic, families A–D, falsifiable hypothesis, flag status, margin of safety), the 35 frozen Core principles, the ordered G0–G9 gates with their divergence watchpoints and stop rules, the SOP steps and diagnostics, the execution supplement's financial tests, the four G9 decisions and investment roles, and the learning loop (miss record, F1–F12, candidates, promotion threshold). It has three modes:
+The map lays the framework out as a left-to-right network: evidence and informed judgment, the Evidence–Judgment Divergence check (four-state logic, families A–D, falsifiable hypothesis, flag status, margin of safety), the 35 frozen Core principles, the ordered G0–G9 gates with their divergence watchpoints and stop rules, the SOP steps and diagnostics, the execution supplement's financial tests, the four G9 decisions and investment roles, and the learning loop (miss record, F1–F12, candidates, promotion threshold). It has four modes:
 
 - **Explore**: hover or click a node to see what feeds it and what it feeds, with the source quote and the provenance of every link.
 - **Walk the reasoning**: sixteen steps from evidence intake to G9 and the learning loop.
 - **Run a path**: set the evidence state at each gate and see which of the four G9 decisions the framework's precedence rules allow, with the rules that fired.
 
+## Current update — 18 October 2026
+
+The user paused underwriting/outreach and explicitly requested a map update. Current financial execution now follows SOP v2, including gross new-launch financing versus nett yield, event-based rent/commission treatment, fit-out/repair defaults and the calibrated stresses. Historical source quotations and all 35 Core principles / G0-G9 remain intact.
+
+The calculator defaults to one agreed/effective price for resale; enable the separate gross loan basis for a new-launch scenario. It still measures narrow coverage and gross yield only, not full underwriting. Run a path now labels downstream positive inputs **CONDITIONAL** after the first unpassed gate. Independent structural failure and capital-constraint precedence are unchanged.
+
+The fourth tab carries a static **18 October** progress snapshot: 138 base replays complete; zero admitted/Deploy; execution/actual allocation/outcome evidence outstanding; enquiries paused and unsent. It is not a live feed or a new decision gate. Source links pin the reviewed research commit.
+
+See [current verification](VERIFICATION_2026-10-18.md) and [machine receipt](verification-2026-10-18.json). CI runs both source/logic verification and the browser smoke suite before Pages deployment. The old reports, source table and dated historical checks below retain their original context.
+
+### Additional current source hashes
+
+| Source | SHA-256 |
+|---|---|
+| sop/Approved_Execution_Supplement.md (precedence notice added; original body unchanged) | `61aebaea5bb7a11f5ca00e1d0579fc74a2bfbe445f8c0fc0514f7249ef1fc90a` |
+| sop/Financial_Execution_SOP_v2.md | `4cfb60515716c9e428a49bdcc8a403155c8132561f51a0621ca5afcc01ef9359` |
+| sop/Financial_Execution_Parameters_v2.json | `ec09c022a73c318a9dfc0d69a0865d7d443151a3bc1c9872bffb2cfe48235c5e` |
+| sop/Funnel_Execution_Reporting_2026-10-16.md | `e8956644a3001f640572dcb0963d9529dbe1986563999eea8ef33ec0d283ae2b` |
+| sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md | `6057b54048f4af49d2ecaf15f4b6f44c8b7d303a95da7c3cd737fee64a049ce8` |
+| sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md | `9b1d6d8d8706391c413e011ebcec9aa932691b205ab6ef35a947707c03251335` |
+
+The other seven original source hashes remain unchanged. The frozen master hash remains `1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b`.
+
+
 ## Status and boundary
 
-This is a reading aid, not a framework document. It does not amend the master, the Core, G0–G9, the SOP or any release; it adds no gate, G10, causal principle, score or investment validation; and it authorises no outreach or purchase. "Run a path" shows decision logic only, not a case or a signal. Area-based underwriting (regional protocols, Cheras and Klang Valley case files) is excluded on purpose. The initial Claude commit only added this folder. The verification continuation adds root navigation, reproducible checks and a map-only Pages deployment.
+This is a reading aid, not a framework document. It does not amend the master, the Core, G0–G9, the SOP or any release; it adds no gate, G10, causal principle, score or investment validation; and it authorises no outreach or purchase. "Run a path" shows decision logic only, not a case or a signal. Individual case rules remain excluded from the framework graph. The separate current-progress panel links to dated case research without making it Core logic. The initial Claude commit only added this folder. The verification continuation adds root navigation, reproducible checks and a map-only Pages deployment.
 
 ## Sources and versions
 
