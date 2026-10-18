@@ -26,6 +26,7 @@ const app = vm.runInNewContext('(function(){' + prefix +
 });
 const sha256 = s => crypto.createHash('sha256').update(s).digest('hex');
 const expected = {
+"sop/Decision_Proportionate_Evidence_2026-10-18.md":"bbabed89b7c642bedd25b578d2dc56f0957327ad1645273d1a326ab5c2ad22ea",
 "sop/Financial_Execution_SOP_v2.md":"4cfb60515716c9e428a49bdcc8a403155c8132561f51a0621ca5afcc01ef9359",
 "sop/Financial_Execution_Parameters_v2.json":"ec09c022a73c318a9dfc0d69a0865d7d443151a3bc1c9872bffb2cfe48235c5e",
 "sop/Funnel_Execution_Reporting_2026-10-16.md":"e8956644a3001f640572dcb0963d9529dbe1986563999eea8ef33ec0d283ae2b",
@@ -169,6 +170,26 @@ assert(html.includes('id="funnel-prefix"'));assert(html.includes("trace.conditio
 assert(!html.includes('Minimum stress: +1.5'));assert(!html.includes('actual plus stress affordability (+1.5'));
 assert.equal(app.CURRENT.outreach,'Paused; no enquiries sent');
 
+// The new overlay must not silently rewrite the dated admission snapshot.
+const review=JSON.parse(read('klang-valley-2026-10-07/round-3/evidence-sufficiency-2026-10-18/Routing_Review.json'));
+assert.equal(review.scope.register_inventory,snapshot.cases.length);
+assert.equal(review.all_case_inventory.length,138);
+assert.equal(new Set(review.all_case_inventory.map(c=>c.id)).size,138);
+assert.equal(review.priority_reviews.length,13);
+for(const c of review.all_case_inventory){
+ const old=snapshot.cases.find(o=>o.id===c.id);assert(old,'Unknown case '+c.id);
+ assert.equal(c.source_first_unpassed_gate,old.first_unpassed_gate);
+ assert.deepEqual(c.source_passed_prefix,old.passed_gate_prefix);
+ assert.equal(c.source_g9,old.g9);
+ assert.equal(c.formal_admission_changed,false);
+ assert.equal(c.new_g0_disposition,null);
+}
+assert.equal(review.scope.formal_gate_advances,0);
+assert.equal(review.scope.other_cases_not_substantively_reassessed,125);
+assert.equal(review.priority_reviews.filter(c=>c.permitted_research_action==='compare_defined_expression').length,7);
+assert.equal(review.priority_reviews.filter(c=>c.permitted_research_action==='resolve_material_branch').length,6);
+assert(html.includes('id="evidence-sufficiency"'));
+assert(html.includes('does not certify 138 new gate assessments'));
 console.log(JSON.stringify({status:'PASS',htmlSha256:sha256(html),sourceFiles:Object.keys(expected).length,
   quotations:quotes.length,nodes:app.ORDER.length,edges:app.EDGES.length,
   core:35,gates:10,steps:app.STEPS.length,presets:app.PRESETS.length,combinations:total,decisions:counts,calculatorCases},null,2));

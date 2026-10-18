@@ -1,5 +1,16 @@
 # Residential Investment Decision Engine
 
+## Evidence sufficiency clarification — 18 October 2026
+
+The user approved the three execution diagnoses concerning premature purchase-level evidence demands, undifferentiated unknowns and excessive price certainty. Apply [Decision-proportionate evidence SOP](sop/Decision_Proportionate_Evidence_2026-10-18.md) alongside the unchanged Core and existing sequential funnel.
+
+[Completed bounded routing review](klang-valley-2026-10-07/round-3/evidence-sufficiency-2026-10-18/README.md): 138-record inventory, 13 priority-dossier routing reviews; the other 125 cases were not substantively reassessed. Distinguish supported research conclusions, decision-changing uncertainties and later execution confirmations. A justified G0 interval does not require a perfect price or complete purchase file. No policy-driven gate promotion: the prior 138 G0 STOP / G9 Defer, zero-Deploy admission snapshot remains historical, not a fresh all-case sufficiency verdict.
+
+The next bounded analytical task is to inspect an existing priority product's comparable ledger, construct a supported interval if possible, or specify the missing normalisation link. Public evidence may suffice; third-party access is not a universal prerequisite. Current map guidance links this clarification. Core, financial parameters, historical inputs and evaluator decisions are unchanged. External enquiries remain paused/unsent; no background process.
+
+Earlier dated status sections below remain historical.
+
+
 ## Core property investigation demo
 
 [Open Core](https://brandonkow.github.io/core/investigation/) — animated district, evidence room, investigation board, scenario lab and decision journal. Six fictional properties; no real case admission changes. Uses the latest 18 October map evaluator. [Source, data adapters and backend setup](investigation/README.md). The [decision map](https://brandonkow.github.io/core/) remains available at its original URL.

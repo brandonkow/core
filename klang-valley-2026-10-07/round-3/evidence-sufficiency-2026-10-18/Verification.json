@@ -1,0 +1,73 @@
+{
+  "status": "PASS",
+  "scope": "SOP/routing integration and map source/logic/interaction checks; not market validation",
+  "source_commit": "ab2a11abe3f26bdbc029704a4e947ce9a645caf9",
+  "tested_content_commit": "97a6632522c6b3afea396c7841cd5be3268538e8",
+  "map_sha256": "61d7cfc1bea4ecc453c060ac32817a63952ada22cb36b6d2b41871033efe28a0",
+  "checks": {
+    "source_files": 14,
+    "core_principles": 35,
+    "gates": 10,
+    "quotations": 164,
+    "nodes": 112,
+    "edges": 299,
+    "decision_states": 1492992,
+    "calculator_cases": 9021,
+    "evaluate_unchanged": true,
+    "gate_trace_unchanged": true,
+    "all_case_id_and_historical_status_parity": 138,
+    "priority_routing_reviews": 13,
+    "other_cases_inventory_only": 125
+  },
+  "browser": {
+    "engine": "Microsoft Edge 155.0.4283.45",
+    "mode": "Headless Playwright; candidate HTML served through an in-memory route, no local persistent files",
+    "layouts": [
+      [
+        1440,
+        900,
+        "light"
+      ],
+      [
+        1440,
+        900,
+        "dark"
+      ],
+      [
+        1024,
+        768,
+        "light"
+      ],
+      [
+        861,
+        600,
+        "light"
+      ],
+      [
+        390,
+        844,
+        "dark"
+      ],
+      [
+        320,
+        568,
+        "light"
+      ]
+    ],
+    "page_errors": [],
+    "checks": "Four modes, evidence guidance, seven presets, sequential gate trace, gross/net calculator and responsive layouts"
+  },
+  "preservation": {
+    "core_and_existing_sop_unchanged": true,
+    "all_existing_research_and_financial_files_unchanged": true,
+    "investigation_demo_unchanged": true,
+    "deleted_files": 0
+  },
+  "limitations": [
+    "No new source retrieval or price reference validation",
+    "No new gate pass, actual loan approval, physical inspection or Deploy",
+    "Local interaction checks are not physical-device certification",
+    "Publication CI and live hash are checked after main update; this receipt describes prepublication checks"
+  ],
+  "execution_issue": "First RAM browser invocation exceeded Windows command length; rerun fetched the candidate blob into process memory and passed."
+}
