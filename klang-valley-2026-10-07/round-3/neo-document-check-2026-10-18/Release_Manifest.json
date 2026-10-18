@@ -1,0 +1,32 @@
+{
+  "version": "neo-document-check-2026-10-18",
+  "parent_commit": "22c941da51884fdcdd732899042685e07ff9b7d4",
+  "parent_tree": "4edbcc7901e4ccf7950b2cc96d92696a485db062",
+  "new_files": [
+    "klang-valley-2026-10-07/round-3/neo-document-check-2026-10-18/Evidence.json",
+    "klang-valley-2026-10-07/round-3/neo-document-check-2026-10-18/Diagnostics.json",
+    "klang-valley-2026-10-07/round-3/neo-document-check-2026-10-18/README.md",
+    "klang-valley-2026-10-07/round-3/neo-document-check-2026-10-18/Request_and_Resume.md",
+    "klang-valley-2026-10-07/round-3/neo-document-check-2026-10-18/reproduce.cjs",
+    "klang-valley-2026-10-07/round-3/neo-document-check-2026-10-18/Verification_Report.json",
+    "klang-valley-2026-10-07/round-3/neo-document-check-2026-10-18/Release_Manifest.json"
+  ],
+  "modified_navigation": [
+    "README.md",
+    "CURRENT_WORKFLOW.md",
+    "AGENTS.md"
+  ],
+  "frozen_hashes": {
+    "Residential_Investment_Framework.md": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+    "sop/Financial_Execution_SOP_v2.md": "c28628abf3479227ed27ec78b058831918387a4c",
+    "sop/Financial_Execution_Parameters_v2.json": "a5bc8732f53ae0cc03e9b3152fa1297cea0b718b",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/financial_model.cjs": "1554e72296b9abd455946906e5a48daeff2b7a16",
+    "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Inputs.json": "194dc4a2caa460450d64ce26e90dc3de57883407"
+  },
+  "historical_deletions": [],
+  "accepted_market_input_changes": [],
+  "core_sop_map_changes": [],
+  "g0": "STOP",
+  "g9": "Defer",
+  "deploy_count": 0
+}

@@ -1,5 +1,12 @@
 # Current workflow and continuation
 
+## Latest Neo document and price check — 18 October 2026
+
+[Neo R219 document packet](klang-valley-2026-10-07/round-3/neo-document-check-2026-10-18/README.md) completes the targeted public check. A historical C2 apartment proclamation narrows project-component uncertainty but is not linked to the two-bay advertised unit. The sale page has a **280k header / 265k nett body** conflict. Six conditional evaluations retain both prices; no price, rent, title or bay right is adopted as authenticated.
+
+**G0 STOP / G9 Defer; zero Deploy.** All 138 historical financial bases remain unchanged. [Prepared document request and continuation](klang-valley-2026-10-07/round-3/neo-document-check-2026-10-18/Request_and_Resume.md) identify the next evidence-access step. No request has been sent; explicit contact authority is absent. No repeated broad portal pass is pending. Earlier dated status sections below are historical.
+
+
 ## Latest admission review — 18 October 2026
 
 The user resumed research. [Amcorp and Neo bounded public reviews](klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/README.md) are complete, with 18 conditional evaluations and 220 calculation checks. Both remain **G0 STOP / G9 Defer**; no base inputs or admission counts changed. [Current continuation](klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/RESUME.md) and [concrete evidence-access plan](klang-valley-2026-10-07/round-3/amcorp-neo-admission-2026-10-18/Evidence_Access_Plan.md) supersede the earlier usage pause and the pending Amcorp/Neo public-search steps.

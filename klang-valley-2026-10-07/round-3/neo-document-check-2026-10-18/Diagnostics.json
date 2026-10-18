@@ -1,0 +1,92 @@
+{
+  "case_id": "R219",
+  "conditional_only": true,
+  "accepted_market_input_updates": [],
+  "model_path": "../sop-v2-all-base-replay-2026-10-16/financial_model.cjs",
+  "input_path": "../sop-v2-all-base-replay-2026-10-16/Inputs.json",
+  "assumptions": {
+    "ltv": 0.9,
+    "rate": 0.04,
+    "years": 35,
+    "rent": 1800,
+    "fee_monthly": 210,
+    "fee_status": "Inherited unverified combined proxy",
+    "fitout_fraction": 0.05,
+    "hold_months": 60,
+    "paid_months": 55,
+    "new_lease_commissions": 5,
+    "commission_tax": 0.08,
+    "annual_repairs_rent_fraction": 0.5
+  },
+  "price_interpretation": "Separate possible contractual-price branches; not assumed launch gross/net rebate financing. No proof that 280k gross finances a 265k nett resale.",
+  "exit_interpretation": "Flat and 20% own-price targets are scenarios only; common 318k anchor isolates entry-price impact and is not a valuation.",
+  "cost_boundary": "Inherited quoted/planning model scope, before unpriced bills and final personal/RPGT outcome; no claim of complete actual-cost coverage.",
+  "results": [
+    {
+      "price": 265000,
+      "rent": 1800,
+      "scenario": "flat",
+      "exit_price": 265000,
+      "annual": 1763.7869116266563,
+      "narrow": 533.9822426355547,
+      "profit": -12553.60484108131,
+      "peak": 54868.285514728894,
+      "monthly_payment": 1056.0177573644453
+    },
+    {
+      "price": 265000,
+      "rent": 1800,
+      "scenario": "own_target",
+      "exit_price": 318000,
+      "annual": 1763.7869116266563,
+      "narrow": 533.9822426355547,
+      "profit": 38013.69515891868,
+      "peak": 54868.285514728894,
+      "monthly_payment": 1056.0177573644453
+    },
+    {
+      "price": 265000,
+      "rent": 1800,
+      "scenario": "fixed_318k",
+      "exit_price": 318000,
+      "annual": 1763.7869116266563,
+      "narrow": 533.9822426355547,
+      "profit": 38013.69515891868,
+      "peak": 54868.285514728894,
+      "monthly_payment": 1056.0177573644453
+    },
+    {
+      "price": 280000,
+      "rent": 1800,
+      "scenario": "flat",
+      "exit_price": 280000,
+      "annual": 1046.4918311526915,
+      "narrow": 474.20765259605764,
+      "profit": -17348.790020764776,
+      "peak": 57987.58469480788,
+      "monthly_payment": 1115.7923474039424
+    },
+    {
+      "price": 280000,
+      "rent": 1800,
+      "scenario": "own_target",
+      "exit_price": 336000,
+      "annual": 1046.4918311526915,
+      "narrow": 474.20765259605764,
+      "profit": 36080.8099792352,
+      "peak": 57987.58469480788,
+      "monthly_payment": 1115.7923474039424
+    },
+    {
+      "price": 280000,
+      "rent": 1800,
+      "scenario": "fixed_318k",
+      "exit_price": 318000,
+      "annual": 1046.4918311526915,
+      "narrow": 474.20765259605764,
+      "profit": 18907.009979235212,
+      "peak": 57987.58469480788,
+      "monthly_payment": 1115.7923474039424
+    }
+  ]
+}

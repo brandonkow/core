@@ -1,0 +1,118 @@
+{
+  "checked_on": "2026-10-18",
+  "case_id": "R219",
+  "scope": "Targeted document and advertisement linkage, not a fresh regional survey",
+  "sources": [
+    {
+      "id": "ND01",
+      "url": "https://www.auctioneers-sejahtera.com/images/proclaim/1736827561_YONG_KIA_SIANG.pdf",
+      "origin": "Auctioneer proclamation",
+      "event_date": "2025-01-23",
+      "access": "Initial extracted text read; subsequent requests failed (timeout/404); web PDF screenshots failed. No visual verification claimed.",
+      "pages": "PDF pages 1-2 (English/Malay proclamation)",
+      "observed": {
+        "parcel": "C2-13-03A",
+        "component": "Block C2, Neo Damansara Residences, floor 13; described as service apartment",
+        "area_sqft": 420.87,
+        "accessory_bay": "4-99, Level 4",
+        "bay_count_in_document": 1,
+        "master_title": "PN 122113, Lot 94439",
+        "tenure_expiry": "2104-06-08",
+        "developer": "Paradigma Intan Sdn Bhd",
+        "strata_status_at_document_date": "Not yet issued",
+        "land_condition": "Bangunan Perniagaan",
+        "reserve": 209000
+      },
+      "boundary": "Historical reference parcel only. No established connection to the 265k advertisement; reserve is not a realised sale. Not current title/use/credit clearance. No borrower identifiers retained."
+    },
+    {
+      "id": "ND02",
+      "url": "https://www.propertyguru.com.my/property-listing/neo-damansara-for-sale-by-bryan-peng-502033109",
+      "origin": "Advertiser Bryan Peng",
+      "listing_date": "2026-09-05",
+      "access": "Direct extracted page and search index",
+      "observed": {
+        "listing_id": "502033109",
+        "direct_header_price": 280000,
+        "body_nett_price": 265000,
+        "index_header_price": 265000,
+        "area_sqft": 421,
+        "bays_claimed": 2,
+        "furnished": true
+      },
+      "boundary": "Same advertised package as earlier rental ID 502033120 based on advertiser, date, size and copy; not authenticated same legal parcel. Header/body/index conflict unresolved. No parcel or bay identifier in inspected listing-specific fields. Mirror is not an independent source."
+    },
+    {
+      "id": "ND03",
+      "url": "https://www.propertyguru.com.my/property-listing/neo-damansara-for-rent-by-bryan-peng-502033120",
+      "origin": "Same advertiser as ND02",
+      "access": "Prior 18 October packet, not freshly re-read in this document pass",
+      "observed": {
+        "asking_rent": 1800,
+        "body_nett_price": 265000,
+        "bays_claimed": 2
+      },
+      "boundary": "Advertised rent only, not a signed ordinary tenancy or collected rent. Shares origin with ND02."
+    },
+    {
+      "id": "ND04",
+      "url": "https://www.samplanners.my/neo-damansara/",
+      "origin": "Project planning consultant portfolio",
+      "access": "Direct extracted page",
+      "observed": {
+        "client": "Paradigma Intan Sdn Bhd",
+        "developer": "EMKAY",
+        "local_authority": "MBPJ",
+        "project_year": 2012,
+        "components": [
+          "shop lots",
+          "service apartment",
+          "office",
+          "banquet hall"
+        ]
+      },
+      "boundary": "Independent project-scope context, not a parcel approval certificate or a current management/use statement."
+    },
+    {
+      "id": "ND05",
+      "url": "https://www.propertyguru.com.my/property-listing/neo-damansara-for-sale-by-nicholes-chong-60082021",
+      "origin": "Historical auction advertiser",
+      "access": "Search-index excerpt only; direct open inaccessible",
+      "observed": {
+        "parcel": "C2-13-03A",
+        "advertised_auction_price": 189000,
+        "advertised_event": "2025-07-23",
+        "listing_date": "2025-06-20",
+        "area_sqft": 420
+      },
+      "boundary": "Lead only. No July proclamation or result obtained. Cannot infer January failure, eventual sale, market value, repeated distress or current availability."
+    }
+  ],
+  "deduplication": {
+    "same_origin": [
+      "ND02",
+      "ND03"
+    ],
+    "mirror_url": "https://www.iproperty.com.my/bm/properti/petaling-jaya/neo-damansara/sale-502033109/",
+    "mirror_treatment": "Same listing ID, not another comparable or corroborating market observation"
+  },
+  "disposition": {
+    "first_unresolved_gate": "G0",
+    "contiguous_passed_prefix": [],
+    "g9": "Defer",
+    "cleared": false,
+    "base_inputs_changed": false,
+    "total_base_cases": 138,
+    "deploy_count": 0
+  },
+  "unresolved": [
+    "Subject block/floor/parcel and contractual effective price",
+    "Current title/assignment and approved ordinary residential use of subject",
+    "Legal, transferable allocation and usability of both claimed bays",
+    "Ordinary-tenancy package, paid rent, lease length, utilities and renewal history",
+    "Actual maintenance/sinking bills, arrears and proposed works",
+    "Lender valuation, LTV, tenure and product eligibility",
+    "Matched completed transfers and financeable exit buyer"
+  ],
+  "required_analytical_fields": "The prior amcorp-neo-admission-2026-10-18/Required_Analytical_Fields.json remains applicable: tenant task/privacy, household adoption, governance and investor exit remain unresolved; this packet adds no tenant or governance measurements."
+}

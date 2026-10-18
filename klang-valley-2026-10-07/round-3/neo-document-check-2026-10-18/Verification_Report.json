@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-18",
+  "parent_commit": "22c941da51884fdcdd732899042685e07ff9b7d4",
+  "calculations": {
+    "checks": 76,
+    "passed": true,
+    "evaluations": 6,
+    "meaning": "Arithmetic, source-scope and admission-boundary checks; not market validation"
+  },
+  "execution": "Committed reproduction script evaluated in-memory with a virtual read-only filesystem and the unchanged financial model; native Node CLI execution not claimed.",
+  "evidence_checks": {
+    "source_count": 5,
+    "same_origin_deduplication": true,
+    "auction_reference_not_subject": true,
+    "asking_not_achieved": true,
+    "header_body_conflict_retained": true,
+    "visual_pdf_verification": false,
+    "no_accepted_input_changes": true
+  },
+  "preservation_contract": {
+    "old_blob_count": 847,
+    "allowed_modified": [
+      "README.md",
+      "CURRENT_WORKFLOW.md",
+      "AGENTS.md"
+    ],
+    "expected_old_blobs_unchanged": 844,
+    "expected_deleted": 0,
+    "protected_hashes": {
+      "Residential_Investment_Framework.md": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+      "sop/Financial_Execution_SOP_v2.md": "c28628abf3479227ed27ec78b058831918387a4c",
+      "sop/Financial_Execution_Parameters_v2.json": "a5bc8732f53ae0cc03e9b3152fa1297cea0b718b",
+      "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/financial_model.cjs": "1554e72296b9abd455946906e5a48daeff2b7a16",
+      "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Inputs.json": "194dc4a2caa460450d64ce26e90dc3de57883407"
+    }
+  },
+  "publication_validation": "Candidate tree must preserve every previous blob outside the three navigation/instruction files; verify before advancing main with expected-head guard. Final remote readback is reported in the completion message.",
+  "market_validation": "No gate clearance, actual lease authentication, title search, lender acceptance or realised outcome validation."
+}
