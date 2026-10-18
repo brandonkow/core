@@ -1,0 +1,92 @@
+{
+  "version": "EVE-MAXIM-G0-2026-10-18",
+  "sources": [
+    {
+      "id": "E1",
+      "url": "https://list.my/subsales/property/519276",
+      "kind": "Publisher-reported completed subsale",
+      "access": "Direct readable; April 2026 record",
+      "event": "2026-04",
+      "use": "689 sqft, RM375000, level 8",
+      "access_date": "2026-10-18",
+      "limitations": "Public display is not an authenticated subject-unit document. Availability and independent transaction verification are not established."
+    },
+    {
+      "id": "E2",
+      "url": "https://list.my/subsales/selangor/petaling/damansara/eve-suites-ara-damansara?group_by_size=false&size_max=724&size_min=675&type=SA",
+      "kind": "Publisher-reported filtered transaction table",
+      "access": "Direct table readable earlier in this session; subsequent identical request returned a tool access error",
+      "event": "Recent selected observations January 2025-April 2026",
+      "use": "Serviced-apartment/size filtering; recent displayed 689 sqft cohort. Not the whole-project median.",
+      "access_date": "2026-10-18",
+      "limitations": "Public display is not an authenticated subject-unit document. Availability and independent transaction verification are not established."
+    },
+    {
+      "id": "E3",
+      "url": "https://www.brickz.my/transactions/residential/selangor/ara-damansara/eve-suite/non-landed/?range=2025+May-",
+      "kind": "Search-index transaction extract",
+      "access": "Search extract readable; direct request 403",
+      "event": "2025-09-20 and 2025-10-07",
+      "use": "689 sqft RM350000 and RM364000. Rooms metadata conflicts with compact marketing; not accepted as physical layout.",
+      "access_date": "2026-10-18",
+      "limitations": "Public display is not an authenticated subject-unit document. Availability and independent transaction verification are not established."
+    },
+    {
+      "id": "E4",
+      "url": "https://www.edgeprop.my/listing/sale/2567429/selangor/ara_damansara/nonlanded/condominium-apartment-servicedresidence/eve-suite-ara-damansara-linked-to-mrt-for-sale",
+      "kind": "Transaction-history panel embedded in sale advertisement",
+      "access": "Direct readable cached page",
+      "event": "2025-09-20 and 2025-10-07",
+      "use": "Same dates/prices as E3; display corroboration only, not two additional observations. Advertisement price excluded from transaction cohort.",
+      "access_date": "2026-10-18",
+      "limitations": "Public display is not an authenticated subject-unit document. Availability and independent transaction verification are not established."
+    },
+    {
+      "id": "E5",
+      "url": "https://www.propertyguru.com.my/property-listing/eve-suite-nzx-square-for-sale-by-tom-ting-502001977",
+      "kind": "Seller asking advertisement",
+      "access": "Direct readable",
+      "event": "Listed 2026-08-30",
+      "use": "RM370000, 680 sqft studio, one bay, fully furnished. Already known in 12 October packet; refreshed, not newly discovered.",
+      "access_date": "2026-10-18",
+      "limitations": "Public display is not an authenticated subject-unit document. Availability and independent transaction verification are not established."
+    },
+    {
+      "id": "M1",
+      "url": "https://list.my/subsales/kl/kuala-lumpur/mukim-petaling/maxim-residences?group_by_size=false&size_max=874&size_min=825",
+      "kind": "Publisher-reported filtered transaction table",
+      "access": "Direct readable",
+      "event": "2021-2024; selected recent rows November 2023-June 2024",
+      "use": "829/850 sqft records, RM350000-440000 in the selected 2023-24 period; historical context only.",
+      "access_date": "2026-10-18",
+      "limitations": "Public display is not an authenticated subject-unit document. Availability and independent transaction verification are not established."
+    },
+    {
+      "id": "M2",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/cheras/maxim-residences/non-landed/",
+      "kind": "Search-index transaction extract",
+      "access": "Search extract readable; direct request 403",
+      "event": "2025-06-03; 2026-03-27 price masked",
+      "use": "850 sqft RM350000 in June 2025; newer 829 sqft row has no visible price. 883 sqft RM450000 excluded from core cohort.",
+      "access_date": "2026-10-18",
+      "limitations": "Public display is not an authenticated subject-unit document. Availability and independent transaction verification are not established."
+    },
+    {
+      "id": "M3",
+      "url": "https://www.propertyguru.com.my/bm/senarai-hartanah/maxim-residences-untuk-dijual-oleh-camie-hoo-502008418",
+      "kind": "Seller asking advertisement",
+      "access": "Direct readable",
+      "event": "Listed 2026-09-01",
+      "use": "RM380000 negotiable, 825 sqft, two beds/two baths, one bay, partly furnished. No completed transaction or physical inspection.",
+      "access_date": "2026-10-18",
+      "limitations": "Public display is not an authenticated subject-unit document. Availability and independent transaction verification are not established."
+    }
+  ],
+  "lineage": "List.my attributes transaction data to NAPIC and labels it indicative. Publisher displays are not independently certified official records; portals may share upstream data. Repeated rows are not independent transactions. Search/cached access is distinguished from direct access. No masked prices were accessed or inferred.",
+  "excluded_probes": [
+    "List.my automated narratives and all-stock medians, including shops and larger units.",
+    "Eve 2023 RM750000/689 sqft unexplained outlier: older-period anomaly, not proof of fraud or current value.",
+    "Future auction reserves, asking-price outliers and room rentals: not completed sales or achieved whole-unit rents.",
+    "EdgeProp Maxim search/direct date-price disagreement and MyRumahBaru direct 404: not relied on."
+  ]
+}

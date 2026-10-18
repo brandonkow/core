@@ -1,0 +1,156 @@
+{
+  "version": "EVE-MAXIM-G0-2026-10-18",
+  "currency": "MYR",
+  "basis": "Selected publisher-reported sale observations, not the complete market or independent authenticated transactions",
+  "observations": [
+    {
+      "case": "R306",
+      "date": "2026-04",
+      "price": 375000,
+      "sqft": 689,
+      "floor": 8,
+      "sources": [
+        "E1",
+        "E2"
+      ]
+    },
+    {
+      "case": "R306",
+      "date": "2025-12",
+      "price": 405000,
+      "sqft": 689,
+      "floor": 22,
+      "sources": [
+        "E2"
+      ]
+    },
+    {
+      "case": "R306",
+      "date": "2025-11",
+      "price": 370000,
+      "sqft": 689,
+      "floor": 19,
+      "sources": [
+        "E2"
+      ]
+    },
+    {
+      "case": "R306",
+      "date": "2025-07",
+      "price": 395000,
+      "sqft": 689,
+      "floor": 10,
+      "sources": [
+        "E2"
+      ]
+    },
+    {
+      "case": "R306",
+      "date": "2025-01",
+      "price": 400000,
+      "sqft": 689,
+      "floor": 17,
+      "sources": [
+        "E2"
+      ]
+    },
+    {
+      "case": "R306",
+      "date": "2025-10-07",
+      "price": 364000,
+      "sqft": 689,
+      "floor": null,
+      "sources": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "case": "R306",
+      "date": "2025-09-20",
+      "price": 350000,
+      "sqft": 689,
+      "floor": null,
+      "sources": [
+        "E3",
+        "E4"
+      ]
+    },
+    {
+      "case": "KV01",
+      "date": "2024-06",
+      "price": 400000,
+      "sqft": 829,
+      "floor": 12,
+      "sources": [
+        "M1"
+      ]
+    },
+    {
+      "case": "KV01",
+      "date": "2024-06",
+      "price": 350000,
+      "sqft": 829,
+      "floor": 16,
+      "sources": [
+        "M1"
+      ]
+    },
+    {
+      "case": "KV01",
+      "date": "2024-02",
+      "price": 400000,
+      "sqft": 850,
+      "floor": 14,
+      "sources": [
+        "M1"
+      ]
+    },
+    {
+      "case": "KV01",
+      "date": "2023-11",
+      "price": 440000,
+      "sqft": 829,
+      "floor": 16,
+      "sources": [
+        "M1"
+      ]
+    },
+    {
+      "case": "KV01",
+      "date": "2025-06-03",
+      "price": 350000,
+      "sqft": 850,
+      "floor": null,
+      "sources": [
+        "M2"
+      ]
+    }
+  ],
+  "normalisation": {
+    "included": "Same named project, residential serviced-apartment records and stated compact/near-size cohorts; dates retained. Observed bands are descriptions of these records only.",
+    "excluded": "Shops, Eve 1066/1087 sqft, Maxim 883/1033 sqft and 624/678 sqft, reserves and asking prices. Older Eve 2023 anomaly not silently blended into the recent cohort.",
+    "adjustments_applied": [],
+    "reason": "No supported numeric bay, condition, lease-rights, package or time adjustment was found. No price-per-square-foot scaling or invented uncertainty haircut.",
+    "R306": {
+      "observed_band": [
+        350000,
+        405000
+      ],
+      "period": "January 2025-April 2026",
+      "normalised_subject_interval": null,
+      "claim": "Useful compact-cohort price context; 370000 ask is within this observed envelope. Neither a discount nor a target-unit valuation is established.",
+      "missing_link": "680 marketed sqft versus 689 transaction sqft membership, and whether material bay/condition/package differences explain price dispersion. Six-month data lag cannot be extrapolated away."
+    },
+    "KV01": {
+      "observed_band": [
+        350000,
+        440000
+      ],
+      "period": "November 2023-June 2025 across two publishers",
+      "normalised_subject_interval": null,
+      "claim": "Historical near-size context only; not a current 825 sqft fair-value band.",
+      "missing_link": "Current comparable price for the 825/829 product and supported treatment of 850 sqft/condition/rights differences; the March 2026 829 sqft price is not visible."
+    }
+  }
+}

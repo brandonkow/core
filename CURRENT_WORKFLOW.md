@@ -1,5 +1,14 @@
 # Current workflow and continuation
 
+## Eve / Maxim comparable-led reassessment — 18 October 2026
+
+[Two-case evidence packet](klang-valley-2026-10-07/round-3/eve-maxim-g0-2026-10-18/README.md): recent Eve compact and older Maxim near-size publisher-reported transactions are now recorded separately from asking prices. Eve's RM350,000-405,000 observed cohort envelope is useful context, not a normalised target-unit valuation; Maxim's RM350,000-440,000 observations span older periods and are not a current fair-value band. Both specific acquisition expressions remain G0 unresolved / G9 Defer for the documented matching/timing reasons. No full purchase file is required for narrower price research.
+
+The unchanged SOP-v2 model was applied to Eve's existing RM370,000 advertised lead and Maxim RM380,000: mean annual replacement-base cash about -RM2,213 / -RM2,931, with conditional five-year flat-price losses about -RM40,915 / -RM45,313. Twelve scenarios and 58 arithmetic/parity checks are recorded; rents, fees, retention and exits are not newly authenticated. Only two of the 13 priority dossiers were reassessed; the other eleven and 125 inventory cases were not rerun. Historical admission counts are not an all-case fresh verdict.
+
+Next independent priority: R315 Mont Kiara Pines product-cohort evidence. Reopen this pair on material product/transaction normalisation or collection/retention evidence, not another unchanged portal sweep. Core/SOP/map and historical numerical inputs remain unchanged; no outreach or background task.
+
+
 ## Evidence sufficiency clarification — 18 October 2026
 
 The user approved the three execution diagnoses concerning premature purchase-level evidence demands, undifferentiated unknowns and excessive price certainty. Apply [Decision-proportionate evidence SOP](sop/Decision_Proportionate_Evidence_2026-10-18.md) alongside the unchanged Core and existing sequential funnel.

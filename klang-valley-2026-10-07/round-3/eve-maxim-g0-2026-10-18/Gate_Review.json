@@ -1,0 +1,78 @@
+{
+  "version": "EVE-MAXIM-G0-2026-10-18",
+  "source_commit": "05a2bcf78cdf993467824675ad8108368f07aa99",
+  "scope": "Two marketed acquisition expressions only. Cohort research is not a separately passing admission funnel.",
+  "cases": [
+    {
+      "id": "R306",
+      "subject": "Eve Suite advertised 680 sqft one-bay furnished compact at RM370000",
+      "passed_prefix": [],
+      "first_unresolved": "G0",
+      "g9": "Defer",
+      "reference_status": "Observed cohort context supported; subject normalised interval unknown",
+      "old_reason": "Matched effective clearing interval unvalidated",
+      "new_evidence": "Recent size-filtered publisher-reported transactions; lower dates/prices also displayed on another portal, not independent lineage.",
+      "remaining_decision_changing": "Whether the marketed 680 sqft/bay/package fits the 689 sqft sale cohort without a material adjustment, and whether the dated observations remain a usable present reference. Dispersion is not itself a demonstrated bound on these adjustments.",
+      "permitted_now": "Use the observed envelope to challenge an obvious-undervaluation narrative and rank further compact-product research. Compare conditional financing and retention economics.",
+      "not_required_for_this_price_research": [
+        "Borrower approval",
+        "Private portfolio statement",
+        "Signed target purchase agreement",
+        "Paid tenancy as a universal G0 document"
+      ],
+      "reopen_when": "Public plan/rights/transaction particulars support subject-cohort matching and a justified interval, or contrary current evidence changes the band; no fixed transaction count required."
+    },
+    {
+      "id": "KV01",
+      "subject": "Maxim Residences advertised 825 sqft two-bed one-bay partly furnished at RM380000",
+      "passed_prefix": [],
+      "first_unresolved": "G0",
+      "g9": "Defer",
+      "reference_status": "Historical near-size context supported; present normalised interval unknown",
+      "old_reason": "Matched effective clearing interval unvalidated",
+      "new_evidence": "Size-filtered 2023-24 sale records and one visible 2025 near-size transaction.",
+      "remaining_decision_changing": "Current 825/829 sqft clearing support plus size/condition/rights normalisation. Old RM440000 is not a present upper bound.",
+      "permitted_now": "Retain two-bedroom challenger and conditional financial comparison; no premium from additional bedroom alone.",
+      "not_required_for_this_price_research": [
+        "Actual lender offer",
+        "Private balance-sheet evidence",
+        "Complete tenancy file"
+      ],
+      "reopen_when": "A public current matched transaction or other defensible triangulation supports timing and product normalisation."
+    }
+  ],
+  "outcome": {
+    "cases_reassessed": 2,
+    "priority_cases_not_reassessed_this_packet": 11,
+    "other_inventory_cases_not_reassessed": 125,
+    "formal_gate_advances": 0,
+    "deploy": 0,
+    "historical_138_count": "Preserved snapshot; not freshly revalidated for all cases."
+  },
+  "miss": {
+    "type": "Process/evidence coverage miss",
+    "description": "Prior comparable work relied too heavily on mixed portal summaries. Public filtered transaction rows were available in this investigation and materially improve cohort context. Record the omission; do not relabel it as a proven missed profitable deal.",
+    "market_outcome": "Unknown"
+  },
+  "divergence": {
+    "flag_triggered": false,
+    "reason": "Privacy utility and negative full-cost carry concern different propositions and can coexist. No validated expectation of a resale premium is inferred from the user's product preference.",
+    "hypothesis": "Privacy-focused demand could improve retention enough to offset the extra turnover drag.",
+    "confirming": "Comparable achieved whole-unit rent with documented retention and collections, without offsetting fee/fit-out burden.",
+    "falsifying": "Frequent replacement, concessions, arrears or unpriced cost eliminates the modelled retention improvement.",
+    "competing_explanations": {
+      "data_limitation": "Advertised rent and publisher sale coverage may misrepresent collection and comparable units.",
+      "judgment_bias": "Preferred-product narrative may lead the analyst to assume retention and appreciation.",
+      "omitted_variable": "Bay, tenant task, management, condition and fit-out may explain performance differences.",
+      "structural_change": "Future demand/supply changes may alter rent or exit; no uplift adopted without evidence."
+    },
+    "routing": [
+      "G0 Comparable Set",
+      "G2 Buyer Universe",
+      "G3 Project Quality",
+      "G6 Exit Architecture",
+      "G7 Financing / Terminal Risk"
+    ],
+    "status": "Unresolved hypothesis; no gate clearance"
+  }
+}

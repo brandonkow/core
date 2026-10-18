@@ -1,0 +1,15 @@
+{
+  "version": "EVE-MAXIM-G0-2026-10-18",
+  "baseline_commit": "05a2bcf78cdf993467824675ad8108368f07aa99",
+  "model_checks": 58,
+  "packet_structure_reference_scope_and_arithmetic_checks": 75,
+  "conditional_scenarios": 12,
+  "source_entries": 8,
+  "selected_observations": 12,
+  "substantively_reassessed": 2,
+  "formal_gate_advances": 0,
+  "validation_boundaries": "These are consistency and arithmetic checks, not authenticated transaction verification or investment outcomes. Full stress replays are not claimed for the new Eve price.",
+  "preservation_method": "Compare candidate recursive Git tree with the baseline; require no removal and no change outside this new packet, README.md, CURRENT_WORKFLOW.md and AGENTS.md before publishing. Existing master, SOP, financial model/inputs, map and investigation app must retain their Git blob IDs.",
+  "reproduction": "node reproduce.cjs uses gh authentication and pinned remote input files; no new local repository or output file required.",
+  "publication": "Expected-head main update only. No branch, force push, local filesystem output or third-party contact."
+}
