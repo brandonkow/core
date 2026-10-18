@@ -1,0 +1,103 @@
+{
+  "source": "programme-final/Portfolio_and_Terminal_Risk.md",
+  "baskets": [
+    {
+      "id": "P0",
+      "ids": [],
+      "label": "No acquisition control"
+    },
+    {
+      "id": "P1",
+      "ids": [
+        "KV01",
+        "R306",
+        "R231"
+      ],
+      "label": "Compact income research"
+    },
+    {
+      "id": "P2",
+      "ids": [
+        "R315",
+        "R316",
+        "R350"
+      ],
+      "label": "Mature family research"
+    },
+    {
+      "id": "P3",
+      "ids": [
+        "R306",
+        "R350"
+      ],
+      "label": "Compact plus family"
+    },
+    {
+      "id": "P4",
+      "ids": [
+        "R208",
+        "R309",
+        "R219",
+        "R353"
+      ],
+      "label": "Held arithmetic outliers"
+    },
+    {
+      "id": "P5",
+      "ids": [
+        "R314",
+        "R323"
+      ],
+      "label": "Prime high-quantum controls"
+    },
+    {
+      "id": "P6",
+      "ids": [
+        "R201",
+        "R308",
+        "R350"
+      ],
+      "label": "Middle-ticket family controls"
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "BASE"
+    },
+    {
+      "id": "FLAT",
+      "exit": 1
+    },
+    {
+      "id": "J1_completed",
+      "fitout_extra": 10000,
+      "rate": 0.0425,
+      "fee_growth": 0.05
+    },
+    {
+      "id": "J2",
+      "rent_factor": 0.8,
+      "initial_void": 2,
+      "exit": 0.9,
+      "hold": 66
+    },
+    {
+      "id": "J3_completed",
+      "fitout_extra": 10000,
+      "rate": 0.0425,
+      "fee_growth": 0.05,
+      "rent_factor": 0.8,
+      "initial_void": 2,
+      "exit": 0.9,
+      "hold": 66
+    },
+    {
+      "id": "S3_resale_valuation_only",
+      "valuation_factor": 0.9
+    }
+  ],
+  "synchronisation": "Simultaneous hypothetical possession and common shock dates. Existing completed/possession illustration only, not current availability. New launch Brightwood remains separate.",
+  "excluded": "No synthetic personal cash/reserve, no probability/independence assumption, no injected construction delay for completed properties, no new stresses.",
+  "pre_calculation_record": "Original five-path design fixed in memory before calculation. A separate S3 acquisition-valuation branch was added during applicability audit, before its calculation. Not externally preregistered; no result-based scenario deletion.",
+  "valuation_branch": "S3 only: bank value 90% of agreed resale price, financing 90% of that value => 81% of price. Rate/term stay 4%/35 years. This is labelled actual-financing sensitivity, never a replacement of the 90% standard and never stacked into J3."
+}

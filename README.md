@@ -1,5 +1,14 @@
 # Residential Investment Decision Engine
 
+## Latest execution closeout — 18 October 2026
+
+[Execution closeout and current-SOP portfolio refresh](klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18/README.md) closes the remaining numerical portfolio gap. All seven historical study baskets and 9,436 different-project expression pairs now have current-SOP conditional funding/terminal diagnostics, without a synthetic personal cash/reserve assumption. Old portfolio results remain historical.
+
+All 138 base replays are complete; **all 138 remain G0 STOP / G9 Defer, zero Deploy**. [Exact-unit/Brightwood checklist](klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18/Execution_Checklist.md) and [13-priority/all-case overlay](klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18/Funnel_Closeout.json) distinguish prepared work from obtained evidence. [Four named document enquiries](klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18/Outreach_Drafts.md) are ready but **unsent; explicit messaging authorisation required**. Brightwood recipient/contractor/bank access remains unconfirmed.
+
+[Outcome preparation](klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18/Outcome_Register.json) preserves the six original locked forward cases; earliest review is 6 October 2027. No observed outcomes, actual allocation or execution clearance is claimed. No Core/SOP/map changes, outreach, purchase, paid access or background process. Next action is authorised material-document acquisition, not another broad portal/recalculation loop. Earlier dated sections below are historical.
+
+
 ## Latest Neo document and price check — 18 October 2026
 
 [Neo R219 document packet](klang-valley-2026-10-07/round-3/neo-document-check-2026-10-18/README.md) completes the targeted public check. A historical C2 apartment proclamation narrows project-component uncertainty but is not linked to the two-bay advertised unit. The sale page has a **280k header / 265k nett body** conflict. Six conditional evaluations retain both prices; no price, rent, title or bay right is adopted as authenticated.

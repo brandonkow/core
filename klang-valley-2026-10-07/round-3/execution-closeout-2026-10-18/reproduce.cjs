@@ -1,0 +1,18 @@
+"use strict";
+const fs=require("fs"),path=require("path"),assert=require("assert");
+const base=path.resolve(__dirname,"../sop-v2-all-base-replay-2026-10-16");
+const I=JSON.parse(fs.readFileSync(path.join(base,"Inputs.json"),"utf8"));
+const design=JSON.parse(fs.readFileSync(path.join(__dirname,"Design.json"),"utf8"));
+const expected=JSON.parse(fs.readFileSync(path.join(__dirname,"Portfolio_Results.json"),"utf8"));
+const actual=require("./portfolio_builder.cjs").build(I,design,require(path.join(base,"financial_model.cjs")));
+assert.deepStrictEqual(actual,expected);
+const funnel=JSON.parse(fs.readFileSync(path.join(__dirname,"Funnel_Closeout.json"),"utf8"));
+assert.strictEqual(funnel.cases.length,138);
+assert.deepStrictEqual(funnel.cases.map(x=>x.id).sort(),I.bases.map(x=>x.id).sort());
+assert.strictEqual(new Set(funnel.cases.map(x=>x.id)).size,138);
+assert.strictEqual(funnel.cases.filter(x=>x.active_priority_dossier).length,13);
+assert(funnel.cases.every(x=>x.first_unpassed_gate==="G0"&&x.passed_gate_prefix.length===0&&x.g9==="Defer"));
+const outcome=JSON.parse(fs.readFileSync(path.join(__dirname,"Outcome_Register.json"),"utf8"));
+assert.strictEqual(outcome.locked_reviews.length,6);
+assert(outcome.locked_reviews.every(x=>x.observations.length===0&&x.judgment===null));
+console.log({model_and_aggregation_checks:actual.checks,reproduction_and_register_checks:8,passed:true});

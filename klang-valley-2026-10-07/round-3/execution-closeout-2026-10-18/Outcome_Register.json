@@ -1,0 +1,114 @@
+{
+  "version": "KV-EXECUTION-OUTCOME-2026-10-18",
+  "source": "phase-7/Residential_Investment_Engine_Handoff_Context.md, section 16",
+  "status": "Preparation complete; actual observations unavailable; no scheduled automation",
+  "original_locked_on": "2026-10-06",
+  "original_predictions_modified": false,
+  "locked_reviews": [
+    {
+      "project": "The MINH",
+      "dates": [
+        "2028-12-31"
+      ],
+      "claim": "Strong secondary conversion; 1600–2100 sf liquidity versus slower 3000 sf; repeatable post-VP premium",
+      "status": "Not due; no outcome adjudicated",
+      "observations": [],
+      "judgment": null
+    },
+    {
+      "project": "Kanopi Residences",
+      "dates": [
+        "2028-12-31",
+        "2029-12-31"
+      ],
+      "claim": "Test local-household secondary adoption of 1000–1200 sf; first high-rise is not maturity proof",
+      "status": "Not due; no outcome adjudicated",
+      "observations": [],
+      "judgment": null
+    },
+    {
+      "project": "The WYN",
+      "dates": [
+        "2028-06-30",
+        "2029-06-30"
+      ],
+      "claim": "High usage and supply; first-resale dispersion; family stronger than small investor stock; rent stronger than ownership premium",
+      "status": "Not due; no outcome adjudicated",
+      "observations": [],
+      "judgment": null
+    },
+    {
+      "project": "Alora",
+      "dates": [
+        "2028-12-31"
+      ],
+      "claim": "Mature-catchment family conversion; 923–1042 sf segment",
+      "status": "Not due; no outcome adjudicated",
+      "observations": [],
+      "judgment": null
+    },
+    {
+      "project": "Sunway Flora",
+      "dates": [
+        "2027-10-06",
+        "2028-10-06"
+      ],
+      "claim": "Registered secondary clearing versus asking dispersion; three-bedroom family signal",
+      "status": "Not due; no outcome adjudicated",
+      "observations": [],
+      "judgment": null
+    },
+    {
+      "project": "Duta Park",
+      "dates": [
+        "2027-10-06",
+        "2028-10-06"
+      ],
+      "claim": "Utility retention; rental strength with resale dispersion/friction rather than tight premium",
+      "status": "Not due; no outcome adjudicated",
+      "observations": [],
+      "judgment": null
+    }
+  ],
+  "unit_execution_template": {
+    "case_id": null,
+    "parcel_reference": null,
+    "baseline_commit": null,
+    "baseline_scenario": null,
+    "prediction_or_scenario": "Must be declared; approved target is not a prediction",
+    "contract_price": null,
+    "loan_offer": null,
+    "fitout_quote": null,
+    "fitout_actual": null,
+    "lease_start": null,
+    "rent_agreed": null,
+    "receipts": [],
+    "vacancy_intervals": [],
+    "commissions": [],
+    "maintenance_invoices": [],
+    "works": [],
+    "sale_contract": null,
+    "sale_completion": null,
+    "tax_and_closing_costs": null,
+    "attribution": null,
+    "miss_record": null
+  },
+  "review_events": [
+    "At authenticated offer: price, rights and comparator reconciliation",
+    "At approved quote/contract: scope and total buyer-paid cash",
+    "At each lease commencement/renewal/default: agreed versus paid rent, vacancy, commissions and package",
+    "At invoice/AGM/works change: fee period, sinking, levy and actual repair spend",
+    "At transfer completion: achieved consideration, selling costs, debt/tax and date",
+    "At each original forward review date: compare original prediction with sourced outcomes; retain unresolved where evidence insufficient"
+  ],
+  "error_decomposition": [
+    "input error",
+    "package/identity mismatch",
+    "timing/calendar error",
+    "cost omission",
+    "mechanism falsified",
+    "execution variance",
+    "unresolved evidence"
+  ],
+  "no_rewriting_rule": "Retain the original version and pre-outcome expectation. No after-the-fact rescue through a new comparison set without recording the original miss."
+}

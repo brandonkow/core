@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-18",
+  "parent_commit": "d72aa034a1457ea62132d2674f811e38814aeabe",
+  "model_and_aggregation_checks": 172613,
+  "reproduction_and_register_checks": 8,
+  "passed": true,
+  "actual_register_assertions": 8,
+  "execution": "In-memory evaluation of the repository reproduction script with virtual read-only filesystem; no native Node CLI run claimed.",
+  "counts": {
+    "bases": 138,
+    "project_groups": 122,
+    "individual_paths": 828,
+    "selected_basket_paths": 42,
+    "pair_paths": 56616,
+    "excluded_same_project_pairs": 17,
+    "unique_project_pairs": 7381,
+    "priority_dossiers": 13,
+    "original_forward_cases": 6
+  },
+  "funnel": {
+    "admitted": 0,
+    "deploy": 0,
+    "first_stop": "G0"
+  },
+  "evidence_limits": {
+    "new_external_market_observations": 0,
+    "outreach_sent": 0,
+    "actual_unit_documents_received": 0,
+    "observed_forward_outcomes": 0,
+    "native_runtime_execution": false
+  },
+  "preservation": {
+    "old_blob_count": 854,
+    "allowed_changes": [
+      "README.md",
+      "CURRENT_WORKFLOW.md",
+      "AGENTS.md"
+    ],
+    "expected_unchanged_old_blobs": 851,
+    "expected_deleted": 0,
+    "source_hashes": {
+      "Residential_Investment_Framework.md": "43d66d0b22f25a8e4085491ec1db0aa9f2ddac8e",
+      "sop/Financial_Execution_SOP_v2.md": "c28628abf3479227ed27ec78b058831918387a4c",
+      "sop/Financial_Execution_Parameters_v2.json": "a5bc8732f53ae0cc03e9b3152fa1297cea0b718b",
+      "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Inputs.json": "194dc4a2caa460450d64ce26e90dc3de57883407",
+      "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/financial_model.cjs": "1554e72296b9abd455946906e5a48daeff2b7a16"
+    }
+  },
+  "publication": "Candidate tree must be verified before expected-head main advance; final remote readback reported in conversation."
+}
