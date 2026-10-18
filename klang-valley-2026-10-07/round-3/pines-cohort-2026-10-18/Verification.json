@@ -1,0 +1,12 @@
+{
+  "version": "PINES-COHORT-2026-10-18",
+  "baseline_commit": "8854a90564a9ff6d677c99c2ea3e4d777c590626",
+  "model_arithmetic_and_parity_checks": 60,
+  "packet_consistency_checks": 123,
+  "scenario_count": 22,
+  "source_count": 13,
+  "selected_observations": 20,
+  "preservation": "Before publication compare candidate recursive tree to baseline: no deleted files and no changes outside new packet plus README.md, CURRENT_WORKFLOW.md and AGENTS.md. Master, SOP, map, financial model/inputs and historical packets retain original blob IDs.",
+  "release_checks": "Run published candidate reproduce.cjs and compare its full JSON output to Financial_Diagnostics.json before expected-head main update. Read back main and gate file after publication.",
+  "limitations": "No full new stress suite, direct official sale authentication, achieved rent, governance audit, physical inspection, lender clearance or investment outcome validation claimed. No UI change; map tests/deployment not required for this research-only packet."
+}

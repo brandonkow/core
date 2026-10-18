@@ -1,0 +1,117 @@
+{
+  "version": "PINES-COHORT-2026-10-18",
+  "sources": [
+    {
+      "id": "P1",
+      "url": "https://list.my/subsales/kl/kuala-lumpur/mukim-batu/mon-t-kiara-pines?group_by_size=false&size_max=1324&size_min=1275",
+      "kind": "Direct publisher transaction table",
+      "event": "2022-April 2026",
+      "access_date": "2026-10-18",
+      "observation": "1292 sqft separated from other sizes. Selected 2025-April 2026 values include RM680000-1000000; retain the high record without assuming ordinary condition. NAPIC attribution is publisher-reported, not independently certified."
+    },
+    {
+      "id": "P2",
+      "url": "https://list.my/subsales/kl/kuala-lumpur/mukim-batu/mon-t-kiara-pines?group_by_size=true",
+      "kind": "Direct grouped table; cached and refreshed views differ",
+      "event": "Selected 1216 sqft November 2025-January 2026",
+      "access_date": "2026-10-18",
+      "observation": "1216 sqft observations RM800000 and RM720000. Do not pool size groups or interpret changing page counts as turnover growth."
+    },
+    {
+      "id": "C1",
+      "url": "https://list.my/subsales/kl/kuala-lumpur/mukim-batu/mon-t-kiara-palma?type=CONDO",
+      "kind": "Direct publisher transaction table",
+      "event": "Selected 1281 sqft January-November 2025",
+      "access_date": "2026-10-18",
+      "observation": "Five selected 2025 1281 sqft prices RM790000-950000. 1206/1389 sqft entries not pooled into this cohort."
+    },
+    {
+      "id": "C2",
+      "url": "https://list.my/subsales/kl/kuala-lumpur/mukim-batu/mon-t-kiara-pelangi?type=CONDO",
+      "kind": "Direct publisher transaction table",
+      "event": "Selected 1281 sqft June 2024-June 2026",
+      "access_date": "2026-10-18",
+      "observation": "1281 sqft RM680000 and RM840000 in 2026; 2024 RM725000 and RM730000 retained. Same floor number does not prove same parcel."
+    },
+    {
+      "id": "S1",
+      "url": "https://www.propertyguru.com.my/property-listing/mont-kiara-pines-for-sale-by-law-wei-ching-500115806",
+      "kind": "Direct advertised asking price",
+      "event": "2026-09-30 listing",
+      "access_date": "2026-10-18",
+      "observation": "RM700000 negotiable;1268 sqft;3BR/2BA;original/unfurnished. Covered parking shown; exact entitlement unverified. Prior one-bay index lead is not a verified two-bay family package."
+    },
+    {
+      "id": "S2",
+      "url": "https://www.propertyguru.com.my/property-listing/mont-kiara-pines-for-sale-by-dion-diong-501530239",
+      "kind": "Direct advertised asking price",
+      "event": "2026-10-13 listing",
+      "access_date": "2026-10-18",
+      "observation": "RM780000;1268 sqft;3BR/2BA;fully furnished. Separate acquisition package, not proof of same parcel as a rental ad or equal condition."
+    },
+    {
+      "id": "R1",
+      "url": "https://www.propertyguru.com.my/property-listing/mont-kiara-pines-for-rent-by-st-chin-501917828",
+      "kind": "Direct whole-unit rent advertisement",
+      "event": "2026-10-07 listing",
+      "access_date": "2026-10-18",
+      "observation": "RM3800 negotiable;1268 sqft;3BR/2BA;fully furnished. No achieved rent, occupancy, tenant identity, collection or renewal verification."
+    },
+    {
+      "id": "R2",
+      "url": "https://www.propertyguru.com.my/property-listing/mont-kiara-pines-for-rent-by-dion-diong-501612098",
+      "kind": "Direct whole-unit rent advertisement",
+      "event": "2026-10-13 listing",
+      "access_date": "2026-10-18",
+      "observation": "RM3500;1268 sqft;3BR/2BA;fully furnished. Contrary asking-rent branch, not independent evidence of lease collection."
+    },
+    {
+      "id": "G1",
+      "url": "https://www.jlfacilities.com/",
+      "kind": "Manager's own client page",
+      "event": "Undated",
+      "access_date": "2026-10-18",
+      "observation": "Pines listed as a client. No current contract, reserves, arrears, service outcomes or priced upcoming works disclosed in the inspected page."
+    },
+    {
+      "id": "M1",
+      "url": "https://www.mkis.edu.my/why-choose-mkis",
+      "kind": "Official school page",
+      "event": "Undated current page",
+      "access_date": "2026-10-18",
+      "observation": "Institutional school-context anchor only. Does not measure Pines school-family capture, buyer composition or incremental willingness to pay."
+    },
+    {
+      "id": "H1",
+      "url": "https://www.starproperty.my/insight/98/mont-kiara-pines",
+      "kind": "Historical editorial and transaction display",
+      "event": "Works described as 2006-2008; transaction display December 2017",
+      "access_date": "2026-10-18",
+      "observation": "Historical report of roughly RM4m facility upgrades and 1292 sqft December 2017 RM760000 sale. Not current reserve proof, repeat-sales evidence, causal isolation or a present adjacent-site planning statement."
+    },
+    {
+      "id": "I1",
+      "url": "https://www.propertyguru.com.my/condo/mont-kiara-pines-602",
+      "kind": "Portal project description",
+      "event": "Undated project description",
+      "access_date": "2026-10-18",
+      "observation": "Lists both 1268 and 1292 sqft configurations. Does not establish rounding equivalence or parcel mapping. User reviews and awards are not authenticated family-buyer evidence."
+    },
+    {
+      "id": "B1",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/mont-kiara/mont-kiara-pines/non-landed/condominium/page/5/?orderby=bedroom&range=2017+Apr-",
+      "kind": "Search-index aggregate only",
+      "event": "September 2025-July 2026 window shown",
+      "access_date": "2026-10-18",
+      "observation": "Mixed-product median RM768000 and 19 transactions, not a matched value. Direct base-project access failed; no reliance on concealed rows or independent observation count."
+    }
+  ],
+  "provenance": "List.my attributes indicative sale data to NAPIC. Different portal displays may share upstream data; repeated pages/rows are not independent observations. Publication/access dates are not transaction dates. No original title, sale instrument or tenancy is authenticated.",
+  "excluded": [
+    "No resident lists or personal records accessed.",
+    "No paid reports, login bypass, masked-price reconstruction or outreach.",
+    "Pines 1432/2368 sqft and cross-project larger/smaller cohorts excluded from subject-price normalisation.",
+    "Old editorial next-door development warning is not asserted as current planning evidence.",
+    "Historical shared-room lead remains a counterexample to family-only labelling, not a measured current share."
+  ]
+}

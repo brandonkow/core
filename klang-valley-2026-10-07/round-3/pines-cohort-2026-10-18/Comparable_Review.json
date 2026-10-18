@@ -1,0 +1,204 @@
+{
+  "version": "PINES-COHORT-2026-10-18",
+  "currency": "MYR",
+  "observations": [
+    {
+      "project": "Pines",
+      "sqft": 1292,
+      "date": "2026-04",
+      "price": 757000,
+      "floor": 27,
+      "source": "P1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pines",
+      "sqft": 1292,
+      "date": "2026-02",
+      "price": 680000,
+      "floor": 20,
+      "source": "P1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pines",
+      "sqft": 1292,
+      "date": "2025-11",
+      "price": 810000,
+      "floor": 22,
+      "source": "P1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pines",
+      "sqft": 1292,
+      "date": "2025-07",
+      "price": 730000,
+      "floor": 30,
+      "source": "P1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pines",
+      "sqft": 1292,
+      "date": "2025-05",
+      "price": 1000000,
+      "floor": 29,
+      "source": "P1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pines",
+      "sqft": 1292,
+      "date": "2025-01",
+      "price": 720000,
+      "floor": 23,
+      "source": "P1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pines",
+      "sqft": 1292,
+      "date": "2024-06",
+      "price": 1000000,
+      "floor": 18,
+      "source": "P1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pines",
+      "sqft": 1292,
+      "date": "2024-05",
+      "price": 650000,
+      "floor": 26,
+      "source": "P1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pines",
+      "sqft": 1292,
+      "date": "2024-01",
+      "price": 695000,
+      "floor": 18,
+      "source": "P1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pines",
+      "sqft": 1216,
+      "date": "2026-01",
+      "price": 720000,
+      "floor": 20,
+      "source": "P2",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pines",
+      "sqft": 1216,
+      "date": "2025-11",
+      "price": 800000,
+      "floor": 11,
+      "source": "P2",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Palma",
+      "sqft": 1281,
+      "date": "2025-11",
+      "price": 900000,
+      "floor": 14,
+      "source": "C1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Palma",
+      "sqft": 1281,
+      "date": "2025-08",
+      "price": 790000,
+      "floor": 20,
+      "source": "C1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Palma",
+      "sqft": 1281,
+      "date": "2025-04",
+      "price": 950000,
+      "floor": 31,
+      "source": "C1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Palma",
+      "sqft": 1281,
+      "date": "2025-03",
+      "price": 850000,
+      "floor": 26,
+      "source": "C1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Palma",
+      "sqft": 1281,
+      "date": "2025-01",
+      "price": 880000,
+      "floor": 8,
+      "source": "C1",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pelangi",
+      "sqft": 1281,
+      "date": "2026-06",
+      "price": 680000,
+      "floor": 8,
+      "source": "C2",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pelangi",
+      "sqft": 1281,
+      "date": "2026-04",
+      "price": 840000,
+      "floor": 3,
+      "source": "C2",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pelangi",
+      "sqft": 1281,
+      "date": "2024-09",
+      "price": 730000,
+      "floor": 8,
+      "source": "C2",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    },
+    {
+      "project": "Pelangi",
+      "sqft": 1281,
+      "date": "2024-06",
+      "price": 725000,
+      "floor": 7,
+      "source": "C2",
+      "price_type": "Publisher-reported subsale; original particulars not independently authenticated"
+    }
+  ],
+  "normalisation": {
+    "subject": "R315 advertised1268 sqft original-condition3BR/2BA at700000;780000 furnished expression is a separate conditional package",
+    "admissible_claim": "Reported continued clearing across old family-capable projects, with material dispersion. No premium or absolute price floor is measured.",
+    "pines_recent_1292_observed_range": [
+      680000,
+      1000000
+    ],
+    "pines_recent_nonmillion_observations_range": [
+      680000,
+      810000
+    ],
+    "high_price_treatment": "The May2025 RM1m record is retained in the full observed range. It is unexplained, not assumed erroneous or a valid ordinary-condition premium. June2024 RM1m also retained as context. No trimmed range is called fair value.",
+    "normalised_subject_range": null,
+    "adjustments": [],
+    "reason": "1268/1292 product mapping, tower/stack, bay, condition and effective consideration differences are unbounded for a target-price claim. No arbitrary PSF scaling, haircut or fixed sample requirement.",
+    "substitution": "Palma and Pelangi are buyer-task alternatives, not automatically interchangeable valuation comparables. Same-size interproject price differences do not identify management causality.",
+    "temporal_limit": "Cross-sectional records are not repeat sales; visible older/newer overlap does not prove a project-wide flat or falling index."
+  }
+}

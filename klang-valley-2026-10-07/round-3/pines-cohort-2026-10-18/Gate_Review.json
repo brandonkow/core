@@ -1,0 +1,81 @@
+{
+  "version": "PINES-COHORT-2026-10-18",
+  "case_id": "R315",
+  "source_commit": "8854a90564a9ff6d677c99c2ea3e4d777c590626",
+  "passed_prefix": [],
+  "first_unresolved": "G0",
+  "g9": "Defer",
+  "normalised_clearing_interval": null,
+  "scope": "One priority dossier; Palma/Pelangi are research controls, not newly admitted cases.",
+  "best_supported_conclusion": "Pines remains a plausible family-use and retention research lead. Continued transactions and school context support relevance, not a guaranteed floor, causal management premium or a validated acquisition discount.",
+  "unknowns": [
+    {
+      "issue": "Marketed1268 sqft versus transaction1292/1216 sqft and condition/bay/package bridge",
+      "consequence": "Decision-changing now for subject G0 reference",
+      "resolve": "Public original plan or parcel/cohort particulars plus defensible condition/bay comparison; no signed subject purchase needed"
+    },
+    {
+      "issue": "Family occupancy/renewals and achieved rent",
+      "consequence": "G2/G3/G6 and income research; annual cash changes sign in the3800 renewal branch",
+      "resolve": "Anonymised collection/renewal evidence or other defensible realised rental evidence; not a universal G0 paperwork condition"
+    },
+    {
+      "issue": "Funding and service outcomes of management",
+      "consequence": "G3/G7; can also affect material price normalisation",
+      "resolve": "Current works/funding evidence, not manager logo or old upgrade narrative"
+    },
+    {
+      "issue": "Actual bay count/usability and irreversible unit condition",
+      "consequence": "G4; affects G0 where comparability changes",
+      "resolve": "Specific rights/plan/condition scope; two bays are a contextual family preference, not a universal exclusion rule"
+    },
+    {
+      "issue": "Actual loan, reserves and concentration",
+      "consequence": "G7/G8 commitment-dependent; not prerequisites to narrow product research",
+      "resolve": "Only when a candidate reaches those gates"
+    }
+  ],
+  "sequential_dispositions": {
+    "G0": "STOP: subject normalisation unresolved, not simply a missing full purchase file",
+    "G1-G4": "Mechanism, household task and quality research retained as hypotheses; no formal pass while G0 unresolved",
+    "G5": "No validated discount",
+    "G6-G8": "Conditional finance/exit diagnostics only; no admitted buyer-depth, lending or allocation conclusion",
+    "G9": "Defer"
+  },
+  "hypotheses": {
+    "floor": "Family/community utility may retain a viable buyer pool and reduce obsolescence risk; it does not guarantee an absolute sale-price minimum.",
+    "premium": "A premium requires matched evidence of greater willingness to pay after condition/rights/cost differences; not established.",
+    "retention": "Repeat whole-household tenancy may reduce turnover drag; no observed retention rate adopted."
+  },
+  "divergence": {
+    "flag_triggered": false,
+    "reason": "The approved judgment distinguishes demand support from appreciation. Negative full-cost carry does not contradict residential utility. Do not convert absence of premium evidence into negative evidence on management.",
+    "investigation": {
+      "data_limitation": "Area labels, mixtures, unexplained high trades, incomplete time coverage and asking rents may distort interpretation.",
+      "judgment_bias": "Avoid selecting only low acquisition/high rent/high exit observations to justify the preferred family project.",
+      "omitted_variable": "Refurbishment, stack/exposure, parking and household fit may explain prices and retention.",
+      "structural_change": "Management changes, funded renewals or future competition could alter outcomes; no future uplift assumed."
+    },
+    "falsification": "Withdraw any premium thesis if matched transactions show no durable premium after costs, or retention/collection and funded upkeep fail the expected advantage.",
+    "status": "Unresolved, evidence-led hypotheses"
+  },
+  "misses": [
+    {
+      "type": "Process",
+      "finding": "Filtered cohort evidence adds useful observations to prior mixed-summary research. No full-file demand should replace the actual normalisation question."
+    },
+    {
+      "type": "Potential financial comparison bias",
+      "finding": "A furnished acquisition may need less than default5% fit-out. Zero-additional-fit-out lower-bound diagnostics are included, without adopting zero cost or changing SOP."
+    }
+  ],
+  "completion": {
+    "priority_dossiers_reassessed_this_packet": 1,
+    "priority_dossiers_reassessed_in_current_sequence": 3,
+    "priority_dossiers_remaining": 10,
+    "other_inventory_not_reassessed": 125,
+    "formal_gate_advances": 0,
+    "deploy": 0
+  },
+  "next": "R231 Zeva versus KV14 Solstice: separate investor-exit depth and daily-use location support from assumed price appreciation. For Pines, reopen on actual normalisation/retention/funding evidence rather than another unchanged broad search."
+}

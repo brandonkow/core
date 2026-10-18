@@ -1,5 +1,14 @@
 # Current workflow and continuation
 
+## Pines cohort and household-demand reassessment — 18 October 2026
+
+[Completed R315 packet](klang-valley-2026-10-07/round-3/pines-cohort-2026-10-18/README.md): public Pines 1216/1292 sqft transaction cohorts are separated from the advertised1268 sqft original-condition and furnished packages. Palma/Pelangi remain substitution controls. Recent transaction activity supports relevance, not an absolute price floor or an identified management/appreciation premium. Subject normalisation remains unresolved at G0; G9 Defer, no formal gate advance.
+
+Twenty-two unchanged-SOP conditional scenarios and60 arithmetic/parity checks are recorded. At700k/3800, annual base cash is about-RM3078; continuous renewal about+RM1604; five-year flat-price loss about-RM72453. Rents/fees/retention/work budgets are not authenticated. An explicit furnished-package zero-additional-fit-out lower bound prevents treating the5% default as a quote; no SOP calibration.
+
+Three of13 priority dossiers have now received targeted comparable-led reassessment in this sequence: Eve, Maxim and Pines. Ten remain;125 others received inventory review only. Next independent priority: ZevaR231 versus SolsticeKV14 investor-exit and location utility. Pines reopens only on material normalisation, collection/retention or funding/work evidence. Core/SOP/map/history unchanged; no outreach or background task.
+
+
 ## Eve / Maxim comparable-led reassessment — 18 October 2026
 
 [Two-case evidence packet](klang-valley-2026-10-07/round-3/eve-maxim-g0-2026-10-18/README.md): recent Eve compact and older Maxim near-size publisher-reported transactions are now recorded separately from asking prices. Eve's RM350,000-405,000 observed cohort envelope is useful context, not a normalised target-unit valuation; Maxim's RM350,000-440,000 observations span older periods and are not a current fair-value band. Both specific acquisition expressions remain G0 unresolved / G9 Defer for the documented matching/timing reasons. No full purchase file is required for narrower price research.
