@@ -1,0 +1,19 @@
+{
+  "case": "AVIERA-260",
+  "date": "2026-10-21",
+  "passed_contiguous_prefix": [],
+  "first_unresolved_gate": "G0",
+  "decision": "Defer",
+  "admitted": false,
+  "downstream": "Conditional diagnostics only",
+  "reason": "Offer specified, but clearing reference and material Flex use/functional comparability unresolved. Rent and fee assumptions may reverse income result.",
+  "loan": 256000,
+  "parking": 0,
+  "user_zero_early_cash": true,
+  "full_pre_VP_zero_cash": "Conditional package-scope branch; progressive interest payer unresolved",
+  "regional_review": "Paused by user; 3 of 13 reviewed, 10 pending; standalone case does not advance counts.",
+  "core_changed": false,
+  "sop_changed": false,
+  "map_changed": false,
+  "outreach": false
+}

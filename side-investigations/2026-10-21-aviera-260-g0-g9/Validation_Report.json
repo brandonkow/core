@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "checks": 237,
+  "scenarioCount": 45,
+  "scope": "Arithmetic and cash conservation, not market/lender/rights/subsidy validation",
+  "baseline": "0fc9068769fccf4620f671670f94fac60f11293c",
+  "nativeNodeExecution": true,
+  "scopeExclusions": [
+    "Market evidence verification",
+    "Lender approval",
+    "Legal permitted use",
+    "Documented interest subsidy",
+    "Hosted map testing"
+  ],
+  "publicationProtocol": [
+    "Reproduce exact candidate source/input/results in RAM",
+    "Verify all existing blobs except README/CURRENT_WORKFLOW/AGENTS unchanged",
+    "Expected-head fast-forward to main",
+    "Remote head and gate record readback"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "case": "AVIERA-260",
+  "reportDate": "2026-10-21",
+  "evidenceWork": "19 October, with developer and two rental leads refreshed 21 October",
+  "nett": 256000,
+  "approxGross": 326000,
+  "loan": 256000,
+  "parking": 0,
+  "rate": 0.04,
+  "years": 35,
+  "rent": 1600,
+  "fee": 150,
+  "fitout": 12800,
+  "build": 60,
+  "hold": 60,
+  "tax": 0.08,
+  "authority": {
+    "loan": "User explicitly confirms actual principal RM256000; do not multiply by 90%. Supersedes provisional 293400.",
+    "entry": "User says no early buyer cash outlay; model deposit and entry acquisition cash zero. All-pre-VP-zero branch is conditional on full package coverage; owner-paid interest branch retained separately.",
+    "parking": "No bay, user confirmed."
+  },
+  "uncertainty": {
+    "rent": "1400/1600/1800 scenario points, not achieved Aviera rents; 1800 upside test.",
+    "fee": "100/150/200 sensitivity only, NOT a supported interval or quotation; combined management/sinking.",
+    "build": "60-month approximation to promotional 2031 completion, not SPA date.",
+    "costs": "U for unknown actual owner bills, applicable tariffs/taxes, later perfection, consent/search/disbursements and package exclusions. U not asserted zero.",
+    "tax": "8% professional invoice tax where applicable, not tax on all cash flows; personal income tax/final RPGT excluded.",
+    "exit": "Year3 110% and year5 120% nett are user targets, not forecasts."
+  }
+}

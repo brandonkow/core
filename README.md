@@ -1,5 +1,12 @@
 # Residential Investment Decision Engine
 
+## Aviera standalone review; regional reassessment paused — 21 October 2026
+
+[Aviera Flex260 case](side-investigations/2026-10-21-aviera-260-g0-g9/README.md) completes the requested G0–G9 conditional review using user-confirmed nett256k, approximate gross326k, actual loan256k and zero parking. No early entry cash is assumed; full pre-VP cash coverage and buyer-paid progressive interest are distinguished.45 financial scenarios and237 arithmetic checks passed. At illustrative rent1600/fee150, full annual cash is approximately−330; flat-exit profit−8598 and20%-nett target profit40252 before U/personal taxes in the full-pre-VP-zero branch. These are conditional diagnostics, not achieved rent or gate admission.
+
+G0 remains unresolved; G9 Defer. Rent/fee, Flex use/function, normalised clearing and package carry scope are decision-changing. [Inputs, model and evidence](side-investigations/2026-10-21-aviera-260-g0-g9/README.md) retain overrides and unknowns. Core/SOP/map/history unchanged. Regional reassessment is **paused by the user**, still3 of13 priority dossiers reviewed,10 pending. Do not automatically resume Zeva/Solstice from the older note below. No outreach or background task.
+
+
 ## Pines cohort and household-demand reassessment — 18 October 2026
 
 [Completed R315 packet](klang-valley-2026-10-07/round-3/pines-cohort-2026-10-18/README.md): public Pines 1216/1292 sqft transaction cohorts are separated from the advertised1268 sqft original-condition and furnished packages. Palma/Pelangi remain substitution controls. Recent transaction activity supports relevance, not an absolute price floor or an identified management/appreciation premium. Subject normalisation remains unresolved at G0; G9 Defer, no formal gate advance.
