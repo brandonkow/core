@@ -1,0 +1,137 @@
+{
+  "checked_at": "2026-10-22",
+  "sources": [
+    {
+      "id": "Z1",
+      "url": "https://list.my/subsales/selangor/petaling/petaling/zeva-residence-seri-kembangan-2",
+      "checked_at": "2026-10-22",
+      "event_period": "2024-03 to 2025-05",
+      "access": "Search-index page extract; original transaction documents not obtained",
+      "observation": "452sf rows:220k Mar2024 floor9;240k Apr2024 floor12;300k Aug2024 floor17;230k May2025 floor3. Separate463sf Feb2024 235k and454sf Dec2023 275k.",
+      "limits": "No condition, bay, voluntary-sale or net-package authentication. Different Zeva aliases must not be blindly added.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "Z2",
+      "url": "https://www.myrumahbaru.com/subsale/zeva-equine-south-9",
+      "checked_at": "2026-10-22",
+      "event_period": "Undated listing; table contains2025-26 events",
+      "access": "Public page text via web retrieval",
+      "observation": "454sf partly furnished one-bay asking230k. Embedded market table includes904/1195sf220k rows and1356sf515k; separate Zeva project link appears below.",
+      "limits": "Reject embedded table as subject studio comparables. Page/index versions vary; no market-price input adopted.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "S1",
+      "url": "https://list.my/subsales/selangor/sepang/bandar-cyberjaya/cyberjaya-solstice-residence",
+      "checked_at": "2026-10-22",
+      "event_period": "2024-07 to 2026-01",
+      "access": "Public page text via web retrieval",
+      "observation": "463sf serviced-apartment rows:200k Aug2024 and240k Jul2024. Same-size SOHO-labelled rows250k Jul2025 and306k Jan2026;592k Jul2024 outlier.",
+      "limits": "Classification may be database inconsistency or a real rights/package difference. Neither explanation confirmed. No uniform cross-category interval.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "S2",
+      "url": "https://www.brickz.my/transactions/residential/selangor/cyberjaya/solstice---pan-gaea/non-landed/",
+      "checked_at": "2026-10-22",
+      "event_period": "2024-08 to 2025-07",
+      "access": "Search extract only; direct access failed",
+      "observation": "Indexed five-sale summary median250k.",
+      "limits": "Direct retrieval403. Aggregate does not resolve the List.my classification or show financeable depth.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "A1",
+      "url": "https://nilamap.com/property/subang-avenue-subang-jaya/",
+      "checked_at": "2026-10-22",
+      "event_period": "2024-03 to 2026-02 as displayed rows",
+      "access": "Public page text via web retrieval",
+      "observation": "1001sf seven displayed2025-26 rows cluster430-450k; Sep2024 480k and Mar2024 550k provide adverse higher-price observations. Exclude560sf and1302sf from subject cohort.",
+      "limits": "Page labels still sayQ1 2025 despite2026 rows; reported dates not independently authenticated. Not unit valuation. Original-condition1021sf subject lacks supported adjustment.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "P1",
+      "url": "https://www.myrumahbaru.com/project/parkview-service-apartment",
+      "checked_at": "2026-10-22",
+      "event_period": "2023-02 to 2024-04",
+      "access": "Public page text via web retrieval",
+      "observation": "624sf580k Apr2024;635sf600k Feb2023;517sf410k Feb2024.",
+      "limits": "Older, size/floor-mixed reported sales; cannot treat old580k as current low-floor600/615sf clearing.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "P2",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/kl-city-centre/parkview-service-apartment/non-landed/service-residence/?range=2025+Dec-",
+      "checked_at": "2026-10-22",
+      "event_period": "2026-02 to 2026-06",
+      "access": "Search-index detailed extract",
+      "observation": "Five-sale summary median400k, interquartile395-418k; sizes420,603,850,603,614sf; individual prices masked.",
+      "limits": "A contemporary countercheck to old high references; cannot pair median400k with any specific603/614sf row.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "C1",
+      "url": "https://www.brickz.my/transactions/commercial/selangor/petaling-jaya/seksyen-13/non-landed/?range=2015+Jul-",
+      "checked_at": "2026-10-22",
+      "event_period": "2015-12",
+      "access": "Search-index detailed extract",
+      "observation": "PJ Centrestage-labelled301sf records classified OFFICE at270k,300k and310k.",
+      "limits": "Historical component evidence, not current fair value or proof the150k subject is this component. Existing residential-use hold remains.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "L1",
+      "url": "https://list.my/subsales/kl/kuala-lumpur/kuala-lumpur-town-centre/lucentia-residences?group_by_size=true",
+      "checked_at": "2026-10-22",
+      "event_period": "2021-08 to 2023-04",
+      "access": "Public page text via web retrieval",
+      "observation": "463sf reported prices792-908k; April2023 floor9 800k and March2023 floor15 792k.",
+      "limits": "Historical compact cohort does not validate a current600k discount; effective incentives, tenure/rights, condition and time bridge unresolved.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "L2",
+      "url": "https://www.brickz.my/transactions/residential/kuala-lumpur/kl-city-centre/residensi-lucentia/non-landed/",
+      "checked_at": "2026-10-22",
+      "event_period": "2025-07 to 2026-05",
+      "access": "Search-index detailed extract",
+      "observation": "Six-sale summary median1.05m; visible latest rows560/657/872sf, not compact463sf.",
+      "limits": "Do not transfer larger-unit or pooled PSF directly to454sf studio.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "E1",
+      "url": "https://list.my/subsales/selangor/petaling/pekan-serdang/east-lake-residence-serdang",
+      "checked_at": "2026-10-22",
+      "event_period": "2023-03 to 2025-10",
+      "access": "Public page text via web retrieval",
+      "observation": "1109sf rows320k Oct2025,400k May2025,350k Oct2024,340k Dec2023,400k Sep2023,340k Mar2023.",
+      "limits": "350k subject lies within the observed band, not proven below fair value.1093/1109sf size, tenure, condition and bay differences remain.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "E2",
+      "url": "https://www.brickz.my/transactions/residential/selangor/seri-kembangan/east-lake-residence/non-landed/",
+      "checked_at": "2026-10-22",
+      "event_period": "2025-05 to 2026-04",
+      "access": "Search-index detailed extract",
+      "observation": "Leasehold project summary includes2056/2454sf2026 records.",
+      "limits": "Exclude large units from family1093sf reference. Project tenure label is not the selected title.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    },
+    {
+      "id": "T1",
+      "url": "https://list.my/subsales/selangor/sepang/dengkil/the-arc-at-cyberjaya",
+      "checked_at": "2026-10-22",
+      "event_period": "2022-01 to 2026-01",
+      "access": "Public page text via web retrieval",
+      "observation": "904sf rows280k Feb2023 andDec2022;300-370k other2022;374k Jan2026.947sf400k excluded.",
+      "limits": "220k package cannot be compared as clean ordinary consideration until cash/loan/cashback terms are separated; sale rights and effective proceeds unknown.",
+      "independence": "Publisher observation; NAPIC-derived publishers are not independent transactions or independent authentication."
+    }
+  ],
+  "original_records_authenticated": false,
+  "source_scope": "Brief paraphrased evidence observations; no scraped full-page copies."
+}

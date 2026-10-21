@@ -1,0 +1,31 @@
+{
+  "version": "REGIONAL-REASSESSMENT-2026-10-22-B01",
+  "baseline": "8d1d052b41656c06cbd13eec3070392dc61a8d67",
+  "arithmetic": {
+    "checks": 335,
+    "all_passed": true,
+    "scope": "Arithmetic and accounting consistency only; no market fact validated."
+  },
+  "scenarios": 60,
+  "historical_parity_cases": 8,
+  "historical_annual_and_flat_parity": true,
+  "coverage": {
+    "unique_ids": 138,
+    "new_public_reviews": 8,
+    "prior_sequence": 3,
+    "reused_probes": 2,
+    "pending": 125,
+    "priority_sum": 13,
+    "universe_sum": 138
+  },
+  "source_links_resolve_in_ledger": true,
+  "finance_does_not_emit_gates": true,
+  "core_sop_map_changes": 0,
+  "market_validation": false,
+  "external_contact": false,
+  "limitations": [
+    "Public text/index inspection only; no physical/site/tenant/payment verification.",
+    "No claim of completing all138 regional reassessments.",
+    "Release exact-content and remote reproduction checked before main advancement; final remote commit recorded in user response."
+  ]
+}

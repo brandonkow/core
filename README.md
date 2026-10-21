@@ -1,5 +1,14 @@
 # Residential Investment Decision Engine
 
+## Regional reassessment resumed — 22 October 2026
+
+The user resumed all regions, superseding the21October regional pause below. [Current priority comparison batch](klang-valley-2026-10-07/round-3/regional-reassessment-2026-10-22-b01/README.md) adds8 public comparable reviews and reconciles2 existing Amcorp/Neo probes without calling them refreshed. Together with earlier Eve/Maxim/Pines,13 priority dossiers have research dispositions:11 substantive reviews in this sequence plus2 reused earlier probes. **125 other cases remain pending substantive reassessment; this is not completed all138 underwriting.** No new gate admission or Deploy.
+
+60 conditional financial evaluations/335 arithmetic checks preserve SOPv2;8 base annual/flat results match history. Parkview current-versus-old references, Solstice classifications, Subang comparable cluster and Zeva misassociated data are explicitly investigated. Core/SOP/map/history unchanged. Aviera remains separate. [Exact coverage](klang-valley-2026-10-07/round-3/regional-reassessment-2026-10-22-b01/Coverage.json) and [next batch/resume](klang-valley-2026-10-07/round-3/regional-reassessment-2026-10-22-b01/RESUME.md): inner Cheras A01-A03, starting from existing source packets. No outreach or background process.
+
+Older entries below are dated history; follow this latest checkpoint.
+
+
 ## Aviera standalone review; regional reassessment paused — 21 October 2026
 
 [Aviera Flex260 case](side-investigations/2026-10-21-aviera-260-g0-g9/README.md) completes the requested G0–G9 conditional review using user-confirmed nett256k, approximate gross326k, actual loan256k and zero parking. No early entry cash is assumed; full pre-VP cash coverage and buyer-paid progressive interest are distinguished.45 financial scenarios and237 arithmetic checks passed. At illustrative rent1600/fee150, full annual cash is approximately−330; flat-exit profit−8598 and20%-nett target profit40252 before U/personal taxes in the full-pre-VP-zero branch. These are conditional diagnostics, not achieved rent or gate admission.

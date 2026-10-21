@@ -1,0 +1,27 @@
+[
+  {
+    "id": "D-PARKVIEW-20261022",
+    "label": "DIVERGENCE FLAG",
+    "material_proposition": "The400k compact offer is materially below contemporary comparable value.",
+    "observed_evidence": "Contemporary mixed-size transaction summary centres near400k, whereas older larger/high-floor examples reach580/600k.",
+    "contradicting_judgment": "An apparent low-entry opportunity based on older high references; this is an analyst test, not an attributed new user judgement.",
+    "possible_explanations": {
+      "data_limitation": "Mixed sizes/floors, masked individual prices, lag and stale listing references.",
+      "judgment_bias": "Anchoring to old high transactions and choosing favourable comparables.",
+      "omitted_variable": "Low floor, condition, bay rights, tenancy/short-stay package or governance burden.",
+      "structural_change": "Actual reduction in clearing willingness-to-pay; not demonstrated by changing aggregate medians alone."
+    },
+    "falsifiable_hypothesis": "The apparent large discount mainly reflects mismatched period/product references rather than recoverable mispricing.",
+    "evidence_required": "Contemporaneous600-624sf ordinary transfers with floor/condition/package context; comparable low-floor asks only as supply checks.",
+    "falsification_conditions": "Matched ordinary sales persist materially above400k after supported adjustments, with identified temporary seller-specific cause and recoverable costs.",
+    "core_routing": [
+      "Comparable Set",
+      "Price Discovery",
+      "Lifecycle",
+      "Externality Ceiling",
+      "Exit Buyer"
+    ],
+    "status": "Unresolved",
+    "implication": "No discount booked; no conviction uplift or lower margin of safety. More evidence is required."
+  }
+]

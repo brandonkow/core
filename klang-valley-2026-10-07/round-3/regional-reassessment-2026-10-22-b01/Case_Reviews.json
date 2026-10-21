@@ -1,0 +1,287 @@
+{
+  "version": "REGIONAL-REASSESSMENT-2026-10-22-B01",
+  "new_reviews": [
+    {
+      "id": "R231",
+      "name": "Zeva Equine South",
+      "scope": "Marketed expression / product research; no selected inspected parcel",
+      "review_type": "new_public_comparable_reassessment",
+      "source_ids": [
+        "Z1",
+        "Z2"
+      ],
+      "best_supported_conclusion": "452sf reported sales220-300k, with230k the latest displayed small-unit sale.210k PF is a research lead, not a normalised discount.",
+      "g0": {
+        "status": "Unresolved",
+        "reason": "Price timing/package and subject condition/bays are not bounded by those rows; do not use the unrelated embedded market widget."
+      },
+      "passed_prefix": [],
+      "first_unresolved_gate": "G0",
+      "g9": "Defer",
+      "conditional_g1_g2": "Diverse local employment and amenities may improve replacement demand; this is the user's scoped hypothesis, not measured capture.",
+      "tenant_task_privacy_payer": "Private whole compact for a single person/couple; compare PF850 against FF1200 after works. Payer, utilities, true privacy and renewal evidence unknown.",
+      "governance": "Current collections, reserves, funded works, rule compliance and service outcomes not authenticated; no nationality or occupation proxy.",
+      "household_adoption": "Not independently measured; physical suitability and user judgement are not observed buyer depth.",
+      "conditional_g6": "Investor exit remains eligible; diversity could reduce selling time without raising value. Solstice can still win on acquisition cost.",
+      "conditional_g4": "Specific approved plan, permanent exposures, condition and usable bay rights remain execution-dependent; any identity conflict above is already material to G0.",
+      "conditional_g7": "Standard comparison financing is a scenario, not borrower/lender approval. All unpriced costs remain U.",
+      "conditional_g8": "No actual portfolio allocation; evaluate correlated tenant/credit demand and available capital only after upstream evidence survives.",
+      "next_tasks": [
+        "Match one recent452/454sf sale and ordinary bay/condition package",
+        "test target collected rent after specified fitout",
+        "measure tenant-source/replacement evidence."
+      ],
+      "formal_admission_changed": false
+    },
+    {
+      "id": "KV14",
+      "name": "Solstice @ Pan'gaea",
+      "scope": "Marketed expression / product research; no selected inspected parcel",
+      "review_type": "new_public_comparable_reassessment",
+      "source_ids": [
+        "S1",
+        "S2"
+      ],
+      "best_supported_conclusion": "200k is already a displayed2024 serviced-apartment transaction, so it is not automatically an exceptional distressed entry.",
+      "g0": {
+        "status": "Unresolved",
+        "reason": "463sf SOHO and serviced-apartment rows cannot be pooled before resolving classification/package and time effects."
+      },
+      "passed_prefix": [],
+      "first_unresolved_gate": "G0",
+      "g9": "Defer",
+      "conditional_g1_g2": "Student demand is plausible; prior advertisements also target workers/couples. Exclusive student dependence is not established.",
+      "tenant_task_privacy_payer": "Private whole compact, FF1200 assumption; school/provider channels do not prove payer, retention, exclusivity or achieved rent.",
+      "governance": "Current collections, reserves, funded works, rule compliance and service outcomes not authenticated; no nationality or occupation proxy.",
+      "household_adoption": "Not independently measured; physical suitability and user judgement are not observed buyer depth.",
+      "conditional_g6": "Lower entry competes with Zeva; no proven liquidity penalty or premium. Test non-student capture and ordinary financeable exits.",
+      "conditional_g4": "Specific approved plan, permanent exposures, condition and usable bay rights remain execution-dependent; any identity conflict above is already material to G0.",
+      "conditional_g7": "Standard comparison financing is a scenario, not borrower/lender approval. All unpriced costs remain U.",
+      "conditional_g8": "No actual portfolio allocation; evaluate correlated tenant/credit demand and available capital only after upstream evidence survives.",
+      "next_tasks": [
+        "Resolve463sf category relationship to450sf offer",
+        "update comparable effective packages",
+        "distinguish ordinary owner letting from operator commitments."
+      ],
+      "formal_admission_changed": false
+    },
+    {
+      "id": "R342",
+      "name": "Subang Avenue",
+      "scope": "Marketed expression / product research; no selected inspected parcel",
+      "review_type": "new_public_comparable_reassessment",
+      "source_ids": [
+        "A1"
+      ],
+      "best_supported_conclusion": "430-450k is a useful recent reported1001sf central cluster, with older480/550k observations retained.450k entry does not demonstrate a discount.",
+      "g0": {
+        "status": "Unresolved",
+        "reason": "Bounded historical cohort anchor is available; time-label inconsistency and original-condition1021sf mapping prevent a subject normalised interval. Missing signed lease is not the blocker."
+      },
+      "passed_prefix": [],
+      "first_unresolved_gate": "G0",
+      "g9": "Defer",
+      "conditional_g1_g2": "Established transport/amenity convenience can support ordinary household/shared demand; no automatic rent-growth or repricing catalyst.",
+      "tenant_task_privacy_payer": "3BR/2BA one-bay household or known co-tenants; original-to-furnished works must deliver the rent package. Renewal remains a hypothesis.",
+      "governance": "Current collections, reserves, funded works, rule compliance and service outcomes not authenticated; no nationality or occupation proxy.",
+      "household_adoption": "Not independently measured; physical suitability and user judgement are not observed buyer depth.",
+      "conditional_g6": "540k target requires appreciation beyond recent central cluster. Two-bay household substitutes may constrain one-bay resale.",
+      "conditional_g4": "Specific approved plan, permanent exposures, condition and usable bay rights remain execution-dependent; any identity conflict above is already material to G0.",
+      "conditional_g7": "Standard comparison financing is a scenario, not borrower/lender approval. All unpriced costs remain U.",
+      "conditional_g8": "No actual portfolio allocation; evaluate correlated tenant/credit demand and available capital only after upstream evidence survives.",
+      "next_tasks": [
+        "Match1001 versus1021sf original configuration/condition",
+        "test2300/2500/2600 package and lease term",
+        "establish maintenance funding and one-bay household fit."
+      ],
+      "formal_admission_changed": false
+    },
+    {
+      "id": "R321",
+      "name": "Parkview compact",
+      "scope": "Marketed expression / product research; no selected inspected parcel",
+      "review_type": "new_public_comparable_reassessment",
+      "source_ids": [
+        "P1",
+        "P2"
+      ],
+      "best_supported_conclusion": "Contemporary pooled400k median challenges an apparent discount against old580/600k rows.",
+      "g0": {
+        "status": "Unresolved",
+        "reason": "Recent individual prices are masked; old and new size/floor mix cannot normalise low-floor600/615sf subject. No invented area haircut."
+      },
+      "passed_prefix": [],
+      "first_unresolved_gate": "G0",
+      "g9": "Defer",
+      "conditional_g1_g2": "Central access may support compact letting, but location strength does not validate project experience or ordinary annual rent.",
+      "tenant_task_privacy_payer": "Exclusive studio/1BR configuration and annual versus short-stay package unresolved;2400 is an asking-informed assumption.",
+      "governance": "Current collections, reserves, funded works, rule compliance and service outcomes not authenticated; no nationality or occupation proxy.",
+      "household_adoption": "Not independently measured; physical suitability and user judgement are not observed buyer depth.",
+      "conditional_g6": "Higher historical prices are not an exit floor.400k entry and480k target need current same-product support.",
+      "conditional_g4": "Specific approved plan, permanent exposures, condition and usable bay rights remain execution-dependent; any identity conflict above is already material to G0.",
+      "conditional_g7": "Standard comparison financing is a scenario, not borrower/lender approval. All unpriced costs remain U.",
+      "conditional_g8": "No actual portfolio allocation; evaluate correlated tenant/credit demand and available capital only after upstream evidence survives.",
+      "next_tasks": [
+        "Obtain recent600-624sf matched price context",
+        "distinguish ordinary annual2400 lease from serviced/short-stay package",
+        "verify original plan and recurring charges."
+      ],
+      "formal_admission_changed": false
+    },
+    {
+      "id": "R208",
+      "name": "Centrestage Designer Suite",
+      "scope": "Marketed expression / product research; no selected inspected parcel",
+      "review_type": "new_public_comparable_reassessment",
+      "source_ids": [
+        "C1"
+      ],
+      "best_supported_conclusion": "The historical301sf OFFICE records reinforce component discrimination; they do not value a residential150k opportunity.",
+      "g0": {
+        "status": "Unresolved",
+        "reason": "Subject residential versus office identity changes universe, comparables and lending. Do not inherit the positive numerical result as admission."
+      },
+      "passed_prefix": [],
+      "first_unresolved_gate": "G0",
+      "g9": "Defer",
+      "conditional_g1_g2": "Small total ticket and private accommodation could attract demand only if the specific use is within the residential mandate.",
+      "tenant_task_privacy_payer": "Private marketed studio; entrance/kitchen, ordinary residential use, tenant payer and sustainable1500 collection are unverified.",
+      "governance": "Current collections, reserves, funded works, rule compliance and service outcomes not authenticated; no nationality or occupation proxy.",
+      "household_adoption": "Not independently measured; physical suitability and user judgement are not observed buyer depth.",
+      "conditional_g6": "A profitable spreadsheet can describe the wrong asset. Do not impose conventional residential90% finance on an office as fact.",
+      "conditional_g4": "Specific approved plan, permanent exposures, condition and usable bay rights remain execution-dependent; any identity conflict above is already material to G0.",
+      "conditional_g7": "Standard comparison financing is a scenario, not borrower/lender approval. All unpriced costs remain U.",
+      "conditional_g8": "No actual portfolio allocation; evaluate correlated tenant/credit demand and available capital only after upstream evidence survives.",
+      "next_tasks": [
+        "Resolve subject component/use with parcel-linked public or supplied evidence",
+        "distinguish actual furnishing package",
+        "only then match transaction and rent cohort."
+      ],
+      "formal_admission_changed": false
+    },
+    {
+      "id": "R322",
+      "name": "Lucentia studio",
+      "scope": "Marketed expression / product research; no selected inspected parcel",
+      "review_type": "new_public_comparable_reassessment",
+      "source_ids": [
+        "L1",
+        "L2"
+      ],
+      "best_supported_conclusion": "Old463sf792-908k records and current larger-unit summaries do not establish a current454sf600k discount.",
+      "g0": {
+        "status": "Unresolved",
+        "reason": "Time/effective-package and compact reference gap, not fee ambiguity alone, leaves G0 unresolved."
+      },
+      "passed_prefix": [],
+      "first_unresolved_gate": "G0",
+      "g9": "Defer",
+      "conditional_g1_g2": "Prestige/retail/transit can support premium tenants; ability or third-party funding does not prove willingness to pay3400.",
+      "tenant_task_privacy_payer": "454sf private studio; monthly1165 versus quarterly1165 fee interpretations remain explicit. No lower fee assumed true.",
+      "governance": "Current collections, reserves, funded works, rule compliance and service outcomes not authenticated; no nationality or occupation proxy.",
+      "household_adoption": "Not independently measured; physical suitability and user judgement are not observed buyer depth.",
+      "conditional_g6": "Monthly-fee interpretation fails narrow coverage; quarterly interpretation changes economics but does not clear price, tenant or exit evidence.",
+      "conditional_g4": "Specific approved plan, permanent exposures, condition and usable bay rights remain execution-dependent; any identity conflict above is already material to G0.",
+      "conditional_g7": "Standard comparison financing is a scenario, not borrower/lender approval. All unpriced costs remain U.",
+      "conditional_g8": "No actual portfolio allocation; evaluate correlated tenant/credit demand and available capital only after upstream evidence survives.",
+      "next_tasks": [
+        "Resolve fee period/sinking scope",
+        "find contemporary compact net-clearing comparator",
+        "test3400 annual package against functional substitutes."
+      ],
+      "formal_admission_changed": false
+    },
+    {
+      "id": "R350",
+      "name": "East Lake Residence family",
+      "scope": "Marketed expression / product research; no selected inspected parcel",
+      "review_type": "new_public_comparable_reassessment",
+      "source_ids": [
+        "E1",
+        "E2"
+      ],
+      "best_supported_conclusion": "350k is inside the displayed1109sf320-400k range; the latest320k observation is adverse to a guaranteed price-floor thesis.",
+      "g0": {
+        "status": "Unresolved",
+        "reason": "Tenure conflict plus1093/1109sf condition/bay mapping affects subject reference. Large2026 transactions cannot repair it."
+      },
+      "passed_prefix": [],
+      "first_unresolved_gate": "G0",
+      "g9": "Defer",
+      "conditional_g1_g2": "Established local amenities may support households; that does not establish owner demand at420k target.",
+      "tenant_task_privacy_payer": "3BR plus store is not four bedrooms. One bay may constrain a two-car household;2000/2200 are different income branches.",
+      "governance": "Current collections, reserves, funded works, rule compliance and service outcomes not authenticated; no nationality or occupation proxy.",
+      "household_adoption": "Not independently measured; physical suitability and user judgement are not observed buyer depth.",
+      "conditional_g6": "Family-capable layout is not proof of family adoption or appreciation; repair reserves and resident conduct remain unverified.",
+      "conditional_g4": "Specific approved plan, permanent exposures, condition and usable bay rights remain execution-dependent; any identity conflict above is already material to G0.",
+      "conditional_g7": "Standard comparison financing is a scenario, not borrower/lender approval. All unpriced costs remain U.",
+      "conditional_g8": "No actual portfolio allocation; evaluate correlated tenant/credit demand and available capital only after upstream evidence survives.",
+      "next_tasks": [
+        "Resolve tenure and comparable parcel size/rights",
+        "match actual family/whole-unit rent package",
+        "verify governance and bay substitute burden."
+      ],
+      "formal_admission_changed": false
+    },
+    {
+      "id": "R353",
+      "name": "The Arc",
+      "scope": "Marketed expression / product research; no selected inspected parcel",
+      "review_type": "new_public_comparable_reassessment",
+      "source_ids": [
+        "T1"
+      ],
+      "best_supported_conclusion": "904sf recent374k versus220k marketed package is a large apparent gap requiring explanation, not validated mispricing.",
+      "g0": {
+        "status": "Unresolved",
+        "reason": "Cash/loan/cashback consideration and ordinary transferable rights remain decisive; historical higher transactions cannot authenticate effective entry."
+      },
+      "passed_prefix": [],
+      "first_unresolved_gate": "G0",
+      "g9": "Defer",
+      "conditional_g1_g2": "Institution-linked demand can fill units; institutional presence alone does not prove stable owner-collected rent.",
+      "tenant_task_privacy_payer": "913sf PF acquisition versus FF1500 BlockC November-intake rental; household versus separate student occupancy and payer unknown.",
+      "governance": "Current collections, reserves, funded works, rule compliance and service outcomes not authenticated; no nationality or occupation proxy.",
+      "household_adoption": "Not independently measured; physical suitability and user judgement are not observed buyer depth.",
+      "conditional_g6": "No inherited guarantee or encumbrance assumed. Cash package and buyer financing can change both effective yield and exit pool.",
+      "conditional_g4": "Specific approved plan, permanent exposures, condition and usable bay rights remain execution-dependent; any identity conflict above is already material to G0.",
+      "conditional_g7": "Standard comparison financing is a scenario, not borrower/lender approval. All unpriced costs remain U.",
+      "conditional_g8": "No actual portfolio allocation; evaluate correlated tenant/credit demand and available capital only after upstream evidence survives.",
+      "next_tasks": [
+        "Separate cash price, SPA, cashback and actual debt",
+        "identify ordinary-letting/assignment obligations",
+        "match PF-to-FF works and intake timing."
+      ],
+      "formal_admission_changed": false
+    }
+  ],
+  "carried_probes": [
+    {
+      "id": "R309",
+      "name": "Amcorp compact",
+      "review_type": "prior_probe_reconciled_not_refreshed",
+      "source_packet": "../amcorp-neo-admission-2026-10-18/README.md",
+      "reason": "225k is not a validated current offer;260k separate expression and1600/1800 rent branches already analysed. Component/use and rights remain unresolved. No new parcel evidence supplied; repeating the stale portal sweep would not change the claim.",
+      "passed_prefix": [],
+      "first_unresolved_gate": "G0",
+      "g9": "Defer",
+      "next_tasks": [
+        "Use existing evidence-access plan for parcel-linked component and ordinary residential use; no message sent."
+      ]
+    },
+    {
+      "id": "R219",
+      "name": "Neo Damansara",
+      "review_type": "prior_probe_reconciled_not_refreshed",
+      "source_packet": "../neo-document-check-2026-10-18/README.md",
+      "reason": "Prior public proclamation describes a different one-bay C2 apartment. Target ad claims two bays and280k header/265k body. Both price branches already modelled; neither proves selected-parcel rights or normalised clearing.",
+      "passed_prefix": [],
+      "first_unresolved_gate": "G0",
+      "g9": "Defer",
+      "next_tasks": [
+        "Match the advertised parcel/component/bays and effective price using existing request plan or newly supplied public evidence; no message sent."
+      ]
+    }
+  ],
+  "new_gate_admissions": 0
+}

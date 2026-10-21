@@ -1,0 +1,1433 @@
+{
+  "version": "REGIONAL-REASSESSMENT-2026-10-22-B01",
+  "authority": "User explicitly resumed all regional reassessment on22October2026; supersedes21October regional pause.",
+  "counts": {
+    "universe_cases": 138,
+    "project_groups": 122,
+    "catchments": 61,
+    "priority_dossiers": 13,
+    "prior_sequence_public_reviews": 3,
+    "new_public_comparable_reviews_this_packet": 8,
+    "prior18October_probes_reconciled_without_new_market_refresh": 2,
+    "priority_dossiers_with_a_reconciled_disposition": 13,
+    "nonpriority_cases_pending_substantive_reassessment": 125,
+    "new_admissions": 0
+  },
+  "scope": "This closes the current13-dossier priority comparison queue at research/checkpoint level only. It does not finish all138, clear G0-G9, validate market outcomes, or refresh all61 catchments.",
+  "records": [
+    {
+      "id": "C01",
+      "name": "M Vertica",
+      "area_id": "A01",
+      "project_id": "PROJECT-C01",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "C02",
+      "name": "Shamelin Star",
+      "area_id": "A02",
+      "project_id": "PROJECT-C02",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "C03",
+      "name": "EkoCheras duplex",
+      "area_id": "A03",
+      "project_id": "PROJECT-C03",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "C04",
+      "name": "Aster Type B",
+      "area_id": "A04",
+      "project_id": "PROJECT-C04",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "C05",
+      "name": "Maxim Residences",
+      "area_id": "A04",
+      "project_id": "PROJECT-C05",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "C06",
+      "name": "Riana South",
+      "area_id": "A05",
+      "project_id": "PROJECT-C06",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "C07",
+      "name": "Green Residence",
+      "area_id": "A06",
+      "project_id": "PROJECT-C07",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "C08",
+      "name": "Windows on the Park large",
+      "area_id": "A07",
+      "project_id": "PROJECT-C08",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "C09",
+      "name": "Scot Pine",
+      "area_id": "A10",
+      "project_id": "PROJECT-C09",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV01",
+      "name": "Maxim Residences",
+      "area_id": "A04",
+      "project_id": "PROJECT-C05",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "prior_sequence_review_carried_forward",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV02",
+      "name": "Lavile Kuala Lumpur",
+      "area_id": "A01",
+      "project_id": "PROJECT-KV02",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV03",
+      "name": "Akasa",
+      "area_id": "A08",
+      "project_id": "PROJECT-KV03",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV04",
+      "name": "You Vista",
+      "area_id": "A06",
+      "project_id": "PROJECT-KV04",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV05",
+      "name": "Emerald Residence",
+      "area_id": "A09",
+      "project_id": "PROJECT-KV05",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV06",
+      "name": "Windows on the Park",
+      "area_id": "A07",
+      "project_id": "PROJECT-C08",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV07",
+      "name": "Citizen 2",
+      "area_id": "A11",
+      "project_id": "PROJECT-KV07",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R201",
+      "name": "Kuchai Avenue",
+      "area_id": "A12",
+      "project_id": "PROJECT-R201",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R202",
+      "name": "OUG Parklane",
+      "area_id": "A13",
+      "project_id": "PROJECT-R202",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R203",
+      "name": "Desa Green",
+      "area_id": "A14",
+      "project_id": "PROJECT-R203",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R204",
+      "name": "Endah Promenade",
+      "area_id": "A15",
+      "project_id": "PROJECT-R204",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R205",
+      "name": "Aurora Suites Bukit Jalil",
+      "area_id": "A16",
+      "project_id": "PROJECT-R205",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R206",
+      "name": "Trion KL",
+      "area_id": "A17",
+      "project_id": "PROJECT-R206",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R243",
+      "name": "Shamelin Star",
+      "area_id": "A02",
+      "project_id": "PROJECT-C02",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R244",
+      "name": "Emerald Hills",
+      "area_id": "A05",
+      "project_id": "PROJECT-R244",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R245",
+      "name": "Landmark Residence 2",
+      "area_id": "A10",
+      "project_id": "PROJECT-R245",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R301",
+      "name": "Desa Green 715-sf two-bedroom control",
+      "area_id": "A14",
+      "project_id": "PROJECT-R203",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R302",
+      "name": "The Tropika 732-sf two-bedroom control",
+      "area_id": "A16",
+      "project_id": "PROJECT-R302",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R303",
+      "name": "M Oscar 708-sf two-bedroom control",
+      "area_id": "A15",
+      "project_id": "PROJECT-R303",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R304",
+      "name": "Silk Sky 484-sf compact control",
+      "area_id": "A08",
+      "project_id": "PROJECT-R304",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R362",
+      "name": "Astaka Heights 1115-sf older family control",
+      "area_id": "A02",
+      "project_id": "PROJECT-R362",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R363",
+      "name": "Prima Midah Heights 1460-sf mature family control",
+      "area_id": "A03",
+      "project_id": "PROJECT-R363",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R364",
+      "name": "Damai Hillpark 1020-sf family index control",
+      "area_id": "A05",
+      "project_id": "PROJECT-R364",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R365",
+      "name": "Arena Green 730-sf residential two-bedroom control",
+      "area_id": "A16",
+      "project_id": "PROJECT-R365",
+      "historical_source": "klang-valley-2026-10-07/round-3/b01-b02-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV08",
+      "name": "Pacific Place",
+      "area_id": "A22",
+      "project_id": "PROJECT-KV08",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R207",
+      "name": "PJ8",
+      "area_id": "A18",
+      "project_id": "PROJECT-R207",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R208",
+      "name": "Centrestage Designer Suite",
+      "area_id": "A19",
+      "project_id": "PROJECT-R208",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "new_public_comparable_reassessment",
+      "new_gate_assessment": {
+        "passed_prefix": [],
+        "first_unresolved_gate": "G0",
+        "g9": "Defer"
+      },
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R209",
+      "name": "Ken Damansara",
+      "area_id": "A20",
+      "project_id": "PROJECT-R209",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R210",
+      "name": "Sterling",
+      "area_id": "A21",
+      "project_id": "PROJECT-R210",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R211",
+      "name": "Tropicana Avenue",
+      "area_id": "A23",
+      "project_id": "PROJECT-R211",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R212",
+      "name": "Encorp Strand Residence",
+      "area_id": "A24",
+      "project_id": "PROJECT-R212",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R305",
+      "name": "PJ Midtown",
+      "area_id": "A19",
+      "project_id": "PROJECT-R305",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R306",
+      "name": "Eve Suite compact",
+      "area_id": "A22",
+      "project_id": "PROJECT-R306",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "prior_sequence_review_carried_forward",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R307",
+      "name": "Eve Suite two-bedroom",
+      "area_id": "A22",
+      "project_id": "PROJECT-R306",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R308",
+      "name": "Kelana Mahkota",
+      "area_id": "A21",
+      "project_id": "PROJECT-R308",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R309",
+      "name": "Amcorp compact",
+      "area_id": "A18",
+      "project_id": "PROJECT-R309",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "prior_public_probe_reconciled_not_refreshed",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R310",
+      "name": "Casa Tropicana",
+      "area_id": "A23",
+      "project_id": "PROJECT-R310",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R311",
+      "name": "Encorp Strand two-bedroom",
+      "area_id": "A24",
+      "project_id": "PROJECT-R212",
+      "historical_source": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV09",
+      "name": "First Residence",
+      "area_id": "A32",
+      "project_id": "PROJECT-KV09",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV10",
+      "name": "OOAK serviced apartments @ Kiara 163",
+      "area_id": "A28",
+      "project_id": "PROJECT-KV10",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R213",
+      "name": "South View",
+      "area_id": "A25",
+      "project_id": "PROJECT-R213",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R214",
+      "name": "Sinaran TTDI",
+      "area_id": "A26",
+      "project_id": "PROJECT-R214",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R215",
+      "name": "DC Residensi",
+      "area_id": "A27",
+      "project_id": "PROJECT-R215",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R216",
+      "name": "Cliveden Plaza Damas 3",
+      "area_id": "A29",
+      "project_id": "PROJECT-R216",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R217",
+      "name": "Prima Duta",
+      "area_id": "A30",
+      "project_id": "PROJECT-R217",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R218",
+      "name": "Menjalara 18",
+      "area_id": "A31",
+      "project_id": "PROJECT-R218",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R219",
+      "name": "Neo Damansara",
+      "area_id": "A33",
+      "project_id": "PROJECT-R219",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "prior_public_probe_reconciled_not_refreshed",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R246",
+      "name": "Westside Three",
+      "area_id": "A31",
+      "project_id": "PROJECT-R246",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R312",
+      "name": "KL Gateway Residences",
+      "area_id": "A25",
+      "project_id": "PROJECT-R312",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R313",
+      "name": "TTDI Ascencia",
+      "area_id": "A26",
+      "project_id": "PROJECT-R313",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R314",
+      "name": "DC Residensi larger control",
+      "area_id": "A27",
+      "project_id": "PROJECT-R215",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R315",
+      "name": "Mont Kiara Pines",
+      "area_id": "A28",
+      "project_id": "PROJECT-R315",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "prior_sequence_review_carried_forward",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R316",
+      "name": "Windsor Tower family",
+      "area_id": "A29",
+      "project_id": "PROJECT-R316",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R317",
+      "name": "United Point",
+      "area_id": "A30",
+      "project_id": "PROJECT-R317",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R318",
+      "name": "The Westside One compact",
+      "area_id": "A31",
+      "project_id": "PROJECT-R318",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R319",
+      "name": "Fortune Centra",
+      "area_id": "A32",
+      "project_id": "PROJECT-R319",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R320",
+      "name": "Surian Residences Mutiara",
+      "area_id": "A33",
+      "project_id": "PROJECT-R320",
+      "historical_source": "klang-valley-2026-10-07/round-3/B04_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV11",
+      "name": "Angkasa Impian 2",
+      "area_id": "A35",
+      "project_id": "PROJECT-KV11",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R220",
+      "name": "Vortex KLCC",
+      "area_id": "A34",
+      "project_id": "PROJECT-R220",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R221",
+      "name": "TRX Residences",
+      "area_id": "A36",
+      "project_id": "PROJECT-R221",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R222",
+      "name": "Sentul Point",
+      "area_id": "A37",
+      "project_id": "PROJECT-R222",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R223",
+      "name": "Datum Jelatek Residence",
+      "area_id": "A38",
+      "project_id": "PROJECT-R223",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R224",
+      "name": "GCB Court boundary comparator",
+      "area_id": "A39",
+      "project_id": "PROJECT-R224",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R225",
+      "name": "28 Boulevard",
+      "area_id": "A40",
+      "project_id": "PROJECT-R225",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R321",
+      "name": "Parkview compact",
+      "area_id": "A34",
+      "project_id": "PROJECT-R321",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "new_public_comparable_reassessment",
+      "new_gate_assessment": {
+        "passed_prefix": [],
+        "first_unresolved_gate": "G0",
+        "g9": "Defer"
+      },
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R322",
+      "name": "Lucentia studio - monthly-fee interpretation",
+      "area_id": "A35",
+      "project_id": "PROJECT-R322",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "new_public_comparable_reassessment",
+      "new_gate_assessment": {
+        "passed_prefix": [],
+        "first_unresolved_gate": "G0",
+        "g9": "Defer"
+      },
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R323",
+      "name": "TRX Residences two-bedroom",
+      "area_id": "A36",
+      "project_id": "PROJECT-R221",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R324",
+      "name": "The Saffron family",
+      "area_id": "A37",
+      "project_id": "PROJECT-R324",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R325",
+      "name": "Seri Maya family - higher-price observed lead",
+      "area_id": "A38",
+      "project_id": "PROJECT-R325",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R326",
+      "name": "Ampang Hilir Tara family",
+      "area_id": "A39",
+      "project_id": "PROJECT-R326",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R327",
+      "name": "Pandan Mewah Heights family",
+      "area_id": "A40",
+      "project_id": "PROJECT-R327",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R328",
+      "name": "Titiwangsa Sentral family - stabilised scenario",
+      "area_id": "A37",
+      "project_id": "PROJECT-R328",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R329",
+      "name": "28 Boulevard lower-price studio lead",
+      "area_id": "A40",
+      "project_id": "PROJECT-R225",
+      "historical_source": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV12",
+      "name": "Platinum Lake PV21",
+      "area_id": "A41",
+      "project_id": "PROJECT-KV12",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R226",
+      "name": "Urban 360",
+      "area_id": "A42",
+      "project_id": "PROJECT-R226",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R227",
+      "name": "Saville Melawati",
+      "area_id": "A43",
+      "project_id": "PROJECT-R227",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R228",
+      "name": "Amara",
+      "area_id": "A44",
+      "project_id": "PROJECT-R228",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R229",
+      "name": "D'Sara Sentral",
+      "area_id": "A45",
+      "project_id": "PROJECT-R229",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R250",
+      "name": "222 Residency",
+      "area_id": "A41",
+      "project_id": "PROJECT-R250",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R330",
+      "name": "Wangsa Metroview 1150-sf marketed three-bedroom",
+      "area_id": "A41",
+      "project_id": "PROJECT-R330",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R331",
+      "name": "The Ridge KL East 651-sf partly furnished compact",
+      "area_id": "A43",
+      "project_id": "PROJECT-R331",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R332",
+      "name": "D'Sara Sentral 805-sf marketed two-bedroom voluntary sale",
+      "area_id": "A45",
+      "project_id": "PROJECT-R229",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R333",
+      "name": "Urban 360 1001-sf family control",
+      "area_id": "A42",
+      "project_id": "PROJECT-R226",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R334",
+      "name": "Spring Ville 728-sf restricted family control",
+      "area_id": "A43",
+      "project_id": "PROJECT-R334",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R335",
+      "name": "168 Park Selayang 624-sf altered compact control",
+      "area_id": "A44",
+      "project_id": "PROJECT-R335",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R336",
+      "name": "Selayang Point 1108-sf family control",
+      "area_id": "A44",
+      "project_id": "PROJECT-R336",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R337",
+      "name": "Zen Suites Zetapark 677-sf studio/SOHO control",
+      "area_id": "A41",
+      "project_id": "PROJECT-R337",
+      "historical_source": "klang-valley-2026-10-07/round-3/B06_Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV13",
+      "name": "Skypod Residence",
+      "area_id": "A46",
+      "project_id": "PROJECT-KV13",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R230",
+      "name": "Koi Prima",
+      "area_id": "A47",
+      "project_id": "PROJECT-R230",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R231",
+      "name": "Zeva Equine South",
+      "area_id": "A48",
+      "project_id": "PROJECT-R231",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "new_public_comparable_reassessment",
+      "new_gate_assessment": {
+        "passed_prefix": [],
+        "first_unresolved_gate": "G0",
+        "g9": "Defer"
+      },
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R232",
+      "name": "Da Men",
+      "area_id": "A49",
+      "project_id": "PROJECT-R232",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R233",
+      "name": "Seri Atria",
+      "area_id": "A50",
+      "project_id": "PROJECT-R233",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R234",
+      "name": "Paramount Utropolis",
+      "area_id": "A51",
+      "project_id": "PROJECT-R234",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R235",
+      "name": "Trefoil Setia City",
+      "area_id": "A52",
+      "project_id": "PROJECT-R235",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R236",
+      "name": "Gravit8 Nordica",
+      "area_id": "A53",
+      "project_id": "PROJECT-R236",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R249",
+      "name": "Sunway GeoSense",
+      "area_id": "A49",
+      "project_id": "PROJECT-R249",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R338",
+      "name": "Kinrara Mas",
+      "area_id": "A46",
+      "project_id": "PROJECT-R338",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R339",
+      "name": "The Wharf Residence",
+      "area_id": "A47",
+      "project_id": "PROJECT-R339",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R340",
+      "name": "Univ 360 compact",
+      "area_id": "A48",
+      "project_id": "PROJECT-R340",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R341",
+      "name": "Univ 360 family",
+      "area_id": "A48",
+      "project_id": "PROJECT-R340",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R342",
+      "name": "Subang Avenue",
+      "area_id": "A49",
+      "project_id": "PROJECT-R342",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "new_public_comparable_reassessment",
+      "new_gate_assessment": {
+        "passed_prefix": [],
+        "first_unresolved_gate": "G0",
+        "g9": "Defer"
+      },
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R343",
+      "name": "Suria Residence Bukit Jelutong",
+      "area_id": "A51",
+      "project_id": "PROJECT-R343",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R344",
+      "name": "Seri Pinang Setia Alam",
+      "area_id": "A52",
+      "project_id": "PROJECT-R344",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R345",
+      "name": "Impiria Residensi",
+      "area_id": "A53",
+      "project_id": "PROJECT-R345",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R346",
+      "name": "Nadayu 801 family",
+      "area_id": "A50",
+      "project_id": "PROJECT-R346",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R347",
+      "name": "BBK Condominium",
+      "area_id": "A52",
+      "project_id": "PROJECT-R347",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R348",
+      "name": "Suri Puteri family",
+      "area_id": "A51",
+      "project_id": "PROJECT-R348",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R349",
+      "name": "The Cruise Residence two-bedroom",
+      "area_id": "A46",
+      "project_id": "PROJECT-R349",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R350",
+      "name": "East Lake Residence family",
+      "area_id": "A48",
+      "project_id": "PROJECT-R350",
+      "historical_source": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+      "review_scope": "new_public_comparable_reassessment",
+      "new_gate_assessment": {
+        "passed_prefix": [],
+        "first_unresolved_gate": "G0",
+        "g9": "Defer"
+      },
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R237",
+      "name": "Evo SOHO Suite",
+      "area_id": "A54",
+      "project_id": "PROJECT-R237",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R238",
+      "name": "D'Cerrum",
+      "area_id": "A55",
+      "project_id": "PROJECT-R238",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R239",
+      "name": "Dwiputra Residences",
+      "area_id": "A57",
+      "project_id": "PROJECT-R239",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R240",
+      "name": "Geo Bukit Rimau",
+      "area_id": "A59",
+      "project_id": "PROJECT-R240",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R241",
+      "name": "Habitus Denai Alam",
+      "area_id": "A60",
+      "project_id": "PROJECT-R241",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R242",
+      "name": "GAIA Residences",
+      "area_id": "A61",
+      "project_id": "PROJECT-R242",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R247",
+      "name": "The Parque Residences",
+      "area_id": "A59",
+      "project_id": "PROJECT-R247",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R248",
+      "name": "Alanis Residence",
+      "area_id": "A58",
+      "project_id": "PROJECT-R248",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "KV14",
+      "name": "Solstice @ Pan'gaea",
+      "area_id": "A56",
+      "project_id": "PROJECT-KV14",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "new_public_comparable_reassessment",
+      "new_gate_assessment": {
+        "passed_prefix": [],
+        "first_unresolved_gate": "G0",
+        "g9": "Defer"
+      },
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R351",
+      "name": "MKH Boulevard II",
+      "area_id": "A54",
+      "project_id": "PROJECT-R351",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R352",
+      "name": "Ascotte Boulevard",
+      "area_id": "A55",
+      "project_id": "PROJECT-R352",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R353",
+      "name": "The Arc",
+      "area_id": "A56",
+      "project_id": "PROJECT-R353",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "new_public_comparable_reassessment",
+      "new_gate_assessment": {
+        "passed_prefix": [],
+        "first_unresolved_gate": "G0",
+        "g9": "Defer"
+      },
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R354",
+      "name": "Shaftsbury Putrajaya",
+      "area_id": "A57",
+      "project_id": "PROJECT-R354",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R355",
+      "name": "Alanis Residence compact",
+      "area_id": "A58",
+      "project_id": "PROJECT-R248",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R356",
+      "name": "Aman 1 Tropicana Urban Homes",
+      "area_id": "A59",
+      "project_id": "PROJECT-R356",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R357",
+      "name": "Habitus Denai Alam original compact control",
+      "area_id": "A60",
+      "project_id": "PROJECT-R241",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R358",
+      "name": "GAIA Residences larger family control",
+      "area_id": "A61",
+      "project_id": "PROJECT-R242",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R359",
+      "name": "Alanis Residence family control",
+      "area_id": "A58",
+      "project_id": "PROJECT-R248",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R360",
+      "name": "Savanna Executive Suites family",
+      "area_id": "A54",
+      "project_id": "PROJECT-R360",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    },
+    {
+      "id": "R361",
+      "name": "Amber Residences compact two-bedroom",
+      "area_id": "A59",
+      "project_id": "PROJECT-R361",
+      "historical_source": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+      "review_scope": "pending_substantive_reassessment",
+      "new_gate_assessment": null,
+      "historical_disposition_revalidated": false
+    }
+  ],
+  "next_batch": "Inner Cheras A01-A03: C01 M Vertica, KV02 Lavile, C02 Shamelin Star, C03 EkoCheras duplex. Read the underlying case packets first; prioritise current narrow-coverage-eligible expressions and keep shortfall cases at the approved lowest research tier. No automatic price/rent refresh or admission.",
+  "background_work": false
+}

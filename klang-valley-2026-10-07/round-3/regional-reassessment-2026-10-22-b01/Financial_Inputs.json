@@ -1,0 +1,702 @@
+{
+  "version": "REGIONAL-REASSESSMENT-2026-10-22-B01",
+  "as_of": "2026-10-22",
+  "source_commit": "8d1d052b41656c06cbd13eec3070392dc61a8d67",
+  "model_path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/financial_model.cjs",
+  "model_blob": "1554e72296b9abd455946906e5a48daeff2b7a16",
+  "sop": {
+    "version": "KV-SOP-FIN-2026-10-16-v2",
+    "effective_date": "2026-10-16",
+    "currency": "MYR",
+    "authority": "Explicit user instruction to promote all reusable, non-project-specific calibrated parameters into current SOP. User-selected execution defaults, not empirical validation.",
+    "scope": "New or materially reopened Malaysian residential underwriting; lifecycle and operating-form applicability must be declared.",
+    "schema": "Declarative SOP parameter register, not a drop-in input for historical case models. Future adapters must map fields explicitly and validate results.",
+    "precedence": "Frozen Core and G0-G9 unchanged. This version supersedes conflicting inherited financial presets for future work only; evidence-supported actual terms are shown separately.",
+    "standard": {
+      "ltv": 0.9,
+      "annual_rate": 0.04,
+      "amortisation_years": 35,
+      "preferred_gross_yield": 0.06,
+      "launch_debt_basis": "Gross contracted price reference; actual lender valuation and rebate treatment verified separately.",
+      "resale_debt_basis": "Agreed acquisition price reference; actual valuation/LTV separately.",
+      "yield_basis": "Effective nett consideration excluding unreceived or conditional incentives.",
+      "coverage": "Monthly parcel rent less full principal-and-interest instalment less management fee; identify combined sinking charges."
+    },
+    "base": {
+      "rent_growth_construction": 0,
+      "rent_growth_operation": 0,
+      "fitout_months": 1,
+      "marketing_concurrent": true,
+      "initial_void_months": 1,
+      "lease_months": 12,
+      "turnover_void_months": 1,
+      "new_tenant_commission_rent_months": 1,
+      "renewal_commission_rent_months": 0.5,
+      "annual_repairs_rent_months": 0.5,
+      "unitemised_other_allowance": 0,
+      "tenant_paid_utilities": [
+        "electricity",
+        "water",
+        "internet"
+      ],
+      "extra_parking_revenue": 0,
+      "fitout_fraction_nett": 0.05,
+      "furniture_exit_addon": 0,
+      "management_fee_psf": null,
+      "new_launch_fee_reference_flat_months": 24,
+      "base_fee_growth_assumption": 0,
+      "construction_months": null,
+      "average_draw_fraction_planning_proxy": 0.5,
+      "interest_subsidy_credit": 0,
+      "amortisation_start_convention": "Handover for construction-period interest-only planning; actual lender maturity separately.",
+      "rebate_fraction": null,
+      "rebate_offsets_deposit": null,
+      "cash_downpayment": null,
+      "hold_months_from_handover": 60,
+      "completed_property_clock": "Completion/possession; no artificial construction delay.",
+      "sale_agent_fraction": 0.03,
+      "acquisition_blanket_allowance": null,
+      "sale_all_in_allowance": null,
+      "extraordinary_levy_base": 0,
+      "personal_income_tax_included": false,
+      "final_RPGT_included": false,
+      "professional_service_tax_rate": null,
+      "unknown_cost_residual": "U, separately disclosed, never asserted zero.",
+      "cashflow_timing": "Monthly event ledger; actual fee/payment dates where available."
+    },
+    "targets": {
+      "year3_month": 36,
+      "year3_nett_multiplier": 1.1,
+      "year5_month": 60,
+      "year5_nett_multiplier": 1.2,
+      "status": "User-selected target scenario, not verified forecast, guaranteed floor or automatic investment pass.",
+      "flat_exit_diagnostic_multiplier": 1,
+      "automatic_growth_credit_for_higher_entry": false,
+      "reference_future_buyer_gross_yield": 0.06
+    },
+    "stress": {
+      "S1": {
+        "rate_change_percentage_points": 0.25,
+        "up_rate": 0.0425,
+        "down_rate": 0.0375,
+        "events_in_test": 1,
+        "persist_until_sale": true,
+        "timing": "At handover for planning base; first-draw bound for new launches. Existing holdings: at stress start.",
+        "frequency_claim": false,
+        "maximum_possible_rate_claim": false
+      },
+      "S2": {
+        "initial_amortisation_years": [
+          31,
+          25
+        ]
+      },
+      "S3": {
+        "launch_valuation_basis": "Gross reference, not lender guarantee.",
+        "resale_valuation_haircut": 0.1,
+        "applies_to": "Actual acquisition financing or future resale buyer as applicable; keep separate from seller sale price."
+      },
+      "S4": {
+        "delay_months": 12,
+        "example_base48_total60": "Translate approved delay to case-specific completion baseline; 60 is not a universal construction period."
+      },
+      "S5": {
+        "status": "removed_default",
+        "risk": "Alternative draw-shape stress"
+      },
+      "S6": {
+        "status": "removed_default",
+        "risk": "Automatic rebate-failure/deposit-bridge stress"
+      },
+      "S7": {
+        "rent_multiplier": 0.8,
+        "duration": "Entire operating hold"
+      },
+      "S8": {
+        "potential_months": 12,
+        "void_months": 2,
+        "received_months": 10,
+        "commission_rent_months": 1,
+        "net_rent_equivalent_months": 9,
+        "timing": "One initial crisis lease-up; persistent two-month replacement void shown separately as duration bound."
+      },
+      "S9": {
+        "status": "removed_default",
+        "risk": "One income component at zero for the entire hold"
+      },
+      "S10": {
+        "status": "removed_default",
+        "risk": "Entire first operating year at zero"
+      },
+      "S11": {
+        "status": "removed_default",
+        "risk": "First year with only six paid months"
+      },
+      "S12": {
+        "fee_flat_months": 24,
+        "annual_fee_growth_after": 0.05,
+        "starting_fee": "Case-specific charge, no universal psf"
+      },
+      "S13": {
+        "status": "removed_default",
+        "risk": "Arbitrary other-expense shock"
+      },
+      "S14": {
+        "status": "removed_default",
+        "risk": "Invented special-levy stress"
+      },
+      "S15": {
+        "additional_fitout_cost": 10000
+      },
+      "S16": {
+        "exit_multipliers_nett": [
+          0.9,
+          1.1
+        ],
+        "basis": "Original effective nett entry, not target exit"
+      },
+      "S17": {
+        "sale_delay_months": 6,
+        "total_months_at_standard_hold": 66,
+        "additional_price_growth": 0
+      },
+      "S18": {
+        "seller_costs": "Itemised; no arbitrary blanket extra charge."
+      },
+      "S19": {
+        "future_buyer_ltv": 0.85,
+        "annual_rate": 0.045,
+        "term_years": 30
+      },
+      "S20": {
+        "future_buyer_gross_yield": 0.06,
+        "hard_gate": false
+      },
+      "S21": {
+        "J1": [
+          "S4",
+          "S15",
+          "S1_up",
+          "S12"
+        ],
+        "J2": [
+          "S7",
+          "S8_once",
+          "S16_minus10",
+          "S17"
+        ],
+        "J3": "Union of J1 and J2; no duplicate charges, added arrears, term shock or deleted stresses."
+      },
+      "S22": {
+        "status": "removed_default",
+        "risk": "Synthetic portfolio cash/reserve preset; actual portfolio review retained"
+      },
+      "S23": {
+        "method": "Test supported ordinary whole-parcel fallback for split operation; no invented rent or conversion saving.",
+        "fallback_rent": null
+      },
+      "S24": {
+        "arrears_months": 2,
+        "reletting_void_months": 1,
+        "deposit_recovery_assumed": 0,
+        "scope": "Each income stream separately and synchronous bound when applicable."
+      }
+    },
+    "required_case_inputs": [
+      "Gross/effective nett/confirmed incentives",
+      "Rent per supported operating stream and evidence status",
+      "Area/fee and sinking-fund scope",
+      "Contractual completion timeline",
+      "Parking rights/count/allocation",
+      "Actual financing and subsidy/package evidence",
+      "Works scope/quote",
+      "Current applicable fee/tax schedules and buyer/seller profile",
+      "Unknown cost residual and payment timing",
+      "Actual investor liquidity for allocation"
+    ],
+    "override_protocol": "Retain standard comparison; show authenticated terms and scoped sensitivities separately. Record reason, evidence, old/new value and affected results. Never silently tune to a favourable result.",
+    "not_promoted": [
+      "Project identity, specific layouts and split rents",
+      "One parking bay per parcel",
+      "0.35 psf",
+      "10% rebate and zero deposit as universal terms",
+      "48-month project delivery",
+      "Specific source asking prices, fee invoices/quotes and project ranking",
+      "Automatic G0/G4/G9 clearance"
+    ]
+  },
+  "fee_reference": {
+    "service_tax": 0.08,
+    "legal_discount": 0,
+    "discharge": 400,
+    "ckht1a": 500,
+    "legal_route": "Ordinary resale Table A, undiscounted; no HDA discounts",
+    "duty_basis": "Ordinary Malaysian individual, no exemption; assessed value provisionally price. Transfer bands1/2/3/4percent at100k/500k/1m, perRM100rounding. Actual profile/assessment remains unknown.",
+    "remaining": "Unquoted disbursements, owner bills, insurance, rates, actual title-release alternatives and duties/fees differing from reference remain U.",
+    "revalidation_limit": "SRO2023 and Customs background rechecked16October; PwC current tax booklet cross-check for all ordinary transfer bands incl>1m. Indexed official consolidated links remain unavailable; actual instrument/exemption scope not confirmed."
+  },
+  "bases": [
+    {
+      "id": "R208",
+      "name": "Centrestage Designer Suite",
+      "price": 150000,
+      "rent": 1500,
+      "fee": 220,
+      "old_other": 180,
+      "old_fitout": 20000,
+      "old_annual_cash": 4527.04919526037,
+      "old_flat_profit": 430.6482031618725,
+      "old_entry_cash": 42500,
+      "area": 306,
+      "rent_low": 1100,
+      "rent_high": 1600,
+      "metadata": {
+        "area_id": "A19",
+        "project_id": "PROJECT-R208",
+        "source_path": "klang-valley-2026-10-07/round-3/B03_Financial_Results.json",
+        "source_blob": "6ca40ca54ff8a3430be95185c1448e46a7e50137",
+        "source_case_index": 2,
+        "name": "Centrestage Designer Suite",
+        "batch": "B03",
+        "special_holds": [
+          "material_identity_rights_offer_hold"
+        ],
+        "current_g0": "STOP",
+        "current_g9": "Defer",
+        "prior_regional_evidence_lead": false,
+        "evidence_boundary": "All exact offers, normalised clearing prices and unit admission remain unverified; absence of a special hold is not clearance.",
+        "special_hold_tags_exhaustive": false
+      },
+      "source_facts": {
+        "layout": "studio marketed",
+        "bays": null,
+        "notes": "Header 306 versus body 301 sf; furnishing conflict and office/residential component unresolved",
+        "quarantine": "Component/area/furnishing identity unresolved; 12% headline is not an admitted residential opportunity",
+        "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+        "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+        "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+        "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+        "unit_identity": "Tower/floor/unit/title/plan not obtained"
+      },
+      "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated."
+    },
+    {
+      "id": "R321",
+      "name": "Parkview compact",
+      "price": 400000,
+      "rent": 2400,
+      "fee": 350,
+      "old_other": 200,
+      "old_fitout": 25000,
+      "old_annual_cash": 672.131187360992,
+      "old_flat_profit": -27518.271458234973,
+      "old_entry_cash": 85000,
+      "area": 615,
+      "rent_low": 1900,
+      "rent_high": 2400,
+      "metadata": {
+        "area_id": "A34",
+        "project_id": "PROJECT-R321",
+        "source_path": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+        "source_blob": "ac67d89da90dd3750a5ca42eccfb5918833fefd4",
+        "source_case_index": 7,
+        "name": "Parkview compact",
+        "batch": "B05",
+        "special_holds": [
+          "material_lease_fee_package_hold"
+        ],
+        "current_g0": "STOP",
+        "current_g9": "Defer",
+        "prior_regional_evidence_lead": true,
+        "evidence_boundary": "All exact offers, normalised clearing prices and unit admission remain unverified; absence of a special hold is not clearance.",
+        "special_hold_tags_exhaustive": false
+      },
+      "source_facts": {
+        "layout": "studio / 1BR unresolved",
+        "bays": null,
+        "notes": "Sale header615sf/1BR versus body600sf; FF low floor; rental615sf2400 studio, bay and annual term unmatched.",
+        "quarantine": null,
+        "price_status": "Advertised or indexed conditional amount; not confirmed effective price",
+        "rent_status": "Ordinary whole-unit underwriting hypothesis informed by asks, not achieved or contracted rent",
+        "fee_status": "Unverified combined management/sinking proxy",
+        "cost_status": "Unquoted planning allowances; actual taxes and itemised costs unresolved",
+        "unit_identity": null
+      },
+      "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated."
+    },
+    {
+      "id": "R322",
+      "name": "Lucentia studio - monthly-fee interpretation",
+      "price": 600000,
+      "rent": 3400,
+      "fee": 1165,
+      "old_other": 230,
+      "old_fitout": 20000,
+      "old_annual_cash": -8031.803218958521,
+      "old_flat_profit": -68977.40718735251,
+      "old_entry_cash": 110000,
+      "area": 454,
+      "rent_low": 3000,
+      "rent_high": 3400,
+      "metadata": {
+        "area_id": "A35",
+        "project_id": "PROJECT-R322",
+        "source_path": "klang-valley-2026-10-07/round-3/B05_Financial_Results.json",
+        "source_blob": "ac67d89da90dd3750a5ca42eccfb5918833fefd4",
+        "source_case_index": 8,
+        "name": "Lucentia studio - monthly-fee interpretation",
+        "batch": "B05",
+        "special_holds": [
+          "material_lease_fee_package_hold"
+        ],
+        "current_g0": "STOP",
+        "current_g9": "Defer",
+        "prior_regional_evidence_lead": false,
+        "evidence_boundary": "All exact offers, normalised clearing prices and unit admission remain unverified; absence of a special hold is not clearance.",
+        "special_hold_tags_exhaustive": false
+      },
+      "source_facts": {
+        "layout": "studio",
+        "bays": null,
+        "notes": "Sale T1-07-02 states1165maintenance without period; FF header versus confirmation required in copy. Rental454studioFF one bay3400 is another unit.",
+        "quarantine": null,
+        "price_status": "Advertised or indexed conditional amount; not confirmed effective price",
+        "rent_status": "Ordinary whole-unit underwriting hypothesis informed by asks, not achieved or contracted rent",
+        "fee_status": "1165 period unknown: base is explicitly monthly interpretation; quarterly alternative is hypothesis",
+        "cost_status": "Unquoted planning allowances; actual taxes and itemised costs unresolved",
+        "unit_identity": null
+      },
+      "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated."
+    },
+    {
+      "id": "R231",
+      "name": "Zeva Equine South",
+      "price": 210000,
+      "rent": 1200,
+      "fee": 180,
+      "old_other": 150,
+      "old_fitout": 20000,
+      "old_annual_cash": -802.1311266354805,
+      "old_flat_profit": -27097.09251557337,
+      "old_entry_cash": 51500,
+      "area": 450,
+      "rent_low": 850,
+      "rent_high": 1300,
+      "metadata": {
+        "area_id": "A48",
+        "project_id": "PROJECT-R231",
+        "source_path": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+        "source_blob": "06245f25f82edc88b609a2675b10fe61ca8cdf10",
+        "source_case_index": 2,
+        "name": "Zeva Equine South",
+        "batch": "B07",
+        "special_holds": [],
+        "current_g0": "STOP",
+        "current_g9": "Defer",
+        "prior_regional_evidence_lead": true,
+        "evidence_boundary": "All exact offers, normalised clearing prices and unit admission remain unverified; absence of a special hold is not clearance.",
+        "special_hold_tags_exhaustive": false
+      },
+      "source_facts": {
+        "layout": "studio",
+        "bays": null,
+        "notes": "Live 210k partly furnished sale replaces redirected 200k lead; 1200 furnished and 850 partly furnished whole-unit rents",
+        "quarantine": null,
+        "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+        "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+        "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+        "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+        "unit_identity": "Tower/floor/unit/title/plan not obtained"
+      },
+      "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated."
+    },
+    {
+      "id": "R342",
+      "name": "Subang Avenue",
+      "price": 450000,
+      "rent": 2500,
+      "fee": 323,
+      "old_other": 200,
+      "old_fitout": 35000,
+      "old_annual_cash": -294.8524142188908,
+      "old_flat_profit": -43088.05539051435,
+      "old_entry_cash": 102500,
+      "area": 1021,
+      "rent_low": 2300,
+      "rent_high": 2800,
+      "metadata": {
+        "area_id": "A49",
+        "project_id": "PROJECT-R342",
+        "source_path": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+        "source_blob": "06245f25f82edc88b609a2675b10fe61ca8cdf10",
+        "source_case_index": 13,
+        "name": "Subang Avenue",
+        "batch": "B07",
+        "special_holds": [],
+        "current_g0": "STOP",
+        "current_g9": "Defer",
+        "prior_regional_evidence_lead": true,
+        "evidence_boundary": "All exact offers, normalised clearing prices and unit admission remain unverified; absence of a special hold is not clearance.",
+        "special_hold_tags_exhaustive": false
+      },
+      "source_facts": {
+        "layout": "3BR/2BA",
+        "bays": 1,
+        "notes": "Original/unfurnished sale versus furnished rent; 2500 rental header versus2600 body. Fee323 from different1021sf sale with inconsistent4BR/3BA label; proxy only.",
+        "quarantine": null,
+        "price_status": "Advertised figure for conditional analysis, not agreed net consideration or verified clearing price",
+        "rent_status": "Conditional long-term whole-unit scenario informed by asking evidence; not an achieved lease",
+        "fee_status": "Unverified combined management/sinking proxy; standard management-only test remains unverified",
+        "cost_status": "Illustrative allowances, pre-tax; property-specific costs and works not quoted",
+        "unit_identity": "No exact inspected parcel/title/approved plan; any advertised identity remains unauthenticated"
+      },
+      "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated."
+    },
+    {
+      "id": "R350",
+      "name": "East Lake Residence family",
+      "price": 350000,
+      "rent": 2000,
+      "fee": 300,
+      "old_other": 200,
+      "old_fitout": 20000,
+      "old_annual_cash": -736.8852110591324,
+      "old_flat_profit": -28828.487525955577,
+      "old_entry_cash": 72500,
+      "area": 1093,
+      "rent_low": 1750,
+      "rent_high": 2200,
+      "metadata": {
+        "area_id": "A48",
+        "project_id": "PROJECT-R350",
+        "source_path": "klang-valley-2026-10-07/round-3/b07-final/Financial_Results.json",
+        "source_blob": "06245f25f82edc88b609a2675b10fe61ca8cdf10",
+        "source_case_index": 21,
+        "name": "East Lake Residence family",
+        "batch": "B07",
+        "special_holds": [],
+        "current_g0": "STOP",
+        "current_g9": "Defer",
+        "prior_regional_evidence_lead": true,
+        "evidence_boundary": "All exact offers, normalised clearing prices and unit admission remain unverified; absence of a special hold is not clearance.",
+        "special_hold_tags_exhaustive": false
+      },
+      "source_facts": {
+        "layout": "3BR + store /2BA marketed; store not bedroom",
+        "bays": 1,
+        "notes": "FF sale and separateFF1093sf/one-bay one-year rent ask; olderApril2026 income. September2200 same-size index is an upside lead;1750 rental is1116sf and not identical. Sale index21Sep versus opened7Aug date drift.",
+        "quarantine": null,
+        "price_status": "Advertised conditional input; no accepted offer or normalised clearing price.",
+        "rent_status": "Ordinary whole-unit asking evidence; no signed lease or collections.",
+        "fee_status": "Unverified combined management/sinking proxy; management-only standard remains unauthenticated.",
+        "cost_status": "Planning allowances, pre-tax; actual charges, insurance, levies, taxes and works quotes missing.",
+        "unit_identity": "Exact parcel/title/plan/inspection not obtained."
+      },
+      "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated."
+    },
+    {
+      "id": "KV14",
+      "name": "Solstice @ Pan'gaea",
+      "price": 200000,
+      "rent": 1200,
+      "fee": 180,
+      "old_other": 150,
+      "old_fitout": 15000,
+      "old_annual_cash": -323.934406319504,
+      "old_flat_profit": -19559.135729117486,
+      "old_entry_cash": 45000,
+      "area": 450,
+      "rent_low": 1000,
+      "rent_high": 1300,
+      "metadata": {
+        "area_id": "A56",
+        "project_id": "PROJECT-KV14",
+        "source_path": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+        "source_blob": "c66564f3a7b599864798190398050f8fab592ff6",
+        "source_case_index": 8,
+        "name": "Solstice @ Pan'gaea",
+        "batch": "B08",
+        "special_holds": [],
+        "current_g0": "STOP",
+        "current_g9": "Defer",
+        "prior_regional_evidence_lead": true,
+        "evidence_boundary": "All exact offers, normalised clearing prices and unit admission remain unverified; absence of a special hold is not clearance.",
+        "special_hold_tags_exhaustive": false
+      },
+      "source_facts": {
+        "layout": "1BR/1BA marketed; plan pending",
+        "bays": null,
+        "notes": "Furnished sale; whole-unit rent; parcel use and parking must be established",
+        "quarantine": null,
+        "price_status": "advertised consideration; not agreed or verified effective price",
+        "rent_status": "scenario informed by asking rents; not achieved rent",
+        "fee_status": "unverified combined management/sinking proxy; management-only standard unverified",
+        "cost_status": "illustrative allowance; actual quote and taxes pending",
+        "unit_identity": null
+      },
+      "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated."
+    },
+    {
+      "id": "R353",
+      "name": "The Arc",
+      "price": 220000,
+      "rent": 1500,
+      "fee": 250,
+      "old_other": 180,
+      "old_fitout": 25000,
+      "old_annual_cash": 819.6721530485429,
+      "old_flat_profit": -24135.04930202925,
+      "old_entry_cash": 58000,
+      "area": 913,
+      "rent_low": 1400,
+      "rent_high": 1700,
+      "metadata": {
+        "area_id": "A56",
+        "project_id": "PROJECT-R353",
+        "source_path": "klang-valley-2026-10-07/round-3/b08-final/Financial_Results.json",
+        "source_blob": "c66564f3a7b599864798190398050f8fab592ff6",
+        "source_case_index": 11,
+        "name": "The Arc",
+        "batch": "B08",
+        "special_holds": [
+          "material_identity_rights_offer_hold"
+        ],
+        "current_g0": "STOP",
+        "current_g9": "Defer",
+        "prior_regional_evidence_lead": true,
+        "evidence_boundary": "All exact offers, normalised clearing prices and unit admission remain unverified; absence of a special hold is not clearance.",
+        "special_hold_tags_exhaustive": false
+      },
+      "source_facts": {
+        "layout": "3BR/2BA marketed",
+        "bays": 1,
+        "notes": "913sf PF sale versus Block C 913sf FF rent offered for November 2026 intake and minimum one year. Price packages unverified; 950sf upper rent is not same-size corroboration.",
+        "quarantine": "Offer includes cash/loan/cashback conditions; title/assignment/GRR residue, inventory and selected-parcel ordinary leasing rights unresolved. No historic guaranteed yield used.",
+        "price_status": "Advertised amount, not authenticated net consideration or current executable offer.",
+        "rent_status": "Conditional ordinary whole-unit rent informed by asking evidence; not signed or collected income.",
+        "fee_status": "Unverified combined management/sinking allowance, not authenticated management-only standard charge.",
+        "cost_status": "Analyst planning allowances, pre-tax; actual cost inventory and quotes pending.",
+        "unit_identity": "Exact parcel, approved plan, title, usable bays, tenure restrictions and inventory not authenticated."
+      },
+      "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated."
+    }
+  ],
+  "scenarios": [
+    {
+      "id": "BASE"
+    },
+    {
+      "id": "FLAT",
+      "exit": 1
+    },
+    {
+      "id": "RENEWAL_FLAT",
+      "renew": true,
+      "exit": 1
+    },
+    {
+      "id": "FEE_STRESS_FLAT",
+      "fee_growth": 0.05,
+      "exit": 1
+    },
+    {
+      "id": "J3_COMPLETED",
+      "fitout_extra": 10000,
+      "rate": 0.0425,
+      "fee_growth": 0.05,
+      "rent_factor": 0.8,
+      "initial_void": 2,
+      "exit": 0.9,
+      "hold": 66
+    }
+  ],
+  "variants": [
+    {
+      "id": "ZEVA_PF_RENT",
+      "case_id": "R231",
+      "changes": {
+        "rent": 850
+      },
+      "reason": "PF850 downside; no FF1200 without works/demand evidence"
+    },
+    {
+      "id": "ZEVA_FF_PRICE",
+      "case_id": "R231",
+      "changes": {
+        "price": 280000
+      },
+      "reason": "Prior separate FF ask;70k gap is not a fitout cost quote"
+    },
+    {
+      "id": "SUBANG_RENT_2300",
+      "case_id": "R342",
+      "changes": {
+        "rent": 2300
+      },
+      "reason": "Prior term/package lower ask; no automatic renewal credit"
+    },
+    {
+      "id": "SUBANG_RENT_2600",
+      "case_id": "R342",
+      "changes": {
+        "rent": 2600
+      },
+      "reason": "Prior rental body branch, not authenticated increase"
+    },
+    {
+      "id": "EAST_RENT_2200",
+      "case_id": "R350",
+      "changes": {
+        "rent": 2200
+      },
+      "reason": "Prior same-size asking lead, not accepted rent"
+    },
+    {
+      "id": "LUCENTIA_QUARTERLY_FEE",
+      "case_id": "R322",
+      "changes": {
+        "fee": 388.3333333333333
+      },
+      "reason": "Unresolved billing-period branch; not adopted as fact"
+    },
+    {
+      "id": "PARKVIEW_RENT_1900",
+      "case_id": "R321",
+      "changes": {
+        "rent": 1900
+      },
+      "reason": "Inherited lower rent-package sensitivity"
+    },
+    {
+      "id": "SOLSTICE_RENT_1000",
+      "case_id": "KV14",
+      "changes": {
+        "rent": 1000
+      },
+      "reason": "Inherited downside asking range"
+    },
+    {
+      "id": "SOLSTICE_RENT_1300",
+      "case_id": "KV14",
+      "changes": {
+        "rent": 1300
+      },
+      "reason": "Inherited upper asking package; not achieved"
+    },
+    {
+      "id": "CENTRESTAGE_RENT_1100",
+      "case_id": "R208",
+      "changes": {
+        "rent": 1100
+      },
+      "reason": "Inherited lower asking rent; identity hold remains"
+    }
+  ],
+  "limits": [
+    "Diagnostic subset, not a new138-case numerical replay.",
+    "No factual price/rent/fee update; public sale evidence changes reference assessment, not adopted purchase terms.",
+    "U, actual charges and personal/RPGT applicability are not zero. Outputs precede these unresolved amounts.",
+    "No paid lease, bank valuation, voluntary transaction or unit inspection authenticated.",
+    "Model g0/g9 literal outputs are discarded; evidence-gate decisions reside only in Case_Reviews.json."
+  ]
+}
