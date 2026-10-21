@@ -1,5 +1,12 @@
 # Current workflow and continuation
 
+## Candidate evidence retained for future rule replay — 22 October 2026
+
+User instruction: save findings for every candidate; future G0-G9 changes should first replay saved evidence, not restart regional research. Apply [retention/replay SOP](sop/Evidence_Retention_and_Rule_Replay_2026-10-22.md) and use the [candidate registry](evidence-registry/README.md):138 regional expressions plus Brightwood/Aviera,144 pinned existing documents and preserved working inputs. Legacy fact normalisation is partial; this indexing is not a market refresh or new underwriting. Only decision-changing missing/stale facts require targeted supplementation. Rule versions, evidence snapshots and old/new decisions remain separate.
+
+The regional reassessment below remains active with125 substantive reviews pending. Core, gate definitions, financial parameters and map unchanged. Every future batch updates the saved candidate evidence and index before closeout.
+
+
 ## Regional reassessment resumed — 22 October 2026
 
 The user resumed all regions, superseding the21October regional pause below. [Current priority comparison batch](klang-valley-2026-10-07/round-3/regional-reassessment-2026-10-22-b01/README.md) adds8 public comparable reviews and reconciles2 existing Amcorp/Neo probes without calling them refreshed. Together with earlier Eve/Maxim/Pines,13 priority dossiers have research dispositions:11 substantive reviews in this sequence plus2 reused earlier probes. **125 other cases remain pending substantive reassessment; this is not completed all138 underwriting.** No new gate admission or Deploy.

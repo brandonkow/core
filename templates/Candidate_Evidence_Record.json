@@ -1,0 +1,88 @@
+{
+  "schema_version": "candidate-evidence-v1",
+  "candidate_id": null,
+  "scope": null,
+  "project_component_unit": null,
+  "evidence_snapshot": {
+    "id": null,
+    "cutoff": null,
+    "source_commit": null
+  },
+  "facts": [
+    {
+      "fact_id": null,
+      "claim": null,
+      "structured_value": null,
+      "unit": null,
+      "evidence_type": null,
+      "source_id": null,
+      "event_date": null,
+      "access_date": null,
+      "source_locator": null,
+      "independence_group": null,
+      "confidence": null,
+      "confidence_reason": null,
+      "contradicts_fact_ids": [],
+      "included_in_comparables": null,
+      "exclusion_reason": null,
+      "affected_gates": [],
+      "affected_inputs": [],
+      "material_refresh_trigger": null
+    }
+  ],
+  "sources": [
+    {
+      "source_id": null,
+      "url_or_repository_path": null,
+      "publisher": null,
+      "access_method": null,
+      "retained_excerpt_or_fact_path": null,
+      "retained_blob_sha": null,
+      "full_original_retained": false,
+      "access_failure": null
+    }
+  ],
+  "assumptions": [
+    {
+      "assumption_id": null,
+      "value": null,
+      "authority_or_rationale": null,
+      "scope": null,
+      "financial_sop_version": null,
+      "is_observed_fact": false
+    }
+  ],
+  "assessments": [
+    {
+      "assessment_id": null,
+      "evidence_snapshot_id": null,
+      "core_version": null,
+      "gate_rule_version": null,
+      "sop_version": null,
+      "model_commit": null,
+      "passed_prefix": [],
+      "first_unresolved_gate": null,
+      "g9": null,
+      "reasoning_path": null,
+      "financial_output_path": null,
+      "unresolved_dependencies": []
+    }
+  ],
+  "rule_replays": [
+    {
+      "replay_id": null,
+      "old_assessment_id": null,
+      "old_rule_version": null,
+      "new_rule_version": null,
+      "evidence_snapshot_id": null,
+      "same_evidence_comparison": true,
+      "changed_gates": [],
+      "old_new_results_path": null,
+      "targeted_missing_facts": [],
+      "fresh_data_result_separate_path": null
+    }
+  ],
+  "warnings": [
+    "Template only; null is unknown, not zero. Do not overwrite historical evidence or decisions."
+  ]
+}

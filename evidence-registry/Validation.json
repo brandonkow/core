@@ -1,0 +1,15 @@
+{
+  "checked_at": "2026-10-22",
+  "source_commit": "be103f4418bbfb3343826a3c4d285eb5fd9c7158",
+  "unique_regional_candidates": 138,
+  "standalone_packets": 2,
+  "document_blobs": 144,
+  "resolved_document_references": 2117,
+  "preserved_input_exact_matches": 138,
+  "legacy_records_with_null_source_fields": 126,
+  "full_evidence_normalisation_completed": false,
+  "new_market_verification": false,
+  "new_gate_decisions": 0,
+  "core_financial_sop_map_changed": false,
+  "validation_scope": "ID coverage, exact historical input retention, pinned repository paths and Git blob references. This is not market validation."
+}
