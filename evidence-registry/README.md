@@ -1,22 +1,19 @@
 # Candidate evidence registry
 
-Created22October2026 at source commit `be103f4418bbfb3343826a3c4d285eb5fd9c7158`.
+Updated22October2026 after [all125 remaining saved-evidence reviews](../klang-valley-2026-10-07/round-3/remaining-125-reassessment-2026-10-22/README.md).
 
-The user's requirement is to retain candidate information for later G0-G9 changes, so rule changes normally use saved evidence rather than restarting regional research.
+[Candidate_Records.json](Candidate_Records.json) retains138 regional baseline expressions and2 standalone packets without altering their original inputs. 174 immutable document references include the previous144 and30 new review/evidence/coverage files pinned to packet commit `571463dc929bb1b7abf6d36d9eaf4540198649c4`.
 
-[Candidate_Records.json](Candidate_Records.json) indexes **138 regional expressions and2 separate case packets (Brightwood B/D and Aviera)**. It retains exact baseline working inputs, source limitations and immutable commit/blob references to144 existing files. Shared document references avoid duplication. Historical and latest available assessment overlays remain distinguishable.
-
-This is a retrieval/migration layer, not138 newly researched candidates or fully normalised fact ledgers.126 legacy baseline records contain at least one null source-fact field; their original packets remain accessible and may contain additional information. No null is replaced with a guessed fact. Source dates remain the dates in the original ledgers;22October indexing is not a source refresh.
+The regional queue has138 research dispositions:136 substantive in the current sequence and2 earlier probes reused. The125 remaining reviews are complete. Four candidates received targeted public price counterchecks; the other121 were reassessed from retained evidence. This is not125 current-offer refreshes, full legacy fact normalisation, physical inspection or execution approval. All125 remain G0 unresolved/G9 Defer. Earlier historical snapshots remain unchanged.
 
 ## Retrieve and replay
 
-1. Find the stable candidate_id in records (or standalone for the two side packets).
-2. Read preserved_working_input without mistaking scenarios/asks for facts.
-3. Resolve document_id through documents; retrieve its path at the pinned commit and check git_blob_sha where necessary. The selector identifies the relevant case/source IDs.
-4. Read historical_packet_files and evidence_and_assessment_overlays, including contrary evidence, package branches and provenance. Per-candidate overlays may share files; use their selectors.
-5. Apply the [retention/replay SOP](../sop/Evidence_Retention_and_Rule_Replay_2026-10-22.md). Save a new assessment under the authorised rule version and compare against the old result on identical evidence.
-6. Supplement only decision-changing missing/stale facts. Do not silently call a dated replay current executable underwriting.
+1. Select candidate_id; preserve the exact preserved_working_input as the historical financial basis.
+2. Resolve historical_packet_files and evidence_and_assessment_overlays through documents. Each file has an immutable commit and Git blob SHA; selectors identify candidate records.
+3. For the125 new reviews, read the current batch Reviews.json alongside its Retained_Evidence.json and any New_Evidence.json IDs. Old prose/financial presets in historical excerpts are not current assumptions.
+4. Keep observations, informed judgments, scenarios, dates, missing data and current decisions separate. Original event/access dates are not refreshed by this index update.
+5. Apply [retention/replay SOP](../sop/Evidence_Retention_and_Rule_Replay_2026-10-22.md) when rules change; preserve old/new assessment versions and supplement only material missing/stale facts.
 
-Future case work adds structured facts using the [record template](../templates/Candidate_Evidence_Record.json), retains the original source record and updates this index. Save the actual observation, not just a URL. A normalised ledger and a full webpage archive are different; full originals are retained only where available and appropriate.
+Baseline null fields remain null; case-specific historical extracts add retrieval depth without pretending every legacy claim has a normalised independent fact row. Actual funding, private/physical evidence and realised outcomes remain unresolved. No Core/rule or financial-parameter change is implied by completed reviews.
 
-[Validation](Validation.json) covers138 exact input matches, ID coverage and repository pointers. Core/G0-G9/financial presets/map and all historical findings are unchanged.125 regional cases still await substantive reassessment; their presence here does not clear that queue. No background replay or outreach is running.
+[Validation](Validation.json) covers exact input preservation, reference resolution and remote packet readback. No background monitoring or outreach.

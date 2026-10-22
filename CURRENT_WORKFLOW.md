@@ -1,5 +1,12 @@
 # Current workflow and continuation
 
+## All125 remaining saved-evidence reviews complete — 22 October 2026
+
+[Completed reassessment](klang-valley-2026-10-07/round-3/remaining-125-reassessment-2026-10-22/README.md):125/125 individually reviewed against retained evidence, with four targeted public counterchecks. Together with the prior13 dispositions, all138 regional expressions now have research dispositions (136 substantive current-sequence reviews and2 reused probes). This is not138 freshly surveyed offers or executable investment approval. No new admission; the125 remain G0 unresolved/G9 Defer for case-specific reasons. Prior pending-count entries below are historical and superseded.
+
+[Calibration agenda](klang-valley-2026-10-07/round-3/remaining-125-reassessment-2026-10-22/Calibration_Agenda.md) is the next discussion. No G0-G9 loosening, Core/SOP parameter or map change has been applied. Source provenance, observations, countertests, current-SOP financial references and old/new assessment versions are saved in the candidate registry. Replay saved evidence first after approved rule changes; supplement only material stale/missing facts. No regional batch remains in this saved-evidence queue. Execution documents, actual funding and realised outcomes remain separate and unverified. No outreach/background work.
+
+
 ## Candidate evidence retained for future rule replay — 22 October 2026
 
 User instruction: save findings for every candidate; future G0-G9 changes should first replay saved evidence, not restart regional research. Apply [retention/replay SOP](sop/Evidence_Retention_and_Rule_Replay_2026-10-22.md) and use the [candidate registry](evidence-registry/README.md):138 regional expressions plus Brightwood/Aviera,144 pinned existing documents and preserved working inputs. Legacy fact normalisation is partial; this indexing is not a market refresh or new underwriting. Only decision-changing missing/stale facts require targeted supplementation. Rule versions, evidence snapshots and old/new decisions remain separate.

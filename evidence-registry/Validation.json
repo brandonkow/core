@@ -1,15 +1,22 @@
 {
   "checked_at": "2026-10-22",
-  "source_commit": "be103f4418bbfb3343826a3c4d285eb5fd9c7158",
+  "source_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+  "review_packet_commit": "571463dc929bb1b7abf6d36d9eaf4540198649c4",
   "unique_regional_candidates": 138,
   "standalone_packets": 2,
-  "document_blobs": 144,
-  "resolved_document_references": 2117,
+  "document_blobs": 174,
+  "resolved_document_references": 2497,
   "preserved_input_exact_matches": 138,
+  "prior_records_preserved": true,
+  "standalone_packets_unchanged": true,
   "legacy_records_with_null_source_fields": 126,
   "full_evidence_normalisation_completed": false,
-  "new_market_verification": false,
-  "new_gate_decisions": 0,
+  "remaining_review_complete": 125,
+  "pending_remaining": 0,
+  "targeted_public_refresh_count": 4,
+  "new_gate_admissions": 0,
   "core_financial_sop_map_changed": false,
-  "validation_scope": "ID coverage, exact historical input retention, pinned repository paths and Git blob references. This is not market validation."
+  "remote_packet_exact_file_matches": 30,
+  "preexisting_blob_preservation_at_packet_commit": 927,
+  "validation_scope": "Coverage, immutable provenance, exact input preservation, recorded financial parity and remote content. Not market validation or a new financial-engine run."
 }
