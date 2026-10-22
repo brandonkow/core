@@ -1,0 +1,74 @@
+{
+  "checked_at": "2026-10-22",
+  "scope": "Coverage, source references, distinct authored judgments and exact retained financial parity. Not market truth, new financial engine tests or execution verification.",
+  "checks": [
+    {
+      "name": "125 exact pending IDs",
+      "pass": true
+    },
+    {
+      "name": "all case adjudications unique",
+      "pass": true
+    },
+    {
+      "name": "all countertests unique",
+      "pass": true
+    },
+    {
+      "name": "all ten gates and no passed prefix",
+      "pass": true
+    },
+    {
+      "name": "all source paths pinned",
+      "pass": true
+    },
+    {
+      "name": "all historical excerpts candidate scoped",
+      "pass": true
+    },
+    {
+      "name": "125 numerical parity records",
+      "pass": true
+    },
+    {
+      "name": "no universal non-investor exit in current G2",
+      "pass": true
+    },
+    {
+      "name": "no fresh source claims on unrefreshed cases",
+      "pass": true
+    },
+    {
+      "name": "inputs untouched in memory",
+      "pass": true
+    }
+  ],
+  "stats": {
+    "total": 125,
+    "by_batch": {
+      "B01": 21,
+      "B02": 11,
+      "B03": 11,
+      "B04": 17,
+      "B05": 14,
+      "B06": 14,
+      "B07": 19,
+      "B08": 18
+    },
+    "primary_g0_issue": {
+      "cohort": 73,
+      "identity": 23,
+      "offer": 21,
+      "rights": 8
+    },
+    "monthly_nonnegative": 44,
+    "annual_nonnegative": 0,
+    "renewal_nonnegative": 9,
+    "gross_at_least_6": 27,
+    "flat_exit_positive": 0,
+    "target_exit_positive": 116,
+    "joint_stress_positive": 0
+  },
+  "rule_and_core_changes": 0,
+  "remote_preservation_verification": "Required before main publication; Git object receipts checked separately."
+}

@@ -1,0 +1,1046 @@
+{
+  "date": "2026-10-22",
+  "baseline": "4fbe3e645a8d9760d78879951e251116272fc002",
+  "remaining_review_total": 125,
+  "remaining_review_complete": 125,
+  "pending_in_this_queue": 0,
+  "earlier_dispositions": 13,
+  "regional_total": 138,
+  "current_sequence_substantive_reviews": 136,
+  "reused_earlier_probes": 2,
+  "new_public_countercheck_ids": [
+    "C01",
+    "C06",
+    "C03",
+    "R305"
+  ],
+  "new_admissions": 0,
+  "diagnostics": {
+    "total": 125,
+    "by_batch": {
+      "B01": 21,
+      "B02": 11,
+      "B03": 11,
+      "B04": 17,
+      "B05": 14,
+      "B06": 14,
+      "B07": 19,
+      "B08": 18
+    },
+    "primary_g0_issue": {
+      "cohort": 73,
+      "identity": 23,
+      "offer": 21,
+      "rights": 8
+    },
+    "monthly_nonnegative": 44,
+    "annual_nonnegative": 0,
+    "renewal_nonnegative": 9,
+    "gross_at_least_6": 27,
+    "flat_exit_positive": 0,
+    "target_exit_positive": 116,
+    "joint_stress_positive": 0
+  },
+  "records": [
+    {
+      "candidate_id": "C01",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": true
+    },
+    {
+      "candidate_id": "C02",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "C03",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": true
+    },
+    {
+      "candidate_id": "C04",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "C05",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "C06",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": true
+    },
+    {
+      "candidate_id": "C07",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "C08",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "C09",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV02",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV03",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV04",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV05",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV06",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV07",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R201",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R202",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R203",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R204",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R205",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R206",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R243",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R244",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R245",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R301",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R302",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R303",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R304",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R362",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R363",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R364",
+      "assessment": "B01_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R365",
+      "assessment": "B02_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV08",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R207",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R209",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R210",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R211",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R212",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R305",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": true
+    },
+    {
+      "candidate_id": "R307",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R308",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R310",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R311",
+      "assessment": "B03_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV09",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV10",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R213",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R214",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R215",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R216",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R217",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R218",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R246",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R312",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R313",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R314",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R316",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R317",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R318",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R319",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R320",
+      "assessment": "B04_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV11",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R220",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R221",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R222",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R223",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R224",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R225",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R323",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R324",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R325",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R326",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R327",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R328",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R329",
+      "assessment": "B05_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV12",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R226",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R227",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R228",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R229",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R250",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R330",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R331",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R332",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R333",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R334",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R335",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R336",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R337",
+      "assessment": "B06_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "KV13",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R230",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R232",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R233",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R234",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R235",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R236",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R249",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R338",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R339",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R340",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R341",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R343",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R344",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R345",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R346",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R347",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R348",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R349",
+      "assessment": "B07_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R237",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R238",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R239",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R240",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R241",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R242",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R247",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R248",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R351",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R352",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R354",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R355",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R356",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R357",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R358",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R359",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R360",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    },
+    {
+      "candidate_id": "R361",
+      "assessment": "B08_Reviews.json",
+      "coverage": "completed_saved_evidence_reassessment",
+      "first_unresolved_gate": "G0",
+      "decision": "Defer",
+      "new_public_refresh": false
+    }
+  ]
+}

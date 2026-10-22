@@ -1,0 +1,96 @@
+{
+  "access_date": "2026-10-22",
+  "sources": [
+    {
+      "id": "N01",
+      "candidate": "C01",
+      "urls": [
+        "https://list.my/subsales/kl/kuala-lumpur/mukim-kuala-lumpur/m-vertica?group_by_size=false&group_by_type=true"
+      ],
+      "observations": "Publisher reports 850sf sales at RM500k (May2025), RM555k (July2025) and RM645k (October2025), alongside higher older observations. Its address mapping conflicts with the intended Cheras project; original-sale versus resale/package composition is unresolved.",
+      "interpretation": "Do not use the mixed median or broad spread as a discount. RM489k is only 2.2% below RM500k before unknown adjustments.",
+      "event_dates": [
+        "2025-05",
+        "2025-07",
+        "2025-10"
+      ],
+      "status": "Publisher-reported, mapping/consideration unverified",
+      "access_date": "2026-10-22",
+      "evidence_type": "Public search/open extract; not a complete webpage archive",
+      "gates": [
+        "G0",
+        "G5",
+        "G6"
+      ]
+    },
+    {
+      "id": "N02",
+      "candidate": "C06",
+      "urls": [
+        "https://list.my/subsales/kl/kuala-lumpur/mukim-petaling/kondominium-riana-selatan",
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/cheras/kondominium-riana-selatan/non-landed/"
+      ],
+      "observations": "List.my reports 947sf RM600k in May2024, RM603k in July2025 and RM620k in October2025. Row/date coverage differs across views/providers; duplication is not resolved.",
+      "interpretation": "RM595k is near this cohort, not demonstrated hidden deep mispricing. Bay, condition and sale-type adjustments remain unbounded.",
+      "event_dates": [
+        "2024-05",
+        "2025-07",
+        "2025-10"
+      ],
+      "status": "Publisher-reported, not independent stamped-sale audit",
+      "access_date": "2026-10-22",
+      "evidence_type": "Public search/open extract; not a complete webpage archive",
+      "gates": [
+        "G0",
+        "G5",
+        "G6"
+      ]
+    },
+    {
+      "id": "N03",
+      "candidate": "C03",
+      "urls": [
+        "https://list.my/subsales/property/479508",
+        "https://www.brickz.my/transactions/residential/kuala-lumpur/cheras/ekocheras-service-residence/non-landed/"
+      ],
+      "observations": "List.my reports 762sf RM465k in April2025. Brickz displays 762sf RM512k in November2025 (three rooms) and RM587k in January2026 (two rooms). Tower/duplex and room-coding comparability is unresolved.",
+      "interpretation": "RM520k falls inside these raw observations; the project median does not prove a duplex discount.",
+      "event_dates": [
+        "2025-04",
+        "2025-11",
+        "2026-01"
+      ],
+      "status": "Reported observations, not a normalised subject interval",
+      "access_date": "2026-10-22",
+      "evidence_type": "Public search/open extract; not a complete webpage archive",
+      "gates": [
+        "G0",
+        "G5",
+        "G6"
+      ]
+    },
+    {
+      "id": "N04",
+      "candidate": "R305",
+      "urls": [
+        "https://list.my/subsales/selangor/petaling/bandar-petaling-jaya/pj-midtown?group_by_size=false&group_by_type=true",
+        "https://nilamap.com/property/pj-midtown-petaling-jaya/",
+        "https://www.brickz.my/transactions/residential/selangor/petaling-jaya/pj-midtown/non-landed/service-residence/"
+      ],
+      "observations": "List.my and NilaMap display 915sf RM700k in March2026, versus RM842k/RM847k in July2025. Brickz exposes the March2026 915sf date/size but masks consideration. Cross-site repetition may share underlying records; it is not independent corroboration.",
+      "interpretation": "RM690k is only 1.43% below the newer low reference. Whether the low print is ordinary repricing or a different package is decisive; filtered low-price tables and retail records cannot define a residential cohort.",
+      "event_dates": [
+        "2025-07",
+        "2026-03"
+      ],
+      "status": "Publisher-reported, consideration and condition not authenticated",
+      "access_date": "2026-10-22",
+      "evidence_type": "Public search/open extract; not a complete webpage archive",
+      "gates": [
+        "G0",
+        "G5",
+        "G6"
+      ]
+    }
+  ]
+}

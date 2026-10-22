@@ -1,0 +1,257 @@
+{
+  "scope": "Historical candidate excerpts preserved without adopting old financial presets or gate mistakes. Original source event/access dates remain in the pinned source ledgers. Review date is not evidence date.",
+  "records": [
+    {
+      "candidate_id": "KV12",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## KV12 — PV 21 retained two-bedroom (A41)\n\n[Evidence / original analysis](B06_Working_01.md).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | Sale header/310 k body conflicts with for-rent wording; consideration unresolved. |\n| G1 — Market Mechanism | Lower ticket may support investor entry if ordinary whole-unit demand sustains 1600; no partition-rent thesis. |\n| G2 — Buyer Universe | Budget households and yield-seeking buyers; no verified owner-occupier share. |\n| G3 — Project Quality | New nearby supply can reset expectations; MC collections, lift performance and reserves unknown. |\n| G4 — Unit Quality | 900 sf 2 BR 2 BA and 2 bays retained claims; exact unit, facing and original plan absent. |\n| G5 — Price / Mispricing | Do not capitalise asking-rent potential into a fair-value discount. Source is not a normalised clearing band. |\n| G6 — Exit Architecture | At 347605 illustrative nominal break-even, an incoming buyer must prefer this unit over comparable resale/new inventory; financing and transaction depth untested. |\n| G7 — Financing / Terminal Risk | Rights/lease term, bank valuation and funded works unknown. A price conflict cannot be offset with a reserve pass. |\n| G8 — Portfolio / Opportunity Cost | Compare Zen at a similar ticket and Metroview's larger space. Cash is an admissible alternative. |\n| G9 — Capital Decision | Defer; conditional income verification after effective sale terms; no Deploy. |\n",
+      "source_fact_notes": {
+        "layout": "2BR/2BA",
+        "bays": 2,
+        "notes": "Sale header and RM310k body conflict with 'for rent' wording; numerical diagnostic only",
+        "quarantine": null,
+        "price_status": "advertised consideration; not agreed or verified effective price",
+        "rent_status": "scenario informed by asking rents; not achieved rent",
+        "fee_status": "unverified combined management/sinking proxy; management-only standard unverified",
+        "cost_status": "illustrative allowance; actual quote and taxes pending",
+        "unit_identity": null
+      }
+    },
+    {
+      "candidate_id": "R226",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R226 — Urban 360 retained studio (A42)\n\n[Evidence / original analysis](B06_Working_01.md).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | Original 240/250 k conflict persists; new 220/270 k conflicting ad is a separate control, not a correction. |\n| G1 — Market Mechanism | Compact quantum may create ordinary-rent value; test 1200 adverse rent against 1450 working level. |\n| G2 — Buyer Universe | Single/couple/local-worker renters and compact resale investors; actual lender/title and buyer-depth filters unresolved. |\n| G3 — Project Quality | Family-versus-studio service burden may differ; family 375.23 invoice claim cannot validate studio 220 proxy. |\n| G4 — Unit Quality | 511 sf studio vs 506 sf SOFO lead must be distinguished; bay, tower, plan and residential use need exact proof. |\n| G5 — Price / Mispricing | 250 k is inherited diagnostic only. 220 k header scenario gives positive annual cashflow; 270 k body removes it. |\n| G6 — Exit Architecture | 271545 base nominal break-even is a burden, not a price forecast; small ticket does not prove ready buyers or low vacancy. |\n| G7 — Financing / Terminal Risk | Term 25, valuationdown 15%, fee up 20%, no-income and works shocks tested. Separate practical lender treatment still unknown. |\n| G8 — Portfolio / Opportunity Cost | First price/lease verification lead; family control can outrank it at the lower-rent branch. |\n| G9 — Capital Decision | Defer; unresolved effective price and unit rights. Positive gross yield alone cannot justify capital. |\n",
+      "source_fact_notes": {
+        "layout": "studio",
+        "bays": null,
+        "notes": "Sale header 240k/body 250k; use higher diagnostic value without resolving consideration",
+        "quarantine": "Conflicting effective sale price; higher header/body scenario does not cure G0",
+        "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+        "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+        "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+        "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+        "unit_identity": "Tower/floor/unit/title/plan not obtained"
+      }
+    },
+    {
+      "candidate_id": "R227",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R227 — Saville Melawati retained family (A43)\n\n[Evidence / original analysis](B06_Working_01.md).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 450 k 1007 sf sale vs 980 sf 2200 furnished rent is unmatched; 2100 is an allowance, not estimated achieved rent. |\n| G1 — Market Mechanism | Family utility and local routines might retain demand beyond central-city commuting; test competing Ukay budgets. |\n| G2 — Buyer Universe | Families and long-term investors; no universal non-investor exit prerequisite. |\n| G3 — Project Quality | Governance, lift/parking circulation, neighbourhood access and exact environmental exposure uninspected. |\n| G4 — Unit Quality | Original 3 BR, bays, condition and exposure unresolved; no measured size adjustment. |\n| G5 — Price / Mispricing | Base almost balances simplified monthly costs but fails annual complete-cost carry; no mispricing established. |\n| G6 — Exit Architecture | 500214 nominal five-year break-even competes with newer/larger choices; future owner-occupier willingness to pay unmeasured. |\n| G7 — Financing / Terminal Risk | Ageing common assets and lender valuation could consume a thin buffer; actual financing and MC works plan required. |\n| G8 — Portfolio / Opportunity Cost | Compare equal 450 k Ridge compact and lower-ticket Spring. No fixed preference for 3 BR. |\n| G9 — Capital Decision | Defer; falsifiable household-use thesis, no evidence of required rent growth yet. |\n",
+      "source_fact_notes": {
+        "layout": "3BR",
+        "bays": null,
+        "notes": "1007-sf sale versus 980-sf 2200 furnished rent; 2100 analyst allowance, no measured adjustment",
+        "quarantine": null,
+        "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+        "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+        "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+        "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+        "unit_identity": "Tower/floor/unit/title/plan not obtained"
+      }
+    },
+    {
+      "candidate_id": "R228",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R228 — Amara retained family (A44)\n\n[Evidence / original analysis](B06_Working_01.md).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 390 k 1051 sf furnished sale is not like-for-like with 1012 sf partial rental; no clearing band. |\n| G1 — Market Mechanism | Local family use at Batu Caves may matter, but low headline PSF is not a mechanism for price recovery. |\n| G2 — Buyer Universe | Local households, commuters and investors subject to actual route/parking and funding constraints. |\n| G3 — Project Quality | MC finances, repairs, lifts and access reliability unknown; maturity is neither a guarantee nor automatic penalty. |\n| G4 — Unit Quality | Approved layout, accessory bays, condition and noise exposure need verification. |\n| G5 — Price / Mispricing | Current 1500 rent implies weak income economics. Changing assumptions to 1700 still needs support. |\n| G6 — Exit Architecture | 453382 illustrative break-even requires willingness to pay above the entry while competitors offer other space/condition tradeoffs. |\n| G7 — Financing / Terminal Risk | Fees, works and debt service stress deepen carry; no refinancing-funded rescue. |\n| G8 — Portfolio / Opportunity Cost | Selayang Point and 168 Park reveal different family/compact tasks; postcode labels do not make equivalent station access. |\n| G9 — Capital Decision | Defer, lowest current-income research priority; a supported rental transition could reopen it. |\n",
+      "source_fact_notes": {
+        "layout": "3BR",
+        "bays": null,
+        "notes": "1051-sf furnished sale versus 1012-sf partly furnished rent; condition does not match",
+        "quarantine": null,
+        "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+        "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+        "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+        "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+        "unit_identity": "Tower/floor/unit/title/plan not obtained"
+      }
+    },
+    {
+      "candidate_id": "R229",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R229 — D'Sara 504-sf SOVO hold (A45)\n\n[Evidence / original analysis](B06_Working_01.md).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | Residential versus SOVO component unresolved; advertised 350 k is not a cleared residential reference. |\n| G1 — Market Mechanism | Operational rail-related utility can support demand only after permitted use and lending are established. |\n| G2 — Buyer Universe | Actual permissible user/buyer universe unknown; do not borrow another tower's residential eligibility. |\n| G3 — Project Quality | Mixed-use interfaces and cost allocation require component-specific accounts and management evidence. |\n| G4 — Unit Quality | 504 sf parcel, floor, plan, bays and title unidentified. |\n| G5 — Price / Mispricing | No inferred cheapness from office/residential labels or two-bedroom auction reserves. |\n| G6 — Exit Architecture | 398586 nominal break-even has no established eligible buyer pool. Disposal constraints must be known first. |\n| G7 — Financing / Terminal Risk | Loan term/LTV acceptance may differ from standard 90% diagnostic; no financing claim. |\n| G8 — Portfolio / Opportunity Cost | R332 voluntary 805 sf and actual Kwasa cohorts are alternatives with different timing/rights. |\n| G9 — Capital Decision | Defer with component hold; no residential ranking until permission/title issue resolves. |\n",
+      "source_fact_notes": {
+        "layout": "studio/SOVO marketed",
+        "bays": null,
+        "notes": "504-sf price; rent scenario bounded by asks; SOVO component unresolved",
+        "quarantine": "SOVO versus residential component unresolved",
+        "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+        "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+        "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+        "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+        "unit_identity": "Tower/floor/unit/title/plan not obtained"
+      }
+    },
+    {
+      "candidate_id": "R250",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R250 — 222 Residency retained 2+1 (A41)\n\n[Evidence / original analysis](B06_Working_01.md).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 999 sf 430 k and 1800 rental assumptions remain unverified; 314.70 advertiser fee rounded 315, not a bill. |\n| G1 — Market Mechanism | Household practicality may support retention if study and parking work; local demand is not Sri Gombak demand. |\n| G2 — Buyer Universe | Small families/couples and investors; 2+1 is not automatically approved 3 BR. |\n| G3 — Project Quality | Governance, ongoing capex and circulation unknown; compare newer Setapak family supply. |\n| G4 — Unit Quality | Study ventilation/privacy, original plan, floor, bays and exposure need inspection. |\n| G5 — Price / Mispricing | Current rent fails simplified coverage; no evidence of a rent premium sufficient to bridge the gap. |\n| G6 — Exit Architecture | 492920 break-even asks buyers to accept a higher quantum; cheaper local family space can cap exit. |\n| G7 — Financing / Terminal Risk | Credit, low valuation and works add funding needs; actual invoices/lease cannot be assumed zero. |\n| G8 — Portfolio / Opportunity Cost | PV 21 has lower quantum; Metroview has more family space; current rank is conditional. |\n| G9 — Capital Decision | Defer, lowest current-income research priority. No catalyst uplift assumed. |\n",
+      "source_fact_notes": {
+        "layout": "2+1 marketed",
+        "bays": null,
+        "notes": "999-sf430k sale and1800 partly furnished rent;advertiser314.70 fee used only as rounded proxy",
+        "quarantine": null,
+        "price_status": "Advertised/indexed amount for conditional analysis, not confirmed effective consideration",
+        "rent_status": "Working long-term whole-unit scenario informed by asking evidence; not achieved rent",
+        "fee_status": "Unverified combined management/sinking proxy, not a verified management-only bill",
+        "cost_status": "Analyst planning allowances; tax and specific cost quotes missing",
+        "unit_identity": "Tower/floor/unit/title/plan not obtained"
+      }
+    },
+    {
+      "candidate_id": "R330",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R330 — Wangsa Metroview 1150-sf family (A41)\n\n[Evidence / original analysis](B06_Working_01.md).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 350 k ask lacks unit-matched clearing proof; vendor 1152 sf 500 k transaction needs identity/consideration reconciliation. |\n| G1 — Market Mechanism | Mature family/rail-access utility plus possible seller-specific discount is a hypothesis, not a 30% mispricing fact. |\n| G2 — Buyer Universe | Families and investors who value space; exact walk route and parking constrain practical reach. |\n| G3 — Project Quality | Common-property maintenance, collection and lift capacity unverified; townhouse data excluded. |\n| G4 — Unit Quality | 1150 sf 3 BR 2 BA/two bays claimed; rental one-bay alternatives require normalisation. |\n| G5 — Price / Mispricing | 1500 assumed rent does not carry 350 k standard debt/fee. Historical high prints cannot set entry value. |\n| G6 — Exit Architecture | 410132 nominal break-even requires a funded buyer relative to cheaper competing family stock; speed unknown. |\n| G7 — Financing / Terminal Risk | 25 kworks plus rate/vacancy/valuation stress tested; bank valuation and current condition unknown. |\n| G8 — Portfolio / Opportunity Cost | Compare compact income candidates and cash; a higher historical median does not trump weaker carry. |\n| G9 — Capital Decision | Defer, lowest current-income tier; investigate F29 conflict without overriding current evidence. |\n",
+      "source_fact_notes": {
+        "layout": "3BR/2BA; two bays claimed",
+        "bays": null,
+        "notes": "31 Aug 2026 partly furnished sale; rent index contains 1150/1155-sf and one-bay alternatives. No automatic two-bay premium. Search/open snapshots of the same rent URL differ in dates.",
+        "quarantine": null,
+        "price_status": "Advertisement, not authenticated consideration or available offer",
+        "rent_status": "Conditional whole-unit hypothesis, not achieved rent",
+        "fee_status": "Analyst combined service/sinking proxy; no invoice obtained",
+        "cost_status": "Planning allowances; pre-tax, actual duties/credit costs/works unquoted",
+        "unit_identity": null
+      }
+    },
+    {
+      "candidate_id": "R331",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R331 — The Ridge 651-sf compact (A43)\n\n[Evidence / original analysis](B06_Working_01.md).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 450 k partial sale with studioheader/1+1 body; older 2100 partial ask and newer 2400 furnished December availability are not a matched lease. |\n| G1 — Market Mechanism | Retail/amenity convenience may create compact desirability; furnishing is a costed implementation hypothesis. |\n| G2 — Buyer Universe | Singles/couples and investors; actual privacy, room usability and resident mix unobserved. |\n| G3 — Project Quality | Completed/sold-out developer status is not occupied or resale-scarce. Shared operating quality unknown. |\n| G4 — Unit Quality | Approved 1+1, tower, one bay, view/noise and possession matter; no automatic 2 BR valuation. |\n| G5 — Price / Mispricing | Base 2100 just covers simplified standard; 2400 uplift requires 35 kworks allowance and collection delay branch. |\n| G6 — Exit Architecture | 493823 base break-even; furnished/delayed branch raises the terminal burden. New family stock is a different but possible budget substitute. |\n| G7 — Financing / Terminal Risk | Current service/sinking charges and work quotes absent; construction-quality labels do not validate management. |\n| G8 — Portfolio / Opportunity Cost | Equal-price Saville and lower-ticket Ukay can outrank if household task differs; no location-to-project premium shortcut. |\n| G9 — Capital Decision | Defer; no investment justified by mall adjacency or furnishing photos not reviewed. |\n",
+      "source_fact_notes": {
+        "layout": "1+1 marketed; studio header; approved plan unknown",
+        "bays": null,
+        "notes": "11 Sep sale partly furnished, one bay. RM2100 partly furnished index is historical; RM2400 fully furnished ads are a different condition and one is available only in December. Upgrade branch carries additional works; no live matched lease.",
+        "quarantine": null,
+        "price_status": "Advertisement, not authenticated consideration or available offer",
+        "rent_status": "Conditional whole-unit hypothesis, not achieved rent",
+        "fee_status": "Analyst combined service/sinking proxy; no invoice obtained",
+        "cost_status": "Planning allowances; pre-tax, actual duties/credit costs/works unquoted",
+        "unit_identity": null
+      }
+    },
+    {
+      "candidate_id": "R332",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R332 — D'Sara 805-sf voluntary two-bedroom (A45)\n\n[Evidence / original analysis](B06_Working_01.md).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 410 k 805 sf sale versus 809 sf rent 1800 header/1700 body; exact tower/plan and consideration unvalidated. |\n| G1 — Market Mechanism | Completed rail-oriented use avoids new-launch delay, but ordinary rent must justify entry. |\n| G2 — Buyer Universe | Couples/small families and investors; future buyers may compare Kwasa offers or larger nearby resale stock. |\n| G3 — Project Quality | Mixed-use governance, bridge/route condition, carpark and utility costs not independently reviewed. |\n| G4 — Unit Quality | 2 BR 1 BA claim and fully furnished condition need parcel-level check. 861 sfauction is different. |\n| G5 — Price / Mispricing | 1700 lower diagnostic rent does not resolve conflict; auction 221100 is not voluntary floor. |\n| G6 — Exit Architecture | 466656 nominal break-even exceeds current 410 kask; no evidence establishes that exit or sufficient buyers. |\n| G7 — Financing / Terminal Risk | First-year no-income auction control demonstrates timing/cost burden but does not model actual auction finance or possession terms. |\n| G8 — Portfolio / Opportunity Cost | Compare waiting for Kwasa completion, other completed stock and cash. No automatic TOD advantage. |\n| G9 — Capital Decision | Defer, lowest current-income tier. Hold auction pricing pending exact legal packet. |\n",
+      "source_fact_notes": {
+        "layout": "2BR/1BA; tower and approved parcel unknown",
+        "bays": null,
+        "notes": "2 Oct fully furnished sale. 4 Oct 809-sf partly furnished rent header1800/body1700; lower scenario is a stress convention, not resolution. Ordinary rent2000 index is unverified. No premium for advertised renovation.",
+        "quarantine": null,
+        "price_status": "Advertisement, not authenticated consideration or available offer",
+        "rent_status": "Conditional whole-unit hypothesis, not achieved rent",
+        "fee_status": "Analyst combined service/sinking proxy; no invoice obtained",
+        "cost_status": "Planning allowances; pre-tax, actual duties/credit costs/works unquoted",
+        "unit_identity": null
+      }
+    },
+    {
+      "candidate_id": "R333",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R333 — Urban 3601001-sf family (A42)\n\n[Evidence / original analysis](B06_Evidence_Register.json).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 350 k 'nett' ad lacks authenticated offer; actual tenancy rent/expiry and matched clearing record absent. |\n| G1 — Market Mechanism | Two-bay family utility may stabilise retention; cannot assume it earns enough to offset larger service bill. |\n| G2 — Buyer Universe | Local families and rental investors; original 2+1 versus 3 BR usage and demand composition require proof. |\n| G3 — Project Quality | Advertiser 375.23 fee not an MC invoice; sinking, arrears and major works unknown. |\n| G4 — Unit Quality | Level 7 basic occupied unit differs from renovatedlevel 15 rent control; 25 kworks assumes lawful possession/lease transition. |\n| G5 — Price / Mispricing | 1800 stabilised rent/350 k produce 6.17% gross but only 30 monthly simplified buffer; standard pass is fragile. |\n| G6 — Exit Architecture | 400868 break-even needs an eligible family/investor buyer; expensive fees can narrow value relative to other family/landed options. |\n| G7 — Financing / Terminal Risk | Current lease is not reset at acquisition by assumption; first 12 no-income test included. Actual debt service/valuation unresolved. |\n| G8 — Portfolio / Opportunity Cost | 511 studio earns better baseline coverage but can lose that lead at 1200 rent. No universal family premium. |\n| G9 — Capital Decision | Defer; family control after tenancy/fee/title proof. 1900 furnished branch remains annual negative. |\n",
+      "source_fact_notes": {
+        "layout": "3BR/2BA advertised; two covered bays",
+        "bays": null,
+        "notes": "Basic tenanted level7 sale; rent1800 is a stabilised scenario requiring works and tenancy expiry, not current lease income.1900 renovated level15 comparator is superior condition.",
+        "quarantine": null,
+        "price_status": "Advertised, not authenticated effective consideration or availability",
+        "rent_status": "Conditional whole-unit scenario, not achieved lease",
+        "fee_status": "Advertiser claim or analyst proxy as noted; current service/sinking invoice absent",
+        "cost_status": "Planning allowances; pre-tax; unit-specific transaction and credit costs unquoted",
+        "unit_identity": null
+      }
+    },
+    {
+      "candidate_id": "R334",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R334 — Spring Ville 728-sf family (A43)\n\n[Evidence / original analysis](B06_Evidence_Register.json).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 250 k specificBumi sale; no verified eligible consideration interval; profile/unit tenure conflict unresolved. |\n| G1 — Market Mechanism | Lower quantum may serve budget households; a costed furnishing uplift is testable rather than presumed. |\n| G2 — Buyer Universe | Eligible buyers only after title/transfer confirmation; no assumption about user's eligibility. Rent market separately tested. |\n| G3 — Project Quality | Fee 160 claim not proof of collections/sinking sufficiency; common-property works may dominate low entry ticket. |\n| G4 — Unit Quality | Block Alevel 4; unfurnished 3 BR 2 BA; parking claims require accessory rights. 728 sf may constrain usable family space. |\n| G5 — Price / Mispricing | 250 k/1200 base 5.76% gross. 220 k different marketing unit modelled separately; advertisedfull-loan terms not accepted. |\n| G6 — Exit Architecture | 283865 base break-even. A 1500 furnished branch earns slightly positive annualcarry but raises invested cash and flat-exit loss persists. |\n| G7 — Financing / Terminal Risk | Restrictions, valuation, MC works and modest tenant budgets interact; no exact taxes/legal costs quoted. |\n| G8 — Portfolio / Opportunity Cost | Compare Saville/Ridge task and cheaper eligible Ukay stock. Landed substitution is budget-dependent, not universal. |\n| G9 — Capital Decision | Defer with eligibility hold. No permanent Reject from current below 6% gross; falsifiable improvement retained. |\n",
+      "source_fact_notes": {
+        "layout": "3BR/2BA; block A level4; advertised Bumi parcel",
+        "bays": null,
+        "notes": "Unfurnished sale and unfurnished1200 rental ask; fee160 is advertiser claim, sinking inclusion unknown. Title/eligibility unresolved.1500 furnished outcome requires separate works branch.",
+        "quarantine": null,
+        "price_status": "Advertised, not authenticated effective consideration or availability",
+        "rent_status": "Conditional whole-unit scenario, not achieved lease",
+        "fee_status": "Advertiser claim or analyst proxy as noted; current service/sinking invoice absent",
+        "cost_status": "Planning allowances; pre-tax; unit-specific transaction and credit costs unquoted",
+        "unit_identity": null
+      }
+    },
+    {
+      "candidate_id": "R335",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R335 — 168 Park 624-sf altered compact (A44)\n\n[Evidence / original analysis](B06_Evidence_Register.json).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 265 k advertised unit has unidentified block/approved plan; cross-block 1500 rent from 2025 not a current clearing interval. |\n| G1 — Market Mechanism | Low-ticket newer product could win tenants if layout and common operations work; temporary VP pressure is only a hypothesis. |\n| G2 — Buyer Universe | Singles/couples or very small households; investor exit allowed if banks/users accept actual approved form. |\n| G3 — Project Quality | Mixed delivery/phase evidence, revival history and future-phase competition require block-level CCC, defect and MC documents; no adverse quality verdict assumed. |\n| G4 — Unit Quality | Owner-added partition disclosed; don't count as original 2 BR. One-room 624 sf counter-ad supports classification uncertainty, not illegality. |\n| G5 — Price / Mispricing | 6.79% gross and 194 monthly simplified buffer vanish under plausible rent/fee/works changes; no comparison with mixed 380 ktransactionmedian. |\n| G6 — Exit Architecture | 296501 break-even is not supported fair value. Altered plan or cheaper new-phase packages may narrow buyer depth. |\n| G7 — Financing / Terminal Risk | Rectification, insurance/lender acceptance, sinking/defect liabilities unpriced. 30 k works test is a scenario, not a repair quote. |\n| G8 — Portfolio / Opportunity Cost | Family Selayang Point can outrank under adversecompact rent; primaryauction 560 sf is not the same alternative. |\n| G9 — Capital Decision | Defer with plan/block hold; no original 2 BR rank or investable VP-mispricing thesis established. |\n",
+      "source_fact_notes": {
+        "layout": "Marketed2BR/2BA; owner-added partition disclosed; original plan unknown",
+        "bays": null,
+        "notes": "Unfurnished sale with owner partition, two bays; rent1500 historical BlockC partial ask. Sale block unspecified. No automatic block, approved-bedroom or CCC equivalence.",
+        "quarantine": null,
+        "price_status": "Advertised, not authenticated effective consideration or availability",
+        "rent_status": "Conditional whole-unit scenario, not achieved lease",
+        "fee_status": "Advertiser claim or analyst proxy as noted; current service/sinking invoice absent",
+        "cost_status": "Planning allowances; pre-tax; unit-specific transaction and credit costs unquoted",
+        "unit_identity": null
+      }
+    },
+    {
+      "candidate_id": "R336",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R336 — Selayang Point 1108-sf family (A44)\n\n[Evidence / original analysis](B06_Evidence_Register.json).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 335 k sale/1105 sf 1500 partial rent are ads; vendor transaction bins lack unit/condition/sale-mechanism controls. |\n| G1 — Market Mechanism | Hospital/local household utility could support stable use; verify tenants rather than count nearby institutions. |\n| G2 — Buyer Universe | Families and investors valuing space/one bay; additional bay or more modern facilities elsewhere can change choice. |\n| G3 — Project Quality | 2008 profile age suggests testing lifecycle capex, not assuming deterioration. Accounts/lifts/insurance unknown. |\n| G4 — Unit Quality | Partial header/full-furnishedtitle conflict; listed fixtures treated aspartial with 25 kallowance. Floor/exposure absent. |\n| G5 — Price / Mispricing | 1500 base below standard 1565 approximately; fee 230 is proxy. No low-price bargain inferred from old 400 kmedian. |\n| G6 — Exit Architecture | 389971 nominal break-even requires a buyer accepting older common areas/fees versus newercompact or otherfamilystock. |\n| G7 — Financing / Terminal Risk | Speciallevy, fee reset, valuation and actualloan term tested financially but not authenticated. |\n| G8 — Portfolio / Opportunity Cost | Compared withAmara and 168 Park for task/size/timing; ordinary family utility does not itself overcome weakcarry. |\n| G9 — Capital Decision | Defer, lowest current-income priority; verify achievable higher rent and full costs before revising. |\n",
+      "source_fact_notes": {
+        "layout": "3BR/2BA; one bay advertised",
+        "bays": null,
+        "notes": "Partly furnished header versus fully furnished title; listed inclusions treated as partial.1105-sf1500 partial rent with one bay; unknown floor/exposure. Fee230 planning proxy, not old profile0.17psf as current bill.",
+        "quarantine": null,
+        "price_status": "Advertised, not authenticated effective consideration or availability",
+        "rent_status": "Conditional whole-unit scenario, not achieved lease",
+        "fee_status": "Advertiser claim or analyst proxy as noted; current service/sinking invoice absent",
+        "cost_status": "Planning allowances; pre-tax; unit-specific transaction and credit costs unquoted",
+        "unit_identity": null
+      }
+    },
+    {
+      "candidate_id": "R337",
+      "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+      "historical_candidate_extract": "## R337 — Zen Suites 677-sf studio/SOHO (A41)\n\n[Evidence / original analysis](B06_Evidence_Register.json).\n\n| Gate | Finding and implication |\n|---|---|\n| G0 — Reference-Price Validity | 300 k sale and 1500 rent same agent; no independent clearedprice, approveduse or actuallease. |\n| G1 — Market Mechanism | Mall-linked compact convenience may attract workers/couples; it is not proof of owner-occupier premium or shortstaypermission. |\n| G2 — Buyer Universe | Eligible residential/SOHO users and investors only after exact title/lender/bylaw review; no automatic bank terms. |\n| G3 — Project Quality | Retailinterface access, noise, sharedcosts and management could offset convenience; none physically observed. |\n| G4 — Unit Quality | Studio vsSOHO vscondo terminology; sale bay unknown while rent hasone. 677 sf not interchangeable with 380/450 sfcompact. |\n| G5 — Price / Mispricing | 6% gross exactly and 55 approximately monthlysimplified surplus leave little room for errors; no automatic discounted entry. |\n| G6 — Exit Architecture | 334267 break-even must clear into a buyer pool accepting actual component and remaining lease; turnover unknown. |\n| G7 — Financing / Terminal Risk | Commercial billing, actual credit terms, sinking/works remain unknown. Standard 90% calculator is not approval. |\n| G8 — Portfolio / Opportunity Cost | PV 21 comparableticket butdifferent householdtask; smallrent/feechanges reverse coverage rank. |\n| G9 — Capital Decision | Defer with componenthold; no railpremium from plannedMRT 3 or unmodelled nightly income. |\n\n## B06-T 01 / T 02 — Kwasa new-launch controls\n\nThese are full decision-gate controls with **threshold-only finance**, not additional operating-income cases or substitutes for real net offers.\n\n| Gate | Tujuh T 01 | D'Evia T 02 |\n|---|---|---|\n| G0 — Reference-Price Validity | Published 494 k floor is not matched 550 sf net offer; conflicting footer versions and current approval/delivery state unresolved. F18. | Agency 498100/657 sf starting terms unverified against developer stocklist and incentives. Government-page retrieval failed. F19–F21. |\n| G1 — Market Mechanism | Rail plus emerging neighbourhood could draw residents after completion; job/service/tenant transmission not measured. | Similar forward demand mechanism faces other phases arriving before full ecosystem occupation. Launch interest is not rent. |\n| G2 — Buyer Universe | Small-household 1 BR and larger household layouts serve different budgets; investor and owner-occupier exits both possible if financing and use permit. | Marketed 2–4 BR range broadens possible uses, but household depth at actual net prices and handover rents unknown. |\n| G3 — Project Quality | Plan and renderings cannot verify finished lifts, circulation, management or mall operations. 573-unit developer count not occupancy. | Facilities and brand do not demonstrate delivered quality or maintenance burden; actual phase execution matters. |\n| G4 — Unit Quality |51 m 2/550 sf main product conflicts with older 582 sf footer; exact plan/bay/stack required. |657 sf/fee 302.22 conditional marketing control; approved plan, parcel and full charges unknown. |\n| G5 — Price / Mispricing | Required post-completion rents 2219 standard, 2470 for 6% gross, 2617 annual neutrality are hurdles, not forecasts or fair value. | Corresponding rents 2287/2491/2691 do not prove affordability, sustainable rent or a cheap launch. |\n| G6 — Exit Architecture | Future resale competes with developer packages and completed stock; a larger occupied ecosystem might help but cannot be presumed. | Multiple phases and mortgage availability can constrain exit despite nearby operational rail. No evidenced future price ceiling estimated. |\n| G7 — Financing / Terminal Risk | Need actual progressive draw, delays, handover works, pre-let timing and exit costs. 12-month fully drawn no-income illustration is not actual progressiveinterest. | Same timing chain; a 2029 marketing date is not an independently verified CCC promise. No immediate-rent five-year model is presented. |\n| G8 — Portfolio / Opportunity Cost | Waiting, cash and completedD'Sara are valid alternatives with different price/uncertainty. Not in 91 operating-case pair comparisons. | Completion concentration and correlated new-supply risk distinguish this from a mature compact purchase. Not inpaircount. |\n| G9 — Capital Decision | Defer; no current unit-level underwriting clearance or rentaltransition proof. | Defer; no current unit-level underwriting clearance. |\n\n## Finite reopening and monitoring\n\nThere is no automatic date-based upgrade. Reopen when a materially better exact offer, authenticated lease, governance/works evidence, approved component/plan, matching transaction set or actual catalyst-to-demand transmission arrives. Re-test unfavourable evidence too. A signed lease with incentives, an occupied unit that cannot be reset immediately, a lender valuation belowprice or a common-property levy can reverse an apparently favourable entry.\n\nUnresolved divergence increases proof requirements and demanded margin of safety; a lower chosen number does not make the source conflict resolved. No arbitrary extra discount is claimed sufficient while the clearing interval and structural costs remain unknown.\n",
+      "source_fact_notes": {
+        "layout": "Studio/1BA; SOHO described; sale bay count unknown",
+        "bays": null,
+        "notes": "Same-agent partial sale/rent lineage, not independent demand evidence. Rental one bay; sale rights/bay unresolved. No current MRT3 walkability benefit. Long-term whole-unit only.",
+        "quarantine": null,
+        "price_status": "Advertised, not authenticated effective consideration or availability",
+        "rent_status": "Conditional whole-unit scenario, not achieved lease",
+        "fee_status": "Advertiser claim or analyst proxy as noted; current service/sinking invoice absent",
+        "cost_status": "Planning allowances; pre-tax; unit-specific transaction and credit costs unquoted",
+        "unit_identity": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,3631 @@
+{
+  "version": "remaining-125.saved-evidence.v1",
+  "baseline": "4fbe3e645a8d9760d78879951e251116272fc002",
+  "review_scope": "Saved-evidence reassessment, not all-source refresh",
+  "records": [
+    {
+      "candidate_id": "KV12",
+      "name": "Platinum Lake PV21",
+      "batch": "B06",
+      "area_id": "A41",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "KV12"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "Sale header/310 k body conflicts with for-rent wording; consideration unresolved.",
+      "adjudication": {
+        "primary_g0_issue": "offer",
+        "current_reason": "Sale wording and for-rent wording conflict around the 310k expression; effective sale terms remain unresolved.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test ordinary two-bedroom household rent, not partition revenue; the apparent6% yield cannot repair ambiguous consideration.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Conditional income investigation; no capital ranking."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "Sale wording and for-rent wording conflict around the 310k expression; effective sale terms remain unresolved."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test ordinary two-bedroom household rent, not partition revenue; the apparent6% yield cannot repair ambiguous consideration."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Budget households and yield-seeking buyers; no verified owner-occupier share.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "New nearby supply can reset expectations; MC collections, lift performance and reserves unknown.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "Sale header and RM310k body conflict with 'for rent' wording; numerical diagnostic only",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM310000 price / RM1600 monthly rent, gross yield is 6.19%; monthly narrow balance RM114.66 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM350629.03, 13.11% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-2752.10; continuous-renewal alternative RM-780.90. Base peak cumulative pre-sale funding RM75094.94; retained joint stress peak RM106748.73. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "KV12",
+        "name": "Platinum Lake PV21",
+        "area_id": "A41",
+        "project_id": "PROJECT-KV12",
+        "batch": "B06",
+        "price": 310000,
+        "rent": 1600,
+        "fee": 250,
+        "gross_yield": 0.06193548387096774,
+        "narrow": 114.65847251706373,
+        "old_annual": -2384.0983297952334,
+        "annual": -2752.0983297952343,
+        "change": -368.0000000000009,
+        "renewal_annual": -780.898329795235,
+        "old_flat_profit": -36476.66038013215,
+        "flat_profit": -38764.16038013299,
+        "target_profit": 20390.03961986702,
+        "irr": 0.053589232223619776,
+        "peak": 75094.94248407855,
+        "peak_month": 54,
+        "break_even_exit": 350629.0329945844,
+        "break_even_uplift": 0.131061396756724,
+        "annual_neutral_rent": 1892.1548120801733,
+        "source_low_annual": -3694.098329795235,
+        "source_high_annual": 1015.9016702047653,
+        "J3_profit": -99052.15539485188,
+        "J3_peak": 106748.73470904592,
+        "special_holds": [
+          "source_identity_or_price_hold"
+        ],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "KV12"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "Sale wording and for-rent wording conflict around the 310k expression; effective sale terms remain unresolved.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test ordinary two-bedroom household rent, not partition revenue; the apparent6% yield cannot repair ambiguous consideration.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R226",
+      "name": "Urban 360",
+      "batch": "B06",
+      "area_id": "A42",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R226"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "Original 240/250 k conflict persists; new 220/270 k conflicting ad is a separate control, not a correction.",
+      "adjudication": {
+        "primary_g0_issue": "offer",
+        "current_reason": "240k/250k and separate220k/270k conflicts remain distinct quote lineages; choosing the higher number is a stress convention, not verification.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test both feasible price/rent packages; the family control can reverse preference without assuming studios always win.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Conditional income investigation; no capital ranking."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "240k/250k and separate220k/270k conflicts remain distinct quote lineages; choosing the higher number is a stress convention, not verification."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test both feasible price/rent packages; the family control can reverse preference without assuming studios always win."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Single/couple/local-worker renters and compact resale investors; actual lender/title and buyer-depth filters unresolved.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Family-versus-studio service burden may differ; family 375.23 invoice claim cannot validate studio 220 proxy.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "Sale header 240k/body 250k; use higher diagnostic value without resolving consideration",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM250000 price / RM1450 monthly rent, gross yield is 6.96%; monthly narrow balance RM233.76 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM276033.35, 10.41% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-935.92; continuous-renewal alternative RM850.48. Base peak cumulative pre-sale funding RM54757.13; retained joint stress peak RM82511.96. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R226",
+        "name": "Urban 360",
+        "area_id": "A42",
+        "project_id": "PROJECT-R226",
+        "batch": "B06",
+        "price": 250000,
+        "rent": 1450,
+        "fee": 220,
+        "gross_yield": 0.0696,
+        "narrow": 233.75683267505156,
+        "old_annual": -444.91800789938134,
+        "annual": -935.9180078993817,
+        "change": -491.00000000000034,
+        "renewal_annual": 850.4819921006189,
+        "old_flat_profit": -20898.919661396867,
+        "flat_profit": -24838.419661397493,
+        "target_profit": 22866.580338602507,
+        "irr": 0.07564072615762929,
+        "peak": 54757.13103554728,
+        "peak_month": 54,
+        "break_even_exit": 276033.3504469107,
+        "break_even_uplift": 0.10413340178764297,
+        "annual_neutral_rent": 1549.3543532801891,
+        "source_low_annual": -2348.9180078993804,
+        "source_high_annual": -464.91800789938134,
+        "J3_profit": -76493.16681439655,
+        "J3_peak": 82511.95658390808,
+        "special_holds": [
+          "source_identity_or_price_hold"
+        ],
+        "source_quarantine": "Conflicting effective sale price; higher header/body scenario does not cure G0",
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R226"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "240k/250k and separate220k/270k conflicts remain distinct quote lineages; choosing the higher number is a stress convention, not verification.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test both feasible price/rent packages; the family control can reverse preference without assuming studios always win.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R227",
+      "name": "Saville Melawati",
+      "batch": "B06",
+      "area_id": "A43",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R227"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "450 k 1007 sf sale vs 980 sf 2200 furnished rent is unmatched; 2100 is an allowance, not estimated achieved rent.",
+      "adjudication": {
+        "primary_g0_issue": "cohort",
+        "current_reason": "No bounded ordinary-sale cohort is retained; 1007sf sale versus980sf rent is primarily an income-comparison issue, not its own G0 veto.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test the family utility premium against lower-rent Ukay alternatives; 2100 is a scenario, not achieved rent.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Conditional income investigation; no capital ranking."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "No bounded ordinary-sale cohort is retained; 1007sf sale versus980sf rent is primarily an income-comparison issue, not its own G0 veto."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test the family utility premium against lower-rent Ukay alternatives; 2100 is a scenario, not achieved rent."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Families and long-term investors; no universal non-investor exit prerequisite.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Governance, lift/parking circulation, neighbourhood access and exact environmental exposure uninspected.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "1007-sf sale versus 980-sf 2200 furnished rent; 2100 analyst allowance, no measured adjustment",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM450000 price / RM2100 monthly rent, gross yield is 5.60%; monthly narrow balance RM6.76 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM515977.80, 14.66% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-5336.85; continuous-renewal alternative RM-2749.65. Base peak cumulative pre-sale funding RM115751.76; retained joint stress peak RM155658.93. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R227",
+        "name": "Saville Melawati",
+        "area_id": "A43",
+        "project_id": "PROJECT-R227",
+        "batch": "B06",
+        "price": 450000,
+        "rent": 2100,
+        "fee": 300,
+        "gross_yield": 0.056,
+        "narrow": 6.762298815092663,
+        "old_annual": -4418.852414218891,
+        "annual": -5336.852414218891,
+        "change": -918,
+        "renewal_annual": -2749.6524142188887,
+        "old_flat_profit": -48708.05539051435,
+        "flat_profit": -62992.55539051484,
+        "target_profit": 22984.44460948516,
+        "irr": 0.04116324013533035,
+        "peak": 115751.76207109413,
+        "peak_month": 60,
+        "break_even_exit": 515977.79618573876,
+        "break_even_uplift": 0.14661732485719714,
+        "annual_neutral_rent": 2666.5448422737677,
+        "source_low_annual": -7220.852414218885,
+        "source_high_annual": -4394.852414218885,
+        "J3_profit": -144047.50466591414,
+        "J3_peak": 155658.92625103486,
+        "special_holds": [],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R227"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "No bounded ordinary-sale cohort is retained; 1007sf sale versus980sf rent is primarily an income-comparison issue, not its own G0 veto.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test the family utility premium against lower-rent Ukay alternatives; 2100 is a scenario, not achieved rent.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R228",
+      "name": "Amara",
+      "batch": "B06",
+      "area_id": "A44",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R228"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "390 k 1051 sf furnished sale is not like-for-like with 1012 sf partial rental; no clearing band.",
+      "adjudication": {
+        "primary_g0_issue": "cohort",
+        "current_reason": "The 1051sf subject lacks a clearing interval; 1012sf partial rent versus furnished sale needs income normalisation separately.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test whether local family utility can support better rent than1500; low PSF and future recovery are not sufficient mechanisms.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Lowest ordinary-income priority; retain falsifiable funded transition research."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "The 1051sf subject lacks a clearing interval; 1012sf partial rent versus furnished sale needs income normalisation separately."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test whether local family utility can support better rent than1500; low PSF and future recovery are not sufficient mechanisms."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Local households, commuters and investors subject to actual route/parking and funding constraints.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "MC finances, repairs, lifts and access reliability unknown; maturity is neither a guarantee nor automatic penalty.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "1051-sf furnished sale versus 1012-sf partly furnished rent; condition does not match",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM390000 price / RM1500 monthly rent, gross yield is 4.62%; monthly narrow balance RM-354.14 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM465528.58, 19.37% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-8119.67; continuous-renewal alternative RM-6271.67. Base peak cumulative pre-sale funding RM117656.86; retained joint stress peak RM152218.58. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R228",
+        "name": "Amara",
+        "area_id": "A44",
+        "project_id": "PROJECT-R228",
+        "batch": "B06",
+        "price": 390000,
+        "rent": 1500,
+        "fee": 300,
+        "gross_yield": 0.046153846153846156,
+        "narrow": -354.1393410269195,
+        "old_annual": -8149.672092323031,
+        "annual": -8119.672092323033,
+        "change": 29.99999999999818,
+        "renewal_annual": -6271.672092323032,
+        "old_flat_profit": -61480.314671779066,
+        "flat_profit": -72061.81467177981,
+        "target_profit": 2357.9853282201802,
+        "irr": 0.0047802799104024185,
+        "peak": 117656.86046161538,
+        "peak_month": 60,
+        "break_even_exit": 465528.576325102,
+        "break_even_uplift": 0.19366301621821025,
+        "annual_neutral_rent": 2361.960943983337,
+        "source_low_annual": -9061.672092323037,
+        "source_high_annual": -6235.672092323037,
+        "J3_profit": -142284.95221045922,
+        "J3_peak": 152218.58425089705,
+        "special_holds": [],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R228"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "The 1051sf subject lacks a clearing interval; 1012sf partial rent versus furnished sale needs income normalisation separately.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test whether local family utility can support better rent than1500; low PSF and future recovery are not sufficient mechanisms.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R229",
+      "name": "D'Sara Sentral",
+      "batch": "B06",
+      "area_id": "A45",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R229"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "Residential versus SOVO component unresolved; advertised 350 k is not a cleared residential reference.",
+      "adjudication": {
+        "primary_g0_issue": "identity",
+        "current_reason": "504sf residential versus SOVO component changes the comparable set and eligible users; unresolved identity is material at G0.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test actual permitted use and lender treatment before borrowing residential rents or Kwasa growth.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Lowest ordinary-income priority; retain falsifiable funded transition research."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "504sf residential versus SOVO component changes the comparable set and eligible users; unresolved identity is material at G0."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test actual permitted use and lender treatment before borrowing residential rents or Kwasa growth."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Actual permissible user/buyer universe unknown; do not borrow another tower's residential eligibility.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Mixed-use interfaces and cost allocation require component-specific accounts and management evidence.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "504-sf price; rent scenario bounded by asks; SOVO component unresolved",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM350000 price / RM1500 monthly rent, gross yield is 5.14%; monthly narrow balance RM-144.74 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM408974.94, 16.85% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-5606.89; continuous-renewal alternative RM-3758.89. Base peak cumulative pre-sale funding RM97086.93; retained joint stress peak RM129782.30. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R229",
+        "name": "D'Sara Sentral",
+        "area_id": "A45",
+        "project_id": "PROJECT-R229",
+        "batch": "B06",
+        "price": 350000,
+        "rent": 1500,
+        "fee": 250,
+        "gross_yield": 0.05142857142857143,
+        "narrow": -144.74043425492778,
+        "old_annual": -5396.885211059132,
+        "annual": -5606.885211059135,
+        "change": -210.00000000000273,
+        "renewal_annual": -3758.885211059134,
+        "old_flat_profit": -47128.48752595558,
+        "flat_profit": -56267.98752595624,
+        "target_profit": 10519.01247404376,
+        "irr": 0.02405648721139997,
+        "peak": 97086.92605529563,
+        "peak_month": 60,
+        "break_even_exit": 408974.9371407151,
+        "break_even_uplift": 0.16849982040204314,
+        "annual_neutral_rent": 2095.2107442737934,
+        "source_low_annual": -8432.885211059134,
+        "source_high_annual": -3722.8852110591324,
+        "J3_profit": -120967.19036515514,
+        "J3_peak": 129782.2960424711,
+        "special_holds": [
+          "material_identity_rights_offer_hold"
+        ],
+        "source_quarantine": "SOVO versus residential component unresolved",
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R229"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "504sf residential versus SOVO component changes the comparable set and eligible users; unresolved identity is material at G0.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test actual permitted use and lender treatment before borrowing residential rents or Kwasa growth.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R250",
+      "name": "222 Residency",
+      "batch": "B06",
+      "area_id": "A41",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R250"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "999 sf 430 k and 1800 rental assumptions remain unverified; 314.70 advertiser fee rounded 315, not a bill.",
+      "adjudication": {
+        "primary_g0_issue": "cohort",
+        "current_reason": "The 999sf ordinary-sale cohort is unbounded; the314.70 advertiser fee belongs to operating costs, not a universal price prerequisite.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test whether the study is usable private space and earns a premium over cheaper family alternatives.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Lowest ordinary-income priority; retain falsifiable funded transition research."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "The 999sf ordinary-sale cohort is unbounded; the314.70 advertiser fee belongs to operating costs, not a universal price prerequisite."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test whether the study is usable private space and earns a premium over cheaper family alternatives."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Small families/couples and investors; 2+1 is not automatically approved 3 BR.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Governance, ongoing capex and circulation unknown; compare newer Setapak family supply.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "999-sf430k sale and1800 partly furnished rent;advertiser314.70 fee used only as rounded proxy",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM430000 price / RM1800 monthly rent, gross yield is 5.02%; monthly narrow balance RM-228.54 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM505057.11, 17.46% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-7386.46; continuous-renewal alternative RM-5168.86. Base peak cumulative pre-sale funding RM121996.79; retained joint stress peak RM159725.36. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R250",
+        "name": "222 Residency",
+        "area_id": "A41",
+        "project_id": "PROJECT-R250",
+        "batch": "B06",
+        "price": 430000,
+        "rent": 1800,
+        "fee": 315,
+        "gross_yield": 0.05023255813953489,
+        "narrow": -228.53824779891147,
+        "old_annual": -6942.458973586938,
+        "annual": -7386.458973586938,
+        "change": -444,
+        "renewal_annual": -5168.858973586937,
+        "old_flat_profit": -61032.14181760259,
+        "flat_profit": -71625.64181760378,
+        "target_profit": 10470.158182396204,
+        "irr": 0.019393465597765225,
+        "peak": 121996.79486793512,
+        "peak_month": 60,
+        "break_even_exit": 505057.10892308096,
+        "break_even_uplift": 0.1745514161001882,
+        "annual_neutral_rent": 2584.1251564317345,
+        "source_low_annual": -9270.458973586938,
+        "source_high_annual": -5502.458973586936,
+        "J3_profit": -148673.20524326203,
+        "J3_peak": 159725.36364682167,
+        "special_holds": [],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R250"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "The 999sf ordinary-sale cohort is unbounded; the314.70 advertiser fee belongs to operating costs, not a universal price prerequisite.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test whether the study is usable private space and earns a premium over cheaper family alternatives.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R330",
+      "name": "Wangsa Metroview 1150-sf marketed three-bedroom",
+      "batch": "B06",
+      "area_id": "A41",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R330"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "350 k ask lacks unit-matched clearing proof; vendor 1152 sf 500 k transaction needs identity/consideration reconciliation.",
+      "adjudication": {
+        "primary_g0_issue": "cohort",
+        "current_reason": "The1152sf500k vendor observation is a meaningful challenge to the350k ask, but area, sale mechanism and condition remain unresolved.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test a genuine seller-specific discount against a misclassified/high historical reference; do not discard the low offer to protect the old verdict.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Lowest ordinary-income priority; retain falsifiable funded transition research."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "The1152sf500k vendor observation is a meaningful challenge to the350k ask, but area, sale mechanism and condition remain unresolved."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test a genuine seller-specific discount against a misclassified/high historical reference; do not discard the low offer to protect the old verdict."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Families and investors who value space; exact walk route and parking constrain practical reach.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Common-property maintenance, collection and lift capacity unverified; townhouse data excluded.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "31 Aug 2026 partly furnished sale; rent index contains 1150/1155-sf and one-bay alternatives. No automatic two-bay premium. Search/open snapshots of the same rent URL differ in dates.",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM350000 price / RM1500 monthly rent, gross yield is 5.14%; monthly narrow balance RM-144.74 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM408974.94, 16.85% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-5606.89; continuous-renewal alternative RM-3758.89. Base peak cumulative pre-sale funding RM97086.93; retained joint stress peak RM129782.30. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R330",
+        "name": "Wangsa Metroview 1150-sf marketed three-bedroom",
+        "area_id": "A41",
+        "project_id": "PROJECT-R330",
+        "batch": "B06",
+        "price": 350000,
+        "rent": 1500,
+        "fee": 250,
+        "gross_yield": 0.05142857142857143,
+        "narrow": -144.74043425492778,
+        "old_annual": -5636.885211059132,
+        "annual": -5606.885211059135,
+        "change": 29.99999999999727,
+        "renewal_annual": -3758.885211059134,
+        "old_flat_profit": -58328.48752595558,
+        "flat_profit": -56267.98752595624,
+        "target_profit": 10519.01247404376,
+        "irr": 0.02405648721139997,
+        "peak": 97086.92605529563,
+        "peak_month": 60,
+        "break_even_exit": 408974.9371407151,
+        "break_even_uplift": 0.16849982040204314,
+        "annual_neutral_rent": 2095.2107442737934,
+        "source_low_annual": -6077.885211059131,
+        "source_high_annual": -2780.885211059135,
+        "J3_profit": -120967.19036515514,
+        "J3_peak": 129782.2960424711,
+        "special_holds": [],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R330"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "The1152sf500k vendor observation is a meaningful challenge to the350k ask, but area, sale mechanism and condition remain unresolved.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test a genuine seller-specific discount against a misclassified/high historical reference; do not discard the low offer to protect the old verdict.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R331",
+      "name": "The Ridge KL East 651-sf partly furnished compact",
+      "batch": "B06",
+      "area_id": "A43",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R331"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "450 k partial sale with studioheader/1+1 body; older 2100 partial ask and newer 2400 furnished December availability are not a matched lease.",
+      "adjudication": {
+        "primary_g0_issue": "identity",
+        "current_reason": "Studio versus1+1 affects the651sf reference cohort; rent timing/furnishing mismatch is separately routed to income and execution.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test whether furnishing can earn2400 after costs and availability delay; a sold-out project is not proof of rental scarcity.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Conditional income investigation; no capital ranking."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "Studio versus1+1 affects the651sf reference cohort; rent timing/furnishing mismatch is separately routed to income and execution."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test whether furnishing can earn2400 after costs and availability delay; a sold-out project is not proof of rental scarcity."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Singles/couples and investors; actual privacy, room usability and resident mix unobserved.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Completed/sold-out developer status is not occupied or resale-scarce. Shared operating quality unknown.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "11 Sep sale partly furnished, one bay. RM2100 partly furnished index is historical; RM2400 fully furnished ads are a different condition and one is available only in December. Upgrade branch carries additional works; no live matched lease.",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM450000 price / RM2100 monthly rent, gross yield is 5.60%; monthly narrow balance RM6.76 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM515977.80, 14.66% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-5336.85; continuous-renewal alternative RM-2749.65. Base peak cumulative pre-sale funding RM115751.76; retained joint stress peak RM155658.93. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R331",
+        "name": "The Ridge KL East 651-sf partly furnished compact",
+        "area_id": "A43",
+        "project_id": "PROJECT-R331",
+        "batch": "B06",
+        "price": 450000,
+        "rent": 2100,
+        "fee": 300,
+        "gross_yield": 0.056,
+        "narrow": 6.762298815092663,
+        "old_annual": -4178.852414218891,
+        "annual": -5336.852414218891,
+        "change": -1158,
+        "renewal_annual": -2749.6524142188887,
+        "old_flat_profit": -42508.05539051435,
+        "flat_profit": -62992.55539051484,
+        "target_profit": 22984.44460948516,
+        "irr": 0.04116324013533035,
+        "peak": 115751.76207109413,
+        "peak_month": 60,
+        "break_even_exit": 515977.79618573876,
+        "break_even_uplift": 0.14661732485719714,
+        "annual_neutral_rent": 2666.5448422737677,
+        "source_low_annual": -6278.852414218887,
+        "source_high_annual": -2510.8524142188908,
+        "J3_profit": -144047.50466591414,
+        "J3_peak": 155658.92625103486,
+        "special_holds": [],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R331"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "Studio versus1+1 affects the651sf reference cohort; rent timing/furnishing mismatch is separately routed to income and execution.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test whether furnishing can earn2400 after costs and availability delay; a sold-out project is not proof of rental scarcity.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R332",
+      "name": "D'Sara Sentral 805-sf marketed two-bedroom voluntary sale",
+      "batch": "B06",
+      "area_id": "A45",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R332"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "410 k 805 sf sale versus 809 sf rent 1800 header/1700 body; exact tower/plan and consideration unvalidated.",
+      "adjudication": {
+        "primary_g0_issue": "cohort",
+        "current_reason": "The805sf voluntary-sale cohort remains unbounded;809sf rent1800/1700 conflict is an income-range issue rather than a price-blocking rule.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test actual two-room residential utility independently of the504sf SOVO; neither product automatically inherits Kwasa uplift.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Lowest ordinary-income priority; retain falsifiable funded transition research."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "The805sf voluntary-sale cohort remains unbounded;809sf rent1800/1700 conflict is an income-range issue rather than a price-blocking rule."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test actual two-room residential utility independently of the504sf SOVO; neither product automatically inherits Kwasa uplift."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Couples/small families and investors; future buyers may compare Kwasa offers or larger nearby resale stock.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Mixed-use governance, bridge/route condition, carpark and utility costs not independently reviewed.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "2 Oct fully furnished sale. 4 Oct 809-sf partly furnished rent header1800/body1700; lower scenario is a stress convention, not resolution. Ordinary rent2000 index is unverified. No premium for advertised renovation.",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM410000 price / RM1700 monthly rent, gross yield is 4.98%; monthly narrow balance RM-243.84 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM482988.92, 17.80% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-7312.07; continuous-renewal alternative RM-5217.67. Base peak cumulative pre-sale funding RM117621.83; retained joint stress peak RM154075.51. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R332",
+        "name": "D'Sara Sentral 805-sf marketed two-bedroom voluntary sale",
+        "area_id": "A45",
+        "project_id": "PROJECT-R229",
+        "batch": "B06",
+        "price": 410000,
+        "rent": 1700,
+        "fee": 310,
+        "gross_yield": 0.04975609756097561,
+        "narrow": -243.8387944129156,
+        "old_annual": -6786.0655329549845,
+        "annual": -7312.065532954992,
+        "change": -526.0000000000073,
+        "renewal_annual": -5217.6655329549885,
+        "old_flat_profit": -54956.22824469089,
+        "flat_profit": -69638.72824469156,
+        "target_profit": 8597.471755308448,
+        "irr": 0.016685299130847042,
+        "peak": 117621.82766477496,
+        "peak_month": 60,
+        "break_even_exit": 482988.9196569454,
+        "break_even_uplift": 0.17802175526084252,
+        "annual_neutral_rent": 2476.227763583332,
+        "source_low_annual": -8254.065532954988,
+        "source_high_annual": -4486.06553295499,
+        "J3_profit": -143582.6150706104,
+        "J3_peak": 154075.51029260937,
+        "special_holds": [],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R332"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "The805sf voluntary-sale cohort remains unbounded;809sf rent1800/1700 conflict is an income-range issue rather than a price-blocking rule.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test actual two-room residential utility independently of the504sf SOVO; neither product automatically inherits Kwasa uplift.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R333",
+      "name": "Urban 360 1001-sf family control",
+      "batch": "B06",
+      "area_id": "A42",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R333"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "350 k 'nett' ad lacks authenticated offer; actual tenancy rent/expiry and matched clearing record absent.",
+      "adjudication": {
+        "primary_g0_issue": "offer",
+        "current_reason": "The350k nett claim needs incentive interpretation; actual tenancy terms affect value but a signed lease is not required for exploratory reference research.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test1800 only after funded works and lawful tenancy transition; it is not the current contracted rent.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Conditional income investigation; no capital ranking."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "The350k nett claim needs incentive interpretation; actual tenancy terms affect value but a signed lease is not required for exploratory reference research."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test1800 only after funded works and lawful tenancy transition; it is not the current contracted rent."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Local families and rental investors; original 2+1 versus 3 BR usage and demand composition require proof.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Advertiser 375.23 fee not an MC invoice; sinking, arrears and major works unknown.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "Basic tenanted level7 sale; rent1800 is a stabilised scenario requiring works and tenancy expiry, not current lease income.1900 renovated level15 comparator is superior condition.",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM350000 price / RM1800 monthly rent, gross yield is 6.17%; monthly narrow balance RM30.03 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM402040.44, 14.87% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-4283.65; continuous-renewal alternative RM-2066.05. Base peak cumulative pre-sale funding RM90470.73; retained joint stress peak RM126231.45. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R333",
+        "name": "Urban 360 1001-sf family control",
+        "area_id": "A42",
+        "project_id": "PROJECT-R226",
+        "batch": "B06",
+        "price": 350000,
+        "rent": 1800,
+        "fee": 375.23,
+        "gross_yield": 0.061714285714285715,
+        "narrow": 30.029565745072205,
+        "old_annual": -3839.6452110591345,
+        "annual": -4283.645211059133,
+        "change": -443.9999999999982,
+        "renewal_annual": -2066.045211059133,
+        "old_flat_profit": -49342.28752595559,
+        "flat_profit": -49651.787525955995,
+        "target_profit": 17135.212474044005,
+        "irr": 0.039491613000097514,
+        "peak": 90470.72605529538,
+        "peak_month": 60,
+        "break_even_exit": 402040.44390101254,
+        "break_even_uplift": 0.14868698257432156,
+        "annual_neutral_rent": 2254.7394066941756,
+        "source_low_annual": -5225.645211059136,
+        "source_high_annual": -3341.6452110591345,
+        "J3_profit": -117416.34089628054,
+        "J3_peak": 126231.4465735965,
+        "special_holds": [],
+        "source_quarantine": null,
+        "timing_scope": "Stabilised-operation illustration only: in-place tenancy/possession timing unresolved; not actual acquisition cash timing.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R333"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "The350k nett claim needs incentive interpretation; actual tenancy terms affect value but a signed lease is not required for exploratory reference research.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test1800 only after funded works and lawful tenancy transition; it is not the current contracted rent.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R334",
+      "name": "Spring Ville 728-sf restricted family control",
+      "batch": "B06",
+      "area_id": "A43",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R334"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "250 k specificBumi sale; no verified eligible consideration interval; profile/unit tenure conflict unresolved.",
+      "adjudication": {
+        "primary_g0_issue": "rights",
+        "current_reason": "The selected250k Bumi expression must be compared within its eligible transfer cohort; tenure conflict is material.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test eligible-buyer depth without assuming user eligibility; ordinary1200 bare rent does not remove resale restrictions.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Conditional income investigation; no capital ranking."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "The selected250k Bumi expression must be compared within its eligible transfer cohort; tenure conflict is material."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test eligible-buyer depth without assuming user eligibility; ordinary1200 bare rent does not remove resale restrictions."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Eligible buyers only after title/transfer confirmation; no assumption about user's eligibility. Rent market separately tested.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Fee 160 claim not proof of collections/sinking sufficiency; common-property works may dominate low entry ticket.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "Unfurnished sale and unfurnished1200 rental ask; fee160 is advertiser claim, sinking inclusion unknown. Title/eligibility unresolved.1500 furnished outcome requires separate works branch.",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM250000 price / RM1200 monthly rent, gross yield is 5.76%; monthly narrow balance RM43.76 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM284601.63, 13.84% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-2570.92; continuous-renewal alternative RM-1092.52. Base peak cumulative pre-sale funding RM61892.09; retained joint stress peak RM88621.08. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R334",
+        "name": "Spring Ville 728-sf restricted family control",
+        "area_id": "A43",
+        "project_id": "PROJECT-R334",
+        "batch": "B06",
+        "price": 250000,
+        "rent": 1200,
+        "fee": 160,
+        "gross_yield": 0.0576,
+        "narrow": 43.756832675051555,
+        "old_annual": -2834.9180078993813,
+        "annual": -2570.9180078993813,
+        "change": 264,
+        "renewal_annual": -1092.5180078993812,
+        "old_flat_profit": -32848.91966139687,
+        "flat_profit": -33013.41966139764,
+        "target_profit": 14691.580338602362,
+        "irr": 0.04789632499245644,
+        "peak": 61892.090039497125,
+        "peak_month": 60,
+        "break_even_exit": 284601.6346938452,
+        "break_even_uplift": 0.13840653877538078,
+        "annual_neutral_rent": 1472.9212322610808,
+        "source_low_annual": -3512.9180078993822,
+        "source_high_annual": 255.08199210061866,
+        "J3_profit": -82602.29456439673,
+        "J3_peak": 88621.08433390825,
+        "special_holds": [
+          "material_identity_rights_offer_hold"
+        ],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R334"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "The selected250k Bumi expression must be compared within its eligible transfer cohort; tenure conflict is material.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test eligible-buyer depth without assuming user eligibility; ordinary1200 bare rent does not remove resale restrictions.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R335",
+      "name": "168 Park Selayang 624-sf altered compact control",
+      "batch": "B06",
+      "area_id": "A44",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R335"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "265 k advertised unit has unidentified block/approved plan; cross-block 1500 rent from 2025 not a current clearing interval.",
+      "adjudication": {
+        "primary_g0_issue": "identity",
+        "current_reason": "Unknown block and altered plan prevent transferring Block C pricing to the624sf subject.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test the original approved unit independently of the partition; historical1500 rent does not legitimise an alteration.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Conditional income investigation; no capital ranking."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "Unknown block and altered plan prevent transferring Block C pricing to the624sf subject."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test the original approved unit independently of the partition; historical1500 rent does not legitimise an alteration."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Singles/couples or very small households; investor exit allowed if banks/users accept actual approved form.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Mixed delivery/phase evidence, revival history and future-phase competition require block-level CCC, defect and MC documents; no adverse quality verdict assumed.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "Unfurnished sale with owner partition, two bays; rent1500 historical BlockC partial ask. Sale block unspecified. No automatic block, approved-bedroom or CCC equivalence.",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM265000 price / RM1500 monthly rent, gross yield is 6.79%; monthly narrow balance RM193.98 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM295482.76, 11.50% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-1542.21; continuous-renewal alternative RM305.79. Base peak cumulative pre-sale funding RM60542.21; retained joint stress peak RM89652.98. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R335",
+        "name": "168 Park Selayang 624-sf altered compact control",
+        "area_id": "A44",
+        "project_id": "PROJECT-R335",
+        "batch": "B06",
+        "price": 265000,
+        "rent": 1500,
+        "fee": 250,
+        "gross_yield": 0.06792452830188679,
+        "narrow": 193.9822426355547,
+        "old_annual": -1332.2130883733444,
+        "annual": -1542.2130883733428,
+        "change": -209.9999999999984,
+        "renewal_annual": 305.7869116266567,
+        "old_flat_profit": -30555.854841080636,
+        "flat_profit": -29083.60484108131,
+        "target_profit": 21483.69515891868,
+        "irr": 0.06664407636186098,
+        "peak": 60542.20889768013,
+        "peak_month": 54,
+        "break_even_exit": 295482.76369466656,
+        "break_even_uplift": 0.11502929696100583,
+        "annual_neutral_rent": 1663.7168883623508,
+        "source_low_annual": -3897.213088373343,
+        "source_high_annual": -600.2130883733444,
+        "J3_profit": -83214.74105326009,
+        "J3_peak": 89652.97820894235,
+        "special_holds": [
+          "material_identity_rights_offer_hold"
+        ],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R335"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "Unknown block and altered plan prevent transferring Block C pricing to the624sf subject.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test the original approved unit independently of the partition; historical1500 rent does not legitimise an alteration.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R336",
+      "name": "Selayang Point 1108-sf family control",
+      "batch": "B06",
+      "area_id": "A44",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R336"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "335 k sale/1105 sf 1500 partial rent are ads; vendor transaction bins lack unit/condition/sale-mechanism controls.",
+      "adjudication": {
+        "primary_g0_issue": "cohort",
+        "current_reason": "Vendor bins do not yet bound the1108sf ordinary-sale cohort;1105sf is not automatically too different to compare.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test the actual partial inventory and one-bay family task; an old0.17psf profile does not certify current charges.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Lowest ordinary-income priority; retain falsifiable funded transition research."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "Vendor bins do not yet bound the1108sf ordinary-sale cohort;1105sf is not automatically too different to compare."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test the actual partial inventory and one-bay family task; an old0.17psf profile does not certify current charges."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Families and investors valuing space/one bay; additional bay or more modern facilities elsewhere can change choice.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "2008 profile age suggests testing lifecycle capex, not assuming deterioration. Accounts/lifts/insurance unknown.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "Partly furnished header versus fully furnished title; listed inclusions treated as partial.1105-sf1500 partial rent with one bay; unknown floor/exposure. Fee230 planning proxy, not old profile0.17psf as current bill.",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM335000 price / RM1500 monthly rent, gross yield is 5.37%; monthly narrow balance RM-64.97 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM387691.33, 15.73% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-4649.59; continuous-renewal alternative RM-2801.59. Base peak cumulative pre-sale funding RM89300.70; retained joint stress peak RM121282.42. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R336",
+        "name": "Selayang Point 1108-sf family control",
+        "area_id": "A44",
+        "project_id": "PROJECT-R336",
+        "batch": "B06",
+        "price": 335000,
+        "rent": 1500,
+        "fee": 230,
+        "gross_yield": 0.05373134328358209,
+        "narrow": -64.96584421543116,
+        "old_annual": -4679.590130585173,
+        "annual": -4649.590130585176,
+        "change": 29.99999999999727,
+        "renewal_annual": -2801.590130585174,
+        "old_flat_profit": -53321.5523462718,
+        "flat_profit": -50272.80234627251,
+        "target_profit": 13651.897653727501,
+        "irr": 0.032799022256198684,
+        "peak": 89300.70065292594,
+        "peak_month": 60,
+        "break_even_exit": 387691.3346046248,
+        "break_even_uplift": 0.15728756598395455,
+        "annual_neutral_rent": 1993.5870626948167,
+        "source_low_annual": -5591.590130585173,
+        "source_high_annual": -1823.5901305851753,
+        "J3_profit": -112886.76150129162,
+        "J3_peak": 121282.41979243702,
+        "special_holds": [],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R336"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "Vendor bins do not yet bound the1108sf ordinary-sale cohort;1105sf is not automatically too different to compare.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test the actual partial inventory and one-bay family task; an old0.17psf profile does not certify current charges.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    },
+    {
+      "candidate_id": "R337",
+      "name": "Zen Suites Zetapark 677-sf studio/SOHO control",
+      "batch": "B06",
+      "area_id": "A41",
+      "review_date": "2026-10-22",
+      "review_scope": "Substantive saved-evidence reassessment; public refresh only where explicit new_evidence_ids exists. Not an executable purchase review.",
+      "baseline_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "source_workpaper": {
+        "path": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+        "git_blob_sha": "444223289181a43d2fc1a44f3f681d4a7dfce688",
+        "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+        "selector": {
+          "candidate_id": "R337"
+        }
+      },
+      "historical_evidence_refs": [
+        {
+          "document_id": "D038"
+        },
+        {
+          "document_id": "D039"
+        },
+        {
+          "document_id": "D040"
+        },
+        {
+          "document_id": "D041"
+        },
+        {
+          "document_id": "D042"
+        },
+        {
+          "document_id": "D043"
+        },
+        {
+          "document_id": "D044"
+        },
+        {
+          "document_id": "D045"
+        },
+        {
+          "document_id": "D046"
+        },
+        {
+          "document_id": "D047"
+        },
+        {
+          "document_id": "D048"
+        },
+        {
+          "document_id": "D049"
+        },
+        {
+          "document_id": "D050"
+        },
+        {
+          "document_id": "D051"
+        },
+        {
+          "document_id": "D052"
+        },
+        {
+          "document_id": "D053"
+        },
+        {
+          "document_id": "D054"
+        },
+        {
+          "document_id": "D055"
+        },
+        {
+          "document_id": "D056"
+        },
+        {
+          "document_id": "D057"
+        },
+        {
+          "document_id": "D058"
+        },
+        {
+          "document_id": "D059"
+        }
+      ],
+      "historical_overlay_refs": [],
+      "new_evidence_ids": [],
+      "historical_g0_reason": "300 k sale and 1500 rent same agent; no independent clearedprice, approveduse or actuallease.",
+      "adjudication": {
+        "primary_g0_issue": "identity",
+        "current_reason": "677sf studio/SOHO component and approved use affect reference selection; same-agent sale/rent is one lineage.",
+        "claim_permitted": "Conditional product, income, substitute and evidence-priority comparison. No validated discount or executable bid.",
+        "strongest_countertest": "Test permitted whole-unit demand and actual bay rights; no futureMRT3 walkability premium is assumed.",
+        "unsupported_claim": "No supported normalised subject clearing interval has been established in this reviewed record.",
+        "first_unresolved_gate": "G0",
+        "passed_prefix": [],
+        "g9": "Defer",
+        "research_priority": "Conditional income investigation; no capital ranking."
+      },
+      "gate_review": {
+        "G0": {
+          "status": "Unresolved",
+          "finding": "677sf studio/SOHO component and approved use affect reference selection; same-agent sale/rent is one lineage."
+        },
+        "G1": {
+          "status": "Conditional, not admitted",
+          "finding": "Test permitted whole-unit demand and actual bay rights; no futureMRT3 walkability premium is assumed."
+        },
+        "G2": {
+          "status": "Conditional, not admitted",
+          "finding": "Eligible residential/SOHO users and investors only after exact title/lender/bylaw review; no automatic bank terms.",
+          "control": "Tenant, payer and future buyer are separate. Investor-led resale is eligible. Demographic or employer labels do not establish captured demand."
+        },
+        "G3": {
+          "status": "Conditional, not admitted",
+          "finding": "Retailinterface access, noise, sharedcosts and management could offset convenience; none physically observed.",
+          "control": "Retained project-context analysis, not a new inspection or authenticated management assessment. Unknown governance is not a failed quality score."
+        },
+        "G4": {
+          "status": "Conditional, not admitted",
+          "finding": "Same-agent partial sale/rent lineage, not independent demand evidence. Rental one bay; sale rights/bay unresolved. No current MRT3 walkability benefit. Long-term whole-unit only.",
+          "control": "Retained package claims are not inspected facts. Determine approved private rooms, actual bay rights, permanent exposures and fit-out inventory for the defined housing task. Historic allowances in source prose are superseded by the current financial ledger."
+        },
+        "G5": {
+          "status": "Held by preceding gates",
+          "finding": "No recoverable discount established. At the retained RM300000 price / RM1500 monthly rent, gross yield is 6.00%; monthly narrow balance RM54.51 is not complete-cost return."
+        },
+        "G6": {
+          "status": "Conditional, not admitted",
+          "finding": "Current-SOP nominal five-year break-even sale is RM342213.29, 14.07% above entry, before unpriced U/personal tax changes. This is a required price, not a prediction. Test funded investors and relevant household substitutes; no guaranteed family price floor."
+        },
+        "G7": {
+          "status": "Conditional, not admitted",
+          "finding": "Annual replacement-base cash RM-3215.90; continuous-renewal alternative RM-1367.90. Base peak cumulative pre-sale funding RM75124.51; retained joint stress peak RM106175.34. Lender, liabilities and forced-hold capacity are not authenticated; 90%/4%/35-year is a comparison convention."
+        },
+        "G8": {
+          "status": "Not admitted; research comparison only",
+          "finding": "Compare the stated tenant/household task and price package against source-workpaper substitutes. Same project, employment, transport, student and financing exposures are correlated. No actual portfolio allocation or user capacity is inferred."
+        },
+        "G9": {
+          "status": "Defer",
+          "finding": "Research review complete; no contiguous admission prefix established. No permanent Reject is inferred from missing information or current shortfall."
+        }
+      },
+      "financial": {
+        "id": "R337",
+        "name": "Zen Suites Zetapark 677-sf studio/SOHO control",
+        "area_id": "A41",
+        "project_id": "PROJECT-R337",
+        "batch": "B06",
+        "price": 300000,
+        "rent": 1500,
+        "fee": 250,
+        "gross_yield": 0.06,
+        "narrow": 54.508199210061775,
+        "old_annual": -2765.9016094792605,
+        "annual": -3215.9016094792587,
+        "change": -449.9999999999982,
+        "renewal_annual": -1367.9016094792587,
+        "old_flat_profit": -33238.703593676255,
+        "flat_profit": -40275.70359367659,
+        "target_profit": 16970.29640632341,
+        "irr": 0.045908638706612104,
+        "peak": 75124.50804739638,
+        "peak_month": 60,
+        "break_even_exit": 342213.29377809097,
+        "break_even_uplift": 0.14071097926030318,
+        "annual_neutral_rent": 1841.3908290317686,
+        "source_low_annual": -4157.90160947926,
+        "source_high_annual": -389.90160947925887,
+        "J3_profit": -98758.39665227634,
+        "J3_peak": 106175.34437569013,
+        "special_holds": [
+          "material_identity_rights_offer_hold"
+        ],
+        "source_quarantine": null,
+        "timing_scope": "Conditional possession/ordinary-tenancy illustration; exact lawful use/CCC/availability not authenticated.",
+        "source": {
+          "path": "klang-valley-2026-10-07/round-3/sop-v2-all-base-replay-2026-10-16/Summary.json",
+          "commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+          "selector": {
+            "id": "R337"
+          }
+        },
+        "status": "Exact reuse of approved SOP-v2 numerical results, not a fresh model run or market refresh. Target20% is a scenario; unpriced U/personal tax and actual terms remain open."
+      },
+      "routing_correction": {
+        "price_research": "Enough component/rights/price-type identity to support the claimed interval; not a compulsory complete purchase file.",
+        "income_and_retention": [
+          "G1",
+          "G2",
+          "G7"
+        ],
+        "governance_and_fees": [
+          "G3",
+          "G7"
+        ],
+        "unit_plan_bays_condition": [
+          "G4",
+          "G0 when material to comparisons"
+        ],
+        "actual_lender": [
+          "G7"
+        ],
+        "actual_portfolio": [
+          "G8"
+        ],
+        "rule_change": false
+      },
+      "next_material_tasks": [
+        {
+          "task": "677sf studio/SOHO component and approved use affect reference selection; same-agent sale/rent is one lineage.",
+          "source": "Retained comparable ledger and targeted original/provider records; only missing decision-changing fields.",
+          "stop": "A supported interval and bounded sensitivity suffice; no fixed transaction quota or mandatory signed subject contract."
+        },
+        {
+          "task": "Test permitted whole-unit demand and actual bay rights; no futureMRT3 walkability premium is assumed.",
+          "source": "Task-matched ordinary rent/transaction/competing-product evidence; date and provenance retained.",
+          "stop": "Falsify the preferred mechanism if matched alternatives remove the claimed advantage."
+        },
+        {
+          "task": "Resolve actual inventory, charges/works, restrictions, credit and funding before commitment; investigate earlier only if they change the current claim.",
+          "source": "Relevant existing owner/management/title/lender records if lawfully available. No outreach sent.",
+          "stop": "Unbounded material exposure remains explicit; unknown is not zero."
+        }
+      ],
+      "replay_dependencies": {
+        "G0": [
+          "price_type",
+          "product_cohort",
+          "effective_consideration",
+          "rights",
+          "normalisation",
+          "source_dates"
+        ],
+        "G1_G4": [
+          "tenant_task",
+          "payer",
+          "household_adoption",
+          "governance",
+          "supply",
+          "plan",
+          "bays",
+          "condition"
+        ],
+        "G5_G8": [
+          "G0-G4 findings",
+          "approved_financial_inputs",
+          "retention",
+          "exit_buyer",
+          "credit",
+          "funded_carry",
+          "portfolio"
+        ],
+        "G9": [
+          "contiguous passed prefix",
+          "actual decision scope"
+        ]
+      },
+      "fact_normalisation_status": "Partial. Candidate-scoped historical extract and source links retained; not every legacy source claim has a fully structured independent fact row."
+    }
+  ]
+}
