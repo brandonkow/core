@@ -1836,3 +1836,9 @@ These implement existing principles without adding market-causal modules or G9 o
 ## Preservation versus compounding
 
 Defensive mispricing and compounding quality are distinct. A defensible low basis can support downside protection; it does not prove cost-inclusive capital preservation or recurring appreciation. Compounding requires repeated future buyer willingness to pay higher capital quantum. Assess owner-compatible product, durable buyer depth, management/resident quality, controlled effective supply and existing demand separately; no feature bundle guarantees a winner.
+
+---
+
+## Research execution cross-reference — urban-node demand, lifecycle, price formation and exit evidence
+
+For decision-proportionate research on buyer-origin flows, forward product competitiveness, seller stickiness versus actual price resilience, and target-quantum exit depth, apply [the urban-node execution addendum](sop/Urban_Node_Demand_Lifecycle_Price_and_Exit_Evidence_2026-10-24.md) under the **existing** G0–G9 gates. It adds no frozen Core mechanism, capital-decision category or financial parameter; investor-led exits remain eligible. See the [integration audit](investigation/Urban_Framework_Integration_Audit_2026-10-24.md) for overlaps, non-adopted draft assumptions and preservation checks.
