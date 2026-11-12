@@ -120,3 +120,4 @@ function gateTrace(gs){
   return {prefix,firstStop,conditional};
 }
 
+export { FORM, BASE, PRESETS, ROLE_NAME, evaluate, calcStandard, gateTrace };
