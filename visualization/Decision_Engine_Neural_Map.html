@@ -284,7 +284,7 @@ form.run legend{padding:0;font-family:var(--font-mono);font-size:10.5px;font-wei
   <header class="top">
     <div class="brand">
       <h1>Decision Engine <span>Neural Map</span></h1>
-      <p class="meta">Residential_Investment_Framework.md · sha256 eabb85ce… · Core 5.1–5.35 frozen · G0–G9 · G0 / G1–G4 SOP overlays · Financial SOP v2 · 12 Nov 2026</p>
+      <p class="meta">Residential_Investment_Framework.md · sha256 eabb85ce… · Core 5.1–5.35 frozen · G0–G9 · G0 / G1–G4 / G5–G9 SOP overlays · Financial SOP v2 · 12 Nov 2026</p>
     </div>
     <div class="modes" role="tablist" aria-label="View mode">
       <button role="tab" id="tab-explore" aria-selected="true" data-mode="explore">Explore</button>
@@ -333,6 +333,7 @@ const F = {
   M:'Residential_Investment_Framework.md',
   G0REF:'sop/G0_Reference_Price_Execution_2026-11-12.md',
   G1G4:'sop/G1-G4_Qualitative_Gate_Execution_2026-11-12.md',
+  G5G9:'sop/G5-G9_Execution_Boundary_2026-11-12.md',
   G1REPLAY:'klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Use_Demand_Replay_2026-11-12.md',
   G1JSON:'klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Use_Demand_Replay_2026-11-12.json',
   G1EVIDENCE:'klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Public_Evidence_2026-11-12.json',
@@ -349,7 +350,7 @@ const F = {
   PRIVACY:'sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md',
   JUDGMENT:'sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md'
 };
-const CURRENT = {"asOf":"2026-11-12","sourceCommit":"956aca7ae42578233d346c80fbbfe5b4be995c85","latestEvidenceCommit":"7a6d7ce02e4413baf8a2061cb6294d34319631b7","sourcePath":"klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18","cases":138,"areas":61,"projects":122,"admitted":0,"deploy":0,"firstStop":"G0","priorityDossiers":13,"outreach":"Paused; no enquiries sent","forwardReview":"2027-10-06","g0Replayed":125,"g0ReferenceOnly":3,"g0Unresolved":122,"g1Passes":3,"g2Next":3,"g9Defer":3,"earlierPriorityNotReplayed":13};
+const CURRENT = {"asOf":"2026-11-12","sourceCommit":"956aca7ae42578233d346c80fbbfe5b4be995c85","latestEvidenceCommit":"64bdbbc74ecd9d7b56ddb495ca5e9b3424cc5e1f","sourcePath":"klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18","cases":138,"areas":61,"projects":122,"admitted":0,"deploy":0,"firstStop":"G0","priorityDossiers":13,"outreach":"Paused; no enquiries sent","forwardReview":"2027-10-06","g0Replayed":125,"g0ReferenceOnly":3,"g0Unresolved":122,"g1Passes":3,"g2Next":3,"g9Defer":3,"earlierPriorityNotReplayed":13};
 const LAYER_NAME = {in:'01 Input', det:'02 Detect', cell:'02 Detect · polarity', inv:'03 Investigate', bus:'03 → 04 Interpretation', core:'04 Core', gate:'05 Gate', sop:'06 SOP', dec:'07 G9 output', prio:'07 Output', role:'07 Role', lane:'08 Learn'};
 
 /* ------------------------------------------------------------------ nodes */
@@ -722,10 +723,10 @@ const STEPS = [
   {s:'G1–G2', gate:true, stage:'Valuation / underwriting', title:'G1–G2 · Name the mechanism and the future buyer', body:`G1 asks why a person uses the location or product. One falsifiable, observed housing-use mechanism is enough to continue; it does not need to forecast appreciation. Transit, mall, brand or launch take-up alone is incomplete. G2 then needs one credible buyer path—owner or investor—with a plausible budget, task and alternatives. Do not skip G2.`, q:`Cross-housing-form transfer defaults to zero until proven.`, src:'Master §5.27', stop:`If future buyer is vague: STOP.`, nodes:expand(['G1','G2'])},
   {s:'G3–G4', gate:true, stage:'Valuation / underwriting', title:'G3–G4 · Judge the project, then the exact unit', body:`G3 tests project quality; missing information is not adverse proof, but a material unknown remains open. G4 tests the selected unit's layout, floor/exposure, condition, usable rights, parking, circulation and permanent disutility. A project average cannot clear an exact unit.`, q:`Is this specific unit easier or harder to sell than the project median?`, src:'Master §9 · G4', cond:`Critical management failure may be a hard Gate.`, nodes:expand(['G3','G4'])},
   {s:'G5', gate:true, stage:'Valuation / underwriting', title:'G5 · Price the gap only after G0–G4 survive', body:`A validated discount is the normalised clearing price minus the acquisition price. Ask why the gap exists, whether it is reversible or structural, and how much is recoverable after costs and time. Fair-priced quality can still be analysed without manufacturing a discount.`, q:`Cheapness alone is not alpha.`, src:'Master §2', nodes:expand(['G5'])},
-  {s:'G6', gate:true, stage:'Exit logic', title:'G6 · Design the exit before the entry', body:`Define the future buyer, future comparable set, quantum ladder, floor, ceiling, liquidity and the independent supports for an exit. The required exit price is a condition, not a forecast.`, q:`Does the thesis survive if the strongest exit support disappears?`, src:'Master §8.8', cond:`If exit depends on one catalyst / one buyer: flag Single-Point Exit Failure.`, nodes:expand(['G6'])},
-  {s:'G7', gate:true, stage:'Valuation / underwriting', title:'G7 · Survive the financing and a forced hold', body:`Three lines stay separate: standard monthly coverage at 90% LTV, 4% and 35 years plus management fee; a cost-complete cashflow; and actual plus stress affordability under current financial SOP v2 (selected +0.25 pp rate, rent −20%, two initial void months, six-month sale delay, RM10k fit-out overrun and fee escalation, with scenario-specific timing). A current shortfall drops the case to the lowest research tier but is not by itself a structural Reject.`, q:`Do not call line 1 a net profit or a stress pass.`, src:'Execution supplement §1', nodes:expand(['G7'])},
-  {s:'G8', gate:true, stage:'Valuation / underwriting', title:'G8 · Is this the best use of scarce capital?', body:`Equity, DSR, lender appetite, mortgage slots, management attention, reserves and the ability to act on future distress are all scarce. Correlation is mapped through future buyer, tenant source, financing regime and exit channel, not postcode.`, q:`A defensible asset can still be the wrong use of scarce capital.`, src:'Master §18', nodes:expand(['G8'])},
-  {s:'G9', gate:true, stage:'Decision', title:'G9 · One of four capital decisions', body:`Insufficient evidence or an unresolved required gate ordinarily yields Defer. An independently established structural failure supports Reject. An independently established allocation constraint supports Preserve Capacity. Deploy needs sufficient evidence, passing asset and portfolio gates and one declared role. Product preference, attractiveness at the price and research priority are reported separately.`, q:`Negative alignment does not invent a structural failure, and divergence resolution does not auto-deploy.`, src:'Master §5 · decision precedence', nodes:['G9','DEPLOY','DEFER','REJECT','PRESERVE','COMP','DEFU','SPEC','INC','FUT','NOT','PRIO','S9','X5','K1','K2','M']},
+  {s:'G6', gate:true, stage:'Exit logic', title:'G6 · Design the exit before the entry', body:`Define one evidence-supported primary future buyer path, its comparable set, budget alternatives, quantum ladder, exit timing, financeability and resale burden. Test weak-exit and no-uplift cases and remove the strongest support. Do not impose an arbitrary minimum number of buyer groups or routes; an unsupported primary path stays unresolved. The required exit price is a condition, not a forecast.`, q:`Does the thesis survive if the strongest exit support disappears?`, src:'Master §8.8', cond:`If exit depends on one catalyst / one buyer: flag Single-Point Exit Failure.`, nodes:expand(['G6'])},
+  {s:'G7', gate:true, stage:'Valuation / underwriting', title:'G7 · Survive the financing and a forced hold', body:`Keep standard 90% LTV / 4% / 35-year coverage, cost-complete cashflow, actual financing and forced-hold affordability distinct. Apply the current Financial SOP v2 stress register, not the superseded legacy magnitudes. A stress loss or current shortfall is not by itself a structural Reject; unresolved funding capacity stays visible.`, q:`Do not call line 1 a net profit or a stress pass.`, src:'Execution supplement §1', nodes:expand(['G7'])},
+  {s:'G8', gate:true, stage:'Valuation / underwriting', title:'G8 · Is this the best use of scarce capital?', body:`Research may use a labelled synthetic allocation comparison. An executable G8 decision requires actual mandate, capital/liquidity, commitments, financing capacity, correlation and opportunity-cost evidence. Preserve Capacity needs a demonstrated allocation constraint; it does not clear any unresolved asset gate.`, q:`A defensible asset can still be the wrong use of scarce capital.`, src:'Master §18', nodes:expand(['G8'])},
+  {s:'G9', gate:true, stage:'Decision', title:'G9 · One of four capital decisions', body:`Use only Defer for decision-critical unresolved evidence, Reject for an established structural Gate failure, Preserve Capacity for demonstrated actual allocation constraints, and Deploy when G0-G8 support the asset and actual portfolio decision with a declared role. Any residual uncertainty must fit the supported protection and funding plan; unresolved divergence is not positive evidence. Product preference, price attractiveness and research priority remain separate. A G9 recommendation does not authorize a purchase.`, q:`Negative alignment does not invent a structural failure, and divergence resolution does not auto-deploy.`, src:'Master §5 · decision precedence', nodes:['G9','DEPLOY','DEFER','REJECT','PRESERVE','COMP','DEFU','SPEC','INC','FUT','NOT','PRIO','S9','X5','K1','K2','M']},
   {s:'Learn', stage:'After the decision', title:'Record the call, then learn without moving Core', body:`Original calls, revisions, false positives and false negatives are recorded without retroactive rationalisation. Misses are classified F1–F12. A candidate mechanism enters Core only if all six promotion criteria hold; execution improvements go to SOP.`, q:`If it only improves execution: put it in SOP, not Core.`, src:'Master §22', nodes:['G9','LREC','LFAIL','LCAND','LPROMO','BUS']}
 ];
 
@@ -739,11 +740,11 @@ const FORM = [
   ['G3','G3 · project quality',[['ok','Supported'],['unk','Unknown'],['fail','Established hard-gate failure']]],
   ['G4','G4 · unit quality',[['ok','Supported'],['unk','Unknown'],['fail','Established structural failure']]],
   ['G5','G5 · price gap',[['val','Validated, recoverable'],['fair','Fair price, no discount claimed'],['unk','Gap unexplained']]],
-  ['G6','G6 · exit',[['ok','Independent exits'],['single','Single-point exit'],['unk','Unknown'],['fail','Established exit failure']]],
-  ['G7','G7 · financing & forced hold',[['ok','Survives stress'],['unk','Unknown'],['fail','Established structural failure']]],
+  ['G6','G6 · exit',[['ok','Primary path supported; failure tested'],['single','Single-point exit flagged'],['unk','Unknown'],['fail','Established exit failure']]],
+  ['G7','G7 · financing & forced hold',[['ok','Risk fundable under stress'],['unk','Unknown'],['fail','Established structural failure']]],
   ['cov','Standard coverage 90·4·35',[['pos','Non-negative'],['neg','Shortfall'],['unv','Unverified']]],
   ['tr','Shortfall transition record',[['no','Not evidenced'],['yes','Fully evidenced']]],
-  ['G8','G8 · portfolio',[['ok','Fits mandate'],['unk','Unknown'],['cap','Allocation constraint']]],
+  ['G8','G8 · portfolio',[['ok','Actual mandate supported'],['unk','Unknown'],['cap','Demonstrated allocation constraint']]],
   ['role','Declared role',[['comp','Compounder'],['defu','Defensive utility'],['spec','Special situation'],['inc','Income engine']]]
 ];
 const BASE = {div:'none',residual:'no',G0:'ok',G1:'ok',G2:'ok',G3:'ok',G4:'ok',G5:'fair',G6:'ok',G7:'ok',cov:'pos',tr:'no',G8:'ok',role:'comp'};
@@ -1400,7 +1401,7 @@ function drawCurrent(){
   drawerBody.innerHTML = `<div class="dz">
     <p class="eyebrow">Execution overlay · ${CURRENT.asOf}</p>
     <h2>Current SOP & programme progress</h2>
-    <p><strong>Document enquiries remain paused.</strong> The evidence-sufficiency SOP clarifications and targeted gate replay are current to this dated snapshot. No enquiries have been sent; this is not a live investment feed.</p>
+    <p><strong>Document enquiries remain paused.</strong> The evidence-sufficiency SOP clarifications and targeted gate replay are current to this dated snapshot. The three cases at G2 are parked at the user's direction; no follow-on gate review is underway. No enquiries have been sent; this is not a live investment feed.</p>
     <div class="formula">Evidence → G0 → G1 → G2 → G3 → G4 → G5 → G6 → G7 → G8 → G9</div>
     <p>Admission follows the passed contiguous prefix. Later research can continue conditionally, but cannot clear an earlier unresolved gate. G0 asks for a defensible normalised clearing price; it is not a catch-all for every later requirement.</p>
     <h3>Evidence sufficiency — approved clarification</h3>
@@ -1410,13 +1411,17 @@ function drawCurrent(){
       <p>The 138-case admission counts below are the preserved closeout snapshot. The October routing review inventories all 138 records and examines 13 priority dossiers, but does not certify 138 new gate assessments or advance any gate. The November saved-evidence replay assessed G0 for 125 cases (3 cohort-reference-only passes and 122 unresolved), then replayed G1 only for those three; all three now stop at G2. This is not a current-market refresh of all 138.</p>
       <p><a href="https://github.com/brandonkow/core/blob/main/sop/Decision_Proportionate_Evidence_2026-10-18.md" target="_blank" rel="noopener noreferrer">Evidence sufficiency SOP</a> · <a href="https://github.com/brandonkow/core/blob/main/klang-valley-2026-10-07/round-3/evidence-sufficiency-2026-10-18/README.md" target="_blank" rel="noopener noreferrer">Routing review and remaining scope</a></p>
     </div>
-    <h3>Approved G0–G4 execution supplements</h3>
+    <h3>Approved G0–G9 execution supplements</h3>
     <ul class="plain" id="g0-g4-application">
       <li><strong>G0:</strong> a supported project/product interval may continue research without proving a discount; unit-level checks stay at G4 unless identity or rights change the cohort.</li>
       <li><strong>G1:</strong> one falsifiable, observation-supported housing-use mechanism is enough to investigate further. <strong>G2:</strong> one credible buyer path is enough, including investor-only; define budget, task and alternatives.</li>
       <li><strong>G3:</strong> unknown is not adverse, and a decision-material unknown remains unresolved. <strong>G4:</strong> inspect the exact selected unit; do not inherit project averages.</li>
+       <li><strong>G5:</strong> assess after G0-G4; validate a discount only when claimed. Fair-priced quality can be assessed without inventing one; Special Situation still needs recoverable mispricing.</li>
+       <li><strong>G6:</strong> support a primary exit path and test weak-exit/no-uplift; a single-point dependency is flagged, not automatically rejected.</li>
+       <li><strong>G7:</strong> separate standard, actual and forced-hold views; use Financial SOP v2 stresses. A stress loss alone is not a structural failure.</li>
+       <li><strong>G8-G9:</strong> distinguish synthetic allocation research from actual capital clearance; preserve the four G9 decisions and do not imply transaction authorization.
     </ul>
-    <p>${latestLink(F.G0REF,'Approved G0 supplement')} · ${latestLink(F.G1G4,'Approved G1-G4 supplement')} · ${latestLink(F.G1REPLAY,'Three-case G1 replay')} · ${latestLink(F.G1JSON,'Structured replay')} · ${latestLink(F.G1EVIDENCE,'Public-source snapshot')}</p>
+    <p>${latestLink(F.G0REF,'Approved G0 supplement')} · ${latestLink(F.G1G4,'Approved G1-G4 supplement')} · ${latestLink(F.G5G9,'Approved G5-G9 supplement')} · ${latestLink(F.G1REPLAY,'Three-case G1 replay')} · ${latestLink(F.G1JSON,'Structured replay')} · ${latestLink(F.G1EVIDENCE,'Public-source snapshot')}</p>
     <h3>Preserved admission snapshot</h3>
     <ul class="plain" id="programme-status">
       <li><strong>${CURRENT.cases} / ${CURRENT.cases}</strong> base financial replays complete across ${CURRENT.areas} catchments / ${CURRENT.projects} project groups.</li>
