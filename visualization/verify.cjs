@@ -35,7 +35,7 @@ const expected = {
 "sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md":"6057b54048f4af49d2ecaf15f4b6f44c8b7d303a95da7c3cd737fee64a049ce8",
 "sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md":"9b1d6d8d8706391c413e011ebcec9aa932691b205ab6ef35a947707c03251335",
 
-'Residential_Investment_Framework.md':'1fbf607a78111bc007736fe0cc8109ad3967939a2dcc7ff54f017b491172e86b',
+'Residential_Investment_Framework.md':'eabb85ceacbbc1883f908d828fd7b9605a82b0fa5682efa6ab86245d7a54531b',
 'sop/Approved_Execution_Supplement.md':'61aebaea5bb7a11f5ca00e1d0579fc74a2bfbe445f8c0fc0514f7249ef1fc90a',
 'sop/Founder_QA_Approval_Register.md':'d60b617cc6568670df93d7a9d8269d6b1ae8ebcf707e1880c6528367152cce81',
 'execution-release-2026-10-07/Decision_Execution_Standard.md':'ac13a9c14b7b30908e500ec75b0ad3edaf6f234730c40a3f3322312466c17327',
