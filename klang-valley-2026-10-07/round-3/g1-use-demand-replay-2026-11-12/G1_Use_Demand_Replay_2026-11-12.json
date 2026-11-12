@@ -1,0 +1,115 @@
+{
+  "version": "G1-use-demand-replay-2026-11-12-v1",
+  "rule_file": "sop/G1-G4_Qualitative_Gate_Execution_2026-11-12.md",
+  "evidence_file": "klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Public_Evidence_2026-11-12.json",
+  "baseline_commit": "0f464e6ccff8df0eec7f02981a9ccae4f7dcf210",
+  "g0_replay_commit": "22cbacaf952968a17a5e3b31e41d0a2d468d51d2",
+  "created_at": "2026-11-12",
+  "approved_rules": [
+    "G1: one concrete falsifiable observation-supported housing-use/demand mechanism is sufficient to continue research; no appreciation proof required; amenity/brand/transit label alone is insufficient.",
+    "G2: one credible buyer path is sufficient, including investor-only; budget, task and alternatives still need definition.",
+    "G3: unknown is not adverse; material unknown remains a risk, not an automatic pass.",
+    "G4: exact selected-unit attributes are tested at G4; cohort averages do not transfer to an individual unit."
+  ],
+  "candidate_scope": [
+    "C06",
+    "R305",
+    "R308"
+  ],
+  "summary": {
+    "g0_reference_only_passes": 3,
+    "g1_passes": 3,
+    "first_unresolved_gate_after_replay": "G2",
+    "g2_g4_reassessed": false,
+    "g9_decisions_changed": 0,
+    "financial_inputs_changed": 0,
+    "core_changed": false,
+    "master_changed": false,
+    "source_scope": "Targeted public source check for G1 only; no broad regional or all-candidate refresh."
+  },
+  "cases": [
+    {
+      "candidate_id": "C06",
+      "name": "Riana South",
+      "baseline_workpaper": "cheras/Cheras_G0_G9_Cases.md",
+      "previous_g1": "Education and local working-household demand may support rent; neither university presence nor developer name proves family resale preference.",
+      "status": "G1_PASS_LIMITED_TO_MECHANISM",
+      "passed_prefix": [
+        "G0",
+        "G1"
+      ],
+      "first_unresolved_gate": "G2",
+      "observed_evidence": [
+        "UCSI University's official page identifies its active Cheras/Taman Connaught campus and student residential facilities; the page reports a campus population above 15,000.",
+        "A property directory places UCSI campus wings and shuttle waiting locations near Riana South, while explicitly leaving route quality unverified.",
+        "A 947-sq-ft, 3-bedroom/two-bay rental advertisement is visible, but its move-in date had elapsed; it is not occupancy or collected-rent evidence."
+      ],
+      "mechanism": "Campus-linked students, staff or academic households may rent nearby private three-bedroom stock for access to campus and local daily needs. This is a concrete tenant-use channel to test; it is not a family resale thesis.",
+      "interpretation": "Pass G1 narrowly because an operating education anchor, nearby advertised residential stock and a rental offer create an observation-supported use pathway. Depth, actual campus-linked tenant share, route quality, rent collection and owner-occupier demand remain unknown.",
+      "strongest_falsifier": "Fresh verified leasing records show no campus-linked tenants or repeat whole-unit take-up, and direct route inspection shows the stated proximity does not translate into practical access; or visible offers remain stale/unlet after an appropriate observation window.",
+      "next_gate": "G2 must identify at least one credible buyer path with budget, task and alternatives; do not treat campus users as future owners without evidence.",
+      "source_ids": [
+        "C06-S1",
+        "C06-S2",
+        "C06-S3"
+      ],
+      "g3_g4": "Not assessed in this replay. Management remains unknown rather than failed; exact unit floor, plan, condition, parking rights and exposure remain G4 checks.",
+      "g9": "Defer unchanged."
+    },
+    {
+      "candidate_id": "R305",
+      "name": "PJ Midtown",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "previous_g1": "Section 13 work/service routines may support practical two-bedroom use; no catalyst rent growth credited.",
+      "status": "G1_PASS_LIMITED_TO_MECHANISM",
+      "passed_prefix": [
+        "G0",
+        "G1"
+      ],
+      "first_unresolved_gate": "G2",
+      "observed_evidence": [
+        "Developer material identifies PJ Midtown in Section 13 and describes a mixed commercial/residential scheme including offices and retail.",
+        "The subject product is a two-bedroom residential unit within this local work/service context."
+      ],
+      "mechanism": "A professional, couple or small household connected to work or services in Section 13 may value a two-bedroom home that reduces routine travel to that local activity cluster. This is a use mechanism to investigate, not proof of actual office occupancy or a rent premium.",
+      "interpretation": "Pass G1 narrowly: the documented mixed-use environment provides one specific work/service housing task. Actual employer/office occupancy, staff residence, commute paths, leasing and affordability are unmeasured; no rent uplift or appreciation is inferred.",
+      "strongest_falsifier": "The office/retail component is materially inactive, the target workplaces are not practically reachable from the residence, or comparable renter/buyer evidence shows the 2-bedroom product does not serve those routines.",
+      "next_gate": "G2 must test one credible buyer path, budget, housing task and alternatives. Existing family/small-household/investor narratives are not yet buyer evidence.",
+      "source_ids": [
+        "R305-S1",
+        "R305-S2"
+      ],
+      "g3_g4": "Not assessed in this replay. Governance unknown remains unresolved, not adverse; exact floor, condition, unit rights and parking remain G4 checks.",
+      "g9": "Defer unchanged."
+    },
+    {
+      "candidate_id": "R308",
+      "name": "Kelana Mahkota",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "previous_g1": "Lower family-unit quantum may support income economics relative to Sterling; this is a falsifiable hypothesis.",
+      "status": "G1_PASS_LIMITED_TO_MECHANISM",
+      "passed_prefix": [
+        "G0",
+        "G1"
+      ],
+      "first_unresolved_gate": "G2",
+      "observed_evidence": [
+        "Current portal pages show advertised 1,260-sq-ft three-bedroom rentals, including an approximate RM2,300-RM2,500/month cluster; repeated similar rows may be duplicates and are counted once as asking evidence.",
+        "Portal pages identify a local daily-service context including grocery/retail, school, healthcare and local bus options; routes and practical access have not been ground-checked.",
+        "A portal's 'SS7 station' / 'upcoming rail link' claim is ambiguous. Official Rapid Bus material identifies a Taman Bahagia–SS6/SS7 Rapid On-Demand service area; no rail-access claim is used in this G1 pass."
+      ],
+      "mechanism": "A local household needing a conventional three-bedroom home may use Kelana Jaya's everyday service network and project-scale residential facilities, while rental listings show this family-sized product is marketed to tenants. This is a household-use path to test, separate from any rail/TOD story.",
+      "interpretation": "Pass G1 narrowly because the product/use match and marketed rental channel are observable, and local routine services are reported. The evidence does not establish absorption, collected rent, family buyer willingness, walkability or rail proximity; duplicate ads are not independent demand.",
+      "strongest_falsifier": "The rental rows prove to be duplicated/stale or partition-dependent, conventional whole-unit take-up is not verified, and on-site route checks show daily household services are not practically accessible; or the target household task is better met by materially cheaper alternatives.",
+      "next_gate": "G2 must establish one credible buyer path and compare budget, housing task and alternatives. For investor path, G5/G6 later test price and exit; no income advantage over Sterling is passed here.",
+      "source_ids": [
+        "R308-S1",
+        "R308-S2",
+        "R308-S3",
+        "R308-S4"
+      ],
+      "g3_g4": "Not assessed in this replay. Management remains unknown rather than failed; exact selected-unit plan, floor, condition, exposure, bay rights and circulation remain G4 checks.",
+      "g9": "Defer unchanged."
+    }
+  ]
+}

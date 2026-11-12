@@ -1,0 +1,159 @@
+{
+  "version": "G1-targeted-public-evidence-2026-11-12-v1",
+  "accessed_at": "2026-11-12",
+  "scope": "Targeted public-source checks for the three candidates that passed G0 reference-only. Portal listings are asking/supply signals, not completed leases, transaction evidence, unique demand counts, or unit verification.",
+  "sources": [
+    {
+      "source_id": "C06-S1",
+      "candidate_ids": [
+        "C06"
+      ],
+      "publisher": "UCSI University",
+      "title": "Kuala Lumpur Campus — About the Campus",
+      "url": "https://www.ucsiuniversity.edu.my/kuala-lumpur-campus/about-the-campus",
+      "source_type": "official institution page",
+      "observed_claims": [
+        "The Kuala Lumpur campus is at 1 Jalan UCSI, UCSI Heights (Taman Connaught), Cheras.",
+        "The campus page describes a campus population above 15,000 and student residential halls, alongside academic and student facilities."
+      ],
+      "limits": [
+        "Does not measure how many students or staff rent outside campus.",
+        "Does not prove Riana South is walkable, preferred, occupied by UCSI users, or attractive to owner-buyers."
+      ]
+    },
+    {
+      "source_id": "C06-S2",
+      "candidate_ids": [
+        "C06"
+      ],
+      "publisher": "DurianProperty",
+      "title": "Riana South, Bukit Manda'rina",
+      "url": "https://www2.durianproperty.com.my/property/bukit_manda%27rina/riana_south?college=UCSI-University-University-College-Sedaya-International-Kuala-Lumpur-Campur-North-Wing&pg=1",
+      "source_type": "property directory / amenity-distance listing",
+      "observed_claims": [
+        "Identifies Riana South at Jalan Mandarina Damai 1.",
+        "Lists UCSI shuttle waiting locations at 0.3 km and UCSI campus wings at 0.4 km."
+      ],
+      "limits": [
+        "Distance method and usable pedestrian route were not independently verified.",
+        "Directory text is not an actual tenancy or proof of demand."
+      ]
+    },
+    {
+      "source_id": "C06-S3",
+      "candidate_ids": [
+        "C06"
+      ],
+      "publisher": "SPEEDHOME",
+      "title": "Riana South 947 sq ft 3BR rental advertisement",
+      "url": "https://speedhome.com/details/riana-south-condominium-cheras-vobfxiyr",
+      "source_type": "rental advertisement",
+      "observed_claims": [
+        "Page showed a 947 sq ft, 3-bedroom, 2-bathroom unit with two parking bays advertised at RM3,300/month and a stated move-in date of 15 October 2026."
+      ],
+      "limits": [
+        "Asking advertisement only; the stated move-in date had passed by access date. Treat occupancy/current availability as unknown; do not use as collected rent or a fresh independent observation."
+      ]
+    },
+    {
+      "source_id": "R305-S1",
+      "candidate_ids": [
+        "R305"
+      ],
+      "publisher": "IOI Properties",
+      "title": "PJ Midtown Commercial",
+      "url": "https://www.ioiproperties.com.my/pj-midtown/pj-midtown-commercial",
+      "source_type": "developer official project page",
+      "observed_claims": [
+        "Locates PJ Midtown in Section 13, Petaling Jaya and describes the area as a residential/commercial hub with highway access."
+      ],
+      "limits": [
+        "Developer description; does not establish office occupancy, employer counts, commute time, achieved rents, or buyer demand."
+      ]
+    },
+    {
+      "source_id": "R305-S2",
+      "candidate_ids": [
+        "R305"
+      ],
+      "publisher": "IOI Properties",
+      "title": "PJ Midtown Commercial eBrochure (February 2024)",
+      "url": "https://files.ioiproperties.com.my/dsites/s3fs-public/2024-02/PJ%20Midtown-Commercial_eBrochure_Feb24.pdf",
+      "source_type": "developer project brochure",
+      "observed_claims": [
+        "Describes PJ Midtown as a mixed commercial/residential development with office and retail components in Section 13."
+      ],
+      "limits": [
+        "Marketing/project-use evidence only; no current tenant directory, office absorption or demand measurement."
+      ]
+    },
+    {
+      "source_id": "R308-S1",
+      "candidate_ids": [
+        "R308"
+      ],
+      "publisher": "PropertyGuru Malaysia",
+      "title": "Kelana Mahkota rental results",
+      "url": "https://www.propertyguru.com.my/property-for-rent/at-kelana-mahkota-1201",
+      "source_type": "rental portal results page",
+      "observed_claims": [
+        "The page showed 1,260 sq ft, 3-bedroom rental advertisements around RM2,300-RM2,500/month, with dates around 28-29 September 2026.",
+        "Several rows had the same size and price and could be reposts/duplicates; count them as one asking cluster, not independent leases.",
+        "The page lists nearby local bus stops, schools, medical care and grocery/retail options."
+      ],
+      "limits": [
+        "Ads do not prove occupancy, achieved rent, unique units, absorption, affordability, or a buyer path.",
+        "The page also labels 'SS7 station' about 200 m away and calls it an upcoming rail link; station type and identity are unresolved and are excluded from this G1 mechanism."
+      ]
+    },
+    {
+      "source_id": "R308-S2",
+      "candidate_ids": [
+        "R308"
+      ],
+      "publisher": "Mudah.my",
+      "title": "Kelana Mahkota property results",
+      "url": "https://www.mudah.my/property/properties-in-kelana-mahkota-selangor",
+      "source_type": "property portal results page",
+      "observed_claims": [
+        "Shows marketed 1,260 sq ft three-bedroom rental offers around RM2,300/month and identifies the project on Jalan SS 7/19.",
+        "Lists everyday amenities including medical care, schools, grocery/retail, parks and transit options; page displayed sale and rent advertisements."
+      ],
+      "limits": [
+        "Portal counts and amenities are unverified and can change; listings are not completed transactions, occupied units, or evidence of repeat demand."
+      ]
+    },
+    {
+      "source_id": "R308-S3",
+      "candidate_ids": [
+        "R308"
+      ],
+      "publisher": "Rapid Bus / MyRapid",
+      "title": "Rapid On-Demand service expansion announcement",
+      "url": "https://myrapid.com.my/wp-content/uploads/2025/11/RAPID-BUS-SIARAN-MEDIA-APLIKASI-RAPID-ON-DEMAND-CAPAI-FASA-AKHIR-PENYELARASAN-APLIKASI_V2.pdf",
+      "source_type": "official transport-operator document",
+      "observed_claims": [
+        "The document identifies Taman Bahagia Station–SS6/SS7 as a Rapid On-Demand service area/extension."
+      ],
+      "limits": [
+        "This supports an on-demand bus connection, not a rail station at SS7 or a measured walk from Kelana Mahkota. Route, service hours and current availability still need direct verification."
+      ]
+    },
+    {
+      "source_id": "R308-S4",
+      "candidate_ids": [
+        "R308"
+      ],
+      "publisher": "Rapid KL / MyRapid",
+      "title": "Klang Valley Integrated Transit Map",
+      "url": "https://myrapid.com.my/wp-content/uploads/2021/07/28102018_Transit-Map.pdf",
+      "source_type": "official rail/transit map (older issue)",
+      "observed_claims": [
+        "The map names rail stations such as Glenmarie, Lembah Subang, Ara Damansara and Taman Bahagia; it does not identify an SS7 rail station."
+      ],
+      "limits": [
+        "Older map issue and not a current route planner. Used only as a cross-check against an ambiguous portal label, not to assert present service or walking distance."
+      ]
+    }
+  ]
+}
