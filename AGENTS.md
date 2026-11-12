@@ -1,5 +1,12 @@
 # Project working instructions
 
+## Current sequential replay status — 12 November 2026
+
+The latest active release is the approved G1-G4 SOP clarification plus targeted G1 replay. Three G0 reference-only cohorts—C06, R305 and R308—pass G1 only for a narrow investigable use mechanism; each now stops at G2. All remain G9 Defer. The other122 replayed cases remain unresolved at G0; 13 earlier priority cases were not replayed. G2-G4 have not been reassessed, and the master/Core, gate sequence, financial inputs and neural map remain unchanged. See README.md, CURRENT_WORKFLOW.md and evidence-registry/README.md for the current links and validation record.
+
+When extending the replay, preserve the strict sequential funnel: at each candidate's first unresolved gate, investigate that gate only; a later conditional observation cannot pass an earlier gate. Apply [the approved G1-G4 supplement](sop/G1-G4_Qualitative_Gate_Execution_2026-11-12.md). At G3, unknown is not adverse but may remain a material unresolved risk; at G4, test exact selected-unit facts instead of borrowing project averages. Keep case evidence and source snapshots outside the master.
+
+
 The user designated https://github.com/brandonkow/core as the canonical repository for the Residential Investment Decision Engine. Keep project framework and generated research here. Conversation is Mandarin; Markdown and research artifacts remain English.
 
 Current user instruction (7 October 2026, supersedes earlier cleanup sequencing): leave all existing local copies and Recycle Bin items alone. Local cleanup is suspended and is not a prerequisite for research. All new project files and updates must be delivered to this GitHub repository. Prefer in-memory processing and direct GitHub publication; do not write new outputs into the old local research directory or create a persistent local clone. Do not alter local permissions, delete old files or resume cleanup without a new user request. Preserve the historical migration manifest and verification receipts.

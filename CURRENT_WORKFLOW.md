@@ -1,12 +1,21 @@
 # Current workflow and continuation
 
+## Latest approved G1-G4 application and replay — 12 November 2026
+
+The user approved four SOP execution clarifications without changing Core: one falsifiable observation-supported use/demand mechanism can continue at G1; one credible buyer path is enough at G2; unknown information is not adverse evidence at G3; exact selected-unit attributes are checked at G4. The [SOP supplement](sop/G1-G4_Qualitative_Gate_Execution_2026-11-12.md) records the rules.
+
+The three candidates that cleared G0 for cohort-reference research—C06 Riana South, R305 PJ Midtown and R308 Kelana Mahkota—each pass G1 narrowly on one investigable use mechanism and now stand at **G2, the first unresolved gate**. All remain G9 Defer. G2-G4 were not reassessed; no price discount, buyer depth, selected-unit quality or investment approval is inferred. The targeted evidence packet records stale/duplicated asking listings as such. For Kelana Mahkota, “SS7 station” rail proximity was excluded because official Rapid Bus material identifies the Taman Bahagia–SS6/SS7 connection as Rapid On-Demand; route and current service remain unverified.
+
+[Human-readable G1 replay](klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Use_Demand_Replay_2026-11-12.md) · [Structured replay](klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Use_Demand_Replay_2026-11-12.json) · [Targeted public-source snapshot](klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Public_Evidence_2026-11-12.json). Next: test G2 buyer path, budget, housing task and alternatives; keep G3/G4 and all later gates behind that sequential checkpoint.
+
+
 ## Approved G0 reference-price application and replay — 12 November 2026
 
 The user approved all five execution clarifications: separate project/product reference from selected-unit value; accept supported broad intervals without fixed sample counts; use G0 to validate the reference rather than require a discount; route unknowns to the gate they affect; and triangulate pre-launch projects using effective packages and relevant delivered substitutes. The [SOP supplement](sop/G0_Reference_Price_Execution_2026-11-12.md) records the standard; frozen Core and financial parameters are unchanged.
 
-The saved-evidence replay covers the125 cases last assessed on22October. **Three pass G0 for cohort reference only**—C06 Riana South, R305 PJ Midtown and R308 Kelana Mahkota. None has a validated discount. They may proceed to G1 reassessment; selected-unit G4 checks remain pending. The other122 remain unresolved at G0 for recorded material cohort/identity/rights/price-composition gaps. All three retain G9 Defer. Thirteen earlier priority dispositions were not changed in this replay. No source refresh or new financial calculation occurred.
+The saved-evidence replay covers the125 cases last assessed on22October. **Three pass G0 for cohort reference only**—C06 Riana South, R305 PJ Midtown and R308 Kelana Mahkota. None has a validated discount. At that time they could proceed to G1; the latest G1 replay above now places each at G2. Selected-unit G4 checks remain pending. The other122 remain unresolved at G0 for recorded material cohort/identity/rights/price-composition gaps. All three retain G9 Defer. Thirteen earlier priority dispositions were not changed in this replay. No source refresh or new financial calculation occurred.
 
-[Case-by-case replay and evidence](klang-valley-2026-10-07/round-3/g0-reference-calibration-2026-11-12/G0_Calibration_Replay_2026-11-12.md) · [Structured replay](klang-valley-2026-10-07/round-3/g0-reference-calibration-2026-11-12/G0_Calibration_Replay_2026-11-12.json). Next: assess G1 for the three G0-cleared cohorts under the existing G1 definition. Do not treat reference sufficiency as unit admission, a discount, or Deploy.
+[Case-by-case replay and evidence](klang-valley-2026-10-07/round-3/g0-reference-calibration-2026-11-12/G0_Calibration_Replay_2026-11-12.md) · [Structured replay](klang-valley-2026-10-07/round-3/g0-reference-calibration-2026-11-12/G0_Calibration_Replay_2026-11-12.json). The linked G1 replay above records the current next-gate status. Do not treat reference sufficiency as unit admission, a discount, or Deploy.
 
 ## 22 October checkpoint: saved-evidence reviews complete before G0 calibration (historical)
 

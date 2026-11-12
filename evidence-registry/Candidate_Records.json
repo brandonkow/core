@@ -2,7 +2,7 @@
   "version": "candidate-evidence-registry.v3",
   "created_at": "2026-10-22",
   "source_commit": "be103f4418bbfb3343826a3c4d285eb5fd9c7158",
-  "scope": "Retention/indexing only; no new underwriting, source refresh, gate pass or Core change.",
+  "scope": "Retention, evidence indexing and approved sequential gate replays; no frozen Core or financial parameter change.",
   "regional_count": 138,
   "standalone_packet_count": 2,
   "records": [
@@ -915,9 +915,34 @@
           },
           "assessment_date": "2026-11-12",
           "scope": "G0 approved broad project/product reference replay; historical facts and decisions preserved"
+        },
+        {
+          "document_id": "D182",
+          "scope": "Human-readable approved G1 replay; candidate section keyed by candidate_id."
+        },
+        {
+          "document_id": "D183",
+          "selector": {
+            "record_key": "candidate_id",
+            "expected_id": "C06"
+          },
+          "assessment_date": "2026-11-12",
+          "scope": "G1 limited mechanism pass; G2 is first unresolved gate; G2-G4 and G9 unchanged."
+        },
+        {
+          "document_id": "D184",
+          "selector": {
+            "ids": [
+              "C06-S1",
+              "C06-S2",
+              "C06-S3"
+            ]
+          },
+          "assessment_date": "2026-11-12",
+          "scope": "Targeted public source snapshots used for G1 only; advertisements are not completed leases."
         }
       ],
-      "latest_coverage": "G0_calibration_replayed_2026-11-12",
+      "latest_coverage": "G1_replayed_2026-11-12",
       "retention_status": "Baseline working input copied without reclassification; historical and available overlay records indexed by immutable commit/blob.",
       "normalisation_status": "Partial legacy fact normalisation; candidate-scoped evidence extract and specific current judgment preserved. Unknown fields remain unknown; original baseline unchanged.",
       "evidence_freshness": "Keep original event/access dates in source ledgers. Index creation is not a market refresh.",
@@ -6020,9 +6045,33 @@
           },
           "assessment_date": "2026-11-12",
           "scope": "G0 approved broad project/product reference replay; historical facts and decisions preserved"
+        },
+        {
+          "document_id": "D182",
+          "scope": "Human-readable approved G1 replay; candidate section keyed by candidate_id."
+        },
+        {
+          "document_id": "D183",
+          "selector": {
+            "record_key": "candidate_id",
+            "expected_id": "R305"
+          },
+          "assessment_date": "2026-11-12",
+          "scope": "G1 limited mechanism pass; G2 is first unresolved gate; G2-G4 and G9 unchanged."
+        },
+        {
+          "document_id": "D184",
+          "selector": {
+            "ids": [
+              "R305-S1",
+              "R305-S2"
+            ]
+          },
+          "assessment_date": "2026-11-12",
+          "scope": "Targeted public source snapshots used for G1 only; advertisements are not completed leases."
         }
       ],
-      "latest_coverage": "G0_calibration_replayed_2026-11-12",
+      "latest_coverage": "G1_replayed_2026-11-12",
       "retention_status": "Baseline working input copied without reclassification; historical and available overlay records indexed by immutable commit/blob.",
       "normalisation_status": "Partial legacy fact normalisation; candidate-scoped evidence extract and specific current judgment preserved. Unknown fields remain unknown; original baseline unchanged.",
       "evidence_freshness": "Keep original event/access dates in source ledgers. Index creation is not a market refresh.",
@@ -6449,9 +6498,35 @@
           },
           "assessment_date": "2026-11-12",
           "scope": "G0 approved broad project/product reference replay; historical facts and decisions preserved"
+        },
+        {
+          "document_id": "D182",
+          "scope": "Human-readable approved G1 replay; candidate section keyed by candidate_id."
+        },
+        {
+          "document_id": "D183",
+          "selector": {
+            "record_key": "candidate_id",
+            "expected_id": "R308"
+          },
+          "assessment_date": "2026-11-12",
+          "scope": "G1 limited mechanism pass; G2 is first unresolved gate; G2-G4 and G9 unchanged."
+        },
+        {
+          "document_id": "D184",
+          "selector": {
+            "ids": [
+              "R308-S1",
+              "R308-S2",
+              "R308-S3",
+              "R308-S4"
+            ]
+          },
+          "assessment_date": "2026-11-12",
+          "scope": "Targeted public source snapshots used for G1 only; advertisements are not completed leases."
         }
       ],
-      "latest_coverage": "G0_calibration_replayed_2026-11-12",
+      "latest_coverage": "G1_replayed_2026-11-12",
       "retention_status": "Baseline working input copied without reclassification; historical and available overlay records indexed by immutable commit/blob.",
       "normalisation_status": "Partial legacy fact normalisation; candidate-scoped evidence extract and specific current judgment preserved. Unknown fields remain unknown; original baseline unchanged.",
       "evidence_freshness": "Keep original event/access dates in source ledgers. Index creation is not a market refresh.",
@@ -21451,17 +21526,44 @@
       "path": "sop/Decision_Proportionate_Evidence_2026-10-18.md",
       "commit": "22cbacaf952968a17a5e3b31e41d0a2d468d51d2",
       "git_blob_sha": "fd6b7eb251fdac3733f0eeded765f9c26a16ee2d"
+    },
+    "D181": {
+      "path": "sop/G1-G4_Qualitative_Gate_Execution_2026-11-12.md",
+      "commit": "fa86f3b932593f55e0a4ec4ec23d31fa849e2acc",
+      "git_blob_sha": "584476de6b6ae84152836a65ee849ba3ff057abf"
+    },
+    "D182": {
+      "path": "klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Use_Demand_Replay_2026-11-12.md",
+      "commit": "fa86f3b932593f55e0a4ec4ec23d31fa849e2acc",
+      "git_blob_sha": "5b5c04d9f3941ba617aa171cac96931af4dd9ada"
+    },
+    "D183": {
+      "path": "klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Use_Demand_Replay_2026-11-12.json",
+      "commit": "fa86f3b932593f55e0a4ec4ec23d31fa849e2acc",
+      "git_blob_sha": "c844add8831c395db420bc76131712bb1dec1cbe"
+    },
+    "D184": {
+      "path": "klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Public_Evidence_2026-11-12.json",
+      "commit": "fa86f3b932593f55e0a4ec4ec23d31fa849e2acc",
+      "git_blob_sha": "5673e8e77ae63396de2b0bf1bba7ff11ed8948a9"
     }
   },
   "updated_at": "2026-11-12",
   "latest_release": {
     "date": "2026-11-12",
     "g0_replay_document": "D178",
-    "scope": "125 previously assessed candidate records",
+    "g1_replay_document": "D183",
+    "g1_human_report_document": "D182",
+    "g1_rule_document": "D181",
+    "source_snapshot_document": "D184",
+    "scope": "Saved-evidence G0 replay for 125 cases plus targeted G1 replay for the three G0 reference-only passes.",
     "g0_reference_only_passes": 3,
     "g0_unresolved": 122,
+    "g1_limited_passes": 3,
+    "first_unresolved_gate_after_g1": "G2",
+    "g2_g4_reassessed": false,
     "earlier_priority_cases_not_replayed": 13,
-    "changed_financial_inputs": 0,
+    "financial_inputs_changed": 0,
     "core_changed": false
   }
 }

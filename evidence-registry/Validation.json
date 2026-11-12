@@ -4,8 +4,8 @@
   "g0_replay_commit": "22cbacaf952968a17a5e3b31e41d0a2d468d51d2",
   "unique_regional_candidates": 138,
   "standalone_packets": 2,
-  "document_blobs": 180,
-  "resolved_document_references": 2621,
+  "document_blobs": 184,
+  "resolved_document_references": 2630,
   "preserved_input_exact_matches": 138,
   "previous_registry_documents_preserved": true,
   "prior_records_and_historical_assessments_preserved": true,
@@ -20,5 +20,15 @@
   "core_and_master_changed": false,
   "financial_parameters_changed": false,
   "map_changed": false,
-  "validation_scope": "Registry references and replay coverage/status consistency; no independent market verification, all138 calibration replay or arithmetic model rerun."
+  "validation_scope": "Registry reference and replay coverage/status consistency for three sequential G1 replays. Public source claims are captured with limits; no selected-unit site inspection, lease verification, route verification, G2-G4 reassessment, all138 calibration replay or financial arithmetic rerun.",
+  "g1_replay_packet_commit": "fa86f3b932593f55e0a4ec4ec23d31fa849e2acc",
+  "g1_reviewed_candidates": 3,
+  "g1_limited_mechanism_passes": 3,
+  "first_unresolved_gate_after_g1": "G2",
+  "g2_g4_reassessed": false,
+  "g9_decisions_changed": 0,
+  "remaining_g0_unresolved": 122,
+  "targeted_public_source_snapshot_count": 9,
+  "targeted_public_source_review_candidates": 3,
+  "full_regional_source_refresh": false
 }
