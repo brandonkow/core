@@ -1,10 +1,17 @@
 # Current workflow and continuation
 
-## All125 remaining saved-evidence reviews complete — 22 October 2026
+## Approved G0 reference-price application and replay — 12 November 2026
 
-[Completed reassessment](klang-valley-2026-10-07/round-3/remaining-125-reassessment-2026-10-22/README.md):125/125 individually reviewed against retained evidence, with four targeted public counterchecks. Together with the prior13 dispositions, all138 regional expressions now have research dispositions (136 substantive current-sequence reviews and2 reused probes). This is not138 freshly surveyed offers or executable investment approval. No new admission; the125 remain G0 unresolved/G9 Defer for case-specific reasons. Prior pending-count entries below are historical and superseded.
+The user approved all five execution clarifications: separate project/product reference from selected-unit value; accept supported broad intervals without fixed sample counts; use G0 to validate the reference rather than require a discount; route unknowns to the gate they affect; and triangulate pre-launch projects using effective packages and relevant delivered substitutes. The [SOP supplement](sop/G0_Reference_Price_Execution_2026-11-12.md) records the standard; frozen Core and financial parameters are unchanged.
 
-[Calibration agenda](klang-valley-2026-10-07/round-3/remaining-125-reassessment-2026-10-22/Calibration_Agenda.md) is the next discussion. No G0-G9 loosening, Core/SOP parameter or map change has been applied. Source provenance, observations, countertests, current-SOP financial references and old/new assessment versions are saved in the candidate registry. Replay saved evidence first after approved rule changes; supplement only material stale/missing facts. No regional batch remains in this saved-evidence queue. Execution documents, actual funding and realised outcomes remain separate and unverified. No outreach/background work.
+The saved-evidence replay covers the125 cases last assessed on22October. **Three pass G0 for cohort reference only**—C06 Riana South, R305 PJ Midtown and R308 Kelana Mahkota. None has a validated discount. They may proceed to G1 reassessment; selected-unit G4 checks remain pending. The other122 remain unresolved at G0 for recorded material cohort/identity/rights/price-composition gaps. All three retain G9 Defer. Thirteen earlier priority dispositions were not changed in this replay. No source refresh or new financial calculation occurred.
+
+[Case-by-case replay and evidence](klang-valley-2026-10-07/round-3/g0-reference-calibration-2026-11-12/G0_Calibration_Replay_2026-11-12.md) · [Structured replay](klang-valley-2026-10-07/round-3/g0-reference-calibration-2026-11-12/G0_Calibration_Replay_2026-11-12.json). Next: assess G1 for the three G0-cleared cohorts under the existing G1 definition. Do not treat reference sufficiency as unit admission, a discount, or Deploy.
+
+## 22 October checkpoint: saved-evidence reviews complete before G0 calibration (historical)
+
+At the time of that checkpoint all125 were G0 unresolved. The12November G0 replay above supersedes that status. The original [October reassessment](klang-valley-2026-10-07/round-3/remaining-125-reassessment-2026-10-22/README.md) and its case dispositions remain preserved as the pre-calibration record. Four targeted public counterchecks were completed then; this was not125 fresh current-offer surveys.
+
 
 
 ## Candidate evidence retained for future rule replay — 22 October 2026
