@@ -19,8 +19,8 @@
   "new_gate_admissions": 0,
   "core_and_master_changed": false,
   "financial_parameters_changed": false,
-  "map_changed": false,
-  "validation_scope": "Registry reference and replay coverage/status consistency for three sequential G1 replays. Public source claims are captured with limits; no selected-unit site inspection, lease verification, route verification, G2-G4 reassessment, all138 calibration replay or financial arithmetic rerun.",
+  "map_changed": true,
+  "validation_scope": "Registry reference and replay coverage/status consistency for three sequential G1 replays. Public source claims are captured with limits; no selected-unit site inspection, lease verification, route verification, G2-G4 reassessment, all138 calibration replay or financial arithmetic rerun. Neural map wording and current-status panel were synchronized; interactive/source checks run in the decision-map GitHub Actions workflow.",
   "g1_replay_packet_commit": "fa86f3b932593f55e0a4ec4ec23d31fa849e2acc",
   "g1_reviewed_candidates": 3,
   "g1_limited_mechanism_passes": 3,
@@ -30,5 +30,6 @@
   "remaining_g0_unresolved": 122,
   "targeted_public_source_snapshot_count": 9,
   "targeted_public_source_review_candidates": 3,
-  "full_regional_source_refresh": false
+  "full_regional_source_refresh": false,
+  "neural_map_source_updated": true
 }
