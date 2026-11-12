@@ -1,12 +1,18 @@
 # Residential Investment Decision Engine
 
+## Latest approved G5-G9 execution boundaries — 12 November 2026
+
+The user approved five SOP application clarifications for the existing G5-G9 gates. They distinguish supported fair-price theses from recoverable-discount claims; require a realistic primary exit path and failure test; keep standard, actual and forced-hold financing views separate under current Financial SOP v2; distinguish synthetic from actual portfolio allocation; and preserve only the four existing G9 decisions. The [approved SOP supplement](sop/G5-G9_Execution_Boundary_2026-11-12.md) does not change or reorder Core, gates or financial parameters.
+
+The three cases last replayed through G1 remain parked at G2 at the user's direction. This approval does not replay them, promote any gate, or change any case disposition.
+
 ## Latest approved G1-G4 application and replay — 12 November 2026
 
 The user approved four SOP execution clarifications without changing Core: one falsifiable observation-supported use/demand mechanism can continue at G1; one credible buyer path is enough at G2; unknown information is not adverse evidence at G3; exact selected-unit attributes are checked at G4. The [SOP supplement](sop/G1-G4_Qualitative_Gate_Execution_2026-11-12.md) records the rules.
 
 The three candidates that cleared G0 for cohort-reference research—C06 Riana South, R305 PJ Midtown and R308 Kelana Mahkota—each pass G1 narrowly on one investigable use mechanism and now stand at **G2, the first unresolved gate**. All remain G9 Defer. G2-G4 were not reassessed; no price discount, buyer depth, selected-unit quality or investment approval is inferred. The targeted evidence packet records stale/duplicated asking listings as such. For Kelana Mahkota, “SS7 station” rail proximity was excluded because official Rapid Bus material identifies the Taman Bahagia–SS6/SS7 connection as Rapid On-Demand; route and current service remain unverified.
 
-[Human-readable G1 replay](klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Use_Demand_Replay_2026-11-12.md) · [Structured replay](klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Use_Demand_Replay_2026-11-12.json) · [Targeted public-source snapshot](klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Public_Evidence_2026-11-12.json). Next: test G2 buyer path, budget, housing task and alternatives; keep G3/G4 and all later gates behind that sequential checkpoint. The [interactive decision neural map](https://brandonkow.github.io/core/) and its [HTML source](visualization/Decision_Engine_Neural_Map.html) now reflect these approved G0-G4 execution clarifications and the current three-case G1 position. The [live verification receipt](delivery/Neural_Map_Live_Verification_2026-11-12.md) records the successful deployment and matching page digest.
+[Human-readable G1 replay](klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Use_Demand_Replay_2026-11-12.md) · [Structured replay](klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Use_Demand_Replay_2026-11-12.json) · [Targeted public-source snapshot](klang-valley-2026-10-07/round-3/g1-use-demand-replay-2026-11-12/G1_Public_Evidence_2026-11-12.json). The user has parked these three cases at G2; no G2-G9 case work is part of this SOP update. The [interactive decision neural map](https://brandonkow.github.io/core/) and its [HTML source](visualization/Decision_Engine_Neural_Map.html) now reflect the approved G0-G9 execution clarifications and the current three-case G1 position. The [live verification receipt](delivery/Neural_Map_Live_Verification_2026-11-12.md) records the successful deployment and matching page digest.
 
 
 ## Approved G0 reference-price application and replay — 12 November 2026
