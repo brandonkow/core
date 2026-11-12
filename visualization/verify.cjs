@@ -29,6 +29,7 @@ const expected = {
 "sop/Decision_Proportionate_Evidence_2026-10-18.md":"1c0095569eec09f5ab3fee951c82829cf6163f9ff42af627243b14907134da6e",
 "sop/G0_Reference_Price_Execution_2026-11-12.md":"b7628d0b16d7b7a634739f645811ff9f245bc99c2ee37ea44d7aa0d755e14a4a",
 "sop/G1-G4_Qualitative_Gate_Execution_2026-11-12.md":"6258d5dee04e8c8cca430f5eb6e88c1c4cfd5ee93c73f5630e58b55fada1fc40",
+"sop/G5-G9_Execution_Boundary_2026-11-12.md":"d196a0b32239ae27efbe4b2ba855899678d280031c851c463281ee7404a5dce6",
 "sop/Financial_Execution_SOP_v2.md":"4cfb60515716c9e428a49bdcc8a403155c8132561f51a0621ca5afcc01ef9359",
 "sop/Financial_Execution_Parameters_v2.json":"ec09c022a73c318a9dfc0d69a0865d7d443151a3bc1c9872bffb2cfe48235c5e",
 "sop/Funnel_Execution_Reporting_2026-10-16.md":"e8956644a3001f640572dcb0963d9529dbe1986563999eea8ef33ec0d283ae2b",
