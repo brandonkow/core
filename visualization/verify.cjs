@@ -52,11 +52,18 @@ for (const [file,hash] of Object.entries(expected)) {
 const norm = s => s.replace(/^[ \t]*(?:[-*]|\d+\.)\s+/gm,'').replace(/[*_\x60>#;:.,]/g,'').replace(/\s+/g,' ').trim();
 const strictNorm = s => s.replace(/[*_\x60>#]/g,'').replace(/\s+/g,' ').trim();
 const sourceFor = label => label.startsWith('Master') ? 'Residential_Investment_Framework.md' :
+ label.startsWith('G0 execution supplement') ? 'sop/G0_Reference_Price_Execution_2026-11-12.md' :
+ label.startsWith('G1-G4 execution supplement') ? 'sop/G1-G4_Qualitative_Gate_Execution_2026-11-12.md' :
  label.startsWith('Execution supplement') ? 'sop/Approved_Execution_Supplement.md' :
  label.startsWith('Execution standard') ? 'execution-release-2026-10-07/Decision_Execution_Standard.md' : null;
 const quotes = [];
 for(const n of Object.values(app.N)) {
-  for(const key of ['q','stop','watch','packet','partial']) if(n[key]) quotes.push([n.id || n.code || n.label,key,n[key], key === 'packet' || key === 'partial' ? 'Execution standard' : n.src]);
+  for(const key of ['q','stop','watch','packet','partial']) if(n[key]) {
+    const label = key === 'packet' && n.id === 'G0' ? 'G0 execution supplement' :
+      key === 'packet' && n.id === 'G2' ? 'G1-G4 execution supplement' :
+      key === 'packet' || key === 'partial' ? 'Execution standard' : n.src;
+    quotes.push([n.id || n.code || n.label,key,n[key],label]);
+  }
 }
 for(const [i,s] of app.STEPS.entries()) for(const key of ['q','stop','cond'])
   if(s[key]) quotes.push(['step '+i,key,s[key],s.src]);
