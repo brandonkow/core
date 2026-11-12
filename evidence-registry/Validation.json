@@ -20,7 +20,7 @@
   "core_and_master_changed": false,
   "financial_parameters_changed": false,
   "map_changed": true,
-  "validation_scope": "Registry reference and replay coverage/status consistency for three sequential G1 replays. Public source claims are captured with limits; no selected-unit site inspection, lease verification, route verification, G2-G4 reassessment, all138 calibration replay or financial arithmetic rerun. Neural map wording and current-status panel were synchronized; interactive/source checks run in the decision-map GitHub Actions workflow.",
+  "validation_scope": "Registry reference and replay coverage/status consistency for three sequential G1 replays. Public source claims are captured with limits; no selected-unit site inspection, lease verification, route verification, G2-G4 reassessment, all138 calibration replay or financial arithmetic rerun. Neural map wording and current-status panel were synchronized; interactive/source checks run in the decision-map GitHub Actions workflow. Final workflow run 43199148535 passed, Pages deployment succeeded, and the live response returned HTTP 200 with an exact source SHA-256 match.",
   "g1_replay_packet_commit": "fa86f3b932593f55e0a4ec4ec23d31fa849e2acc",
   "g1_reviewed_candidates": 3,
   "g1_limited_mechanism_passes": 3,
@@ -31,5 +31,16 @@
   "targeted_public_source_snapshot_count": 9,
   "targeted_public_source_review_candidates": 3,
   "full_regional_source_refresh": false,
-  "neural_map_source_updated": true
+  "neural_map_source_updated": true,
+  "neural_map_verification_run_id": 43199148535,
+  "neural_map_verification_url": "https://github.com/brandonkow/core/actions/runs/43199148535",
+  "neural_map_verification_conclusion": "success",
+  "neural_map_source_commit": "935aca73ccc7aa5b4f316904b3333f6b345cc743",
+  "neural_map_live_url": "https://brandonkow.github.io/core/",
+  "neural_map_live_http_status": 200,
+  "neural_map_live_content_type": "text/html; charset=utf-8",
+  "neural_map_live_utf8_bytes": 168715,
+  "neural_map_live_sha256": "83fc61cfb1535ebdc5db628e57d756492cebc43bbfd2d19584cf4fd36bed8f81",
+  "neural_map_source_sha256": "83fc61cfb1535ebdc5db628e57d756492cebc43bbfd2d19584cf4fd36bed8f81",
+  "neural_map_live_exact_source_match": true
 }
