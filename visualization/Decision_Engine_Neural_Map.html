@@ -349,7 +349,7 @@ const F = {
   PRIVACY:'sop/Tenant_Privacy_and_Exit_Demand_Addendum_2026-10-11.md',
   JUDGMENT:'sop/Post_Completion_Market_Judgment_Execution_2026-10-14.md'
 };
-const CURRENT = {"asOf":"2026-11-12","sourceCommit":"main","sourcePath":"klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18","cases":138,"areas":61,"projects":122,"admitted":0,"deploy":0,"firstStop":"G0","priorityDossiers":13,"outreach":"Paused; no enquiries sent","forwardReview":"2027-10-06","g0Replayed":125,"g0ReferenceOnly":3,"g0Unresolved":122,"g1Passes":3,"g2Next":3,"g9Defer":3,"earlierPriorityNotReplayed":13};
+const CURRENT = {"asOf":"2026-11-12","sourceCommit":"956aca7ae42578233d346c80fbbfe5b4be995c85","latestEvidenceCommit":"7a6d7ce02e4413baf8a2061cb6294d34319631b7","sourcePath":"klang-valley-2026-10-07/round-3/execution-closeout-2026-10-18","cases":138,"areas":61,"projects":122,"admitted":0,"deploy":0,"firstStop":"G0","priorityDossiers":13,"outreach":"Paused; no enquiries sent","forwardReview":"2027-10-06","g0Replayed":125,"g0ReferenceOnly":3,"g0Unresolved":122,"g1Passes":3,"g2Next":3,"g9Defer":3,"earlierPriorityNotReplayed":13};
 const LAYER_NAME = {in:'01 Input', det:'02 Detect', cell:'02 Detect · polarity', inv:'03 Investigate', bus:'03 → 04 Interpretation', core:'04 Core', gate:'05 Gate', sop:'06 SOP', dec:'07 G9 output', prio:'07 Output', role:'07 Role', lane:'08 Learn'};
 
 /* ------------------------------------------------------------------ nodes */
@@ -1394,7 +1394,9 @@ function drawStep(){
 }
 function drawCurrent(){
   const repo = 'https://github.com/brandonkow/core/blob/' + CURRENT.sourceCommit + '/';
+  const latestRepo = 'https://github.com/brandonkow/core/blob/' + CURRENT.latestEvidenceCommit + '/';
   const link = (path,label) => '<a href="'+repo+path+'" target="_blank" rel="noopener noreferrer">'+esc(label)+'</a>';
+  const latestLink = (path,label) => '<a href="'+latestRepo+path+'" target="_blank" rel="noopener noreferrer">'+esc(label)+'</a>';
   drawerBody.innerHTML = `<div class="dz">
     <p class="eyebrow">Execution overlay · ${CURRENT.asOf}</p>
     <h2>Current SOP & programme progress</h2>
@@ -1414,7 +1416,7 @@ function drawCurrent(){
       <li><strong>G1:</strong> one falsifiable, observation-supported housing-use mechanism is enough to investigate further. <strong>G2:</strong> one credible buyer path is enough, including investor-only; define budget, task and alternatives.</li>
       <li><strong>G3:</strong> unknown is not adverse, and a decision-material unknown remains unresolved. <strong>G4:</strong> inspect the exact selected unit; do not inherit project averages.</li>
     </ul>
-    <p>${link(F.G0REF,'Approved G0 supplement')} · ${link(F.G1G4,'Approved G1-G4 supplement')} · ${link(F.G1REPLAY,'Three-case G1 replay')} · ${link(F.G1JSON,'Structured replay')} · ${link(F.G1EVIDENCE,'Public-source snapshot')}</p>
+    <p>${latestLink(F.G0REF,'Approved G0 supplement')} · ${latestLink(F.G1G4,'Approved G1-G4 supplement')} · ${latestLink(F.G1REPLAY,'Three-case G1 replay')} · ${latestLink(F.G1JSON,'Structured replay')} · ${latestLink(F.G1EVIDENCE,'Public-source snapshot')}</p>
     <h3>Preserved admission snapshot</h3>
     <ul class="plain" id="programme-status">
       <li><strong>${CURRENT.cases} / ${CURRENT.cases}</strong> base financial replays complete across ${CURRENT.areas} catchments / ${CURRENT.projects} project groups.</li>
