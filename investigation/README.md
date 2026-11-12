@@ -12,7 +12,7 @@ Evidence status, task completion, scenario economics and reviewer assessments ar
 
 ## Source authority
 
-engine.mjs is extracted verbatim from the latest map at source commit `76f018598a8fb8feba518cb3db0b691d42076aa3`, 18 October 2026. FORM, BASE, PRESETS, evaluate, calcStandard and gateTrace retain the map's precedence and gross/nett standard. Tests compare the extracted block against the current map. Source changes fail that check until reconciled.
+engine.mjs mirrors the decision map's FORM, BASE, PRESETS, evaluate, calcStandard and gateTrace block from source commit `62e11c9b4730e5547b8963db7941be94c079bb9d`, 12 November 2026. The map is authoritative; tests require the extracted block and mirror to match exactly.
 
 No frozen Core, G0–G9, SOP parameter or research-admission change. G0 is normalised clearing price, not a catch-all evidence gate. G5 is blocked until G0–G4 survive. Independent structural failure and allocation constraints retain Reject/Preserve Capacity precedence. Full underwriting is not replaced by the narrow calculator.
 
