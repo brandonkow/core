@@ -1,4 +1,4 @@
-// Extracted without changes from the 18 October 2026 decision map. Run tests to verify parity.
+// Extracted from the 12 November 2026 decision map source commit 62e11c9b4730e5547b8963db7941be94c079bb9d. The map is authoritative; this mirror preserves exact decision inputs and precedence.
 const FORM = [
   ['div','Divergence flag',[['none','None material'],['resolved','Resolved'],['partial','Partially resolved'],['unresolved','Unresolved']]],
   ['residual','Residual divergence test',[['no','Not demonstrated'],['yes','Gate-compatible; adverse explanation survived']]],
@@ -8,11 +8,11 @@ const FORM = [
   ['G3','G3 · project quality',[['ok','Supported'],['unk','Unknown'],['fail','Established hard-gate failure']]],
   ['G4','G4 · unit quality',[['ok','Supported'],['unk','Unknown'],['fail','Established structural failure']]],
   ['G5','G5 · price gap',[['val','Validated, recoverable'],['fair','Fair price, no discount claimed'],['unk','Gap unexplained']]],
-  ['G6','G6 · exit',[['ok','Independent exits'],['single','Single-point exit'],['unk','Unknown'],['fail','Established exit failure']]],
-  ['G7','G7 · financing & forced hold',[['ok','Survives stress'],['unk','Unknown'],['fail','Established structural failure']]],
+  ['G6','G6 · exit',[['ok','Primary path supported; failure tested'],['single','Single-point exit flagged'],['unk','Unknown'],['fail','Established exit failure']]],
+  ['G7','G7 · financing & forced hold',[['ok','Risk fundable under stress'],['unk','Unknown'],['fail','Established structural failure']]],
   ['cov','Standard coverage 90·4·35',[['pos','Non-negative'],['neg','Shortfall'],['unv','Unverified']]],
   ['tr','Shortfall transition record',[['no','Not evidenced'],['yes','Fully evidenced']]],
-  ['G8','G8 · portfolio',[['ok','Fits mandate'],['unk','Unknown'],['cap','Allocation constraint']]],
+  ['G8','G8 · portfolio',[['ok','Actual mandate supported'],['unk','Unknown'],['cap','Demonstrated allocation constraint']]],
   ['role','Declared role',[['comp','Compounder'],['defu','Defensive utility'],['spec','Special situation'],['inc','Income engine']]]
 ];
 const BASE = {div:'none',residual:'no',G0:'ok',G1:'ok',G2:'ok',G3:'ok',G4:'ok',G5:'fair',G6:'ok',G7:'ok',cov:'pos',tr:'no',G8:'ok',role:'comp'};
@@ -120,5 +120,3 @@ function gateTrace(gs){
   return {prefix,firstStop,conditional};
 }
 
-
-export { FORM, BASE, PRESETS, ROLE_NAME, evaluate, calcStandard, gateTrace };
