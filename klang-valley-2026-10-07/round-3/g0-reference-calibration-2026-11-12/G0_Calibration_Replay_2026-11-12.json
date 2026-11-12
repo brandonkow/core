@@ -1,0 +1,2303 @@
+{
+  "version": "G0-interpretation-replay-2026-11-12-v1",
+  "rule_file": "sop/G0_Reference_Price_Execution_2026-11-12.md",
+  "baseline_commit": "0a19cabd1d5024dd6c08bae7b9c9940178e6c47b",
+  "created_at": "2026-11-12",
+  "candidate_scope": "125 saved-evidence candidates from the 22 October reassessment; the other13 priority assessments were not changed in this replay.",
+  "criteria_approved_by_user": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "summary": {
+    "reviewed": 125,
+    "reference_only_pass": 3,
+    "unresolved_G0": 122,
+    "G1_G9_changes": 0,
+    "financial_inputs_changed": 0,
+    "new_market_surveys": 0,
+    "validated_discounts": 0,
+    "deployed": 0
+  },
+  "cases": [
+    {
+      "candidate_id": "C01",
+      "name": "M Vertica",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "cheras/Cheras_G0_G9_Cases.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 850sf publisher rows are more useful than the mixed project median, but primary-sale/package and address-mapping contamination remain material; 489k versus the 500k low observation is only a small raw gap.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "C02",
+      "name": "Shamelin Star",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "cheras/Cheras_G0_G9_Cases.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The smaller 980sf 620k/640k leads do not directly establish the 1054sf expression's clearing band; transaction count alone is not the obstacle.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "C03",
+      "name": "EkoCheras duplex",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "cheras/Cheras_G0_G9_Cases.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 762sf reported prices span 465k-587k across 2025-26 and inconsistent room labels; 520k lies inside that raw envelope. Duplex/tower mapping, not a mandatory lease, is the valuation issue.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "C04",
+      "name": "Aster Type B",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "cheras/Cheras_G0_G9_Cases.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Cochrane geocoding and Type-B/807-810sf mapping require reconciliation before a coherent comparator cohort can be selected; a 3sf difference alone is not disqualifying.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "C05",
+      "name": "Maxim Residences",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "cheras/Cheras_G0_G9_Cases.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 1033sf lower-tail evidence cannot yet explain the 1050sf subject's 480k consideration; neither mixed medians nor the smaller Maxim case substitute for normalisation.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "C06",
+      "name": "Riana South",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "cheras/Cheras_G0_G9_Cases.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "G0_PASS_REFERENCE_ONLY",
+        "first": "G1",
+        "prefix": [
+          "G0"
+        ],
+        "band": {
+          "low": 603000,
+          "high": 620000,
+          "currency": "MYR",
+          "scope": "reported 947-sq-ft Riana South transaction cohort, July-October 2025; not selected-unit normalized value"
+        },
+        "price": 595000,
+        "reason": "The retained evidence includes same-project 947-sq-ft reported transactions at RM603,000 (July 2025, duplicate row counted once) and RM620,000 (October 2025). The RM595,000 September 2026 asking expression is close to the observed cohort; broad reference suffices for further market-mechanism research. No discount is validated. Floor, exact bays, condition and effective seller terms remain unit-level or execution checks."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "C07",
+      "name": "Green Residence",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "cheras/Cheras_G0_G9_Cases.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Larger-unit transfers cannot be scaled linearly to the 1127sf expression without evidence of quantum and configuration effects.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "C08",
+      "name": "Windows on the Park large",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "cheras/Cheras_G0_G9_Cases.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 2497sf expression needs its own high-quantum cohort; the smaller Windows unit is a budget substitute, not a direct price anchor.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "C09",
+      "name": "Scot Pine",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "cheras/Cheras_G0_G9_Cases.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Sparse older records and alias matching leave the 1743sf cohort weakly bounded; no minimum transaction count is imposed.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV02",
+      "name": "Lavile Kuala Lumpur",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/Selected_Case_Workpapers.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 750sf furnished inventory is not normalised to a cleared like-condition cohort; central-city medians and Eko duplex prices are not equivalent anchors.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV03",
+      "name": "Akasa",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/Selected_Case_Workpapers.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 850sf subject value cannot be borrowed from the 1152sf cohort; sale/rent furnishing mismatch is separately an income and fit-out issue.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV04",
+      "name": "You Vista",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/Selected_Case_Workpapers.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The starting-price multi-unit expression does not identify a single effective 847sf offer; near-850sf rental evidence is not itself a price blocker.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV05",
+      "name": "Emerald Residence",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/Selected_Case_Workpapers.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The Mahkota versus Teluk Kumbar alias and separate 1130sf auction prevent borrowing a clean 1161sf ordinary-sale reference.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV06",
+      "name": "Windows on the Park",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/Selected_Case_Workpapers.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 916sf cohort remains unbounded; the sale's one bay and rental's tandem two bays must be separated in value and income adjustments.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R243",
+      "name": "Shamelin Star",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R243.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 720sf two-bay sale and 774sf one-bay rental do not establish price normalisation; 2200 remains an analyst rent scenario.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R244",
+      "name": "Emerald Hills",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R244.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 840sf sale lacks a supported clearing interval; different furnished and bay packages are distinct comparisons.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R245",
+      "name": "Landmark Residence 2",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R245.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 498sf versus 450sf and the sale-index lineage require product reconciliation; the locality label cannot supply reference value.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R304",
+      "name": "Silk Sky 484-sf compact control",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/Contrasting_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 484sf compact needs ordinary-sale comparables; 732sf asking rent is a functional alternative, not its valuation anchor.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R362",
+      "name": "Astaka Heights 1115-sf older family control",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b01-b02-final/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Astaka naming and the erroneous luxury-return profile must be isolated before using 1115sf references.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R363",
+      "name": "Prima Midah Heights 1460-sf mature family control",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b01-b02-final/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 1460sf family expression lacks its own bounded price cohort; conflicting tower/unit counts are project-context issues, not automatic rejection.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R364",
+      "name": "Damai Hillpark 1020-sf family index control",
+      "batch": "B01",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b01-b02-final/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 390k ordinary lead is distinct from the old 400k and separately restricted advertiser; do not transfer Bumi restrictions between listings.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV07",
+      "name": "Citizen 2",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/Selected_Case_Workpapers.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Citizen and Citizen 2, and 725sf versus 883sf families, cannot be pooled; advertised type/price conflict needs reconciliation.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R201",
+      "name": "Kuchai Avenue",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R201.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 935sf ordinary-sale price has no bounded matched clearing reference in the retained packet; absent paid rent is not the G0 reason.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R202",
+      "name": "OUG Parklane",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R202.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Phase-specific 950sf clearing remains unbounded; 900sf furnished rent belongs to a separate income comparison.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R203",
+      "name": "Desa Green",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R203.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Matched advertised 578sf size and furnishing improve comparability but do not establish effective sale prices or inventory equivalence.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R204",
+      "name": "Endah Promenade",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R204.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 739sf clearing cohort is not yet bounded; partial-versus-full furnishing and two-bay upper rent must not be treated as the same package.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R205",
+      "name": "Aurora Suites Bukit Jalil",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R205.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 384sf index needs component and whole-parcel identification before a residential clearing reference can be chosen.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R206",
+      "name": "Trion KL",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R206.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The advertised sale and seller's tenancy statement do not supply a normalised clearing interval; independent rent confirmation is a later income task.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R301",
+      "name": "Desa Green 715-sf two-bedroom control",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/Contrasting_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 430k header versus crossed 480k needs effective-price interpretation; this does not mean only a signed offer can support research.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R302",
+      "name": "The Tropika 732-sf two-bedroom control",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/Contrasting_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 710sf three-room records and 732sf two-bedroom subject need plan/size interpretation; 15 mixed transfers cannot be treated as its price distribution.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R303",
+      "name": "M Oscar 708-sf two-bedroom control",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/Contrasting_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 710sf 450k vendor record is a usable adverse lead, but fallback area/type fields prevent treating it as a directly matched trade; the old 479k offer is historical.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R365",
+      "name": "Arena Green 730-sf residential two-bedroom control",
+      "batch": "B02",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b01-b02-final/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 730sf and 726sf bathroom/configuration differences require interpretation before transferring values; the fee buffer is not a confirmed bill.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV08",
+      "name": "Pacific Place",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: An ordinary 864sf clearing interval remains missing, but a collected lease is not a prerequisite for price research.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R207",
+      "name": "PJ8",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 685sf reference value remains unbounded; 625/667sf rental comparisons belong to income normalisation, not a standalone G0 veto.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R209",
+      "name": "Ken Damansara",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 2+1 versus three-bedroom configuration affects the appropriate price cohort; no funded premium for the study is established.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R210",
+      "name": "Sterling",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Restricted/auction prices cannot set unrestricted 1259sf ordinary clearing; current ordinary references remain insufficiently reconciled.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R211",
+      "name": "Tropicana Avenue",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 660sf study/bay/furnishing package needs a matched sale cohort; rental mismatches are separately costed evidence tasks.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R212",
+      "name": "Encorp Strand Residence",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Tenure boilerplate and studio/two-bedroom labelling make the 640sf cohort uncertain.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R305",
+      "name": "PJ Midtown",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "G0_PASS_REFERENCE_ONLY",
+        "first": "G1",
+        "prefix": [
+          "G0"
+        ],
+        "band": {
+          "low": 700000,
+          "high": 881000,
+          "currency": "MYR",
+          "scope": "reported 915-sq-ft PJ Midtown transaction observations, March 2026 and 2025; coarse same-size cohort envelope, not a trend or selected-unit value"
+        },
+        "price": 690000,
+        "reason": "The retained source record contains a same-size RM700,000 March 2026 transfer and several reported 2025 915-sq-ft observations around RM842,000-RM881,000. This supports a wide product-level reference. The RM690,000 ask sits only RM10,000 below the lower observation; the spread and source lineage do not support a discount claim. No averaging or independent-source multiplication. Exact bay rights, furnishing, floor and condition remain open at G4."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R307",
+      "name": "Eve Suite two-bedroom",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 1065/1068sf difference need not block research, but a mixed Eve median does not price the two-bedroom family.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R308",
+      "name": "Kelana Mahkota",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "G0_PASS_REFERENCE_ONLY",
+        "first": "G1",
+        "prefix": [
+          "G0"
+        ],
+        "band": {
+          "low": 500000,
+          "high": 600000,
+          "currency": "MYR",
+          "scope": "reported 1,216-sq-ft Kelana Mahkota transaction observations, Aug-Nov 2025, used as a broad same-project near-size reference for marketed 1,260-sq-ft stock"
+        },
+        "price": {
+          "low": 489999,
+          "high": 499000
+        },
+        "reason": "The retained packet has four reported 1,216-sq-ft transactions at RM500,000, RM528,000, RM550,000 and RM600,000. The marketed unit is 1,260 sq ft, a 3.6% size difference; header/body prices are kept as the RM489,999-RM499,000 branch. The wide near-size cohort is enough to continue price and mechanism research; it does not prove unit equivalence or a discount. Approved layout, rights, actual condition and exact-unit value remain for G4/commitment review."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R310",
+      "name": "Casa Tropicana",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 600k header/550k body is material to consideration; Block C one-bay sale and Block A two-bay rent are separate packages.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R311",
+      "name": "Encorp Strand two-bedroom",
+      "batch": "B03",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B03_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 1166sf subject and 1111sf PF rent do not establish a price cohort; the 3500 upper rent has different bathrooms/furnishing.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV09",
+      "name": "First Residence",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The retained ordinary-sale evidence has no bounded subject interval; a current fee bill is an operating-cost input, not universally a G0 prerequisite.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV10",
+      "name": "OOAK serviced apartments @ Kiara 163",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: OOAK serviced-residence identity must be kept separate from Arcoris and office parcels in price comparisons.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R213",
+      "name": "South View",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 648sf 1+1 versus two-bedroom labels require plan-sensitive reference selection; no normalized sale cohort is established.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R214",
+      "name": "Sinaran TTDI",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 1128sf sale inventory/bays are not reconciled to the reference cohort.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R215",
+      "name": "DC Residensi",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 904sf DC component/condition needs its own sale reference, separate from larger premium stock.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R216",
+      "name": "Cliveden Plaza Damas 3",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 250k redirected lead and separate 285888 offer remain distinct, dated expressions; neither is silently substituted.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R217",
+      "name": "Prima Duta",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 1614sf PF comparisons improve task matching but block/floor/condition normalisation is still absent.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R218",
+      "name": "Menjalara 18",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 620k/700k conflicting content cannot be collapsed into the favourable number; the clean 700k expression remains the baseline.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R246",
+      "name": "Westside Three",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 749k Bukit Jalil-contaminated advertisement is excluded; it cannot price Westside Three's 1099sf expression.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R312",
+      "name": "KL Gateway Residences",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: KL Gateway Residences versus Premium and conflicting floor descriptions must be reconciled for the 846sf cohort.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R313",
+      "name": "TTDI Ascencia",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 506sf transfers provide context for 550sf, but price/plan differences remain unbounded; page update dates do not refresh the offer.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R314",
+      "name": "DC Residensi larger control",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 1152sf one-versus-two-bedroom records affect the product being valued; 1194/904sf trades cannot simply be pooled.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R316",
+      "name": "Windsor Tower family",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 1230sf one-bay expression lacks a bounded sale reference; duplicated rent advertisements count as one lineage.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R317",
+      "name": "United Point",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The subject's clearing interval remains unresolved; the existing tenancy through March2027 affects income/possession, not an automatic price-research prohibition.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R318",
+      "name": "The Westside One compact",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 969sf 1+1/two-bedroom cohort needs plan-sensitive pricing; the contaminated Westside Three ad is not an anchor.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R319",
+      "name": "Fortune Centra",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 470k index/480k body and full-loan imagery leave consideration interpretation open; smaller studio offers may be different components.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R320",
+      "name": "Surian Residences Mutiara",
+      "batch": "B04",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B04_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Sabah alias contamination must be excluded; the 630k one-room record cannot automatically price the selected 850sf family.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV11",
+      "name": "Angkasa Impian 2",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Cashback and full-loan language leave effective consideration unbounded; near-size rental comparisons are a separate income task.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R220",
+      "name": "Vortex KLCC",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Two-bedroom versus 2+1 and serviced/ordinary accommodation require consistent product and sale comparison.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R221",
+      "name": "TRX Residences",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 474sf TRX expression lacks a supported compact clearing interval; excluded stale rental claims do not become valuation evidence.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R222",
+      "name": "Sentul Point",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 743sf FF ask pair does not establish an ordinary-sale clearing band; project transaction counts cannot supply missing unit attributes.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R223",
+      "name": "Datum Jelatek Residence",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 557sf subject and 550sf rental are potentially comparable with interpretation, but no bounded sale cohort is established.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R224",
+      "name": "GCB Court boundary comparator",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 1100sf two-bedroom-plus-store requires a boundary-location cohort; core Hilir values cannot be borrowed.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R225",
+      "name": "28 Boulevard",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The inherited 380k expression remains distinct from the later 280k R329 lead; neither silently corrects the other.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R323",
+      "name": "TRX Residences two-bedroom",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 850sf 1.95m indexed/redirected offer lacks reconciled current terms; one-room transfer coding adds configuration uncertainty.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R324",
+      "name": "The Saffron family",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The conditional-possession wording needs interpretation without assuming it is an auction; 1087sf consideration remains an asking expression.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R325",
+      "name": "Seri Maya family - higher-price observed lead",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 1378sf header/1360sf body and the older 530k versus current 650k expressions remain separate.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R326",
+      "name": "Ampang Hilir Tara family",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 2691sf one-bay/three-bath sale and roughly2700sf four-bath rental require configuration-sensitive comparison; six mixed trades do not give this value.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R327",
+      "name": "Pandan Mewah Heights family",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Full-loan marketing does not establish net consideration; the inaccessible six-transaction panel cannot be cited as examined evidence.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R328",
+      "name": "Titiwangsa Sentral family - stabilised scenario",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The specific low-floor B1 unit still lacks a bounded sale cohort; tenancy terms belong to possession and income review.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R329",
+      "name": "28 Boulevard lower-price studio lead",
+      "batch": "B05",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B05_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 450sf SOHO versus serviced-residence component must be resolved for the 280k ordinary expression.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV12",
+      "name": "Platinum Lake PV21",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Sale wording and for-rent wording conflict around the 310k expression; effective sale terms remain unresolved.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R226",
+      "name": "Urban 360",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 240k/250k and separate220k/270k conflicts remain distinct quote lineages; choosing the higher number is a stress convention, not verification.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R227",
+      "name": "Saville Melawati",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: No bounded ordinary-sale cohort is retained; 1007sf sale versus980sf rent is primarily an income-comparison issue, not its own G0 veto.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R228",
+      "name": "Amara",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 1051sf subject lacks a clearing interval; 1012sf partial rent versus furnished sale needs income normalisation separately.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R229",
+      "name": "D'Sara Sentral",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 504sf residential versus SOVO component changes the comparable set and eligible users; unresolved identity is material at G0.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R250",
+      "name": "222 Residency",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The 999sf ordinary-sale cohort is unbounded; the314.70 advertiser fee belongs to operating costs, not a universal price prerequisite.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R330",
+      "name": "Wangsa Metroview 1150-sf marketed three-bedroom",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The1152sf500k vendor observation is a meaningful challenge to the350k ask, but area, sale mechanism and condition remain unresolved.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R331",
+      "name": "The Ridge KL East 651-sf partly furnished compact",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Studio versus1+1 affects the651sf reference cohort; rent timing/furnishing mismatch is separately routed to income and execution.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R332",
+      "name": "D'Sara Sentral 805-sf marketed two-bedroom voluntary sale",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The805sf voluntary-sale cohort remains unbounded;809sf rent1800/1700 conflict is an income-range issue rather than a price-blocking rule.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R333",
+      "name": "Urban 360 1001-sf family control",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The350k nett claim needs incentive interpretation; actual tenancy terms affect value but a signed lease is not required for exploratory reference research.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R334",
+      "name": "Spring Ville 728-sf restricted family control",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The selected250k Bumi expression must be compared within its eligible transfer cohort; tenure conflict is material.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R335",
+      "name": "168 Park Selayang 624-sf altered compact control",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Unknown block and altered plan prevent transferring Block C pricing to the624sf subject.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R336",
+      "name": "Selayang Point 1108-sf family control",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Vendor bins do not yet bound the1108sf ordinary-sale cohort;1105sf is not automatically too different to compare.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R337",
+      "name": "Zen Suites Zetapark 677-sf studio/SOHO control",
+      "batch": "B06",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B06_Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 677sf studio/SOHO component and approved use affect reference selection; same-agent sale/rent is one lineage.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "KV13",
+      "name": "Skypod Residence",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The380k expression lacks a bounded compact clearing cohort; current lease authentication is not required merely to research value.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R230",
+      "name": "Koi Prima",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 290k1055sf Block C requires its own ordinary-sale cohort; aligned PF labels are helpful but not effective price evidence.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R232",
+      "name": "Da Men",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The723sf furnished studio needs like-product clearing references rather than a two-bedroom valuation.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R233",
+      "name": "Seri Atria",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 838sf indexed sale versus807sf rent is an income comparison gap; the subject still lacks a bounded ordinary-sale reference.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R234",
+      "name": "Paramount Utropolis",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The452sf compact's mixed-area median does not define value;447/450sf rental differences can be examined without automatic exclusion.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R235",
+      "name": "Trefoil Setia City",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 260k advertised consideration lacks a supported clearing interval; the same-ad1000 rent is retained rather than replaced by the best ask.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R236",
+      "name": "Gravit8 Nordica",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The637sf 1+1 versus two-bedroom plan requires product-sensitive price comparisons; replacement-lease verification is not itself G0.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R249",
+      "name": "Sunway GeoSense",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 807sf1.198m needs a compact premium-sale cohort;5000 is an income scenario between differently configured rental leads.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R338",
+      "name": "Kinrara Mas",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 328k cannot be called discounted to a385k mixed-size median; cashback/free-MOT terms also affect consideration.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R339",
+      "name": "The Wharf Residence",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Freehold header versus leasehold body changes the560sf comparison cohort and buyer rights.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R340",
+      "name": "Univ 360 compact",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 230k header versus290k body and rental wording are material; SOFO/component uncertainty further limits comparable selection.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R341",
+      "name": "Univ 360 family",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The family component/title and FF versus semi-furnished package need reconciliation; no bounded sale interval is retained.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R343",
+      "name": "Suria Residence Bukit Jelutong",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 476k800sf lacks a bounded sale cohort; the old fee profile is an operating proxy, not a price-research veto.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R344",
+      "name": "Seri Pinang Setia Alam",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 290k basic850sf sale lacks a matched clearing interval; seller non-Bumi/freehold assertions remain source claims.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R345",
+      "name": "Impiria Residensi",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 600k and independent3000FF asks support a hypothesis, not clearing value;1065/1066sf rounding need not block comparison.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R346",
+      "name": "Nadayu 801 family",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 405k multi-unit auction wording does not identify an ordinary executable parcel or consideration.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R347",
+      "name": "BBK Condominium",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/B07_Working_Gate_Sheets.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Block-specific lease/freehold descriptions prevent treating allBBK stock as one1605sf cohort.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R348",
+      "name": "Suri Puteri family",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b07-working-02/R348_Suri_Puteri_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The373k/385k nominal-same-size transfers improve context but restriction and package differences prevent pricing the selected Bumi370k expression.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R349",
+      "name": "The Cruise Residence two-bedroom",
+      "batch": "B07",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b07-final/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 1130/1324sf transfers and735k mixed median do not directly price861sf;600kPF and580kFF are distinct dated asks.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R237",
+      "name": "Evo SOHO Suite",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R237.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 454sf SOHO use/component must be identified before selecting the ordinary compact price cohort.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R238",
+      "name": "D'Cerrum",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R238.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 250k full-loan marketing and separate210k/220k rebate-heavy leads cannot establish net ordinary value.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R239",
+      "name": "Dwiputra Residences",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R239.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 950sf ordinary-sale interval remains unbounded; PF-to-FF rent conversion is a separate cost issue.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R240",
+      "name": "Geo Bukit Rimau",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R240.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The selected Geo Bukit Rimau expression lacks a bounded clearing cohort; bare-to-partial conversion does not itself require stopping price research.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R241",
+      "name": "Habitus Denai Alam",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R241.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 685sf Habitus must be separated from451sfSOVO and other components before assigning reference value.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R242",
+      "name": "GAIA Residences",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R242.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 660sf ordinary-sale evidence is distinct from646sf auctions and640sf rental proxies; no supported cross-size adjustment exists.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R247",
+      "name": "The Parque Residences",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R247.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 731sf470k and separate380k leads need tenure/phase reconciliation before defining the cohort.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R248",
+      "name": "Alanis Residence",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-2/cases/R248.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 550sf whole-title identity and original plan must be distinguished from the later450sf compact and excluded two-bedroom ad.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R351",
+      "name": "MKH Boulevard II",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b08-working-01/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 549sf270k February2025 is a useful near-size anchor for550sf, but masked newer prices leave timing and package spread unresolved.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R352",
+      "name": "Ascotte Boulevard",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b08-working-01/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: The older218k860sf full-loan expression lacks reconciled effective terms; mixed818/872/980sf medians cannot supply its value.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R354",
+      "name": "Shaftsbury Putrajaya",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b08-working-01/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 368kFF and older470kPF are distinct expressions;689sf420kJuly2025 provides context but component/bay effects remain unresolved.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R355",
+      "name": "Alanis Residence compact",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b08-working-02/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: Official452sf one-bedroom design improves the450sf identity lead without authenticating a specific ordinary offer or net terms.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R356",
+      "name": "Aman 1 Tropicana Urban Homes",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b08-working-02/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 338k advertised non-Bumi is distinct from330kBumi; exact transfer eligibility determines the relevant cohort.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R357",
+      "name": "Habitus Denai Alam original compact control",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b08-working-02/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 565sf studio/one-bedroom and residential/SOVO component ambiguity changes the buyer and price cohort.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R358",
+      "name": "GAIA Residences larger family control",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b08-working-02/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 750sf ordinary-family value cannot be borrowed from affordable550/646sf auction cohorts; approved2+1 and restrictions remain material.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R359",
+      "name": "Alanis Residence family control",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b08-working-02/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 365k nett/full-loan and300k lelong-worded offers require separate sale-mechanism interpretation.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R360",
+      "name": "Savanna Executive Suites family",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b08-final/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 350k owner offer is distinct from330kBumi and310kauction; those mechanisms cannot define an unrestricted ordinary interval.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    },
+    {
+      "candidate_id": "R361",
+      "name": "Amber Residences compact two-bedroom",
+      "batch": "B08",
+      "baseline_review_commit": "4fbe3e645a8d9760d78879951e251116272fc002",
+      "baseline_workpaper": "klang-valley-2026-10-07/round-3/b08-final/Cases_G0_G9.md",
+      "historical_g0_status": "Unresolved",
+      "new_g0": {
+        "status": "UNRESOLVED",
+        "first": "G0",
+        "prefix": [],
+        "reason": "Replayed with the approved broad-interval and project/product-reference interpretation. The retained case record still does not establish a sufficiently identified, like-purpose price reference for this subject: 657sfPF one-bay value lacks a bounded sale cohort;FF/two-bay rent already favours the income case.",
+        "scope_note": "Missing unit-level floor/bay/condition alone is not the stop; this case's recorded material gap affects cohort identity, comparable purpose/rights, effective price, or leaves no supported product-level clearing reference. No fixed comparable count applied."
+      },
+      "g1_to_g9": "Existing conditional findings unchanged. Cases clearing G0 may proceed to G1 reassessment; no G1-G9 pass or capital decision is inferred.",
+      "source_dates_preserved": true,
+      "financial_inputs_changed": false
+    }
+  ]
+}

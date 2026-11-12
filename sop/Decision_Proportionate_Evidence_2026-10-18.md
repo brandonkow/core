@@ -2,7 +2,7 @@
 
 Effective: 18 October 2026, after the user's approval of the three execution diagnoses: research versus purchase evidence was conflated; unknowns were insufficiently differentiated by decision impact; and G0 was applied with excessive demands for price certainty.
 
-This is a reusable SOP clarification, not a causal Core change, new gate, new G9 decision or numerical parameter revision. The single master, especially section 5.30 and G0-G9, remains authoritative. Read with [sequential funnel reporting](Funnel_Execution_Reporting_2026-10-16.md) and the [execution standard](../execution-release-2026-10-07/Decision_Execution_Standard.md). The latter already permits bounded estimates and justified price intervals. This document corrects implementation and reporting; it does not imply those safeguards were absent.
+This is a reusable SOP clarification, not a causal Core change, new gate, new G9 decision or numerical parameter revision. The single master, especially section 5.30 and G0-G9, remains authoritative. Read with [sequential funnel reporting](Funnel_Execution_Reporting_2026-10-16.md), the [execution standard](../execution-release-2026-10-07/Decision_Execution_Standard.md) and the user's subsequently approved [G0 reference-price application supplement](G0_Reference_Price_Execution_2026-11-12.md). The latter clarifies application of broad project/product price references, separates G0 from undervaluation and routes exact-unit unknowns to their existing gates.
 
 ## 1. Declare the decision being made
 
